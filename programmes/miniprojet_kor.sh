@@ -1,16 +1,18 @@
 DOC=$1
-N=0
+N=1
 
 if [ $# -ne 1 ]
 then
-	echo "Ce script demande un argument"
+	echo "Il faut un fichier en argument !
+Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_관계.txt"
 	exit
 else
 	if [ -f "$DOC" ]
 	then 
 		echo "Le fichier existe bien"
 	else
-		echo "Le fichier existe pas" 
+		echo "Le fichier n'existe pas
+Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_관계.txt" 
 		exit
 	fi
 fi
