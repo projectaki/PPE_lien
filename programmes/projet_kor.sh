@@ -4,7 +4,7 @@ N=1
 if [ $# -ne 1 ]
 then
 	echo "Il faut un fichier en argument !
-Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_관계.txt"
+Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_gwangye.txt"
 	exit
 else
 	if [ -f "$DOC" ]
@@ -12,7 +12,7 @@ else
 		echo "Le fichier existe bien"
 	else
 		echo "Le fichier n'existe pas
-Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_관계.txt" 
+Usage : $0 ~/Desktop/Cours/ppe/PPE_lien/URLs/liens_gwangye.txt" 
 		exit
 	fi
 fi
