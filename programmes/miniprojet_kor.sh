@@ -34,6 +34,8 @@ do
 		<td>"$response"</td>
 		<td>"$CODE"</td>
 	</tr>"
+	curl $URL >../aspirations/aspiration_kor$N.txt
+	lynx -dump $URL >../dumps-text/dump_kor$N.txt
 	  N=$(expr $N + 1)
 
 done < "$DOC"
