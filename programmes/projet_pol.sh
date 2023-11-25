@@ -1,4 +1,4 @@
-DOC=$1
+URL=$1
 N=0
 
 if [ $# -ne 1 ]
@@ -6,7 +6,7 @@ then
 	echo "Ce script demande un argument"
 	exit
 else
-	if [ -f "$DOC" ]
+	if [ -f "$URL" ]
 	then 
 		echo "Le fichier existe bien"
 	else
@@ -23,22 +23,27 @@ echo "<html>
 	<body>"
 
 echo "		<table>
-		<tr><th>Numéro</th><th>URL</th><th>codeHTTP</th><th>encodage</th></tr>"
+		<tr><th>Numéro</th><th>URL</th><th>Code HTTP</th><th>Encodage</th><th>Aspiration</th><Dump</th><th>Nonbre d'occurences</th><th>Contexte</th></tr>"
 while read -r URL;
 do
-	response=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
+	response=$(curl -s -I -L -w "%{http_code}" -o "../aspirations/aspiration_pl$N.html" $URL)
 	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+       lynx -dump $URL >../dumps-text/dump_pl$N.html
+	COMPTE=$(cat ../dumps-text/dump_pl$N.html | egrep -i -o " link(s)? "|wc -w) 
+	cat ../dumps-text/dump_pl$N.html | egrep -2  " link(s)? " > ../contextes/contexte_pl$N.txt
 	echo "<tr>
 		<td>"$N"</td>
 		<td>"$URL"</td>
 		<td>"$response"</td>
 		<td>"$CODE"</td>
-	</tr>"
-	curl $URL >../aspirations/aspiration_pl$N.txt
-	lynx -dump $URL >../dumps-text/dump_pl$N.txt
-	N=$(expr $N + 1)
+		<td><a href="../aspirations/aspiration_pl$N.html">aspiration</a></td>
+		<td><a href="../dumps-text/dump_pl$N.html">dump</a></td>
+		<td>"$COMPTE"</td>
+		<td><a href="../contextes/contexte_pl$N.txt">contexte</a></td>
+	</tr>"	
+	  N=$(expr $N + 1)
 
-done < "$DOC"
+done < "$URL"
 echo "		</table>
 	</body>
 </html>" 
