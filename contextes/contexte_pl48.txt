@@ -1,0 +1,16 @@
+   . wyjasnienie znaczenia
+     * Sl/ownik czasami podaje jeszcze zwiazki frazeologiczne, w których
+       wystepuje dane sl/owo.
+--
+   Wyjasnia watpliwosci dotyczace poprawnego uzycia sl/ów. Jak dane sl/owo
+   nalezy odmienic, jak wymawiac, jak uzyc w danym zwiazku wyrazów.
+   Przykl/ad:
+--
+
+   Zawiera zwiazki frazeologiczne zwiazane z danym wyrazem. Zarówno
+   zwiazki stal/e, jak i l/aczliwe (luzniejsze). Np.
+     * co znaczy "brac kogos w obroty"?
+--
+       miejsca wzial/ Piotrka w obroty.
+     * Pod hasl/em kura odnajdziemy zwiazki z tym wl/asnie sl/owem.
+          + Kura znoszaca zl/ote jajka - zródl/o wielkich zysków.

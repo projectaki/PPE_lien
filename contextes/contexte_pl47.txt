@@ -1,0 +1,54 @@
+   [1]ZWIAZEK JEST co to jest
+
+   Definicja is-a relationship co to znaczy. Sl/ownik Zwiazek zawierania
+   sie zakresów znaczeniowych.
+   zwiazek co to jest
+
+--
+
+Definicja zwiazek "jest"
+
+--
+
+   Co to znaczy ZWIAZEK "JEST": Zwiazek zawierania sie zakresów
+   znaczeniowych pojec (zbiorów obiektów), na przykl/ad zwiazek miedzy
+   definicja STUDENT i definicja OSOBA: STUDENT "jest" OSOBA. Zwiazek
+   "jest" jest odmiennie okreslany jako generalizacja/specjalizacja. Jest
+   on takze praktycznie tozsamy ze zwiazkami dziedziczenia wyznaczajacymi
+   hierarchie klas.
+--
+
+   Czym jest Jest Zwiazek znaczenie w [8]Sl/ownik definicji Z .
+
+--
+          takich obszarach, które nie sa uzywane poprzez obecnie
+          przechowywane dane) i w dalszym ciagu zwiazek "jest" co to jest.
+
+--
+          widoczna i moze byc uzyta dana nazwa; zobacz: regul/y zakresu.
+          Zakres moze miec charakter zwiazek "jest" definicja.
+
+--
+          obiekty ulotne, jak i trwal/e. Termin wystepuje w standardzie
+          ODMG (wiazanie do jezyka Java zwiazek "jest" co znaczy.
+
+--
+          synchroniczne jest równowazne (zdalnemu) wol/aniu procedury albo
+          sposoby zwiazek "jest" sl/ownik.
+
+--
+
+Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
+
+   Co to jest Jest Zwiazek wyjasnienie.
+
+   Jak dzial/a zwiazek "jest" definicja IS-A RELATIONSHIP tl/umaczenie.
+
+--
+
+   Co to znaczy zwiazek definicja.
+
+--
+
+   Tl/umaczenie zwiazek co to znaczy.
+

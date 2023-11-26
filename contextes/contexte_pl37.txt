@@ -1,0 +1,39 @@
+
+                                         Asocjacja p. zwiazek statystyczny
+
+--
+        ryzyka oraz czynniki zapobiegajace i lecznicze. Jest to okreslenie
+                 mocne i nie powinno byc stosowane przy sl/abych zwiazkach
+                                                           statystycznych.
+--
+
+                                          Miara zwiazku p. miara asocjacji
+
+--
+        badany efekt (outcome). Okreslenie to bywa tez stosowane do samego
+      efektu: choroby, urazu lub innego zdarzenia mogacego miec zwiazek ze
+   zdrowiem. W badaniach epidemiologicznych przypadek musi byc odpowiednio
+--
+
+          Miara zwiazku stosowana w badaniach analitycznych, szczególnie w
+     badaniach kliniczno-kontrolnych. Iloraz szans narazenia ze wzgledu na
+--
+      sie od siebie populacji lub subpopulacji.  Prowadzi do odchylenia od
+                                     rzeczywistosci miar zwiazku (RR, OR).
+
+--
+         wzgledem oceny (pomiaru) narazenia lub stanu zdrowia. W badaniach
+        analitycznych zmienia wielkosc miar zwiazku (RR, OR). Jezeli w obu
+     porównywanych grupach odsetek bl/ednych zaklasyfikowani jest ten sam,
+--
+
+          Graficzne przedstawienie zwiazku dwu zmiennych w postaci punktów
+   odpowiadajacych parom wartosci dwu zmiennych ciagl/ych reprezentowanych
+--
+
+       Cecha wyniku analizy statystycznej okreslajaca sil/e zwiazku miedzy
+       badanymi zmiennymi. Wynik uznajemy za znamienny (odrzucamy hipoteze
+--
+
+                                        Zwiazek statystyczny (association)
+
