@@ -1,17 +1,18 @@
+#!/usr/bin/bash
 urls=$1
 
 if [ $# -ne 1 ]
 then
 	echo "Il faut un fichier en argument !
-Usage : $0 ../liens_gwangye.txt"
+Usage : $0 \"../URLs/liens_gwangye.txt\""
 	exit
 else
 	if [ -f "${urls}" ]
 	then 
-		echo "Le fichier existe bien."
+		echo " "
 	else
 		echo "Le fichier n'existe pas !
-Usage : $0 ".."/liens_gwangye.txt" 
+Usage : $0 \"../URLs/liens_gwangye.txt\""
 		exit
 	fi
 fi
@@ -36,11 +37,11 @@ echo "  <table>
 N=0
 while read -r urls;
 do
-	response=$(curl -s -I -L -w "%{http_code}" -o "./aspirations/aspiration_kor${N}.html" $urls)
+	response=$(curl -s -I -L -w "%{http_code}" -o "../aspirations/aspiration_kor${N}.html" $urls)
 	code=$(curl -s -I -L -w "%{content_type}" -o /dev/null $urls | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
 	lynx -dump $urls > "../dumps-text/dump_kor${N}.html"
-	compte=$(cat "./dumps-text/dump_kor${N}.html" | egrep -i -o "(관계|링크|끈)"  | wc -w)
-    cat "./dumps-text/dump_kor${N}.html" | egrep -2 "(관계|링크|끈)" > "./contexte/contexte_kor${N}.txt"
+	compte=$(cat "../dumps-text/dump_kor${N}.html" | egrep -i -o "(관계|링크|끈)"  | wc -w)
+    cat "../dumps-text/dump_kor${N}.html" | egrep -2 "(관계|링크|끈)" > "../contextes/contexte_kor${N}.txt"
 	echo "<tr>
 		<td>${N}</td>
 		<td>${urls}</td>
@@ -57,3 +58,5 @@ done < "$urls"
 echo "		</table>
 	</body>
 </html>" 
+
+# bash projet_kor.sh ../URLs/liens_gwangye.txt > "../tableaux/tableau_kor.html"
