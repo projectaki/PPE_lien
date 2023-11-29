@@ -26,9 +26,13 @@ while read -r URL;
 do
 	response=$(curl -s -I -L -w "%{http_code}" -o "../aspirations/aspiration_ang$N.html" $URL)
 	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
-       lynx -dump $URL >../dumps-text/dump_ang$N.html
 	COMPTE=$(cat ../dumps-text/dump_ang$N.html | egrep -i -o " link(s)? "|wc -w) 
 	cat ../dumps-text/dump_ang$N.html | egrep -2  " link(s)? " > ../contextes/contexte_ang$N.txt
+	if [ $response == "200" ]
+	then 
+		lynx -dump -nolist ../aspirations/aspiration_ang$N.html >../dumps-text/dump_ang$N.html
+
+	fi
 	echo "<tr>
 		<td>"$N"</td>
 		<td>"$URL"</td>
