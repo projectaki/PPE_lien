@@ -1,0 +1,38 @@
+   In this topic, we continue our discussion of features found under the
+   Misc command on the Tools Menu.
+
+   The Internet Links menu command displays the Internet links for the
+   person that is logged on to AIM. By clicking a link, the default Web
+   browser, Internet Explorer or Firefox for example, will connect to the
+   link via the Internet.
+
+   In the steps that follow, we show you how to add and remove folders and
+   links. With a little practice, you will be able to use the AIM Internet
+   Links to quickly connect to your business related Internet links.
+    1. On the Tools menu, point to Misc, and then click Internet Links.
+
+    2. In the unlabeled box, you can type a Web address (URL) and then
+       click the Go To button to open the URL in your default Web browser.
+    3. In the list of Internet links, click or to expand and collapse
+       folders containing Internet links.
+    4. Double-click a link to open the link in your Web browser.
+       Alternatively, you can single-click the link and the link will be
+       displayed in the unlabeled text box so you can view it or click the
+       Go To button.
+
+    5. To modify the links and folders shown in the list, right-click in
+       the list and choose from the available options.
+         1. Update Link – save changes to the link properties entered in
+            the unlabeled text box
+         2. Add Folder – add a sub-folder to an existing folder by
+            entering the folder name in the Description box, in Add New
+            Item (leave URL box empty)
+         3. Add Link – add a link to a folder by entering
+              1. Description – link name or description
+              2. URL – Web address
+         4. Delete Item – delete the selected folder or link
+
+   Concept Link Icon See Also
+
+
+   © 2023 Vertafore

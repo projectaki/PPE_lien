@@ -1,0 +1,168 @@
+
+   August 16, 2021 / #HTML
+
+What is a Hyperlink? HTML Links Explained with Examples
+
+   Hillary Nyakundi
+
+   Hillary Nyakundi
+   What is a Hyperlink? HTML Links Explained with Examples
+
+   Let's begin with a quick question: How did you land on this article and
+   this site today?
+--
+   how powerful this element is – it will get you to any part of the
+   Internet just by clicking on a link.
+
+   So, what are links and hyperlinks in HTML?
+
+What are Links and Hyperlinks in HTML?
+
+   A link is a chain that connects pages both within a website and to
+   other websites. Without links, we wouldn't have any websites.
+
+   For example, let's have a look at this URL,
+   https://www.freecodecamp.org/. When you type it in the address bar it
+   will take you to the official freeCodeCamp site.
+
+   In simpler terms we can say that links are just the web addresses of
+   web page that allow you to connect with different servers.
+
+   Perhaps you are wondering, then, what a Hyperlink might be? Well, they
+   are what allows us to link documents to other documents or resources
+   via refrences called anchor tags. They are a fundamental concept behind
+   the World Wide Web which makes navigation between web pages easier via
+   links.
+--
+   For example, if you were to click HERE, you will land in my profile
+   with a list of my other articles. That's a hyperlink.
+
+How to Create Links in HTML
+
+How to use <a> links
+
+   You can create a basic link by wrapping the text (or any other related
+   content) in the <a></a> element and using the href attribute which
+   contains the address.
+
+--
+
+How to style links
+
+   There are usually links inserted in the .html file that link the main
+   to the styling and funtionality file. And they're typically named with
+   the .css and .js file extensions.
+
+   Here's how to link to a CSS file:
+<!DOCTYPE html>
+<html>
+<head>
+--
+</body>
+</html>
+
+   And here's how to link to a JS file. You can either place what you want
+   linked in the head or body tag.
+<!DOCTYPE html>
+<html>
+--
+</body>
+</html>
+
+How to Link Within a Site
+
+Links to different page within a Site
+
+   You use this type of link to direct a user to different pages on the
+   same site.
+
+   Take a case where your site has 5 pages. You'll want a user to be able
+   to access all the pages from one point, like the navbar.
+
+   First you will have to create all the pages and then link them. In this
+   case we will do it like this:
+<nav>
+    <ul>
+--
+    </ul>
+</nav>
+
+   The above example will link to different parts of the site – the 'Home'
+   page, 'Services', 'Pricing', and 'About', in that order. Writing only
+   the name of the file is enough because all the work is shared in the
+   same work folder.
+
+How to Link to a specific section of a site
+
+   Let's say that, somewhere on your site, you mentioned a particular
+   topic or page. And you would like your readers or visitors to jump
+--
+   page. Maybe it is a paragraph – if so, this is how it would look:
+<p id="detailed-info"> Read more on Upcoming Events </p>
+
+   After this in your link add the id in the href:
+<a href="#detailed-info"> Read more about upcoming events </a>
+
+   This code will take them right to the Upcoming Events section.
+
+Other Types of Links in HTML
+
+How to Link to a Downloadable file
+
+   When you want to link to a resource that a user needs to download
+   rather than open in the browser, you can use the download attribute.
+   This provides a default save filename.
+
+--
+
+How to Add E-mail Links
+
+   Email Links allow us to create hyperlinks to an email address. You can
+   create these links using the HTML <a></a> tag – but in this case,
+   instead of passing a URL, we pass the recipient’s email address.
+
+   You use the mailto attribute to specify the email address in your
+--
+  Send mail with cc, bcc, subject and body
+</a>
+
+HTML Link Attributes
+
+   HTML links have various attributes that you can use to provide more
+   speicifc information. Here are some of the most commonly used.
+    1. href attribute
+       The href attribute defines the target URL address for an HTML link.
+       It makes the marked word or phrase clickable. The href attribute
+       creates a hyperlink to another web page, and HTML links would not
+       work as intended without it.
+    2. target attribute
+       The target attribute defines where the HTML link will be opened.
+       Ever visited a website and when you click on a link it
+       automatically opens in a new tab? Well that's the work of this
+       attribute.
+
+   Here are all the possible options you can use with the target
+   attribute:
+     * -blank => Opens the link in a new tab. Mostly used to avoid losing
+       a site's visitors. By default, when a user clicks a link it opens
+       in the same tab – but this changes that.
+
+<a href= "https://www.freecodecamp.org/" target="_blank"> freeCodeCamp</a>
+--
+<a href="https://www.freecodecamp.org" title="Link to free learning Resources">L
+earn to code</a>
+
+Quick HTML Link Tips and Recap
+
+   In this article, we learned all about links and hyperlinks in HTML.
+   Here are some final tips to help you work with links.
+
+   Firt, when you're using an image as a link, it's always a good idea to
+--
+   The Web is really just a library of hyperlinked documents where the
+   anchor tags act as bridges between related documents.
+
+   We have seen how to use links and how to create them, and why they are
+   important in web development.
+
+   It's time to go practise and perfect your new skill.

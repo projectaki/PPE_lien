@@ -1,0 +1,101 @@
+
+   ____________________
+
+What is the difference between a physical link and a symbolic link?
+
+   Julioarenas
+
+--
+
+   Share
+
+   If you’re here is because you want to understand how links work, but
+   before we understand it we must know how certain things work because it
+   is an environment variable and how it differs from the other type of
+   variables, also how the PAHT variable works, which has to do with the
+   links in a script and that means the ASCII text within the text and how
+   we make bash read it, well, actually there are many things.
+
+   ENVIRONMENT VARIABLE:
+--
+   also environment variables, and because of this PAHT is the most
+   important environment variable, if we change a small portion of the
+   command path it stops working, PAHT saves the paths of “pwd , ls, mkdir
+   “and many more, in other words, PHAT saves the LINKS of these commands
+   inside an executable file.
+
+   RELATIVE ROUTE:
+--
+   A script in LINUX is a file that contains different commands that are
+   interpreted by the shell to execute them by means of its path or rather
+   its LINK. The shell executes them as if it had written them in PROMPT.
+   When we write a SCRIPT in a file we do it through a LINK called SHEBANG
+   which gives the BASH path to read the script.
+
+   ASCII:
+--
+   that is, it replaces letters with numbers which are interpreted by
+   machines in a bit manner.
+
+   I mention all this as a basis for understanding the links and their
+   logical relationship of its operation, so let’s talk about links.
+
+TO WHAT YOU HAVE COME TO!
+--
+   PAHT others to communicate or read directly as SHEBANG that places BASH
+   to read the file.
+
+   In Linux a link can be physical or symbolic:
+
+   PHYSICAL LINK
+   Physical links can only be created for files and not for directories,
+   the PHYSICAL LINK is the name given to a file in another location which
+   contains the path or information that is put to it.
+   example:
+
+   create a link from the current location;
+
+   PROMPT ~$: home/ holbertonschool-low_level_programming
+
+   WE CREATE A FILE ~$: emacs bettyCool
+
+   WE CREATE THE LINK ~$: ln bettyCool holberton
+
+   We put “ls” to see the content~$: ls; holberton
+
+   There are two files, this means that if I enter holberton it will show
+   me what has bettyCool, since both have the same content. And a
+   characteristic of the PHYSICAL LINKS is that if you delete one of the
+   two the other still exists without any problem.
+
+   SYMBOLIC LINKS
+
+   The symbolic links have the same function as a physical but the
+   difference is that it does not contain the data of the file, instead it
+   points to that folder or to the registry where the data is located. In
+   other words it is like a shortcut in Windows that when I click it takes
+   me to where the content I need, it would be like a kind of hyperlink of
+   a web page. If the destination file is deleted the symbolic link will
+   be unusable, because it will not be able to refer to the file it was
+   pointing to, since it is not there.
+
+   Symbolic links have the same syntax as the physical one but with a
+   small only that we add the option -s to indicate that we want to make a
+   symbolic link.
+   Example:
+--
+   PROMPT ~$ : ls/home/holbertonschool-low_level_programming/
+
+   we have files ~$: bettyCool
+   We create the symbolic link from the current path and we create a new
+   home file called ENIAC that points to the bettyCool path.
+
+   Now we see that after creating the symbolic link we go to the home
+   folder and with “ls -l” we will see that ENIAC points to the ROUTE of
+   bettyCool, and if we enter ENIAC it shows me the content of bettyCool,
+   this would be the same and practically a C pointer.
+
+When you open files or directories very repeatedly, links are your best tool
+to shorten time and eliminate headaches,
+use them as you will look very professional in doing so.
+Thank you and I hope this information helps you with Linux.

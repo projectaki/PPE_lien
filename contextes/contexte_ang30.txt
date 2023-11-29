@@ -1,0 +1,65 @@
+
+Link
+
+   A link (short for hyperlink) is an HTML object that allows you to jump
+   to a new location when you click or tap it. Links are found on almost
+   every webpage and provide a simple means of navigating between pages on
+   the web.
+
+   Links can be attached to text, images, or other HTML elements. Most
+   text links are blue since that is the standard color web browsers use
+   to display links. However, links can be any color since the style of
+   the link text may be customized using HTML or CSS styles. In the early
+   days of the web, links were underlined by default. Today, underlining
+   links is less common.
+
+   When a link is applied to an image, the link tag encapsulates, or
+   surrounds the image tag. Since the image tag is nested inside the link
+   tag, the image itself becomes a link. This method can be used to apply
+   links to other elements such as <div> and <span> objects. However,
+   since CSS can be used to stylize a link, an <a> tag with a CSS class or
+   ID attribute is often used in place of a <div> or <span> tag.
+
+--
+
+Relative and Absolute Links
+
+   The first link above is a "relative link" because it does not include
+   the domain name. Instead, the link is relative to the current website.
+   Any internal link on TechTerms.com, for example, does not need
+   "https://techterms.com/" in the source. Rather, a relative link like
+   "/definition/computer" is all that is required. Since the link starts
+   with a forward slash, the path begins with the root directory. If a
+   relative link does not start with a forward slash, the path is relative
+   to the current URL.
+
+   The second link above is an absolute link because it includes the
+   domain name. Absolute links are required for external links, which
+   direct you to another website. They may begin with "http" or "https."
+   Absolute links may also begin with two forward slashes ("//"). This is
+   interpreted as "http://" for pages served via HTTP and "https://" for
+   pages served via HTTPS.
+
+--
+
+Link Images
+
+   A paragraph with two text links A paragraph with two text links An
+   image link and a green text link An image link and a green text link
+
+The Tech Terms Computer Dictionary
+
+   The definition of Link on this page is an original definition written
+   by the TechTerms.com team. If you would like to reference this page or
+   cite this definition, please use the green citation links above.
+
+   The goal of TechTerms.com is to explain computer terminology in a way
+   that is easy to understand. We strive for simplicity and accuracy with
+--
+   Subscribe
+
+   You can unsubscribe or change your frequency setting at any time using
+   the links available in each email.
+   Questions? Please contact us.
+
+Thank You

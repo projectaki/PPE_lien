@@ -1,0 +1,7 @@
+   A stroke that connects the top and bottom bowls of lowercase
+   double-story g’s.
+
+   Definition: In typeface anatomy, the link is that small, usually curved
+   stroke that connects the bowl and loop of a double-storey g.
+
+   Also Known As: neck, terminal

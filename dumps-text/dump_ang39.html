@@ -1,44 +1,311 @@
-   HTTP/2 103 link: /cdn.shopify.com>; rel=preconnect, /cdn.shopify.com>;
-   crossorigin; rel=preconnect HTTP/2 200 date: Wed, 29 Nov 2023 08:34:50
-   GMT content-type: text/html; charset=utf-8 x-sorting-hat-podid: 86
-   x-sorting-hat-shopid: 18986963 x-storefront-renderer-rendered: 1 etag:
-   W/"cacheable:17f51d01025ef777ccd1b7bbee2736ff" link: /cdn.shopify.com>;
-   rel="preconnect", /cdn.shopify.com>; rel="preconnect"; crossorigin
-   set-cookie: secure_customer_sig=; path=/; expires=Fri, 29 Nov 2024
-   08:34:50 GMT; secure; HttpOnly; SameSite=Lax set-cookie:
-   localization=US; path=/; expires=Fri, 29 Nov 2024 08:34:50 GMT
-   set-cookie: cart_currency=USD; path=/; expires=Wed, 13 Dec 2023
-   08:34:50 GMT set-cookie:
-   _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22
-   %3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchan
-   t_geo%22%3A%22US%22%2C%22sale_of_data_region%22%3Afalse%7D;
-   domain=typedecon.com; path=/; expires=Thu, 30 Nov 2023 08:34:50 GMT;
-   SameSite=Lax set-cookie:
-   _shopify_y=483f5895-a278-4344-b1ad-a9a3d6df0ad3; Expires=Thu, 28-Nov-24
-   08:34:50 GMT; Domain=typedecon.com; Path=/; SameSite=Lax set-cookie:
-   _shopify_s=81774c72-4c93-4977-986a-83e441eb6dbf; Expires=Wed, 29-Nov-23
-   09:04:50 GMT; Domain=typedecon.com; Path=/; SameSite=Lax set-cookie:
-   _orig_referrer=; Expires=Wed, 13-Dec-23 08:34:50 GMT;
-   Domain=typedecon.com; Path=/; HttpOnly; SameSite=Lax set-cookie:
-   _landing_page=%2Fblogs%2Ftype-glossary%2Flink; Expires=Wed, 13-Dec-23
-   08:34:50 GMT; Domain=typedecon.com; Path=/; HttpOnly; SameSite=Lax
-   x-cache: hit, server x-frame-options: DENY content-security-policy:
-   block-all-mixed-content; frame-ancestors 'none';
-   upgrade-insecure-requests; strict-transport-security: max-age=7889238
-   x-shopid: 18986963 x-shardid: 86 vary: Accept content-language: en
-   powered-by: Shopify server-timing: processing;dur=14, db;dur=4,
-   asn;desc="2200", edge;desc="LHR", country;desc="FR",
-   theme;desc="181188232", pageType;desc="article", servedBy;desc="qmjc",
-   requestID;desc="830a98ad-92fa-4d4c-8e3e-c209a0e5b07b" x-shopify-stage:
-   production x-dc: gcp-europe-west2,gcp-europe-west1,gcp-europe-west1
-   x-request-id: 830a98ad-92fa-4d4c-8e3e-c209a0e5b07b x-download-options:
-   noopen x-xss-protection: 1; mode=block
-   x-permitted-cross-domain-policies: none x-content-type-options: nosniff
-   cf-cache-status: DYNAMIC report-to:
-   {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fP4o
-   Zuv%2Bdpm%2Bp%2Br%2FzMesQn2TJ7zWMI2xQ1EyKFJ4atcaOJfOgVhvoNQb2maPqN0agxH
-   sCmDsQj3nE2YQjSDZ8yXj%2BRURESjyKuHOiXfAVLDSAYjCt0sPA6ftJ58LtaQ%3D"}],"g
-   roup":"cf-nel","max_age":604800} nel:
-   {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800} server:
-   cloudflare cf-ray: 82d98388e80863dd-LHR alt-svc: h3=":443"; ma=86400
-   server-timing: cfRequestDuration;dur=42.999983, earlyhints
+   #freeCodeCamp.org
+
+   Search ____________________ (BUTTON) Submit your search query
+   freeCodeCamp.org
+   Forum Donate
+
+   August 16, 2021 / #HTML
+
+What is a Hyperlink? HTML Links Explained with Examples
+
+   Hillary Nyakundi
+
+   Hillary Nyakundi
+   What is a Hyperlink? HTML Links Explained with Examples
+
+   Let's begin with a quick question: How did you land on this article and
+   this site today?
+
+   Well, quite literally, by clicking or tapping on a link, right? That's
+   how powerful this element is – it will get you to any part of the
+   Internet just by clicking on a link.
+
+   So, what are links and hyperlinks in HTML?
+
+What are Links and Hyperlinks in HTML?
+
+   A link is a chain that connects pages both within a website and to
+   other websites. Without links, we wouldn't have any websites.
+
+   For example, let's have a look at this URL,
+   https://www.freecodecamp.org/. When you type it in the address bar it
+   will take you to the official freeCodeCamp site.
+
+   In simpler terms we can say that links are just the web addresses of
+   web page that allow you to connect with different servers.
+
+   Perhaps you are wondering, then, what a Hyperlink might be? Well, they
+   are what allows us to link documents to other documents or resources
+   via refrences called anchor tags. They are a fundamental concept behind
+   the World Wide Web which makes navigation between web pages easier via
+   links.
+
+   Hyperlinks can be presented in different forms, like an image, icon,
+   text, or any type of visible element that, when clicked, redirects you
+   to a specified url.
+
+   For example, if you were to click HERE, you will land in my profile
+   with a list of my other articles. That's a hyperlink.
+
+How to Create Links in HTML
+
+How to use <a> links
+
+   You can create a basic link by wrapping the text (or any other related
+   content) in the <a></a> element and using the href attribute which
+   contains the address.
+
+   Here's an example in action:
+<a href="https://www.freecodecamp.org">Visit: Freecode Camp!</a>
+
+How to style links
+
+   There are usually links inserted in the .html file that link the main
+   to the styling and funtionality file. And they're typically named with
+   the .css and .js file extensions.
+
+   Here's how to link to a CSS file:
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+   And here's how to link to a JS file. You can either place what you want
+   linked in the head or body tag.
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="myScript.js"></script>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+How to Link Within a Site
+
+Links to different page within a Site
+
+   You use this type of link to direct a user to different pages on the
+   same site.
+
+   Take a case where your site has 5 pages. You'll want a user to be able
+   to access all the pages from one point, like the navbar.
+
+   First you will have to create all the pages and then link them. In this
+   case we will do it like this:
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+   The above example will link to different parts of the site – the 'Home'
+   page, 'Services', 'Pricing', and 'About', in that order. Writing only
+   the name of the file is enough because all the work is shared in the
+   same work folder.
+
+How to Link to a specific section of a site
+
+   Let's say that, somewhere on your site, you mentioned a particular
+   topic or page. And you would like your readers or visitors to jump
+   straight to that section with a click.
+
+   First you will have to add the id attribute to that section of the
+   page. Maybe it is a paragraph – if so, this is how it would look:
+<p id="detailed-info"> Read more on Upcoming Events </p>
+
+   After this in your link add the id in the href:
+<a href="#detailed-info"> Read more about upcoming events </a>
+
+   This code will take them right to the Upcoming Events section.
+
+Other Types of Links in HTML
+
+How to Link to a Downloadable file
+
+   When you want to link to a resource that a user needs to download
+   rather than open in the browser, you can use the download attribute.
+   This provides a default save filename.
+
+   The download attribute is great for PDFs, image files, video and audio
+   clips, and other media content that you would like users to save on
+   their computer or mobile device.
+
+   Here's an example with a download link:
+<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=
+en-US"
+   download="firefox-latest-64bit-installer.exe">
+  Download Latest Firefox for Windows (64-bit) (English, US)
+</a>
+
+How to Add E-mail Links
+
+   Email Links allow us to create hyperlinks to an email address. You can
+   create these links using the HTML <a></a> tag – but in this case,
+   instead of passing a URL, we pass the recipient’s email address.
+
+   You use the mailto attribute to specify the email address in your
+   anchor tag.
+
+   for example:
+<a href="mailto:hillarynyk@gmail.com">Send email to Me</a>
+
+   In addition to the email address, you can provide other information. In
+   fact, any standard mail header fields can be added to the mailto URL
+   you provide. The most commonly used are "subject", "cc", and "body".
+
+   Here's an example that includes a cc, bcc, subject, and body:
+<a href="mailto:hillarynyk@gmail.com?cc=larymak4@gmail.com&bcc=larymak8@gmail.co
+m&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+  Send mail with cc, bcc, subject and body
+</a>
+
+HTML Link Attributes
+
+   HTML links have various attributes that you can use to provide more
+   speicifc information. Here are some of the most commonly used.
+    1. href attribute
+       The href attribute defines the target URL address for an HTML link.
+       It makes the marked word or phrase clickable. The href attribute
+       creates a hyperlink to another web page, and HTML links would not
+       work as intended without it.
+    2. target attribute
+       The target attribute defines where the HTML link will be opened.
+       Ever visited a website and when you click on a link it
+       automatically opens in a new tab? Well that's the work of this
+       attribute.
+
+   Here are all the possible options you can use with the target
+   attribute:
+     * -blank => Opens the link in a new tab. Mostly used to avoid losing
+       a site's visitors. By default, when a user clicks a link it opens
+       in the same tab – but this changes that.
+
+<a href= "https://www.freecodecamp.org/" target="_blank"> freeCodeCamp</a>
+
+     * _self => Loads the URL in the same window or the tab where it was
+       clicked. This is usually the default and does not need to be
+       specified.
+
+<a href="https://www.freecodecamp.org" target="_self">freeCodeCamp</a>
+
+     * _parent => Loads the URL in the parent frame. It’s only used with
+       frames.
+
+<a href="https://www.freecodecamp.org" target="_parent">freeCodeCamp</a>
+
+     * _top => Loads the linked document in the full body of the window.
+
+<a href="https://www.freecodecamp.org" target="_top">freeCodeCamp</a>
+
+    3. title attribute
+       The title attribute outlines extra information about the link’s
+       purpose. If a user hovers their mouse over the link, a tooltip will
+       appear which describes the objective, title, or any other
+       information about the link:
+
+<a href="https://www.freecodecamp.org" title="Link to free learning Resources">L
+earn to code</a>
+
+Quick HTML Link Tips and Recap
+
+   In this article, we learned all about links and hyperlinks in HTML.
+   Here are some final tips to help you work with links.
+
+   Firt, when you're using an image as a link, it's always a good idea to
+   include the alt tag with the text. This provides alternative text
+   that's displayed in case the picture doesn't load.
+
+   Second, you should practise specifying the language of the document
+   which the anchor is linked to using the hreflang attribute.
+<a href="https://www.freecodecamp.org" hreflang="en">Freecode Camp</a>
+
+   The Web is really just a library of hyperlinked documents where the
+   anchor tags act as bridges between related documents.
+
+   We have seen how to use links and how to create them, and why they are
+   important in web development.
+
+   It's time to go practise and perfect your new skill.
+
+   Enjoy Coding ❤
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+   ADVERTISEMENT
+   [INS: :INS]
+     __________________________________________________________________
+
+   Hillary Nyakundi
+
+   Hillary Nyakundi
+
+   Technical Writer ✍️ & Open-Source Enthusiast ❤ || Empowering Developers
+   to Learn & Grow || Committed to Making a Meaningful Contribution to the
+   Tech Community and Beyond.
+     __________________________________________________________________
+
+   If you read this far, thank the author to show them you care. (BUTTON)
+   Say Thanks
+
+   Learn to code for free. freeCodeCamp's open source curriculum has
+   helped more than 40,000 people get jobs as developers. Get started
+   ADVERTISEMENT
+   [INS: :INS]
+
+   freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity
+   organization (United States Federal Tax Identification Number:
+   82-0779546)
+
+   Our mission: to help people learn to code for free. We accomplish this
+   by creating thousands of videos, articles, and interactive coding
+   lessons - all freely available to the public.
+
+   Donations to freeCodeCamp go toward our education initiatives, and help
+   pay for servers, services, and staff.
+
+   You can make a tax-deductible donation here.
+   Trending Guides
+   JS isEmpty Equivalent Submit a Form with JS Add to List in Python Grep
+   Command in Linux String to Int in Java Add to Dict in Python Java For
+   Loop Example Matplotlib Figure Size Database Normalization Nested Lists
+   in Python
+   Coalesce SQL Python join() JS POST Request JS Type Checking Read Python
+   File SOLID Principles Sort a List in Java For Loops in Python
+   JavaScript 2D Array SQL CONVERT Function
+   Rename Column in Pandas Delete a File in Python K-Nearest Neighbors
+   Algo iferror Function in Excel Remove From String Python
+   Create a File in Terminal Clear Formatting in Excel Accounting Num
+   Format Excel Check if File Exists Python Iterate Over Dict in Python
+   Our Charity
+   About Alumni Network Open Source Shop Support Sponsors Academic Honesty
+   Code of Conduct Privacy Policy Terms of Service Copyright Policy
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-5D6RKKP

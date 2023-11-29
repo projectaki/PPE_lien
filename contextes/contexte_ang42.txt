@@ -1,0 +1,112 @@
+
+   NETGEAR Support
+
+What are link aggregation and LACP and how can I use them in my network?
+
+   Was this article helpful?   Yes     No | 11 people found this helpful
+   in last 30 days
+
+What is link aggregation?
+
+   Link aggregation allows you to combine multiple Ethernet links into a
+   single logical link between two networked devices.
+
+   Link aggregation is sometimes called by other names:
+     * Ethernet bonding
+     * Ethernet teaming
+     * Link bonding
+     * Link bundling
+     * Link teaming
+     * Network interface controller (NIC) bonding
+     * NIC teaming
+     * Port aggregation
+--
+   another switch, a server, a network attached storage (NAS) device, or a
+   multi-port access point.
+
+   Network devices and management functions treat the link aggregation
+   group (LAG) of multiple Ethernet connections as a single link. For
+   example, you can include a LAG in a virtual local area network (VLAN).
+   You can also configure more than one LAG on the same switch, or add
+   more than two Ethernet links to the same LAG (the maximum number of
+   links per LAG depends on your device).
+
+   Some network devices support Link Aggregation Control Protocol (LACP),
+   which helps to prevent errors in the link aggregation setup process.
+
+   Unmanaged switches do not support link aggregation.
+
+
+What are the benefits of link aggregation?
+
+   Link aggregation offers the following benefits:
+     * Increased reliability and availability. If one of the physical
+       links in the LAG goes down, traffic is dynamically and
+       transparently reassigned to one of the other physical links.
+     * Better use of physical resources. Traffic can be load-balanced
+       across the physical links.
+     * Increased bandwidth. The aggregated physical links deliver higher
+       bandwidth than each individual link.
+     * Cost effectiveness. A physical network upgrade can be expensive,
+       especially if it requires new cable runs. Link aggregation
+       increases bandwidth without requiring new equipment.
+
+
+What are the different types of LAGs?
+
+   The two primary types of LAGs are static (also known as manual) and
+   dynamic. Dynamic LAGs use Link Aggregation Control Protocol (LACP) to
+   negotiate settings between the two connected devices.
+
+   Some devices support static LAGs, but do not support dynamic LAGs with
+--
+   supports LACP.
+
+   Linux-based devices, such as NETGEAR ReadyNAS storage devices, often
+   offer several additional types of link aggregation that provide
+   increased fault tolerance or load balancing instead of increased
+   bandwidth.
+
+
+What is Link Aggregation Control Protocol (LACP)?
+
+   Link Aggregation Control Protocol is an IEEE standard defined in IEEE
+   802.3ad. LACP lets devices send Link Aggregation Control Protocol Data
+   Units (LACPDUs) to each other to establish a link aggregation
+   connection. You still need to configure the LAG on each device, but
+   LACP helps prevent one of the most common problems that can occur
+   during the process of setting up link aggregation: misconfigured LAG
+   settings. If the devices detect that they cannot establish a link
+   aggregation connection, they do not try to establish it, and the link
+   shows as “down” in the admin interface.
+
+   Another useful feature of LACP is that when one member link stops
+   sending LACPDUs (if the cable is unplugged, for example), it is removed
+   from the LAG. This helps to minimize packet loss.
+
+--
+   both devices support LACP.
+
+
+How do I set up link aggregation in my network?
+
+   The following instructions describe in general terms how to set up link
+   aggregation between two devices in your network. For more information
+   about setting up link aggregation on specific NETGEAR devices, see the
+   NETGEAR product support page for your product. To find your product’s
+   support page, visit https://www.netgear.com/support/ and enter your
+   product model number in the search box.
+
+   To set up link aggregation between two devices in your network:
+    1. Make sure that both devices support link aggregation.
+    2. Configure the LAG on each of the two devices.
+    3. Make sure that the LAG that you create on each device has the same
+       settings for port speed, duplex mode, flow control, and MTU size
+--
+       the LAG on each device.
+    7. Verify that the port LED for each connected port on each NETGEAR
+       switch is blinking green.
+    8. Verify in the admin interface for each device that the link is UP.
+
+   Last Updated:03/11/2023 | Article ID: 000051185
+

@@ -1,0 +1,73 @@
+     * Upload file
+
+   Languages
+   Language links are at the top of the page across from the title.
+   Wikipedia The Free Encyclopedia
+   Search
+   ____________________
+--
+     * View history
+
+   General
+     * What links here
+     * Related changes
+     * Upload file
+     * Special pages
+--
+   See also: Deeplink (company) and Mobile deep linking
+
+   In the context of the World Wide Web, deep linking is the use of a
+   hyperlink that links to a specific, generally searchable or indexed,
+   piece of web content on a website (e.g.
+   "https://example.com/path/page"), rather than the website's home page
+   (e.g., "https://example.com"). The URL contains all the information
+--
+
+   The technology behind the World Wide Web, the Hypertext Transfer
+   Protocol (HTTP), does not actually make any distinction between "deep"
+   links and any other links—all links are functionally equal. This is
+   intentional; one of the design purposes of the Web is to allow authors
+   to link to any published document on another site. The possibility of
+   so-called "deep" linking is therefore built into the Web technology of
+   HTTP and URLs by default—while a site can attempt to restrict deep
+   links, to do so requires extra effort. According to the World Wide Web
+--
+
+Usage[edit]
+
+   Some commercial websites object to other sites making deep links into
+   their content either because it bypasses advertising on their main
+   pages, passes off their content as that of the linker or, like The Wall
+   Street Journal, they charge users for permanently valid links.
+--
+   search engines or others.^[citation needed] People against deep linking
+   often claim that content owners may be unaware of the Robots Exclusion
+   Standard or may not use robots.txt for other reasons.^[citation needed]
+   Sites other than search engines can also deep link to content on other
+   sites, so some question the relevance of the Robots Exclusion Standard
+   to controversies about Deep Linking.^[15] The Robots Exclusion Standard
+   does not programmatically enforce its directives so it does not prevent
+--
+       W3.org. Retrieved May 30, 2007.
+    2. ^ Finley, Michelle (Mar 30, 2000). "Attention Editors: Deep Link
+       Away". Wired News.
+    3. ^ "a swfaddress example: how to deep link your flash tutorial »
+       SQUIBL Blog". Squibl.com. 2010-10-14. Archived from the original on
+       2014-05-25. Retrieved 2014-06-25.
+    4. ^ "History Keeper – Deep Linking in Flash & JavaScript".
+--
+       Archived from the original on 2007-09-27. Retrieved May 30, 2007.
+   11. ^ 336 F.3d 811 (9th Cir. 2003).
+   12. ^ 487 F.3d 701 (9th Cir. 2007).
+   13. ^ Declan McCullagh. "Judge: Can't link to Webcast if copyright
+       owner objects". News.com. Retrieved May 30, 2007.
+   14. ^ "Udskrift af SØ- & Handelsrettens Dombog" (PDF) (in Danish).
+       Bvhd.dk. February 24, 2006. Archived from the original (PDF) on
+--
+
+External links[edit]
+
+     * American Library Association - list of (mostly deep) links to
+       articles about deep linking
+     * Discussion of the Shetland Times vs Shetland News case, 1996
+       Archived 2014-02-17 at the Wayback Machine

@@ -1,0 +1,7 @@
+   Name of RSS Feed: ____________________
+   Number of items displayed: [15_]
+   (BUTTON) Create RSS (BUTTON) Cancel
+   RSS Link ____________________ (BUTTON) Copy
+
+Actions
+

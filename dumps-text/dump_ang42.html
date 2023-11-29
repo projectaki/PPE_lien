@@ -1,16 +1,721 @@
-   HTTP/2 200 access-control-allow-credentials: true
-   access-control-allow-origin: https://in.hotjar.com content-language: en
-   content-type: text/html; charset=UTF-8 etag: W/"1701154309"
-   last-modified: Tue, 28 Nov 2023 06:51:49 GMT server: nginx
-   strict-transport-security: max-age=300 x-content-type-options: nosniff
-   x-drupal-cache: MISS x-drupal-dynamic-cache: MISS x-frame-options:
-   SAMEORIGIN x-generator: Drupal 10 (https://www.drupal.org)
-   x-pantheon-styx-hostname: styx-fe4-b-6b9dfbfd9c-qhzff x-styx-req-id:
-   9aec6e7e-8dba-11ee-983b-b64c7cd7a8c5 x-served-by:
-   cache-chi-klot8100139-CHI, cache-iad-kjyo7100115-IAD x-cache-hits: 2, 0
-   x-timer: S1701155715.003775,VS0,VE20 expires: Wed, 29 Nov 2023 08:34:52
-   GMT cache-control: max-age=0, no-cache pragma: no-cache date: Wed, 29
-   Nov 2023 08:34:52 GMT x-rh-edge-request-id: 5608b4a8
-   x-rh-edge-reference-id: 0.4ff01202.1701246892.5608b4a8
-   x-rh-edge-cache-status: Hit from child strict-transport-security:
-   max-age=31536000
+   #alternate
+
+   Thank You
+
+   Thank you for taking the time to respond. The NETGEAR documentation
+   team uses your feedback to improve our knowledge base content.
+   Close
+   x
+
+   Rating Submitted
+
+   Do you have a suggestion for improving this article?
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   Characters Left : 500
+   Submit Cancel
+   x
+
+   NETGEAR logo Support | Community | CONTACT US | DOWNLOADS
+
+     * United States (English) Country name
+          + Deutschland (Deutsch)
+          + España (Español)
+          + France (Français)
+          + Italia (Italiano)
+          + 日本 (日本語)
+          + Netherlands (Dutch)
+          + United States (English)
+
+     * ____________________
+     *
+          + [avatar.png]
+            SIGN IN
+            MyNETGEAR® Account
+            Welcome back
+            Access your NETGEAR
+            Sign up and enjoy these benefits!
+               o [myorders.png] My Orders
+               o [manageprofile.png] Manage Profile
+               o [mysupport.png] My Support
+               o [trackorder.png] Track RMA
+               [trackorder.png] Track Order
+            CREATE ACCOUNT
+            SIGN IN LOG OUT
+     * |
+
+     * Log In
+     * Community
+
+   ____________________
+
+     * Support
+
+     * Country name United States (English)
+          + Deutschland (Deutsch)
+          + España (Español)
+          + France (Français)
+          + Italia (Italiano)
+          + 日本 (日本語)
+          + Netherlands (Dutch)
+          + United States (English)
+
+     * MyNETGEAR Account
+
+   [avatar.png]
+
+   SIGN IN
+   NETGEAR logo
+   Support
+
+   MyNETGEAR® Account
+
+   Welcome back
+
+   Access your NETGEAR
+     * [myorders.png] My Orders
+     * [manageprofile.png] Manage Profile
+     * [mysupport.png] My Support
+     * [trackorder.png] Track RMA
+     * [trackorder.png] Track Order
+
+   CREATE ACCOUNT
+   SIGN IN LOG OUT
+
+   NETGEAR Support
+
+What are link aggregation and LACP and how can I use them in my network?
+
+   Was this article helpful?   Yes     No | 11 people found this helpful
+   in last 30 days
+
+What is link aggregation?
+
+   Link aggregation allows you to combine multiple Ethernet links into a
+   single logical link between two networked devices.
+
+   Link aggregation is sometimes called by other names:
+     * Ethernet bonding
+     * Ethernet teaming
+     * Link bonding
+     * Link bundling
+     * Link teaming
+     * Network interface controller (NIC) bonding
+     * NIC teaming
+     * Port aggregation
+     * Port channeling
+     * Port trunking
+
+   The most common device combinations involve connecting a switch to
+   another switch, a server, a network attached storage (NAS) device, or a
+   multi-port access point.
+
+   Network devices and management functions treat the link aggregation
+   group (LAG) of multiple Ethernet connections as a single link. For
+   example, you can include a LAG in a virtual local area network (VLAN).
+   You can also configure more than one LAG on the same switch, or add
+   more than two Ethernet links to the same LAG (the maximum number of
+   links per LAG depends on your device).
+
+   Some network devices support Link Aggregation Control Protocol (LACP),
+   which helps to prevent errors in the link aggregation setup process.
+
+   Unmanaged switches do not support link aggregation.
+
+
+What are the benefits of link aggregation?
+
+   Link aggregation offers the following benefits:
+     * Increased reliability and availability. If one of the physical
+       links in the LAG goes down, traffic is dynamically and
+       transparently reassigned to one of the other physical links.
+     * Better use of physical resources. Traffic can be load-balanced
+       across the physical links.
+     * Increased bandwidth. The aggregated physical links deliver higher
+       bandwidth than each individual link.
+     * Cost effectiveness. A physical network upgrade can be expensive,
+       especially if it requires new cable runs. Link aggregation
+       increases bandwidth without requiring new equipment.
+
+
+What are the different types of LAGs?
+
+   The two primary types of LAGs are static (also known as manual) and
+   dynamic. Dynamic LAGs use Link Aggregation Control Protocol (LACP) to
+   negotiate settings between the two connected devices.
+
+   Some devices support static LAGs, but do not support dynamic LAGs with
+   LACP. Refer to your product’s user manual to see whether your device
+   supports LACP.
+
+   Linux-based devices, such as NETGEAR ReadyNAS storage devices, often
+   offer several additional types of link aggregation that provide
+   increased fault tolerance or load balancing instead of increased
+   bandwidth.
+
+
+What is Link Aggregation Control Protocol (LACP)?
+
+   Link Aggregation Control Protocol is an IEEE standard defined in IEEE
+   802.3ad. LACP lets devices send Link Aggregation Control Protocol Data
+   Units (LACPDUs) to each other to establish a link aggregation
+   connection. You still need to configure the LAG on each device, but
+   LACP helps prevent one of the most common problems that can occur
+   during the process of setting up link aggregation: misconfigured LAG
+   settings. If the devices detect that they cannot establish a link
+   aggregation connection, they do not try to establish it, and the link
+   shows as “down” in the admin interface.
+
+   Another useful feature of LACP is that when one member link stops
+   sending LACPDUs (if the cable is unplugged, for example), it is removed
+   from the LAG. This helps to minimize packet loss.
+
+   Both devices must support LACP for you to set up a dynamic LAG between
+   those devices. We recommend using LACP instead of a static LAG whenever
+   both devices support LACP.
+
+
+How do I set up link aggregation in my network?
+
+   The following instructions describe in general terms how to set up link
+   aggregation between two devices in your network. For more information
+   about setting up link aggregation on specific NETGEAR devices, see the
+   NETGEAR product support page for your product. To find your product’s
+   support page, visit https://www.netgear.com/support/ and enter your
+   product model number in the search box.
+
+   To set up link aggregation between two devices in your network:
+    1. Make sure that both devices support link aggregation.
+    2. Configure the LAG on each of the two devices.
+    3. Make sure that the LAG that you create on each device has the same
+       settings for port speed, duplex mode, flow control, and MTU size
+       (on some devices, this setting might be called jumbo frames).
+    4. Make sure that all ports that are members of a LAG have the same
+       virtual local area network (VLAN) memberships.
+       If you want to add a LAG to a VLAN, set up the LAG first and then
+       add the LAG to the VLAN; do not add individual ports.
+
+   Do not connect the devices to each other using more than one Ethernet
+   cable until after you set up the LAG on each device. If you form
+   multiple connections between the two devices and neither device has
+   loop prevention, you create a network loop. Network loops can slow or
+   stop normal traffic on your network.
+    5. Note which ports on each device you add to the LAG, and make sure
+       that you connect the correct ones.
+       The LAG issues an alert and rejects the configuration if port
+       members have different settings for port speed, duplex mode, or MTU
+       size, or if you accidentally connect ports that are not members of
+       the LAG.
+    6. Use Ethernet or fiber cable to connect the ports that you added to
+       the LAG on each device.
+    7. Verify that the port LED for each connected port on each NETGEAR
+       switch is blinking green.
+    8. Verify in the admin interface for each device that the link is UP.
+
+   Last Updated:03/11/2023 | Article ID: 000051185
+
+Was this article helpful?
+
+   Yes No
+
+This article applies to:
+
+     * Standalone Switch (84)
+          + FS526T
+          + FS726T
+          + FS726TP
+          + FS726Tv2
+          + FS728TLP
+          + FS728TPv1
+          + FS728TPv2
+          + FS728TS
+          + FS750T
+          + FS750T2
+          + FS752TP
+          + FS752TPS
+          + FS752TS
+          + GC108P
+          + GC108PP
+          + GC110
+          + GC110P
+          + GC510P
+          + GC510PP
+          + GC728X
+          + GC728XP
+          + GC752XP
+          + GS108Tv1
+          + GS108Tv2
+          + GS108Tv3
+          + GS110T
+          + GS110TP
+          + GS110TPP
+          + GS110TPv2
+          + GS110TPv3
+          + GS110TUP
+          + GS308T
+          + GS310TP
+          + GS324T
+          + GS324TP
+          + GS348T
+          + GS418TPP
+          + GS510TLP
+          + GS510TP
+          + GS510TPP
+          + GS516TP
+          + GS710TUP
+          + GS716TP
+          + GS716TPP
+          + GS716Tv1
+          + GS716Tv2
+          + GS716Tv3
+          + GS724AT
+          + GS724TP
+          + GS724TPP
+          + GS724TPPv3
+          + GS724TPv2
+          + GS724TPv3
+          + GS724TR
+          + GS724Tv1
+          + GS724Tv2
+          + GS724Tv3
+          + GS724Tv4
+          + GS724Tv6
+          + GS728TP
+          + GS728TPP
+          + GS728TPPv2
+          + GS728TPPv3
+          + GS728TPv2
+          + GS728TPv3
+          + GS748AT
+          + GS748TP
+          + GS748TR
+          + GS748Tv1
+          + GS748Tv2
+          + GS748Tv3
+          + GS748Tv4
+          + GS748Tv5
+          + GS748Tv6
+          + GS752TP
+          + GS752TPP
+          + GS752TPPv3
+          + GS752TPv2
+          + GS752TPv3
+          + MS108TUP
+          + MS510TX
+          + MS510TXM
+          + MS510TXPP
+          + MS510TXUP
+     * Plus Switch (26)
+          + GS110EMX
+          + GS116E
+          + GS116Ev2
+          + GS305E
+          + GS305EP
+          + GS305EPP
+          + GS308E
+          + GS308EP
+          + GS308EPP
+          + GS308Ev4
+          + GS316EP
+          + GS316EPP
+          + GS408EPP
+          + GS750E
+          + GS808E
+          + GS810EMX
+          + GS908E
+          + GSS108E
+          + GSS108EPP
+          + GSS116E
+          + JFS524E
+          + JGS516PE
+          + JGS524E
+          + JGS524Ev2
+          + JGS524PE
+          + MS108EUP
+     * Wireless AC Router Nighthawk (7)
+          + R7900P
+          + R7960P
+          + R8000P
+          + R8300
+          + R8500
+          + R8900
+          + R9000
+     * Fully Managed Switch (88)
+          + GSM7228PS
+          + GSM7252PS
+          + GSM7328FS
+          + GSM7328SO
+          + GSM7328Sv1
+          + GSM7328Sv2
+          + GSM7352SO
+          + GSM7352Sv1
+          + GSM7352Sv2
+          + M4200-10MG-PoE+ (GSM4210P)
+          + M4250
+          + M4250-10G2F-PoE+ (GSM4212P)
+          + M4250-10G2XF-PoE+ (GSM4212PX)
+          + M4250-10G2XF-PoE++ (GSM4212UX)
+          + M4250-12M2XF (MSM4214X)
+          + M4250-16XF (XSM4216F)
+          + M4250-26G4F-PoE+ (GSM4230P)
+          + M4250-26G4F-PoE++ (GSM4230UP)
+          + M4250-26G4XF-PoE+ (GSM4230PX)
+          + M4250-40G8F-PoE+ (GSM4248P)
+          + M4250-40G8XF-PoE+ (GSM4248PX)
+          + M4250-40G8XF-PoE++ (GSM4248UX)
+          + M4250-8G2XF-PoE+ (GSM4210PX)
+          + M4250-9G1F-PoE+ (GSM4210PD)
+          + M4300-12X12F (XSM4324S)
+          + M4300-16X (XSM4316PA)
+          + M4300-16X (XSM4316PB)
+          + M4300-24X (XSM4324CS)
+          + M4300-24X24F (XSM4348S)
+          + M4300-24XF (XSM4324FS)
+          + M4300-28G (GSM4328S)
+          + M4300-28G-POE+ (GSM4328PS)
+          + M4300-28G-PoE+ (GSM4328PA)
+          + M4300-28G-PoE+ (GSM4328PB)
+          + M4300-48X (XSM4348CS)
+          + M4300-48XF (XSM4348FS)
+          + M4300-52G (GSM4352S)
+          + M4300-52G-POE+ (GSM4352PS)
+          + M4300-52G-PoE+ (GSM4352PA)
+          + M4300-52G-PoE+ (GSM4352PB)
+          + M4300-8X8F (XSM4316S)
+          + M4300-96X (XSM4396K0 and XSM4396K1)
+          + M4350-12X12F (XSM4324)
+          + M4350-16V4C (VSM4320C)
+          + M4350-24F4V (XSM4328FV)
+          + M4350-24G4XF (GSM4328)
+          + M4350-24X4V (XSM4328CV)
+          + M4350-24X8F8V (XSM4340V)
+          + M4350-32F8V (XSM4340FV)
+          + M4350-36X4V (XSM4340CV)
+          + M4350-40X4C (XSM4344C)
+          + M4350-44M4X4V (MSM4352)
+          + M4350-48G4XF (GSM4352)
+          + M4350-8X8F (XSM4316)
+          + M4500-32C (CSM4532)
+          + M4500-48XF8C (XSM4556)
+          + M5300
+          + M5300-28G (GSM7228S)
+          + M5300-28G-POE+ (GSM7228PSv1h2)
+          + M5300-28G3 (GSM7328Sv2h2)
+          + M5300-28GF3 (GSM7328FSv2)
+          + M5300-52G (GSM7252S)
+          + M5300-52G-POE+ (GSM7252PSv1h2)
+          + M5300-52G3 (GSM7352Sv2h2)
+          + M6100
+          + M7100-24X (XSM7224)
+          + M7300-24XF (XSM7224S)
+          + XCM8806
+          + XCM8806FT
+          + XCM8806PC
+          + XCM8808X
+          + XCM8810
+          + XCM8810FT
+          + XCM8824F
+          + XCM8848T
+          + XCM888F
+          + XCM88ASL
+          + XCM88FPB
+          + XCM88P
+          + XCM88PS1
+          + XCM88S1
+          + XCM8903
+          + XCM8924X
+          + XCM8944
+          + XCM8944F
+          + XCM8948
+          + XCM89P
+          + XCM89UP
+     * Rackmount (39)
+          + RN2120
+          + RN2120v2
+          + RN21241D
+          + RN21241E
+          + RN21242D
+          + RN21242E
+          + RN21243D
+          + RN21243E
+          + RN21244E
+          + RN3130
+          + RN31342E
+          + RN3138
+          + RN31842E
+          + RN31843E
+          + RN31844E
+          + RN3220
+          + RN322121E
+          + RN322122E
+          + RN322123E
+          + RN322124E
+          + RN32261E
+          + RN32262E
+          + RN32263E
+          + RN4220
+          + RN4220S
+          + RN4220X
+          + RN422X122
+          + RN422X123
+          + RN422X124
+          + RN422X62E
+          + RN422X63E
+          + RN422X64E
+          + RR2312
+          + RR3312
+          + RR3312v2
+          + RR4312X
+          + RR4312Xv2
+          + RR4360S
+          + RR4360X
+     * Nighthawk Pro Gaming (4)
+          + XR450
+          + XR500
+          + XR700
+          + XRM570
+     * 10-Gigabit Switch (11)
+          + XS512EM
+          + XS708E
+          + XS708Ev2
+          + XS708T
+          + XS712T
+          + XS712Tv2
+          + XS716E
+          + XS716T
+          + XS724EM
+          + XS728T
+          + XS748T
+     * Stackable Switch (14)
+          + GS724TPS
+          + GS724TS
+          + GS728TPS(B)
+          + GS728TS(B)
+          + GS728TXS
+          + GS748TPS
+          + GS748TS
+          + GS752TPS(B)
+          + GS752TS(B)
+          + GS752TXS
+          + S3300-28X (GS728TX)
+          + S3300-28X-PoE+ (GS728TXP)
+          + S3300-52X (GS752TX)
+          + S3300-52X-PoE+ (GS752TXP)
+     * Legacy Fully Managed Switch (42)
+          + FSM7226RS
+          + FSM7250RS
+          + FSM726E
+          + FSM726S
+          + FSM726v1
+          + FSM726v2
+          + FSM726v3
+          + FSM7326P
+          + FSM7328PS
+          + FSM7328S
+          + FSM7352PS
+          + FSM7352S
+          + FSM750S
+          + GSM5212P
+          + GSM712
+          + GSM712F
+          + GSM7212
+          + GSM7212F
+          + GSM7212P
+          + GSM7224P
+          + GSM7224R
+          + GSM7224v1
+          + GSM7224v2
+          + GSM7248R
+          + GSM7248v1
+          + GSM7248v2
+          + GSM7312
+          + GSM7324
+          + JGSM7224
+          + M4100
+          + M4100-12G-POE+ (GSM7212P)
+          + M4100-12GF (GSM7212F)
+          + M4100-24G-POE+ (GSM7224P)
+          + M4100-26-POE (FSM7226Pv1h1)
+          + M4100-26G (GSM7224v2h2)
+          + M4100-26G-POE (GSM7226LPv1h1)
+          + M4100-50-POE (FSM7250Pv1h1)
+          + M4100-50G (GSM7248v2h2)
+          + M4100-50G-POE+ (GSM7248Pv1h1)
+          + M4100-D10-POE (FSM5210Pv1h1)
+          + M4100-D12G (GSM5212v1h1)
+          + M4100-D12G-POE+ (GSM5212P)
+     * ReadyNAS Desktop (Business) (50)
+          + RN312
+          + RN31200
+          + RN31211D
+          + RN31212D
+          + RN31221D
+          + RN31221E
+          + RN31222D
+          + RN31222E
+          + RN31223D
+          + RN31224E
+          + RN314
+          + RN31400
+          + RN31421D
+          + RN31441D
+          + RN31441E
+          + RN31442D
+          + RN31442E
+          + RN31443D
+          + RN31443E
+          + RN31444E
+          + RN316
+          + RN31600
+          + RN31661D
+          + RN31661E
+          + RN31662D
+          + RN31662E
+          + RN31663D
+          + RN31663E
+          + RN31664D
+          + RN31664E
+          + RN422
+          + RN424
+          + RN426
+          + RN428
+          + RN516
+          + RN51600
+          + RN51661D
+          + RN51661E
+          + RN51662D
+          + RN51662E
+          + RN51663D
+          + RN51663E
+          + RN51664E
+          + RN524X
+          + RN526X
+          + RN528X
+          + RN626X
+          + RN628X
+          + RN716X
+          + ReadyNAS OS 6
+
+   How to Find Your Model Number
+
+Read this article in another language:
+
+   [United States (English)]
+
+Looking for more about your product?
+
+   Get information, documentation, videos and more for your specific
+   product.
+   ____________________
+
+Can’t find what you’re looking for?
+
+   Quick and easy solutions are available for you in the NETGEAR
+   community.
+   Ask the Community
+
+Need to Contact NETGEAR Support?
+
+   With NETGEAR’s round-the-clock premium support, help is just a phone
+   call away.
+   See Support Options
+
+Complimentary Support
+
+   NETGEAR provides complimentary technical support for NETGEAR products
+   for 90 days from the original date of purchase.
+   Contact Support
+
+NETGEAR Premium Support
+
+GearHead Support for Home Users
+
+   GearHead Support is a technical support service for NETGEAR devices and
+   all other connected devices in your home. Advanced remote support tools
+   are used to fix issues on any of your devices. The service includes
+   support for the following:
+     * Desktop and Notebook PCs, Wired and Wireless Routers, Modems,
+       Printers, Scanners, Fax Machines, USB devices and Sound Cards
+     * Windows Operating Systems (2000, XP or Vista), MS Word, Excel,
+       PowerPoint, Outlook and Adobe Acrobat
+     * Anti-virus and Anti-Spyware: McAfee, Norton, AVG, eTrust and
+       BitDefender
+
+   Learn More
+
+ProSUPPORT Services for Business Users
+
+   NETGEAR ProSUPPORT services are available to supplement your technical
+   support and warranty entitlements. NETGEAR offers a variety of
+   ProSUPPORT services that allow you to access NETGEAR's expertise in a
+   way that best meets your needs:
+     * Product Installation
+     * Professional Wireless Site Survey
+     * Defective Drive Retention (DDR) Service
+
+   Learn More
+
+Where to Find Your Model Number
+
+   To find the model/version number, check the bottom or back panel of
+   your NETGEAR device.
+     __________________________________________________________________
+
+   Select a product or category below for specific instructions.
+   [nrouter.png]
+
+N Routers
+
+   [nighthawk.png]
+
+Nighthawk Routers
+
+   [powerline.png]
+
+Powerline and Wall Plug Extenders
+
+   [cable-dsl.png]
+
+Cable and DSL Modem Routers
+
+   [readynas.png]
+
+ReadyNAS Network Storage
+
+   [switches.png]
+
+Switches
+
+   [accesspoint.png]
+
+Wireless Access Points
+
+   [others.png]
+
+Other Business Products
+
+   [mobile-broadband.png]
+
+Mobile Broadband
+
+   NETGEAR logo
+   Feedback
+
+     * Facebook
+     * Twitter
+     * Youtube
+
+     * United States (English) Country name
+          + Deutschland (Deutsch)
+          + España (Español)
+          + France (Français)
+          + Italia (Italiano)
+          + 日本 (日本語)
+          + Netherlands (Dutch)
+          + United States (English)
+
+   © 1996-2023 ^® Terms and Conditions Privacy Policy

@@ -1,0 +1,356 @@
+                                  12 Links
+
+   Contents
+    1. Introduction to links and anchors
+         1. Visiting a linked resource
+         2. Other link relationships
+         3. Specifying anchors and links
+         4. Link titles
+         5. Internationalization and links
+    2. The A element
+         1. Syntax of anchor names
+         2. Nested links are illegal
+         3. Anchors with the id attribute
+         4. Unavailable and unidentifiable resources
+    3. Document relationships: the LINK element
+         1. Forward and reverse links
+         2. Links and external style sheets
+         3. Links and search engines
+    4. Path information: the BASE element
+         1. Resolving relative URIs
+
+12.1 Introduction to links and anchors
+
+   HTML offers many of the conventional publishing idioms for rich text
+   and structured documents, but what separates it from most other markup
+   languages is its features for hypertext and interactive documents. This
+   section introduces the link (or hyperlink, or Web link), the basic
+   hypertext construct. A link is a connection from one Web resource to
+   another. Although a simple concept, the link has been one of the
+   primary forces driving the success of the Web.
+
+   A link has two ends -- called anchors -- and a direction. The link
+   starts at the "source" anchor and points to the "destination" anchor,
+   which may be any Web resource (e.g., an image, a video clip, a sound
+   bite, a program, an HTML document, an element within an HTML document,
+--
+
+  12.1.1 Visiting a linked resource
+
+   The default behavior associated with a link is the retrieval of another
+   Web resource. This behavior is commonly and implicitly obtained by
+   selecting the link (e.g., by clicking, through keyboard input, etc.).
+
+   The following HTML excerpt contains two links, one whose destination
+   anchor is an HTML document named "chapter2.html" and the other whose
+--
+See also this <A href="../images/forest.gif">map of the enchanted forest.</A>
+</BODY>
+
+   By activating these links (by clicking with the mouse, through keyboard
+   input, voice commands, etc.), users may visit these resources. Note
+   that the href attribute in each source anchor specifies the address of
+   the destination anchor with a URI.
+
+   The destination anchor of a link may be an element within an HTML
+   document. The destination anchor must be given an anchor name and any
+   URI addressing this anchor must include the name as its fragment
+   identifier.
+--
+   (naming with the id attribute).
+
+   Thus, for example, an author might create a table of contents whose
+   entries link to header elements H2, H3, etc., in the same document.
+   Using the A element to create destination anchors, we would write:
+<H1>Table of Contents</H1>
+<P><A href="#section1">Introduction</A><BR>
+--
+<H3 id="section2.1">On a more personal note</H3>
+...section 2.1...
+
+  12.1.2 Other link relationships
+
+   By far the most common use of a link is to retrieve another Web
+   resource, as illustrated in the previous examples. However, authors may
+   insert links in their documents that express other relationships
+   between resources than simply "activate this link to visit that related
+   resource". Links that express other types of relationships have one or
+   more link types specified in their source anchor.
+
+   The roles of a link defined by A or LINK are specified via the rel and
+   rev attributes.
+
+   For instance, links defined by the LINK element may describe the
+   position of a document within a series of documents. In the following
+   excerpt, links within the document entitled "Chapter 5" point to the
+   previous and next chapters:
+<HEAD>
+...other head information...
+--
+<LINK rel="next" href="chapter6.html">
+</HEAD>
+
+   The link type of the first link is "prev" and that of the second is
+   "next" (two of several recognized link types). Links specified by LINK
+   are not rendered with the document's contents, although user agents may
+   render them in other ways (e.g., as navigation tools).
+
+   Even if they are not used for navigation, these links may be
+   interpreted in interesting ways. For example, a user agent that prints
+   a series of HTML documents as a single document may use this link
+   information as the basis of forming a coherent linear document. Further
+   information is given below on using links for the benefit of search
+   engines.
+
+  12.1.3 Specifying anchors and links
+
+   Although several HTML elements and attributes create links to other
+   resources (e.g., the IMG element, the FORM element, etc.), this chapter
+   discusses links and anchors created by the LINK and A elements. The
+   LINK element may only appear in the head of a document. The A element
+   may only appear in the body.
+
+   When the A element's href attribute is set, the element defines a
+   source anchor for a link that may be activated by the user to retrieve
+   a Web resource. The source anchor is the location of the A instance and
+   the destination anchor is the Web resource.
+
+--
+   opening a new HTML document in a different window, starting a new
+   program to handle the resource, etc. Since the A element has content
+   (text, images, etc.), user agents may render this content in such a way
+   as to indicate the presence of a link (e.g., by underlining the
+   content).
+
+   When the name or id attributes of the A element are set, the element
+--
+   Authors may set the name and href attributes simultaneously in the same
+   A instance.
+
+   The LINK element defines a relationship between the current document
+   and another resource. Although LINK has no content, the relationships
+   it defines may be rendered by some user agents.
+
+  12.1.4 Link titles
+
+   The title attribute may be set for both A and LINK to add information
+   about the nature of a link. This information may be spoken by a user
+   agent, rendered as a tool tip, cause a change in cursor image, etc.
+
+--
+
+  12.1.5 Internationalization and links
+
+   Since links may point to documents encoded with different character
+   encodings, the A and LINK elements support the charset attribute. This
+   attribute allows authors to advise user agents about the encoding of
+   data at the other end of the link.
+
+--
+  %attrs;                              -- %coreattrs, %i18n, %events --
+  charset     %Charset;      #IMPLIED  -- char encoding of linked resource --
+  type        %ContentType;  #IMPLIED  -- advisory content type --
+  name        CDATA          #IMPLIED  -- named link end --
+  href        %URI;          #IMPLIED  -- URI for linked resource --
+  hreflang    %LanguageCode; #IMPLIED  -- language code --
+  rel         %LinkTypes;    #IMPLIED  -- forward link types --
+  rev         %LinkTypes;    #IMPLIED  -- reverse link types --
+  accesskey   %Character;    #IMPLIED  -- accessibility key character --
+  shape       %Shape;        rect      -- for use with client-side image maps --
+  coords      %Coords;       #IMPLIED  -- for use with client-side image maps --
+--
+
+   href = uri [CT]
+          This attribute specifies the location of a Web resource, thus
+          defining a link between the current element (the source anchor)
+          and the destination anchor defined by this attribute.
+
+   hreflang = langcode [CI]
+--
+
+   type = content-type [CI]
+          This attribute gives an advisory hint as to the content type of
+          the content available at the link target address. It allows user
+          agents to opt to use a fallback mechanism rather than fetch the
+          content if they are advised that they will get content in a
+          content type they do not support.
+          Authors who use this attribute take responsibility to manage the
+          risk that it may become inconsistent with the content available
+          at the link target address.
+          For the current list of registered content types, please consult
+          [MIMETYPES].
+
+   rel = link-types [CI]
+          This attribute describes the relationship from the current
+          document to the anchor specified by the href attribute. The
+          value of this attribute is a space-separated list of link types.
+
+   rev = link-types [CI]
+          This attribute is used to describe a reverse link from the
+          anchor specified by the href attribute to the current document.
+          The value of this attribute is a space-separated list of link
+          types.
+--
+   Each A element defines an anchor
+    1. The A element's content defines the position of the anchor.
+    2. The name attribute names the anchor so that it may be the
+       destination of zero or more links (see also anchors with id).
+    3. The href attribute makes this anchor the source anchor of exactly
+       one link.
+
+--
+For more information about W3C, please consult the
+<A href="http://www.w3.org/">W3C Web site</A>.
+
+   This link designates the home page of the World Wide Web Consortium.
+   When a user activates this link in a user agent, the user agent will
+   retrieve the resource, in this case, an HTML document.
+
+   User agents generally render links in such a way as to make them
+   obvious to users (underlining, reverse video, etc.). The exact
+   rendering depends on the user agent. Rendering may vary according to
+   whether the user has already visited the link or not. A possible visual
+   rendering of the previous link might be:
+For more information about W3C, please consult the W3C Web site.
+                                                   ~~~~~~~~~~~~
+
+--
+   one.". Usually, the contents of A are not rendered in any special way
+   when A defines an anchor only.
+
+   Having defined the anchor, we may link to it from the same or another
+   document. URIs that designate anchors contain a "#" character followed
+   by the anchor name (the fragment identifier). Here are some examples of
+   such URIs:
+     * An absolute URI: http://www.mycompany.com/one.html#anchor-one
+     * A relative URI: ./one.html#anchor-one or one.html#anchor-one
+     * When the link is defined in the same document: #anchor-one
+
+   Thus, a link defined in the file "two.html" in the same directory as
+   "one.html" would refer to the anchor as follows:
+...text before the link...
+For more information, please consult <A href="./one.html#anchor-one"> anchor one
+</A>.
+...text after the link...
+
+   The A element in the following example specifies a link (with href) and
+   creates a named anchor (with name) simultaneously:
+I just returned from vacation! Here's a
+<A name="anchor-two"
+   href="http://www.somecompany.com/People/Ian/vacation/family.png">
+photo of my family at the lake.</A>.
+
+   This example contains a link to a different type of Web resource (a PNG
+   image). Activating the link should cause the image resource to be
+   retrieved from the Web (and possibly displayed if the system has been
+   configured to do so).
+
+--
+   the appendix for more information about non-ASCII characters in URI
+   attribute values.
+
+  12.2.2 Nested links are illegal
+
+   Links and anchors defined by the A element must not be nested; an A
+   element must not contain any other A elements.
+
+   Since the DTD defines the LINK element to be empty, LINK elements may
+   not be nested either.
+
+  12.2.3 Anchors with the id attribute
+--
+       should still attempt to process it. It should alert the user and
+       may allow the user to intervene and identify the document type.
+
+12.3 Document relationships: the LINK element
+
+<!ELEMENT LINK - O EMPTY               -- a media-independent link -->
+<!ATTLIST LINK
+  %attrs;                              -- %coreattrs, %i18n, %events --
+  charset     %Charset;      #IMPLIED  -- char encoding of linked resource --
+  href        %URI;          #IMPLIED  -- URI for linked resource --
+  hreflang    %LanguageCode; #IMPLIED  -- language code --
+  type        %ContentType;  #IMPLIED  -- advisory content type --
+  rel         %LinkTypes;    #IMPLIED  -- forward link types --
+  rev         %LinkTypes;    #IMPLIED  -- reverse link types --
+  media       %MediaDesc;    #IMPLIED  -- for rendering on these media --
+  >
+
+--
+
+   This element defines a link. Unlike A, it may only appear in the HEAD
+   section of a document, although it may appear any number of times.
+   Although LINK has no content, it conveys relationship information that
+   may be rendered by user agents in a variety of ways (e.g., a tool-bar
+   with a drop-down menu of links).
+
+   This example illustrates how several LINK definitions may appear in the
+   HEAD section of a document. The current document is "Chapter2.html".
+   The rel attribute specifies the relationship of the linked document
+   with the current document. The values "Index", "Next", and "Prev" are
+   explained in the section on link types.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+--
+  12.3.1 Forward and reverse links
+
+   The rel and rev attributes play complementary roles -- the rel
+   attribute specifies a forward link and the rev attribute specifies a
+   reverse link.
+
+   Consider two documents A and B.
+--
+
+   Both attributes may be specified simultaneously.
+
+  12.3.2 Links and external style sheets
+
+   When the LINK element links an external style sheet to a document, the
+   type attribute specifies the style sheet language and the media
+   attribute specifies the intended rendering medium or media. User agents
+   may save time by retrieving from the network only those style sheets
+--
+
+   Media types are further discussed in the section on style sheets.
+
+  12.3.3 Links and search engines
+
+   Authors may use the LINK element to provide a variety of information to
+   search engines, including:
+     * Links to alternate versions of a document, written in another human
+       language.
+     * Links to alternate versions of a document, designed for different
+       media, for instance a version especially suited for printing.
+     * Links to the starting page of a collection of documents.
+
+   The examples below illustrate how language information, media types,
+   and link types may be combined to improve document handling by search
+   engines.
+
+   In the following example, we use the hreflang attribute to tell search
+   engines where to find Dutch, Portuguese, and Arabic versions of a
+   document. Note the use of the charset attribute for the Arabic manual.
+   Note also the use of the lang attribute to indicate that the value of
+   the title attribute for the LINK element designating the French manual
+   is in French.
+<HEAD>
+<TITLE>The manual in English</TITLE>
+--
+   Attributes defined elsewhere
+     * target (target frame information)
+
+   In HTML, links and references to external images, applets,
+   form-processing programs, style sheets, etc. are always specified by a
+   URI. Relative URIs are resolved according to a base URI, which may come
+   from a variety of sources. The BASE element allows authors to specify a
+--
+   the definitions of these elements for more information about URI issues
+   specific to them.
+
+   Note. For versions of HTTP that define a Link header, user agents
+   should handle these headers exactly as LINK elements in the document.
+   HTTP 1.1 as defined by [RFC2616] does not include a Link header field
+   (refer to section 19.6.3).
+     __________________________________________________________________
+

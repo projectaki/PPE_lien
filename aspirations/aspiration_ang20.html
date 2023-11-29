@@ -1,12 +1,426 @@
-HTTP/1.1 200 OK
-Date: Wed, 29 Nov 2023 08:33:59 GMT
-Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.2.34
-Strict-Transport-Security: max-age=63072000; includeSubdomains
-X-Frame-Options: ALLOW-FROM http://www.ic.uff.br/
-X-Content-Type-Options: nosniff
-Last-Modified: Tue, 22 May 2018 15:42:56 GMT
-ETag: "6c46-56ccd45ab2bd6"
-Accept-Ranges: bytes
-Content-Length: 27718
-Content-Type: text/html; charset=UTF-8
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Keith Ross">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (Win95; I) [Netscape]">
+   <title>Access Networks and Physical Media</title>
+</head>
+<body>
 
+<center>
+<h1>
+<font color="#FF0000">1.5 Access Networks and Physical Media</font></h1></center>
+<font color="#000000">In sections 1.3 and 1.4 we have examined the roles
+of end systems and routers in a network architecture.&nbsp; In this section
+we consider the <b>access network</b> - the physical link(s) that connect
+an end system to its <b>edge router</b>, i.e., the first router on a path
+from the end system to any other distant end system..&nbsp; Since access
+network technology is closely tied to physical media technology (fiber,
+coaxial pair, twisted pair telephone wire, radio spectrum), we consider
+these two topics together in this section.</font>
+<h1>
+<font color="#000000"><font size=+2>1.5.1 Access Networks</font></font></h1>
+<font color="#000000">&nbsp;Figure 1.5-1 shows the access networks' links
+highlighted in red.</font>
+<center><img SRC="acc_phy.GIF" VSPACE=10 height=308 width=327>
+<br><b>Figure 1.5-1: </b>Access networks</center>
+Access networks can be loosely divided into three categories:
+<ul>
+<li>
+<b>residential access networks</b>, connecting a home end system into the
+network;</li>
+
+<li>
+<b>institutional access networks</b>, connecting an end system in a business
+or educational institution into the network;</li>
+
+<li>
+<b>mobile access networks</b>, connecting a mobile end system into the
+network</li>
+</ul>
+These categories are not hard and fast; some corporate end systems may
+well use the access network technology that we ascribe to residential access
+networks, and vice versa.&nbsp;&nbsp; Our descriptions below are meant
+to hold for the common (if not every) case.
+<h3>
+Residential Access Networks</h3>
+A residential access network connects a home end system (typically a PC,
+but perhaps a Web TV or other residential system) to an edge router. Probably
+the most common form of home access is using a <b>modem</b> over a POTS
+(plain old telephone system) dialup line to an Internet service provider
+(ISP). The home modem converts the digital output of the PC into analog
+format&nbsp; for transmission over the analog phone line.&nbsp; A modem
+in the ISP converts the analog signal back into digital form for input
+to the ISP router.&nbsp; In this case, the "access network" is simply a
+point-to-point dialup link into an edge router.&nbsp; The point-to-point
+link is your ordinary twisted-pair phone line. (We will discuss twisted
+pair later in this section.) Today's modem speeds allow dialup access at
+rates up to 56 Kbps.&nbsp; However, due to the poor quality of twisted-pair
+line between many homes and ISPs, many users get an effective rate significantly
+less than 56 Kbps.&nbsp; For an in depth discussion of the practical aspects
+of modems see the Institute for Global Communications (IGC) web page on
+<a href="http://www.igc.org/support4/modems.html">Modems
+and Data Communications</a>.
+<p>While dialup modems require conversion of the end system's digital data
+into analog form for transmission, so-called narrowband<b> ISDN</b> technology
+(Integrated Services Digital Network) [<a href="#[Pacific Bell 1998]">Pacific
+Bell 1998</a>] allows for all-digital transmission of data from a home
+end system over ISDN "telephone" lines to a phone company central office.&nbsp;
+Although ISDN was originally conceived as a way to carry digital data from
+one end of the phone system to another, it is also an important network
+access technology that&nbsp; provides higher speed access (e.g., 128 Kbps)&nbsp;
+from the home into a data network such as the Internet.&nbsp; In this case,
+ISDN can be thought of simply as a "better modem" [<a href="#[NAS 1995]">NAS
+1995</a>].&nbsp; A good source for additional WWW information on ISDN is
+<a href="http://alumni.caltech.edu/~dank/isdn/">Dan
+Kegel's ISDN page</a>.
+<p>Dialup modems and narrowband ISDN are already widely deployed technologies.
+Two new technologies, <b>Asymmetric Digital Subscriber Line (ADSL)</b>
+[<a href="#[ADSL 1998]">ADSL 1998</a>] and <b>hybrid fiber coaxial cable
+(HFC)</b> [<a href="#[Cable 1998]">Cable 1998</a>] are currently being
+deployed.&nbsp; ADSL is conceptually similar to dialup modems: it is a
+new modem technology again running over existing twisted pair telephone
+lines, but can transmit at rates of up to about 8 Mbps from the ISP router
+to a home end system.&nbsp; The data rate in the reverse direction, from
+the home end system to the central office router, is less than 1 Mbps.&nbsp;
+The asymmetry in the access speeds gives rise to the term "Asymmetric"
+in ADSL.&nbsp; The asymmetry in the data rates reflects the belief that
+home users are more likely to be a consumer of information (bringing data
+into their homes) than a producer of information.
+<p>ADSL uses frequency division multiplexing, as described in the previous
+section. In particular, ADSL divides the communication link between the
+home the ISP into three non-overlapping frequency bands:
+<ul>
+<ul>
+<li>
+a <b>high-speed downstream channel</b>, in the 50 KHz to 1 MHz band;</li>
+
+<li>
+a <b>medium-speed upstream channel</b>, in the 4 KHz to 50 KHz band;</li>
+
+<li>
+and an <b>ordinary POTs two-way telephone channel</b>, in the 0 to 4 KHz
+band.</li>
+</ul>
+</ul>
+One of the features of ADSL is that the service allows the user to make
+an ordinary telephone call, using the POTs channel, while simultaneously
+surfing the Web. This feature is not available with standard dailup modems.
+The actually amount of downstream and upstream bandwidth available to the
+user is a function of the distance between the home modem and the ISP modem,
+the gauge of the twisted pair line, and the degree of electrical interference.
+For a high-quality line with negligible electrical interference, an 8 Mbps
+downstream transmission rate is possible if the distance between the home
+and the ISP is less than 3,000 meters; the downstream transmission rate
+drops to about 2 Mbps for a distance of 6,000 meters. The upstream rate
+ranges from 16 Kbps to 1 Mbps.
+<p>While ADSL, ISDN and dailup modems all use ordinary phone lines, HFC
+access networks are extensions of the current cable network used for broadcasting
+cable television.&nbsp; In a traditional cable system, a cable head end
+station broadcasts through a distribution of coaxial cable and amplifiers
+to residences. (We discuss coaxial cable later in this chapter.)&nbsp;
+As illustrated in Figure 1.5-2,&nbsp; fiber optics (also to be discussed
+soon) connect the cable head end to neighborhood-level junctions, from
+which traditional coaxial cable is then used to reach individual houses
+and apartments. Each neighborhood juncture typically supports 500 to 5000
+homes.
+<center><img SRC="cable.jpg" VSPACE=10 height=487 width=720>
+<br><b>Figure 1.5-2: </b>A hybrid fiber-coax access network</center>
+
+<p>As with ADSL, HFC requires special modems, called <a href="http://CableDatacomNews.com/cmic1.htm">cable
+modems</a>. Companies that provide cable Internet access require their
+customers to either purchase or lease a modem. One such company is <a href="http://www.cybercable.fr/">CyberCable</a>,
+which uses <a href="http://www.mot.com/MIMS/Multimedia/prod/specs/modemSpec.html">Motorola's
+CyberSurfer Cable Modem</a> and provides high-speed Internet access to
+most of the neighborhoods in Paris. Typically, the cable modem is an external
+device and connects to the home PC through a 10-BaseT Ethernet port. (We
+will discuss Ethernet in great detail in Chapter 5.)&nbsp; Cable modems
+divide the HFC network into two channels, a downstream and an upstream
+channel. As with ADSL, the downstream channel is typically allocated more
+bandwidth and hence a larger transmission rate. For example, the downstream
+rate of the CyberCable system is 10 Mbps and the upstream rate is 768 Kbps.
+However, with HFC (and not with ADSL), these rates are shared among the
+homes, as we discuss below.
+<p>One important characteristic of the HFC is that it is a shared broadcast
+medium. In particular, every packet sent by the headend travels downstream
+on every link to every home; and every packet sent by a home travels on
+the upstream channel to the headend. For this reason, if several users
+are receiving different Internet videos on the downstream channel, actual
+rate at which each user receives its video will be significantly less than
+downstream rate. On the other hand, if all the active users are Web surfing,
+then each of the users may actually receive Web pages at the full downstream
+rate, as a small collection of users will rarely receive a Web page at
+exactly the same time. Because the upstream channel is also shared, packets
+sent by two different homes at the same time will collide, which further
+decreases the effective upstream bandwidth. (We will discuss this collision
+issue in some detail when we discuss Ethernet in Chapter 5.) Advocates
+of ADSL are quick to point out that ADSL is a point-to-point connection
+between the home and ISP, and therefore all the ADSL bandwidth is dedicated
+rather than shared. Cable advocates, however, argue that a reasonably dimensioned
+HFC network provides higher bandwidths than ADSL [<a href="#[@Home 1998]">@Home
+1998</a>].&nbsp; The battle between ADSL and HFC for high speed residential
+access has clearly begun, e.g., [<a href="#[@Home 1998]">@Home 1998</a>].
+<br>&nbsp;
+<h3>
+Enterprise Access Networks</h3>
+&nbsp;In enterprise access networks, a local area network (LAN) is used
+to connect an end system to an edge router.&nbsp;&nbsp; As we will see
+in Chapter 5, there are many different types of LAN technology.&nbsp; However,&nbsp;
+Ethernet technology is currently by far the most prevalent access technology
+in enterprise networks. Ethernet operates 10 Mbps or 100Mbps (and now even
+at 1 Gbps). It uses either twisted-pair copper wire are coaxial cable to
+connect&nbsp; a number of end systems with each other and with an edge
+router.&nbsp; The edge router is responsible for routing packets that have
+destinations outside of that LAN.&nbsp; Like HFC, Ethernet uses a shared
+medium, so that end users share the the transmission rate of the LAN.&nbsp;
+More recently, shared Ethernet technology has been migrating towards switched
+Ethernet technology.&nbsp; Switched Ethernet uses multiple coaxial cable
+or twisted pair Ethernet segments connected at a "switch"&nbsp; to allow
+the full bandwidth an Ethernet to be delivered to different users on the
+same LAN simultaneously [<a href="#[Cisco 1998]">Cisco 1998</a>]. We will
+explore shared and switched Ethernet in some detail in Chapter 5.
+<br>&nbsp;
+<h3>
+Mobile Access Networks</h3>
+Mobile access networks use the radio spectrum to connect a mobile end system
+(e.g., a laptop PC or a PDA with a wireless modem) to a base station, as
+shown in Figure 1.5-1.&nbsp; This base station, in turn, is connected to
+an edge router of a data network.
+<p>An emerging standard for wireless data networking is Cellular Digital
+Packet Data (CDPD) [<a href="#[Wireless 1998]">Wireless 1998</a>].&nbsp;
+As the name suggests, a CDPD network operates as an overlay network (i.e.,
+as a separate, smaller "virtual" network, as a piece of the larger network)
+within the cellular telephone network.&nbsp; A CDPD network thus uses the
+same radio spectrum as the cellular phone system, and operates at speeds
+in the 10's of Kbits per second.&nbsp; As with cable-based access networks
+and shared Ethernet, CDPD end systems must share the transmission media
+with other CDPD end systems within the cell covered by a base station.&nbsp;
+A media access control (MAC) protocol is used to arbitrate channel sharing
+among the CDPD end systems; we will cover MAC protocols in detail in Chapter
+5.
+<p>The CDPD system supports the IP protocol, and thus allows an IP end
+system to exchange IP packets over the wireless channel with an IP base
+station.&nbsp; A CDPD network can actually support multiple network layer
+protocols; in addition to IP, the ISO CNLP protocol is also supported.
+CDPD does not provide for any protocols above the network layer.&nbsp;
+From an Internet perspective, CDPD can be viewed as extending the Internet
+dialtone (i.e., the ability to transfer IP packets) across a wireless link
+between a mobile end system and an Internet router. An excellent introduction
+to CDPD is [<a href="#[Waung 1998]">Waung 98].</a>
+<h3>
+<font color="#000000"><font size=+2>1.5.2 Physical Media</font></font></h3>
+<font size=+0>In the previous subsection we gave an overview of some of
+the most important access network technologies in the Internet. While describing
+these technologies, we also indicated the physical media used. For example,
+we said that HFC uses a combination of fiber cable and coaxial cable. We
+said that ordinary modems, ISDN, and ADSL use twisted-pair copper wire.
+And we said that&nbsp; mobile access network use the radio spectrum. In
+this subsection we provide a brief overview of these and other transmission
+media that are commonly employed in the Internet.</font>
+<p><font size=+0>In order to define what is meant by a "physical medium,",
+let us reflect on the brief life of a bit.</font> Consider a bit traveling
+from one end system, through a series of links and routers, to another
+end system. This poor bit gets transmitted many, many times! The source
+end-system first transmits the bit and shortly thereafter the first router
+in the series receives the bit; the first router then transmits the bit
+and shortly afterwards the second router receives the bit, etc. Thus our
+bit, when traveling from source to destination, passes through a series
+of transmitter-receiver pairs. For each transmitter-receiver pair, the
+bit is sent by propagating electromagnetic waves across a <b>physical medium</b>.
+The physical medium can take many shapes and forms, and does not have to
+be of the same type for each transmitter-receiver pair along the path.
+Examples of physical media include twisted-pair copper wire, coaxial cable,
+multimode fiber optic cable, terrestrial radio spectrum and satellite radio
+spectrum. Physical media fall into two categories: <b>guided media</b>
+and <b>unguided media</b>. With guided media, the waves are guided along
+a solid medium, such as a fiber-optic cable, a twisted-pair cooper wire
+or a coaxial cable. With unguided media, the waves propagate in the atmosphere
+and in outer space, such as in a digital satellite channel or in a CDPD
+system.
+<h3>
+Some Popular Physical Media</h3>
+Suppose you want to wire a building to allow computers to access the Internet
+or an intranet -- should you use twisted-pair copper wire, coaxial cable,
+or fiber optics? Which of these media gives the highest bit rates over
+the longest distances? We shall address these questions below.
+<p>But before we get into the characteristics of the various guided medium
+types, let us say a few words about their costs. The actual cost of the
+physical link (copper wire, fiber optic cable, etc.) is often relatively
+minor compared with the other networking costs. In particular, the labor
+cost associated with the installation of the physical link can be orders
+of magnitude higher than the cost of the material. For this reason, many
+builders install twisted pair, optical fiber, and coaxial cable to every
+room in a building. Even if only one medium is initially used, there is
+a good chance that another medium could be used in the near future, and
+so money is saved but not having to lay additional wires.
+<p><b><i>Twisted-Pair Copper Wire</i></b>
+<p>The least-expensive and most commonly-used transmission medium is twisted-pair
+copper wire. For <a href="http://www.att.com/agbell/">over one-hundred
+years it has been used by telephone networks</a>. In fact, more than 99%
+of the wired connections from the telephone handset to the local telephone
+switch use twisted-pair copper wire. Most of us have seen twisted pair
+in our homes and work environments. Twisted pair consists of two insulated
+copper wires, each about 1 mm thick, arranged in a regular spiral pattern;
+see Figure 1.5-3.&nbsp; The wires are twisted together to reduce the electrical
+interference from similar pairs close by.&nbsp; Typically, a number of
+pairs are bundled together in a cable by wrapping the pairs in a protective
+shield. A wire pair constitutes a single communication link.
+<center><img SRC="grentwist.gif" VSPACE=10 height=30 width=332>
+<br><b>Figure 1.5-3:</b> Twisted Pair</center>
+
+<p><b>Unshielded twisted pair (UTP)</b> is commonly used for computer networks
+within a building, that is, for local area networks (LANs). Data rates
+for LANs using twisted pair today range from 10 Mbps to 100 Mbps. The data
+rates that can be achieved depend on the thickness of the wire and the
+distance between transmitter and receiver. Two types of UTP are common
+in LANs: category 3 and category 5. Category 3 corresponds to voice-grade
+twisted pair, commonly found in office buildings. Office buildings are
+often prewired with two or more parallel pairs of category 3 twisted pair;
+one pair is used for telephone communication, and the additional pairs
+can be used for additional telephone lines or for LAN networking. 10 Mbps
+Ethernet, one of the most prevalent LAN types, can use category 3 UTP.
+Category 5, with its more twists per centimeter and Teflon insulation,
+can handle higher bit rates. 100 Mbps Ethernet running on category 5 UTP
+has become very popular&nbsp; in recent years. In recent years, category
+5 UTP has become common for preinstallation in new office buildings.
+<p>When fiber-optic technology emerged in the 1980s, many people disparaged
+twisted-pair&nbsp; because of its relatively low bit rates. Some people
+even felt that fiber optic technology would completely replace twisted
+pair. But twisted pair did not give up so easily. <a href="http://www.rwdata.co.uk/proced.htm">Modern
+twisted-pair technology</a>, such as category 5 UTP, can achieve data rates
+of 100 Mbps for distances up to a few hundred meters. Even higher rates
+are possible over shorter distances. In the end, twisted-pair has emerged
+as the dominant&nbsp; solution for high-speed LAN networking.
+<p>As discussed in Section 1.5.1, twisted-pair is also commonly used for
+residential Internet access. We saw that dial-up modem technology enables
+access at rates of up to 56 Kbps over twisted pair. We also saw that
+<a href="http://www.pacbell.com/products/business/fastrak/networking/isdn/info/isdn-overview/index.html">ISDN</a>
+is available in many communities, providing access rates of about 128 Kbps
+over twisted pair. We also saw that <a href="http://www.adsl.com/adsl_tutorial.html">ADSL</a>
+(Asymmetric Digital Subscriber Loop) technology has enabled residential
+users to access the Web at rates in excess of 6 Mbps over twisted pair.
+<p><b><i>Coaxial-Cable</i></b>
+<p>Like twisted pair, coaxial cable consists of two copper conductors,
+but the two conductors are concentric rather than parallel. With this construction
+and a special insulation and shielding, coaxial cable can have higher bit
+rates than twisted pair. Coaxial cable comes in two varieties: <b>baseband
+coaxial cable</b> and <b>broadband coaxial cable</b>.
+<p>Baseband coaxial cable, also called 50-ohm cable, is about a centimeter
+thick, lightweight, and easy to bend. It is&nbsp; commonly used in LANs;
+in fact, the computer you use at work or at school is probably connected
+to a LAN with either baseband coaxial cable or with UTP. Take a look at
+the the connection to your computer's interface card. If you see a telephone-like
+jack and some wire that resembles telephone wire, you are using UTP; if
+you see a T-connector and a cable running out of both sides of the T-connector,
+you are using baseband coaxial cable. The terminology "baseband" comes
+from the fact that the stream of bits is dumped directly into the cable,
+without shifting the signal to a different frequency band. 10 Mbps Ethernets
+can use either UTP or baseband coaxial cable. As we will discuss in the
+Chapter 5, it is a little more expensive to use UTP for 10 Mbps Ethernet,
+as UTP requires an additional networking device, called a <b>hub</b>.
+<p>Broadband coaxial cable, also called 75-ohm cable, is quite a bit thicker,
+heavier, and stiffer than the baseband variety. It was once commonly used
+in LANs and can still be found in some older installations. For LANs, baseband
+cable is now preferable, since it is less expensive, easier to physically
+handle, and does not require attachment cables. Broadband cable, however,
+is quite common in cable television systems. As we saw in Section 1.5.1,
+cable television systems have been recently been coupled with <a href="http://CableDatacomNews.com/cmic1.htm">cable
+modems</a> to provide residential users with Web access at rates of 10
+Mbps or higher. With broadband coaxial cable, the transmitter shifts the
+digital signal to a specific frequency band, and the resulting analog signal
+is sent from the transmitter to one or more receivers. Both baseband and
+broadband coaxial cable can be used as a guided <b>shared medium</b>. Specifically,
+a number of end systems can be connected directly to the cable, and all
+the end systems receive whatever any one of the computers transmits. We
+will look at this issue in more detail in Chapter 5.
+<p><b><i>Fiber Optics</i></b>
+<p>An optical fiber is a thin, flexible medium that conducts pulses of
+light, with each pulse representing a bit. A single optical fiber can support
+tremendous bit rates, up to tens or even hundreds of gigabits per second.
+They are immune to electromagnetic interference, have very low signal attenuation
+up to 100 kilometers, and are very hard to tap. These characteristics have
+made fiber optics the preferred long-haul guided transmission media, particularly
+for overseas links. Many of the long-distance telephone networks in the
+United States and elsewhere now use fiber optics exclusively. Fiber optics
+is also prevalent in the backbone of the Internet. However, the high cost
+of optical devices -- such as transmitters, receivers, and switches --
+has hindered their deployment for short-haul transport, such as in a LAN
+or into the home in a residential access network. AT&amp;T Labs provides
+an <a href="http://www.att.com/attlabs/brainspin/fiberoptics/">excellent
+site on fiber optics</a>, including several nice animations.
+<p><b><i>Terrestrial and Satellite Radio Channels</i></b>
+<p>Radio channels carry signals in the electromagnetic spectrum.&nbsp;
+They are an attractive media because require no physical "wire" to be installed,
+can penetrate walls, provide connectivity to a mobile user, and can potentially
+carry a signal for long distances. The characteristics a radio channel
+depend significantly on the propagation environment and the distance over
+which a signal is to be carried. Environmental considerations determine
+path loss and shadow fading (which decrease in signal strength as it travels
+over a distance and around/through obstructing objects), multipath fading
+(due to signal reflection off of interfering objects),&nbsp; and interference
+(due to other radio channels or electromagnetic signals).
+<p>Terrestrial radio channels can be broadly classified into two groups:
+those that operate as local area networks (typically spanning 10's to a
+few hundred meters) and wide-area radio channels that are used for mobile
+data services (typically operating within a metropolitan region).&nbsp;
+A number of wireless LAN products are on the market, operating in the 1
+to 10's of Mbps range. Mobile data services (such as the CDPD standard
+we touched on in section 1.3), typically provide&nbsp; channels that operate
+at 10's of Kbps.&nbsp; See&nbsp; [<a href="#[Goodman 1997]">Goodman 97</a>]
+for a survey and discussion of the technology and products.
+<p>A communication satellite links two or more earth-based microwave transmitter/receivers,
+known as ground stations. The satellite receives transmissions on one frequency
+band, regenerates the signal using a repeater (discussed below), and transmits
+the signal on another frequency. Satellites can provide bandwidths in the
+gigabit per second range. Two types of satellites are used in communications:
+geostationary satellites and low-altitude satellites.
+<p>Geostationary satellites permanently remain above the same spot on the
+Earth. This stationary presence is achieved by placing the satellite in
+orbit at 36,000 kilometers above the Earth's surface. This huge distance
+between from ground station though satellite back to ground station introduces
+a substantial signal propagation delay of 250 milliseconds. Nevertheless,
+satellites links are often used in telephone networks and in the backbone
+of the Internet.
+<p>Low-altitude satellites are placed much closer to the Earth and do not
+remain permanently above one spot on the Earth. They rotate around the
+Earth just as the Moon rotates around the Earth. To provide continuous
+coverage to an area, many satellites to be placed in orbit. There are currently
+many low-altitude communication systems in development. The <a href="http://www.iridium.com">Iridium
+system</a>, for example, consists of 66 low-altitude satellites. <a href="http://www.ee.surrey.ac.uk/Personal/L.Wood/constellations/iridium.html">Lloyd's
+satellite constellations</a> provides and collects information on Iridium
+as well as other satellite constellation systems. The low-altitude satellite
+technology may be used for Internet access sometime in the future.
+<br>&nbsp;
+<p><a HREF="../0_0-Contents.htm">Return to
+Table Of Contents</a>
+<br>&nbsp;
+<h3>
+References</h3>
+<a NAME="[@Home 1998]"></a>[@Home 1998] @Home, "<a href="http://www.home.net/corp/xdsl.html">xDSL
+vs. @HOME'S Hybrid-fiber-coaxial (HFC) Cable Modem Network: the Facts</a>,"
+1998.
+<br><a NAME="[ADSL 1998]"></a>[ADSL 1998]&nbsp; ADSL Forum, <a href="http://www.adsl.com/adsl_tutorial.html">ADSL
+Tutorial</a>, 1998.
+<br><a NAME="[Cable 1998]"></a>[Cable 1998] Cable Data News, "<a href="http://CableDatacomNews.com/cmic1.htm">Overview
+of Cable Modem Technology and Services,</a>" 1998.
+<br><a NAME="[Cisco 1998]"></a>[Cisco 1998] Cisco, "<a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/idg4/nd2012.htm">Designing
+Switched LAN Internetworks</a>," 1998.
+<br><a NAME="[Goodman 1997]"></a>[Goodman 1997] D. Goodman (Chair), <a href="http://www.nap.edu/readingroom/books/evolution/index.html">"The
+Evolution of&nbsp; Untethered Communications,"</a> National Academy Press,
+December 1997.
+<br><a NAME="[NAS 1995]"></a>[NAS 1995] National Academy of Sciences, "<a href="http://www.nap.edu/readingroom/books/unpredictable/chap4.html">The
+Unpredictable Certainty: Information Infrastructure Through 2000,</a>"&nbsp;
+1995.
+<br><a NAME="[Pacific Bell 1998]"></a>[Pacific Bell 1998]&nbsp; Pacific
+Bell, "ISDN Users Guide," <a href="http://www.pacbell.com/products/business/fastrak/networking/isdn/info/isdn-guide/index.html">http://www.pacbell.com/products/business/fastrak/networking/isdn/info/isdn-guide/index.html</a>
+<br><a NAME="[Waung 1998]"></a>[Waung 1998] W.&nbsp; Waung, "<a href="http://www2.wirelessdata.org/public/whatis/whatis.html">Wireless
+Mobile Data Networking The CDPD Approach</a>," Wireless Data Forum, 1998.
+<br><a NAME="[Wireless 1998]"></a>[Wireless 1998]&nbsp; Wireless Data Forum,
+"<a href="http://www2.wirelessdata.org/public/specification/index.html">CDPD
+System Specification Release 1.1,</a>" 1998
+<p>
+<hr WIDTH="100%"><font color="#0000FF">Copyright Keith W. Ross and Jim
+Kurose 1996-2000</font>
+</body>
+</html>

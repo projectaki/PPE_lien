@@ -1,0 +1,75 @@
+
+                             1.5.1 Access Networks
+
+    Figure 1.5-1 shows the access networks' links highlighted in red.
+
+                                [acc_phy.GIF]
+                        Figure 1.5-1: Access networks
+--
+   the PC into analog format  for transmission over the analog phone
+   line.  A modem in the ISP converts the analog signal back into digital
+   form for input to the ISP router.  In this case, the "access network"
+   is simply a point-to-point dialup link into an edge router.  The
+   point-to-point link is your ordinary twisted-pair phone line. (We will
+   discuss twisted pair later in this section.) Today's modem speeds allow
+   dialup access at rates up to 56 Kbps.  However, due to the poor quality
+   of twisted-pair line between many homes and ISPs, many users get an
+--
+   information.
+
+   ADSL uses frequency division multiplexing, as described in the previous
+   section. In particular, ADSL divides the communication link between the
+   home the ISP into three non-overlapping frequency bands:
+
+     * a high-speed downstream channel, in the 50 KHz to 1 MHz band;
+--
+
+   One important characteristic of the HFC is that it is a shared
+   broadcast medium. In particular, every packet sent by the headend
+   travels downstream on every link to every home; and every packet sent
+   by a home travels on the upstream channel to the headend. For this
+   reason, if several users are receiving different Internet videos on the
+   downstream channel, actual rate at which each user receives its video
+--
+   CDPD does not provide for any protocols above the network layer.  From
+   an Internet perspective, CDPD can be viewed as extending the Internet
+   dialtone (i.e., the ability to transfer IP packets) across a wireless
+   link between a mobile end system and an Internet router. An excellent
+   introduction to CDPD is [Waung 98].
+
+  1.5.2 Physical Media
+--
+
+   In order to define what is meant by a "physical medium,", let us
+   reflect on the brief life of a bit. Consider a bit traveling from one
+   end system, through a series of links and routers, to another end
+   system. This poor bit gets transmitted many, many times! The source
+   end-system first transmits the bit and shortly thereafter the first
+   router in the series receives the bit; the first router then transmits
+--
+
+   But before we get into the characteristics of the various guided medium
+   types, let us say a few words about their costs. The actual cost of the
+   physical link (copper wire, fiber optic cable, etc.) is often
+   relatively minor compared with the other networking costs. In
+   particular, the labor cost associated with the installation of the
+   physical link can be orders of magnitude higher than the cost of the
+   material. For this reason, many builders install twisted pair, optical
+   fiber, and coaxial cable to every room in a building. Even if only one
+   medium is initially used, there is a good chance that another medium
+--
+   channels that operate at 10's of Kbps.  See  [Goodman 97] for a survey
+   and discussion of the technology and products.
+
+   A communication satellite links two or more earth-based microwave
+   transmitter/receivers, known as ground stations. The satellite receives
+   transmissions on one frequency band, regenerates the signal using a
+   repeater (discussed below), and transmits the signal on another
+--
+   orbit at 36,000 kilometers above the Earth's surface. This huge
+   distance between from ground station though satellite back to ground
+   station introduces a substantial signal propagation delay of 250
+   milliseconds. Nevertheless, satellites links are often used in
+   telephone networks and in the backbone of the Internet.
+
+   Low-altitude satellites are placed much closer to the Earth and do not

@@ -1,0 +1,65 @@
+
+What is deep linking?
+
+   Deep links are a type of link that send users directly to an app
+   instead of a website or a store. They are used to send users straight
+   to specific in-app locations, saving users the time and energy locating
+   a particular page themselves – significantly improving the user
+--
+
+   Deep linking does this by specifying a custom URL scheme (iOS Universal
+   Links) or an intent URL (on Android devices) that opens your app if
+   it’s already installed. Deep links can also be set to direct users to
+   specific events or pages, which could tie into campaigns that you may
+   want to run.
+
+Why are deep links important?
+
+   Deep links produce a seamless user journey that reduces churn and
+   increases the likelihood of an install. They let you make sophisticated
+   campaigns while providing a better user experience, moving users onto
+   your app in a single click.
+
+   Deep links also create the opportunity for easier incentivization. It’s
+   simple to persuade people to try a new experience when a potential
+   prize or offer is sent to them via a retargeting campaign. For example,
+   let’s say you have a music app and want to promote a new album, so you
+   allocate budget to be spent on a popular website. However, you want the
+   user to listen to the sample in-app, not just on the website (where
+   they are only exposed to the album cover). Here you need a deep link to
+   send them directly to the correct page in your app, offering a seamless
+   user experience.
+
+--
+
+What are deferred deep links?
+
+   Deep links are a smart way to drive conversions while offering a
+   positive user experience, but what happens if the user is deep linked
+   into an app they don’t have installed? This is when deferred deep links
+   come in to play.
+
+   If a user clicks on a deep link and doesn’t have the app installed,
+   they can be deferred to the App Store instead. The genius of deferred
+   deep linking is that when that user installs and opens up the app, they
+   can still be sent to the in-app location where you initially wanted
+--
+Adjust Deeplink Generator
+
+   Adjust made the Deeplink Generator with usability in mind, allowing you
+   to create a deep link without any extra effort. The Deeplink Generator
+   provides marketers with fully-formed deep link URLs that work for both
+   App Links (Android) and Universal Links (iOS), greatly reducing the
+   hassle of implementing deep links yourself.
+
+   To use the tool, log in to your Adjust dashboard and open the Menu,
+   where you’ll see the ‘Deeplink Generator’ as an option. Click to open,
+--
+
+   Have more questions on deep linking? We can help with our full deep
+   linking guide, which covers the process and best practices. You can
+   also read more about deep links with our official documentation, which
+   shares detailed technical information on how our deep links work.
+
+   Craving monthly app insights? Subscribe to our newsletter.
+

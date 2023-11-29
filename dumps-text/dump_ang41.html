@@ -1,25 +1,259 @@
-   HTTP/2 200 date: Wed, 29 Nov 2023 08:34:51 GMT content-type: text/html;
-   charset=utf-8 cf-ray: 82d9838e7b8424b5-LHR cf-cache-status: DYNAMIC
-   cache-control: no-cache, no-store, max-age=0, must-revalidate link:
-   /glyph.medium.com/css/unbound.css>; as="style"; rel="preload"
-   set-cookie: uid=lo_a5a86dc70f25; Domain=medium.com; Path=/;
-   Expires=Fri, 29 Nov 2024 08:34:51 GMT; HttpOnly; Secure; SameSite=None
-   strict-transport-security: max-age=15552000; includeSubDomains; preload
-   vary: Accept-Encoding content-security-policy: frame-ancestors 'self'
-   https://medium.com medium-fulfilled-by: edgy/8.5.0,
-   valencia/main-20231128-143257-29a0bac71a,
-   lite/main-20231129-000147-4d47167643,
-   rito/main-20231128-200115-f64c316263,
-   tutu/main-20231127-183847-9615fa61d7 medium-missing-time: 214
-   worker-cache-key:
-   julioarenas85.medium.com/what-is-the-difference-between-a-physical-link
-   -and-a-symbolic-link-ddb59dd77037 worker-cache-middleware: true
-   worker-missing-cookies: 1 x-content-type-options: nosniff
-   x-envoy-upstream-service-time: 354 x-request-received-at: 1701246891437
-   set-cookie:
-   sid=1:Lds3ashe29SFZQjjjxuJxCDG++JJXXv2+kf5P4Z0P2yRj6yEfbayoEd9TzvzEyu7;
-   Domain=medium.com; Path=/; Expires=Fri, 29 Nov 2024 08:34:51 GMT;
-   HttpOnly; Secure; SameSite=None set-cookie:
-   __cfruid=1bac7f9f5ece614a96b1836e6ee17e970806ae8e-1701246891; path=/;
-   domain=.medium.com; HttpOnly; Secure; SameSite=None server: cloudflare
-   alt-svc: h3=":443"; ma=86400
+   Skip to main content
+
+   Red Hat logo
+   (BUTTON) Search (BUTTON)
+   ____________________
+   (BUTTON) Search
+   Enable Sysadmin
+     * Articles
+       Automation Career Cloud Containers Kubernetes Linux Programming
+       Security
+
+   (BUTTON)
+   Enable Sysadmin
+     * Articles
+       Automation Career Cloud Containers Kubernetes Linux Programming
+       Security
+
+   Subscribe to our RSS feed or Email newsletter.
+   ____________________
+   (BUTTON) GO
+
+Hard links and soft links in Linux explained
+
+   Let's discuss when you should use hard links or soft links, and the
+   syntax of the ln command.
+
+   Posted: September 21, 2020 | %t min read | by Tyler Carrigan (Editorial
+   Team, Red Hat)
+   Image
+   Hard links and soft links explained
+   Image by Dawid Śliwka from Pixabay
+   Skip to the bottom of list
+
+Great Linux resources
+
+     * Advanced Linux commands cheat sheet
+     * Download RHEL 9 at no charge through the Red Hat Developer program
+     * A guide to installing applications on Linux
+     * Linux system administration skills assessment
+     * How well do you know Linux? Take a quiz and get a badge
+
+   Have you ever been familiar with something, worked around it, but not
+   fully understood its concepts? I feel like that happens to me more than
+   most people. This is a frustrating feeling, but it is also one that
+   often is easily remedied. Sometimes, it only takes someone explaining
+   the concept in "plain English," aka layman's terms. That is the goal of
+   this article. I want to talk about hard links and soft (symbolic) links
+   in the most basic terms possible. You may realize that this concept,
+   which is often a struggle for sysadmins, is quite simple. If nothing
+   else, I take you through the syntax to create these links (which many
+   people find difficult to remember). So let's get down to it.
+
+Hard links
+
+   The concept of a hard link is the most basic we will discuss today.
+   Every file on the Linux filesystem starts with a single hard link. The
+   link is between the filename and the actual data stored on the
+   filesystem. Creating an additional hard link to a file means a few
+   different things. Let's discuss these.
+
+   First, you create a new filename pointing to the exact same data as the
+   old filename. This means that the two filenames, though different,
+   point to identical data. For example, if I create file
+   /home/tcarrigan/demo/link_test and write hello world in the file, I
+   have a single hard link between the file name link_test and the file
+   content hello world.
+[tcarrigan@server demo]$ ls -l
+total 4
+-rw-rw-r--. 1 tcarrigan tcarrigan 12 Aug 29 14:27 link_test
+
+   Take note of the link count here (1).
+
+   Next, I create a new hard link in /tmp to the exact same file using the
+   following command:
+[tcarrigan@server demo]$ ln link_test /tmp/link_new
+
+   The syntax is ln (original file path) (new file path).
+
+   Now when I look at my filesystem, I see both hard links.
+[tcarrigan@server demo]$ ls -l link_test /tmp/link_new
+-rw-rw-r--. 2 tcarrigan tcarrigan 12 Aug 29 14:27 link_test
+-rw-rw-r--. 2 tcarrigan tcarrigan 12 Aug 29 14:27 /tmp/link_new
+
+   The primary difference here is the filename. The link count has also
+   been changed (2). Most notably, if I cat the new file's contents, it
+   displays the original data.
+[tcarrigan@server demo]$ cat /tmp/link_new
+hello world
+
+   When changes are made to one filename, the other reflects those
+   changes. The permissions, link count, ownership, timestamps, and file
+   content are the exact same. If the original file is deleted, the data
+   still exists under the secondary hard link. The data is only removed
+   from your drive when all links to the data have been removed. If you
+   find two files with identical properties but are unsure if they are
+   hard-linked, use the ls -i command to view the inode number. Files that
+   are hard-linked together share the same inode number.
+[tcarrigan@server demo]$ ls -li link_test /tmp/link_new
+2730074 -rw-rw-r--. 2 tcarrigan tcarrigan 12 Aug 29 14:27 link_test
+2730074 -rw-rw-r--. 2 tcarrigan tcarrigan 12 Aug 29 14:27 /tmp/link_new
+
+   The shared inode number is 2730074, meaning these files are identical
+   data.
+
+   If you want more information on inodes, read my full article here.
+
+Hard limits
+
+   While useful, there are some limitations to what hard links can do. For
+   starters, they can only be created for regular files (not directories
+   or special files). Also, a hard link cannot span multiple filesystems.
+   They only work when the new hard link exists on the same filesystem as
+   the original.
+
+Soft links
+
+   Commonly referred to as symbolic links, soft links link together
+   non-regular and regular files. They can also span multiple filesystems.
+   By definition, a soft link is not a standard file, but a special file
+   that points to an existing file. Let's look at how to create a soft
+   link. I use the ln -s command and the following syntax:
+
+   ln -s (file path you want to point to) (new file path)
+
+   In the example below, I create a new file at
+   /home/tcarrigan/demo/soft_link_test with the file content soft Hello
+   world. I then create a soft link to that file at /tmp/soft_link_new:
+[tcarrigan@server demo]$ ln -s /home/tcarrigan/demo/soft_link_test /tmp/soft_lin
+k_new
+[tcarrigan@server demo]$ ls -l soft_link_test /tmp/soft_link_new
+-rw-rw-r--. 1 tcarrigan tcarrigan 17 Aug 30 11:59 soft_link_test
+lrwxrwxrwx. 1 tcarrigan tcarrigan 35 Aug 30 12:09 /tmp/soft_link_new -> /home/tc
+arrigan/demo/soft_link_test
+
+   Notice that /tmp/soft_link_new is just a symbolic link, pointing to the
+   original /home/tcarrigan/demo/soft_link_test. If I cat the content of
+   /tmp/soft_link_new, I should see the soft Hello world text.
+[tcarrigan@server demo]$ cat /tmp/soft_link_new
+soft Hello world
+
+   All of this sounds great, but there are some drawbacks to using a soft
+   link. The biggest concern is data loss and data confusion. If the
+   original file is deleted, the soft link is broken. This situation is
+   referred to as a dangling soft link. If you were to create a new file
+   with the same name as the original, your dangling soft link is no
+   longer dangling at all. It points to the new file created, whether this
+   was your intention or not, so be sure to keep this in mind.
+
+Hard or soft?
+
+   There is no clear answer here. The best link is the type that fits your
+   particular situation. While these concepts can be tricky to remember,
+   the syntax is pretty straightforward, so that is a plus! To keep the
+   two easily separated in your mind, I leave you with this:
+     * A hard link always points a filename to data on a storage device.
+     * A soft link always points a filename to another filename, which
+       then points to information on a storage device.
+
+   Hopefully, this helps you keep them separated as you work your way
+   through the link types needed to accomplish your daily goals!
+
+   [ Free online course: Red Hat Enterprise Linux technical overview. ]
+   Image
+   sea shells on the beach
+   Terminals, shells, consoles, and command lines
+   Terminals, shells, consoles, and command lines are related but are not
+   synonyms. Seth Kenlon exposes the differences.
+   Posted: March 23, 2020
+   Author: Seth Kenlon (Editorial Team, Red Hat)
+   Image
+   Custom
+   Customizing Linux filesystem commands
+   Uncomfortable working on the command line? This article walks you
+   through customizing your commands, and some examples of how to
+   streamline your filesystem trash handling.
+   Posted: July 1, 2019
+   Author: Seth Kenlon (Editorial Team, Red Hat)
+   Image
+   Working with pipes
+   Working with pipes on the Linux command line
+   We're not talking PVC here, but these command-line pipes are just as
+   useful, and they hold a ton of value for system administrators.
+   Posted: August 7, 2019
+   Author: Ken Hess (Sudoer alumni)
+   Image
+   How to customize the Linux top command
+   How to customize the Linux top command
+   The top command offers many customization options. Here's one way to
+   take advantage of them in order to check out memory use.
+   Posted: September 18, 2019
+   Author: Hayden James
+   Topics:   Linux   Command line utilities
+   Author’s photo
+
+Tyler Carrigan
+
+   Tyler is the Sr. Community Manager at Enable Sysadmin, a submarine
+   veteran, and an all-round tech enthusiast! He was first introduced to
+   Red Hat in 2012 by way of a Red Hat Enterprise Linux-based combat
+   system inside the USS Georgia Missile Control Center. More about me
+
+Try Red Hat Enterprise Linux
+
+Download it at no charge from the Red Hat Developer program.
+
+Related Content
+
+   Image
+   Laptop keyboard with Ethernet patch cable
+   Stop using Telnet to test ports
+   Make life simpler by automating network checks with tools like Expect,
+   Bash, Netcat, and Nmap instead.
+   Posted: April 18, 2023
+   Author: Jose Vicente Nunez (Sudoer)
+   Image
+   Photo of a broken pink egg with smaller eggs spilling out
+   8 open source 'Easter eggs' to have fun with your Linux terminal
+   Hunt these 8 hidden or surprising features to make your Linux
+   experience more entertaining.
+   Posted: April 10, 2023
+   Author: Ricardo Gerardi (Editorial Team, Sudoer alumni, Red Hat)
+   Image
+   Ten
+   Troubleshooting Linux performance, building a golden image for your
+   RHEL homelab, and more tips for sysadmins
+   Check out Enable Sysadmin's top 10 articles from March 2023.
+   Posted: April 4, 2023
+   Author: Vicki Walker (Editorial Team, Red Hat)
+
+   The opinions expressed on this website are those of each author, not of
+   the author's employer or of Red Hat. The content published on this site
+   are community contributions and are for informational purpose only AND
+   ARE NOT, AND ARE NOT INTENDED TO BE, RED HAT DOCUMENTATION, SUPPORT, OR
+   ADVICE.
+
+   Red Hat and the Red Hat logo are trademarks of Red Hat, Inc.,
+   registered in the United States and other countries.
+
+Red Hat legal and privacy links
+
+     * About Red Hat
+     * Jobs
+     * Events
+     * Locations
+     * Contact Red Hat
+     * Red Hat Blog
+     * Diversity, equity, and inclusion
+     * Cool Stuff Store
+     * Red Hat Summit
+
+   © 2023 Red Hat, Inc.
+
+Red Hat legal and privacy links
+
+     * Privacy statement
+     * Terms of use
+     * All policies and guidelines
+     * Digital accessibility
+     *

@@ -1,9 +1,209 @@
-   HTTP/2 200 date: Wed, 29 Nov 2023 08:34:08 GMT content-type: text/html;
-   charset=UTF-8 vary: Accept-Encoding server: Pagely-ARES/1.19.38
-   x-gateway-request-id: 0050375cedf5d2809d53bcdff025a26e x-pingback:
-   https://www.ccnablog.com/xmlrpc.php link: /www.ccnablog.com/wp-json/>;
-   rel="https://api.w.org/", /www.ccnablog.com/wp-json/wp/v2/posts/160>;
-   rel="alternate"; type="application/json", /www.ccnablog.com/?p=160>;
-   rel=shortlink vary: Accept-Encoding x-gateway-cache-key:
-   0|standard|https|www.ccnablog.com|||/data-link-layer-ethernet-and-physi
-   cal-layer/ x-gateway-cache-status: HIT x-gateway-skip-cache: 0
+   #CCNA Blog » Feed CCNA Blog » Comments Feed CCNA Blog » Data link
+   layer, Ethernet and physical layer Comments Feed alternate alternate
+   alternate
+
+   CCNA Blog
+   Tips and Tutorials
+   Free CCNA Blog
+   Follow us on Twitter Follow us on Facebook Follow us on Google Plus
+   Follow us on rss
+
+   Skip to content
+     * Home
+     * Lessons
+     * Blog
+
+   Free CCENT & CCNA Training to pass your certification exam
+   Certification Kits
+     __________________________________________________________________
+
+Data link layer, Ethernet and physical layer
+
+Overview
+
+   In the previous chapters, we learnt about the application layer and
+   transport layer port communication, we also looked at the network layer
+   and IPv4 addressing for remote delivery of packets. In this chapter we
+   look at the data link layer and discuss how it prepares packets for
+   transport over different types of media and physical network
+   components, we will also look at some of the Ethernet concepts and
+   finally look at the physical layer.
+
+Data link layer
+
+   The data link layer is the 2^nd layer in the OSI model. its function is
+   to primarily prepare packets for transmission over the physical media.
+   It also serves to control the flow of data that will traverse the
+   physical media. The Data Link PDU is the Frame. The two main functions
+   performed at this layer include.
+     * Framing of packets received from the network layer
+     * Control of how data is handled by the physical media through MAC
+       (Media Access Control) and detection of errors.
+
+   The devices at this layer are referred to as nodes.
+
+Protocols and services
+
+   In the other layers, most of the protocols were defined by the RFCs.
+   However, in the Data Link layer, the IEEE defines most of the
+   protocols. We will discuss some of these protocols in chapters on
+   switching.
+
+Physical layer
+
+   The OSI model layers that we have discussed previously mainly focus on
+   conversion of the data from the user to a form that can be transmitted
+   over the physical media. The physical layer which is the 1^st layer of
+   the OSI model, is responsible for transmitting the data over the
+   different types of physical media that may be present.
+
+   The frames that are received from the data link layer are converted
+   into bits for transmission over the medium in this layer. Depending on
+   the type of physical medium, the physical layer may represent the bits
+   as either; light signals, electrical signals or waves for transmission
+   over wireless media.
+
+   The transmission of this bits over the physical media depends on the
+   following:
+     * The type of medium and its connectors
+     * The form of representation of the bits; either electrical, light or
+       wave signals
+     * The data encoding and the control information
+     * The types of transmitters and receivers in the networks
+
+   As we have learnt earlier; by this stage in communication, the user
+   data has undergone several processes; segmentation at the transport
+   layer, packets in the network layer, encapsulation into frames at the
+   data link layer and finally, the data is converted into one of the
+   three forms that can be transmitted over the physical media;
+   electrical, light signals or microwaves in the physical layer.
+
+   The three main forms of transmission media that we use in networks are:
+    1. Copper cable
+    2. Fiber
+    3. Wireless
+
+   Just like the data link layer, the standards in the data link layer are
+   not defined under RFC, however, other standards do exist.
+
+Data carrying capacity in the physical layer
+
+   The various physical media offer transfer of data at different speeds.
+   The data transfer rate can be measured using three metrics.
+    1. Bandwidth – the capacity of the line. This is measured in bp/s
+       (bits per second), kb/s kilobit per second and mb/s megabit per
+       second.
+
+   NOTE: you should be careful not to confuse the bandwidth units. The
+   symbol used to represent bandwidth is bps or b/s. the letter b is in
+   small letters, this is not the same as the storage speed which is
+   measured in Bytes per second (Bps) with a capital B.
+    1. Throughput – this is the actual transferred data over a certain
+       amount of time, in most cases it is usually less than the
+       bandwidth.
+    2. Goodput – the actual useable data that has been transferred over a
+       certain period of time is known as goodput.
+
+Ethernet
+
+   The standards at the layer 1 and 2 of the OSI model are defined as
+   Ethernet standards. The different standards used in Ethernet define the
+   different layer 1 and layer 2 protocols, however, the format of the
+   frame does not change.
+
+   As we mentioned in the previous sections, the data link layer provides
+   mechanisms for converting packets to frames while the physical layer
+   converts frames to bits which are then transmitted over the physical
+   media.
+
+The hub
+
+   In the yester years, the main Ethernet standards in many Local area
+   networks was the HUB. The hub used a technique known as the CSMA/CA
+   (Carrier Sense Multiple Access/ Collision Avoidance) and CSMA/CD
+   (Carrier Sense Multiple Access/ Collision Detection). This was
+   implemented using either the bus or hub technologies.
+
+   Like the name suggests, the hub was at the heart of communication in a
+   network segment and devices could only transmit data one at a time.
+
+   The HUB operates at layer 1, this means that when data is received by a
+   hub, it floods this information to all the devices in the network. This
+   is a major performance issue since there may be congestion, network
+   failure among others.
+
+   NOTE: the area in which the Hub is the center of communication is refer
+   to as a collision domain. This is because there is a high possibility
+   of collisions.
+
+   The communication in a collision domain such as the one by a hub has
+   the following characteristics.
+     * Flooding – where frames are sent to all devices in connected to the
+       hub.
+     * Only one device can communicate at any instance
+     * Communication is only one way
+     * One collision domain
+
+The switch
+
+   The problems associated with hubs, such as high failure rate due to
+   collisions were a major hindrance to growth of networks. As a result, a
+   new solution to combat this was introduced. The switch, changed
+   communication in networks in many ways, each port on a switch acted as
+   a single collision domain, therefore, the switch had as many collision
+   domains as it had ports. This meant that the likelihood of collisions
+   was reduced. The switch worked at layer 2 as opposed to layer one which
+   meant that the switch could learn of the devices on its network and
+   instead of flooding frames, unicast communication was possible.
+
+   Further development lead to bidirectional communication, instead of
+   only one way communication as seen in hubs, also with switches many
+   devices can communicate simultaneously.
+
+   The area where a switch is center of communication is known as a
+   broadcast domain. In this type of communication, each port is its own
+   collision domain therefore, there are as many collision domains as
+   there are switch ports.
+
+   Some of the other characteristics of a switch include:
+     * Communication at data-link layer instead of the physical layer
+     * Full duplex communication
+     * Broadcast domains instead of a single collision domain
+
+   NOTE: Some of the concepts of switching will be discussed at a later
+   stage. These concepts are vital and are frequently examined in the CCNA
+   composite exam and the ICND 1 and ICND 2 exams.
+
+Summary
+
+   In this chapter, we have looked at the data link layer and how
+   communication at layer 2 occurs. We have also looked at the physical
+   layer and sending of data over the physical medium as bits. We
+   concluded with the Ethernet and looked at communication over a switch
+   and a hub. In the next chapter, we will do the basic configuration of a
+   router and look at some of the CISCO IOS basics.
+
+   Category: ccent-ccna-lessons Tags: CCNA, Data Link, HUB, ICND, IEEE,
+   OSI, RFC
+
+   Post navigation
+   ← Addressing in ipv4 – part 2 Planning and cabling the network →
+   Search for: ____________________ Search
+
+   Recent Posts
+     * Distance Learning and The Increased Importance of Home Labs
+     * Do I Need a CCENT or CCNA Lab for Cisco Certification?
+     * Cisco CCENT & CCNA STP Exam Question
+     * Cisco CCENT & CCNA Subnetting Exam Question!
+     * IPv6 (Internet Protocol version 6)
+
+   Pages
+     * Welcome to the CCNA Blog
+     * Blog
+     * Lessons
+
+   Tag Cloud
+   ARP CCNA CCNP CDP CISCO DCE DHCP DTE EIGRP HDLC HTTP HTTPS ICND ID IEEE
+   IOS IP ISP LAN MAC OSI OSPF REMEMBER RFC STP TCP UDP VLAN VLANS WAN
+
+   [freeccna1.jpg]

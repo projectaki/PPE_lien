@@ -1,0 +1,49 @@
+
+   Have you ever noticed that certain words on the Web look a little bit
+   different? Whenever you see a word or phrase thatʼs underlined in blue,
+   itʼs probably a hyperlink, or link for short. You might already know
+   how links work, even if youʼve never thought about them much before.
+   For example, try clicking the link below.
+
+   Hey, Iʼm a link! Click me!
+
+   Links are used to navigate the Web. When you click a link, it will take
+   you to a different webpage. In the example below, weʼre clicking a link
+   to learn more about the Cape Hatteras National Seashore.
+   using links to navigate Wikipedia.org
+
+   When you hover over a Wikipedia link, a preview of the linked site
+   appears to give you more information. It is important to note that most
+   web browsers show the linkʼs URL in the bottom-left
+   corner of the window.
+   viewing the link preview
+
+   You may also notice that your cursor changes into a hand icon whenever
+   you hover over a link.
+   viewing the cursor as a hand icon
+
+   If you see this icon, it means youʼve found a link. Youʼll find other
+   types of links this way too. For example, many websites actually use
+   images as links, so you can just click the image to navigate to another
+   page. In the example below, weʼre clicking the picture of a coffee mug
+   to open a page with more information about it.
+   clicking an image formatted as a link
+
+   Links donʼt always go to another website. In some cases, they allow you
+   to download a file. When you click a link like this, the file will be
+   downloaded to your computer. In the example below, weʼre downloading an
+   installation file for a new application.
+   downloading a file from a link
+
+   As you can see, links are an important part of using the Web. They
+   allow you to navigate between different webpages, download files, and
+   do a whole lot more.
+   Continue
+--
+
+   This website uses cookies to measure and analyze our traffic. For more
+   information about the cookies we use, see our Terms of Use. If you want
+   to change your decision later on, select the 'Cookie Policy' link in
+   the footer.
+   (BUTTON) Accept (BUTTON) Decline
+

@@ -1,44 +1,914 @@
-HTTP/2 103 
-link: <https://cdn.shopify.com>; rel=preconnect, <https://cdn.shopify.com>; crossorigin; rel=preconnect
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        
+            <title>What is a Hyperlink? HTML Links Explained with Examples</title>
+        
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-HTTP/2 200 
-date: Wed, 29 Nov 2023 08:34:50 GMT
-content-type: text/html; charset=utf-8
-x-sorting-hat-podid: 86
-x-sorting-hat-shopid: 18986963
-x-storefront-renderer-rendered: 1
-etag: W/"cacheable:17f51d01025ef777ccd1b7bbee2736ff"
-link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
-set-cookie: secure_customer_sig=; path=/; expires=Fri, 29 Nov 2024 08:34:50 GMT; secure; HttpOnly; SameSite=Lax
-set-cookie: localization=US; path=/; expires=Fri, 29 Nov 2024 08:34:50 GMT
-set-cookie: cart_currency=USD; path=/; expires=Wed, 13 Dec 2023 08:34:50 GMT
-set-cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22US%22%2C%22sale_of_data_region%22%3Afalse%7D; domain=typedecon.com; path=/; expires=Thu, 30 Nov 2023 08:34:50 GMT; SameSite=Lax
-set-cookie: _shopify_y=483f5895-a278-4344-b1ad-a9a3d6df0ad3; Expires=Thu, 28-Nov-24 08:34:50 GMT; Domain=typedecon.com; Path=/; SameSite=Lax
-set-cookie: _shopify_s=81774c72-4c93-4977-986a-83e441eb6dbf; Expires=Wed, 29-Nov-23 09:04:50 GMT; Domain=typedecon.com; Path=/; SameSite=Lax
-set-cookie: _orig_referrer=; Expires=Wed, 13-Dec-23 08:34:50 GMT; Domain=typedecon.com; Path=/; HttpOnly; SameSite=Lax
-set-cookie: _landing_page=%2Fblogs%2Ftype-glossary%2Flink; Expires=Wed, 13-Dec-23 08:34:50 GMT; Domain=typedecon.com; Path=/; HttpOnly; SameSite=Lax
-x-cache: hit, server
-x-frame-options: DENY
-content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
-strict-transport-security: max-age=7889238
-x-shopid: 18986963
-x-shardid: 86
-vary: Accept
-content-language: en
-powered-by: Shopify
-server-timing: processing;dur=14, db;dur=4, asn;desc="2200", edge;desc="LHR", country;desc="FR", theme;desc="181188232", pageType;desc="article", servedBy;desc="qmjc", requestID;desc="830a98ad-92fa-4d4c-8e3e-c209a0e5b07b"
-x-shopify-stage: production
-x-dc: gcp-europe-west2,gcp-europe-west1,gcp-europe-west1
-x-request-id: 830a98ad-92fa-4d4c-8e3e-c209a0e5b07b
-x-download-options: noopen
-x-xss-protection: 1; mode=block
-x-permitted-cross-domain-policies: none
-x-content-type-options: nosniff
-cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fP4oZuv%2Bdpm%2Bp%2Br%2FzMesQn2TJ7zWMI2xQ1EyKFJ4atcaOJfOgVhvoNQb2maPqN0agxHsCmDsQj3nE2YQjSDZ8yXj%2BRURESjyKuHOiXfAVLDSAYjCt0sPA6ftJ58LtaQ%3D"}],"group":"cf-nel","max_age":604800}
-nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
-server: cloudflare
-cf-ray: 82d98388e80863dd-LHR
-alt-svc: h3=":443"; ma=86400
-server-timing: cfRequestDuration;dur=42.999983, earlyhints
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+            <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap">
+        
 
+        
+        
+    <link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+  />
+</noscript>
+<link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+  />
+</noscript>
+
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/components/prism-core.min.js"
+></script>
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"
+></script>
+
+
+
+        
+        <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/news/assets/css/global-2c6f2910a9.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/screen-e9fc5800e5.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/search-bar-971612c5db.css" />
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/algoliasearch-3-33-0/algoliasearch.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/autocomplete-0-36-0/autocomplete.min.js"></script>
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/dayjs.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/localizedFormat.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/relativeTime.min.js"></script>
+
+        
+        
+            <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/locale/en.min.js"></script>
+        
+
+        
+        <script>let client,index;document.addEventListener("DOMContentLoaded",(()=>{client=algoliasearch("QMJYL5WYTI","89770b24481654192d7a5c402c6ad9a0"),index=client.initIndex("news")})),document.addEventListener("DOMContentLoaded",(()=>{const e=window.screen.width,t=window.screen.height,n=e>=767&&t>=768?8:5,o=document.getElementById("search-form"),s=document.getElementById("search-input"),a=document.getElementById("dropdown-container");let i,d,c;s.addEventListener("input",(e=>{i=e.target.value})),o.addEventListener("submit",(e=>{e.preventDefault(),function(){if(d=document.getElementsByClassName("aa-cursor")[0],d&&i){const e=d.querySelector("a").href;window.location.assign(e)}else!d&&i&&c&&window.location.assign(`https://www.freecodecamp.org/news/search?query=${i}`)}()}));const l=autocomplete("#search-input",{hint:!1,keyboardShortcuts:["s",191],openOnFocus:!0,appendTo:a,debug:!0},[{source:autocomplete.sources.hits(index,{hitsPerPage:n}),debounce:250,templates:{suggestion:e=>(c=!0,`\n            <a href="${e.url}">\n              <div class="algolia-result">\n                <span>${e._highlightResult.title.value}</span>\n              </div>\n            </a>\n          `),empty:()=>(c=!1,'\n            <div class="aa-suggestion footer-suggestion no-hits-footer">\n              <div class="algolia-result">\n                <span>\n                  No tutorials found\n                </span>\n              </div>\n            </div>\n          '),footer:e=>{if(!e.isEmpty)return`\n              <div class="aa-suggestion footer-suggestion">\n                <a id="algolia-footer-selector" href="https://www.freecodecamp.org/news/search?query=${i}">\n                  <div class="algolia-result algolia-footer">\n                    See all results for ${i}\n                  </div>\n                </a>\n              </div>\n            `}}}]).on("autocomplete:selected",((e,t,n,o)=>{d=t?t.url:`https://www.freecodecamp.org/news/search?query=${i}`,"click"!==o.selectionMethod&&"tabKey"!==o.selectionMethod&&c&&window.location.assign(d)}));document.addEventListener("click",(e=>{e.target!==s&&l.autocomplete.close()}))})),document.addEventListener("DOMContentLoaded",(()=>{dayjs.extend(dayjs_plugin_localizedFormat),dayjs.extend(dayjs_plugin_relativeTime),dayjs.locale("en")}));const isAuthenticated=document.cookie.split(";").some((e=>e.trim().startsWith("jwt_access_token="))),isDonor=document.cookie.split(";").some((e=>e.trim().startsWith("isDonor=true")));</script>
+
+        
+        
+    
+        <script
+            data-ad-client="ca-pub-9482786369113753"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            crossorigin="anonymous"
+            async
+        ></script>
+    
+
+
+        
+        
+        
+
+        
+        
+
+        <link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png">
+        
+        
+            <link rel="canonical" href="https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/">
+        
+        <meta name="referrer" content="no-referrer-when-downgrade">
+
+        
+
+        
+    <meta name="description" content="Let&#39;s begin with a quick question: How did you land on this article and this site today? Well, quite literally, by clicking or tapping on a link, right? That&#39;s how powerful this element is – it will get you to any part of the Internet just by clicking on a">
+
+    
+    <meta property="og:site_name" content="freeCodeCamp.org">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What is a Hyperlink? HTML Links Explained with Examples">
+    
+        <meta property="og:description" content="Let&#39;s begin with a quick question: How did you land on this article and this site today? Well, quite literally, by clicking or tapping on a link, right? That&#39;s how powerful this element is – it will get you to any part of the Internet just by clicking on a">
+    
+    <meta property="og:url" content="https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/">
+    <meta property="og:image" content="https://www.freecodecamp.org/news/content/images/2021/08/uide-to-writting-a-good-readme-file--3--1.png">
+    <meta property="article:published_time" content="2021-08-16T23:33:49.000Z">
+    <meta property="article:modified_time" content="2021-08-16T23:33:49.000Z">
+    
+        <meta property="article:tag" content="HTML">
+    
+        <meta property="article:tag" content="Web Development">
+    
+        <meta property="article:tag" content="Beginners Guide">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/freecodecamp">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is a Hyperlink? HTML Links Explained with Examples">
+    
+        <meta name="twitter:description" content="Let&#39;s begin with a quick question: How did you land on this article and this site today? Well, quite literally, by clicking or tapping on a link, right? That&#39;s how powerful this element is – it will get you to any part of the Internet just by clicking on a">
+    
+    <meta name="twitter:url" content="https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/">
+    <meta name="twitter:image" content="https://www.freecodecamp.org/news/content/images/2021/08/uide-to-writting-a-good-readme-file--3--1.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Hillary Nyakundi">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="HTML, Web Development, Beginners Guide">
+    <meta name="twitter:site" content="@freecodecamp">
+    
+        <meta name="twitter:creator" content="@larymak1">
+    
+
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+
+        
+    <script type="application/ld+json">{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"publisher": {
+		"@type": "Organization",
+		"name": "freeCodeCamp.org",
+		"url": "https://www.freecodecamp.org/news/",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg",
+			"width": 2100,
+			"height": 240
+		}
+	},
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.freecodecamp.org/news/content/images/2021/08/uide-to-writting-a-good-readme-file--3--1.png",
+		"width": 1200,
+		"height": 630
+	},
+	"url": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.freecodecamp.org/news/"
+	},
+	"datePublished": "2021-08-16T23:33:49.000Z",
+	"dateModified": "2021-08-16T23:33:49.000Z",
+	"keywords": "HTML, Web Development, Beginners Guide",
+	"description": "Let&#x27;s begin with a quick question: How did you land on this article and this\nsite today?\n\nWell, quite literally, by clicking or tapping on a link, right? That&#x27;s how\npowerful this element is – it will get you to any part of the Internet just by\nclicking on a link.\n\nSo, what are links and hyperlinks in HTML?\n\nWhat are Links and Hyperlinks in HTML?\nA link is a chain that connects pages both within a website and to other\nwebsites. Without links, we wouldn&#x27;t have any websites.\n\nFor example, let&#x27;s hav",
+	"headline": "What is a Hyperlink? HTML Links Explained with Examples",
+	"author": {
+		"@type": "Person",
+		"name": "Hillary Nyakundi",
+		"url": "https://www.freecodecamp.org/news/author/larymak/",
+		"sameAs": [
+			"https://larymak.netlify.app/",
+			"https://twitter.com/larymak1"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://www.freecodecamp.org/news/content/images/2023/04/lary.png",
+			"width": 1000,
+			"height": 1000
+		}
+	}
+}</script>
+
+
+        <meta name="generator" content="Eleventy">
+        <link rel="alternate" type="application/rss+xml" title="freeCodeCamp.org" href="https://www.freecodecamp.org/news/rss/">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<!-- Web Monetization (https://webmonetization.org/) -->
+<meta name="monetization" content="$ilp.uphold.com/LJmbPn7WD4JB">
+<!-- end Web Monetization -->
+
+<!-- dataLayer setup -->
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+<!-- End dataLayer setup -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5D6RKKP');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="google-site-verification" content="b4tITLzEeeZGEpvD4mGNf3khKM4fvqejQaz9SYBQP8E" />
+
+        
+    </head>
+    
+    
+        <body class="home-template">
+    
+        <div class="site-wrapper">
+            <nav class="site-nav nav-padding">
+    <div class="site-nav-left">
+        
+<form id="search-form" data-test-label="search-bar">
+    <div role="search" class="searchbox__wrapper">
+        <label class="fcc_sr_only" for='search-input'>
+            Search
+        </label>
+        <input type="search" placeholder="
+    Search 10,500+ tutorials
+" id="search-input" />
+        <button type="submit" class="ais-SearchBox-submit">
+            <svg class="ais-SearchBox-submitIcon" xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40">
+    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z" />
+</svg>
+
+            <span class="fcc_sr_only">Submit your search query</span>
+        </button>
+        <div id='dropdown-container'></div>
+    </div>
+</form>
+
+    </div>
+    <div class="site-nav-middle">
+        <a class="site-nav-logo" href="https://www.freecodecamp.org/news" data-test-label="site-nav-logo"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp.org" /></a>
+    </div>
+    <div class="site-nav-right">
+        <div class="nav-group">
+            <a
+                class="nav-forum"
+                id="nav-forum"
+                rel="noopener noreferrer"
+                href="https://forum.freecodecamp.org/"
+                target="_blank"
+                data-test-label="forum-button"
+            >Forum</a>
+            <a
+                class="toggle-button-nav"
+                id="nav-donate"
+                rel="noopener noreferrer"
+                href="https://www.freecodecamp.org/donate/"
+                target="_blank"
+                data-test-label="donate-button"
+            >Donate</a>
+        </div>
+    </div>
+</nav>
+
+
+            
+            <a class="banner" id="banner" data-test-label="banner" rel="noopener noreferrer" target="_blank">
+    <p id="banner-text"></p>
+</a>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("banner"),t=document.getElementById("banner-text");isAuthenticated?(t.innerHTML="Support our charity and our mission. <span>Donate to freeCodeCamp.org</span>.",e.href="https://www.freecodecamp.org/donate",e.setAttribute("text-variation","authenticated")):isDonor?(t.innerHTML="Thank you for supporting freeCodeCamp through <span>your donations</span>.",e.href="https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/",e.setAttribute("text-variation","donor")):(t.innerHTML="Learn to code — <span>free 3,000-hour curriculum</span>",e.href="https://www.freecodecamp.org/",e.setAttribute("text-variation","default"))}));</script>
+
+
+            <div id="error-message"></div>
+
+            
+    <main id="site-main" class="post-template site-main outer">
+        <div class="inner ad-layout">
+            <article class="post-full post ">
+                <header class="post-full-header">
+                    <section class="post-full-meta">
+                        <time class="post-full-meta-date" datetime="Mon Aug 16 2021 23:33:49 GMT+0000 (Coordinated Universal Time)">
+                            August 16, 2021
+                        </time>
+                        
+                            <span class="date-divider">/</span>
+                            <a  dir="ltr" href="/news/tag/html/">
+                                #HTML
+                            </a>
+                        
+                    </section>
+                    <h1 class="post-full-title">What is a Hyperlink? HTML Links Explained with Examples</h1>
+                </header>
+                <div class="post-full-author-header" data-test-label="author-header-no-bio">
+                    
+                        
+                            
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2023/04/lary.png 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2023/04/lary.png"
+      class="author-profile-image"
+      alt="Hillary Nyakundi"
+      width="1000"
+      height="1000"
+      onerror="this.style.display='none'"
+      
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content author-card-content-no-bio">
+            <span class="author-card-name">
+                <a href="/news/author/larymak/" data-test-label="profile-link">
+                    
+                        Hillary Nyakundi
+                    
+                </a>
+            </span>
+            
+        </section>
+    </section>
+
+                        
+                    
+                </div>
+                
+                    <figure class="post-full-image">
+                        
+    <picture>
+      <source
+        media="(max-width: 700px)"
+        sizes="1px"
+        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1w"
+      />
+      <source 
+        media="(min-width: 701px)"
+        sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+        srcset="https://www.freecodecamp.org/news/content/images/size/w300/2021/08/uide-to-writting-a-good-readme-file--3--1.png 300w,https://www.freecodecamp.org/news/content/images/size/w600/2021/08/uide-to-writting-a-good-readme-file--3--1.png 600w,https://www.freecodecamp.org/news/content/images/size/w1000/2021/08/uide-to-writting-a-good-readme-file--3--1.png 1000w,https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/uide-to-writting-a-good-readme-file--3--1.png 2000w"
+      />
+      <img
+        onerror="this.style.display='none'"
+        src="https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/uide-to-writting-a-good-readme-file--3--1.png"
+        alt="What is a Hyperlink? HTML Links Explained with Examples",
+        width="1200"
+        height="630"
+      >
+    </picture>
+  
+                    </figure>
+                
+                <section class="post-full-content">
+                    <div class="post-and-sidebar">
+                        <section class="post-content " data-test-label="post-content">
+                            
+<p>Let's begin with a quick question: How did you land on this article and this site today?</p>
+<p>Well, quite literally, by clicking or tapping on a link, right? That's how powerful this element is – it will get you to any part of the Internet just by clicking on a link.</p>
+<p>So, what are links and hyperlinks in HTML?</p>
+<h2 id="whatarelinksandhyperlinksinhtml">What are Links and Hyperlinks in HTML?</h2>
+<p>A link is a chain that connects pages both within a website and to other websites. Without links, we wouldn't have any websites.</p>
+<p>For example, let's have a look at this URL, <code>https://www.freecodecamp.org/</code>. When you type it in the address bar it will take you to the official freeCodeCamp site.</p>
+<p>In simpler terms we can say that links are just the web addresses of web page that allow you to connect with different servers.</p>
+<p>Perhaps you are wondering, then, what a Hyperlink might be? Well, they are what allows us to link documents to other documents or resources via refrences called <mark>anchor tags</mark>. They are a fundamental concept behind the World Wide Web which makes navigation between web pages easier via links.</p>
+<p>Hyperlinks can be presented in different forms, like an image, icon, text, or any type of visible element that, when clicked, redirects you to a specified url.</p>
+<p>For example, if you were to click <a href="https://www.freecodecamp.org/news/author/larymak/">HERE</a>, you will land in my profile with a list of my other articles. That's a hyperlink.</p>
+<h2 id="howtocreatelinksinhtml">How to Create Links in HTML</h2>
+<h3 id="howtousealinks">How to use <code>&lt;a&gt;</code> links</h3>
+<p>You can create a basic link by wrapping the text (or any other related content) in the <code>&lt;a&gt;&lt;/a&gt;</code> element and using the <code>href</code> attribute which contains the address.</p>
+<p>Here's an example in action:</p>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org"&gt;Visit: Freecode Camp!&lt;/a&gt;
+</code></pre>
+<h3 id="howtostylelinks">How to style links</h3>
+<p>There are usually links inserted in the <code>.html</code> file that link the main to the styling and funtionality file. And they're typically named with the <code>.css</code> and <code>.js</code> file extensions.</p>
+<p>Here's how to link to a CSS file:</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>And here's how to link to a JS file. You can either place what you want linked in the head or body tag.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script src="myScript.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h2 id="howtolinkwithinasite">How to Link Within a Site</h2>
+<h3 id="linkstodifferentpagewithinasite">Links to different page within a Site</h3>
+<p>You use this type of link to direct a user to different pages on the same site.</p>
+<p>Take a case where your site has 5 pages. You'll want a user to be able to access all the pages from one point, like the navbar.</p>
+<p>First you will have to create all the pages and then link them. In this case we will do it like this:</p>
+<pre><code class="language-html">&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="services.html"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="pricing.html"&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<p>The above example will link to different parts of the site – the 'Home' page, 'Services', 'Pricing', and 'About', in that order. Writing only the name of the file is enough because all the work is shared in the same work folder.</p>
+<h3 id="howtolinktoaspecificsectionofasite">How to Link to a specific section of a site</h3>
+<p>Let's say that, somewhere on your site, you mentioned a particular topic or page. And you would like your readers or visitors to jump straight to that section with a click.</p>
+<p>First you will have to add the <code>id</code> attribute to that section of the page. Maybe it is a paragraph – if so, this is how it would look:</p>
+<pre><code class="language-html">&lt;p id="detailed-info"&gt; Read more on Upcoming Events &lt;/p&gt;
+</code></pre>
+<p>After this in your link add the <code>id</code> in the <code>href</code>:</p>
+<pre><code class="language-html">&lt;a href="#detailed-info"&gt; Read more about upcoming events &lt;/a&gt;
+</code></pre>
+<p>This code will take them right to the Upcoming Events section.</p>
+<h2 id="othertypesoflinksinhtml">Other Types of Links in HTML</h2>
+<h3 id="howtolinktoadownloadablefile">How to Link to a Downloadable file</h3>
+<p>When you want to link to a resource that a user needs to download rather than open in the browser, you can use the <code>download</code> attribute. This provides a default save filename.</p>
+<p>The download attribute is great for PDFs, image files, video and audio clips, and other media content that you would like users to save on their computer or mobile device.</p>
+<p>Here's an example with a download link:</p>
+<pre><code class="language-html">&lt;a href="https://download.mozilla.org/?product=firefox-latest-ssl&amp;os=win64&amp;lang=en-US"
+   download="firefox-latest-64bit-installer.exe"&gt;
+  Download Latest Firefox for Windows (64-bit) (English, US)
+&lt;/a&gt;
+</code></pre>
+<h3 id="howtoaddemaillinks">How to Add E-mail Links</h3>
+<p>Email Links allow us to create hyperlinks to an email address. You can create these links using the HTML <code>&lt;a&gt;&lt;/a&gt;</code> tag – but in this case, instead of passing a URL, we pass the recipient’s email address.</p>
+<p>You use the <code>mailto</code> attribute to specify the email address in your anchor tag.</p>
+<p>for example:</p>
+<pre><code class="language-html">&lt;a href="mailto:hillarynyk@gmail.com"&gt;Send email to Me&lt;/a&gt;
+</code></pre>
+<p>In addition to the email address, you can provide other information. In fact, any standard mail header fields can be added to the <code>mailto</code> URL you provide. The most commonly used are "subject", "cc", and "body".</p>
+<p>Here's an example that includes a cc, bcc, subject, and body:</p>
+<pre><code class="language-html">&lt;a href="mailto:hillarynyk@gmail.com?cc=larymak4@gmail.com&amp;bcc=larymak8@gmail.com&amp;subject=The%20subject%20of%20the%20email&amp;body=The%20body%20of%20the%20email"&gt;
+  Send mail with cc, bcc, subject and body
+&lt;/a&gt;
+</code></pre>
+<h2 id="htmllinkattributes">HTML Link Attributes</h2>
+<p>HTML links have various attributes that you can use to provide more speicifc information. Here are some of the most commonly used.</p>
+<ol>
+<li>
+<p><strong>href</strong> attribute<br>
+The <code>href</code> attribute defines the target URL address for an HTML link. It makes the marked word or phrase clickable. The href attribute creates a hyperlink to another web page, and HTML links would not work as intended without it.</p>
+</li>
+<li>
+<p><strong>target</strong> attribute<br>
+The <code>target</code> attribute defines where the HTML link will be opened. Ever visited a website and when you click on a link it automatically opens in a new tab? Well that's the work of this attribute.</p>
+</li>
+</ol>
+<p>Here are all the possible options you can use with the <code>target</code> attribute:</p>
+<ul>
+<li><strong>-blank</strong> =&gt; Opens the link in a new tab. Mostly used to avoid losing a site's visitors. By default, when a user clicks a link it opens in the same tab – but this changes that.</li>
+</ul>
+<pre><code class="language-html">&lt;a href= "https://www.freecodecamp.org/" target="_blank"&gt; freeCodeCamp&lt;/a&gt;
+</code></pre>
+<ul>
+<li><strong>_self</strong> =&gt; Loads the URL in the same window or the tab where it was clicked. This is usually the default and does not need to be specified.</li>
+</ul>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org" target="_self"&gt;freeCodeCamp&lt;/a&gt;
+</code></pre>
+<ul>
+<li><strong>_parent</strong> =&gt; Loads the URL in the parent frame. It’s only used with frames.</li>
+</ul>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org" target="_parent"&gt;freeCodeCamp&lt;/a&gt;
+</code></pre>
+<ul>
+<li><strong>_top</strong> =&gt; Loads the linked document in the full body of the window.</li>
+</ul>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org" target="_top"&gt;freeCodeCamp&lt;/a&gt;
+</code></pre>
+<ol start="3">
+<li><strong>title</strong> attribute<br>
+The <code>title</code> attribute outlines extra information about the link’s purpose. If a user hovers their mouse over the link, a tooltip will appear which describes the objective, title, or any other information about the link:</li>
+</ol>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org" title="Link to free learning Resources"&gt;Learn to code&lt;/a&gt;
+</code></pre>
+<h2 id="quickhtmllinktipsandrecap">Quick HTML Link Tips and Recap</h2>
+<p>In this article, we learned all about links and hyperlinks in HTML. Here are some final tips to help you work with links.</p>
+<p>Firt, when you're using an image as a link, it's always a good idea to include the <code>alt</code> tag with the text. This provides alternative text that's displayed in case the picture doesn't load.</p>
+<p>Second, you should practise specifying the language of the document which the anchor is linked to using the <code>hreflang</code> attribute.</p>
+<pre><code class="language-html">&lt;a href="https://www.freecodecamp.org" hreflang="en"&gt;Freecode Camp&lt;/a&gt;
+</code></pre>
+<p>The Web is really just a library of hyperlinked documents where the anchor tags act as bridges between related documents.</p>
+<p>We have seen how to use links and how to create them, and why they are important in web development.</p>
+<p>It's time to go practise and perfect your new skill.</p>
+<p>Enjoy Coding ❤</p>
+<!--kg-card-end: markdown-->
+
+                        </section>
+                        
+                            <div class="sidebar">
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                            </div>
+                        
+                    </div>
+                    <hr />
+                    
+                        <div class="post-full-author-header" data-test-label="author-header-with-bio">
+                            
+                                
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2023/04/lary.png 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2023/04/lary.png"
+      class="author-profile-image"
+      alt="Hillary Nyakundi"
+      width="1000"
+      height="1000"
+      onerror="this.style.display='none'"
+      loading="lazy"
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content ">
+            <span class="author-card-name">
+                <a href="/news/author/larymak/" data-test-label="profile-link">
+                    
+                        Hillary Nyakundi
+                    
+                </a>
+            </span>
+            
+                
+                    <p data-test-label="author-bio">Technical Writer ✍️ &amp; Open-Source Enthusiast ❤ || Empowering Developers to Learn &amp; Grow || Committed to  Making a Meaningful Contribution to the Tech Community and Beyond.</p>
+                
+            
+        </section>
+    </section>
+
+                            
+                        </div>
+                        <hr />
+                    
+
+                    
+                    
+                        
+    
+
+
+<p data-test-label="social-row-cta" class="social-row">
+    If you read this far, thank the author to show them you care. <button id="tweet-btn" class="cta-button" data-test-label="tweet-button">Say Thanks</button>
+</p>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("tweet-btn"),e=window.location,n="What%20is%20a%20Hyperlink%3F%20HTML%20Links%20Explained%20with%20Examples".replace(/&#39;/g,"%27"),o="",i="@larymak1",r=Boolean("");let a;if(r&&(o||i)){const t={originalPostAuthor:"",currentPostAuthor:"Hillary Nyakundi"};a=encodeURIComponent(`Thank you ${o||t.originalPostAuthor} for writing this helpful article, and ${i||t.currentPostAuthor} for translating it.`)}else!r&&i&&(a=encodeURIComponent(`Thank you ${i} for writing this helpful article.`));const l=`window.open(\n    '${a?`https://twitter.com/intent/tweet?text=${a}%0A%0A${n}%0A%0A${e}`:`https://twitter.com/intent/tweet?text=${n}%0A%0A${e}`}',\n    'share-twitter',\n    'width=550, height=235'\n  ); return false;`;t.setAttribute("onclick",l)}));</script>
+
+
+                        
+
+<div class="learn-cta-row" data-test-label="learn-cta-row">
+    <p>
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. <a href="https://www.freecodecamp.org/learn/" class="cta-button" id="learn-to-code-cta" rel="noopener noreferrer" target="_blank">Get started</a>
+    </p>
+</div>
+
+                    
+                </section>
+                
+                    <div class="banner-ad bottom">
+                        <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                    </div>
+                
+            </article>
+        </div>
+    </main>
+
+
+            
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-desc-col">
+                <p data-test-label="tax-exempt-status">freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)</p>
+                <p data-test-label="mission-statement">Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.</p>
+                <p data-test-label="donation-initiatives">Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
+                <p class="footer-donation" data-test-label="donate-text">
+                    You can <a href="https://www.freecodecamp.org/donate/" class="inline" rel="noopener noreferrer" target="_blank" >make a tax-deductible donation here</a>.
+                </p>
+            </div>
+            <div class="trending-guides" data-test-label="trending-guides">
+                <div class="col-header">Trending Guides</div>
+                <div class="trending-guides-row">
+                    <div class="footer-col footer-col-1">
+                        <a href="https://www.freecodecamp.org/news/check-if-an-object-is-empty-in-javascript/" rel="noopener noreferrer" target="_blank">JS isEmpty Equivalent
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/" rel="noopener noreferrer" target="_blank">Submit a Form with JS
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-add-to-a-list-in-python-list-addition-tutorial/" rel="noopener noreferrer" target="_blank">Add to List in Python
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/" rel="noopener noreferrer" target="_blank">Grep Command in Linux
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-convert-a-string-to-an-integer-in-java/" rel="noopener noreferrer" target="_blank">String to Int in Java
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/adding-to-a-dict-in-python-how-to-add-to-a-dictionary/" rel="noopener noreferrer" target="_blank">Add to Dict in Python
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/java-for-loop-example/" rel="noopener noreferrer" target="_blank">Java For Loop Example
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/matplotlib-figure-size-change-plot-size-in-python/" rel="noopener noreferrer" target="_blank">Matplotlib Figure Size
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/" rel="noopener noreferrer" target="_blank">Database Normalization
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/list-within-a-list-in-python-initialize-a-nested-list/" rel="noopener noreferrer" target="_blank">Nested Lists in Python
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-2">
+                        <a href="https://www.freecodecamp.org/news/coalesce-sql-example-postgresql-and-sql-server-functions/" rel="noopener noreferrer" target="_blank">Coalesce SQL
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-join-how-to-combine-a-list-into-a-string-in-python/" rel="noopener noreferrer" target="_blank">Python join()
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/javascript-post-request-how-to-send-an-http-post-request-in-js/" rel="noopener noreferrer" target="_blank">JS POST Request
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/javascript-type-checking-how-to-check-type-in-js-with-typeof/" rel="noopener noreferrer" target="_blank">JS Type Checking
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-read-a-file-line-by-line-in-python/" rel="noopener noreferrer" target="_blank">Read Python File
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/solid-design-principles-in-software-development/" rel="noopener noreferrer" target="_blank">SOLID Principles
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-sort-a-list-in-java/" rel="noopener noreferrer" target="_blank">Sort a List in Java
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/for-loops-in-python-with-example-code/" rel="noopener noreferrer" target="_blank">For Loops in Python
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/javascript-2d-arrays/" rel="noopener noreferrer" target="_blank">JavaScript 2D Array
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/sql-convert-the-date-to-string-or-datetime-function-2/" rel="noopener noreferrer" target="_blank">SQL CONVERT Function
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-3">
+                        <div class="footer-left">
+                            <a href="https://www.freecodecamp.org/news/how-to-rename-a-column-in-pandas/" rel="noopener noreferrer" target="_blank">Rename Column in Pandas
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-delete-a-file-in-python-and-remove-a-directory-too/" rel="noopener noreferrer" target="_blank">Delete a File in Python
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/k-nearest-neighbors-algorithm-classifiers-and-model-example/" rel="noopener noreferrer" target="_blank">K-Nearest Neighbors Algo
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/iferror-function-in-excel-example/" rel="noopener noreferrer" target="_blank">iferror Function in Excel
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/remove-from-string-in-python-how-to-remove-characters-from-a-string/" rel="noopener noreferrer" target="_blank">Remove From String Python
+                            </a>
+                        </div>
+
+                        <div class="footer-right">
+                            <a href="https://www.freecodecamp.org/news/how-to-make-a-file-in-linux-from-the-command-line-create-a-file-in-terminal/" rel="noopener noreferrer" target="_blank">Create a File in Terminal
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-clear-formatting-in-excel/" rel="noopener noreferrer" target="_blank">Clear Formatting in Excel
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/accounting-number-format-in-excel-how-to-apply-it-to-selected-cells/" rel="noopener noreferrer" target="_blank">Accounting Num Format Excel
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python/" rel="noopener noreferrer" target="_blank">Check if File Exists Python
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/dictionary-iteration-in-python/" rel="noopener noreferrer" target="_blank">Iterate Over Dict in Python
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer-bottom'>
+            <div class="col-header" data-test-label="our-nonprofit">Our Charity</div>
+            <div class="footer-divider"></div>
+            <div class="our-nonprofit">
+                <a href="https://www.freecodecamp.org/news/about/" rel="noopener noreferrer" target="_blank" data-test-label="about">
+                    About
+                </a>
+                <a href="https://www.linkedin.com/school/free-code-camp/people/" rel="noopener noreferrer" target="_blank" data-test-label="alumni">
+                    Alumni Network
+                </a>
+                <a href="https://github.com/freeCodeCamp/" rel="noopener noreferrer" target="_blank" data-test-label="open-source">
+                    Open Source
+                </a>
+                <a href="https://www.freecodecamp.org/news/shop/" rel="noopener noreferrer" target="_blank" data-test-label="shop">
+                    Shop
+                </a>
+                <a href="https://www.freecodecamp.org/news/support/" rel="noopener noreferrer" target="_blank" data-test-label="support">
+                    Support
+                </a>
+                <a href="https://www.freecodecamp.org/news/sponsors/" rel="noopener noreferrer" target="_blank" data-test-label="sponsors">
+                    Sponsors
+                </a>
+                <a href="https://www.freecodecamp.org/news/academic-honesty-policy/" rel="noopener noreferrer" target="_blank" data-test-label="honesty">
+                    Academic Honesty
+                </a>
+                <a href="https://www.freecodecamp.org/news/code-of-conduct/" rel="noopener noreferrer" target="_blank" data-test-label="coc">
+                    Code of Conduct
+                </a>
+                <a href="https://www.freecodecamp.org/news/privacy-policy/" rel="noopener noreferrer" target="_blank" data-test-label="privacy">
+                    Privacy Policy
+                </a>
+                <a href="https://www.freecodecamp.org/news/terms-of-service/" rel="noopener noreferrer" target="_blank" data-test-label="tos">
+                    Terms of Service
+                </a>
+                <a href="https://www.freecodecamp.org/news/copyright-policy/" rel="noopener noreferrer" target="_blank" data-test-label="copyright">
+                    Copyright Policy
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+        
+        
+        
+
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D6RKKP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82dc1f143e1671f2","b":1,"version":"2023.10.0","token":"bdb993c6dde44e178aabd9555e75e4f4"}' crossorigin="anonymous"></script>
+</body>
+</html>

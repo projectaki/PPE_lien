@@ -1,0 +1,72 @@
+   Certification Kits
+     __________________________________________________________________
+
+Data link layer, Ethernet and physical layer
+
+Overview
+
+   In the previous chapters, we learnt about the application layer and
+   transport layer port communication, we also looked at the network layer
+   and IPv4 addressing for remote delivery of packets. In this chapter we
+   look at the data link layer and discuss how it prepares packets for
+   transport over different types of media and physical network
+   components, we will also look at some of the Ethernet concepts and
+   finally look at the physical layer.
+
+Data link layer
+
+   The data link layer is the 2^nd layer in the OSI model. its function is
+   to primarily prepare packets for transmission over the physical media.
+   It also serves to control the flow of data that will traverse the
+   physical media. The Data Link PDU is the Frame. The two main functions
+   performed at this layer include.
+     * Framing of packets received from the network layer
+     * Control of how data is handled by the physical media through MAC
+--
+Protocols and services
+
+   In the other layers, most of the protocols were defined by the RFCs.
+   However, in the Data Link layer, the IEEE defines most of the
+   protocols. We will discuss some of these protocols in chapters on
+   switching.
+
+--
+   the OSI model, is responsible for transmitting the data over the
+   different types of physical media that may be present.
+
+   The frames that are received from the data link layer are converted
+   into bits for transmission over the medium in this layer. Depending on
+   the type of physical medium, the physical layer may represent the bits
+   as either; light signals, electrical signals or waves for transmission
+--
+   As we have learnt earlier; by this stage in communication, the user
+   data has undergone several processes; segmentation at the transport
+   layer, packets in the network layer, encapsulation into frames at the
+   data link layer and finally, the data is converted into one of the
+   three forms that can be transmitted over the physical media;
+   electrical, light signals or microwaves in the physical layer.
+
+--
+    2. Fiber
+    3. Wireless
+
+   Just like the data link layer, the standards in the data link layer are
+   not defined under RFC, however, other standards do exist.
+
+Data carrying capacity in the physical layer
+--
+   different layer 1 and layer 2 protocols, however, the format of the
+   frame does not change.
+
+   As we mentioned in the previous sections, the data link layer provides
+   mechanisms for converting packets to frames while the physical layer
+   converts frames to bits which are then transmitted over the physical
+   media.
+--
+
+Summary
+
+   In this chapter, we have looked at the data link layer and how
+   communication at layer 2 occurs. We have also looked at the physical
+   layer and sending of data over the physical medium as bits. We
+   concluded with the Ethernet and looked at communication over a switch

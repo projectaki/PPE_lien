@@ -1,0 +1,13 @@
+
+   Updated: 11/12/2023 by Computer Hope
+
+   Link time may refer to any of the following:
+
+   1. With programming, link time is the time it takes a linker to create
+   an executable program from compiled modules like programs, routines, or
+   libraries.
+
+   2. When describing a software or hardware connection, link time is the
+   length of time it takes a program or device to establish a connection
+   or sync.
+

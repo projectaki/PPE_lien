@@ -1,0 +1,27 @@
+   You have multiple accounts
+   Choose the account you want to sign in with.
+
+Embed or link to a file in Word
+
+   Word for Microsoft 365 Word 2021 Word 2019 Word 2016 Accounting 2007
+   More...Less
+
+   If you have an object in one file that you’d like to put into another,
+   such as a doc or a dynamic chart, embed or link to it.
+
+Link or Embed a file
+
+   To insert a copy of your file into another, embed or link to it.
+    1. Go to Insert > Object.
+       Object button
+
+--
+
+
+
+   Choose Display as icon to embed, or Link to file for a link.
+
+   Link to file, display as icon options
+
+
+

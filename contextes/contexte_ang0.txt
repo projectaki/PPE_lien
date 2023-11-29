@@ -1,0 +1,240 @@
+   {{#preferredDictionaries}} {{^selected}} {{name}} {{/selected}}
+   {{/preferredDictionaries}}
+
+                           Meaning of link in English
+
+   link
+   noun [ C ]
+--
+   Add to word list Add to word list
+   B2
+   a connection between two people, things, or ideas:
+   There's a direct link between diet and heart disease.
+   Their links with Mexico are still strong.
+   diplomatic links between the two countries
+   B1
+   a connection between documents on the internet:
+   Click on this link to visit our online bookshop.
+
+   More examplesFewer examples
+     * This research confirms the link between aggression and alcohol.
+     * The police have found no evidence of a terrorist link with the
+       murder.
+     * There is a direct link between smoking and lung cancer.
+     * Strong trading links exist between us and many South American
+       countries.
+     * Despite living in different countries, the two families have
+       maintained close links.
+--
+   [ I or T ]
+   to make a connection with a website, social media post, video, etc. on
+   the internet:
+   We will link to this post from the project website.
+   She linked a video about finding work on social media.
+
+   More examplesFewer examples
+--
+     * Police think the murders may be linked.
+     * The two events are linked in my mind.
+     * He has been linked with the pop star.
+     * These connectors were originally used to link computers together to
+       transfer large files.
+     * The East River bridges link Manhattan to Queens and Brooklyn.
+     * You can link or embed a WAV file.
+     * The portal links to other sites with useful information.
+
+   SMART Vocabulary: related words and phrases
+   Linking and relating
+--
+
+Phrasal verb
+
+   link (something) up
+   (Definition of link from the Cambridge Advanced Learnerʼs Dictionary &
+   Thesaurus © Cambridge University Press)
+
+link | American Dictionary
+--
+
+   Add to word list Add to word list
+   a connection between two things:
+   There is a clear link between poverty and malnutrition.
+   A high-speed rail link brings you to the airport.
+
+link noun [C] (CHAIN)
+
+--
+
+   a word or image on a website that can take you to another document or
+   website
+   (Definition of link from the Cambridge Academic Content Dictionary ©
+   Cambridge University Press)
+
+link | Business English
+--
+   a way of travelling or communicating between two places or systems:
+   a bus/rail/road link
+   transport/transportation links
+   link between sth (and sth) There are plans to upgrade the road links
+   between the two countries.
+   a phone/video link
+   Interviews can be carried out by video link.
+   This device creates a link between computers, enabling you to share
+   files, no matter what their size.
+   [ usually plural ]
+   a relationship between two or more people, countries, companies, etc.:
+   link with sb/sth Their links with Britain are still strong.
+   build/establish/strengthen links We need to strengthen our links with
+   colleges doing similar work to ours.
+   business/trade links
+   a connection between two or more facts, events, etc.:
+   link between sth (and sth) The key thing here is the link between
+   consumer confidence and spending on non-essentials.
+   direct/clear/strong link There is a direct link between the value of
+   the used car and new car prices for the same model.
+   clear/close/strong link Historical data show the clear link between
+   income tax rates and the size of domestic government spending.
+   INTERNET, IT
+   a word or image in an electronic document or on a website that you can
+   click on to take you to another part of the document, another document,
+   or another website:
+   Read this tutorial for web developers in order to find out how to add a
+   link to another website.
+   Click on this link to visit our online bookstore.
+   See also
+   hotlink
+   hyperlink noun
+--
+   Your browser doesn't support HTML5 audio
+   [ T ]
+   to connect two or more places, people, or things:
+   link sth to/with sth This corridor links the new offices to the main
+   building.
+   a new motorway in Ireland, linking Dublin with Galway
+   All our workstations are linked together with each other.
+   [ T ]
+   to make or show a connection between two or more people, things, or
+   ideas:
+   link sth to/with sth The objective is to link the strategy of the
+   corporation with the reality of its business.
+   be linked to sth Asbestos-related diseases are generally linked to
+   sustained exposure over many years.
+--
+   [ I or T ]   INTERNET, IT
+   to make a connection between websites on the internet, or from part of
+   one website to another:
+   Anyone who has a website can link theirs to another site.
+   Does this website link to other client sites the company has designed?
+   [ I ]   INTERNET, IT
+   to follow a link to go to another website or part of a website on the
+   internet:
+   Click here to link to our customer service website.
+
+Phrasal verbs
+
+   link up
+   link (sth) up
+   (Definition of link from the Cambridge Business English Dictionary ©
+   Cambridge University Press)
+
+Examples of link
+
+   link
+   Our website also has external links to publicly available software,
+   yeast galactose data and lung cancer data.
+   From the Cambridge English Corpus
+   Each of these committees has legal services representation, and many of
+   the plans are integrally linked to the current legal services pro bono
+   programs.
+   From the Cambridge English Corpus
+   There are also important links between national saving and investment
+   and the international sector.
+   From the Cambridge English Corpus
+   In this way, pastiche is linked to a nostalgic attempt to reproduce the
+   experience of the past.
+   From the Cambridge English Corpus
+   The remarkable precision of this arrangement cannot be due to chance,
+   nor can the connection that links the two sides of the cup.
+   From the Cambridge English Corpus
+   The list contains links to the full-text document files.
+   From the Cambridge English Corpus
+   The divisibility argument is represented historically by a range of
+   philosophers and often linked with arguments concerning personal
+--
+   feasible as a means for linking together otherwise disparate,
+   subjectively private worlds.
+   From the Cambridge English Corpus
+   Given such staging practices, note the potential links between house
+   keys and casket keys.
+   From the Cambridge English Corpus
+   A few plays keep open the possibility that a tomb - monument - vault
+--
+
+   Click on a collocation to see more examples of it.
+   alleged link
+   But many philosophers have viewed the alleged link with caution.
+   From the Cambridge English Corpus
+   broken link
+   We are talking here of a broken link in the transport chain.
+   From the
+   Hansard archive
+   (BUTTON)
+--
+
+   causal link
+   This is not altogether surprising given the problems associated with
+   establishing a causal link between authenticity and motivation.
+   From the Cambridge English Corpus
+   These examples are from corpora and from sources on the web. Any
+   opinions in the examples do not represent the opinion of the Cambridge
+--
+   liniment
+   lining
+   link
+   link (something) up
+   link rot
+   linkage
+   linkage disequilibrium BETA
+
+--
+     * cuff link
+     * link-up
+     * linkup
+     * link rot
+     * data link
+     * fast link
+     * rail link
+--
+   See all meanings
+
+   Phrasal Verbs
+     * link up (something)
+     * link up
+     * link (something) up
+     * link (sth) up
+
+   See all phrasal verb meanings
+
+--
+   Contents
+     * English
+          + Noun
+               o link (CONNECTION)
+               o link (CHAIN)
+       Verb
+     * American
+          + Noun
+               o link (CONNECTION)
+               o link (CHAIN)
+               o link (WORD)
+     * Business
+       Noun
+       Verb
+--
+
+   My word lists
+
+   Add link to one of your lists below, or create a new one.
+   (BUTTON)
+   ____________________
+   {{#verifyErrors}}

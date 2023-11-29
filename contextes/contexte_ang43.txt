@@ -1,0 +1,253 @@
+   Updated on October 24, 2017
+   Everything You Need To Know About App Links
+
+   Mobile App Links are a type of mobile URLs. They make it possible to
+   link to specific pages or screens of an app. They also allow you to
+   link your website pages to the respective screens in your app.
+
+What do App Links do?
+
+
+    They close the loop between the creation of content, its discovery
+    and app downloads by creating unique links for different pages or
+    screens of an app. Thus, App Links allow users to click links to view
+    content directly in the app (if already downloaded), or download the
+    app to view content present on any particular screen of the app.
+
+--
+
+   Nopes, you can only share the mobile App URLs with others. Since there
+   is no such thing as an address bar for apps, it is not possible to type
+   App Links in the address bar.
+
+What theory is App Links based on?
+
+   App Links is based on the principle of ‘Deep-linking‘, which involve
+   linking to specific screens (pages) within apps and launching mobile
+   apps via links.
+
+Which platforms do App Links support?
+
+   App url deeplinks is cross platform
+
+   App Links are cross-platform and currently support iOS, Android and
+   Windows Phones. However, they can also be extended to support other
+   platforms.
+
+Are App Links free?
+
+   App Links are open source, so you can use them without paying for it.
+   You can also change them to suit any platform or environment.
+
+How do they work?
+
+   They let you link from an app to specific screens within the same or a
+   different app. In short, they work like URLs for websites.
+
+   How App Links work
+
+Example 1 – Linking to a screen in the same app
+
+   If I have opened a Facebook page on my Facebook app, and if I want to
+   share a link of that page (without visiting the Facebook website) from
+   the app with my friend, then I will use its URL (App Link) and share it
+   with my friend using the messages or chat window.
+
+--
+
+Linking Pinterest app from inside of a Facebook app
+
+   Provided that some conditions are satisfied, you can link to a tweet in
+   Twitter app from your Facebook app using App Links . The requirements
+   are that both Facebook and Twitter need to have App Links enabled. Now,
+   Facebook app has built-in App Links functionality, but Twitter has a
+   different set of deeplinks as part of its feature called Twitter Cards.
+   Since, not both the apps have App Links, it is not possible to link
+   them.
+
+   However, you can link an app like Pinterest (which supports App Links)
+   with Facebook app. All you have to do is to go to a screen in
+   Pinterest, copy the App Link (or URI), then open your Facebook app and
+   paste it in your status update. Your friends who click on the link on a
+   desktop will be shown download links for Pinterest app for platforms
+   like iOS, Android or Windows Phone; however, they won’t being able to
+   download the Pinterest app on their laptop. The friends who click on
+   the link through a mobile device, will be directed to the image URL
+   (regardless of the mobile platform) if they have the Pinterest app
+   installed; if they don’t have the Pinterest app, they will be directed
+   to the download link for that particular platform, clicking on which
+   would take them to the image URL.
+
+What is the minimum requirement for App Links to work?
+
+   For App Links to work, the linking and the linked apps should have App
+   Links enabled.
+
+How to enable App Links for an app?
+
+   App Links can be enabled for an app by defining customized Universal
+   Resource Identifiers (URIs) for that app and adding specific tags in
+   the codes of that app.
+
+What are the different types of App links in the market?
+
+   App Links is a name of a certain type of deeplinks which have been
+   instituted by AppLinks.org. Some other companies have also developed
+   links for apps, with a different set of features compared to App Links.
+   They are as follows:
+
+Cellogic Ltd’s Deeplink
+
+   The Deeplink.me services help in making your app pages linkable through
+   deeplinks,  just like App Links. The links build using deeplink.me
+   function for app pages of an app on all platforms. They also offer
+   translation rules for customized URIs, user engagement analytics, link
+   fallbacks in the case of an emergency/failure and Twitter Card (see
+--
+Tapstream’s Deferred Links
+
+
+    Links to a specific screen or a landing within an app through URIs,
+    text ads or image ads. Clicking on the link or the ad takes users to
+    the destination screen within the app. It does this in two ways
+
+    1. If the user has the destination app installed, it directly takes
+--
+       as the app is getting installed it displays a message indicating
+       that the user will be directed to the landing page.
+
+   Onboarding Links by Tapstream
+
+Users are directed to a particular screen on downloading an app for the first
+time
+
+   Tapstream’s Deferred Links are mainly for app marketing companies who
+   intend to make use of Landing Pages within their apps to generate
+   quality leads. The Deferred Links are paid, and have different price
+   points.
+
+Twitter’s App Cards
+
+   Twitter’s App Cards
+   One of the several different Twitter Cards, through App Cards you can
+   tweet a link to any webpage on your website and Twitter will
+   automatically display your tweet alongside an App Card. This App Card
+   would show all the data regarding your app like screenshot, ratings,
+   free or paid app, description and a link to its App Store depending on
+   the mobile platform you prefer. For this to work, you should have the
+   App Card enabled in your website and have specified your card type and
+   app IDs for iOS and Android. Twitter App Card with detailed app
+   information
+
+Twitter App Card showing automatically embedded information about an app
+whose download link was tweeted
+
+   This App Card can also show links to specific pages within the app for
+   the website, provided the app has deeplinking enabled.
+   URX’s Omnilinks, Omnilinks.js and App Search
+   Enabling Omnilinks and deeplink Analytics for an app
+--
+Analytics
+
+   URX has developed two separate approaches for deeplinking within apps.
+   Omnilinks helps users to link to specifc pages within the same or a
+   different app. This approach is especially useful if a user doesn’t
+   have an app installed, in which case the user is directed to the
+   download link for the app on the platform-specific app store. And, if
+   the user already has an app installed, he is directly taken to the
+   specific screen within the app. This facility is extremely useful to
+   marketers who intend to increase their app downloads by directing
+--
+   required. You just need to add ‘http://urx.io/’ before your URI to
+   create omnilink.
+   Requirement: For Omnilinks to work, an app must have deeplinks, without
+   which the URX Omnilinks are to link between apps. Similarly, websites
+   must have appropriate meta tags enabled to make it possible to link
+   them to an app. URX’s Omnilinks support App Links tags, so if you App
+   Links tags enabled, you just have to prepend the URX code to the URI.
+   App Search: This feature allows apps to scour the content present on
+   other apps and also link to the respective pages of that app.
+
+Are all these different types of App Links (i.e deep links) cross-compatible?
+
+   Unfortunately, only some of these compatible with each other (App Links
+   and URX’s Omnilinks). The reason for that is, all the services are
+--
+Which companies have adopted AppLinks?
+
+   Facebook, a partner in the AppLinks initiative, has implemented them
+   across most of its features. App Links currently supports News Feed,
+   pages, status updates and links shared by apps. Top mobile apps like
+   Mailbox, Quip, and Spotify also have deeply integrated AppLinks.
+   Some major companies have recently made their content available for
+   linking. They are: Pinterest, Redfin, Goodreads, Edomondo, Hulu,
+--
+   Tumblr, EyeEm, Houzz, Flickr, Vevo, Vimeo, Rhapsody, Fancy.com, iHeart,
+   Songkick, and DailyMotion.
+
+Why are App Links a good investment of your time and resources?
+
+   App Links are slightly complicated, and might take some time to
+   implement and a little more to perfect, but they give you so many other
+   things in return.
+   First of all, they help you drive your app downloads, regardless of the
+   platform, if visitors happen to stumble across the app download link.
+   This will, in turn, also lead to an increase in paid app or ad revenue
+   from your mobile app.
+   f the familiarity and convenience that App Links provide. This also
+   increase the visibility of your app, which unlike your website, stays
+   hidden from the eyes of people most of the times.
+   Most importantly, since not many companies have implemented App Links,
+   they will also lend your app or website a novel factor. So, people will
+   keep coming back or download the app just to experience something new.
+
+How do I start implementing App Links from scratch?
+
+   If you are implementing App Links for the first time, then use Facebook
+   SDK to deeplink your mobile app. Facebook has provided comprehensive
+   documentation along with how-tos (with screenshots) on how to implement
+   App Links as well as all the special features. Also, using Facebook SDK
+   would help you leverage your website’s social media presence to
+   increase downloads of your app and thus generate revenue.
+
+What are some new or additional features of App Links?
+
+   Analytics
+   App Links have inbuilt functionality to measure and analyse how they
+   are being used with apps. They can track the clicks, the landing pages,
+   time, date, frequency and other data to give you a comprehensive lists
+   and graphs of analytics. Using these analytics, you can optimize the
+   integration of App Links into your app to enrich the experience of
+   users or generate revenue from your app. To set up Analytics for App
+   Links you have include lines of code on Bolts SDK, which is found in
+   Facebook SDK. Since there is no SDK to support Bolts SDK except that of
+   Facebook, this functionality is difficult to implement with other
+   services.
+--
+
+Issues, Problems, Worries and Difficulties:
+
+     * The cross-platform compatibility of App Links also makes it a bit
+       more complicated. There are three major mobile platforms (iOS,
+       Android and Windows Phone) in the mobile app market. If you have
+       the same app available on different platforms, you have to define
+--
+       an app, as app use much less real and are extremely simplistic in
+       nature.
+     * Linking to a screen from one app to a different app can also be
+       really disruptive. For example, if I link from Facebook app to The
+       Huffington Post and I used my Twitter account to log in to The
+       Huffington Post, then I will be taken to the Twitter app first to
+       login, after which I will redirected to The Huffington Post app. It
+       is also possible that I might be directed to the download link for
+       Twitter app even though it is already installed on my smartphone.
+     * Most of the services listed here (excluding App Links) are not
+       available to Windows Phone apps. So, there is still no way for App
+       Links to deeplink to your Windows Phone app.
+
+   PS: I have used ‘screen’ and ‘page’ interchangeably for an app. Both
+   mean the same, a screen or a page within an app. Also, I have used App
+   Links instead of the oft-used generic term for mobile app links i.e
+   ‘deeplinks’ to make understanding this new concept simpler.
+
+Have an App Idea?

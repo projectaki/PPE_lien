@@ -1,0 +1,135 @@
+
+   (BUTTON)
+
+Why Have Social Media Links on Your Website?
+
+   7 NovJay Kangin Website Design
+
+Contents
+
+     * What are Social Media Links?
+     * Why are Social Media Links Important for Your Website?
+     * How to Add Social Media Links To Your Website
+     * Best Practices for Including Social Media Links on Your Website
+     * In Conlusion
+
+   If you’ve created a Facebook page or Twitter account for your business,
+--
+   media profiles on their website.
+
+
+   Why is it important to add social media links on your website, and how
+   do you go about adding these links? In this article, we explore all
+   that, and more.
+
+
+   Quick aside: just so we’re clear, we’re talking about social media
+   links, not social media share links or sharing buttons. If you want to
+   learn more about utilizing social media share links to promote your
+   content, we’ll be sharing an article about this in future.
+
+
+What are Social Media Links?
+
+
+   Social media links are clickable icons or buttons that can be displayed
+   on your website that direct your visitors to your various social media
+   accounts.
+
+
+   These links typically appear as icons representing popular social media
+   platforms such as Facebook, Twitter, Instagram, LinkedIn, Pinterest,
+   YouTube, and more.
+
+
+   By integrating social media links on a website, you provide visitors
+   with an easy and direct way to connect with you or your business on
+   various social platforms.
+
+
+Why are Social Media Links Important for Your Website?
+
+
+   At the most basic level, adding social media links on your website
+   helps you grow your followers. that aside, you’ll also be able to
+   achieve other goals and objectives by featuring your social media
+   accounts on your website. Read on to find out more!
+--
+   nurturing website visitors
+
+
+   Now, adding social media links on your website is a great way to keep
+   in touch with these consumers, and stay at the forefront of their
+   consciousness.
+
+--
+
+3. Improve Search Rankings
+
+   Interestingly enough, adding social media links for websites may
+   increase your website’s visibility on search engines.
+
+
+   Google has previously stated that companies should link to their
+   Google+ page on their website because it “provides Google with
+   information (...) to help determine the relevancy of your site to a
+   user query on Google Search.”
+--
+   juice).
+
+
+   That said, it’s simple to add social media links on your website, so if
+   there’s even a small chance that this can improve your search rankings,
+   why not go for it?
+
+
+How to Add Social Media Links To Your Website
+
+
+   Want to get your social media links up and running? Check out these
+   guides for the various CMS platforms.
+
+
+     * Add A Social Links Menu [WordPress]
+     * Adding And Setting Up A Social Bar [Wix]
+     * Add Social Icons [Weebly]
+     * Add Social Media Buttons [Shopify]
+
+
+
+Best Practices for Including Social Media Links on Your Website
+
+1. Strategically Place the Icons
+
+--
+
+   social media icons
+
+6. Open Links in a New Tab
+
+   Configure the social media links to open in a new browser tab. This
+   ensures that visitors can easily return to your website after visiting
+   your social media profiles.
+
+7. Link to Active Profiles
+
+   Double-check that the social media links direct visitors to your
+   current and active profiles.
+
+
+--
+
+10. Regularly Update Links
+
+   Periodically review and update your social media links to ensure they
+   remain current and relevant. It’s also important to add any new
+   platforms you've joined and remove any obsolete ones.
+
+--
+In Conlusion
+
+
+   Including social media links on your website is a fundamental step in
+   building a robust online presence and expanding your reach to a broader
+   audience.
+
