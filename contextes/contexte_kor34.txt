@@ -1,0 +1,17 @@
+
+
+   -Binary relation (이진 관계) : 두 집합의 원소 사이의 관계
+
+    집합 X 에서 집합 Y 로의 binary relation R은, Cartesian product X x Y 의
+--
+    2) Symmetric(대칭) : 모든 x, y가 (x, y)∈R 이면 (y, x)∈R인 relation
+
+    3) transitive (전이(추이)관계) : (x, y)∈R이고 (y, z)∈R이면 (x, z)∈R이 되는 relation
+
+    4) antisymmetric (반대칭적) : x ≠ y일 때, (x, y)∈R이면 (y, x)는 relation에 속하지
+--
+
+
+     - Equivalence classes : 집합 𝑨 에 대한 관계 𝑹 이 동치관계(Equivalence Relation) 일
+   때, 집합 𝑨 의 각 원소 𝒂 와 순서쌍을 이루는 원소들의 집합 [a]
+

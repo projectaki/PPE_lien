@@ -176,8 +176,8 @@
   15. https://namu.wiki/Upload
   16. https://namu.wiki/License
   17. https://namu.wiki/w/관계
-  18. https://namu.wiki/contribution/ip/2a01:e0a:d8:abc0:1a42:ab8f:c757:5e1d/document
-  19. https://namu.wiki/contribution/ip/2a01:e0a:d8:abc0:1a42:ab8f:c757:5e1d/discuss
+  18. https://namu.wiki/contribution/ip/194.199.129.20/document
+  19. https://namu.wiki/contribution/ip/194.199.129.20/discuss
   20. https://namu.wiki/w/관계
   21. https://namu.wiki/member/star/관계
   22. https://namu.wiki/backlink/관계

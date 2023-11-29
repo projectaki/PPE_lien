@@ -1,0 +1,448 @@
+               o [22]2.2.6 논리연산자의 우선순위
+          + [23]2.3 항진명제, 모순명제
+          + [24]2.4 논리적 동치 관계
+          + [25]2.5 논증과 추론
+               o [26]2.5.1 추론 규칙
+--
+          + [56]4.4 프로그램의 입증
+          + [57]4.5 과제
+     * [58]5 관계와 표현
+          + [59]5.1 관계 (Relations)
+          + [60]5.2 관계의 표현 방법
+          + [61]5.3 관계의 합성 (Combining Relations)
+          + [62]5.4 Complementary Relations (보수 관계)
+          + [63]5.5 관계의 성질 (Properties of Relations)
+          + [64]5.6 동치와 분할
+          + [65]5.7 부분 순서 관계
+          + [66]5.8 연습문제
+          + [67]중간고사 일정 공지
+--
+          + [116]기말고사 일정 및 보강계획
+          + [117]교재 연습문제
+     * [118]11 순열, 이산확률, 재귀적관계
+          + [119]11.1 경우의 수, 순열과 조합
+          + [120]11.2 이산적 확률과 통계
+--
+          + [156]과제1: 논리와 명제
+          + [157]과제2: 증명법
+          + [158]관계와 표현 연습문제
+          + [159]행렬
+     * [160]이산구조 중간고사 결과 및 해답
+--
+[168]이산수학 (Discrete Mathematics)
+
+5 장 관계와 표현
+
+   관계(Relation)
+     * 관계(Relation)란 객체들 간의 연관성을 표현하는 구조로서, 수학이나 공학 분야뿐만 아니라 여러 다른 분야에서도
+       기본적이고 중요한 개념임
+     * 수학, 컴퓨터, 여러 가지 공학 분야에서의 객체들도 이와 같이 여러 가지 관계를 가짐
+
+   관계의 예시
+     * 집합A가 집합B의 부분 집합인 경우 관계가 있음
+     * 두 개의 디지털 논리 회로가 같은 입출력 도표를 가졌을 때 두 회로는 관계가 있음
+     * 컴퓨터 프로그램에서 두 변수가 같은 이름과 프로그램 실행 시 같은 저장 장소를 사용하면 관계가 있다고 함
+
+5.1 관계 (Relations)
+
+   정의 5.1 (Relation) 집합 \(A\)와 \(B\)가 있을 때, \(A\)와 \(B\)의 카테시안 곱(\(A\times
+   B\))의 부분집합(subset) \(R\)을 \(A\)에서 \(B\)로 관계라고 한다. 또는 binary relations
+   (이진관계, 이항관계)라고 한다. \[ R := \{(a,b) | a\in A, b \in B\} \subseteq
+   A\times B. \]
+     * 위에서 \(A\)를 정의역 (Domain), \(B\)를 공역 (Codomain)이라고 함
+--
+
+   [relation.png]
+     * \((a,b)\)가 관계 \(R\)의 원소이면 아래처럼 표시함 \[ (a,b) \in R, \\ aRb, \\ R (a,
+       b). \]
+     * \(aRb\)이면, “\(a\)는 (관계 \(R\)에 의해서) \(b\)에 관계된다”고 말한다.
+
+   예제 5.1 \(A=\{1,2,3\}\), \(B=\{a, b\}\)일 때, \(\{(1,a), (2,a), (3,b)\}\)는
+   \(A\)에서 \(B\)로의 관계이다.
+
+   정의 5.2 집합 \(A\)에서 자기 자신 \(A\)로의 관계를 집합 \(A\) 위로의 관계(relation on a set
+   \(A\))라고 한다. \[ R \subseteq A\times A. \]
+
+   예제 5.2 \(A = \{1, 2, 3, 4\}\)일 때, \(b/a\)가 정수가 되는 모든 순서쌍\((a,b)\)을 원소로
+   하는 관계를 구하라.
+
+   풀이. \[ R = \{(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 4), (3, 3),
+   (4, 4)\} \]
+
+   예제 5.3 \(A = \{a,b,c\}\)일 때, 집합\(A\) 위로의 관계는 모두 몇개인가?
+
+   풀이. 집합 \(A\)위로의 관계는 카테시안 곱 (\(A\times A\))의 부분집합이다.
+
+   가능한 집합\(A\) 위로의 관계는 카테시안 곱 (\(A\times A\))의 부분집합의 개수와 같다.
+
+   카테시안 곱 (\(A\times A\))의 원소의 개수는 \(3^2=9\)이므로 부분집합의 개수는 \[ 2^{9} = 512.
+   \]
+
+   정의 5.3 (항등 관계) 집합 \(A\)위로의 관계가 아래와 같을 때, \(I_A\)를 항등 관계(identity
+   relation)라고 한다. \[ I_A = \{(a,a)|a\in A\}. \]
+     __________________________________________________________________
+
+   정의 5.4 (역관계, inverse relation) \(A\)에서 \(B\)로의 이진관계 \(R\)의 역관계 (inverse
+   relation) \(R^{−1}\)는 \(B\)에서 \(A\)로의 관계로 다음과 같이 정의함 \[ R^{−1} :=
+   \{(b,a) | (a,b) \in R\}. \] 즉, \(R\)에서의 순서쌍의 순서를 바꾼 것과 같다.
+
+   예제 5.4 \(A = \{1,2,3\}\), \(B=\{3,4\}\)일 때, 관계 \(R\)이 다음과 같이 정의되었다고 하자.
+   \(R\)의 역관계는 ? \[ R = \{(1,3), (2,3), (2,4), (3,4)\} \]
+
+   풀이. 역관계는 순서쌍의 순서를 바꾸면 됨, 따라서 \[ R^{-1} = \{(3,1), (3,2), (4,2),
+   (4,3)\}. \]
+
+--
+   by”.)
+
+5.2 관계의 표현 방법
+
+     관계를 표현하는 편리한 방법들로는 화살표 도표(arrow diagram), 좌표 도표(coordinate diagram),
+     방향 그래프(directed graph), 관계 행렬(relation matrix) 등이 있음
+
+   [%EA%B4%80%EA%B3%84%ED%91%9C%EC%8B%9C%EB%B0%A9%EB%B2%95.png]
+--
+
+   방향 그래프(Directed Graph)
+          관계 \(R\)이 집합 \(A\) 위로의 관계라고 할 때, 집합 \(A\)의 원소를 그래프의
+          꼭지점(vertex)으로 하여, \((a, b) \in R\)을 간선(edge)하는 방향그래프로 표현
+
+--
+   95.PNG]
+
+   관계 행렬(Relation Matrix), 부울 행렬(Boolean Matrix)
+          행렬의 각 행은 집합 A의 원소, 각 열은 집합 B의 원소를 표시하고, 관계의 원소인 순서쌍 \((a, b) \in
+          R\)에 대하여 대응되는 행렬의 원소를 1, 나머지는 0으로 표현하는 방법, 아래는 \(A=\{1,2,3\}\)에서
+          \(B=\{a,b,c,d\}\)로의 관계를 관계행렬로 나타낸 것임
+
+   [dmatrix.png]
+
+5.3 관계의 합성 (Combining Relations)
+
+   정의 5.5 (합성관계) \(R: A {\leftrightarrow}B\), \(S: B
+   {\leftrightarrow}C\)라고 할 때, \(R\)과 \(S\)의 합성관계 (composite relation)은
+   아래와 같이 정의함 \[ R \circ S = \{(a,c) | a \in A, c \in C, (a, b) \in R, (b,
+   c) \in S \}. \]
+--
+   [composition_relation.png]
+
+   예제 5.6 \(A= \{1, 2, 3\}, B= \{1, 2, 3, 4\}, C=\{0, 1, 2\}\)가 주어지고, 관계
+   \(R: A \iff B\)과 \(S: B\iff C\)를 아래와 같이 정의할 때, 합성관계 \(R \circ S\)를 구하라.
+   \[ R = \{(1, 1), (1, 4), (2, 3), (3, 1), (3, 4)\}\\ S = \{(1, 0), (2,
+   0), (3, 1), (3, 2), (4, 1)\} \]
+--
+   1=1 \]
+
+   불리안(Boolian) 행렬곱을 이용한 합성관계의 계산 \[ R= \begin{bmatrix} 1 & 0& 0 &1 \\ 0 &
+   0& 1&0 \\ 1 & 0& 0&1 \\ \end{bmatrix},~ S= \begin{bmatrix} 1 & 0& 0 \\
+   1 & 0& 0 \\ 0 & 1& 1 \\ 0 & 1& 0 \\ \end{bmatrix},~ R\circ S = RS =
+   \begin{bmatrix} 1 & 1 & 0\\ 0 & 1 & 1\\ 1 & 1 & 0\\ \end{bmatrix} \]
+
+   예제 5.7 \(A = \{1,2,3,4\}, B=\{1,2,3\}\)이고 \(A\)에서 \(B\)로의 관계 \(R\)이 다음과
+   같다. \[ R = \{(1,2), (1.3), (2,2), (3,1), (4,2)\}. \] 아래를 구하라.
+    1. \(I_A\) (\(A\)위로의 항등관계)
+    2. \(I_B\) (\(A\)위로의 항등관계)
+    3. \(I_A \circ R\)
+
+--
+   \end{bmatrix} \begin{bmatrix} 0 & 1& 1 \\ 0 & 1& 0 \\ 1 & 0& 0 \\ 0 &
+   1& 0 \\ \end{bmatrix} = \begin{bmatrix} 0 & 1& 1 \\ 0 & 1& 0 \\ 1 & 0&
+   0 \\ 0 & 1& 0 \\ \end{bmatrix} = R. \] 위와 비슷하게 \(R I_B = R\), 즉 어떤 관계와
+   항등관계의 합성은 다음과 같은 성질이 성립한다. \[ I_A \circ R = R\circ I_B = R. \]
+
+5.4 Complementary Relations (보수 관계)
+
+     * 어떤 이진관계 \(R:A{\leftrightarrow}B\)에 대하여, \(R\)의 보수(complement) \[
+       \Rx:A{\leftrightarrow}B \] 는 이진관계이며 아래와 같이 정의한다. \[ \Rx := \{(a,b)
+       | (a,b)\notin R\} = (A\times B) − R \]
+          + 예:
+            \[ \nless = \{(a,b) | (a,b) \notin <\} = \{(a,b) |
+            \lnot(a<b)\} = \ge \]
+     * 예제: \(A = \{0, 1, 2\}, B = \{a, b\}\)라 하고, A에서 B로의 이진관계 \(R =
+       \{(0,a), (0,b), (1,a), (2,b)\}\)라고 하자.
+          + \((0,a)\in R\) 이므로, \(0Ra\)라 할 수 있다.
+          + 그러나, \((1,b)\notin R\) 이므로, \(1\Rx b\)라 할 수 있다.
+
+5.5 관계의 성질 (Properties of Relations)
+
+   정의 5.7 (Reflexivity, 반사성)
+    1. \(A\)위로의 관계 \(R\)이 다음 조건을 만족하면 반사적 (reflexive)이다. \[ (a, a) \in R
+       ~(= aRa), ~\forall a \in A. \]
+    2. \(A\)위로의 관계 \(R\)이 다음 조건을 만족하면 비반사적 (irreflexive)이다. \[ (a, a)
+       \notin R ~(= a\Rx a), ~\forall a \in A. \] 위 조건은 다음 조건과 동치이다. \[
+       \nexists a \in A \text{ such that } (a, a) \in R . \]
+
+   아래 그림은 반사관계의 예시를 방향 그래프 로 나타낸 것임
+
+   [%EB%B0%98%EC%82%AC%EA%B4%80%EA%B3%84.PNG]
+--
+     * The relation \(<\) is irreflexive because there is not exist \(a\)
+       such that \(a<a\).
+     * 양의 정수 집합에 대해 “나누다(/)” 관계는 반사적인가?
+          + 임의의 양의 정수 \(a/a=1\)는 자기 자신으로 나누어 진다.
+          + 즉, \((a,a) \in /\)가 성립한다.
+--
+
+   정의 5.8 (symmetry 대칭성)
+    1. 집합 \(A\)위로의 관계 \(R\)이 다음 조건을 만족하면 대칭적 (symmetric)이다. \[ \forall a,
+       b\in A: (a,b)\in R ~\then~ (b,a)\in R. \] 즉, \((a,b)\)가 \(R\)의 원소일
+       때, 반드시 \((b,a)\)도 \(R\)의 원소이면 대칭적이라 한다.
+--
+   위의 그림에서 한점은 자기자신과 그리고 두 점간에는는 양방향 연결이 있음(a), 우측 행렬(b)은 대칭행렬(symetric
+   matrix)
+    2. 집합 \(A\)위로의 관계 \(R\)이 다음 조건을 만족하면 반대칭적 (antisymmetric)이다. \[
+       \forall a, b\in A: (a,b)\in R \text{ and } (b,a)\in R ~\then~ a=b.
+       \] 위의 조건과 동치인 조건 \[ \forall a, b\in A: (a,b) \in R, a \ne b \then
+       (b,a) \notin R. \] 반대칭적 (antisymmetric)은 대칭적 (symmetric)이 아니다를 뜻하지
+       않음, \((a,b)\) 이고 \((b,a)\)인 관계가 있으면 반드시 \(a\)와 \(b\)는 같아야 된다는 의미.
+
+   [antisymmetrix.png] [asymmetrix.png]
+--
+
+   From Wikipidia: 대칭, 반대칭 비교
+    2. 집합 \(A\)위로의 관계 \(R\)이 다음 조건을 만족하면 비대칭적 (asymmetric)이다. \[ \forall
+       a, b\in A : (a,b)\in R \then (b,a)\notin R. \] 비대칭적 (asymmetric)은
+       대칭적 (symmetric)이 아니다를 뜻하지 않음
+--
+   q) \\ \IFF (p \land \neg r) \to (\neg q) \\ \]
+
+   정리5.1 비대칭(asymmetric) 관계는 반대칭(antisymmetric)이다.
+
+   증명.
+--
+    3. So, \(R\) is antisymmetric by definition (반대칭의 동치 조건).
+
+   대칭, 반대칭, 비대칭관계 비교
+
+   [antisymmetrix.png] [not_antisymmetric.png]
+
+   왼쪽은 반대칭 & 비대칭 관계, 오른쪽 그림은 반대칭이지만 비대칭 아닌 관계의 예
+
+   정리5.2 비대칭(asymmetric) 관계는 반대칭(antisymmetric)이고 비반사적인(irreflexive) 관계와
+   동치이다. 즉,
+    1. 비대칭 관계이면 반대칭 관계이고 동시에 비반사적이다.
+    2. 역으로 반대칭 관계이고 동시에 비반사적이면 비대칭 관계이다.
+
+   비반사관계이고 반대칭이면 비대칭 관계
+
+   예제 5.9
+--
+     * “likes” is antisymmetric, but neither symmetric nor asymmetric
+
+   예제 5.10 자연수 집합에 대한 “나누다” 관계(\(\vert\))는 대칭인가? 반대칭인가?
+     * \((1, 2) \in \vert\) 이지만 \((2, 1) \notin \vert\)이므로 대칭이 아님
+     * Let \(p\): \(((a\vert b) \land (b\vert a))\), and \(q\): \(a=b\).
+--
+          + \(\therefore \vert\) is antisymmetric.
+
+   예제 5.11 \(A = \{1,2,3,4\}\) 위로 정의된 관계 \(R\)는 대칭, 반대칭, 비대칭?\[ R = \{ (1,
+   1), (2, 2), (3, 3), (4, 4) \}. \]
+
+--
+    3. \((1, 1) \in R\)이므로 비대칭이 아님
+
+   예제 5.12 \(A = \{1,2,3,4\}\) 위로 정의된 관계 \(R\)는 대칭, 반대칭, 비대칭? \[ R = \{
+   (1, 1), (1, 3), (2, 3), (3, 4) \}. \] Check the condition:
+    1. \((1, 3) \in R\)이지만 \((3, 1) \notin R\) 대칭이 아님
+--
+     __________________________________________________________________
+
+   정의 5.9 (transitive, 추이관계) 집합 \(A\)위로의 \(R\)이 다음 조건을 만족하면 \(R\)를 추이관계
+   (transitive)라고 함 \[ \forall a, b, c \in A: (a, b) \in R \text{ and }
+   (b, c) \in R \then (a, c) \in R. \]
+
+   예제 5.13 자연수 집합(\(\mathrm{N}\))위의 “divides” (\(\vert\)) 관계는 transitive?
+     * \(a | b \land b| c\) (premise)
+     * Then, \(\exists k \exists l ((b = ak)\land (c = bl))\).
+--
+     * So, this relation is transitive.
+
+   예제 5.14 정수 집합(\(\mathrm{Z}\))위의 \(<\) 관계는 transitive?
+     * \(a < b \land b< c\) 이면 \(a < c\)이므로 추이관계
+
+   정리5.3 집합 \(A\)위로의 \(R\)이 다음 조건을 만족하면 \(R\)은 추이관계 (transitive)이다. \[
+   R^2:=R\circ R \subseteq R. \]
+
+--
+    3. \(R^+\)는 성질 P를 가지는 \(A \times A\)의 원소를 포함한다.
+
+   위에서 성질 P는 관계의 성질인 반사성, 대칭성, 추이성 중 하나임
+
+   예제 5.15 (reflexive closure) \(A = \{1, 2, 3\}\)위로의 관계 \(R = \{(1, 1),
+   (1, 2), (2, 1), (3, 2)\}\)의 반사성을 가지는 클로저 \(R^+\)는 \((2, 2)\)와 \((3,
+   3)\)를 \(R\)에 추가하면 된다. \[ R^+ = \{(1, 1), (1, 2), (2, 1), (3, 2)\} \cup
+--
+   Remark.
+     * 반사성을 가지는 클로저
+         1. \(\Delta = \{(a, a)| a \in A\}\)를 diagonal relation(대각 관계)라고 함
+         2. \(R^+ = R \cup \Delta\).
+     * 대칭성을 가지는 클로저
+         1. \(R^{-1} = \{(b, a)| (a, b) \in R\}\) (역관계)
+         2. \(R^+ = R \cup R^{-1}\).
+
+   예제 5.16 정수집합위에 정의된 관계 \(R = \{(a, b) | a < b\}\)의 반사성(reflexivity)을 가지는
+   클로저(closure)는?
+
+--
+5.6 동치와 분할
+
+   정의 5.12 (동치관계, equivalence) A relation is called equivalence relation
+   if it is reflexive, symmetric and transitive.
+
+   반사성, 대칭성, 추이성을 가지는 관계를 동치관계(equivalence relation)라고 함, 즉
+    1. 반사성: \((a,a) \in R\),
+    2. 대칭성: \((a,b) \in R \then (b,a) \in R\),
+--
+   [relationship_equivalence.png]
+
+   예제 5.17 집합 \(X=\{a,b,c\}\)위로의 관계 \(R\)을 아래와 같이 정의할 때, \(R\)은 동치관계? \[
+   R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\} \]
+    1. 반사성: \((a,a),(b,b),(c,c) \in R\),
+--
+
+   예제 5.18 정수집합(\(Z\))위에 정의된 \(R = \{(a, b) | a - b \in Z\}\), \(R\)은
+   동치관계?
+
+   Check conditions:
+--
+       (a-b) + (b-c) \in Z\) ….. OK
+
+   정의 5.13 (동치클래스, equialence class) \(R\)를 집합 \(A\)위로의 동치관계일 때, \(A\)에 속한
+   어떤 \(x\)에 대하여 \((x, y) \in R\)인 \(y\)들의 모임을 \(R\)에 대한 \(x\)의 동치클래스 또는
+   동치류(equialence class)라고 하고 \([x]\)로 표시함, 즉 \[ [x] = \{y| (x,y)\in R\},
+--
+   \(\frac{A}{R}\)로 표기함, 즉 \[ \frac{A}{R} = \{[x] | x \in A\}. \]
+
+   예제 5.19 집합 \(X=\{a,b,c\}\)위로의 동치관계 \(R\)을 아래와 같이 정의할 때, \[
+   R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\} \] \(X\)의 각 원소에 대한 동치클래스는 \[
+   [a]=\{a\},~~~~[b]=[c]=\{b,c\}. \]
+--
+    2. 임의의 두 동치클래스 \([x]\)와 \([[y]\)는 서로 같거나 또는 서로소(disjoint)이다.
+    3. \(x\in [x]\)이고 \(x in [y]\)이면 \([x] = [y]\).
+    4. \(A\)에서 정의한 동치관계의 모든 동치클래스는 집합 \(A\)의 분할이다.
+
+   예제 5.20 위의 예제에서 \(X=\{a,b,c\}\)위로의 동치관계 \[
+   R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\}, \] \(X\)의 각 원소에 대한 동치클래스는 \[
+   [a]=\{a\},~~~~[b]=[c]=\{b,c\}. \] 이고, \([a]\)와 \([b]\)는
+--
+
+   정의 5.15 (mod 합동; congruence modulo) 정수집합에서 \(m\)으로 나누었을 때 나머지가 같은 순서쌍
+   \((a, b)\)들로 이루어진 관계를 mod 합동 관계라고 하고, 두 수의 관계를 다음과 같이 표시함 \[ a \equiv b
+   (mod ~~m). \] 즉, mod 합동 관계는 \[ R = \{(a, b) | a \equiv b (mod ~~m)\}.
+   \]
+
+   정리5.6 mod 합동 관계(congruence modulo)는 동치관계임
+    1. 반사성 (Reflexivity): \(a \equiv a (mod ~n)\)
+    2. 대칭성 (Symmetry): \(a ≡ b (mod ~n)\)이면 \(b ≡ a (mod ~n)\).
+--
+   위의 동치클래스는 \(Z_0\)의 분할이다.
+
+5.7 부분 순서 관계
+
+   정의 5.16 (부분 순서 관계, partial ordered relation)
+     * 반사성(reflexive), 반대칭성(antisymmetric), 추이성(transitive)을 가지는 관계를 부분 순서
+       관계라고 함
+     * 집합 \(A\)와 \(A\)위로의 관계 \(R\)이 부분 순서 관계이면 \((A, R)\)을 부분순서집합(partial
+       ordered set, POSet)이라고 함
+     * \((x, y) \in R\) (부분 순서 관계)이면 \(x \lesssim y\)으로 표시함
+
+   예제 5.22 아래는 \(\{x,y,z\}\)의 멱집합(power set)위로의 포함관계(\(\subset\))를 방향그래프로
+   나타낸 것이다. 이런 관계는 부분 순서 관계인가?
+
+   [1200px-Hasse_diagram_of_powerset_of_3.svg.png]
+--
+   [Partial-order-graph.png]
+
+   부분 순서 관계그래프
+
+   예제 5.23 자연수 집합에서 \(\le\) 는 부분순서관계임
+
+   부분순서관계에 대한 조건을 체크:
+    1. 반사관계 \[ \forall x\in N, ~x \le x \]
+    2. 반대칭관계 \[ \forall x, y \in N,~ x \le y \land y \le x \then x=y \]
+    3. 추이관계 \[ \forall x, y,z \in N, ~x \le y \land y \le x \then x \le z
+       \]
+
+   예제 5.24 집합 \(S\)의 부분집합에서의 포함관계 \(\subseteq\) 는 부분순서관계임
+    1. 반사관계 \[ \forall A\subseteq S, ~A \subseteq A \]
+    2. 반대칭관계 \[ \forall A, B \subseteq S,~ A \subseteq B \land B \subseteq
+       A \then A=B \]
+    3. 추이관계 \[ \forall A, B,C \subseteq S, ~A \le B \land B \subseteq C
+       \then A \subseteq C \]
+
+--
+          비교가능이라고 함
+
+   정의 5.17 (선형순서, linear order, total order) 집합 \(A\)위로의 관계 \(R\)이 다음 조건을
+   만족하면 선형순서라고 함
+    1. \(R\)이 부분 순서 관계이면서
+    2. 만약 \((a, b) \in R\) 또는 \((b, a) \in R\) 또는 \(a=b\) 중 하나이다.
+
+--
+          집합 \(A\)의 모든 두 원소가 비교가능하면 \(A\)를 선형 순서 집합이라 함
+
+   선형 순서 관계(linearly ordered relation, linear order)
+          선형 순서 집합, \((A, \lesssim)\)에서 관계 \(\lesssim\)를 선형 순서 관계라고 함
+
+   예제 5.25 정수집합에서 \(\le\)는 선형순서 관계임
+
+   왜냐하면 \(a\ne b\)이면 \(a \le b\)이거나 \(b \le a\) 둘 중 하나임
+--
+       만족하는 \(y\)가 존재하지 않을 경우에만 \(x\)에서 \(z\)로 연결
+
+   예제 5.26 \(A = \{1, 2, 3, 4\}\)위의 관계 \(\le\)에 대한 Hasse Diagram의 작성
+
+   \[ \le = \{(1,1), (1,2), (1,3), (1,4), (2,2), (2,3), (2,4), (3,3),
+--
+
+     * 일시: 4월 27일 목요일 오후 2:30 ~ 4:00
+     * 범위: 논리와 명제, 집합과 수, 증명, 관계, 행렬
+     * 장소: 논리회로실(20명), 에밀레홀 (나머지 인원)
+     * 시험준비방법: 교재 및 강의노트 중심으로 각 단원별 연습문제 풀기 (과제 포함)
+--
+  22. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/논리명제.html#논리연산자의-우선순위
+  23. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/논리명제.html#항진명제-모순명제
+  24. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/논리명제.html#논리적-동치-관계
+  25. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/논리명제.html#논증과-추론
+  26. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/논리명제.html#추론-규칙
+--
+  56. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/증명.html#프로그램의-입증
+  57. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/증명.html#과제-1
+  58. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html
+  59. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#관계-relations
+  60. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#관계의-표현-방법
+  61. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#관계의-합성-combining-relations
+  62. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#complementary-relations-보수-관계
+  63. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#관계의-성질-properties-of-relations
+  64. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#동치와-분할
+  65. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#부분-순서-관계
+  66. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#연습문제
+  67. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/관계.html#중간고사-일정-공지
+  68. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/matrix.html
+  69. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/matrix.html#행렬-연산
+--
+ 116. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/tree.html#기말고사-일정-및-보강계획
+ 117. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/tree.html#교재-연습문제-2
+ 118. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html
+ 119. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#경우의-수-순열과-조합
+ 120. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#이산적-확률과-통계
+ 121. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#확률의-유래
+ 122. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#확률의-정의
+ 123. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#확률의-계산-고전적-정의에-의한
+ 124. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#조건부-확률과-베이즈-정리
+ 125. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#확률변수
+ 126. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#베르누이-분포-이항분포
+ 127. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#초기하분포와-확률변수
+ 128. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#기하분포-음이항분포
+ 129. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#포아송poisson-문포
+ 130. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#비둘기-집-원리
+ 131. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#재귀적-정의
+ 132. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/순열-이산확률-재귀적관계.html#피보나치-수fibonacci-numbers
+ 133. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/algorithm.html
+ 134. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/algorithm.html#알고리즘-분석
+--
+ 156. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/a2.-과제-및-연습문제-풀이.html#과제1-논리와-명제
+ 157. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/a2.-과제-및-연습문제-풀이.html#과제2-증명법
+ 158. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/a2.-과제-및-연습문제-풀이.html#관계와-표현-연습문제
+ 159. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/a2.-과제-및-연습문제-풀이.html#행렬
+ 160. http://bigdata.dongguk.ac.kr/lectures/disc_math/_book/이산구조-중간고사-결과-및-해답.html
