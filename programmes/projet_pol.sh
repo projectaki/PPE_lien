@@ -29,8 +29,8 @@ do
    	response=$(curl -s -I -L -w "%{http_code}" -o "./aspirations/aspiration_pl$N.html" $URL)
 	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
     lynx -dump "$URL" > ./dumps-text/dump_pl${N}.html
-    COMPTE=$(cat ./dumps-text/dump_pl$N.html | grep -i -o -E "zwiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))"  | wc -w)
-    CONTEXTES=$(cat ./dumps-text/dump_pl$N.html | grep -B 1 -A 1 -i -w -E "zwiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))" > "./contextes/contexte_pl$N.txt" )
+    COMPTE=$(cat ./dumps-text/dump_pl$N.html | grep -i -o -E "(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))"  | wc -w)
+    CONTEXTES=$(cat ./dumps-text/dump_pl$N.html | grep -B 1 -A 1 -i -w -E "(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))" > "./contextes/contexte_pl$N.txt" )
 
     echo "<tr>
     <td>$N</td>
