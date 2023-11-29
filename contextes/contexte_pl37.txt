@@ -1,39 +1,63 @@
-
-                                         Asocjacja p. zwiazek statystyczny
+   Aceton
+   zwiazek organiczny, najprostszy keton alifatyczny, znajdujacy szerokie
+   zastosowanie w przemysle i gospodarstwie domowym, np. jako zmywacz do
+--
+   Benzen
+   zwiazek organiczny, podstawowy weglowodór aromatyczny, wykorzystywany
+   m.in. w przemysle chemicznym oraz farmaceutycznym.
+--
+   Butadien
+   organiczny zwiazek chemiczny. Gaz uzywany do produkcji syntetycznego
+   kauczuku
+--
+   Etylen
+   zwiazek organiczny, najprostszy weglowodór nienasycony (alken); eten.
 
 --
-        ryzyka oraz czynniki zapobiegajace i lecznicze. Jest to okreslenie
-                 mocne i nie powinno byc stosowane przy sl/abych zwiazkach
-                                                           statystycznych.
---
-
-                                          Miara zwiazku p. miara asocjacji
+   wartosciowy, który jest wyemitowany poza granicami Rzeczpospolitej
+   Polskiej przez Bank Depozytowy w zwiazku z akcjami.
 
 --
-        badany efekt (outcome). Okreslenie to bywa tez stosowane do samego
-      efektu: choroby, urazu lub innego zdarzenia mogacego miec zwiazek ze
-   zdrowiem. W badaniach epidemiologicznych przypadek musi byc odpowiednio
+   Kwas tereftalowy
+   organiczny zwiazek chemiczny z grupy kwasów aromatycznych. Oczyszczony
+   kwas tereftalowy (PTA) jest stosowany gl/ównie jako surowiec do
 --
-
-          Miara zwiazku stosowana w badaniach analitycznych, szczególnie w
-     badaniach kliniczno-kontrolnych. Iloraz szans narazenia ze wzgledu na
+   Ortoksylen
+   organiczny zwiazek chemiczny, weglowodór aromatyczny, pochodna benzenu.
+   Wykorzystywany jest jako pól/produkt do produkcji bezwodnika ftalowego
 --
-      sie od siebie populacji lub subpopulacji.  Prowadzi do odchylenia od
-                                     rzeczywistosci miar zwiazku (RR, OR).
+   Propylen
+   zwiazek organiczny, weglowodór nienasycony. Propylen jest surowcem do
+   otrzymywania wielu zwiazków organicznych, m.in.: alkoholu
+--
+   Kwas tereftalowy (kwas 1,4-benzenodikarboksylowy), C H (COOH) -
+   organiczny zwiazek chemiczny z grupy kwasów aromatycznych, zawierajacy
+   dwie grupy karboksylowe w pozycji para.
+--
+   Saletra amonowa
+   zwiazek nieorganiczny, uniwersalny nawóz azotowy.
 
 --
-         wzgledem oceny (pomiaru) narazenia lub stanu zdrowia. W badaniach
-        analitycznych zmienia wielkosc miar zwiazku (RR, OR). Jezeli w obu
-     porównywanych grupach odsetek bl/ednych zaklasyfikowani jest ten sam,
+   T1 PSER
+   liczba zdarzen o duzych skutkach w zwiazku z uwolnieniem substancji do
+   otoczenia x 1 000 000 / ilosc roboczogodzin.
 --
-
-          Graficzne przedstawienie zwiazku dwu zmiennych w postaci punktów
-   odpowiadajacych parom wartosci dwu zmiennych ciagl/ych reprezentowanych
+   T2 PSER
+   liczba zdarzen o mniejszych skutkach w zwiazku z uwolnieniem substancji
+   do otoczenia x 1 000 000 / ilosc roboczogodzin.
 --
-
-       Cecha wyniku analizy statystycznej okreslajaca sil/e zwiazku miedzy
-       badanymi zmiennymi. Wynik uznajemy za znamienny (odrzucamy hipoteze
+   Toluen
+   zwiazek organiczny, weglowodór aromatyczny wysokiej czystosci produkt
+   wykorzystywany najczesciej jako pól/produkt do wyrobu pól/produktów
 --
-
-                                        Zwiazek statystyczny (association)
-
+   Weglowodory
+   zwiazki organiczne zbudowane z wegla i wodoru. Ropa naftowa i gaz
+   ziemny sa mieszaninami weglowodorów.
+--
+   Wodorotlenek sodu, soda zraca, soda kaustyczna, NaOH
+   nieorganiczny zwiazek chemiczny z grupy wodorotlenków, nalezacy do
+   najsilniejszych zasad. Stosowany jest do produkcji mydl/a, srodków
+--
+   i w efekcie nie jest stosowana w obowiazujacej polityce rachunkowosci i
+   tym samym w sprawozdaniach finansowych Grupy ORLEN. W zwiazku z tym
+   tendencja wzrostowa cen ropy wpl/ywa pozytywnie, a spadkowa negatywnie

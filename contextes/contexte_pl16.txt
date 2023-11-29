@@ -7,14 +7,6 @@
 [8]Polski Zwiazek Niewidomych Okreg Dolnoslaski
 
 --
-     *
-   [32]Polski Zwiazek Niewidomych Okreg Dolnoslaski
-
---
-     *
-   [34]Polski Zwiazek Niewidomych Okreg Dolnoslaski
-
---
-  68. http://dolnoslaski.pzn.org.pl/deklaracja-dostepnosci/
-  69. https://fanimani.pl/zbieramy/polski-zwiazek-niewidomych-okreg-dolnoslaski/
-  70. http://dolnoslaski.pzn.org.pl/przelewy24/
+  66. http://dolnoslaski.pzn.org.pl/deklaracja-dostepnosci/
+  67. https://fanimani.pl/zbieramy/polski-zwiazek-niewidomych-okreg-dolnoslaski/
+  68. http://dolnoslaski.pzn.org.pl/przelewy24/

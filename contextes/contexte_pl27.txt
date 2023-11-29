@@ -1,11 +1,12 @@
-   Niezgodnosc towaru z umowa - tryb (podstawa prawna) dochodzenia
-   odpowiedzialnosci od sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona
-   niezgodnoscia zakupionego towaru z umowa.
+   ART - Akademia Rolniczo-Techniczna
+   AZS - Akademicki Zwiazek Spotowy
+   BSRUN - Baltic Sea Region University Network
 --
-   Rekojmia - tryb (podstawa prawna) dochodzenia odpowiedzialnosci od
-   sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona wada fizyczna
-   (niezgodnoscia z umowa) lub prawna zakupionej nieruchomosci.
+   NK - Naukowe Kol/o
+   NSZZ - Niezalezny Samorzadny Zwiazek Zawodowy
+   NIP - Numer Identyfikacji Podatkowej
 --
-   Usl/ugi posprzedazne - usl/ugi swiadczone przez przedsiebiorce w
-   zwiazku ze sprzedanym towarem, np. serwisowanie czy konserwacja towarów
-   po okresie gwarancji lub w przypadku wystapienia wad nieobjetych
+   ZPORR - Zintegrowany Program Operacyjny Rozwoju Regionalnego
+   ZNP - Zwiazek Nauczycielstwa Polskiego
+   ZNP RSzWiN - Zwiazek Nauczycielstwa Polskiego Rada Szkolnictwa Wyzszego
+   i Nauki

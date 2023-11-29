@@ -1,45 +1,98 @@
-
-Zwiazek
-
---
-   (w zn. 1.) Adam studiuje meteorologie i wl/asnie pisze prace
-   magisterska na temat zmian klimatu na Ziemi. Praca ma wyjasnic zwiazek
-   (B. lp) miedzy emisja zanieczyszczen cywilizacyjnych a stopniowym
---
-   Dyrektor technikum samochodowego zawsze zwracal/ uwage na zajecia
-   warsztatowe, gdyz twierdzil/, ze najwazniejszy jest zwiazek (M. lp,
-   ident. w B. lp) teorii z praktyka, a kazdy uczen musi miec mozliwosc
---
-
-   (w zn. 2.) Zwiazki (M. lm, ident. w B. lm) zawodowe operatorów
-   filmowych w USA sa jednymi z najbardziej preznych zwiazków (D. lm) w
-   branzy filmowej.
-   Z inicjatywy grupy miast powol/ano Zwiazek (B. lp) Gmin Pojezierza,
-   majacy na celu wspólne wypromowanie atrakcyjnych turystycznie regionów
---
-   na ok. dwa tygodnie wyjezdza do odlegl/ego miejsca na Mazurach, gdzie
-   rozbija namiot w samotnosci nad jeziorem, poniewaz zalezy mu na zwiazku
-   (Ms. lp) z przyroda.
---
-   KOMENTARZ
-   Pokrewny przym. zwiazkowy to odnoszacy sie do zwiazku (gl/. w zn. 2.),
-   np.: skl/adki zwiazkowe, dzial/acz zwiazkowy (zwiazkowiec), ale - uwaga
---
-   Wiecej informacji:
-   [36]zwiazek [37]wolny zwiazek
-   Podobne teksty:
---
-       wybranych utworów literackich róznych epok, zwracajac uwage na ich
-       zwiazek z biografia autorów, uwzglednij lekture "Nad Niemnem" Elizy
-       Orzeszkowej
-     * 74% [39]Zwiazek zbieraczy kitu "Chl/opcy z placu broni".
+     * [56]Z
+     * [57]Zwiazek zawodowy
 
 --
-   Spis tresci
-     * Zwiazek
-     __________________________________________________________________
+
+Zwiazek zawodowy
+
 --
-  35. javascript:void(0);
-  36. https://sciaga.pl/slowniki-tematyczne/9086/zwiazek/
-  37. https://sciaga.pl/slowniki-tematyczne/19292/wolny-zwiazek/
-  38. https://sciaga.pl/tekst/103568-104-kresy-wschodnie-jako-mala-ojczyzna-omow-temat-na-podstawie-wybranych-utworow
+   i socjalnych. Definicja ta zostal/a zawarta w ustawie z dnia 23 maja
+   1991 r. o zwiazkach zawodowych.
+   Podstawowa cecha zwiazków zawodowych jest ich niezaleznosc. Organizacje
+--
+   Co istotne, organy panstwowe, samorzadu terytorialnego i pracodawcy
+   obowiazani sa traktowac jednakowo wszystkie zwiazki zawodowe.
+
+--
+   wykonujaca prace zarobkowa. Nie ma przy tym znaczenia na podstawie
+   jakiej umowy o prace zostal/a ona zatrudniona. Dodatkowo do zwiazku
+   zawodowego moga zapisac sie takze:
+--
+
+   Stworzenie nowego zwiazku zawodowego moze nastapic poprzez:
+     * podjecie uchwal/y o jego utworzeniu przez co najmniej 10 osób
+--
+     * zl/ozenie wniosku do wl/asciwego sadu rejonowego, wydzial/u
+       gospodarczego Krajowego Rejestru Sadowego o wpis zwiazku zawodowego
+       do Krajowego Rejestru Sadowego;
+     * wpisanie przez Sad zwiazku do Krajowego Rejestru Sadowego.
+
+
+   Co istotne, z chwila zarejestrowania zwiazku zawodowego w Krajowym
+   Rejestrze Sadowym uzyskuje on osobowosc prawna.
+
+   Zwiazki zawodowe sa uprawnione do:
+     * opiniowania aktów normatywnych w zakresie objetych zadaniami
+--
+     * orowadzenia dzial/alnosci gospodarczej, przy czym dochód z niej
+       moze sl/uzyc wyl/acznie realizacji zadan statutowych zwiazku
+       zawodowego.
+--
+   Jak juz zostal/o wskazane na wstepie, podstawowym celem istnienia
+   zwiazku zawodowego jest obrona praw pracowników w nim zrzeszonych.
+   W praktyce polega to na tym, ze pracodawca chcac podjac jakies decyzje
+   wiazace wobec pracowników wykonujacych prace w jego zakl/adzie
+   pracy, jest zobowiazany do skonsultowania tej kwestii ze zwiazkiem
+   zawodowym funkcjonujacym w tym zakl/adzie pracy.
+--
+
+   Stosownie do tresci art. 251 ust. 1 ustawy o zwiazkach zawodowych,
+   uprawnienia zakl/adowej organizacji zwiazkowej przysl/uguja organizacji
+--
+   Podstawa prawna:
+     * Ustawa z dnia 23 maja 1991 r. o zwiazkach zawodowych (Dz.U. z 2019
+       r. poz. 263).
+--
+   Zobacz takze:
+     * [84]Zmiany w zwiazkach zawodowych
+
+--
+
+Komunikat w zwiazku realizacja obowiazku z art. 13 RODO
+Informacja nt. Cookies
+--
+
+   W zwiazku z korzystaniem przez nas z narzedzia Google Analitycs Twoje
+   dane zgromadzone w plikach cookies moga byc przekazywane Google Inc.
+--
+   Chcesz dowiedziec sie wiecej o zasadach przetwarzania i ochrony danych
+   osobowych w zwiazku z korzystaniem z Serwisu mikroPorady?
+
+--
+  56. https://mikroporady.pl/slownik-pojec/z
+  57. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+  58. https://mikroporady.pl/slownik-pojec/a
+--
+  83. https://mikroporady.pl/twoj-e-pit
+  84. https://mikroporady.pl/trzeba-wiedziec/zmiany-w-zwiazkach-zawodowych-od-1-stycznia-2019%20
+  85. https://mikroporady.pl/slownik-pojec/koszty-ogolne-zarzadu
+--
+ 150. https://mikroporady.pl/files/regulaminy/polityka-cookies.pdf
+ 151. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 152. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 153. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 154. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 155. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 156. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
+--
+ 162. https://mikroporady.pl/files/regulaminy/polityka-prywatnosci.pdf
+ 163. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 164. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
+--
+ 168. https://mikroporady.pl/files/regulaminy/polityka-cookies.pdf
+ 169. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 170. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
+--
+ 177. https://mikroporady.pl/wyszukiwarka
+ 178. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
+ 179. https://mikroporady.pl/

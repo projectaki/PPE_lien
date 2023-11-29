@@ -91,7 +91,7 @@ Wiecej polsko-angielskich tl/umaczen zwiazek
   65. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek-organiczny
   66. https://dictionary.cambridge.org/pl/dictionary/polish-english/wstepowac
 --
-  75. https://dictionaryblog.cambridge.org/2023/11/20/new-words-20-november-2023/
+  75. https://dictionaryblog.cambridge.org/2023/11/27/new-words-27-november-2023/
   76. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#dataset_k-pl-en-global
   77. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#dataset_k-pl-en-pw
   78. https://dictionary.cambridge.org/pl/learn.html

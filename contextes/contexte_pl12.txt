@@ -17,55 +17,57 @@ zwiazek
    (BUTTON) podziel sie
 --
 
-     * [44]zwiazek
      * [45]zwiazek
-     * [46]Zwiazek Hellenski
-     * [47]Zwiazek Pruski
-     * [48]Zwiazek Koryncki
+     * [46]zwiazek
+     * [47]Zwiazek Hellenski
+     * [48]Zwiazek Pruski
+     * [49]Zwiazek Koryncki
 
 --
 
-     * [63]Zwiazek Hellenski
-     * [64]Zwiazek Pruski
-     * [65]Róg obfitosci - co oznacza ten zwiazek frazeologiczny?
-     * [66]Definicje i gl/ówne pojecia zwiazek postepowaniem adm...
-     * [67]Objasnij zwiazek  tytul/u z trescia wiersza
-     * [68]wyjasnij zwiazek pomiedzy Wniebowstapieniem Jezusa i...
+     * [64]Zwiazek Hellenski
+     * [65]Zwiazek Pruski
+     * [66]Róg obfitosci - co oznacza ten zwiazek frazeologiczny?
+     * [67]Definicje i gl/ówne pojecia zwiazek postepowaniem adm...
+     * [68]Objasnij zwiazek  tytul/u z trescia wiersza
+     * [69]wyjasnij zwiazek pomiedzy Wniebowstapieniem Jezusa i...
 
 --
-     * [81]Sl/ownik wyrazów bliskoznacznych
+     * [82]Sl/ownik wyrazów bliskoznacznych
      * zwiazek
 
 --
-   1. https://www.bryk.pl/
-   2. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek#addmenu
-   3. https://www.bryk.pl/dodaj-wypracowanie.html
+
+   1. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
+   2. https://www.bryk.pl/
+   3. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek#addmenu
+   4. https://www.bryk.pl/dodaj-wypracowanie.html
 --
-  34. https://wydarzenia.interia.pl/raport-matura-2023
-  35. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
-  36. https://www.bryk.pl/dodaj-wypracowanie.html
+  35. https://wydarzenia.interia.pl/raport-matura-2023
+  36. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
+  37. https://www.bryk.pl/dodaj-wypracowanie.html
 --
-  39. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych
-  40. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
+  40. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych
   41. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
-  42. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek?lpv=1
-  43. https://www.bryk.pl/napisz-do-nas.html?topic=errors&r=Imh0dHA6XC9cL3d3dy5icnlrLnBsXC9zbG93bmlraVwvc2xvd25pay13eXJhem93LWJsaXNrb3puYWN6bnljaFwvNzM4NjAtendpYXplayI=
-  44. https://www.bryk.pl/slowniki/slownik-polsko-angielski/148735-zwiazek
-  45. https://www.bryk.pl/slowniki/slownik-polsko-niemiecki/217113-zwiazek
-  46. https://www.bryk.pl/slowniki/slownik-historyczny/88784-zwiazek-hellenski
-  47. https://www.bryk.pl/slowniki/slownik-historyczny/88787-zwiazek-pruski
-  48. https://www.bryk.pl/slowniki/slownik-historyczny/88785-zwiazek-koryncki
-  49. https://www.bryk.pl/zadaj-pytanie.html
+  42. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
+  43. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek?lpv=1
+  44. https://www.bryk.pl/napisz-do-nas.html?topic=errors&r=Imh0dHA6XC9cL3d3dy5icnlrLnBsXC9zbG93bmlraVwvc2xvd25pay13eXJhem93LWJsaXNrb3puYWN6bnljaFwvNzM4NjAtendpYXplayI=
+  45. https://www.bryk.pl/slowniki/slownik-polsko-angielski/148735-zwiazek
+  46. https://www.bryk.pl/slowniki/slownik-polsko-niemiecki/217113-zwiazek
+  47. https://www.bryk.pl/slowniki/slownik-historyczny/88784-zwiazek-hellenski
+  48. https://www.bryk.pl/slowniki/slownik-historyczny/88787-zwiazek-pruski
+  49. https://www.bryk.pl/slowniki/slownik-historyczny/88785-zwiazek-koryncki
+  50. https://www.bryk.pl/zadaj-pytanie.html
 --
-  62. https://skul.pl/
-  63. https://www.bryk.pl/slowniki/slownik-historyczny/88784-zwiazek-hellenski
-  64. https://www.bryk.pl/slowniki/slownik-historyczny/88787-zwiazek-pruski
-  65. https://www.bryk.pl/wypracowania/jezyk-polski/antyk-i-biblia/1011214-rog-obfitosci-co-oznacza-ten-zwiazek-frazeologiczny.html
-  66. https://www.bryk.pl/wypracowania/pozostale/administracja/23609-definicje-i-glowne-pojecia-zwiazek-postepowaniem-administracyjnym.html
-  67. https://www.bryk.pl/pytania/jezyk-polski/tematy-wolne/470-objasnij-zwiazek-tytulu-z-trescia-wiersza.html
-  68. https://www.bryk.pl/pytania/pozostale/religia/3136-wyjasnij-zwiazek-pomiedzy-wniebowstapieniem-jezusa-i-wiara-w-zycie.html
-  69. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/70348-akceptacja
+  63. https://skul.pl/
+  64. https://www.bryk.pl/slowniki/slownik-historyczny/88784-zwiazek-hellenski
+  65. https://www.bryk.pl/slowniki/slownik-historyczny/88787-zwiazek-pruski
+  66. https://www.bryk.pl/wypracowania/jezyk-polski/antyk-i-biblia/1011214-rog-obfitosci-co-oznacza-ten-zwiazek-frazeologiczny.html
+  67. https://www.bryk.pl/wypracowania/pozostale/administracja/23609-definicje-i-glowne-pojecia-zwiazek-postepowaniem-administracyjnym.html
+  68. https://www.bryk.pl/pytania/jezyk-polski/tematy-wolne/470-objasnij-zwiazek-tytulu-z-trescia-wiersza.html
+  69. https://www.bryk.pl/pytania/pozostale/religia/3136-wyjasnij-zwiazek-pomiedzy-wniebowstapieniem-jezusa-i-wiara-w-zycie.html
+  70. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/70442-bazgrac
 --
- 101. https://www.bryk.pl/regulamin-bryk-rodo.pdf
- 102. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
- 103. http://firma.interia.pl/regulamin
+ 102. https://www.bryk.pl/regulamin-bryk-rodo.pdf
+ 103. https://www.bryk.pl/slowniki/slownik-wyrazow-bliskoznacznych/73860-zwiazek
+ 104. http://firma.interia.pl/regulamin

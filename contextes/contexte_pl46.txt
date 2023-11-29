@@ -1,41 +1,16 @@
-               o [108]Przykl/ady zwiazków frazeologicznych
-               o [109]Skad w jezyku wziel/y sie zwiazki frazeologiczne?
-     * [110]Jak wykorzystywac sl/ownik frazeologiczny?
+   . wyjasnienie znaczenia
+     * Sl/ownik czasami podaje jeszcze zwiazki frazeologiczne, w których
+       wystepuje dane sl/owo.
+--
+   Wyjasnia watpliwosci dotyczace poprawnego uzycia sl/ów. Jak dane sl/owo
+   nalezy odmienic, jak wymawiac, jak uzyc w danym zwiazku wyrazów.
+   Przykl/ad:
 --
 
-   Sl/ownik frazeologiczny, jak sama nazwa wskazuje, zawiera zwiazki
-   frazeologiczne, czyli stal/e pol/aczenia wyrazowe, utrwalone w jezyku i
-   stanowiace wazny element kultury danego narodu. Zwiazek frazeologiczny
-   charakteryzuje sie tym, ze skl/ada sie z co najmniej dwóch wyrazów i
+   Zawiera zwiazki frazeologiczne zwiazane z danym wyrazem. Zarówno
+   zwiazki stal/e, jak i l/aczliwe (luzniejsze). Np.
+     * co znaczy "brac kogos w obroty"?
 --
-
-   Kazdy z nas posl/uguje sie na co dzien zwiazkami frazeologicznymi i
-   wprowadzanie ich do tekstu mówionego czy pisanego jest jednym z
---
-
-Skad w jezyku wziel/y sie zwiazki frazeologiczne?
-
---
-   Sl/ownik frazeologiczny przydaje sie, gdy nie jestesmy pewni
-   oryginalnego brzmienia zwiazku frazeologicznego, a chcemy go zastosowac
-   w sposób poprawny. Mozemy tez sprawdzic znaczenie zwiazku, aby upewnic
---
-   frazeologiczny, produkt przygotowany przez Wydawnictwo Greg (rok
-   wydania: 2022). Zawiera on nie tylko najpopularniejsze zwiazki
-   frazeologiczne, ale takze scenki ilustrujace poszczególne zwroty i
-   stanowi doskonal/a pomoc dla dzieci, które dopiero ucza sie, czym jest
-   zwiazek frazeologiczny.
-
---
-   czesciej popel/nianych bl/edów to mylenie pojec, wokól/ których
-   zbudowany jest zwiazek frazeologiczny, poprzez zamienienie sl/ów w
-   zwiazkach majacych podobne znaczenie. Przykl/adowo prawidl/owe formy
-   to: "uciekac gdzie pieprz rosnie" lub "uciekac gdzie raki zimuja", a
---
-   Poza tym frazeologizmy stanowia utrwalone zródl/o tresci
-   historyczno-jezykowych (tylko w zwiazkach frazeologicznych zachowal/
-   sie zwrot "zbic kogos z pantal/yku" czy forma historycznej liczby
---
-
-   Zwiazki frazeologiczne dodatkowo wzbogacaja tekst, sprawiaja, ze staje
-   sie on blizszy czytelnikowi, a sl/ownik frazeologiczny jest tu o tyle
+       miejsca wzial/ Piotrka w obroty.
+     * Pod hasl/em kura odnajdziemy zwiazki z tym wl/asnie sl/owem.
+          + Kura znoszaca zl/ote jajka - zródl/o wielkich zysków.

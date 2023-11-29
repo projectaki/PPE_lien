@@ -1,43 +1,50 @@
-    #[1]Polski Zwiazek Karate Tradycyjnego » Kanal/ z wpisami [2]Polski
-   Zwiazek Karate Tradycyjnego » Kanal/ z komentarzami [3]Polski Zwiazek
-   Karate Tradycyjnego » iCal Feed [4]alternate [5]alternate [6]alternate
---
+   [1]ZWIAZEK JEST co to jest
 
-     * [8]Polski Zwiazek Karate Tradycyjnego - karate.pl
-
---
-
-   [9]Polski Zwiazek Karate Tradycyjnego Polski Zwiazek Karate
-   Tradycyjnego
-   [10]Baza PZKT
-     * [11]Zwiazek
-          + [12]Karate tradycyjne
---
-                    # [41]2016-2017
-          + [42]Zwiazek - wl/adze
-          + [43]Zwiazki wojewódzkie
-          + [44]Egzaminatorzy i sedziowie
---
-
-   Polski Zwiazek Karate Tradycyjnego
-   ul. Osowska 82, 04-351 Warszawa
---
-     * [108]Druki
-     * [109]Zwiazki wojewódzkie
-     * [110]Poczta
-
-   Copyright 2021 Polski Zwiazek Karate Tradycyjnego, All rights reserved.
+   Definicja is-a relationship co to znaczy. Sl/ownik Zwiazek zawierania
+   sie zakresów znaczeniowych.
+   zwiazek co to jest
 
 --
-  10. https://bazakarate.pl/site/login
-  11. https://karate.pl/zwiazek-wladze/
-  12. https://karate.pl/karate-w-polsce-i-na-swiecie/
+
+Definicja zwiazek "jest"
+
 --
-  41. https://karate.pl/historia-karate-tradycyjnego-w-polsce-2016-2017/
-  42. https://karate.pl/zwiazek-wladze/
-  43. https://karate.pl/zwiazki-wojewodzkie/
-  44. https://karate.pl/egzaminatorzy-i-sedziowie/
+
+   Co to znaczy ZWIAZEK "JEST": Zwiazek zawierania sie zakresów
+   znaczeniowych pojec (zbiorów obiektów), na przykl/ad zwiazek miedzy
+   definicja STUDENT i definicja OSOBA: STUDENT "jest" OSOBA. Zwiazek
+   "jest" jest odmiennie okreslany jako generalizacja/specjalizacja. Jest
+   on takze praktycznie tozsamy ze zwiazkami dziedziczenia wyznaczajacymi
+   hierarchie klas.
 --
- 108. https://karate.pl/druki/
- 109. https://karate.pl/zwiazki-wojewodzkie/
- 110. https://poczta.cyberfolks.pl/
+
+   Czym jest Jest Zwiazek znaczenie w [8]Sl/ownik definicji Z .
+
+--
+          zbioru. Przedmiot albo wartosc typu zestaw mozna dowolnie
+          zwiekszac o nowe przedmioty i zwiazek "jest" co to jest.
+
+--
+          Przeciwienstwem jest pytanie zanurzone (embedded), stanowiace
+          fragment programu aplikacyjnego zwiazek "jest" definicja.
+
+--
+          czytac informacji z danego bytu, ani takze dokonywac w nim
+          zadnych zmian. Zobacz takze: zamek zwiazek "jest" co znaczy.
+
+--
+
+Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
+
+   Co to jest Jest Zwiazek wyjasnienie.
+
+   Jak dzial/a zwiazek "jest" definicja IS-A RELATIONSHIP tl/umaczenie.
+
+--
+
+   Co to znaczy zwiazek definicja.
+
+--
+
+   Tl/umaczenie zwiazek co to znaczy.
+

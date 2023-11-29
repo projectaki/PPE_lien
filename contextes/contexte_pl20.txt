@@ -49,22 +49,22 @@ zwiazek
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
 --
-     * [57]Zwin wszystko
-     * [58]1. zwiazek (czegos z czyms)
-          + [59]regul/y
+     * [56]Zwin wszystko
+     * [57]1. zwiazek (czegos z czyms)
+          + [58]regul/y
 --
-          + [62]gramatyka
-     * [63]2. zwiazek (organizacja)
-          + [64]regul/y
+          + [61]gramatyka
+     * [62]2. zwiazek (organizacja)
+          + [63]regul/y
 --
-          + [66]gramatyka
-     * [67]3. zwiazek (miedzy ludzmi)
-          + [68]regul/y
+          + [65]gramatyka
+     * [66]3. zwiazek (miedzy ludzmi)
+          + [67]regul/y
 --
-          + [70]gramatyka
-     * [71]4. zwiazek (dwoje)
-          + [72]regul/y
+          + [69]gramatyka
+     * [70]4. zwiazek (dwoje)
+          + [71]regul/y
 --
-          + [74]gramatyka
-     * [75]5. zwiazek (chemiczny)
-          + [76]regul/y
+          + [73]gramatyka
+     * [74]5. zwiazek (chemiczny)
+          + [75]regul/y
