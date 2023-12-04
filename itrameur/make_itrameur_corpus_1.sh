@@ -9,10 +9,10 @@ DOSSIER_DUMPS=$1
 DOSSIER_CONTEXTES=$2
 LANG=$3
 
-output_dump="Desktop/PPE_lien/itrameur/dumps-text_${LANG}.txt"
+output_dump="../dumps-text/dump__${LANG}.txt"
 echo "<LANG=\"${LANG}\">" > "$output_dump"
 
-output_contextes="Desktop/PPE_lien/itrameur/contextes_${LANG}.txt"
+output_contextes="../contextes/contexte_${LANG}.txt"
 echo "<LANG=\"${LANG}\">" > "$output_contextes"
 
 for FICHIER in "$DOSSIER_DUMPS"/dump_"${LANG}"*.html; 
