@@ -34,7 +34,7 @@ for FICHIER in "$DOSSIER_CONTEXTES"/contexte_"${LANG}"*.txt;
 do
     if [ -f "$FICHIER" ]; then
 		page=$(basename $FICHIER| sed "s/contexte_//;s/\.txt$//")
-        contenu=$(cat "$FICHIER" | tr -d '&<>'| sed -e 's/&/&amp;/g' -e 's/</&lt;/g' -e 's/>/&gt;/g')
+        contenu=$(cat "$FICHIER" | tr -d '&<>' | sed -e 's/&/&amp;/g' -e 's/</&lt;/g' -e 's/>/&gt;/g')
         echo "<page=\"${page}\">" >> "$output_contextes"
         echo "<text>${contenu}</text>" >> "$output_contextes"
         echo "</page> §" >> "$output_contextes"
