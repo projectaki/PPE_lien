@@ -1,5 +1,0 @@
-<page=>
-	<text>
-	cat 
-	</text>
-	</page>§
