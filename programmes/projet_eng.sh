@@ -25,11 +25,17 @@ echo "		<table>
 while read -r URL;
 do
 	response=$(curl -s -L -w "%{http_code}" -o "../aspirations/aspiration_ang$N.html" $URL)
-	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1 | tr '[:lower:]' '[:upper:]')
 	COMPTE=0
 	if [ $response == "200" ]
 	then 
-		lynx -dump -nolist ../aspirations/aspiration_ang$N.html >../dumps-text/dump_ang$N.html
+		if [ ! $CODE == "UTF-8"]
+		then
+			iconv -f "$CODE" -t "UTF-8" -o "/tmp/recode_${lineo}.html" "../aspirations/aspirations_ang$N.html"
+			mv "/tmp/recode_${lineo}.html" "../aspirations/aspiration_ang${lineo}.html"
+		fi
+
+		lynx -assume_charset UTF-8 -dump -nolist ../aspirations/aspiration_ang$N.html >../dumps-text/dump_ang$N.html
 		COMPTE=$(grep -P -i -w -o  "links?" ../dumps-text/dump_ang$N.html | wc -l)
 		cat ../dumps-text/dump_ang$N.html | grep -P -C 3 -i  " link(s)? " > ../contextes/contexte_ang$N.txt
 	fi
