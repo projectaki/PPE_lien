@@ -7,9 +7,9 @@ then
 	$REGEXP="\blinks?\b"
 fi
 
-if $LANGUE == "pol"
+if $LANGUE == "pl"
 then
-	$REGEXP=""
+	$REGEXP="\b(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))\b"
 fi
 
 if $LANGUE == "kor"
@@ -19,7 +19,7 @@ fi
 
 echo "
 <!DOCTYPE html>
-<html lang=\"en\">
+<html lang=\"${LANGUE}\">
 <head>
 <meta charset=\"UTF-8\">
 <title>Concordance</title>
