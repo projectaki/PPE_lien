@@ -40,7 +40,7 @@ do
 
     echo "<tr>
     <td>$N</td>
-    <td>$URL</td>
+    <td><a href="$URL">$URL</a></td>
     <td>$response</td>
     <td>$CODE</td>
     <td><a href='../aspirations/aspiration_pl$N.html'>aspiration</a></td>
