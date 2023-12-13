@@ -141,28 +141,18 @@ Text link : The text link is the visible part of the link.
 
    Input :
 --
+Please Login to comment...
 
    Similar Reads
-   Similar read thumbnail
    Difference between normal links and active links
-   Similar read thumbnail
    HTML DOM links Collection
-   Similar read thumbnail
    How to create Right Aligned Menu Links using HTML and CSS ?
-   Similar read thumbnail
-   How to create animated banner links using HTML and CSS?
-   Similar read thumbnail
    How to create links to sections within the same page in HTML ?
-   Similar read thumbnail
    How to use anchor tag to open links in HTML ?
-   Similar read thumbnail
-   CSS Links
-   Similar read thumbnail
    How to Create Navigation Links using HTML5 ?
-   Similar read thumbnail
    How to create links with 'target="_blank"' in Markdown ?
-   Similar read thumbnail
    How to create lists and links using jQuery EasyUI Mobile ?
-   Related Tutorials
-   Similar read thumbnail
-   JavaScript Project Ideas with Source Code
+   How to customize links for pagination in Bootstrap ?
+   Which href value should we use for JavaScript links, "#" or
+   "javascript:void(0)" ?
+   Complete Tutorials
