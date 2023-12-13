@@ -41,7 +41,7 @@ do
     <td><a href='../dumps-text/dump_pl$N.html'>dump</a></td>
     <td>$COMPTE</td>
     <td><a href='../contextes/contexte_pl$N.txt'>contexte</a></td>
-    </tr>"
+    </tr>" 
     N=$((N + 1))
 
 done < "$URL"
