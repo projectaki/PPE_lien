@@ -26,26 +26,23 @@ Definicja zwiazek "jest"
 
    Czym jest Jest Zwiazek znaczenie w Sl/ownik definicji Z .
 
-   Co znaczy Zakres Statyczny:
-          Definicja Zobacz: zakres leksykalny zwiazek "jest" co to jest.
+   Co znaczy Zlecenie:
+          Definicja Dowolny komunikat wysl/any do serwera (albo do
+          obiektu) zlecajacy wykonanie usl/ugi na rzecz klienta (albo
+          innego obiektu zwiazek "jest" co to jest.
 
-   Co znaczy Zgodnosc Typów:
-          Definicja ustalajace, kiedy typ T1 pewnego bytu
-          programistycznego wydedukowany opierajac sie na regul/
-          wnioskowania o typie (type inference rules) jest zgodny z typem
-          T2, wystepujacym w deklaracji tego typu zwiazek "jest"
+   Co znaczy Zagniezdzone Relacje:
+          Definicja Zobacz: nieznormalizowane stosunki zwiazek "jest"
           definicja.
 
-   Co znaczy Zarzadzanie Wersjami:
-          Definicja Zobacz: sterowanie wersjami zwiazek "jest" co znaczy.
+   Co znaczy Zapis:
+          Definicja wielu starszych jezykach i systemach na oznaczenia
+          zestawu nazwanych wartosci. Synonimem zapisu w rodzinie jezyków
+          C/C++ jest struktura, w systemach relacyjnych jest nim krotka
+          albo wiersz, zas w zwiazek "jest" co znaczy.
 
-   Co znaczy Zlecenie Synchroniczne:
-          Definicja Zlecenie, po którym klient czeka na wynik. Zlecenie
-          synchroniczne jest równowazne (zdalnemu) wol/aniu procedury albo
-          sposoby zwiazek "jest" sl/ownik.
-
-     * Dodano: 30 czerwca 2021
-     * Autor: Redaktor naczelny Redaktor naczelny
+   Co znaczy Zorientowany Na Wartosci:
+          Definicja danych nie wprowadzajacych definicje wewnetrznego
 --
        Associates.http://www.odbmsfacts.com
      __________________________________________________________________

@@ -6,11 +6,9 @@ then
 	echo "Ce script demande un argument"
 	exit
 else
-	if [ -f "$URL" ]
+	if [ ! -e "$URL" ]
 	then 
-		echo "Le fichier existe bien"
-	else
-		echo "Le fichier existe pas" 
+		echo "Le fichier n'existe pas"
 		exit
 	fi
 fi
