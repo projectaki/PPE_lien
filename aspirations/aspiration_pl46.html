@@ -84,6 +84,99 @@ img.emoji {
 <link rel='shortlink' href='https://aleklasa.pl/?p=13207' />
 <link rel="alternate" type="application/json+oembed" href="https://aleklasa.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faleklasa.pl%2Fgimnazjum%2Fgramatyka%2Fc249-informacje-wstepne%2Frodzaje-slownikow-2" />
 <link rel="alternate" type="text/xml+oembed" href="https://aleklasa.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faleklasa.pl%2Fgimnazjum%2Fgramatyka%2Fc249-informacje-wstepne%2Frodzaje-slownikow-2&#038;format=xml" />
+<script type="text/javascript">
+  var tab1_pos=0;
+  var wpfb1_tab_width;
+  jQuery(window).load(function(){
+  var tab_width=32;
+  wpfb1_tab_width=32;
+  if (jQuery("#wp-flybox_tab1").length > 0 && tab1_pos==0) 
+    {
+    var i_width=jQuery("#wp-flybox_tab1").width()-tab_width;
+    i_width='-'+i_width+'px';
+    document.getElementById('wp-flybox_tab1').style.left=i_width;
+    }
+  });
+
+jQuery(document).ready(function(){
+var doc_height=jQuery(document).height()
+var scrollTooMuch=parseInt('');
+if (scrollTooMuch===NaN || scrollTooMuch==''){scrollTooMuch=0;}
+jQuery('#wpflybox_container').height(doc_height-scrollTooMuch);
+  var tab_width=32;
+  if (jQuery("#wp-flybox_tab1").length > 0) 
+    {
+    var i_width=jQuery("#wp-flybox_tab1").width()-tab_width;
+    i_width='-'+i_width+'px';
+    document.getElementById('wp-flybox_tab1').style.left=i_width;
+    }
+    jQuery("#wp-flybox_tab1 div.wp_but").click(function(){
+    
+    if(tab1_pos==0)
+      {
+      jQuery("#wp-flybox_tab1").animate({left:'0px'});
+              tab1_pos=0;
+              tab1_pos=1;
+            } else {  
+      var tab_width=32;   
+      var i_width=jQuery("#wp-flybox_tab1").width()-tab_width;
+      i_width='-'+i_width;
+      jQuery("#wp-flybox_tab1").animate({left:i_width});
+             
+      tab1_pos=0;
+      }
+  });
+  
+});
+//get cookie and set cookie
+//write cookie
+var d = new Date();
+    d.setTime(d.getTime() + (30*24*60*60*1000));
+    var expires = d.toUTCString();
+document.cookie = 'wp-flybox-seen=1; expires='+expires+'; path=/';
+ 
+//auto out
+jQuery(window).load(function(){
+  
+});
+
+//resize
+var resizeTimer;
+jQuery(window).on('resize', function(e) {
+
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(function() {
+          var tab_width=32;
+      if (jQuery("#wp-flybox_tab1").length > 0) 
+        {
+        var i_width=jQuery("#wp-flybox_tab1").width()-tab_width;
+        i_width='-'+i_width+'px';
+        document.getElementById('wp-flybox_tab1').style.left=i_width;    
+        }
+                  
+  }, 350);
+
+});
+
+//resize
+/*
+var resizeId;
+jQuery(window).resize(function() {
+    clearTimeout(resizeId);
+    resizeId = setTimeout(doneResizing, 500);
+});
+ 
+ 
+function doneResizing(){
+    var scrollTooMuch=parseInt('');
+    if (scrollTooMuch===NaN){scrollTooMuch=0;}
+    jQuery('#wpflybox_container').height(0);
+    document.getElementById("wpflybox_container").style.height ='0px';
+    var doc_height=jQuery(document).height()
+    jQuery('#wpflybox_container').height(doc_height-scrollTooMuch); 
+}
+*/
+</script>
 		<style type="text/css" id="wp-custom-css">
 			.bx-viewport {
 	height:unset !important;
@@ -1001,7 +1094,9 @@ poddawać gwałtownemu, energicznemu działaniu” oraz przykład: Z miejsca wzi
                 </div>   
             </footer>
 		</div>
-		<script type='text/javascript' src='https://aleklasa.pl/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js' defer></script>
+		<div class="wp-flybox_tab" id="wp-flybox_tab1" style="pointer-events:all;width:auto;display:inline-block;overflow:hidden;position:fixed;border:0px;left:-9990px;top:150px;z-index:9991 !important"><div style="height:10px;width:32px;display:none;inline-block;float:left;"></div><div class="wp_but" style="display:inline-block;float:right;cursor:pointer;"><div style="margin:0px; width:33px; height:101px; background-position:0px -303px; background-image:url('https://aleklasa.pl/wp-content/plugins/wp-flybox/static/FlyBoxSpriteLeft.png');padding:0px;"> </div></div><div style="float:right;"><div style="background-color:#ffffff; overflow:hidden; width:300px; height:550px;border:1px solid #3B5998;display:inline-block;">
+<iframe title="Facebook" src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Faleklasa%2F&amp;width=300&amp;height=550&amp;colorscheme=light&amp;show_faces=true&amp;stream=true&amp;header=false&amp;small_header=false&amp;hide_cover=false&amp;hide_cta=false" style="border:none;width:300px; height:550px;background-color:#ffffff;">iframes not supported by your browser.</iframe>
+</div></div></div><script type='text/javascript' src='https://aleklasa.pl/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js' defer></script>
 <script type='text/javascript' src='https://aleklasa.pl/wp-includes/js/jquery/ui/tabs.min.js?ver=1.12.1' id='jquery-ui-tabs-js' defer></script>
 <script type='text/javascript' src='https://aleklasa.pl/wp-content/themes/yaaburnee-themes/lib/js/admin/jquery.c00kie.js?ver=1.0' id='cookies-js' defer></script>
 <script type='text/javascript' src='https://aleklasa.pl/wp-content/themes/yaaburnee-themes/lib/js/jquery.easing.js?ver=5.6.12' id='easing-js' defer></script>
@@ -1149,4 +1244,4 @@ function checkCookie() {
 </script> 
 	</body>
 </html>
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1702433650 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1702461650 -->
