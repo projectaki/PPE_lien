@@ -27,36 +27,47 @@ echo "<html>
 echo "  <table>
             <tr><th>Numéro</th>
 			<th>URLs</th>
-			<th>Code HTTP</th>
-			<th>Encodage</th>
+			<th>encodage HTTP</th>
+			<th>Encodage/th>
 			<th>Aspiration</th>
 			<Dump</th>
 			<th>Nombre d'occurences</th>
 			<th>Contexte</th></tr>"
 
-N=0
 while read -r urls;
 do
-	response=$(curl -s -I -L -w "%{http_code}" -o "../aspirations/aspiration_kor${N}.html" $urls)
-	code=$(curl -s -I -L -w "%{content_type}" -o /dev/null $urls | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
-	lynx -dump $urls > "../dumps-text/dump_kor${N}.html"
-	compte=$(cat "../dumps-text/dump_kor${N}.html" | egrep -i -o "(관계|링크|끈)"  | wc -w)
-    cat "../dumps-text/dump_kor${N}.html" | egrep -2 "(관계|링크|끈)" > "../contextes/contexte_kor${N}.txt"
+N=0
+LANG="kor"
+reponse=$(curl -s -I -L -w "%{http_encodage}" -o "../aspirations/aspiration_${LANG}${N}.html" $urls)
+encodage=$(curl -s -I -L -w "%{content_type}" -o /dev/null $urls | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1 | tr '[:lower:]' '[:upper:]')
+
+if [ $reponse -eq 200 ]
+then 
+	if [ ! $encodage == "UTF-8" ]
+	then 
+		iconv -f "$encodage" -t "UTF-8" -o "/tmp/reencodage_${N}.html" "./aspirations/${LANG}-${N}.html"
+		mv "/tmp/reencodage_${N}.html" "./aspirations/${LANG}-${N}.html"
+	fi	
+
+	lynx -assume_charset UTF-8 -dump -nolist ./apsirations/${LANG}-${N}.html > "../dumps-text/dump_${LANG}${N}.txt"
+	compte=$(cat "../dumps-text/dump_${LANG}${N}.html" | egrep -i -o "(관계|링크|끈)"  | wc -w)
+    cat "../dumps-text/dump_${LANG}${N}.html" | egrep -2 "(관계|링크|끈)" > "../contextes/contexte_${LANG}${N}.txt"
 	echo "<tr>
 		<td>${N}</td>
 		<td>${urls}</td>
-		<td>${response}</td>
-		<td>${code}</td>
-		<td><a href="../aspirations/aspiration_kor${N}.html">Aspiration</a></td>
-        <td><a href="../dumps-text/dump_kor${N}.html">Dump</a></td>
+		<td>${reponse}</td>
+		<td>${encodage}</td>
+		<td><a href="../aspirations/aspiration_${LANG}${N}.html">Aspiration</a></td>
+        <td><a href="../dumps-text/dump_${LANG}${N}.html">Dump</a></td>
         <td>${compte}</td>
-        <td><a href="../contextes/contexte_kor${N}.txt">Contexte</a></td>
+        <td><a href="../contextes/contexte_${LANG}${N}.txt">Contexte</a></td>
 	</tr>"
 	N=$(expr $N + 1)
+fi
 
 done < "$urls"
 echo "		</table>
 	</body>
 </html>" 
 
-# bash projet_kor.sh ../URLs/liens_gwangye.txt > "../tableaux/tableau_kor.html"
+# bash projet_${LANG}.sh ../URLs/liens_gwangye.txt > "../tableaux/tableau_${LANG}.html"
