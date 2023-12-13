@@ -1,115 +1,100 @@
+   Polski
+   Wyszukiwanie Wyszukiwanie
+
+   zwiazek_____________
+   (BUTTON) (BUTTON) polski-angielski (BUTTON)
+   {{word}} {{#beta}} Beta{{/beta}}
+   {{#preferredDictionaries}} {{^selected}} {{name}} {{/selected}}
+   {{/preferredDictionaries}}
 
 Tl/umaczenie sl/owa zwiazek - Sl/ownik polsko-angielski
 
 zwiazek
 
+
+   noun
 --
-   [31]link
+   0M
+   stosunek miedzy rzeczami, zaleznosc
+   link
    zwiazek przyczynowy causal relationship
-   zwiazek [32]miedzy wyksztal/ceniem [33]a zarobkami link between
-   education and salaries
+   zwiazek miedzy wyksztal/ceniem a zarobkami link between education and
+   salaries
    To nie ma zadnego zwiazku z tematem. It has no connection with the
    topic.
     miec zwiazek z czyms
    to be related to sth
     powiedziec cos w zwiazku z...
    to say sth in connection with ...
---
-   [35]relationship
+   0M
+   relacja partnerska
+   relationship
    zwiazek z zonatym mezczyzna a relationship with a married man
     zwiazek mal/zenski
-   [36]marriage
---
-   [39]association
-   zwiazek [40]zawodowy trade union
+   marriage
+   0M
+   organizacja, stowarzyszenie
+   association
+   zwiazek zawodowy trade union
 
-   (Tl/umaczenie zwiazek z [41]Polsko-angielski sl/ownik GLOBAL © 2018 K
+   (Tl/umaczenie zwiazek z Polsko-angielski sl/ownik GLOBAL © 2018 K
    Dictionaries Ltd)
 
 Tl/umaczenie sl/owa zwiazek | Sl/ownik polsko-angielski "Password"
 
 zwiazek
 
---
 
-   (Tl/umaczenie zwiazek z [52]Polsko-angielski sl/ownik PASSWORD © 2014 K
+   noun
+--
+   union [noun] the state of being united, eg in marriage, friendship etc
+   union [noun] a club or association
+
+   (Tl/umaczenie zwiazek z Polsko-angielski sl/ownik PASSWORD © 2014 K
    Dictionaries Ltd)
+
+
 --
-   [56]zwiazany
+   zwiazac
+   zwiazac sie
+   zwiazany
    zwiazek
-   [57]zwiazek organiczny
-   [58]zwiazek zawodowy
-   [59]zwiazkowiec
+   zwiazek organiczny
+   zwiazek zawodowy
+   zwiazkowiec
+   zwiazkowosc
+
+   {{#randomImageQuizHook.isQuiz}}
+   Przetestuj swoje sl/ownictwo za pomoca naszych zabawnych quizów
 --
+   {{randomImageQuizHook.quizId}}
+   {{/randomImageQuizHook.isQuiz}}
 
 Wiecej polsko-angielskich tl/umaczen zwiazek
 
    Wszystkie
-     * [63]zwiazek zawodowy
-     * [64]zwiazek organiczny
-     * [65]wstapic w zwiazek mal/zenski, at wstepowac
+     * zwiazek zawodowy
+     * zwiazek organiczny
+     * wstapic w zwiazek mal/zenski, at wstepowac
+
+   Zobacz wszystkie znaczenia
 
 --
+   Spis tresci
+     * GLOBAL Polish-English
           + Noun
-               o [168]zwiazek
-               o [169]miec zwiazek z czyms
-               o [170]powiedziec cos w zwiazku z...
-               o [171]zwiazek mal/zenski
+               o zwiazek
+               o miec zwiazek z czyms
+               o powiedziec cos w zwiazku z...
+               o zwiazek mal/zenski
      * PASSWORD Polish-English
+       Noun
+
 --
+
+   Moje listy sl/ów
 
    Dodaj zwiazek do jednej z ponizszych list lub utwórz nowa.
    (BUTTON)
---
-   Visible links:
-   1. https://dictionary.cambridge.org/dictionary/polish-english/zwiazek
-   2. https://dictionary.cambridge.org/dictionary/polish-english/zwiazek
-   3. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
-   4. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
-   5. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
-   6. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
-   7. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
-   8. https://dictionary.cambridge.org/es/diccionario/polaco-ingles/zwiazek
-   9. https://dictionary.cambridge.org/es/diccionario/polaco-ingles/zwiazek
-  10. https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E6%B3%A2%E5%85%B0%E8%AF%AD-%E8%8B%B1%E8%AF%AD/zwiazek
-  11. https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E6%B3%A2%E8%98%AD%E8%AA%9E-%E8%8B%B1%E8%AA%9E/zwiazek
-  12. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek
-  13. https://dictionary.cambridge.org/pl/opensearch.xml
---
-  25. https://dictionary.cambridge.org/pl/howto.html
-  26. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek
-  27. https://dictionary.cambridge.org/pl/help/codes.html
---
-  56. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazany
-  57. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek-organiczny
-  58. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek-zawodowy
-  59. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazkowiec
---
-  62. https://dictionary.cambridge.org/pl/plus{{randomImageQuizHook.quizId}}
-  63. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek-zawodowy
-  64. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek-organiczny
-  65. https://dictionary.cambridge.org/pl/dictionary/polish-english/wstepowac
---
-  74. https://dictionaryblog.cambridge.org/2023/12/11/new-words-11-december-2023/
-  75. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#dataset_k-pl-en-global
-  76. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#dataset_k-pl-en-pw
-  77. https://dictionary.cambridge.org/pl/learn.html
---
- 156. https://dictionary.cambridge.org/pl/howto.html
- 157. https://dictionary.cambridge.org/dictionary/polish-english/zwiazek
- 158. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
- 159. https://dictionary.cambridge.org/es/diccionario/polaco-ingles/zwiazek
- 160. https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E6%B3%A2%E5%85%B0%E8%AF%AD-%E8%8B%B1%E8%AF%AD/zwiazek
- 161. https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E6%B3%A2%E8%98%AD%E8%AA%9E-%E8%8B%B1%E8%AA%9E/zwiazek
- 162. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek
- 163. https://dictionary.cambridge.org/dictionary/polish-english/zwiazek
- 164. https://dictionary.cambridge.org/us/dictionary/polish-english/zwiazek
- 165. https://dictionary.cambridge.org/es/diccionario/polaco-ingles/zwiazek
- 166. https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E6%B3%A2%E5%85%B0%E8%AF%AD-%E8%8B%B1%E8%AF%AD/zwiazek
- 167. https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E6%B3%A2%E8%98%AD%E8%AA%9E-%E8%8B%B1%E8%AA%9E/zwiazek
- 168. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#k-pl-en-global-1-1
- 169. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#k-pl-en-global-1-1-1
- 170. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#k-pl-en-global-1-1-2
- 171. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#k-pl-en-global-1-2-1
- 172. https://dictionary.cambridge.org/pl/dictionary/polish-english/zwiazek#k-pl-en-pw-1
- 173. https://dictionary.cambridge.org/pl/grammar/british-grammar/
+   ____________________
+   {{#verifyErrors}}

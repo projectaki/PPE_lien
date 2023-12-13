@@ -1,3 +1,5 @@
+   zwiazków to frazeologizmy. Jezeli Czytelnik siega po te ksiazke, to
+   znaczy, ze ma juz za soba proces wydzielania ustalonych pol/aczen
    wyrazów z czytanego badz ze sl/yszanego tekstu. Nie podaje tu definicji
    zwiazku frazeologicznego, gdyz jest ona powszechnie znana. Dyskusja
    toczy sie wl/asciwie o granice tego, co frazeologia mozna nazwac, a co
@@ -7,15 +9,27 @@
    tego zwiazku, np. mapa drogowa `dokl/adny plan osiagniecia jakiegos
    celu, harmonogram czegos', a takze utrwalone zwiazki wyrazowe, których
    znaczenie zalezne jest od wyrazu dominujacego znaczeniowo w tym
+   pol/aczeniu, np. partia kanapowa ironicznie `o mal/ej liczebnosci,
+   reprezentacji jakiejs partii lub innej stowarzyszonej grupy polityków'.
 --
+   rodzajów hasel/ mozna wyróznic hasl/a gl/ówne, hasl/a poboczne i
+   odsyl/acze. Hasl/a gl/ówne skl/adaja sie z podstawowej formy
    frazeologizmu podanej wytl/uszczonym drukiem, definicji, ilustracji,
    odniesien do innych form tego zwiazku frazeologicznego (symbol
    LZpoprzedzajacy informacje w tresci sl/ownika), ewentualnie do
---
+   synonimów i antonimów (jw.) opisywanego frazeologizmu. Niektóre hasl/a
+   gl/ówne zawieraja wskazówki na temat poprawnosci badz l/aczliwosci i
+   potencjalnego rozwiniecia frazeologizmu (symbol 0M poprzedzajacy
    informacje w tresci sl/ownika). Bardzo rzadko podawane sa krótkie
    informacje na temat pochodzenia opisywanego zwiazku (symbol Delta
    poprzedzajacy informacje w tresci sl/ownika), gdyz rozbudowanie tej
+   czesci hasl/a w sl/owniku frazeologicznym jest dyskusyjne. Hasl/a
+   poboczne skl/adaja sie z podstawowej formy frazeologizmu podanej
 --
+   przyjetej metody opisu i kwalifikowania zwiazków do opisywanego zbioru
+   frazeologizmów. Tresc sl/ownika stanowia ustabilizowane pol/aczenia
    wyrazowe, przekazywane na mocy tradycji z pokolenia na pokolenia, a
    takze zwiazki wyrazowe zdefiniowane pierwszy raz w polskiej
    frazeografii. U podstaw pracy nad tym sl/ownikiem tkwil/y zal/ozenia,
+   które wpl/ynel/y na to, ze uzyty jezyk definicji dostosowany jest do
+   wspól/czesnie uzywanego jezyka ogólnego i potocznego w grupie ludzi

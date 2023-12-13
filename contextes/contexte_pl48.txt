@@ -1,48 +1,63 @@
-     * [18]Strona gl/ówna
-     * [19]Zwiazki i uczucia
-     * [20]Zwiazki
+Jestes tutaj:
+
+     * Strona gl/ówna
+     * Zwiazki i uczucia
+     * Zwiazki
      * Rodzaje zwiazków
+
+   aaa
 --
-     * [38]Strona gl/ówna
-     * [39]Zwiazki i uczucia
-     * [40]Zwiazki
+Jestes tutaj:
+
+     * Strona gl/ówna
+     * Zwiazki i uczucia
+     * Zwiazki
      * Rodzaje zwiazków
+
+   Polski
 --
 
-   Zwiazek zwykle wyraza wiez i [44]bliskosc (zazyl/osc) pomiedzy 2
-   osobami (lub niekiedy wieksza liczba osób). Rozumienie bliskosci
-   (zazyl/osci) jest inne w kazdym zwiazku.
+Rodzaje zwiazków
 
---
+   Zwiazek zwykle wyraza wiez i bliskosc (zazyl/osc) pomiedzy 2 osobami
+   (lub niekiedy wieksza liczba osób). Rozumienie bliskosci (zazyl/osci)
+   jest inne w kazdym zwiazku.
+
+   Nie istnieje ogólna definicja udanego zwiazku.
+
+   Ludzie moga angazowac sie w rózne rodzaje zwiazków i sposobów zycia.
    Na przykl/ad:
-     * [46]stal/y zwiazek;
-     * [47]mal/zenstwo;
-     * [48]mieszkanie razem lub pozostawanie w zwiazku na odlegl/osc;
-     * [49]singiel/-ka;
-     * [50]zwiazek homoseksualny lub heteroseksualny;
-     * [51]zwiazek z wieloma partnerami (posiadanie róznych partnerów w
-       tym samym czasie);
---
+     * stal/y zwiazek;
+     * mal/zenstwo;
+     * mieszkanie razem lub pozostawanie w zwiazku na odlegl/osc;
+     * singiel/-ka;
+     * zwiazek homoseksualny lub heteroseksualny;
+     * zwiazek z wieloma partnerami (posiadanie róznych partnerów w tym
+       samym czasie);
+     * przygodne kontakty seksualne...
 
    Zwiazek moze stanowic pol/aczenie tych rodzajów wiezi i sposobów zycia.
    Moze sie on równiez zmieniac z jednego rodzaju w inny.
 
-   Mozesz [53]wybrac taki rodzaj zwiazku, który jest dla Ciebie najlepszy.
-   Jesli jestes w zwiazku, Ty i Twój [54]partner mozecie [55]rozmawiac ze
-   soba o swoich uczuciach i oczekiwaniach. Poszukajcie razem rozwiazan,
---
+   Mozesz wybrac taki rodzaj zwiazku, który jest dla Ciebie najlepszy.
+   Jesli jestes w zwiazku, Ty i Twój partner mozecie rozmawiac ze soba o
+   swoich uczuciach i oczekiwaniach. Poszukajcie razem rozwiazan, które
+   najbardziej Wam odpowiadaja.
 
 Mil/osc i seks w zwiazku
 
-   [56]Niektóre zwiazki sa oparte na mil/osci pomiedzy obojgiem partnerów,
-   a inne zwiazki nie. W niektórych przypadkach mil/osc moze wzrastac w
+   Niektóre zwiazki sa oparte na mil/osci pomiedzy obojgiem partnerów, a
+   inne zwiazki nie. W niektórych przypadkach mil/osc moze wzrastac w
    zwiazku. Uczucie mil/osci moze sie równiez zmieniac z czasem.
 
    Zwiazek moze sie wiazac z seksem, ale nie musi. Ty i Twój partner
    decydujecie czy, kiedy i jak uprawiac seks. Zmuszanie kogos do
-   uprawiania seksu w zwiazku jest nazywane [57]przemoca wobec partnera.
-   Jest ono [58]zabronione przez prawo.
---
+   uprawiania seksu w zwiazku jest nazywane przemoca wobec partnera. Jest
+   ono zabronione przez prawo.
+
+   Jezeli uprawiasz seks bez zabezpieczenia z kilkoma partnerami,
+   zwiekszasz ryzyko zarazenia sie infekcja przenoszona droga pl/ciowa.
+   Aby chronic siebie i swojego partnera, uzywaj prezerwatywy.
 
 Praca nad funkcjonowaniem zwiazku
 
@@ -53,16 +68,28 @@ Praca nad funkcjonowaniem zwiazku
    Znalezienie wspólnych zainteresowan czesto pomaga obydwu partnerom
    dobrze czuc sie w zwiazku.
 
---
+   Ludzie moga równiez doswiadczac trudnosci lub problemów w zwiazku.
+   Wspólne rozwiazanie problemu moze pomóc Wam sie zblizyc do siebie.
+   Zwróccie sie o profesjonalna pomoc, jesli nie uda Wam sie go wspólnie
    rozwiazac. Niekiedy problemów nie mozna rozwiazac, co powoduje
    zakonczenie zwiazku.
    Tl/umaczenie tekstu na
+   [NL - Nederlands]
+   Przeczytaj na gl/osListen
 --
-     * [93]Strona gl/ówna
-     * [94]Zwiazki i uczucia
-     * [95]Zwiazki
+Jestes tutaj:
+
+     * Strona gl/ówna
+     * Zwiazki i uczucia
+     * Zwiazki
      * Rodzaje zwiazków
+
+Tematy
 --
-     * [99]Seksualnosc
-     * [100]Zwiazki i uczucia
-     * [101]Prawa i przepisy
+     * Planowanie rodziny i ciaza
+     * Infekcje
+     * Seksualnosc
+     * Zwiazki i uczucia
+     * Prawa i przepisy
+
+Zanzu for professionals

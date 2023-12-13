@@ -1,14 +1,20 @@
-   [1]ZWIAZEK JEST co to jest
+   ZWIAZEK JEST co to jest
 
    Definicja is-a relationship co to znaczy. Sl/ownik Zwiazek zawierania
    sie zakresów znaczeniowych.
    zwiazek co to jest
 
+   (BUTTON) Pokaz Menu
+     * Pojecia
 --
+
+   (BUTTON) Nie
 
 Definicja zwiazek "jest"
 
---
+   Definicja z ang. the "is" relationship, z niem. die "ist" -Beziehung.
+
+   Znaczenie z ang. is-a relationship w informatyce:
 
    Co to znaczy ZWIAZEK "JEST": Zwiazek zawierania sie zakresów
    znaczeniowych pojec (zbiorów obiektów), na przykl/ad zwiazek miedzy
@@ -16,21 +22,35 @@ Definicja zwiazek "jest"
    "jest" jest odmiennie okreslany jako generalizacja/specjalizacja. Jest
    on takze praktycznie tozsamy ze zwiazkami dziedziczenia wyznaczajacymi
    hierarchie klas.
---
+   [INS: :INS]
 
-   Czym jest Jest Zwiazek znaczenie w [8]Sl/ownik definicji Z .
+   Czym jest Jest Zwiazek znaczenie w Sl/ownik definicji Z .
 
-   Co znaczy Zl/aczenie Zalezne:
+   Co znaczy Zl/aczenie Nawigacyjne:
           Definicja Zobacz: zalezne zl/aczenie zwiazek "jest" co to jest.
 
-   Co znaczy Zarzadzanie Wersjami:
-          Definicja Zobacz: sterowanie wersjami zwiazek "jest" definicja.
+   Co znaczy Zmienialnosc:
+          Definicja programistycznego (na przykl/ad obiektu) oznaczajaca
+          sposobnosc wykorzystania operacji aktualizacji; ta wl/asnosc
+          jest regularnie (nie zawsze) skl/adnikiem typu. Wl/asnosc
+          zmienialnosci jest przewaznie zwiazek "jest" definicja.
 
---
-   Co znaczy Zmienna Klasowa:
-          Definicja Zobacz: zmienna klasy zwiazek "jest" sl/ownik.
+   Co znaczy Zliczanie Referencji:
+          Definicja algorytmach zbierania nieuzytków (garbage collection)
+          polegajaca na tym, iz kazdy przedmiot jest zaopatrzony w licznik
+          okreslajacy, ile referencji (albo wyznaczników) prowadzi do tego
+          obiektu zwiazek "jest" co znaczy.
 
+   Co znaczy Zapewnienie Jakosci:
+          Definicja Zbiór dzial/an, metod, standardów, organizacji
+          majacych na celu uzyskanie jakosciowego produktu, zwl/aszcza
+          oprogramowania zwiazek "jest" sl/ownik.
+
+     * Dodano: 30 czerwca 2021
+     * Autor: Redaktor naczelny Redaktor naczelny
 --
+       Associates.http://www.odbmsfacts.com
+     __________________________________________________________________
 
 Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
 
@@ -38,11 +58,14 @@ Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
 
    Jak dzial/a zwiazek "jest" definicja IS-A RELATIONSHIP tl/umaczenie.
 
+   What is the "is" relationship definition.
+
 --
+
+   2009-2023 © Sl/ownik na zajebistyka.pl
 
    Co to znaczy zwiazek definicja.
 
---
+   Korzystajac z serwisu akceptujesz Polityka prywatnosci.
 
    Tl/umaczenie zwiazek co to znaczy.
-

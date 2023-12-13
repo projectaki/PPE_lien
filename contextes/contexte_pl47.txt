@@ -1,141 +1,232 @@
+
+     3Wl/adze
    (BUTTON) Przel/acz podsekcje Wl/adze
      * 3.1Rada Zwiazku Banków Polskich
 
      3.2Zarzad Zwiazku Banków Polskich
 
+
+
 --
+
+
+
+   6Zwiazek Banków Polskich w instytucjach miedzynarodowych
+
+
 
    7Podmioty stowarzyszone ze Zwiazkiem Banków Polskich
 
---
+
 
    8Bankowy Arbitraz Konsumencki przy Zwiazku Banków Polskich
 
---
+
 
    9Sad Polubowny przy Zwiazku Banków Polskich
 
+
+
 --
+
+   [ ] Przel/acz stan spisu tresci
 
 Zwiazek Banków Polskich
 
+   [ ] 2 jezyki
+     * Deutsch
 --
+
+   CAPTION:
 
    Zwiazek Banków Polskich
-   [55]Ilustracja
-   Siedziba Zwiazku Banków Polskich przy ul. Kruczkowskiego 8 w
-   [56]Warszawie
---
+   Ilustracja
+   Siedziba Zwiazku Banków Polskich przy ul. Kruczkowskiego 8 w Warszawie
+          Panstwo
 
-   Zwiazek Banków Polskich - [65]izba gospodarcza zrzeszajaca [66]banki w
-   Polsce, powol/ana do zycia w styczniu 1991 roku.
+    Polska
+--
+    brak wspól/rzednych
+   Strona internetowa
+
+   Zwiazek Banków Polskich - izba gospodarcza zrzeszajaca banki w Polsce,
+   powol/ana do zycia w styczniu 1991 roku.
 
    Misja Zwiazku Banków Polskich jest "dzial/anie na rzecz tworzenia
    warunków zrównowazonego rozwoju polskiego sektora bankowego, wspierania
---
-   dzial/ajace na obszarze [68]Rzeczypospolitej Polskiej, utworzone i
-   funkcjonujace zgodnie z normami polskiego prawa. Do Zwiazku Banków
-   Polskich nalezy l/acznie 106 [69]banków komercyjnych, oddzial/ów
---
+   przez banki wzrostu gospodarczego kraju oraz jednolitego europejskiego
+   rynku usl/ug finansowych i wzmacniania roli polskich banków".
+   Czl/onkostwo ma charakter dobrowolny i obejmuje banki dzial/ajace na
+   obszarze Rzeczypospolitej Polskiej, utworzone i funkcjonujace zgodnie z
+   normami polskiego prawa. Do Zwiazku Banków Polskich nalezy l/acznie 106
+   banków komercyjnych, oddzial/ów instytucji kredytowych oraz banków
+   spól/dzielczych, których aktywa obejmuja ponad 95% sektora bankowego w
+   Polsce.
 
-   Siedziba zwiazku znajduje sie przy ul. Kruczkowskiego 8 w
-   [72]Warszawie.
+   Siedziba zwiazku znajduje sie przy ul. Kruczkowskiego 8 w Warszawie.
+
+Historia[edytuj | edytuj kod]
+
 --
-   poczynionych uzgodnien wyl/oniono Grupe Inicjatywna, której powierzono
-   prowadzenie prac organizacyjnych nad powstaniem zwiazku. W skl/ad grupy
-   weszli prezesi 9 banków: Marian Krzak (PKO BP) jako przewodniczacy, a
---
-   Bank Gospodarczy w L/odzi) i Ryszard Slazak (Warszawski Bank Zachodni).
-   W wyniku jej pracy sporzadzono koncepcje funkcjonowania zwiazku,
-   podstawe prawna dzial/ania i tresc aktu zal/ozycielskiego^[88][1].
+   bankowosci spól/dzielczej pod przewodnictwem prezesa NBP Wl/adysl/awa
+   Baki. W nastepstwie poczynionych uzgodnien wyl/oniono Grupe
+   Inicjatywna, której powierzono prowadzenie prac organizacyjnych nad
+   powstaniem zwiazku. W skl/ad grupy weszli prezesi 9 banków: Marian
+   Krzak (PKO BP) jako przewodniczacy, a takze Marian Kanton (Pekao S.A.),
+   Antoni Maciejewski (Bank Ziemski), Romuald Meyer (Bydgoski Bank
+   Komunalny), Aleksy Misiejuk (Agrobank), Zygmunt Niewiarowski (Banku
+   Amerykanski w Polsce), Marian Rajczyk (Bank Slaski), Andrzej Szukalski
+   (Powszechny Bank Gospodarczy w L/odzi) i Ryszard Slazak (Warszawski
+   Bank Zachodni). W wyniku jej pracy sporzadzono koncepcje funkcjonowania
+   zwiazku, podstawe prawna dzial/ania i tresc aktu zal/ozycielskiego^[1].
 
    Zwiazek zostal/ zal/ozony na mocy aktu zal/ozycielskiego sygnowanego
    przez przedstawicieli 102 banków (banku panstwowego, banków w formie
+   spól/ki akcyjnej i banków spól/dzielczych) 24 stycznia 1991.
+   Przedstawiciele 5 banków wymienionych w akcie nie zl/ozyli na nim
 --
 
-   Do zadan [93]statutowych Zwiazku nalezy reprezentowanie i ochrona
-   wspólnych interesów jego czl/onków, m.in. w zakresie uregulowan
+Zadania[edytuj | edytuj kod]
+
+   Do zadan statutowych Zwiazku nalezy reprezentowanie i ochrona wspólnych
+   interesów jego czl/onków, m.in. w zakresie uregulowan prawnych
+   dotyczacych ustawodawstwa bankowego, a takze wydawanie opinii i
+   ekspertyz oraz delegowanie przedstawicieli do udzial/u w pracach
 --
+   popieranie ksztal/cenia zawodowego i koordynacja programów
+   szkoleniowych dla kadry bankowej.
 
    Do zadan Zwiazku nalezy w szczególnosci:
 
+   1. tworzenie sprzyjajacych warunków organizacyjnych i prawnych rozwoju
+   sektora bankowego poprzez wspól/dzial/anie z organami panstwa
 --
+          + arbitrazu bankowego na rzecz klientów banków (konsumentów).
+
    Zadania ZBP realizuja specjalnie powol/ane w tym celu zespol/y, rady i
    komitety. W ramach Zwiazku i jego biura dzial/a kilkadziesiat zespol/ów
    problemowych, komitetów, rad, komisji i podkomisji, których zadaniem
---
+   jest opracowywanie i wydawanie opinii oraz stanowisk w sprawach
+   decydujacych dla funkcjonowania polskiego systemu bankowego. Pel/nia
+   one takze role integrujaca srodowisko bankowe wokól/ wspólnie
+   realizowanych przedsiewziec.
 
    Przedstawiciele Zwiazku biora udzial/ w pracach Rady ds. Systemu
-   Pl/atniczego przy [103]NBP, [104]Bankowego Funduszu Gwarancyjnego,
+   Pl/atniczego przy NBP, Bankowego Funduszu Gwarancyjnego, konsultacjach
+   z Ministerstwem Finansów, komisjami stal/ymi Sejmu RP, Komisja Nadzoru
+   Finansowego, a takze czynnie uczestnicza w pracach Koalicji na rzecz
+   Obrotu Bezgotówkowego i Mikropl/atnosci oraz Zwiazku Województw RP.
+   Zwiazek uczestniczy w pracach Fundacji Godl/a "Teraz Polska", patronuje
+   Forum Finansowemu "Twoje Pieniadze", jest organizatorem cyklicznych
+   konferencji: Forum Bankowe, SEPA Forum Polska, Kongres Gospodarki
+   Elektronicznej, Forum Korporacyjne, Kongres Finansowania Nieruchomosci
 --
-   pracach Koalicji na rzecz Obrotu Bezgotówkowego i Mikropl/atnosci oraz
-   Zwiazku Województw RP. Zwiazek uczestniczy w pracach Fundacji Godl/a
-   "[107]Teraz Polska", patronuje Forum Finansowemu "Twoje Pieniadze",
---
+
+Wl/adze[edytuj | edytuj kod]
 
    Rada Zwiazku ma uprawnienia nadzorcze i kontrolne. Organ ten okresla
    zasadnicze zal/ozenia dla srodowiska bankowego i wskazuje zakres prac
    zarzadu Zwiazku Banków Polskich. Funkcje przewodniczacego rady pel/nia
    kolejno przez rok przewodniczacy trzech sekcji bankowych. Zwiazek
    reprezentuje na zewnatrz oraz kieruje jego biezaca dzial/alnoscia
+   operacyjna zarzad, wybierany przez walne zgromadzenie na trzyletnia
+   kadencje. W skl/ad zarzadu wchodza prezes oraz od 1 do 4 wiceprezesów.
 --
-   stal/y nadzór nad dzial/aniami. Taka kompozycja naczelnych organów
-   Zwiazku umozliwia bankom czl/onkowskim inicjowanie wielu dzial/an
-   realizowanych przez ZBP.
+   bankom czl/onkowskim inicjowanie wielu dzial/an realizowanych przez
+   ZBP.
 
-Rada Zwiazku Banków Polskich[[113]edytuj | [114]edytuj kod]
+Rada Zwiazku Banków Polskich[edytuj | edytuj kod]
+
+     * Artur Adamczyk - prezes zarzadu Bank Polskiej Spól/dzielczosci
+     * Brunon Bartkiewicz - prezes zarzadu ING Banku Slaskiego
+--
+     * Elzbieta Swietopel/k-Czetwertynska - prezeska zarzadu Banku
+       Handlowego w Warszawie^[4]
+
+Zarzad Zwiazku Banków Polskich[edytuj | edytuj kod]
+
+     * Tadeusz Bial/ek - prezes
+     * Wl/odzimierz Kicinski - wiceprezes
+--
+     * Zespól/ ds. Finansowania Prewencji i Likwidacji Skutków Klesk
+       Zywiol/owych.
+
+Zwiazek Banków Polskich w instytucjach miedzynarodowych[edytuj | edytuj kod]
+
+     * Europejska Federacja Bankowa (European Banking Federation - EBF)
 
 --
+   obszaru pl/atnosci w euro.
+     * International Chamber of Commerce - a world business organisation
 
-Zarzad Zwiazku Banków Polskich[[136]edytuj | [137]edytuj kod]
-
+   Zwiazek Banków Polskich byl/ czl/onkiem bezposrednim Miedzynarodowej
+   Izby Handlowej od 1996 roku, a przy ZBP funkcjonowal/ Komitet ds.
+   Wspól/pracy z MIH zrzeszajacy 15 banków. Od marca 2000 roku dzial/a
+   Polski Komitet Narodowy Miedzynarodowej Izby Handlowej (ICC Polska).
 --
+   Od 1999 roku funkcjonuje Komitet BIAC Polska, którego
+   wiceprzewodniczacym zostal/ wybrany prezes ZBP.
 
-Zwiazek Banków Polskich w instytucjach miedzynarodowych[[156]edytuj |
-[157]edytuj kod]
+Podmioty stowarzyszone ze Zwiazkiem Banków Polskich[edytuj | edytuj kod]
+
+     * Biuro Informacji Kredytowej
+     * Fiserv Polska
 --
+     * Spól/dzielczy System Ochrony SGB
+     * Spól/dzielnia Systemu Ochrony Zrzeszenia BPS
 
-   Zwiazek Banków Polskich byl/ czl/onkiem bezposrednim
-   [162]Miedzynarodowej Izby Handlowej od 1996 roku, a przy ZBP
---
-
-Podmioty stowarzyszone ze Zwiazkiem Banków Polskich[[164]edytuj | [165]edytuj
+Bankowy Arbitraz Konsumencki przy Zwiazku Banków Polskich[edytuj | edytuj
 kod]
---
 
-Bankowy Arbitraz Konsumencki przy Zwiazku Banków Polskich[[169]edytuj |
-[170]edytuj kod]
+   Bankowy Arbitraz Konsumencki rozpoczal/ swoja dzial/alnosc w 2002 roku.
 --
-   realizacji zadan zwiazanych z promocja sadownictwa polubownego przy
-   Zwiazku Banków Polskich dzial/aja równiez, we wspól/pracy z Bankowym
-   Arbitrazem Konsumenckim, Komisja Etyki Bankowej oraz sad polubowny.
+   dotyczacych rynku papierów wartosciowych. Funkcje arbitra bankowego
+   sprawuje sedzia Katarzyna Marczynska. W 2010 roku do Bankowego
+   Arbitrazu Konsumenckiego wpl/ynel/o 1165 wniosków. W ramach realizacji
+   zadan zwiazanych z promocja sadownictwa polubownego przy Zwiazku Banków
+   Polskich dzial/aja równiez, we wspól/pracy z Bankowym Arbitrazem
+   Konsumenckim, Komisja Etyki Bankowej oraz sad polubowny.
 
-Sad Polubowny przy Zwiazku Banków Polskich[[174]edytuj | [175]edytuj kod]
+Sad Polubowny przy Zwiazku Banków Polskich[edytuj | edytuj kod]
 
    Sad Polubowny przy Zwiazku Banków Polskich zostal/ powol/any uchwal/a
    walnego zgromadzenia Zwiazku Banków Polskich w 1992 roku w celu
    efektywnego rozpatrywania sporów, w tym miedzy bankami i klientami. Od
+   tego czasu sad prowadzi swoja dzial/alnosc, rozstrzygajac spory mogace
+   byc przedmiotem ugody, pod warunkiem ze w umowie bedacej podstawa sporu
 --
+Klub Bankowca[edytuj | edytuj kod]
+
    Klub Bankowca powstal/ w 1996 roku z inicjatywy banków zrzeszonych w
    zwiazku. Celem fundatorów i zal/ozycieli Klubu byl/o stworzenie
    instytucji, która pozwoli realizowac potrzeby edukacyjne, kulturalne i
---
-    2. [192]^| [193]Akt zal/ozycielski i statut ZBP, 27 stycznia 1991 .
-    3. [194]^| [195]Zwiazek Banków Polskich po 20 latach rzadów Krzysztofa
-       Pietraszkiewicza ma nowego prezesa, Businessinsider, 19 kwietnia
---
-    4. [196]^| [197]ZBP - Rada, 2 stycznia 2021 .
-    5. ^| ^[198]a ^[199]b [200]Zwiazek Banków Polskich ma nowego Prezesa,
-       19 kwietnia 2023 [dostep 2023-04-19] .
+   towarzyskie srodowiska bankowego.
+
 --
 
-     * [212]Witryna internetowa Zwiazku Banków Polskich
-     * [213]Akt zal/ozycielski ZBP
+    1. ^| ^a ^b ^c 25 lat ZBP, 24 stycznia 2016 .
+    2. ^| Akt zal/ozycielski i statut ZBP, 27 stycznia 1991 .
+    3. ^| Zwiazek Banków Polskich po 20 latach rzadów Krzysztofa
+       Pietraszkiewicza ma nowego prezesa, Businessinsider, 19 kwietnia
+       2023 [dostep 2023-04-19]  (pol.).
+    4. ^| ZBP - Rada, 2 stycznia 2021 .
+    5. ^| ^a ^b Zwiazek Banków Polskich ma nowego Prezesa, 19 kwietnia
+       2023 [dostep 2023-04-19] .
+    6. ^| ^a ^b Zmarl/ Andrzej Szukalski, 29 kwietnia 2011 .
+    7. ^| Topinski Andrzej, BANK.pl - Portal finansowy [dostep
 --
- 194. https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Bank%C3%B3w_Polskich#cite_ref-3
- 195. https://businessinsider.com.pl/finanse/po-20-latach-zmienil-sie-prezes-zwiazku-bankow-polski-wybrano-nastepce-krzysztofa/z8nc8dy
- 196. https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Bank%C3%B3w_Polskich#cite_ref-4
+
+Linki zewnetrzne[edytuj | edytuj kod]
+
+     * Witryna internetowa Zwiazku Banków Polskich
+     * Akt zal/ozycielski ZBP
+
+   Kontrola autorytatywna (izba gospodarcza):
 --
- 199. https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Bank%C3%B3w_Polskich#cite_ref-:2_5-1
- 200. https://zbp.pl/Aktualnosci/Wydarzenia/Zwiazek-Bankow-Polskich-ma-nowego-Prezesa
- 201. https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Bank%C3%B3w_Polskich#cite_ref-:0_6-0
+     * PWN: 4002280
+
+   Zródl/o:
+   "https://pl.wikipedia.org/w/index.php?title=Zwiazek_Banków_Polskich&old
+   id=71016343"
+   Kategorie:
+     * Bankowosc w Polsce

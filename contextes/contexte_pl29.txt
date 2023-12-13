@@ -1,7 +1,15 @@
+       unijnym przedstawicieli szeroko rozumianego zorganizowanego
+       spol/eczenstwa obywatelskiego, wywodzacych sie z róznych grup
        zajmujacych sie dzial/alnoscia gospodarcza i spol/eczna. Sa to
        m.in. pracodawcy, zwiazki zawodowe, rolnicy, konsumenci i
        pozostal/e grupy interesów. Gl/ównym zadaniem Komitetu jest
+       sprawowanie funkcji doradczej wobec Rady Unii Europejskiej,
+       Parlamentu Europejskiego i Komisji Europejskiej w kwestiach
 --
+       oraz upodobnienie struktur spol/eczno-gospodarczych.
+     * Korekta finansowa
        Kwota, o jaka pomniejsza sie wspól/finansowanie UE dla projektu lub
        programu operacyjnego w zwiazku z nieprawidl/owoscia indywidualna
        lub systemowa.
+     * Koszty kwalifikowalne
+       Koszty, których poniesienie jest merytorycznie uzasadnione i które

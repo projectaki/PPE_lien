@@ -1,16 +1,30 @@
+   "pas pl/ótna, gazy lub innego material/u sl/uzacy do umocowania
+   opatrunku, unieruchomienia konczyny lub powstrzymania krwawienia".
    . wyjasnienie znaczenia
      * Sl/ownik czasami podaje jeszcze zwiazki frazeologiczne, w których
        wystepuje dane sl/owo.
+     * W oznaczeniach sl/ownik podaje jedynie odmiane w dopel/niaczu
+       l.poj. albo mianowniku i czasem dopel/niaczu l.mn., ze wzgledu na
 --
+Sl/ownik poprawnej polszczyzny
+
    Wyjasnia watpliwosci dotyczace poprawnego uzycia sl/ów. Jak dane sl/owo
    nalezy odmienic, jak wymawiac, jak uzyc w danym zwiazku wyrazów.
    Przykl/ad:
+   idylla z 1, l.mn. D. idyll a. idylli; in. sielanka
+
 --
+
+Sl/ownik frazeologiczny jezyka polskiego
 
    Zawiera zwiazki frazeologiczne zwiazane z danym wyrazem. Zarówno
    zwiazki stal/e, jak i l/aczliwe (luzniejsze). Np.
      * co znaczy "brac kogos w obroty"?
---
+       W sl/owniku odnajdujemy takie oto wyjasnienie: "zmuszac kogos do
+       czegos, stawiac w przykrej sytuacji;
+       poddawac gwal/townemu, energicznemu dzial/aniu" oraz przykl/ad: Z
        miejsca wzial/ Piotrka w obroty.
      * Pod hasl/em kura odnajdziemy zwiazki z tym wl/asnie sl/owem.
           + Kura znoszaca zl/ote jajka - zródl/o wielkich zysków.
+          + Kl/asc sie spac z kurami - wczesnie.
+          + Pisac jak kura pazurem - brzydko, koslawo.

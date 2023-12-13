@@ -1,3 +1,7 @@
+   (BUTTON) Menu Open menu
+   Przejdz do strony gl/ównej en
    ZBP Logo
    Zwiazek Banków Polskich
    (BUTTON) en Ikona przycisku wyszukiwania Search en Wyszukiwarka
+   ____________________
+     * (BUTTON) A A A en Domyslna czcionka

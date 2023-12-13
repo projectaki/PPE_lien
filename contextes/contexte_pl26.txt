@@ -1,11 +1,23 @@
+   zastosowane do oceny cal/ej transakcji. W wielu przypadkach sytuacja
+   prawna konsumenta jest z góry wzmacniana przez przepisy.
    Niezgodnosc towaru z umowa - tryb (podstawa prawna) dochodzenia
    odpowiedzialnosci od sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona
    niezgodnoscia zakupionego towaru z umowa.
+   Polubowne (pozasadowe) rozwiazywanie sporów konsumenckich -
+   postepowania wykorzystywane w sporach miedzy konsumentem a
 --
+   obnizenie ceny). Jej podstawa prawna moze byc niezgodnosc towaru z
+   umowa lub gwarancja.
    Rekojmia - tryb (podstawa prawna) dochodzenia odpowiedzialnosci od
    sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona wada fizyczna
    (niezgodnoscia z umowa) lub prawna zakupionej nieruchomosci.
+   Swiadczenie umowne - swiadczenie okreslone w umowie, do którego
+   wykonania zobowiazana jest kazda ze stron. W przypadku przedsiebiorcy
 --
+     * inne formy interakcji za pomoca danych w postaci cyfrowej.
+
    Usl/ugi posprzedazne - usl/ugi swiadczone przez przedsiebiorce w
    zwiazku ze sprzedanym towarem, np. serwisowanie czy konserwacja towarów
    po okresie gwarancji lub w przypadku wystapienia wad nieobjetych
+   niezgodnoscia z umowa lub gwarancja. Pojecie obejmuje równiez sprzedaz
+   dodatkowego wyposazenia lub czesci zamiennych do oferowanego towaru.

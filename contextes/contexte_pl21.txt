@@ -1,11 +1,18 @@
 
+   Pokaz QR Code A A A pobierz strone jako plik pdf Drukuj
+
    Zwiazek wyznaniowy
-   Nazwa angielska: [72]Religious association
---
+   Nazwa angielska: Religious association
+   Definicja:
+
+   Specyficzny typ zorganizowanej spol/ecznosci ludzkiej, posiadajacy
    okreslony ustrój wewnetrzny, zdolny do wytworzenia organów wl/adzy,
    spel/niajacych funkcje wewnetrzne i reprezentujacych zwiazek na
    zewnatrz oraz uprawnionych do okreslania praw i obowiazków swoich
---
+   czl/onków.
+   Dodatkowe wyjasnienia metodologiczne:
 
    Podstawowym kryterium wyodrebniajacym zwiazek wyznaniowy od innych
    organizacji spol/ecznych jest cel, który podlega na zapewnieniu
+   wyznawcom mozliwosci zaspokajania ich potrzeb religijnych.
+   Zródl/o definicji:

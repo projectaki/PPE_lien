@@ -1,7 +1,11 @@
 
+   poznan.pl Gwara Poznania
+
 zwiazek
 
-   [280]rozmiar tekstu [281]drukuj [282]kod qr
+   rozmiar tekstu drukuj kod qr
      * zwiazek daw. [pol/aczenie kolejowe]: Zaroz po piyrszy wojnie nie
        byl/o wprost zwiazku banóm z Poznania do Warszawy. Inform.
+
+sieci spol/ecznosciowe
 

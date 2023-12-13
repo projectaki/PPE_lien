@@ -1,70 +1,105 @@
 
+   ____________________ é ü a (BUTTON) Szukaj
+
 zwiazek
 
 1. zwiazek (czegos z czyms)
 
---
-
-     * frazeologia, frazemy: [25]w zwiazku
+Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
 
 --
+
+Siec sl/ów wyrazenia powiazane z opisywanym (wyrazy pokrewne, kolokacje)
+
+     * frazeologia, frazemy: w zwiazku
+
+Gramatyka
+
+--
+
+   formy w tabelce:
 
    formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
---
+   zgl/os poprawke
+
+   Kurs podstawy interpunkcji
 
 2. zwiazek (organizacja)
 
+Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+
 --
+
+   formy w tabelce:
 
    formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
---
+   zgl/os poprawke
 
 3. zwiazek (miedzy ludzmi)
 
+Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+
 --
+
+   formy w tabelce:
 
    formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
---
+   zgl/os poprawke
 
 4. zwiazek (dwoje)
 
+Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+
 --
+
+   formy w tabelce:
 
    formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
---
+   zgl/os poprawke
 
 5. zwiazek (chemiczny)
 
+Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+
 --
+
+   formy w tabelce:
 
    formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
    zwiazkom; zwiazków; zwiazkowi; zwiazku
 
+   zgl/os poprawke
+
 --
-     * [56]Zwin wszystko
-     * [57]1. zwiazek (czegos z czyms)
-          + [58]regul/y
---
-          + [61]gramatyka
-     * [62]2. zwiazek (organizacja)
-          + [63]regul/y
---
-          + [65]gramatyka
-     * [66]3. zwiazek (miedzy ludzmi)
-          + [67]regul/y
---
-          + [69]gramatyka
-     * [70]4. zwiazek (dwoje)
-          + [71]regul/y
---
-          + [73]gramatyka
-     * [74]5. zwiazek (chemiczny)
-          + [75]regul/y
+     * Kirgistan
+
+     * Zwin wszystko
+     * 1. zwiazek (czegos z czyms)
+          + regul/y
+          + sl/ownik wyrazów bliskoznacznych
+          + siec sl/ów
+          + gramatyka
+     * 2. zwiazek (organizacja)
+          + regul/y
+          + sl/ownik wyrazów bliskoznacznych
+          + gramatyka
+     * 3. zwiazek (miedzy ludzmi)
+          + regul/y
+          + sl/ownik wyrazów bliskoznacznych
+          + gramatyka
+     * 4. zwiazek (dwoje)
+          + regul/y
+          + sl/ownik wyrazów bliskoznacznych
+          + gramatyka
+     * 5. zwiazek (chemiczny)
+          + regul/y
+          + sl/ownik wyrazów bliskoznacznych
+          + gramatyka

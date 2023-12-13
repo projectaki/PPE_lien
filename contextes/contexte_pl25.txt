@@ -1,6 +1,12 @@
-   [1]Infarma Zwiazek Pracodawców Innowacyjnych Firm Farmaceutycznych
-     * [2] Powrót do INFARMY
---
-
-   [7]Infarma Zwiazek Pracodawców Innowacyjnych Firm Farmaceutycznych
+   Infarma Zwiazek Pracodawców Innowacyjnych Firm Farmaceutycznych
+     *  Powrót do INFARMY
      *
+     * Zaloguj sie
+--
+   Menu
+   Menu
+
+   Infarma Zwiazek Pracodawców Innowacyjnych Firm Farmaceutycznych
+     *
+     * Baza badan klinicznych
+     * O badaniach

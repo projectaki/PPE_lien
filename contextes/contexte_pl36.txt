@@ -1,39 +1,79 @@
+                              Arytmetyczna srednia p. srednia arytmetyczna
+
 
                                          Asocjacja p. zwiazek statystyczny
 
+
+                            Asymetryczny rozkl/ad p. rozkl/ad asymetryczny
 --
+      Czynnik, który wpl/ywa na wystapienie efektu w postaci stanu zdrowia
+    lub innej zdefiniowanej cechy. Pojecie to obejmuje przyczyny, czynniki
         ryzyka oraz czynniki zapobiegajace i lecznicze. Jest to okreslenie
                  mocne i nie powinno byc stosowane przy sl/abych zwiazkach
                                                            statystycznych.
+
+                                   Diagram prostokatny p. wykres sl/upkowy
 --
+   rozrzutu uzywane w epidemiologii to wariancja, odchylenie standardowe i
+                                                  zakres miedzykwartylowy.
 
                                           Miara zwiazku p. miara asocjacji
 
+
+                        Miedzykwartylowy zakres p. zakres miedzykwartylowy
 --
+
+   Skrótowe okreslenie osoby chorej lub posiadajacej inna ceche stanowiaca
         badany efekt (outcome). Okreslenie to bywa tez stosowane do samego
       efektu: choroby, urazu lub innego zdarzenia mogacego miec zwiazek ze
    zdrowiem. W badaniach epidemiologicznych przypadek musi byc odpowiednio
+        zdefiniowany p. definicja przypadku. Przypadki, które wystapil/y w
+     nieustalonym czasie przed rozpoczeciem badania nosza nazwe przypadków
 --
+
+                      Stosunek szans, OR (odds ratio, cross-product ratio)
 
           Miara zwiazku stosowana w badaniach analitycznych, szczególnie w
      badaniach kliniczno-kontrolnych. Iloraz szans narazenia ze wzgledu na
+     stan choroba/zdrowie jest równy ilorazowi szans choroby ze wzgledu na
+          stan narazenia. W przypadku chorób rzadkich iloraz szans stanowi
 --
+          Systematyczny bl/ad wynikajacy z wl/aczania do grup narazonych i
+    nienarazonych lub przypadków i kontroli osób pochodzacych z rózniacych
       sie od siebie populacji lub subpopulacji.  Prowadzi do odchylenia od
                                      rzeczywistosci miar zwiazku (RR, OR).
 
+                                Stronniczosc informacji (information bias)
+
 --
+       odchyleniem pomiarów od wartosci rzeczywistej. Powoduje odejscie od
+           prawdy w kwalifikowaniu jednostek uczestniczacych w badaniu pod
          wzgledem oceny (pomiaru) narazenia lub stanu zdrowia. W badaniach
         analitycznych zmienia wielkosc miar zwiazku (RR, OR). Jezeli w obu
      porównywanych grupach odsetek bl/ednych zaklasyfikowani jest ten sam,
+   bl/ad jest nieróznicowy i zmniejsza miary zwiazku (RR lub OR) - odchyla
+     je w kierunku wartosci "1" (bias toward the null). Jezeli w badaniach
 --
+
+               Wykres punktowy (scatter diagram lub scattergram, dot plot)
 
           Graficzne przedstawienie zwiazku dwu zmiennych w postaci punktów
    odpowiadajacych parom wartosci dwu zmiennych ciagl/ych reprezentowanych
+                                         na osiach ukl/adu wspól/rzednych.
+
 --
+
+           Znamiennosc (istotnosc) statystyczna (statistical significance)
 
        Cecha wyniku analizy statystycznej okreslajaca sil/e zwiazku miedzy
        badanymi zmiennymi. Wynik uznajemy za znamienny (odrzucamy hipoteze
+        zerowa), gdy prawdopodobienstwo testowe p odpowiadajace obliczonej
+          wartosci statystyki testowej jest mniejsze od z góry zal/ozonego
 --
+             Choroba odzwierzeca. Jedna z chorób zakaznych, które moga byc
+                                         przenoszone ze zwierzat na ludzi.
 
                                         Zwiazek statystyczny (association)
 
+   Stwierdzone za pomoca testów statystycznych powiazanie miedzy zmiennymi
+    reprezentujacymi badane cechy lub czestosci wystepowania badanych cech

@@ -1,15 +1,494 @@
-HTTP/1.1 200 OK
-Date: Wed, 13 Dec 2023 08:49:37 GMT
-Server: Apache/2
-Expires: Wed, 17 Aug 2005 00:00:00 GMT
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-Pragma: no-cache
-Set-Cookie: 3ac2bc0d080209de9c0a6d226f6fe67e=6cemaa27tcmi1iuej6t4akft5k; path=/; secure; HttpOnly
-X-Content-Type-Options: nosniff
-Upgrade: h2,h2c
-Connection: Upgrade
-Last-Modified: Wed, 13 Dec 2023 08:49:37 GMT
-Vary: User-Agent
-Content-Type: text/html; charset=utf-8
-Set-Cookie: cookiesession1=678A3E176C10787944118C84D7199018;Expires=Thu, 12 Dec 2024 08:49:37 GMT;Path=/;HttpOnly
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl-pl" lang="pl-pl" dir="ltr">
+<head>
+<meta charset="utf-8">
+	<meta name="description" content="Rada Języka Polskiego">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Rada Języka Polskiego</title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
+	<link href="/templates/rjp35/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="/index.php?option=com_ajax&amp;plugin=arktypography&amp;format=json" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet" />
+	<link href="/plugins/content/jw_sig/jw_sig/tmpl/Classic/css/template.css?v=4.2" rel="stylesheet" />
+	<link href="/plugins/system/jce/css/content.css?badb4208be409b1335b815dde676300e" rel="stylesheet" />
+	<link href="https://rjp.pan.pl/media/editors/arkeditor/css/squeezebox.css" rel="stylesheet" />
+	<style>div.mod_search88 input[type="search"]{ width:auto; }</style>
+<script src="/media/vendor/jquery/js/jquery.min.js?3.6.0"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?04499b98c0305b16b373dff09fe79d1290976288"></script>
+	<script src="/media/mod_menu/js/menu-es5.min.js?a5f9233f3559cbfcf0e034873940194f" nomodule defer></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="https://rjp.pan.pl/media/editors/arkeditor/js/jquery.easing.min.js"></script>
+	<script src="https://rjp.pan.pl/media/editors/arkeditor/js/squeezebox.js"></script>
+	<script>
+        (function($) {
+            $(document).ready(function() {
+                $.fancybox.defaults.i18n.en = {
+                    CLOSE: 'Close',
+                    NEXT: 'Next',
+                    PREV: 'Previous',
+                    ERROR: 'The requested content cannot be loaded.<br/>Please try again later.',
+                    PLAY_START: 'Start slideshow',
+                    PLAY_STOP: 'Pause slideshow',
+                    FULL_SCREEN: 'Full screen',
+                    THUMBS: 'Thumbnails',
+                    DOWNLOAD: 'Download',
+                    SHARE: 'Share',
+                    ZOOM: 'Zoom'
+                };
+                $.fancybox.defaults.lang = 'en';
+                $('a.fancybox-gallery').fancybox({
+                    buttons: [
+                        'slideShow',
+                        'fullScreen',
+                        'thumbs',
+                        'share',
+                        'download',
+                        //'zoom',
+                        'close'
+                    ],
+                    beforeShow: function(instance, current) {
+                        if (current.type === 'image') {
+                            var title = current.opts.$orig.attr('title');
+                            current.opts.caption = (title.length ? '<b class="fancyboxCounter">Image ' + (current.index + 1) + ' of ' + instance.group.length + '</b>' + ' | ' + title : '');
+                        }
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
+	<script>(function()
+				{
+					if(typeof jQuery == 'undefined')
+						return;
+					
+					jQuery(function($)
+					{
+						if($.fn.squeezeBox)
+						{
+							$( 'a.modal' ).squeezeBox({ parse: 'rel' });
+				
+							$( 'img.modal' ).each( function( i, el )
+							{
+								$(el).squeezeBox({
+									handler: 'image',
+									url: $( el ).attr( 'src' )
+								});
+							})
+						}
+						else if(typeof(SqueezeBox) !== 'undefined')
+						{
+							$( 'img.modal' ).each( function( i, el )
+							{
+								SqueezeBox.assign( el, 
+								{
+									handler: 'image',
+									url: $( el ).attr( 'src' )
+								});
+							});
+						}
+						
+						function jModalClose() 
+						{
+							if(typeof(SqueezeBox) == 'object')
+								SqueezeBox.close();
+							else
+								ARK.squeezeBox.close();
+						}
+					
+					});
+				})();</script>
+	<script>
 
+                 (() =>
+				 {
+					if(typeof jQuery == 'undefined')
+						return;
+                     jQuery(() =>
+				     {
+                          
+						function resizeModel(event)
+						{
+							if(this.options.handler == 'iframe')
+							{
+								this.options.size = {x: Math.floor(document.documentElement.clientWidth*0.8), y: Math.floor(document.documentElement.clientHeight*0.7)};
+								this.win.css({height: this.options.size.y,width: this.options.size.x});
+								this.asset[0].height =  this.options.size.y;
+								this.asset[0].width =  this.options.size.x;
+								
+							}
+						};
+
+						const resizeModalFn = resizeModel.bind(ARK.squeezeBox);
+
+						ARK.squeezeBox.presets.onOpen = function()
+						{
+							if(Joomla.Modal)
+								Joomla.Modal.setCurrent(this);
+							
+							this.win.addClass('shadow');
+							
+							if(this.options.handler == 'iframe')
+							{		
+								this.options.size = {x: Math.floor(document.documentElement.clientWidth*0.8), y: Math.floor(document.documentElement.clientHeight*0.7)};
+								this.asset[0].height =  this.options.size.y;
+								this.asset[0].width =  this.options.size.x;
+								window.addEventListener('resize', resizeModalFn);
+							} 
+						};
+
+						ARK.squeezeBox.presets.onClose = function()
+						{
+							if(Joomla.Modal)
+								Joomla.Modal.setCurrent('');
+							if(this.options.handler == 'iframe')
+								window.removeEventListener('resize', resizeModalFn);
+						};
+                     }); 
+                    })();</script>
+
+	<link rel="stylesheet" href="/templates/rjp35/css/system.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/rjp35/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/rjp35/css/template_css.css" type="text/css" />
+  
+	<!--<link href="/templates/rjp35/css/iefix7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="/templates/rjp35/css/iefix6.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!-- <link href="/templates/rjp35/css/iefix8.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92407819-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="page">
+
+	<div id="glowny">
+		<a href="/index.php"><img src="/templates/rjp35/images/top.jpg" alt="Home" width="900" height="267" border="0"></a><br /><br />
+		<div id="left">
+		<ul class="mod-menu mod-list nav menu">
+<li class="nav-item item-81 default current active"><a href="/" aria-current="page">Strona główna</a></li><li class="nav-item item-48 parent"><a href="/o-radzie" >O Radzie</a></li><li class="nav-item item-260"><a href="/regulamin-rady/Contacts" >Regulamin Rady</a></li><li class="nav-item item-49 parent"><a href="/zespoy-rady" >Zespoły Rady</a></li><li class="nav-item item-215"><a href="/kalendarium" >Kalendarium</a></li><li class="nav-item item-52"><a href="/publikacje" >Publikacje</a></li><li class="nav-item item-50"><a href="/konferencje-i-dyskusje-naukowe" >Konferencje i dyskusje naukowe</a></li><li class="nav-item item-210"><a href="/fora-kultury-slowa-nowe" >Fora Kultury Słowa</a></li><li class="nav-item item-55"><a href="/dokumenty-rady" >Dokumenty Rady</a></li><li class="nav-item item-53"><a href="/dziaalno-rady-w-zwizku-z-ustaw-o-jzyku-polskim" >Działalność Rady w związku z ustawą o języku polskim</a></li><li class="nav-item item-54"><a href="/czonkostwo-w-efnil" >Członkostwo w EFNIL</a></li><li class="nav-item item-56"><a href="/patronaty-i-rekomendacje" >Patronaty merytoryczne i honorowe</a></li><li class="nav-item item-45"><a href="/kontakt" >Kontakt</a></li><li class="nav-item item-201 divider"><span class="mod-menu__separator separator ">- - - - - - - - (2)</span>
+</li><li class="nav-item item-59"><a href="/uchway-ortograficzne" >Uchwały ortograficzne</a></li><li class="nav-item item-208"><a href="/porady-jezykowe-main" >Porady językowe</a></li><li class="nav-item item-209"><a href="/opinie-o-imionach-main" >Opinie o imionach</a></li><li class="nav-item item-212"><a href="/zalecenia-dla-urzedow-stanu-cywilnego2" >Zalecenia dla urzędów stanu cywilnego</a></li><li class="nav-item item-202 divider"><span class="mod-menu__separator separator ">- - - - - - - - (3)</span>
+</li><li class="nav-item item-199"><a href="/poradnie-jezykowe" >Poradnie językowe</a></li><li class="nav-item item-213"><a href="/slowniki-i-poradniki-jezykowe" >Słowniki i poradniki językowe</a></li><li class="nav-item item-193 divider"><span class="mod-menu__separator separator ">- - - - - - - -</span>
+</li><li class="nav-item item-191"><a href="/miedzynarodowy-dzien-jezyka-ojczystego" >Międzynarodowy Dzień Języka Ojczystego</a></li><li class="nav-item item-196"><a href="/ogolnopolskie-dyktando" >Ogólnopolskie Dyktando</a></li><li class="nav-item item-200"><a href="/ambasador-polszczyzny" >Ambasador Polszczyzny</a></li><li class="nav-item item-195"><a href="/kampania-ty-mowisz-ja-czuje-dobre-slowo-lepszy-swiat" >Kampania „Ty mówisz – ja czuję. Dobre słowo – lepszy świat” </a></li><li class="nav-item item-192"><a href="/kampania-ojczysty-dodaj-do-ulubionych" >Kampania „Ojczysty – dodaj do ulubionych”</a></li><li class="nav-item item-62 divider"><span class="mod-menu__separator separator ">- - - - - - -</span>
+</li><li class="nav-item item-61"><a href="/english" ><img src="/images/stories/flaga_angielska.png" alt="English"><span class="image-title">English</span></a></li><li class="nav-item item-64"><a href="/deutsh" ><img src="/images/stories/flaga_niemiecka.png" alt="Deutsch"><span class="image-title">Deutsch</span></a></li><li class="nav-item item-65"><a href="/information-in-eu-languages" ><img src="/images/stories/flaga_eu.png" alt="Information about the Council for the Polish Language in EU languages"><span class="image-title">Information about the Council for the Polish Language in EU languages</span></a></li></ul>
+<div class="search mod_search88">
+	<form action="/" method="post" class="form-inline" role="search">
+		<label for="mod-search-searchword88" class="element-invisible">Szukaj...</label> <input name="searchword" id="mod-search-searchword88" maxlength="200"  class="inputbox search-query input-medium" type="search" size="25" placeholder="Wyszukaj..." /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">Szukaj</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="81" />
+	</form>
+</div>
+
+		<table>
+		<tr><td><a href="https://pan.pl/" target="tnw"><img border="0" src="/templates/rjp35/images/zdjecia/logo.png" alt="Logo Polskiej Akademii Nauk"></a></td></tr><br /><br />
+		<tr><td><a href="https://rjp.pl/" target="tnw"><img border="0" src="/templates/rjp35/images/zdjecia/RJP.jpg" alt="Logo Rady Języka Polskiego"></a></td></tr>
+		<tr><td class="napisy_z_lewej">Zrealizowano ze Środków Ministerstwa Kultury i Dziedzictwa Narodowego</td></tr>
+		</table>
+		</div>
+		<div id="right">
+
+		<div class="blog-featured" itemscope itemtype="https://schema.org/Blog">
+	
+				<div class="blog-items items-leading ">
+							<div class="blog-item"
+					itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+						
+
+<div class="item-content">
+	
+			<h2 class="item-title" itemprop="headline">
+					Publikacja „Logopedia jako nauka. Przedmiot i metodologia badań”				</h2>
+	
+			
+	
+		
+		
+		
+		
+	<table>
+<tbody>
+<tr>
+<td>
+<p><img src="/images/stories/logopedia_jako_nauka_tom_I_okładka.png" alt="logopedia jako nauka tom I okładka" width="280" height="397" style="margin-right: 10px;" /></p>
+<p>Tom dostepny jest <a href="https://publikacje.pan.pl/book/148556/logopedia-jako-nauka-tom-i-przedmiot-i-metodologia-badan">TU</a>.</p>
+</td>
+<td>
+<p style="line-height: 5mm; text-align: justify;">W listopadzie 2023 roku nakładem wydawnictw Polskiej Akademii Nauk ukazała się książka „Logopedia jako nauka. Przedmiot i metodologia badań” pod redakcją prof. Jolanty Panasiuk. Publikacja jest pokłosiem ogólnopolskiej <a href="/?view=article&amp;id=2044:konferencja-zespolu-rozwoju-u-zaburzen-mowy-rjp-logopedia-jako-nauka&amp;catid=119:zespol-rozwoju-i-zaburzen-mowy">konferencji naukowej</a>, która odbyła się online w dniach 20–21 września 2021 roku w ramach działalności <a href="/zespoy-rady/zespol-rozwoju-i-zaburzen-mowy">Zespołu Rozwoju i Zaburzeń Mowy</a> RJP. Celem publikacji jest przedstawienie dotychczasowych podejść metodologicznych w&nbsp;badaniu języka w normie biologicznej i&nbsp;w zaburzeniach. Problematyka prezentowanych zagadnień ujęta została w cztery bloki tematyczne: „Aspekty metodologiczne”, „Teoretyczne podstawy postępowania logopedycznego”, „Perspektywy badawcze” oraz „Dygresja. Z zagadnień współczesnej komunikacji językowej”. Publikacja jest pierwszym tomem serii wydawniczej „Logopedia jako Nauka” i jednocześnie otwarciem dyskusji nad metodologią wielospecjalistycznych, interdyscyplinarnych i&nbsp;transdyscyplinarnych badań nad uwarunkowaniami rozwoju i zaburzeń mowy. Stanowi też kolejny krok w drodze do wyodrębnienia się logopedii jako osobnej dyscypliny naukowej.</p>
+<p style="line-height: 5mm; text-align: justify;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+	
+	
+	
+</div>
+
+				</div>
+									</div>
+	
+							<div class="blog-items ">
+					<div class="blog-item"
+				itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+					
+
+<div class="item-content">
+	
+			<h2 class="item-title" itemprop="headline">
+					Publikacja „Język podręczników szkolnych w kontekście ich funkcji dydaktycznych”				</h2>
+	
+			
+	
+		
+		
+		
+		
+	<table style="line-height: 5mm;">
+<tbody>
+<tr>
+<td>
+<p style="line-height: 5mm; text-align: justify;">W listopadzie 2023 roku nakładem wydawnictw Polskiej Akademii Nauk ukazała się publikacja <strong>„Język podręczników szkolnych w kontekście ich funkcji dydaktycznych”</strong> autorstwa prof. Danuty Krzyżyk (przewodniczącej <a href="/?view=article&amp;id=1791:zespol-dydaktyczny&amp;catid=54:zespo-dydaktyczny">Zespołu Dydaktycznego</a> RJP) oraz prof. Heleny Synowiec (członkini Zespołu Dydaktycznego RJP). Książka jest podzielona na siedem części, zawierających analizę językowej warstwy podręczników szkolnych pod kątem m.in.: budowy tytułów podręczników szkolnych, poziomu zrozumiałości tekstów, sposobów konstruowania pytań i poleceń w podręcznikach, problemu dialogowości w książkach dla ucznia oraz poprawności językowo-stylistycznej, ortograficznej i&nbsp;interpunkcyjnej. Praca jest wynikiem wieloletnich badań Autorek nad podręcznikami szkolnymi, w tym analiz opracowanych w ramach „Sprawozdań o stanie ochrony języka polskiego” dla Rady Języka Polskiego (za lata 2005–2007 i 2008–2009), Zespołu Dydaktycznego RJP i Komisji Polskiej Akademii Umiejętności do Oceny Podręczników Szkolnych. Publikacja ma skłonić do refleksji nad językiem i&nbsp;stylem podręczników te instytucje, które są odpowiedzialne za poziom materiałów edukacyjnych, a także podnieść świadomość dydaktyczną i językową autorów, redaktorów podręczników i nauczycieli.&nbsp;<br /><br /></p>
+<p style="line-height: 5mm; text-align: justify;">Publikacja jest dostępna <a href="https://publikacje.pan.pl/book/148575/jezyk-podrecznikow-szkolnych-w-kontekscie-ich-funkcji-dydaktycznych"><strong>TU</strong></a>.</p>
+</td>
+<td style="line-height: 5mm;"><img src="/images/stories/Język_podręczników_szkolnych_okładka.png" alt="Język podręczników szkolnych okładka" width="270" height="391" style="margin-left: 10px;" />&nbsp;</td>
+</tr>
+</tbody>
+</table>
+	
+	
+	
+</div>
+
+			</div>
+					<div class="blog-item"
+				itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+					
+
+<div class="item-content">
+	
+			<h2 class="item-title" itemprop="headline">
+					Stanowisko Rady Języka Polskiego przy Prezydium PAN w sprawie stanu debaty publicznej				</h2>
+	
+			
+	
+		
+		
+		
+		
+	<p style="line-height: 5mm; text-align: center;"><strong>Stanowisko Rady Języka Polskiego przy Prezydium PAN <br />w sprawie stanu debaty publicznej</strong></p>
+<p style="line-height: 5mm; text-align: justify;">Rada Języka Polskiego wyraża najgłębszy niepokój z powodu dramatycznego stanu polskiej debaty publicznej obserwowanego m.in. podczas ostatniej kampanii wyborczej. Uwolniono w niej nienawiść&nbsp;i&nbsp;inne skrajnie negatywne emocje, przekroczono granice do tej pory nieprzekraczalne. Nawet największe różnice poglądów, przekonanie o słuszności własnego programu i racji moralnych nie mogą prowadzić do odczłowieczenia przeciwnika politycznego, odmawiania mu prawa do szczerych intencji, uczciwości, patriotyzmu. Przemoc symboliczna, w tym słowna, może prowadzić w&nbsp;podzielonym społeczeństwie do przemocy realnej.</p>
+<p style="line-height: 5mm; text-align: justify;">W ostatniej kampanii odwoływano się wprost do wyglądu konkretnych osób, zarzucano konkurentom zagraniczne inspiracje, a nawet zdradę, określano ich jako personifikację czystego zła. Atakowano sąsiednie narody, mniejszości i inne grupy ludzkie, uprzedmiotowiono kobiety. Zawłaszczano w sposób niegodny słowa sztandarowe polskiej wspólnoty narodowej, odmawiając prawa do nich tym, którzy myślą inaczej. Te i inne brutalne strategie można było znaleźć w oficjalnych wystąpieniach wielu doświadczonych polityków, decydujących o losach kraju.</p>
+<p style="line-height: 5mm; text-align: justify;">Dehumanizacja przeciwnika w przemówieniu politycznym sformułowana w języku literackim nie jest mniej groźna niż emocjonalne, nawet wulgarne hasło wykrzyczane na marszu protestu.&nbsp;Choć wulgaryzmy nie pojawiały się w przemówieniach polityków w ostatniej kampanii, to także one wnoszą agresję do&nbsp;debaty publicznej, nawet&nbsp;&nbsp;jeśli&nbsp;ukrywa się je pod gwiazdkami w mediach społecznościowych&nbsp;czy na transparencie.</p>
+<p style="line-height: 5mm; text-align: justify;">Nie ma usprawiedliwienia dla brutalności, dehumanizacji przeciwników i szerzenia nienawiści. Przyszedł czas na racjonalną rozmowę, bo pilnie potrzebujemy działań, słów i symboli prowadzących do&nbsp;odbudowania zagrożonej wspólnoty.</p>
+<p style="line-height: 5mm; text-align: right;">7 listopada 2023 r.</p>
+	
+	
+	
+</div>
+
+			</div>
+					<div class="blog-item"
+				itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+					
+
+<div class="item-content">
+	
+			<h2 class="item-title" itemprop="headline">
+					Pożegnanie prof. Michała Głowińskiego				</h2>
+	
+			
+	
+		
+		
+		
+		
+	<p style="text-align: center;">Z wielkim smutkiem żegnamy</p>
+<p style="text-align: center;">prof. dr. hab. Michała Głowińskiego</p>
+<p style="text-align: center;">wybitnego historyka i teoretyka literatury, członka Rady Języka Polskiego przy Prezydium PAN <br />w latach 2007–2022.</p>
+<p style="text-align: center;">Rodzinie składamy wyrazy najszczerszego współczucia.</p>
+	
+	
+	
+</div>
+
+			</div>
+					<div class="blog-item"
+				itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+					
+
+<div class="item-content">
+	
+			<h2 class="item-title" itemprop="headline">
+					Pożegnanie red. Agnieszki Strzemińskiej				</h2>
+	
+			
+	
+		
+		
+		
+		
+	<table>
+<tbody>
+<tr>
+<td><img src="/images/stories/red._Agnieszka_Strzemińska.jpg" alt="red. Agnieszka Strzemińska" width="240" height="309" />Zdjęcie: Sylwia Rudolf</td>
+<td>&nbsp;
+<p style="line-height: 5mm; text-align: justify;">Z ogromnym żalem przyjęliśmy wiadomość&nbsp; o śmierci red.&nbsp;Agnieszki Strzemińskiej, członkini Rady Języka Polskiego.&nbsp;</p>
+<p style="line-height: 5mm; text-align: justify;">Odeszła ceniona dziennikarka, propagatorka pięknej polszczyzny, przez ponad trzy dekady związana z Radiem Katowice. W swojej pracy niezwykle profesjonalna i&nbsp;rzetelna, ale też uważna na drugiego człowieka. Od lat z&nbsp;mikrofonem towarzyszyła wydarzeniom organizowanym i&nbsp;współorganizowanym przez Radę Języka Polskiego (Kongresowi Języka Polskiego, Forom Kultury Słowa, Ogólnopolskim Konkursom Ortograficznym DYKTANDO, gali Ambasadora Polszczyzny).</p>
+<p style="line-height: 5mm; text-align: justify;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 5mm; text-align: justify;">Niespełna dwa miesiące temu Radio Katowice opublikowało reportaż Jej autorstwa „Hospicjum znaczy miłość”, w którego zapowiedzi czytamy: „Świat jest piękny. Żyjemy pełnią życia i nie myślimy o&nbsp;sprawach ostatecznych. Dziś chcemy Państwa na chwilę zatrzymać, pokazać życie rownolegle …” – wiadomość o śmierci Agnieszki Strzemińskiej zatrzymała nas wszystkich. I trwamy w tym zatrzymaniu, nie dowierzając, że już nie zrealizujemy wspólnie żadnego projektu. A jej głos usłyszymy tylko z&nbsp;archiwalnych nagrań.&nbsp;</p>
+<p style="line-height: 5mm; text-align: justify;"><span class="im">Rodzinie i Bliskim składamy najszczersze wyrazy współczucia. <br /></span>Rada Języka Polskiego</p>
+	
+	
+	
+</div>
+
+			</div>
+				</div>
+	
+			<div class="items-more">
+			<ol class="com-content-blog__links">
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2167:pozegnanie-prof-agnieszki-chodun&amp;catid=37">
+				Pożegnanie prof. Agnieszki Choduń</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/konferencje-i-dyskusje-naukowe/49-fora-kultury-sowa/2137-xiii-forum-kultury-slowa">
+				XIII Forum Kultury Słowa </a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2132:publikacja-ty-mowisz-ja-czuje-dobre-slowo-lepszy-swiat&amp;catid=102">
+				Publikacja „Ty mówisz – ja czuję. Dobre słowo – lepszy świat”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/konferencje-i-dyskusje-naukowe/49-fora-kultury-sowa/2128-program-konferencji-xiii-forum-kultury-slowa-swiadomosc-jezykowa-dawniej-i-dzis">
+				Program konferencji XIII Forum Kultury Słowa „Świadomość językowa dawniej i dziś”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2126:debata-z-okazji-miedzynarodowego-dnia-jezyka-ojczystego-jezyk-a-wojna&amp;catid=129">
+				Debata z okazji Międzynarodowego Dnia Języka Ojczystego „Język a wojna”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2125:xxx&amp;catid=109">
+				Posiedzenie sejmowej KKiŚP na temat „Sprawozdania o stanie języka polskiego za lata 2018–2019. Status języka polskiego w nauce”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2123:publikacja-headlines-of-the-public-television-news-service-in-poland-from-2016-to-2017-a-pragmatic-linguistic-analysis&amp;catid=53">
+				Publikacja „Headlines of the Public Television News Service in Poland from 2016 to 2017. A Pragmatic Linguistic Analysis”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2122:pozegnanie-profesora-stanislawa-gajdy&amp;catid=37">
+				Pożegnanie Profesora Stanisława Gajdy</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2119:ogolnopolski-konkurs-ortograficzny-dyktando-2022&amp;catid=124">
+				Ogólnopolski Konkurs Ortograficzny „Dyktando 2022”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2117:pozegnanie-profesora-wojciecha-chlebdy&amp;catid=109">
+				Pożegnanie Profesora Wojciecha Chlebdy</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2116:sprawozdanie-o-stanie-ochrony-jezyka-polskiego-za-lata-2018-2019&amp;catid=109">
+				Sprawozdanie o stanie ochrony języka polskiego za lata 2018–2019</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2099:opinia-rady-jezyka-polskiego-w-sprawie-wyrazen-w-ukrainie-do-ukrainy-i-na-ukrainie-na-ukraine&amp;catid=98">
+				Opinia Rady Języka Polskiego w sprawie wyrażeń „w Ukrainie” / „do Ukrainy” i „na Ukrainie” / „na Ukrainę”</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2089:kondolencje&amp;catid=109">
+				Kondolencje</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2086:pozegnanie-profesora-zenona-leszczynskiego&amp;catid=109">
+				Pożegnanie Profesora Zenona Leszczyńskiego</a>
+		</li>
+			<li class="com-content-blog__link">
+			<a href="/?view=article&amp;id=2082:wyrazenia-do-ukrainy-w-ukrainie&amp;catid=98">
+				Wyrażenia „do Ukrainy”, „w Ukrainie”</a>
+		</li>
+	</ol>
+		</div>
+	
+			<div class="w-100">
+						<nav class="pagination__wrapper" aria-label="Paginacja">
+	<ul class="pagination ms-0 mb-4">
+			<li class="disabled page-item">
+		<span class="page-link" aria-hidden="true"><span class="icon-angle-double-left" aria-hidden="true"></span></span>
+	</li>
+			<li class="disabled page-item">
+		<span class="page-link" aria-hidden="true"><span class="icon-angle-left" aria-hidden="true"></span></span>
+	</li>
+
+							<li class="active page-item">
+		<a aria-current="true" aria-label="Strona 1" href="#" class="page-link">1</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 2" href="/?start=5" class="page-link">
+			2		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 3" href="/?start=10" class="page-link">
+			3		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 4" href="/?start=15" class="page-link">
+			4		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 5" href="/?start=20" class="page-link">
+			5		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 6" href="/?start=25" class="page-link">
+			6		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 7" href="/?start=30" class="page-link">
+			7		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 8" href="/?start=35" class="page-link">
+			8		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 9" href="/?start=40" class="page-link">
+			9		</a>
+	</li>
+						<li class="page-item">
+		<a aria-label="Idź do strony 10" href="/?start=45" class="page-link">
+			10		</a>
+	</li>
+		
+			<li class="page-item">
+		<a aria-label="Idź do strony następny artykuł" href="/?start=5" class="page-link">
+			<span class="icon-angle-right" aria-hidden="true"></span>		</a>
+	</li>
+			<li class="page-item">
+		<a aria-label="Idź do strony koniec" href="/?start=100" class="page-link">
+			<span class="icon-angle-double-right" aria-hidden="true"></span>		</a>
+	</li>
+	</ul>
+</nav>
+		</div>
+	
+</div>
+
+
+				</div>
+		<div id="stopka">&copy; Rada Języka Polskiego 2007 | projekt: <a href="http://www.szasza.pl" target="_blank">www.szasza.pl</a><p>Template for J! 3.5 by <a href="mailto:mateusz.prasal@gmail.com">Mateusz P</a></p></div>
+		</div>
+
+	</div>
+</body>
+</html>

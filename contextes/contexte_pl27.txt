@@ -1,12 +1,24 @@
+   RTF - (Rich Format Text) jeden z podtypów plików tekstowych
+   rtf - (Rich Format Text) jeden z podtypów plików tekstowych
    ART - Akademia Rolniczo-Techniczna
    AZS - Akademicki Zwiazek Spotowy
    BSRUN - Baltic Sea Region University Network
+   BIP - Biuletyn Informacji Publicznej
+   CEIG - Centrum Egzaminacyjne Instytutu Goethego
 --
+   MKN - Miedzywydzial/owe Naukowe Kol/o
+   MNiSW - Ministerstwo Nauki i Szkolnictwa Wyzszego
    NK - Naukowe Kol/o
    NSZZ - Niezalezny Samorzadny Zwiazek Zawodowy
    NIP - Numer Identyfikacji Podatkowej
+   PDF - Portable Document Format, format pliku mozliwego do odczytania za
+   pomoca bezpl/atnego programu
 --
+   WSP - Wyzsza Szkol/a Pedagogiczna
+   ZPK - Zakl/adowy Plan Kont
    ZPORR - Zintegrowany Program Operacyjny Rozwoju Regionalnego
    ZNP - Zwiazek Nauczycielstwa Polskiego
    ZNP RSzWiN - Zwiazek Nauczycielstwa Polskiego Rada Szkolnictwa Wyzszego
    i Nauki
+   spin-off - [firma odpryskowa] nowe przedsiebiorstwo powstal/e w drodze
+   usamodzielnienia sie pracownika/ów przedsiebiorstwa macierzystego lub

@@ -1,64 +1,84 @@
+
+   (BUTTON) przypnij (BUTTON) ukryj
      * Poczatek
      * 1wolny zwiazek (jezyk polski)
 
---
+   [ ] Przel/acz stan spisu tresci
 
 wolny zwiazek
 
---
-
-[44]wolny [45]zwiazek ([46]jezyk polski)[[47]edytuj]
+   [ ] Dodaj jezyki
 
 --
 
-          (1.1) [54]socjol. [55]nie[56]usankcjonowany [57]zwiazek
-          [58]dwóch [59]osób, [60]kohabitacja [61]bez [62]slubu^[63][1]
---
-   [64]odmiana:
-          (1.1) [65]zwiazek zgody;
+   Z Wikisl/ownika - wolnego sl/ownika wielojezycznego
 
+wolny zwiazek (jezyk polski)[edytuj]
+
+   wymowa:
+          &#8203;^?/i
 --
-           [66]przypadek  [67]liczba pojedyncza [68]liczba mnoga
-          [69]mianownik   wolny zwiazek         wolne zwiazki
-          [70]dopel/niacz wolnego zwiazku       wolnych zwiazków
-          [71]celownik    wolnemu zwiazkowi     wolnym zwiazkom
-          [72]biernik     wolny zwiazek         wolne zwiazki
-          [73]narzednik   wolnym zwiazkiem      wolnymi zwiazkami
-          [74]miejscownik wolnym zwiazku        wolnych zwiazkach
-          [75]wol/acz     wolny zwiazku         wolne zwiazki
+
+   fraza rzeczownikowa, rodzaj meskorzeczowy
+
+          (1.1) socjol. nieusankcjonowany zwiazek dwóch osób, kohabitacja
+          bez slubu^[1]
+
+   odmiana:
+          (1.1) zwiazek zgody;
+
+
+           przypadek  liczba pojedyncza   liczba mnoga
+          mianownik   wolny zwiazek     wolne zwiazki
+          dopel/niacz wolnego zwiazku   wolnych zwiazków
+          celownik    wolnemu zwiazkowi wolnym zwiazkom
+          biernik     wolny zwiazek     wolne zwiazki
+          narzednik   wolnym zwiazkiem  wolnymi zwiazkami
+          miejscownik wolnym zwiazku    wolnych zwiazkach
+          wol/acz     wolny zwiazku     wolne zwiazki
 
    przykl/ady:
-          (1.1) [76]Okreslenie wolny zwiazek [77]odnosi sie [78]do
-          [79]zwiazku [80]- [81]implikujacego [82]intymnosc [83]seksualna
-          [84]- [85]miedzy [86]mezczyzna [87]a [88]kobieta, [89]bez
---
-          [98]religijnego^[99][2].
-          (1.1) [100]Okreslenie wolny zwiazek [101]robi [102]wiec
-          [103]kariere, [104]choc [105]samo w sobie [106]jest
---
-          (1.1) [144]Coraz [145]czesciej [146]sl/yszy [147]sie, [148]ze
-          [149]ludzie [150]wybieraja wolny zwiazek [151]jako [152]sposób
-          [153]zycia [154]z [155]partnerem^[156][4].
---
-   [157]kolokacje:
-          (1.1) [158]zyc [159]w wolnym zwiazku
+          (1.1) Okreslenie wolny zwiazek odnosi sie do zwiazku -
+          implikujacego intymnosc seksualna - miedzy mezczyzna a kobieta,
+          bez zadnego publicznie uznanego wezl/a instytucjonalnego, ani
+          cywilnego, ani religijnego^[2].
+          (1.1) Okreslenie wolny zwiazek robi wiec kariere, choc samo w
+          sobie jest sprzeczne. Nie ma przeciez "wolnych zwiazków" miedzy
+          ludzmi, tak jak nie ma suchej wody ani kwadratowego kol/a. Jesli
+          dwoje ludzi zyje w bliskim kontakcie ze soba, to sil/a rzeczy
+          oddzial/uja oni na siebie nawzajem i w jakims stopniu wiaza
+          swoje losy^[3].
+          (1.1) Coraz czesciej sl/yszy sie, ze ludzie wybieraja wolny
+          zwiazek jako sposób zycia z partnerem^[4].
+
+   skl/adnia:
+
+   kolokacje:
+          (1.1) zyc w wolnym zwiazku
 
    synonimy:
-          (1.1) [160]zwiazek nieformalny;
+          (1.1) zwiazek nieformalny;
 
---
+   pot. zycie na kocia l/ape, zycie na karte rowerowa
+
    antonimy:
-          (1.1) [164]zwiazek mal/zenski, [165]zwiazek formalny
+          (1.1) zwiazek mal/zenski, zwiazek formalny
+
+   hiperonimy:
 
 --
+
+   wyrazy pokrewne:
 
    zwiazki frazeologiczne:
 
+   etymologia:
+
 --
- 168. https://pl.wiktionary.org/wiki/wolny_zwi%C4%85zek#cite_ref-1
- 169. http://sciaga.pl/slowniki-tematyczne/17105/wolny-zwiazek/
- 170. https://pl.wiktionary.org/wiki/wolny_zwi%C4%85zek#cite_ref-2
---
- 172. https://pl.wiktionary.org/wiki/wolny_zwi%C4%85zek#cite_ref-4
- 173. http://mezczyzna-i-zdrowie.wieszjak.polki.pl/wolny-zwiazek-uczucie-bez-zobowiazan,styl-zycia-artykul,10347148.html
- 174. https://pl.wiktionary.org/w/index.php?title=wolny_zwi%C4%85zek&oldid=7840884
+    4. ^| polki.pl
+
+   Zródl/o:
+   "https://pl.wiktionary.org/w/index.php?title=wolny_zwiazek&oldid=784088
+   4"
+
+   Kategoria:

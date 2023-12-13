@@ -1,27 +1,43 @@
-     * [56]Z
-     * [57]Zwiazek zawodowy
+     * Strona gl/ówna
+     * Sl/ownik pojec
+     * Z
+     * Zwiazek zawodowy
+
+Sl/ownik pojec
 
 --
+   Przejdz do Twój e-PIT
+                                                                     Z
 
 Zwiazek zawodowy
 
---
+   Jest dobrowolna i samorzadna organizacja ludzi pracy, powol/ana do
+   reprezentowania i obrony ich praw, interesów zawodowych
    i socjalnych. Definicja ta zostal/a zawarta w ustawie z dnia 23 maja
    1991 r. o zwiazkach zawodowych.
    Podstawowa cecha zwiazków zawodowych jest ich niezaleznosc. Organizacje
---
+   te sa niezalezne w swojej dzial/alnosci statutowej od pracodawców,
+   administracji panstwowej i samorzadu terytorialnego oraz od innych
+   organizacji.
+
    Co istotne, organy panstwowe, samorzadu terytorialnego i pracodawcy
    obowiazani sa traktowac jednakowo wszystkie zwiazki zawodowe.
 
---
+   Czl/onkiem oraz twórca zwiazku zawodowego moze byc kazda osoba
    wykonujaca prace zarobkowa. Nie ma przy tym znaczenia na podstawie
    jakiej umowy o prace zostal/a ona zatrudniona. Dodatkowo do zwiazku
    zawodowego moga zapisac sie takze:
+     * bezrobotni;
+     * emeryci i rencisci;
 --
+       zwiazków.
+
 
    Stworzenie nowego zwiazku zawodowego moze nastapic poprzez:
      * podjecie uchwal/y o jego utworzeniu przez co najmniej 10 osób
---
+       uprawnionych do tworzenia zwiazków zawodowych;
+     * uchwalenie przez te same osoby statutu i
+       wybór komitetu zal/ozycielskiego w liczbie od 3 do 7 osób;
      * zl/ozenie wniosku do wl/asciwego sadu rejonowego, wydzial/u
        gospodarczego Krajowego Rejestru Sadowego o wpis zwiazku zawodowego
        do Krajowego Rejestru Sadowego;
@@ -33,66 +49,74 @@ Zwiazek zawodowy
 
    Zwiazki zawodowe sa uprawnione do:
      * opiniowania aktów normatywnych w zakresie objetych zadaniami
+       zwiazków zawodowych;
+     * prowadzenia rokowan zbiorowych oraz zawierania ukl/adów zbiorowych
 --
+       nadzorze nad przestrzeganiem przepisów oraz zasad bezpieczenstwa
+       i higieny pracy;
      * orowadzenia dzial/alnosci gospodarczej, przy czym dochód z niej
        moze sl/uzyc wyl/acznie realizacji zadan statutowych zwiazku
        zawodowego.
---
+
+
    Jak juz zostal/o wskazane na wstepie, podstawowym celem istnienia
    zwiazku zawodowego jest obrona praw pracowników w nim zrzeszonych.
    W praktyce polega to na tym, ze pracodawca chcac podjac jakies decyzje
    wiazace wobec pracowników wykonujacych prace w jego zakl/adzie
    pracy, jest zobowiazany do skonsultowania tej kwestii ze zwiazkiem
    zawodowym funkcjonujacym w tym zakl/adzie pracy.
+
+   Wspomniana obrona praw pracowników przejawia sie przede wszystkim
 --
+   przez pracodawce. Tyczy sie to przede wszystkim pracowników
+   zatrudnionych na podstawie umowy o prace na czas nieokreslony.
 
    Stosownie do tresci art. 251 ust. 1 ustawy o zwiazkach zawodowych,
    uprawnienia zakl/adowej organizacji zwiazkowej przysl/uguja organizacji
+   zrzeszajacej co najmniej 10 czl/onków bedacych:
+     * pracownikami u pracodawcy objetego dzial/aniem tej organizacji lub
+     * innymi niz pracownicy osobami wykonujacymi prace zarobkowa, które
 --
+       objetego dzial/aniem tej organizacji.
+
+
+   Zakl/adowa Organizacja Zwiazkowa jest uprawniona do:
+     * zajmowania stanowiska w indywidualnych sprawach pracowniczych
+       w zakresie unormowanym w przepisach prawa pracy oraz
+       w indywidualnych sprawach osób wykonujacych prace zarobkowa
+--
+
+
    Podstawa prawna:
      * Ustawa z dnia 23 maja 1991 r. o zwiazkach zawodowych (Dz.U. z 2019
        r. poz. 263).
---
+
    Zobacz takze:
-     * [84]Zmiany w zwiazkach zawodowych
+     * Zmiany w zwiazkach zawodowych
+
+Potrzebujesz pomocy?
 
 --
+   (BUTTON) [copyIcon.png] Skopiuj KRS
+   Przejdz do Twój e-PIT
 
 Komunikat w zwiazku realizacja obowiazku z art. 13 RODO
 Informacja nt. Cookies
+
+   Drogi Uzytkowniku!
 --
+   np. firmy IT oraz oczywiscie organy typu sady czy policja, które moga
+   zadac danych na podstawie obowiazujacego prawa.
 
    W zwiazku z korzystaniem przez nas z narzedzia Google Analitycs Twoje
    dane zgromadzone w plikach cookies moga byc przekazywane Google Inc.
+   z siedziba w USA, tj. poza Europejski Obszar Gospodarczy. Przykazywanie
+   odbywac sie bedzie na podstawie regulacji zabezpieczajacych ochrone
 --
+   w Polityce prywatnosci.
+
    Chcesz dowiedziec sie wiecej o zasadach przetwarzania i ochrony danych
    osobowych w zwiazku z korzystaniem z Serwisu mikroPorady?
 
---
-  56. https://mikroporady.pl/slownik-pojec/z
-  57. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
-  58. https://mikroporady.pl/slownik-pojec/a
---
-  83. https://mikroporady.pl/twoj-e-pit
-  84. https://mikroporady.pl/trzeba-wiedziec/zmiany-w-zwiazkach-zawodowych-od-1-stycznia-2019%20
-  85. https://mikroporady.pl/slownik-pojec/koszty-ogolne-zarzadu
---
- 150. https://mikroporady.pl/files/regulaminy/polityka-cookies.pdf
- 151. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 152. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 153. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 154. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 155. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 156. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
---
- 162. https://mikroporady.pl/files/regulaminy/polityka-prywatnosci.pdf
- 163. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 164. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
---
- 168. https://mikroporady.pl/files/regulaminy/polityka-cookies.pdf
- 169. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 170. https://mikroporady.pl/files/regulaminy/regulamin-serwisu.pdf
---
- 177. https://mikroporady.pl/wyszukiwarka
- 178. https://mikroporady.pl/slownik-pojec/zwiazek-zawodowy
- 179. https://mikroporady.pl/
+   Przeczytaj wiecej o naszej Polityce Prywatnosci
+   Przeczytaj wiecej o naszej Polityce Cookies

@@ -1,7 +1,15 @@
+       sa, pojawiajace sie w okreslonym porzadku, kwalifikatory:
+       chronologiczne, stylistyczne, ekspresyjne, profesjonalno-naukowe,
        socjolektalno-srodowiskowe, geograficzne. Kwalifikatory
        towarzyszace terminom i zwiazkom frazeologicznym umieszczane sa
        zwykle po symbolach graficznych i skrótach.
+       Kolejne znaczenia w hasle zasadniczo uszeregowane sa od znaczen
+       podstawowych do znaczen specjalistycznych i przestarzal/ych.
 --
-       baze wyrazów bliskoznacznych, jak równiez dostepne z menu sl/ownika
+       1. Wersja internetowa dostepna jest za opl/ata pod adresem:
+       http://usjp.pwn.pl Zawiera dodatkowo przeszl/o stutysieczna baze
+       wyrazów bliskoznacznych, jak równiez dostepne z menu sl/ownika
        przysl/owia, zwiazki frazeologiczne i terminy specjalistyczne z
        objasnieniami.
+       2. Uniwersalny sl/ownik jezyka polskiego PWN, wersja 2.0, pwn. pl.
+       sp. z o.o. we wspól/pracy z Wydawnictwem Naukowym PWN SA, Warszawa
