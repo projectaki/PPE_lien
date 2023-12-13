@@ -12,3 +12,5 @@ s'est avéré être un défi, mais j'ai réussi à résoudre ce problème en uti
 # Cours 11 - 06/12
 (Débora) J'ai réussi à résoudre ma branche divergente en suivant des indications sur un forum et les conseils de
 notre ami bash. J'ai maintenant un peu mieux compris l'histoire des merge et des rebase.
+
+(Maria) J'ai fait quelques modifications sur notre page web et j'ai modifié le code HTML pour que le site soit plus clair. On continuera l'édition de notre site web ensemble après le cours 12. 
