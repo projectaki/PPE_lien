@@ -3,19 +3,19 @@ LANGUE=$1
 FICHIER=$2
 CHEMIN=../contextes/contexte_$FICHIER.txt
 
-if $LANGUE == "ang"
+if $LANGUE == [ "ang" ]
 then
-	REGEXP=\blinks?\b
+	REGEXP= '\blinks?\b'
 fi
 
-if $LANGUE == "pl"
+if $LANGUE == [ "pl" ]
 then
-	REGEXP="\b(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))\b"
+	REGEXP='\b(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))\b'
 fi
 
-if $LANGUE == "kor"
+if $LANGUE == [ "kor" ]
 then
-	REGEXP="관계"
+	REGEXP='관계'
 fi
 
 echo "
@@ -23,7 +23,7 @@ echo "
 <html lang=\"${LANGUE}\">
 <head>
 	<meta charset=\"UTF-8\">
-	<title>Concordance</title>
+	<title>Concordances</title>
 </head>
 <body>
 	<table>
@@ -36,7 +36,7 @@ echo "
 	</thead>
 	<tbody>"
 	
-grep -o -E -i "(\w+\W){0,5}\blinks?\b(\W+\w+){0,5}" "$CHEMIN" | sed -E 's/(.*)(\blinks?\b)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/'  
+	grep -o -E -i "(\w+\W){0,5}\blinks?\b(\W+\w+){0,5}" "$CHEMIN" | sed -E 's/(.*)(\blinks?\b)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/'  
 
 
 echo "
