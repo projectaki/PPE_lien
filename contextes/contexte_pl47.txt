@@ -1,9 +1,7 @@
    (BUTTON) Przel/acz podsekcje Wl/adze
      * 3.1Rada Zwiazku Banków Polskich
 
---
-
-   3.2Zarzad Zwiazku Banków Polskich
+     3.2Zarzad Zwiazku Banków Polskich
 
 --
 

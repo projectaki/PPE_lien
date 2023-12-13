@@ -1,5 +1,5 @@
 
-   [10]Relacje i zwiazki
+   [7]Relacje i zwiazki
 
 --
 
@@ -62,56 +62,42 @@ Definicja zwiazku
 
 --
    tysiaclecia
-   [17]Nastepny Nastepny wpis: Prawdziwe zwiazki
+   [14]Nastepny Nastepny wpis: Prawdziwe zwiazki
 
 --
-     * [23]Pokonac Strach
-     * [24]Jezeli jestes w zwiazku z zazdrosnikiem
-     * [25]Zazdrosc
+     * [20]Pokonac Strach
+     * [21]Jezeli jestes w zwiazku z zazdrosnikiem
+     * [22]Zazdrosc
 --
-     * [88]Wiezienie
-     * [89]Zwiazki
+     * [77]Wiezienie
+     * [78]Zwiazki
 
 --
 
-   [135]Relacje i zwiazki
+   [124]Relacje i zwiazki
 
 --
    3. http://www.klinika-oaza.pl/wp-json/wp/v2/posts/1328
    4. http://www.klinika-oaza.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.klinika-oaza.pl%2Fdefinicja-zwiazku%2F
    5. http://www.klinika-oaza.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.klinika-oaza.pl%2Fdefinicja-zwiazku%2F&format=xml
-   6. http://www.klinika-oaza.pl/en/definicja-zwiazku/
-   7. http://www.klinika-oaza.pl/fr/definicja-zwiazku/
-   8. http://www.klinika-oaza.pl/de/definicja-zwiazku/
-   9. http://www.klinika-oaza.pl/definicja-zwiazku/#content
-  10. http://www.klinika-oaza.pl/
-  11. http://www.klinika-oaza.pl/author/kuba/
-  12. http://www.klinika-oaza.pl/definicja-zwiazku/
-  13. http://www.klinika-oaza.pl/category/zwiazki/
-  14. http://www.klinika-oaza.pl/tag/milosc/
+   6. http://www.klinika-oaza.pl/definicja-zwiazku/#content
+   7. http://www.klinika-oaza.pl/
+   8. http://www.klinika-oaza.pl/author/kuba/
+   9. http://www.klinika-oaza.pl/definicja-zwiazku/
+  10. http://www.klinika-oaza.pl/category/zwiazki/
+  11. http://www.klinika-oaza.pl/tag/milosc/
 --
-  16. http://www.klinika-oaza.pl/randki-nastolatkow-u-progu-nowego-tysiaclecia/
-  17. http://www.klinika-oaza.pl/prawdziwe-zwiazki/
-  18. http://www.klinika-oaza.pl/detoks-odtrucie-organizmu/
+  13. http://www.klinika-oaza.pl/randki-nastolatkow-u-progu-nowego-tysiaclecia/
+  14. http://www.klinika-oaza.pl/prawdziwe-zwiazki/
+  15. http://www.klinika-oaza.pl/detoks-odtrucie-organizmu/
 --
-  23. http://www.klinika-oaza.pl/pokonac-strach/
-  24. http://www.klinika-oaza.pl/jezeli-jestes-w-zwiazku-z-zazdrosnikiem/
-  25. http://www.klinika-oaza.pl/zazdrosc-2/
+  20. http://www.klinika-oaza.pl/pokonac-strach/
+  21. http://www.klinika-oaza.pl/jezeli-jestes-w-zwiazku-z-zazdrosnikiem/
+  22. http://www.klinika-oaza.pl/zazdrosc-2/
 --
-  42. http://www.klinika-oaza.pl/alkohol-i-wypadki-przy-pracy/
-  43. http://www.klinika-oaza.pl/en/definicja-zwiazku/
-  44. http://www.klinika-oaza.pl/en/definicja-zwiazku/
-  45. http://www.klinika-oaza.pl/definicja-zwiazku/
-  46. http://www.klinika-oaza.pl/definicja-zwiazku/
-  47. http://www.klinika-oaza.pl/fr/definicja-zwiazku/
-  48. http://www.klinika-oaza.pl/fr/definicja-zwiazku/
-  49. http://www.klinika-oaza.pl/de/definicja-zwiazku/
-  50. http://www.klinika-oaza.pl/de/definicja-zwiazku/
-  51. http://www.klinika-oaza.pl/plusy-i-minusy-mieszkania-z-tesciami/#comment-414
---
-  88. http://www.klinika-oaza.pl/category/wiezienie/
-  89. http://www.klinika-oaza.pl/category/zwiazki/
-  90. http://www.klinika-oaza.pl/tag/alkohol/
+  77. http://www.klinika-oaza.pl/category/wiezienie/
+  78. http://www.klinika-oaza.pl/category/zwiazki/
+  79. http://www.klinika-oaza.pl/tag/alkohol/
 --
    Hidden links:
- 137. http://www.klinika-oaza.pl/definicja-zwiazku/
+ 126. http://www.klinika-oaza.pl/definicja-zwiazku/

@@ -20,17 +20,13 @@ Definicja zwiazek "jest"
 
    Czym jest Jest Zwiazek znaczenie w [8]Sl/ownik definicji Z .
 
+   Co znaczy Zl/aczenie Zalezne:
+          Definicja Zobacz: zalezne zl/aczenie zwiazek "jest" co to jest.
+
    Co znaczy Zarzadzanie Wersjami:
-          Definicja Zobacz: sterowanie wersjami zwiazek "jest" co to jest.
+          Definicja Zobacz: sterowanie wersjami zwiazek "jest" definicja.
 
 --
-          nim zamkiem staje sie niedostepny dla innych transakcji az do
-          momentu, gdy dana zwiazek "jest" definicja.
-
---
-          stwierdzajace, iz dla kazdej stosunku nalezacej do tej rodziny
-          kazda z wartosci atrybutu A jest zwiazek "jest" co znaczy.
-
    Co znaczy Zmienna Klasowa:
           Definicja Zobacz: zmienna klasy zwiazek "jest" sl/ownik.
 

@@ -23,10 +23,10 @@ zwiazek
    zwiazek
    1. «stosunek miedzy rzeczami, zjawiskami itp. pol/aczonymi ze soba w
 --
-  49. https://sjp.pwn.pl/slowniki/nied%C5%82ugo.html
+  49. https://sjp.pwn.pl/slowniki/konotacja.html
   50. https://sjp.pwn.pl/sjp/zwiazek;2547604.html#search-side-panel
   51. https://sjp.pwn.pl/lista/A.html
 --
- 215. https://sjp.pwn.pl/sjp/sjp
- 216. https://sjp.pwn.pl/sjp/zwiazek;2547604.html
- 217. https://sjp.pwn.pl/puzzle
+ 211. https://sjp.pwn.pl/sjp/sjp
+ 212. https://sjp.pwn.pl/sjp/zwiazek;2547604.html
+ 213. https://sjp.pwn.pl/puzzle
