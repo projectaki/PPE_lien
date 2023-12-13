@@ -50,8 +50,8 @@ then
 	fi	
 
 	lynx -assume_charset UTF-8 -dump -nolist ./apsirations/${LANG}-${N}.html > "../dumps-text/dump_${LANG}${N}.txt"
-	compte=$(cat "../dumps-text/dump_${LANG}${N}.html" | egrep -i -o "(관계|링크|끈)"  | wc -w)
-    cat "../dumps-text/dump_${LANG}${N}.html" | egrep -2 "(관계|링크|끈)" > "../contextes/contexte_${LANG}${N}.txt"
+	compte=$(cat "../dumps-text/dump_${LANG}${N}.html" | egrep -i -o "관계"  | wc -w)
+    cat "../dumps-text/dump_${LANG}${N}.html" | egrep -2 "관계" > "../contextes/contexte_${LANG}${N}.txt"
 	echo "<tr>
 		<td>${N}</td>
 		<td>${urls}</td>

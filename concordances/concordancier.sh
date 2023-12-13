@@ -15,7 +15,7 @@ fi
 
 if $LANGUE == "kor"
 then
-	REGEXP=""
+	REGEXP="관계"
 fi
 
 echo "
