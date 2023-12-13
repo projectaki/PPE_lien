@@ -38,7 +38,7 @@ do
 		lynx -assume_charset UTF-8 -dump -nolist ../aspirations/aspiration_ang$N.html >../dumps-text/dump_ang$N.html
 		COMPTE=$(grep -P -i -w -o  "links?" ../dumps-text/dump_ang$N.html | wc -l)
 		cat ../dumps-text/dump_ang$N.html | grep -P -C 3 -i  " link(s)? " > ../contextes/contexte_ang$N.txt
-		bash concordancier.sh ang ang$N >../concordances/concord_ang$N.html
+		bash ../concordances/concordancier.sh ang ang$N >../concordances/concord_ang$N.html
 	fi
 	echo "<tr>
 		<td>"$N"</td>
