@@ -1,63 +1,20 @@
-   #[1]alternate [2]편집 [3]위키낱말사전 (ko) [4]위키낱말사전 아톰 피드
-
 관계
-
-   위키낱말사전, 말과 글의 누리
---
-          [11]IPA[12]/kˀwa̠nɡje̞/ ~ /kˀwa̠nɡe̞/
-
    발음[관계/관게]
-   [13]국어의 로마자 표기
-   Revised Romanization gwan-gye
---
-     * 어원: 한자 [17]關係
-     * 1. 둘 이상의 사람 사이에 관련이 있음이나 그 관련.
      * 동사: [18]관계되다, [19]관계하다
      * 파생어: [20]관계인, [21]관계자
-
-   번역
---
-
-   원본 주소
    "[23]https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356"
-   [24]분류:
-     * [25]한국어 자립명사
---
-     * [48]파일 올리기
-     * [49]특수 문서 목록
-     * [50]고유 링크
-     * [51]문서 정보
-     * [52]이 문서 인용하기
---
-
-   Visible links:
    1. https://ko.m.wiktionary.org/wiki/관계
    2. https://ko.wiktionary.org/w/index.php?title=관계&action=edit
-   3. https://ko.wiktionary.org/w/opensearch_desc.php
-   4. https://ko.wiktionary.org/w/index.php?title=특수:최근바뀜&feed=atom
    5. https://ko.wiktionary.org/wiki/관계#mw-head
    6. https://ko.wiktionary.org/wiki/관계#searchInput
    7. https://ko.wiktionary.org/w/index.php?title=관계&action=edit&section=1
-   8. https://ko.wiktionary.org/wiki/위키낱말사전:발음_듣기
    9. https://ko.wiktionary.org/wiki/파일:Ko-관계.ogg
-  10. https://ko.wiktionary.org/wiki/위키낱말사전:발음_듣기
-  11. https://ko.wiktionary.org/wiki/위키낱말사전:국제_음성_기호
---
-  14. https://ko.wiktionary.org/wiki/위키낱말사전:로마자_표기법/매큔-라이샤워
-  15. https://ko.wiktionary.org/wiki/위키낱말사전:로마자_표기법/예일
   16. https://ko.wiktionary.org/w/index.php?title=관계&action=edit&section=2
-  17. https://ko.wiktionary.org/wiki/關係
   18. https://ko.wiktionary.org/wiki/관계되다
   19. https://ko.wiktionary.org/wiki/관계하다
   20. https://ko.wiktionary.org/w/index.php?title=관계인&action=edit&redlink=1
   21. https://ko.wiktionary.org/wiki/관계자
-  22. https://ko.wiktionary.org/wiki/quan_hệ
   23. https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356
-  24. https://ko.wiktionary.org/wiki/특수:분류
-  25. https://ko.wiktionary.org/wiki/분류:한국어_자립명사
---
-  28. https://ko.wiktionary.org/wiki/특수:내사용자토론
-  29. https://ko.wiktionary.org/wiki/특수:내기여
   30. https://ko.wiktionary.org/w/index.php?title=특수:계정만들기&returnto=관계
   31. https://ko.wiktionary.org/w/index.php?title=특수:로그인&returnto=관계
   32. https://ko.wiktionary.org/wiki/관계
@@ -65,19 +22,11 @@
   34. https://ko.wiktionary.org/wiki/관계
   35. https://ko.wiktionary.org/w/index.php?title=관계&action=edit
   36. https://ko.wiktionary.org/w/index.php?title=관계&action=history
-  37. https://ko.wiktionary.org/wiki/위키낱말사전:대문
-  38. https://ko.wiktionary.org/wiki/특수:최근바뀜
---
-  44. https://ko.wiktionary.org/wiki/위키낱말사전:자유게시판
-  45. https://ko.wiktionary.org/wiki/위키낱말사전:질문방
   46. https://ko.wiktionary.org/wiki/특수:가리키는문서/관계
   47. https://ko.wiktionary.org/wiki/특수:링크최근바뀜/관계
-  48. https://commons.wikimedia.org/wiki/Special:UploadWizard?uselang=ko
-  49. https://ko.wiktionary.org/wiki/특수:특수문서
   50. https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356
   51. https://ko.wiktionary.org/w/index.php?title=관계&action=info
   52. https://ko.wiktionary.org/w/index.php?title=특수:이문서인용&page=관계&id=3992356&wpFormIdentifier=titleform
-  53. https://ko.wiktionary.org/w/index.php?title=특수:UrlShortener&url=https://ko.wiktionary.org/wiki/%EA%B4%80%EA%B3%84
   54. https://ko.wiktionary.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계
   55. https://ko.wiktionary.org/w/index.php?title=특수:DownloadAsPdf&page=관계&action=show-download-screen
   56. https://ko.wiktionary.org/w/index.php?title=관계&printable=yes
@@ -87,11 +36,4 @@
   60. https://li.wiktionary.org/wiki/관계
   61. https://mg.wiktionary.org/wiki/관계
   62. https://zh.wiktionary.org/wiki/관계
-  63. https://creativecommons.org/licenses/by-sa/4.0/deed.ko
-  64. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ko
---
-  70. https://stats.wikimedia.org/#/ko.wiktionary.org
-  71. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
   72. https://ko.m.wiktionary.org/w/index.php?title=관계&mobileaction=toggle_view_mobile
-  73. https://wikimediafoundation.org/
-  74. https://www.mediawiki.org/
