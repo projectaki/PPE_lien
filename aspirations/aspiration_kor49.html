@@ -1,0 +1,1711 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="google-site-verification" content="VjHeOwrJeamXpn3EhUY7ZXt2_73sJVpWQ80gwDa6-rE" />
+<link rel="shortcut icon" href="/images/common/favicon_16.ico">
+<link rel="apple-touch-icon-precomposed" href="/images/common/favicon_96.png">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+<!--페이스북 인증 메타태그 등록 2021-04-21 김영순-->
+ <meta name="facebook-domain-verification" content="xjvpkjk1a3fz9nzfmqe7jygmli8mav" />
+ <meta name="facebook-domain-verification" content="nyedn3qpatz7zur9vbmms5epehnszw" />
+ 
+<meta name="keywords" content="동아비즈니스리뷰, Donga Business Review, 비즈니스 리더의 프리미엄 솔루션"/>
+<meta name="description" content="Article at a Glance &#8211; 자기계발 사회적 동물인 인간은 대인관계를 맺어야 한다. 대인관계의 출발은 자기애에서 시작된다. 자신을 사랑하지 않는 사람은 다른 사람과의 관계도 건전하게 맺을 수 없다. 대인관계를 잘 맺으려면 친밀감을 형성해야 한다. 친밀감을 잘 형성하려면 타인에 대해 민감하고 잘 반응하며 일관성을 갖춰야 한다. 그래야 상 ...">
+
+<meta property="fb:app_id" content="343882849301357" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다" />
+<meta property="og:image" content="https://dbr.donga.com/upload_dir/old/ed4ccf7f35.png" />
+<meta property="og:description" content="Article at a Glance &#8211; 자기계발 사회적 동물인 인간은 대인관계를 맺어야 한다. 대인관계의 출발은 자기애에서 시작된다. 자신을 사랑하지 않는 사람은 다른 사람과의 관계도 건전하게 맺을 수 없다. 대인관계를 잘 맺으려면 친밀감을 형성해야 한다. 친밀감을 잘 형성하려면 타인에 대해 민감하고 잘 반응하며 일관성을 갖춰야 한다. 그래야 상 ..." />
+<meta property="og:site_name" content="동아비즈니스리뷰" />
+<meta property="og:url" content="https://dbr.donga.com/article/view/1303/article_no/6553">
+<link rel="image_src" href="https://dbr.donga.com/upload_dir/old/ed4ccf7f35.png" />
+<title>우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다 | 자기계발 | DBR</title>
+<link rel="canonical" href="https://dbr.donga.com/">
+<script type="text/javascript" src="/js/2022/jquery_min_1.8.0.js"></script>
+<!--<script type="text/javascript" src="/js/jquery-1.12.1.min.js"></script>-->
+
+<link rel="stylesheet" href="/css/2022/banner.css?v=20240104">
+
+<script type="text/javascript" src="/js/2022/common.js?v=20240104"></script>
+<script type="text/javascript" src="/js/new/jquery.cookie.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script type="text/javascript">
+(function($){
+	$(document).ready(function(){
+
+        //모바일 디바이스 정보 체크하여 쿠키 생성
+        //var imchk    = getCookie( 'imchk' );
+        var is_mobile = mobileDetect();
+        $.cookie('imchk', is_mobile, { expires: 1, path: '/' });
+
+				var classnm=".side_sticky";
+				var floatPosition = parseInt($(classnm).css('top'));
+	    $(window).scroll(function()
+	    {
+	        var scrollTop = $(window).scrollTop();
+	        var newPosition = floatPosition + scrollTop + 'px';
+	        $(classnm).stop().animate({'top':newPosition},200);
+	    });
+
+		//TOP 배너 클릭 수 처리
+	    top_banner_click = function(banner_id){
+	        // alert(banner_id);
+	       var dataString = "banner_id="+banner_id;
+	       $.ajax({
+	            type : "POST",
+	            url : "/proc/banner_click",
+	            data : dataString,
+	            headers: { "cache-control": "no-cache","pragma": "no-cache" },
+	            dataType : "json",
+	            cache: false,
+	            async: true, // true: 비동기, false: 동기
+	            success : function(data)
+	            {
+	                if(data['code'] == 1)
+	                {
+	                   // alert(data['msg']);
+	                   if(data['link_format'] == '_blank')
+	                   {
+	                        window.open(data['link_url'],"_blank");
+	                   }
+	                   else
+	                   {
+	                        location.href=data['link_url'];
+	                   }
+	                }
+	                else
+	                {
+	                    //alert(data['msg']);
+	                   if(data['link_format'] == '_blank')
+	                   {
+	                        window.open(data['link_url'],"_blank");
+	                   }
+	                   else
+	                   {
+	                        location.href=data['link_url'];
+	                   }
+	                }
+	            },
+	            error : function(jqXHR,textStatus, errorThrown) {
+	                //alert("에러 jqXHR : " + jqXHR.status);
+	                //alert(textStatus + ", " + errorThrown);
+	                //return false;
+	               if(data['link_format'] == '_blank')
+	               {
+	                    window.open(data['link_url'],"_blank");
+	               }
+	               else
+	               {
+	                    location.href=data['link_url'];
+	               }
+	            }
+	        });
+	    }
+
+	    	    $(document).bind('keydown',function(e){
+	        if ( e.keyCode == 123 /* F12 */)
+	        {
+	            e.preventDefault();
+	            e.returnValue = false;
+	        }
+	    });
+	    
+	    TopBanneropen = function(winName){
+	       var topBannerCookie    = getCookie( winName );
+	       if( !topBannerCookie ) {
+	           $("#topbanner").css('display','');
+	           // $("#topbanner").removeClass('topbanner none').addClass('topbanner');
+
+	           	               dataString = "ad_area=4";
+	               	               $.ajax({
+	                    type : "POSt",
+	                    url : "/proc/ad_history",
+	                    data : dataString,
+	                    headers: { "cache-control": "no-cache","pragma": "no-cache" },
+	                    dataType : "json",
+	                    cache: false,
+	                    async: true, // true: 비동기, false: 동기
+	                    success : function(data)
+	                    {
+	                        if(data['code'] == 1)
+	                        {
+	                            // alert(data['msg']);
+	                        }
+	                        else
+	                        {
+	                            // alert(data['msg']);
+	                        }
+	                    },
+	                    error : function(jqXHR,textStatus, errorThrown) {
+	                        //alert("에러 jqXHR : " + jqXHR.status);
+	                        // alert(textStatus + ", " + errorThrown);
+	                        return false;
+	                    }
+	                });
+	            2
+	       }
+	       else
+	       {
+	           // $("#topbanner").removeClass('topbanner').addClass('topbanner none');
+	           $("#topbanner").css('display','none');
+	       }
+	    }
+
+	    TopBannerclose = function(winName, expiredays){
+	        setCookie( winName, "done" , expiredays);
+	        $("#topbanner").hide();
+	    }
+
+	    goSearch = function(key, keyword, frmID){
+	        //var keyword = $("input[name=q]").val();
+	        if(keyword == ''){
+	            alert('검색어를 입력해 주세요.');
+	            return false;
+	        }
+	        $("input[name=q]").val(keyword);
+		    $("input[name=query]").val(keyword);
+	        var RegExp = /[\{\}\[\]\/?.,;:|\)*~`!^\-_+┼<>@\#$%&\'\"\\\(\=]/gi;  //정규식 구문
+		    if (RegExp.test(keyword)) {
+		      // 특수문자 모두 제거
+		      keyword = keyword.replace(RegExp , '');
+		    }
+
+		    $("input[name=q]").val(keyword);
+		    $("input[name=query]").val(keyword);
+
+			if(key != 'D'){
+				$("#sno").val(key);
+			}
+		    //검색어 히스토리 저장
+		    var dataString = $("#"+frmID).serialize();
+		    //alert(dataString);
+		    $.ajax({
+		        type : "POST",
+		        url : "/search/ajaxKeyword/",
+		        data : dataString,
+		        headers: { "cache-control": "no-cache","pragma": "no-cache" },
+		        dataType : "json",
+		        cache: false,
+		        async: false, // true: 비동기, false: 동기
+		        success : function(data)
+		        {
+		            //alert(data);
+		            if(data['code'] == 1)
+		            {
+		                // alert(data['msg']);
+		           	 	// return;
+		           	 	$("#"+frmID).attr("action","/search");
+		    			$("#"+frmID).submit();
+		            }
+		            else
+		            {
+		                alert(data['msg']);
+		            	return false;
+		            }
+		        },
+		        error : function(jqXHR,textStatus, errorThrown)
+		        {
+		            //alert("에러 jqXHR : " + jqXHR.status);
+		            alert(textStatus + ", " + errorThrown);
+		            return false;
+		        }
+		    });
+		}
+
+		TopBanneropen('topbanner');
+	});
+})(jQuery);
+
+function setCookie(name, value, expiredays){
+    var todayDate = new Date();
+    todayDate.setDate (todayDate.getDate() + expiredays);
+    document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";";
+}
+
+function getCookie(name){
+    var nameOfCookie = name + "=";
+    var x = 0;
+    while (x <= document.cookie.length)
+    {
+        var y = (x + nameOfCookie.length);
+        if (document.cookie.substring(x, y) == nameOfCookie)
+        {
+            if ((endOfCookie = document.cookie.indexOf(";", y)) == -1){
+                endOfCookie = document.cookie.length;
+            }
+            return unescape (document.cookie.substring(y, endOfCookie));
+        }
+        x = document.cookie.indexOf (" ", x) + 1;
+        if (x == 0) break;
+    }
+    return "";
+}
+</script>
+
+<script defer type="text/javascript" charset="utf-8" src="//tagm.uneedcomms.com/tgm/dbrdongacom/uneedcomms_tgm.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVP78ZD');</script>
+<!-- End Google Tag Manager -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96059929-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- 2017-10-30 신규추적코드 삽입-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96059929-3"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+  	gtag('config', 'UA-96059929-3');
+  	ga('require', 'displayfeatures');
+</script>
+
+<!-- 2021-08-03 신규추적코드 삽입-->
+<!-- Global site tag (gtag.js) - Google Ads: 828111483 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-828111483"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'AW-828111483');
+	//2021-09-07 블라인드 티켓 구글디스커버리 광고 전환 코드 삽입
+	gtag('config', 'AW-311756516');
+</script>
+
+<!-- Facebook Pixel Code 2019-11-04 김영순 -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1683553561964244');
+  //모든페이지에 공통으로 호출되는 곳에 삽입(모든 페이지에서 실행)
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1683553561964244&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Facebook Pixel Code 2019-11-04 김영순 -->
+
+<!-- 카울리 스크립트 공통영역 2021-06-03 김영순 -->
+<script type="text/javascript">
+window._paq = window._paq || [];
+_paq.push(['track_code',"421624f1-a413-4bde-b71c-09cb9d5f3fd2"]);
+_paq.push(['event_name','OPEN']);
+_paq.push(['send_event']);
+(function(){
+var u="//image.cauly.co.kr/script/";
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript';
+g.async=true;
+g.defer=true;
+g.src=u+'caulytracker_async.js';
+s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<link rel="stylesheet" type="text/css" href="/css/2022/font.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/base.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/style_o.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/login.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/main_o.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/sub.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/service_new.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/layout.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/layout2.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/content.css?v=20230518">
+<link rel="stylesheet" type="text/css" href="/css/2022/board.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/sub_content.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/service.css?v=220919">
+<link rel="stylesheet" type="text/css" href="/css/2022/pop.css?v=220919">
+
+
+<link rel="stylesheet" href="/css/2022/import.css?v=220919" type="text/css" media="screen" />
+
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" >
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function () {
+	    $(".pc-slide").not(".active").hide(); //화면 로딩 후 첫번째 div를 제외한 나머지 숨김
+	    setInterval(nextSlidePc, 5000); //5초(5000)마다 다음 슬라이드로 넘어감
+
+	    $(".mo-slide").not(".active").hide(); //화면 로딩 후 첫번째 div를 제외한 나머지 숨김
+	    setInterval(nextSlideMo, 5000); //5초(5000)마다 다음 슬라이드로 넘어감
+	});
+
+	//다음 슬라이드(PC)
+	function nextSlidePc() {
+	    $(".pc-slide").hide();
+	    var allSlide = $(".pc-slide");
+	    var currentIndex = 0;
+
+	    $(".pc-slide").each(function(index,item){
+	        if($(this).hasClass("active")) {
+	            currentIndex = index;
+	        }
+	    });
+
+	    var newIndex = 0;
+
+	    if(currentIndex >= allSlide.length-1) {
+	        //현재 슬라이드 index가 마지막 순서면 0번째로 보냄(무한반복)
+	        newIndex = 0;
+	    } else {
+	        //현재 슬라이드의 index에서 한 칸 만큼 앞으로 간 index 지정
+	        newIndex = currentIndex+1;
+	    }
+	    $(".pc-slide").removeClass("active");
+	    $(".pc-slide").eq(newIndex).addClass("active");
+	    $(".pc-slide").eq(newIndex).show();
+	}
+
+	//다음 슬라이드(모바일)
+	function nextSlideMo() {
+	    $(".mo-slide").hide();
+	    var allSlide = $(".mo-slide");
+	    var currentIndex = 0;
+
+	    $(".mo-slide").each(function(index,item){
+	        if($(this).hasClass("active")) {
+	            currentIndex = index;
+	        }
+	    });
+
+	    var newIndex = 0;
+
+	    if(currentIndex >= allSlide.length-1) {
+	        //현재 슬라이드 index가 마지막 순서면 0번째로 보냄(무한반복)
+	        newIndex = 0;
+	    } else {
+	        //현재 슬라이드의 index에서 한 칸 만큼 앞으로 간 index 지정
+	        newIndex = currentIndex+1;
+	    }
+	    $(".mo-slide").removeClass("active");
+	    $(".mo-slide").eq(newIndex).addClass("active");
+	    $(".mo-slide").eq(newIndex).show();
+	}
+})(jQuery);
+</script>
+
+<div id="topbanner" class="top-banner-wrap" style="display: none;">
+	<ul class="pc-slideshow-container">
+	     	<li class="pc-slide fade active" style="height:80px; background:#eaebe8;">
+            <a href="#" onclick="top_banner_click('541');">
+            <img src="/upload_dir/banner/2023/7c11a1607017592302ce0fa349d43618.jpg" alt="첫 구매 전용 3개월 프로모션" class="ban-pc-view" /><!--pc 배너-->
+            </a>
+		</li>
+	     	<li class="pc-slide fade " style="height:80px; background:#cfc5ab;">
+            <a href="#" onclick="top_banner_click('537');">
+            <img src="/upload_dir/banner/2023/2b335f987b4fb7bd8dd13a6e398f80b6.jpg" alt="DBR 2023 연말패키지" class="ban-pc-view" /><!--pc 배너-->
+            </a>
+		</li>
+		</ul>
+	<ul class="mo-slideshow-container">
+	     	<li class="mo-slide fade active" style="background:#cfc5ab;">
+            <a href="#" onclick="top_banner_click('538');">
+            <img src="/upload_dir/banner/2023/2c2e86add982bfacc07a7c74d8304cde.jpg" alt="DBR 2023 연말패키지" class="ban-m-view"/><!--pc브라우저 창크기 줄였을때(모바일 이미지와 동일)-->
+            </a>
+		</li>
+	     	<li class="mo-slide fade " style="background:#eaebe8;">
+            <a href="#" onclick="top_banner_click('542');">
+            <img src="/upload_dir/banner/2023/55ce4aa02e24b0ba2e33af26459152f6.jpg" alt="첫 구매 전용 3개월 프로모션" class="ban-m-view"/><!--pc브라우저 창크기 줄였을때(모바일 이미지와 동일)-->
+            </a>
+		</li>
+	     </ul>
+	<button onclick="TopBannerclose('topbanner', 1);" class="close"><img src="/images/banner/x.png" alt="닫기" /></button><!--클릭시 하루동안 안보이게 해주세요-->
+</div>
+<!--
+<div class="top_edu_bar">
+  <section class="wrapper">
+    <span class="top_edu_txt">DBR의 교육솔루션</span>
+    <a href="https://www.dbredu.com" target="_blank" class="top_edu_btn">DBR EDU</a>
+  </section>
+</div>
+-->
+    <section class="wrapper"><!-- PC 플로팅 메뉴 -->
+<div class="side_sticky">
+    <!-- 잦은 민원으로 인해 플로팅 메뉴 삭제 2023-05-09 박은진
+    <ul>
+        <li><a style="cursor: pointer;"><img src="/images/2022/side_icon01.png" alt="고객센터:02-6718-7802" title="고객센터:02-6718-7802"></a></li>
+        <li><a href='/service/basket'><img src="/images/2022/side_icon06.png" alt="장바구니" title="장바구니"></a></li>
+        <<li><a href='/join'><img src="/images/2022/side_icon02.png"></a></li>
+        <li><a href="/help/qna"><img src="/images/2022/side_icon03.png" alt="1:1 문의" title="1:1 문의"></a></li>
+        <li><a href="/mypage/subscription"><img src="/images/2022/side_icon04.png" alt="주소 변경"  title="주소 변경"></a></li>
+        <li><a style="cursor:pointer;" onclick="window.open('/proc/schedule','','width=758,height=500');return false;"><img src="/images/2022/side_icon05.png" alt="DBR 발행일" title="DBR 발행일"></a></li>
+    </ul>-->
+        <div><a onclick="window.scrollTo(0,0);" style="cursor: pointer;"><img src="/images/2022/side_top.png" alt="Top" title="Top"></a></div>
+    </div>
+<!-- PC 플로팅 메뉴 -->
+<!-- 모바일 플로팅 메뉴 -->
+<div class="side_sticky_m">
+    <!-- 잦은 민원으로 인해 플로팅 메뉴 삭제 2023-05-09 박은진
+    <div class="menu">
+       <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+       <label class="menu-open-button" for="menu-open">
+            <span class="lines line-1"></span>
+            <span class="lines line-2"></span>
+            <span class="lines line-3"></span>
+       </label>
+       <a href="/mypage/subscription" class="menu-item"><img src="/images/2022/side_icon04.png" alt="주소 변경"  title="주소 변경"></a>
+       <a href="/help/qna" class="menu-item"><img src="/images/2022/side_icon03.png" alt="1:1 문의" title="1:1 문의"></a>
+       <a href="/service/basket" class="menu-item"><img src="/images/2022/side_icon06.png" alt="장바구니" title="장바구니"></a>
+       <a href="/join" class="menu-item"><img src="/images/2022/side_icon02.png"></a>
+       <a href="tel:02-6718-7802" class="menu-item orange"><img src="/images/2022/side_icon01_m.png" alt="고객센터" title="고객센터"></a>
+    </div>-->
+        <div class="side_top_m">
+        <a onclick="window.scrollTo(0,0);" style="cursor: pointer;"><img src="/images/2022/side_top.png"></a>
+    </div>
+     </div>
+<!-- 모바일 플로팅 메뉴 -->
+
+<!--PC 검색 영역 -->
+<form action="javascript://" method="get" id="gnbSearchForm" name="gnbSearchForm" accept-charset="utf-8">
+<input type="hidden" name="set" id="set" value="DBR_TOTAL"/>
+<input type="hidden" name="page" id="page" value="1"/>
+<input type="hidden" name="sort" id="sort" value=""/>
+<input type="hidden" name="query" id="query1" value=""/>
+<input type="hidden" name="oldq" id="oldq" value=""/>
+<input type="hidden" name="sno" id="sno" value=""/>
+<div class="dbr_header_pc">
+    <a href="/"><img src="/images/2022/logo.jpg" alt="DBR로고"></a>    
+    <a href="https://www.dbredu.com" target="_blank" class="logo_edu">
+      <h5 class="logo_edu_txt">DBR의 교육솔루션</h5>
+      <img src="/images/2022/logo_dbredu.png" alt="DBR에듀 로고">
+    </a>
+    <!--a href="https://www.dbredu.com/pubedu/detail/educ_no/187?p_menu_group=2&p_menu_id_sel=pubedu191201061013" target="_blank" class="logo_edu">
+      <h5 class="logo_edu_txt">CES 올인원 프로그램</h5>
+      <img src="/images/2022/20230905_ces.png" alt="DBR 인사이트투어">
+    </a-->
+    <div class="header_search_wrap">
+        <!-- 검색창 구조 변경 2023-05-02 박은진
+        <span><input type="text" class="input_search" id="q" name="q" onKeydown="javascript:if(event.keyCode==13) {goSearch('D',this.value,'gnbSearchForm');}"></span>-->
+        <span class="search_input">
+            <input type="text" class="search_text" id="q" name="q" onKeydown="javascript:if(event.keyCode==13) { goSearch('D',this.value,'gnbSearchForm');}">
+            <button type="button" class="search_btn" id="search_btn" name="search_btn" onclick="goSearch('D',document.gnbSearchForm.q.value,'gnbSearchForm');"></button>
+        </span>
+                <span class="join_log">
+        	            <a href="/login?re_url=/article/view/1303/article_no/6553/ac/magazine">로그인</a> / <a href="/join?re_url=/article/view/1303/article_no/6553/ac/magazine">회원가입</a>
+        </span>
+            </div>
+    </div>
+</form>
+<!--PC 검색 영역 -->
+
+<script type='text/javascript'>
+    var search_input = $('.search_input');
+    var search_text = $('.search_text');
+    var search_btn = $('.search_btn');
+    search_text.focus(function(){
+        search_input.addClass('focus');
+        search_text.addClass('focus_txt');
+        search_btn.addClass('focus_btn');
+    });
+    search_text.blur(function(){
+        search_input.removeClass('focus');
+        search_text.removeClass('focus_txt');
+        search_btn.removeClass('focus_btn');
+    })
+</script><!-- 모바일 햄버거 메뉴 -->
+<div class="dbr_header_mo">
+    <a href="/"><img src="/images/2022/logo.jpg" alt="DBR로고" class="btn_logo"></a>
+    <a href="/search/mobile"><img src="/images/2022/btn_search_mo.png" alt="검색버튼" class="btn_search"></a>
+    <img src="/images/2022/top_allmenu_off.jpg" alt="메뉴버튼" class="btn_menu_mo mo_menu">
+    <!--<div class="mo_menu">
+      <a href="#">menu</a>
+    </div>-->
+    <div class="left_gnbWrap">
+        <div class="left_gnb_menu">
+        <a href="/"><img src="/images/2022/m_logo_menu.png" alt="DBR 로고" style="width:30%;"></a>
+        <a href="#" class="close"><img src="/images/2022/m_menu_close.png" alt="모바일메뉴닫기"></a>
+        </div>
+            <ul>
+            <li>
+                <a href="#" class="menu_one">아티클</a>
+                <ul class="m_submenu_wrap">
+                    <li>
+                    	<a href="/article/index/total"><strong>전체 기사 보기</strong></a>
+                        <a href="/special"><strong style="margin:0 5%;">스페셜 &nbsp; 리포트</strong></a>
+                        <a href="/article/index/1901"><strong>케이스 스터디</strong></a>
+                    </li>
+                    <li>
+                        <div class="m_submenu_tit">[직무별]</div>
+                        <dl>
+                            <dd><a href="/article/index/1206">경영일반</a></dd>
+                            <dd><a href="/article/index/1203" style="text-align: center;">경영전략</a></dd>
+                            <dd><a href="/article/index/1201" style="text-align: right;">인사/조직</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/article/index/1306">리더십</a></dd>
+                            <dd><a href="/article/index/1202" style="text-align: center;">마케팅/세일즈</a></dd>
+                            <dd><a href="/article/index/1205" style="text-align: right;">재무회계</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/article/index/1303">자기계발</a></dd>
+                            <dd><a href="/article/index/1401" style="text-align: center;">글로벌리포트</a></dd>
+                        </dl>
+                    </li>
+                    <!--li>
+                        <div class="m_submenu_tit">[업종별]</div>
+                        <dl>
+                            <dd><a href="/article/index/2101">스타트업</a></dd>
+                            <dd><a href="/article/index/2102" style="text-align: center;">IT</a></dd>
+                            <dd><a href="/article/index/2103" style="text-align: right;">의료</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/article/index/2104">금융</a></dd>
+                            <dd><a href="/article/index/2105" style="text-align: center;">유통</a></dd>
+                            <dd><a href="/article/index/2106" style="text-align: right;">건설/제조</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/article/index/2107">서비스</a></dd>
+                        </dl>
+                    </li-->
+                    <li>
+                        <a href="/magazine"><strong>호수별</strong></a>
+                        <a href="/series/lists"><strong style="margin:0 25%;">연재물별</strong></a>
+                        <a href="/author/lists"><strong>필진별</strong></a><br>
+                        <a href="/graphic"><strong>그래픽 DBR</strong></a>
+                        <a href="/service/pdf"><strong style="margin:0 10%;">PDF 전체보기</strong></a>
+                        <a href="/advertorial"><strong style="margin:0 10%;">애드버토리얼</strong></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu_one">구독</a>
+                <ul class="m_submenu_wrap">
+                    <li>
+                        <dl>
+                            <dd><a href="/service/month">월정액 서비스</a></dd>
+                            <dd><a href="/service/year" class="tc">연간 서비스</a></dd>
+                            <dd><a href="/service/general" class="tr">개별 서비스</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/service/cartload">대량/법인</a></dd>
+                            <!--<dd><a href="/service/academy" class="tc">아카데미</a></dd>-->
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu_one">비즈런</a>
+                <ul class="m_submenu_wrap">
+                    <li>
+                        <dl>
+                            <dd><a href="/bizlearn">전체강좌</a></dd>
+                            <dd><a href="/bizlearn/lists/category/3101" class="tc">패키지</a></dd>
+                            <dd><a href="/bizlearn/lists/category/3102" class="tr">비즈니스</a></dd>
+                        </dl>
+                        <dl>
+                            <dd><a href="/bizlearn/lists/category/3103">마케팅</a></dd>
+                            <dd><a href="/bizlearn/lists/category/3104" class="tc">리더십</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu_one">이벤트</a>
+                <ul class="m_submenu_wrap">
+                    <li>
+                        <dl>
+                            <dd><a href="/event">이벤트</a></dd>
+                            <!--<dd><a href="/event/book" class="tc">북세통</a></dd>-->
+                            <!--dd><a href="/event/prizewinner" class="tr">당첨자공지</a></dd-->
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu_one">고객센터</a>
+                <ul class="m_submenu_wrap">
+                    <li>
+                        <dl>
+                            <dd><a href="/help">공지사항</a></dd>
+                            <dd><a href="/help/faq/cid/1_1_1" class="tc">FAQ</a></dd>
+                            <dd><a href="/help/qna" class="tr">1:1 문의</a></dd>
+                        </dl>
+                        <dl>
+                            <dd style="width:49%;"><a href="/help/adcenter">광고문의</a></dd>
+                            <dd style="width:49%;"><a href="/help/gift" class="tr">이용권/상품권 인증</a></dd>
+                        </dl>
+                        <!--dl>
+                            <dd style="width:49%;"><a href="/help/sukang">비즈런 수강권 인증</a></dd>
+                            <dd style="width:49%;"><a href="/help/ebook" class="tr">eBook 이용권 인증</a></dd>
+                        </dl-->
+                         <dl>
+                            <dd style="width:49%;"><a href="/help/subscr">정기 구독 인증</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="/premium" class="menu_one">PREMIUM</a></li>
+
+            <li style="padding-bottom: 30px;">
+            	
+            	                <a href="/login?re_url=/article/view/1303/article_no/6553/ac/magazine"><strong>로그인</strong></a><span>|</span><a href="/join?re_url=/article/view/1303/article_no/6553/ac/magazine"><strong>회원가입</strong></a>
+                                <a href="#" class="menu_one"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 모바일 햄버거 메뉴 -->
+
+<!-- 전체메뉴 -->
+<nav>
+    <div class="allmenu_n">
+        <input type="checkbox" class="" id="collapsible">
+        <label for="collapsible"></label>
+        <ul id="menuitems" class="menuitems">
+            <li>
+                <p>아티클</p>
+                <div class="allmenu_sub">
+                    <span><a href="/article/index/total">전체 기사 보기</a></span>
+                    <span><a href="/special">스페셜 리포트</a></span>
+                    <span><a href="/article/index/1901">케이스 스터디</a></span><br>
+                    <span>직무별</span><span class="line">|</span>
+                    <span><a href="/article/index/1206">경영일반</a></span>
+                    <span><a href="/article/index/1203">경영전략</a></span>
+                    <span><a href="/article/index/1201">인사/조직</a></span>
+                    <span><a href="/article/index/1306">리더십</a></span>
+                    <span><a href="/article/index/1202">마케팅/세일즈</a></span>
+                    <span><a href="/article/index/1205">재무회계</a></span>
+                    <span><a href="/article/index/1303">자기계발</a></span>
+                    <span><a href="/article/index/1401">글로벌리포트</a></span><br>
+                    <!--span>업종별</span><span class="line">|</span>
+                    <span><a href="/article/index/2101">스타트업</a></span>
+                    <span><a href="/article/index/2102">IT</a></span>
+                    <span><a href="/article/index/2103">의료</a></span>
+                    <span><a href="/article/index/2104">금융</a></span>
+                    <span><a href="/article/index/2105">유통</a></span>
+                    <span><a href="/article/index/2106">건설/제조</a></span>
+                    <span><a href="/article/index/2107">서비스</a></span><br-->
+                    <span><a href="/magazine">호수별</a></span>
+                    <span><a href="/series/lists">연재물별</a></span>
+                    <span><a href="/author/lists">필진별</a></span>
+                    <span><a href="/graphic">그래픽DBR</a></span>
+                    <span><a href="/service/pdf">PDF 전체보기</a></span>
+                    <span><a href="/advertorial">애드버토리얼</a></span>
+                </div>
+            </li>
+            <li>
+                <p>구독</p>
+                <div class="allmenu_sub">
+                    <span><a href="/service/month">월정액 서비스</a></span>
+                    <span><a href="/service/year">연간 서비스</a></span>
+                    <span><a href="/service/single">낱권</a></span>
+                    <!--span><a href="/service/audio">오디오북</a></span>
+                    <span><a href="/service/ebook">eBook</a></span-->
+                    <span><a href="/service/general">PDF</a></span>
+                    <span><a href="/service/cartload">대량/법인</a></span>
+                    <!--<span><a href="/service/academy">아카데미</a></span>-->
+                </div>
+            </li>
+            <li>
+                <p>비즈런</p>
+                <div class="allmenu_sub">
+                    <span><a href="/bizlearn">전체강좌</a></span>
+                    <span><a href="/bizlearn/lists/category/3101">패키지</a></span>
+                    <span><a href="/bizlearn/lists/category/3102">비즈니스</a></span>
+                    <span><a href="/bizlearn/lists/category/3103">마케팅</a></span>
+                    <span><a href="/bizlearn/lists/category/3104">리더십</a></span>
+
+                </div>
+            </li>
+            <li>
+                <p>이벤트</p>
+                <div class="allmenu_sub">
+                    <span><a href="/event">이벤트</a></span>
+                    <!--<span><a href="/event/book">북세통</a></span>-->
+                    <!--span><a href="/event/prizewinner">당첨자공지</a></span-->
+                </div>
+            </li>
+            <li>
+                <p>고객센터</p>
+                <div class="allmenu_sub">
+                    <span><a href="/help">공지사항</a></span>
+                    <span><a href="/help/faq/cid/1_1_1">FAQ</a></span>
+                    <span><a href="/help/qna">1:1문의</a></span>
+                    <span><a href="/help/adcenter">광고문의</a></span>
+                    <span><a href="/help/gift">이용권/상품권 인증</a></span>
+                    <!--span><a href="/help/sukang">비즈런 수강권 인증</a></span>
+                    <span><a href="/help/ebook">eBook 이용권 인증</a></span-->
+                    <span><a href="/help/subscr">정기 구독 인증</a></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="menu">
+        <li><a href="/article/index/total">아티클</a>
+            <div class="submenu_wrap">
+                    <div class="submenu_top">
+                        <ol>
+                            <li><a href="/special">스페셜 리포트</a></li>
+                            <li><a href="/article/index/1901">케이스 스터디</a></li>
+                        </ol>
+                    </div>
+                    <div class="submenu_list">
+                        <ul>
+                            <li><a href="/article/index/1203">직무별</a></li>
+                            <li><a href="/article/index/1203">경영전략</a></li>
+                            <li><a href="/article/index/1202">마케팅/세일즈</a></li>
+                            <li><a href="/article/index/1201">인사/조직</a></li>
+                            <li><a href="/article/index/1205">재무회계</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="/article/index/1206">경영일반</a></li>
+                            <li><a href="/article/index/1306">리더십</a></li>
+                            <li><a href="/article/index/1303">자기계발</a></li>
+                            <li><a href="/article/index/1401">글로벌리포트</a></li>
+                            <!--li><a href="/article/index/2101">업종별</a></li>
+                            <li><a href="/article/index/2101">스타트업</a></li>
+                            <li><a href="/article/index/2102">IT</a></li>
+                            <li><a href="/article/index/2103">의료</a></li>
+                            <li><a href="/article/index/2104">금융</a></li>
+                            <li><a href="/article/index/2105">유통</a></li>
+                            <li><a href="/article/index/2106">건설/제조</a></li>
+                            <li><a href="/article/index/2107">서비스</a></li-->
+                        </ul>
+                    </div>
+                    <div class="submenu_bt">
+                        <ol>
+                            <li><a href="/magazine">호수별</a></li>
+                            <li><a href="/series/lists">연재물별</a></li>
+                            <li><a href="/author/lists">필진별</a></li>
+                            <li><a href="/graphic">그래픽DBR</a></li>
+                            <li><a href="/service/pdf">PDF 전체보기</a></li>
+                            <li><a href="/advertorial">애드버토리얼</a></li>
+                        </ol>
+                    </div>
+            </div>
+        </li>
+        <li><a href="/premium">PREMIUM</a></li>
+        <li><a href="https://www.hbrkorea.com/" target="_blank">HBR</a></li>
+        <li><a href="/service">구독</a>
+            <div class="submenu_wrap">
+                    <div class="submenu_list01">
+                        <ul>
+                            <li><a href="/service/month">월정액 서비스</a></li>
+                            <li><a href="/service/year">연간 서비스</a></li>
+                            <li><a href="/service/general">PDF/낱권/eBook/오디오</a></li>
+                            <li><a href="/service/cartload">대량/법인</a></li>
+                            <!--<li><a href="/service/academy">아카데미</a></li>-->
+                        </ul>
+                    </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+<!-- 전체메뉴 --><!-- Facebook Pixel Code 2019-11-04 김영순 -->
+<script>
+    fbq('track', 'ViewContent', {
+    'content_type': 'product',
+    'content_category' : '자기계발',
+    'content_ids': ['article_no/6553'],
+    'content_name':['[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다']
+    });
+</script>
+<!-- Facebook Pixel Code 2019-11-04 김영순 -->
+<script type="text/javascript">
+(function($){
+    $(document).ready(function(){
+        $('.icon-annotate').click(function(event){
+            var bid = $(this).attr('id');
+            $('.footnote').hide();
+            // $('.footnote').eq(bid).show();
+            $('.footnote').eq(bid).css('display','inline-block');
+        });
+
+        $('.close').click(function(event){
+             var bid = $(this).attr('id');
+             $('.footnote').eq(bid).hide();
+        });
+
+        banner_click = function(banner_id){
+           var dataString = "banner_id="+banner_id;
+           // alert(dataString);
+           $.ajax({
+                type : "POST",
+                url : "/proc/banner_click",
+                data : dataString,
+                headers: { "cache-control": "no-cache","pragma": "no-cache" },
+                dataType : "json",
+                cache: false,
+                async: true, // true: 비동기, false: 동기
+                success : function(data)
+                {
+                    if(data['code'] == 1)
+                    {
+                       //alert(data['msg']);
+                       if(data['link_format'] == '_blank')
+                       {
+                            window.open(data['link_url'],"popup","");
+                       }
+                       else
+                       {
+                            location.href=data['link_url'];
+                       }
+                    }
+                    else
+                    {
+                        alert(data['msg']);
+                    }
+                },
+                error : function(jqXHR,textStatus, errorThrown) {
+                    //alert("에러 jqXHR : " + jqXHR.status);
+                    alert(textStatus + ", " + errorThrown);
+                    return false;
+                }
+            });
+		}
+
+		$(".np_close a").click(function(e){
+            $('.naver_pop').fadeOut(200);
+			e.preventDefault()
+        });
+
+        $("#bar_close").click(function(){
+            $('.service-app-pop').hide();
+        });
+
+    });
+})(jQuery);
+</script>
+<script type="text/javascript" src="/js/content.js"></script>
+<script type="text/javascript" src="/js/new/content_func.js"></script>
+<script type="text/javascript" src="/js/new/jquery.dotdotdot.min.js"></script>
+<script type="text/javascript" src="/js/new/jquery.scrollContent.js"></script>
+<script type="text/javascript" src="/js/new/common.js"></script>
+<script type="text/javascript" src="/js/2022/common2.js"></script>
+<style>
+.img_resize img{
+	max-width: 100%;
+  	height: auto;
+  	display: block;
+}
+
+.cont-article{
+	line-height : 1.8em;
+}
+</style>
+<!-- 콘텐츠 영역 -->
+<div class="container">
+	<div class="article_top_line"></div>
+	<div class="mw_size">
+	    <div class="contents">
+	        <!-- 아티클 상세  -->
+	        <div class="header-cont">
+	            <p class="subtitle">Close Up</p>
+	             <h4 class="title">우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다</h4>
+	        </div>
+	        <!-- 기사보기 기능영역 -->
+	        <div class="func-pg" style="margin:6% 0;">
+	            <div class="jounalist_ho"><strong>
+	            한근태	            </strong><span style="margin:0 1%;">  | </span> 157호 (2014년 7월 Issue 2)</div>
+	            <div class="func-list fl-r">
+	                <ul>
+	                    <li>
+	                        <div>
+	                            <ul class="sns-list">
+	                                <li class="pc-view">
+	                                	<a href="#" onclick="sendSns('facebook','https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine','[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다','A','6553');return false;" class="icon-fb" >페이스북</a></li>
+	                                <li><a href="#" class="last btn-other icon-sns-more">더보기</a>
+	                                    <div class="other-sns off">
+	                                        <strong class="ti">SNS 공유</strong>
+	                                        <ul class="other-list">
+	                                            <li class="m-view"><a href="#" onclick="sendSns('facebook','https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine','[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다','A','6553');return false;" class="icon-fb2"><span>페이스북</span></a></li>
+	                                            <li><a href="#" onclick="sendLink();return false;" class="icon-katalk" id="kakao-link-btn" ><span>KaKaoTalk</span></a></li>
+	                                            <li><a href="https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine" onclick="copy_trackback(this.href,'A','6553');return false;" class="icon-copy"><span>URL복사</span></a></li>
+	                                        </ul>
+	                                    </div>
+	                                </li>
+	                            </ul>
+	                        </div>
+	                    </li>
+	                    	                    <li><a class="btn-pdfdown" style="cursor:pointer">PDF 다운로드</a></li>
+			            			            <li><a class="btn-scrap" id='' onclick="alert('로그인 후 이용하세요.');location.href='/login?re_url=/article/view/1303/article_no/6553/ac/magazine'" style="cursor:pointer">스크랩</a>
+	                        <div class="pop-func pop-scrap off">
+			                    <img src="/images/common/pop_func_arrowtop.png" class="arrow-top" alt=""/><!-- 요건 png로 -->
+			                    <div class="cont">
+			                        <form action="https://dbr.donga.com/scrap/input" method="post" name="scrapFrm" id="scrapFrm" accept-charset="utf-8">
+			                        <div class="cont-scrap">
+			                            <p class="title">스크랩</p>
+			                            <div class="info-input">
+			                                <div class="my-lib">
+			                                    <!--마이라이브러리는 기본 폴더이며 번호는 1로 고정
+			                                             기본 폴더는 삭제할 수 없습니다.
+			                                            스크랩 될때 기본 마이라이브러리에 함께 스크랩 된다.
+			                                    -->
+			                                    <input name="folder[]" type="hidden"  value="1"/>
+			                                    			                                </div>
+			                                <div class="my-fold">
+			                                    <input type="checkbox" name="folder[]" id="newlib" value="newlib"/><a href="#"><strong class="icon-add">+</strong> <span>새로운 폴더 생성</span></a>
+			                                    <div class="add-fold off">
+			                                    <label for="folder_name" class="hidden">폴더명</label>
+			                                     <input type="text" id="folder_name" name="folder_name" placeholder="폴더명을 입력해주세요" class="add-fold-input" />
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="memo off">
+			                                <p>메모입력</p>
+			                                <textarea rows="3" name="memo"></textarea>
+			                            </div>
+			                        </div>
+			                        <div class="pop-footer ta-c">
+			                            <a href="#" id="btnScrap" onclick='scrap();return false;' class="pop-func-btn confirm">스크랩</a>
+			                        </div>
+			                        <input type="hidden" name="content_type" value="A"/>
+			                        <input type="hidden" name="content_no" value="6553"/>
+			                        </form>
+			                    </div>
+			                </div>
+	                    </li>
+	                    			            <!--li class="print_btn"><a class="btn-print last" onclick="alert('유료회원 서비스입니다.');return false;" style="cursor:pointer"><img src="/images/common/icon_func_print.png" alt="인쇄하기"/></a></li-->
+			            			            <!-- 2022-0812 퍼블리싱 추가  모바일에만 보임-->
+	                </ul>
+	                <div class="pop-func pop-pdf off" id="pop_pdf">
+	                    				        <form action="https://dbr.donga.com/pdf/pdf_download" method="post" name="pdfDownloadFrm" id="pdfDownloadFrm" accept-charset="utf-8">
+				            <input type="hidden" name="goods_code" id="goods_code" value="PDF_4465" />
+				            <input type="hidden" name="pdf_no" id="pdf_no" value="4465" /><!--PDF 상품-->
+				        </form>
+				        	               </div>
+	            </div>
+	        </div>
+	        <!-- 고정메뉴 -->
+	        <div class="fixNavi off">
+			    <div class="fixNavi-area">
+			        <ul class="fix-func-list">
+			            <li class="first">
+			                <a href="#" class="btn_sidemenu_fixed" onclick="return false();"><img src="/images/common/btn_sidemenu_fixed.png" alt="전체 메뉴보기" /></a>
+			                <a href="#" class="btn_sidemenu_active_fixed off"><img src="/images/common/btn_sidemenu_active_fixed.png" alt="메뉴 닫기" /></a>
+			                <!--메뉴-->
+			                <nav class="fixNavi_gnb off">
+			                    <!-- 전체메뉴:s -->
+			                    <!-- <button class="btn-sidemenu mobile">전체메뉴</button>
+			                    <button class="btn-sidemenu desktop">전체메뉴</button> -->
+			                    <nav class="fix_totalmenu totalmenu_mobile">
+			                        <!-- 로그인 전후 -->
+			                        	                                <div class="sidemenu-header is-logout">
+	                                    <div class="welcom">
+	                                        <span class="login-txt">로그인을 해주세요</span>
+	                                        <div class="right">
+	                                            <a href="#" class="btn-side" onclick="return divchange('.totalmenu-mobile', '#login-poplayer')">로그인</a>
+	                                            <a href="#" class="btn-side" onclick="return divchange('.totalmenu-mobile', '#membership-poplayer')">회원가입</a>
+	                                        </div>
+	                                    </div>
+	                                    <a href="#" class="btn-sidemenu-close">사이드메뉴 닫기</a>
+	                                </div>
+			                        			                        <!-- 탭 메뉴 -->
+			                        <div class="side-tabmenu cboth">
+			                            <a href="#" class="tabmenu tab1 active">전체서비스</a>
+			                            <a href="#" class="tabmenu tab2 ">MY서비스</a>
+			                            <div class="tabview1 cboth">
+			                                <!-- 전체서비스 보기 -->
+			                                <ul class="gnbmenu-ty1">
+			                                    <li><a href="/editorpick"><span>에디터가 강력추천하는</span></a></li>
+			                                    <li><a href="/special"><span>Special Report</span></a></li>
+			                                    <li><a href="/article/index/1901"><span>Case Study</span></a></li>
+			                                    <li><a href="/graphic/thum"><span>Graphic DBR</span></a></li>
+			                                </ul>
+			                                <ul class="gnbmenu-ty2">
+			                                    <li class="">
+			                                    <a href="/magazine" class="title"><span>아티클</span></a>
+			                                    <div class="cont off">
+			                                        <a href="/article/index/1203"><span>경영전략</span></a>
+			                                        <a href="/article/index/1202"><span>마케팅/세일즈</span></a>
+			                                        <a href="/article/index/1201"><span>인사/조직</span></a>
+			                                        <a href="/article/index/1205"><span>재무회계</span></a>
+			                                        <a href="/article/index/1206"><span>경영일반</span></a>
+			                                        <a href="/article/index/1306"><span>리더십</span></a>
+			                                        <a href="/article/index/1303"><span>자기계발</span></a>
+			                                        <a href="/article/index/1401" ><span>글로벌 리포트</span></a>
+			                                        <a href="/article/index/2101"><span>스타트업</span></a>
+			                                        <a href="/article/index/2102"><span>IT</span></a>
+			                                        <a href="/article/index/2103"><span>의료</span></a>
+			                                        <a href="/article/index/2104"><span>금융</span></a>
+			                                        <a href="/article/index/2105"><span>유통</span></a>
+			                                        <a href="/article/index/2106"><span>건설/제조</span></a>
+			                                        <a href="/article/index/2107" ><span>서비스</span></a>
+			                                        <a href="/magazine"><span>호수별</span></a>
+			                                        <a href="/series/lists"><span>연재물별</span></a>
+			                                        <a href="/author/lists"><span>필진별</span></a>
+			                                        <a href="/author/lists"><span>그래픽 DBR</span></a>
+			                                        <a href="/author/lists"><span>PDF 전체보기</span></a>
+			                                    </div>
+			                                    </li>
+			                                    <ul class="gnbmenu-ty1">
+			                                         <li><a href="/premium" class="border-b-no"><span>PREMIUM</span></a></li>
+			                                    	 <li><a href="/service"><span>구독</span></a></li>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="/event" class="title"><span>이벤트</span></a>
+			                                    <div class="cont off">
+			                                        <a href="/event"><span>이벤트</span></a>
+			                                        <a href="/event/prizewinner" class="border-b-no"><span>당첨자공지</span></a>
+			                                    </div>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="#" class="title"><span>고객센터</span></a>
+			                                    <div class="cont off">
+			                                        <a href="/help"><span>공지사항</span></a>
+			                                        <a href="/help/faq/cid/1_1_1/"><span>FAQ</span></a>
+			                                        <a href="/help/qna"><span>1:1문의</span></a>
+			                                        <a href="/help/adcenter"><span>제휴&amp;광고문의</span></a>
+			                                        <a href="/help/gift"><span>이용권/상품권 인증</span></a>
+			                                        <a href="/help/subscr" class="border-b-no"><span>구독인증</span></a>
+			                                    </div>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="#" class="title"><span>DBR SNS</span></a>
+			                                    <div class="cont off">
+			                                        <a href="https://www.facebook.com/dbrinsight" target="_blank"><span>Facebook</span></a>
+			                                        <a href="https://plus-talk.kakao.com/home/%40dbr-%EB%8F%99%EC%95%84%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EB%A6%AC%EB%B7%B0" target="_blank" title="Kakao Plus"><span>카카오톡</span></a>
+			                                        <a href="https://m.post.naver.com/my.nhn?memberNo=22700030" target="_blank" title="Naver Post" class="border-b-no"><span>블로그</span></a>
+			                                    </div>
+			                                    </li>
+			                                </ul>
+			                            </div>
+			                            <div class="tabview2 cboth off">
+			                                <!-- MY서비스 보기 -->
+			                                <ul class="gnbmenu-ty1">
+			                                    <li class="active">
+			                                    <a href="/mypage" class="title"><span>결제내역</span></a>
+			                                    </li>
+			                                    <li>
+			                                    <a href="/mypage/subscription" class="title"><span>구독정보관리</span></a>
+			                                    </li>
+			                                    <li>
+			                                    <a href="/mypage/pdf" class="title"><span>PDF보관함</span></a>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="/service/basket" class="title"><span>장바구니</span></a>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="/mypage/scrap" class="title"><span>스크랩</span></a>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="/mypage/share" class="title"><span>공유함</span></a>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="#" class="title"><span>개인정보관리</span></a>
+			                                    </li>
+			                                    <li class="">
+			                                    <a href="/mypage/qna" class="title"><span>1:1문의</span></a>
+			                                    </li>
+			                                </ul>
+			                            </div>
+			                        </div>
+			                    </nav>
+			                    <nav class="fix_totalmenu totalmenu_desktop">
+			                        <ul class="menuitems01">
+			                            <li>
+                                            <p>아티클</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="/article/index/total">전체 기사 보기</a></span>
+                                                <span><a href="/special">스페셜 리포트</a></span>
+                                                <span><a href="/article/index/1901">케이스 스터디</a></span><br>
+                                                <span>직무별</span><span class="line">|</span>
+                                                <span><a href="/article/index/1206">경영일반</a></span>
+                                                <span><a href="/article/index/1203">경영전략</a></span>
+                                                <span><a href="/article/index/1201">인사/조직</a></span>
+                                                <span><a href="/article/index/1306">리더십</a></span>
+                                                <span><a href="/article/index/1202">마케팅/세일즈</a></span>
+                                                <span><a href="/article/index/1205">재무회계</a></span>
+                                                <span><a href="/article/index/1303">자기계발</a></span>
+                                                <span><a href="/article/index/1401">글로벌리포트</a></span><br>
+                                                <span>업종별</span><span class="line">|</span>
+                                                <span><a href="/article/index/2101">스타트업</a></span>
+                                                <span><a href="/article/index/2102">IT</a></span>
+                                                <span><a href="/article/index/2103">의료</a></span>
+                                                <span><a href="/article/index/2104">금융</a></span>
+                                                <span><a href="/article/index/2105">유통</a></span>
+                                                <span><a href="/article/index/2106">건설/제조</a></span>
+                                                <span><a href="/article/index/2107">서비스</a></span><br>
+                                                <span><a href="/magazine">호수별</a></span>
+                                                <span><a href="/series/lists">연재물별</a></span>
+                                                <span><a href="/author/lists">필진별</a></span>
+                                                <span><a href="/graphic">그래픽DBR</a></span>
+                                                <span><a href="/service/pdf">PDF 전체보기</a></span>
+                                            </div>
+                                        </li>
+			                        <li>
+                                            <p>비즈런</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="/bizlearn">전체강좌</a></span>
+                                                <span><a href="/bizlearn/lists/category/3101">패키지</a></span>
+                                                <span><a href="/bizlearn/lists/category/3102">비즈니스</a></span>
+                                                <span><a href="/bizlearn/lists/category/3103">마케팅</a></span>
+                                                <span><a href="/bizlearn/lists/category/3104">리더십</a></span>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>서비스신청</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="/service/month">월정액 서비스</a></span>
+                                                <span><a href="/service/year">연간 서비스</a></span>
+                                                <span><a href="/service/single">낱권</a></span>
+                                                <span><a href="/service/audio">오디오북</a></span>
+                                                <span><a href="/service/ebook">eBook</a></span>
+                                                <span><a href="/service/general">PDF</a></span>
+                                                <span><a href="/service/cartload">법인/단체</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>이벤트</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="/event">이벤트</a></span>
+                                                <span><a href="/event/book">북세통</a></span>
+                                                <span><a href="/event/prizewinner">당첨자공지</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>고객센터</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="/help">공지사항</a></span>
+                                                <span><a href="/help/faq/cid/1_1_1">FAQ</a></span>
+                                                <span><a href="/help/qna">1:1문의</a></span>
+                                                <span><a href="/help/adcenter">제휴&amp;광고문</a></span>
+                                                <span><a href="/help/gift">이용권/상품권인증</a></span>
+                                                <span><a href="/help/sukang">비즈런 수강권인증</a></span>
+                                                <span><a href="/help/subscr">구독인증</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>DBR SNS</p>
+                                            <div class="allmenu_sub">
+                                                <span><a href="https://www.facebook.com/dbrinsight" target="_blank">Facebook</a></span>
+                                                <span><a href="https://plus-talk.kakao.com/home/%40dbr-%EB%8F%99%EC%95%84%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EB%A6%AC%EB%B7%B0" target="_blank" title="Kakao Plus">카카오톡</a></span>
+                                                <span><a href="https://m.post.naver.com/my.nhn?memberNo=22700030" target="_blank" title="Naver Post" >블로그</a></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </nav>
+                        </li>
+			            <!-- 2022-0812 퍼블리싱 추가  모바일에만 보임-->
+
+			            <li class="share-mobile-li">
+			            	<a href="#" class="btn-share btn-ftx-share" id="m-btn-ftx-share"><img src="/images/common/icon_func_share_fixed.png" alt="공유" /></a>
+			                <div class="fix-other-share off">
+			                    <strong class="ti">공유</strong>
+			                    <ul class="other-list">
+			                        <li><a href="#" class="icon-fb2" onclick="sendSns('facebook','https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine','[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다','A','6553');return false;"><span>페이스북</span></a></li>
+			                        <!--<li><a href="#" class="icon-tw2" onclick="sendSns('twitter','https://dbr.donga.com/article/view/1303/article_no/6553','','A','');return false;"><span>트위터</span></a></li>
+			                        <li><a href="#" class="icon-kas2" onclick="shareStory();return false;"><span>카카오스토리</span></a></li>-->
+			                        <li><a href="#" onclick="sendLink();return false;" class="icon-katalk" id="kakao-link-btn" ><span>KaKaoTalk</span></a></li>
+			                        <li><a href="https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine" class="icon-copy" onclick="copy_trackback(this.href,'A','6553');return false;" ><span>URL복사</span></a></li>
+			                        <!--<li><a href="#" class="icon-email"><span>Email</span></a></li>-->
+			                    </ul>
+			                </div>
+			            </li>
+			            			            <li class="down_pdf"><a class="btn-pdfdown"style="cursor:pointer"><img src="/images/common/icon_func_pdf_fixed.png" alt="PDF 다운로드" /></a></li>
+			            			            <li class="fix-scrap-li scrap_m"><a class="btn-scrap" style="cursor:pointer;"><img src="/images/common/icon_func_scrap_fixed.png" alt="스크랩" /></a>
+			                <div class="fix-pop-scrap pop-func pop-scrap off">
+			                    <img src="/images/common/pop_func_arrowtop.png" class="arrow-top" alt=""/><!-- 요건 png로 -->
+			                    <div class="cont">
+			                        <form action="https://dbr.donga.com/scrap/input" method="post" name="scrapFrm2" id="scrapFrm2" accept-charset="utf-8">
+			                        <div class="cont-scrap">
+			                            <p class="title">스크랩</p>
+			                            <div class="info-input">
+			                                <div class="my-lib">
+			                                    <!--마이라이브러리는 기본 폴더이며 번호는 1로 고정
+			                                             기본 폴더는 삭제할 수 없습니다.
+			                                            스크랩 될때 기본 마이라이브러리에 함께 스크랩 된다.
+			                                    -->
+			                                    <input name="folder[]" type="hidden"  value="1"/>
+			                                    			                                </div>
+			                                <div class="my-fold">
+			                                    <input type="checkbox" name="folder[]" id="newlib2" value="newlib"/><a href="#"><strong class="icon-add">+</strong> <span>새로운 폴더 생성</span></a>
+			                                    <div class="add-fold off">
+			                                    <label for="folder_name" class="hidden">폴더명</label>
+			                                     <input type="text" id="folder_name2" name="folder_name" placeholder="폴더명을 입력해주세요" class="add-fold-input" />
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="memo off">
+			                                <p>메모입력</p>
+			                                <textarea rows="3" name="memo"></textarea>
+			                            </div>
+			                        </div>
+			                        <div class="pop-footer ta-c">
+			                            <a href="#" id="btnScrap" onclick='scrap();return false;' class="pop-func-btn confirm">스크랩</a>
+			                        </div>
+			                        <input type="hidden" name="content_type" value="A"/>
+			                        <input type="hidden" name="content_no" value="6553"/>
+			                        </form>
+			                    </div>
+			                </div>
+			            </li>
+			            			            <!--li class="print_btn"><a class="btn-print last" onclick="alert('유료회원 서비스입니다.');return false;" style="cursor:pointer"><img src="/images/common/icon_func_print.png" alt="인쇄하기"/></a></li-->
+			            			            			            <!-- 2022-0812 퍼블리싱 추가  모바일에만 보임-->
+			        </ul>
+
+			        <ul class="sns-list">
+			        	<!-- 2022-0812 퍼블리싱 추가  PC에만 보임-->
+			        				        	<li><a class="btn-pdfdown" style="cursor:pointer"><img src="/images/common/icon_func_pdf_fixed.png" alt="PDF 다운로드" /></a></li>
+			        	                        <li class="fix-scrap-li"><a id='' onclick="alert('로그인 후 이용하세요.');location.href='/login?re_url=/article/view/1303/article_no/6553/ac/magazine'" style="cursor:pointer" class="btn-scrap"><img src="/images/common/icon_func_scrap_fixed.png" alt="스크랩" /></a>
+                            <div class="fix-pop-scrap pop-func pop-scrap off">
+                                <img src="/images/common/pop_func_arrowtop.png" class="arrow-top" alt=""/><!-- 요건 png로 -->
+                                <div class="cont">
+                                    <form action="https://dbr.donga.com/scrap/input" method="post" name="scrapFrm2" id="scrapFrm2" accept-charset="utf-8">
+			                        <div class="cont-scrap">
+			                            <p class="title">스크랩</p>
+			                            <div class="info-input">
+			                                <div class="my-lib">
+			                                    <!--마이라이브러리는 기본 폴더이며 번호는 1로 고정
+			                                             기본 폴더는 삭제할 수 없습니다.
+			                                            스크랩 될때 기본 마이라이브러리에 함께 스크랩 된다.
+			                                    -->
+			                                    <input name="folder[]" type="hidden"  value="1"/>
+			                                    			                                </div>
+			                                <div class="my-fold">
+			                                    <input type="checkbox" name="folder[]" id="newlib2" value="newlib"/><a href="#"><strong class="icon-add">+</strong> <span>새로운 폴더 생성</span></a>
+			                                    <div class="add-fold off">
+			                                    <label for="folder_name" class="hidden">폴더명</label>
+			                                     <input type="text" id="folder_name2" name="folder_name" placeholder="폴더명을 입력해주세요" class="add-fold-input" />
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="memo off">
+			                                <p>메모입력</p>
+			                                <textarea rows="3" name="memo"></textarea>
+			                            </div>
+			                        </div>
+			                        <div class="pop-footer ta-c">
+			                            <a href="#" id="btnScrap" onclick='scrap();return false;' class="pop-func-btn confirm">스크랩</a>
+			                        </div>
+			                        <input type="hidden" name="content_type" value="A"/>
+			                        <input type="hidden" name="content_no" value="6553"/>
+			                        </form>
+			                    </div>
+                            </div>
+                        </li>
+                                                 <!--li><a class="btn-print last" onclick="alert('유료회원 서비스입니다.');return false;" style="cursor:pointer"><img src="/images/common/icon_func_print.png" alt="인쇄하기"/></a></li-->
+			             			            <!-- 2022-0812 퍼블리싱 추가  PC에만 보임-->
+			            <!-- <li><a href="#"><img src="/images/common/icon_share_kakao_fixed.png" alt="카카오톡"/></a></li> -->
+			            <!-- 0829 수정 -->
+			            <li><a href="#" onclick="sendSns('facebook','https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine','[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다','A','6553');return false;" ><img src="/images/common/icon_sns_fb.png" alt="페이스북"/></a></li>
+			            <!-- <li><a href="#" onclick="sendSns('twitter','https://dbr.donga.com/article/view/1303/article_no/6553','','A','');return false;" ><img src="/images/common/icon_share_tw_fixed.png" alt="트위터"/></a></li>
+			            <li><a href="#"><img src="/images/common/icon_share_kas_fixed.png" alt="카카오스토리"/></a></li> -->
+			            <li><a href="#" class="btn-ftx-sns" ><img src="/images/common/icon_sns_more.png" alt="sns공유하기"/></a>
+                        	<!-- 0829 수정 -->
+			                <div class="fix-other-sns off">
+			                    <strong class="ti">SNS 공유</strong>
+			                    <ul class="other-list">
+			                        <!-- <li class="m-view"><a href="#" class="icon-fb2"><span>페이스북</span></a></li>
+			                        <li class="m-view"><a href="#" class="icon-tw2"><span>트위터</span></a></li>
+			                        <li class="m-view"><a href="#" class="icon-kas2"><span>카카오스토리</span></a></li> -->
+			                        <li><a href="#" onclick="sendLink();return false;" class="icon-katalk" id="kakao-link-btn" ><span>KaKaoTalk</span></a></li>
+			                        <li><a href="https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine" onclick="copy_trackback(this.href,'A','6553');return false;" class="icon-copy"><span>URL복사</span></a></li>
+			                        <!--<li><a href="#" class="icon-email"><span>Email</span></a></li>-->
+			                    </ul>
+			                </div>
+			            </li>
+			        </ul>
+			        <div class="progress"><span class="ing"></span></div>
+			    </div>
+			</div>
+	        <!-- 상세페이지 세부 기능 정의 함수 -->
+
+	       <!--//기사보기 기능영역-->
+			<!-- 기사 내용영역 -->
+	        <div class="cboth cont-article mg-b40">
+	            <div style="position: relative;">
+	            	<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT color=#000000><STRONG><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt" lang=EN-US>Article at a Glance &#8211; </SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">자기계발</SPAN></STRONG></FONT></P><FONT color=#000000><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt"><SPAN lang=EN-US><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p><o:p>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal>
+<TABLE style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; FONT-FAMILY: 굴림; FONT-SIZE: 11pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class=txc-table border=0 cellSpacing=0 cellPadding=0 width=664>
+<TBODY>
+<TR>
+<TD style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 664px; HEIGHT: 24px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid">
+<P><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt"><FONT color=#000000>사회적 동물인 인간은 대인관계를 맺어야 한다<SPAN lang=EN-US>. </SPAN>대인관계의 출발은 자기애에서 시작된다<SPAN lang=EN-US>. </SPAN>자신을 사랑하지 않는 사람은 다른 사람과의 관계도 건전하게 맺을 수 없다<SPAN lang=EN-US>. </SPAN>대인관계를 잘 맺으려면 친밀감을 형성해야 한다<SPAN lang=EN-US>. </SPAN>친밀감을 잘 형성하려면 타인에 대해 민감하고 잘 반응하며 일관성을 갖춰야 한다<SPAN lang=EN-US>. </SPAN>그래야 상대방이 신뢰를 가지고 자신을 대하게 된다<SPAN lang=EN-US>. </SPAN>하지만 친밀감을 가지기 위해서 상대방에게 연극을 하면 문제가 발생한다<SPAN lang=EN-US>. </SPAN>이런 행동을 하게 되면 인간관계가 매우 공허해진다<SPAN lang=EN-US>. </SPAN>그래서 진심으로 상대방에게 친밀감을 느낄 수 있어야 한다<SPAN lang=EN-US>. </SPAN>어떻게 해야 친밀감을 느낄 수 있을까<SPAN lang=EN-US>. </SPAN>서로 통하는 느낌이 들어야 하고 살피고 도와주며 나눌 줄 알아야 한다<SPAN lang=EN-US>. </SPAN>그래야 친해진다<SPAN lang=EN-US>. </SPAN>다른 사람과의 친밀감은 험한 세상에서 자신을 보살펴주는 보호막과 같다<SPAN lang=EN-US>. </SPAN>혼자 사는 세상이 아니다<SPAN lang=EN-US>. </SPAN>다른 사람과 친밀해져야 한다<SPAN lang=EN-US>. </SPAN>그래야 행복하다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></SPAN></P></TD></TR></TBODY></TABLE></P>
+<P></o:p><o:p></o:p>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">요즘 여러분은 사는 게 어떠한가<SPAN lang=EN-US>? </SPAN>스트레스를 많이 받는가<SPAN lang=EN-US>? </SPAN>스트레스를 받는다면 무엇 때문에 받는가<SPAN lang=EN-US>? </SPAN>그렇다면 스트레스란 무엇일까<SPAN lang=EN-US>? </SPAN>인간의 몸과 마음은 늘 일정한 상태를 유지하려는 습성이 있다<SPAN lang=EN-US>. </SPAN>이를 항상성<SPAN lang=EN-US>(homeostasis)</SPAN>이라고 한다<SPAN lang=EN-US>. </SPAN>항상성을 깨는 모든 자극은 스트레스다<SPAN lang=EN-US>. </SPAN>이게 스트레스의 정의다<SPAN lang=EN-US>. </SPAN>추위<SPAN lang=EN-US>, </SPAN>더위<SPAN lang=EN-US>, </SPAN>시끄러움<SPAN lang=EN-US>, </SPAN>힘듦 등 이런 모든 자극이 스트레스다<SPAN lang=EN-US>. </SPAN>슬픔도 스트레스다<SPAN lang=EN-US>. </SPAN>하지만 스트레스는 좋기도 하다<SPAN lang=EN-US>. </SPAN>스트레스를 받지 않기 위해서는 아무 변화가 없어야 한다<SPAN lang=EN-US>. </SPAN>좋은 것도<SPAN lang=EN-US>, </SPAN>싫은 것도 없으며 이런 자극을 받지 않기 위해서 항온항습실에서 살아야 한다<SPAN lang=EN-US>. </SPAN>과연 그런 삶이 가능할까<SPAN lang=EN-US>? </SPAN>그렇게 밍밍하고 무미건조한 삶을 산다면 행복할까<SPAN lang=EN-US>? </SPAN>그렇지 않다<SPAN lang=EN-US>. </SPAN>이렇게 아무 자극이 없는 것도 역시 스트레스다<SPAN lang=EN-US>. </SPAN>한마디로 스트레스가 없는 삶은 없다<SPAN lang=EN-US>. </SPAN>스트레스는 결코 부정적인 것이 아니다<SPAN lang=EN-US>. </SPAN>꼭 필요한 존재다<SPAN lang=EN-US>. </SPAN>내일 중요한 시험을 앞두고 있는데 긴장하지 않는다면 어떨까<SPAN lang=EN-US>? </SPAN>전혀 걱정이 되지 않는다면 어떤 일이 벌어질까<SPAN lang=EN-US>? </SPAN>준비를 하지 않을 것이고 당연히 좋지 않은 결과가 있을 것이다<SPAN lang=EN-US>. </SPAN>스트레스는 좋은 것도<SPAN lang=EN-US>, </SPAN>나쁜 것도 아니다<SPAN lang=EN-US>. </SPAN>세상을 살아가는 한 꼭 필요한 존재다<SPAN lang=EN-US>. </SPAN>난 스트레스를 받지 말라는 말을 싫어한다<SPAN lang=EN-US>. </SPAN>이 말은 공기가 나쁘니까 공기를 마시지 말라는 말과 같다<SPAN lang=EN-US>. </SPAN>스트레스는 필요한 존재다<SPAN lang=EN-US>. </SPAN>중요한 것은 스트레스를 어떻게 인식하고 받아들이냐는 것이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">대인관계의 출발은 자기애<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></B></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">사람들은 어디에서 가장 많은 스트레스를 받을까<SPAN lang=EN-US>? </SPAN>압도적인<SPAN lang=EN-US> 1</SPAN>위는 바로 대인관계다<SPAN lang=EN-US>. </SPAN>그런데 가장 큰 기쁨 역시 대인관계에서 온다<SPAN lang=EN-US>. </SPAN>사람을 사랑하고<SPAN lang=EN-US>, </SPAN>사람들로부터 인정과 격려를 받고<SPAN lang=EN-US>, </SPAN>존중을 받을 때 가장 큰 기쁨을 얻는다<SPAN lang=EN-US>. </SPAN>이게 삶의 묘미다<SPAN lang=EN-US>. </SPAN>행복 또한 대인관계에서 나온다<SPAN lang=EN-US>. </SPAN>하버드대 성인발달연구소에 따르면 행복의 조건에서는 돈과 명예<SPAN lang=EN-US>, </SPAN>건강보다는<SPAN lang=EN-US> 47</SPAN>세 정도까지 만들어놓은 인간관계가 더 중요하다<SPAN lang=EN-US>. </SPAN>여러분의 대인관계는 어떠한가<SPAN lang=EN-US>? </SPAN>대인관계가 원만치 못해 늘 사람들과 문제가 발생한다면 문제의 원인은 무엇이라고 생각하는가<SPAN lang=EN-US>?<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: #0070c0; FONT-SIZE: 11pt">대인관계의 출발점은 자신과의 관계다<SPAN lang=EN-US>. </SPAN>이게 시작점이다<SPAN lang=EN-US>. </SPAN>대인관계가 나쁜 사람은 자신과의 관계부터 점검해야 한다<SPAN lang=EN-US>. </SPAN>당신은 스스로를 어떻게 생각하는가<SPAN lang=EN-US>? </SPAN>자신을 사랑하는가<SPAN lang=EN-US>? </SPAN>스스로에 대한 자부심이 있는가<SPAN lang=EN-US>? </SPAN>원만한 대인관계를 위해서는 자신을 긍정적으로 생각하는 자기애가 있어야 한다<SPAN lang=EN-US>. </SPAN>이게 필수적이다<SPAN lang=EN-US>. </SPAN>그래야 다른 사람과 좋은 관계를 가질 수 있다<SPAN lang=EN-US>. </SPAN>자기애는 자신을 존중하고 사랑한다는 의미에서 반드시 필요한 마음의 구성요소다<SPAN lang=EN-US>. </SPAN>자기애가 부족한 사람은 매사에 자신을 탓하거나 부정적으로 생각한다<SPAN lang=EN-US>. </SPAN>당연히 다른 사람과의 관계도 힘들어한다<SPAN lang=EN-US>.</SPAN></SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US> </SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">연인관계에서도 끊임없이 저 사람이 나를 정말 좋아할까 의심한다<SPAN lang=EN-US>. </SPAN>확인하고 싶어 한다<SPAN lang=EN-US>. </SPAN>한마디로 피곤한 스타일이다<SPAN lang=EN-US>. </SPAN>지금 자신과의 관계는 유전과 상호작용의 결과다<SPAN lang=EN-US>. </SPAN>특히 어린 시절 부모와의 관계가 결정적 역할을 한다<SPAN lang=EN-US>. </SPAN>자기애의 핵심은 충분한 사랑이다<SPAN lang=EN-US>. </SPAN>충분한 사랑을 받고 성장했느냐가 자기애를 결정한다<SPAN lang=EN-US>. </SPAN>충분한 사랑을 받으면서 성장한 아이는 사람에 대한 믿음이 생긴다<SPAN lang=EN-US>. </SPAN>다른 사람을 볼 때 자연스럽게<SPAN lang=EN-US> “</SPAN>저 사람도 엄마와 아빠처럼 나를 사랑할 것이다<SPAN lang=EN-US>. </SPAN>내가 하는 말을 잘 들어주고 따뜻하게 돌봐 줄 것이다<SPAN lang=EN-US>”</SPAN>고 생각한다<SPAN lang=EN-US>. </SPAN>대인관계가 술술 풀린다<SPAN lang=EN-US>. </SPAN>반대로 화를 자주 내는 부모<SPAN lang=EN-US>, </SPAN>애를 학대하는 부모<SPAN lang=EN-US>, </SPAN>감정기복이 심한 부모 밑에서 성장한 사람은 사람을 믿지 못한다<SPAN lang=EN-US>. </SPAN>본능적으로 사람을 의심한다<SPAN lang=EN-US>. </SPAN>사람은 사랑을 먹고 자란다<SPAN lang=EN-US>. </SPAN>사랑을 많이 받으면 스스로에 대해 자부심을 갖고 사람을 믿으며 원만한 대인관계가 만들어진다<SPAN lang=EN-US>. </SPAN>반대로 사랑이 부족한 사람은 사람을 믿지 못하고 너무 의존을 하거나 의심하면서 대인관계에 문제가 생긴다<SPAN lang=EN-US>.</SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt"><SPAN lang=EN-US><o:p></o:p></SPAN></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p><o:p style="TEXT-ALIGN: center">
+                              <div class="img_resize" id="content_image0" style="display:block;">
+                              <a href="/upload_dir/source/daum/70_img_140_157_20140708.PNG" rel="facebox" target="_blank"><IMG style="FLOAT: left; CLEAR: both; MARGIN-RIGHT: 8px" class=txc-image src="/upload_dir/source/daum/70_img_140_157_20140708.PNG"></a>
+                              </div></o:p><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">이런 얘기를 들으면 아이와 충분한 시간을 갖지 못하는 워킹맘의 걱정이 커진다<SPAN lang=EN-US>. </SPAN>사랑이 부족한 아이로 성장해 성격이 비뚤어지는 것은 아닌가 걱정한다<SPAN lang=EN-US>. </SPAN>뭔가 자녀에게 잘못하고 있다는 죄책감에 사로잡힌 사람들도 있다<SPAN lang=EN-US>. </SPAN>엄마가 일하는 것이 아이에게 마이너스일까<SPAN lang=EN-US>? </SPAN>그렇지 않다<SPAN lang=EN-US>. </SPAN>일하는 엄마와 아기의 애착관계가 특별히 불안정한 것은 아니다<SPAN lang=EN-US>. </SPAN>양만큼 질이 중요하다<SPAN lang=EN-US>. </SPAN>아니<SPAN lang=EN-US>, </SPAN>어떤 의미에서는 양보다 질이 중요하다<SPAN lang=EN-US>. </SPAN>엄마가 하루 종일 아이와 붙어 있어도 짜증을 내거나 반응을 하지 않는 엄마보다는 짧은 시간 아이와 있어도 그 시간을 잘 활용하는 것이 더 중요하다<SPAN lang=EN-US>. </SPAN>아이에게 관심을 갖고 민감하게 반응하면 상관없다<SPAN lang=EN-US>. </SPAN>같이 있는 시간보다 같이 있는 시간에 어떻게 하느냐가 더 중요하다<SPAN lang=EN-US>. </SPAN>중요한 것은 아이에게<SPAN lang=EN-US> “</SPAN>내가 환영을 받는 존재구나<SPAN lang=EN-US>. </SPAN>사랑받는 존재구나<SPAN lang=EN-US>”</SPAN>라는 느낌이 들게 하는 것이다<SPAN lang=EN-US>. </SPAN>그렇게 하면 아이는 자신을 긍정적으로 생각하고 마음이 편하며 성격이 좋은 아이로 자라게 된다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">마음을 잘 다스려야 좋은 대인관계를 맺는다<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></B></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">대인관계란 관계를 맺는 능력이다<SPAN lang=EN-US>. </SPAN>어떤 사람은 쉽게 사람과 친해진다<SPAN lang=EN-US>. </SPAN>어떤 사람은 시간이 지날수록 불편해진다<SPAN lang=EN-US>. </SPAN>부모자식 관계도 그렇다<SPAN lang=EN-US>. </SPAN>중요한 것은 어떻게 성공적으로 친밀감을 형성하느냐다<SPAN lang=EN-US>. </SPAN>여기에는 세 가지가 필요하다<SPAN lang=EN-US>. </SPAN>민감할 것<SPAN lang=EN-US>, </SPAN>반응할 것<SPAN lang=EN-US>, </SPAN>일관성이 있을 것이 바로 그것이다<SPAN lang=EN-US>. </SPAN>민감성은 아이에게 관심을 갖고 아이의 감정을 예민하게 알아채는 것이다<SPAN lang=EN-US>. </SPAN>반응성은 민감하게 알아차린 것을 행동으로 반응하는 것이다<SPAN lang=EN-US>. </SPAN>일관성은 상황에 따라 달라지는 게 아니라 말 그대로 일관성을 갖고 행동하는 것이다<SPAN lang=EN-US>. </SPAN>모든 대인관계는 이 범위를 벗어나지 못한다<SPAN lang=EN-US>. </SPAN><SPAN style="COLOR: #0070c0">친밀감을 잘 형성하는 사람인지 아닌지를 알기 위해서는 표정을 살펴보면 된다<SPAN lang=EN-US>. </SPAN>무표정한 사람은 친밀감을 형성하지 못한다<SPAN lang=EN-US>. </SPAN>표정이 살아 있는 사람은 친밀감을 잘 형성한다<SPAN lang=EN-US>. </SPAN>당신은 어디에 속하는가<SPAN lang=EN-US>? </SPAN>혹시 좋은 관계를 원하지만 상대를 소나 닭을 쳐다보듯이 하지는 않는가<SPAN lang=EN-US>? </SPAN>상대가 하는 말에 별 반응을 보이지 않는 건 아닌가<SPAN lang=EN-US>? </SPAN>무엇보다 건강한 대인관계를 위해서는 상대를 있는 그대로 받아들이는 게 중요하다<SPAN lang=EN-US>. </SPAN>자기 마음대로 추측하는 대신 있는 그대로 수용해야 한다<SPAN lang=EN-US>. </SPAN>특히 상대의 감정 수용이 중요하다<SPAN lang=EN-US>. </SPAN>상대를 분석하고<SPAN lang=EN-US>, </SPAN>평가하고<SPAN lang=EN-US>, </SPAN>비난하는 대신 감정을 수용해야 한다<SPAN lang=EN-US>. </SPAN>상대의 감정을 수용한다는 것은<SPAN lang=EN-US> ‘</SPAN>이 사람은 이런 생각<SPAN lang=EN-US>, </SPAN>감정을 갖고 있구나<SPAN lang=EN-US>’</SPAN>라고 이해하는 것이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">좋은 대인관계를 위해서는 마음을 잘 다스릴 수 있어야 한다<SPAN lang=EN-US>. ‘</SPAN>마음을 잘 다스린다<SPAN lang=EN-US>’</SPAN>는 말은 어떤 의미일까<SPAN lang=EN-US>? </SPAN>마음을 잘 다스리기 위해서는 자기 감정이 어떤지를 읽을 수 있어야 한다<SPAN lang=EN-US>. </SPAN>쉬운 일이 아니다<SPAN lang=EN-US>. </SPAN>아기들은 자기 감정을 잘 읽고 거기에 따라 행동한다<SPAN lang=EN-US>. </SPAN>배고프면 울고<SPAN lang=EN-US>, </SPAN>좋으면 웃고<SPAN lang=EN-US>, </SPAN>맘에 들지 않으면 짜증을 낸다<SPAN lang=EN-US>. </SPAN>어른으로 성장하면 자기 감정대로 행동하는 것이 위험하다는 것을 깨닫고 감정과 다른 행동을 하게 된다<SPAN lang=EN-US>. </SPAN>시간이 더 지나면 아예 자신의 감정을 무시하기도 한다<SPAN lang=EN-US>. </SPAN>그래서 중년 남성 중에는 자기 감정을 읽을 줄 모르는 감정 문맹이 많다<SPAN lang=EN-US>. </SPAN>참으로 위험한 일이다<SPAN lang=EN-US>. &lt;</SPAN>착한 여자는 왜 살이 찔까<SPAN lang=EN-US>&gt;</SPAN>의 저자 캐런 쾨닝은 자기 감정을 다스릴 줄 알아야 다이어트에 성공한다고 주장한다<SPAN lang=EN-US>. </SPAN>그녀가 정의한 착한 여자란<SPAN lang=EN-US> ‘</SPAN>다른 사람의 인정에 굶주려 있는 버려진 내면의 아이<SPAN lang=EN-US>’</SPAN>다<SPAN lang=EN-US>. </SPAN>다른 사람의 인정을 받는 데 신경 쓰다 보니 정작 자기 감정이 어떤지 생각하지 못하고 사는 것이다<SPAN lang=EN-US>. </SPAN>그러다 보니 살이 찐다<SPAN lang=EN-US>. </SPAN>일리가 있는 주장이다<SPAN lang=EN-US>. </SPAN>행복하게 사는 최선의 방법은 생긴 대로 사는 것이다<SPAN lang=EN-US>. </SPAN>생긴 대로 산다는 것은 전문용어로 자아 정체감을 명확히 한다는 것이다<SPAN lang=EN-US>. </SPAN>자신이 어떤 사람인지<SPAN lang=EN-US>, </SPAN>자신이 무엇을 중요하게 생각하고<SPAN lang=EN-US>, </SPAN>미래에 어떤 사람이 되고 싶은지<SPAN lang=EN-US>, </SPAN>현재 어떤 감정을 갖고 있는지 명확한 기준을 갖고 있는 사람이다<SPAN lang=EN-US>. </SPAN>그렇다면 잘못 살고 있다는 건 무얼까<SPAN lang=EN-US>? </SPAN>생긴 대로 살지 않고 엉뚱한 모습으로 살고 있는 것이다<SPAN lang=EN-US>. </SPAN>자신이 원하는 것이 아닌 다른 사람이 원하는 대로 살고 있는 것이다<SPAN lang=EN-US>. </SPAN>자신의 현재 감정이 어떤지를 모르는 사람이다<SPAN lang=EN-US>. </SPAN>여러분은 어떠한가<SPAN lang=EN-US>? </SPAN>여러분이 살고 싶은 삶은 어떤 것인가<SPAN lang=EN-US>?<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">몸과 마음이 따로 움직이면 문제가 발생한다</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">생긴 대로 살지 않거나 몸과 마음이 따로 움직이면 문제가 발생한다<SPAN lang=EN-US>. </SPAN>불편한 마음이 원인이 돼 몸에 이상이 온다<SPAN lang=EN-US>. </SPAN>이런 병은 병원에 가도 원인을 밝히지 못한다<SPAN lang=EN-US>. </SPAN>이를 정신신체증상<SPAN lang=EN-US>(psychosomatic syndrome)</SPAN>이라고 한다<SPAN lang=EN-US>. </SPAN>두통<SPAN lang=EN-US>, </SPAN>어깨 결림<SPAN lang=EN-US>, </SPAN>궤양이나 과민성 대장질환 등의 소화기 장애<SPAN lang=EN-US>, </SPAN>두드러기나 탈모 등 피부질환<SPAN lang=EN-US>, </SPAN>근육통<SPAN lang=EN-US>, </SPAN>심장질환 등이 여기에 해당된다<SPAN lang=EN-US>. </SPAN>왜 그럴까<SPAN lang=EN-US>? </SPAN>해답은 뇌에 있다<SPAN lang=EN-US>. </SPAN>우리가 경험하는 사고<SPAN lang=EN-US>, </SPAN>감정<SPAN lang=EN-US>, </SPAN>감각<SPAN lang=EN-US>, </SPAN>인지 등은 모두 뇌에 따른 것이다<SPAN lang=EN-US>. </SPAN>뇌가 느끼고<SPAN lang=EN-US>, </SPAN>뇌에서 일정회로를 타고<SPAN lang=EN-US>, </SPAN>뇌가 지시를 내리면 몸의 기관은 지시에 따르게 돼 있다<SPAN lang=EN-US>. </SPAN>만약 몸에 이상이 있다면 몸의 문제를 살피기 전에 여러분의 마음을 살펴야 한다<SPAN lang=EN-US>. </SPAN>마음과 몸이 따로 놀고 있지는 않는지<SPAN lang=EN-US>, </SPAN>내 마음을 내가 모르는 것은 아닌지 체크해야 한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: #0070c0; FONT-SIZE: 11pt">연극성 인격이란 말이 있다<SPAN lang=EN-US>. </SPAN>자신의 모습이 아닌 연극하는 것처럼 산다는 말이다<SPAN lang=EN-US>. </SPAN>인기를 잃은 과거의 스타를 연상해보면 쉽게 이해할 수 있다<SPAN lang=EN-US>. </SPAN>과거 사람들의 관심을 먹고살았지만 현재는 그런 주목을 받지 못한다<SPAN lang=EN-US>. </SPAN>이들은 관심과 애정에 대한 욕구가 지나치고 감정표현을 과도하게 한다<SPAN lang=EN-US>. </SPAN>한마디로 속이 허한 사람이다<SPAN lang=EN-US>. </SPAN>이들은 허한 속을 채우기 위해 엉뚱한 행동을 한다<SPAN lang=EN-US>. </SPAN>지나치게 호들갑을 떨거나<SPAN lang=EN-US>, </SPAN>별거 아닌 일에 흥분을 하거나<SPAN lang=EN-US>, </SPAN>필요 이상으로 과다하게 반응한다<SPAN lang=EN-US>. ‘</SPAN>이게 뭐지<SPAN lang=EN-US>, </SPAN>왜 그러지<SPAN lang=EN-US>, </SPAN>좀 이상한 것 아니야<SPAN lang=EN-US>’</SPAN>라는 느낌을 주는 사람들이다<SPAN lang=EN-US>. </SPAN>누구나 관심과 애정에 대한 욕구는 갖고 있다<SPAN lang=EN-US>. </SPAN>문제는 정도가 지나칠 때다<SPAN lang=EN-US>. </SPAN>이런 사람들은 욕구를 채우기 위해 수많은 사람을 만난다<SPAN lang=EN-US>. </SPAN>하지만 그 누구를 만나도 공허하다<SPAN lang=EN-US>.</SPAN></SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US> </SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">만나는 순간은 즐겁지만 헤어진 이후에는 허무하다<SPAN lang=EN-US>. </SPAN>이들은 다른 사람의 관심과 애정을 얻기 위해 매우 애를 쓴다<SPAN lang=EN-US>. </SPAN>늘 자신이 주인공이 되려고 하고 스포트라이트를 받으려 한다<SPAN lang=EN-US>. </SPAN>조금이라도 중심에서 벗어나는 것을 견디지 못한다<SPAN lang=EN-US>. </SPAN>이런 성향의 사람은 많은 사람을 만나고 이들과 많은 시간을 보내지만 친해지지는 못한다<SPAN lang=EN-US>. </SPAN>오래는 만났지만 얼굴만 아는 껍데기뿐인 관계가 되기 십상이다<SPAN lang=EN-US>. </SPAN>여기저기 얼굴은 많이 내밀지만 별로 환영을 받는 존재가 아니다<SPAN lang=EN-US>. </SPAN>연극성 인격의 본질적 문제는 자기 자신이다<SPAN lang=EN-US>. </SPAN>이들 중 많은 사람은 사회에서 성공했다는 평가를 받는 위치에 있다<SPAN lang=EN-US>. </SPAN>다른 사람의 관심과 주목을 받기 위해서는 사회적으로 높은 위치에 있어야 하기 때문이다<SPAN lang=EN-US>. </SPAN>성공을 위해 투자하고 열정적이다<SPAN lang=EN-US>. </SPAN>연극성 인격을 가졌다고 해도 자신의 감정<SPAN lang=EN-US>, </SPAN>생각<SPAN lang=EN-US>, </SPAN>살아가는 이유를 알고 자기 자신에 대한 확신과 자신감을 가지면 상당한 능력을 발휘할 수 있다<SPAN lang=EN-US>. </SPAN>하지만 자신을 알지 못하고 다른 사람의 관심과 애정에만 집착하면 사는 게 힘들어진다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">친밀감은 몸을 지켜주는 면역세포<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></B></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">여러분은 외로운가<SPAN lang=EN-US>? </SPAN>고독한가<SPAN lang=EN-US>? </SPAN>고독이란 말은 무엇을 뜻할까<SPAN lang=EN-US>? </SPAN>고독을 느낀다는 것은 친밀에 대한 갈망이 있지만 채워지지 않았다는 의미다<SPAN lang=EN-US>. </SPAN>친밀감이 핵심이다<SPAN lang=EN-US>. </SPAN>친밀감은 본능이다<SPAN lang=EN-US>. </SPAN>우리는 친밀하기 위해 많은 노력을 하지만 많은 경우 실패한다<SPAN lang=EN-US>. </SPAN>독거노인이 바로 그런 사례다<SPAN lang=EN-US>. </SPAN>내가 생각하는 독거노인의 정의는 몸은 가족과 함께 살고 있지만 가족의 마음을 전혀 얻지 못하는 노인이다<SPAN lang=EN-US>. </SPAN>배우자와 자녀와의 친밀감을 획득하는 데 실패한 사람이다<SPAN lang=EN-US>. </SPAN>군중 속의 고독이란 말도 그렇다<SPAN lang=EN-US>. </SPAN>물리적으로는 옆에 사람들이 많지만 막상 친밀한 사람이 없다고 느끼는 것이다<SPAN lang=EN-US>. </SPAN>친밀감은 바이러스로부터 우리 몸을 지켜주는 면역세포와 같다<SPAN lang=EN-US>. </SPAN>친밀감은 직장과 돈<SPAN lang=EN-US>, </SPAN>가정의 스트레스에서 우리를 보호한다<SPAN lang=EN-US>. </SPAN>친밀감을 누리는 사람은 겨울에 두꺼운 외투를 입은 사람과 같다<SPAN lang=EN-US>. </SPAN>강추위가 몰아쳐도 끄떡없다<SPAN lang=EN-US>. </SPAN>친밀감이 결여된 사람은 외투가 없이 겨울을 나는 사람과 같다<SPAN lang=EN-US>. </SPAN>찬바람이 조금만 불어도 고독감이라는 추위를 탄다<SPAN lang=EN-US>. </SPAN>심할 때는 우울증이라는 폐렴에 걸리기도 한다<SPAN lang=EN-US>. </SPAN>동료애나 친밀함은 햇빛처럼 인간을 치유한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">친밀감을 느끼려면 서로 통하는 느낌이 있어야 하고<SPAN lang=EN-US>, </SPAN>서로 살피고 도와줘야 하며<SPAN lang=EN-US>, </SPAN>나눔이 있어야 한다<SPAN lang=EN-US>. </SPAN>친밀감을 방해하는 것들이 있다<SPAN lang=EN-US>. </SPAN>첫째는 불완전한 주체성이다<SPAN lang=EN-US>. </SPAN>주체성이 확립되지 못한 사람은 친밀한 인간관계를 맺을 수 없다<SPAN lang=EN-US>. </SPAN>내가 확실해야 너도 확실해진다<SPAN lang=EN-US>. </SPAN>나와 네가 확실해야 두 사람 사이에 인간관계가 이뤄지고 친밀한 관계가 형성된다<SPAN lang=EN-US>. </SPAN>혼자 잘 노는 사람이 다른 사람과도 잘 노는 법이다<SPAN lang=EN-US>. </SPAN>둘째는 시기심이다<SPAN lang=EN-US>. </SPAN>시기심은 다른 사람의 성공<SPAN lang=EN-US>, </SPAN>미모<SPAN lang=EN-US>, </SPAN>능력을 볼 때 억울하고 화를 내는 심리를 말한다<SPAN lang=EN-US>. </SPAN>시기심은 타고난 본능이고 누구나 갖고 있다<SPAN lang=EN-US>. </SPAN>중요한 건 이를 어떻게 극복하느냐다<SPAN lang=EN-US>. </SPAN>극복하는 방법은 사랑과 감사다<SPAN lang=EN-US>. </SPAN>시기심의 치료제는 감사하는 마음이다<SPAN lang=EN-US>. </SPAN>셋째는 열등감이다<SPAN lang=EN-US>. </SPAN>열등감은 자신을 잘못 평가하기 때문에 생긴다<SPAN lang=EN-US>. </SPAN>동료 사이에서도 열등감이 작용하면 친밀감을 느낄 수 없다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">원만한 대인관계를 위해서는 화를 잘 다스릴 수 있어야 한다<SPAN lang=EN-US>. </SPAN>세상에 화를 자주 내는 사람을 좋아할 사람은 없다<SPAN lang=EN-US>. </SPAN>화를 내는 것은 본인을 위해서도<SPAN lang=EN-US>, </SPAN>타인을 위해서도 별 도움이 되지 않는다<SPAN lang=EN-US>. </SPAN>화를 자주 낸다는 것은 자신이 미성숙하다는 것을 만천하에 공개하는 것과 같다<SPAN lang=EN-US>. </SPAN>화는 화학반응과 비슷하다<SPAN lang=EN-US>. </SPAN>갑자기 올라오는 것이 아니라 화학반응처럼 서서히 반응하다 폭발을 한다<SPAN lang=EN-US>. </SPAN>어떻게 해야 화를 내려놓고 살 수 있을까<SPAN lang=EN-US>? </SPAN>화는 보통 다섯 단계의 과정을 거친다<SPAN lang=EN-US>. </SPAN>첫째는 화보다 먼저 올라오는 감정이 있다<SPAN lang=EN-US>. </SPAN>수치심<SPAN lang=EN-US>, </SPAN>죄책감<SPAN lang=EN-US>, </SPAN>불안 등의 감정이다<SPAN lang=EN-US>. </SPAN>둘째는 화를 유발하는 촉발사고다<SPAN lang=EN-US>. </SPAN>불편한 감정을 좋은 의미로 받아들이면 문제가 되지 않는다<SPAN lang=EN-US>. </SPAN>하지만 이런 경험이<SPAN lang=EN-US> ‘</SPAN>나는 피해자<SPAN lang=EN-US>, </SPAN>나는 희생자다<SPAN lang=EN-US>. </SPAN>왜 그래야 할까<SPAN lang=EN-US>’</SPAN>라는 생각을 하면 원통해지고 이런 상황 해석은 화로 이어진다<SPAN lang=EN-US>. </SPAN>셋째는 화 자체로 생기는 신체 변화다<SPAN lang=EN-US>. </SPAN>가슴이 두근거리고<SPAN lang=EN-US>, </SPAN>호흡이 빨라지며<SPAN lang=EN-US>, </SPAN>얼굴이 달아오른다<SPAN lang=EN-US>. </SPAN>본격적으로 화학반응이 일어나는 것이다<SPAN lang=EN-US>. </SPAN>넷째는 어떤 행동을 하려는 충동이다<SPAN lang=EN-US>. </SPAN>다섯째는 분노의 행동이다<SPAN lang=EN-US>. </SPAN>고함<SPAN lang=EN-US>, </SPAN>자리 박차고 나가기<SPAN lang=EN-US>, </SPAN>주먹으로 물건 치기 등이 여기에 해당된다<SPAN lang=EN-US>. </SPAN>불쾌한 표정 짓기<SPAN lang=EN-US>, </SPAN>빈정거리기<SPAN lang=EN-US>, </SPAN>험담하기<SPAN lang=EN-US>, </SPAN>한숨 쉬기<SPAN lang=EN-US>, </SPAN>거리 두기 등도 분노 표출의 또 다른 형태다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">요즘 모태솔로들이 많다<SPAN lang=EN-US>. </SPAN>출생부터 성인까지 연애를 한 번도 못해본 사람들이다<SPAN lang=EN-US>. </SPAN>거의 사람을 사귀지 않고 지내는 사람들도 늘어나고 있다<SPAN lang=EN-US>. </SPAN>이들은 대체로 대인관계에 익숙하지 못한 사람들이다<SPAN lang=EN-US>. </SPAN>사람을 만나지 못하고 만나도 깊은 관계로 발전을 시키지 못한다<SPAN lang=EN-US>. </SPAN>어떻게 이런 일이 있을 수 있을까<SPAN lang=EN-US>? </SPAN>이들의 공통점은 무얼까<SPAN lang=EN-US>? </SPAN><SPAN style="COLOR: #0070c0">이들은 상대 마음을 잘 읽지 못한다<SPAN lang=EN-US>. </SPAN>상대의 반응을 인식하고 알아내는 능력이 떨어진다<SPAN lang=EN-US>. </SPAN>변덕스런 부모 밑에서 자란 아이에게 그런 경향이 있다<SPAN lang=EN-US>. </SPAN>부모의 변덕에 모두 반응하다가는 제대로 살 수 없다는 생각에 반응 자체를 억제하는 것이다<SPAN lang=EN-US>. </SPAN>이런 식으로 자신을 보호하다 보니 상대의 마음을 잘 읽지 못한다<SPAN lang=EN-US>. </SPAN>깊은 관계를 유지할 누군가가 필요하다는 생각을 하지 않는다<SPAN lang=EN-US>. </SPAN>혹은 누군가가 필요하지만 관계를 갖는 것에 대한 두려움을 갖게 된다<SPAN lang=EN-US>. </SPAN>대인관계에서 큰 상처를 받아 새로운 대인관계를 맺기 어렵거나 보편적 대인관계 기술이 부족할 때 이런 상황이 발생한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: #0070c0; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 12pt; mso-bidi-font-size: 11.0pt">수면은 마음을 치유하는 방법<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></B></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: #0070c0; FONT-SIZE: 11pt">마음을 치유하는 방법 중 하나가 바로 수면이다<SPAN lang=EN-US>. </SPAN>잠을 자기 전에 생각했던 심각한 이슈도 잠을 푹 자고 난 뒤에는 심각한 이슈가 아닌 것으로 생각될 때가 있다<SPAN lang=EN-US>. </SPAN>잠은 이런 자연치유의 능력을 가지고 있다<SPAN lang=EN-US>. </SPAN>이런 측면에서 건강과 잠<SPAN lang=EN-US>, </SPAN>감정은 서로 깊은 관계를 맺고 있다<SPAN lang=EN-US>. </SPAN>무엇보다 잠을 잘 자면 많은 문제를 해결할 수 있다<SPAN lang=EN-US>.</SPAN></SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US> </SPAN><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt">그렇다면 잠을 잘 자기 위한 방법에는 어떤 것이 있을까<SPAN lang=EN-US>? </SPAN>그런데 일반적으로 잠은 오는 것이다<SPAN lang=EN-US>. </SPAN>인간이 잠에게 가는 것이 아니라 잠이 우리에게 오는 것이다<SPAN lang=EN-US>. </SPAN>잠은 억지로 잘 수 없다<SPAN lang=EN-US>. </SPAN>잠이 내게 잘 오도록 나 자신을 만들어야 한다<SPAN lang=EN-US>. </SPAN>잠이 오지 않으면 오지 않는 대로 그냥 두고 기다리면 된다<SPAN lang=EN-US>. </SPAN>잠은 철저하게 생리적인 현상이다<SPAN lang=EN-US>. </SPAN>하루 종일 굶으면 배가 고픈 것처럼 며칠 동안 잠을 못 자면 잠을 자게 돼 있다<SPAN lang=EN-US>. </SPAN>불면증은 사람이 스스로 만드는 병이다<SPAN lang=EN-US>. </SPAN>잠을 못 잘 것에 대한 걱정과 불안이 원인이 돼 잠을 쫓아내는 악순환의 상태에 빠지는 것이다<SPAN lang=EN-US>. </SPAN>잠은 깨어나는 시간으로 조절해야 한다<SPAN lang=EN-US>. </SPAN>잠이 오는 시간을 조절할 수는 없지만 잠에서 깨는 시간은 조절할 수 있다<SPAN lang=EN-US>. </SPAN>인간은 행복해질 권리가 있다<SPAN lang=EN-US>. </SPAN>누구나 행복을 원한다<SPAN lang=EN-US>. </SPAN>행복은 마음의 평화이고 마음의 평화는 좋은 대인관계에서 출발한다<SPAN lang=EN-US>. </SPAN>이 책이 그런 부분에 도움을 줄 것이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt" lang=EN-US><o:p></o:p></SPAN>&nbsp;&nbsp;</P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: black; FONT-SIZE: 11pt; mso-themecolor: text1">한근태</SPAN></B><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; FONT-SIZE: 11pt"> <SPAN style="COLOR: #595959; mso-themecolor: text1; mso-themetint: 166">한스컨설팅 대표<SPAN lang=EN-US> kthan@assist.ac.kr<o:p></o:p></SPAN></SPAN></SPAN></P>
+<P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="LINE-HEIGHT: 200%; FONT-FAMILY: 굴림; COLOR: #595959; FONT-SIZE: 11pt; mso-themecolor: text1; mso-themetint: 166">필자는 서울대 섬유학과를 졸업하고 미국 애크론대에서 공학 박사 학위를 취득했다<SPAN lang=EN-US>. </SPAN>핀란드 헬싱키경제경영대에서 경영학 석사 학위<SPAN lang=EN-US>(MBA)</SPAN>를 받았다<SPAN lang=EN-US>. </SPAN>대우자동차 이사<SPAN lang=EN-US>, IBS</SPAN>컨설팅그룹 상무<SPAN lang=EN-US>, </SPAN>한국리더십센터 소장 등을 지냈고 서울과학종합대학원에서 겸임 교수를 맡고 있다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></P>
+<P><o:p></o:p></SPAN></SPAN></FONT>&nbsp;</P>	            </div>
+	            	            <ul class="author_wrap">
+	            		                <li class="author_info_one">
+	                		                    <span style="display: inline-block; margin-right:2%;">
+	                        <img src="/upload_dir/writer/2016/bc6929d253b76488dd340e546c0a002b.jpg" alt="한근태"/>
+	                    </span>
+	                    	                    <span  style="display: inline-block; font-size: 0.9em;">
+	                        <strong style="font-size: 1.2em;">한근태 |</strong> - (현) 한스컨설팅 대표 <br />
+- 서울과학종합대학원 겸임 교수  <br />
+- 대우자동차 이사  IBS 컨설팅 그룹 상무 <br />
+- 한국리더십센터 소장<br/>kthan@assist.ac.kr<br>
+	                        <a href="/author/article/writer_no/2024">이 필자의 다른 기사 보기</a>
+	                    </span>
+	                </li>
+	                	            </ul>
+	            	            <!-- page-btnArea  -->
+			    <div class="ta-r mg-b50">
+			        			        <a href="/article/view/1303/article_no/6548/ac/a_view" class="btn-basic">이전</a>
+			        			        <a href="/article/index/1303" class="btn-basic">목록</a>
+			        			        <a href="/article/view/1303/article_no/6605/ac/a_view" class="btn-basic">다음</a>
+			        			    </div>
+
+			    			        
+			        <script type="text/javascript">
+			        (function($) {
+			           $(document).ready(function(){
+			               //AD 광고 히스토리(우공역)
+			               dataString = "ad_area=3";
+			               // alert(dataString);
+			               $.ajax({
+			                   type : "POSt",
+			                   url : "/proc/ad_history",
+			                   data : dataString,
+			                   headers: { "cache-control": "no-cache","pragma": "no-cache" },
+			                   dataType : "json",
+			                   cache: false,
+			                   async: true, // true: 비동기, false: 동기
+			                   success : function(data)
+			                   {
+			                       if(data['code'] == 1)
+			                       {
+			                           // alert(data['msg']);
+			                       }
+			                       else
+			                       {
+			                           // alert(data['msg']);
+			                       }
+			                   },
+			                   error : function(jqXHR,textStatus, errorThrown) {
+			                       //alert("에러 jqXHR : " + jqXHR.status);
+			                       alert(textStatus + ", " + errorThrown);
+			                       return false;
+			                   }
+			                });
+			           });
+			        })(jQuery);
+			        </script>
+			    	            	            <div style="font-size: 1.2em; font-weight: bold; padding:3% 0 1% 0;">인기기사</div>
+	            <ul class="relate_article">
+	                	                <li>
+                        <a href="/article/view/1303/article_no/11126/ac/a_view">
+                        <p class="relate_thumb">
+                            <img src="/upload_dir/article/2023/12/2e3f7d84b650dbd40bbf54231a6fdc69.jpg" style="width:100%;">
+                        </p>
+	                    <p class="rarticle_cate">자기계발 <span class="rarticle_day">2024년 1월 Issue 1</span></p>
+	                    <strong class="rarticle_tit">노력하면 성공한다고요?</strong>
+	                    </a>
+	                </li>
+	                	                <li>
+                        <a href="/article/view/1101/article_no/11124/ac/a_view">
+                        <p class="relate_thumb">
+                            <img src="/upload_dir/article/2023/12/36e42070f6b4551c2c23fbfd3c94bb34.jpg" style="width:100%;">
+                        </p>
+	                    <p class="rarticle_cate">스페셜리포트 <span class="rarticle_day">2024년 1월 Issue 1</span></p>
+	                    <strong class="rarticle_tit">AI와 무슨 일을, 어떻게 할 것인가?
+구성원이 제대로 알게 해야 혁신 기회</strong>
+	                    </a>
+	                </li>
+	                	                <li>
+                        <a href="/article/view/1202/article_no/11118/ac/a_view">
+                        <p class="relate_thumb">
+                            <img src="/upload_dir/article/2023/12/eaabf6d8b46435e154d155ecc015406a.jpg" style="width:100%;">
+                        </p>
+	                    <p class="rarticle_cate">마케팅/세일즈 <span class="rarticle_day">2024년 1월 Issue 1</span></p>
+	                    <strong class="rarticle_tit">보테가 베네타가 SNS를 멈춘 이유?</strong>
+	                    </a>
+	                </li>
+	                	            </ul>
+	        </div>
+	        	    </div>
+	</div>
+	<!-- 서비스 신청하기 -->
+	</div>
+<!-- 카카오 공유하기 스크립트 -->
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type="text/javascript">
+(function($){
+    $(document).ready(function($) {
+
+         //카카토톡 공유하기
+        Kakao.init("e98b738465e8fda9328835e5580a81ef");     // 사용할 앱의 JavaScript 키를 설정해 주세요.
+        sendLink = function() {
+                    	
+                  Kakao.Share.sendDefault({
+                  	  objectType: 'feed',
+                  	  content: {
+						    title: '[DBR] 우리는 관계 속에서 행복하다, 그 출발점은 自己愛이다',
+						    description: 'Article at a Glance &#8211; 자기계발 사회적 동물인 인간은 대인관계를 맺어야 한다. 대인관계의 출발은 자기애에서 시작된다. 자신을 사랑하지 않는 사람은 다른 사람과의 관계도 건전하게 맺을 수 없다. 대인관계를 잘 맺으려면 친밀감을 형성해야 한다. 친밀감을 잘 형성하려면 타인에 대해 민감하고 잘 반응하며 일관성을 갖춰야 한다. 그래야 상 ...',
+						    imageUrl:  'https://dbr.donga.com/upload_dir/old/ed4ccf7f35.png"',
+						    link: {
+						      mobileWebUrl: 'https://dbr.donga.com/article/view/1303/article_no/6553',
+						      webUrl: 'https://dbr.donga.com/article/view/1303/article_no/6553/ac/magazine',
+						    },
+					  }
+                  });           
+        }
+
+        //인쇄 팝업창 띄우기
+        $("#btn_print").click(function(){
+             window.open('/article/pop_print/1303/article_no/6553');
+             return false;
+        });
+        $("#btn_print2").click(function(){
+             window.open('/article/pop_print/1303/article_no/6553');
+             return false;
+        });
+
+        $(window).scroll(function(){
+                //진행바 동작하기
+                var totalHeight = $(document).height() - $(window).height();
+                var currentHeight = $(document).scrollTop();
+                var ingWidth = (currentHeight/(totalHeight-600))*100;
+                // console.log(currentHeight);
+                var barHeight=450;                //console.log("currentHeight:"+currentHeight+"|barHeight:"+barHeight);
+                if(currentHeight > barHeight){
+                    $('.fixNavi').show();
+                }else{
+                    $('.fixNavi').hide();
+                }
+                $('.ing').css('width', ingWidth+'%');
+            });
+        $(window).scroll();
+
+    	//폰트 크기 제어
+	    $('.btn-fontsize').click( function(){
+	         // alert($('.cont-article').css('font-size'));
+	        if($('.cont-article').css('font-size') == '16px'){
+	            $('.cont-article').css('font-size', '18px');
+	        }else if($('.cont-article').css('font-size') == '18px'){
+	            $('.cont-article').css('font-size', '13px');
+	        }else{
+	            $('.cont-article').css('font-size', '16px');
+	        }
+	        // alert($('.cont-article').css('font-size') );
+	    });
+
+        // 사이드 메뉴 열기
+        $('.fixNavi-area .btn_sidemenu_fixed').click(function(){
+            $(this).hide();
+            $('.fixNavi-area .btn_sidemenu_active_fixed').show();
+            $('.fixNavi_gnb').show();
+            return false;
+        });
+        $('.fixNavi-area .btn_sidemenu_active_fixed').click(function(){
+            $(this).hide();
+            $('.fixNavi-area .btn_sidemenu_fixed').show();
+            $('.fixNavi_gnb').hide();
+            return false;
+        });
+
+        // 사이드 메뉴 닫기 버튼
+        $('.fixNavi-area .btn-sidemenu-close').click(function(){
+            $('.fixNavi-area .btn_sidemenu_fixed').show();
+            $('.fixNavi-area .btn_sidemenu_active_fixed').hide();
+            $('.fixNavi_gnb').hide();
+            return false;
+        });
+
+        $('.func-pg .icon-sns-more').click(function(){
+            $(this).next('other-sns').toggle();
+            return false;
+        });
+
+        $('.fixNavi-area .btn-scrap').click(function(){
+            $(this).next().toggle();
+            return false;
+        });
+
+        // 다른공유기능 show/hide
+        $('#m-btn-ftx-share').click(function(){
+            $('.fix-other-share').toggle();
+            return false;
+        });
+
+        // 다른sns기능 show/hide
+        $('.btn-ftx-sns').click(function(){
+           $('.fix-other-sns').toggle();
+            return false;
+        });
+
+        //PDF 다운로드
+        $('.btn-pdfdown').click(function(){
+                            alert('로그인 후 이용하세요.');
+                //return divopen('login-poplayer');
+                location.href="/login?re_url=/article/view/1303/article_no/6553/ac/magazine";
+                return;
+            
+                            if(confirm('연간ㆍ월간 서비스/PDF Only이용 고객만이 PDF 다운로드 가능합니다.\nPDF Only 상품을 구매하러 가시겠습니까?')) {
+                    $(location).attr('href','/service/general');
+                    return;
+                } else {
+                    return false;
+                }
+            
+                        var msg = 'PDF 다운로드 횟수가 차감됩니다.\n신중히 다운로드 받아주세요.\n다운로드 하시겠습니까?';
+                        if(confirm(msg)){
+                $("#pdfDownloadFrm").attr('action','/pdf/pdf_download/');
+                $("#pdfDownloadFrm").submit();
+                return;
+            } else {
+                return false;
+            }
+        });
+
+    });
+})(jQuery);
+</script>
+<!--//컨텐츠-->
+    </section>
+
+    <footer>
+         <div class="footer02">
+        <div>
+            <span><a href="/intro">서비스 소개</a></span>
+            <span><a href="/intro/util">이용약관</a></span>
+            <span><a href="/intro/copyright">저작권 정책</a></span>
+            <span><a href="/intro/privacy">개인정보처리방침</a></span>
+            <span><a href="/intro/email">이메일 무단수집 거부</a></span>
+            <span><a href="/intro/sitemap">사이트맵</a></span>
+            <span><a href="/upload_file/dbr_media_202303.pdf" target="_blank">광고문의</a></span>
+        </div>
+    </div>
+    <div class="footer03">
+        <div class="foot_copy">
+            <div class="mw_size">
+                <div class="footer_grid">
+                    <div class="left">
+                        <div class="foot_logo">
+                            <img src="/images/2022/logo_footer_1.png" alt="DBR" />
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p style="font-weight: bold;">동아비즈니스리뷰 사업자 정보
+                            <span id="info_open"><a style="cursor:pointer;" id="fopen"><img src="https://dbr.donga.com/images/common/logo-footer_open.png" alt="" border="0" /></a></span>
+                            <span id="info_close" style="display: none;"><a style="cursor:pointer;" id="fclose"><img src="https://dbr.donga.com/images/common/logo-footer_close.png" alt="" border="0" /></a></span>
+                        </p>
+                        <div id="corpinfo" class="txt" style="display: none;">
+                            <p class="mgt10">㈜동아미디어엔 (온라인비즈니스)<br />
+                               서울시 서대문구 충정로29 동아일보사빌딩 15층<br />
+                               통신판매업신고: 제 서대문 1096호<br />
+                               사업자등록번호: 110-81-47558<br />
+                               대표이사: 김승환</p><br />
+                            <p class="mgt10">㈜동아일보사<br />
+                               서울시 종로구 청계천로1 동아일보사빌딩<br />
+                               등록번호: 종로라00434 ㅣ 등록일자: 2014.01.16<br />
+                               사업자등록번호: 102-81-03525<br />
+                               대표자: 김재호</p><br />
+                            <!--p class="call_box">
+                                <span>고객센터(배송, 구독)</span>: <strong>02-6718-7802 </strong>
+                            </p-->
+                        </div>
+                        <div class="copyright_txt">
+                            Copyright ⒸDUNET Inc. All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+
+                <div class="foot_kocca" >
+                    <img src="https://dbr.donga.com/images/common/mark_gcs.png" alt="Good Content Service kocca" class="" />
+                </div>
+            </div>
+	    </div>
+    </div>
+    </footer>
+
+<!-- 메인 기사 슬라이더 : 박은진 2023-06-19 -->
+ 
+    <!-- 모바일 햄버거 메뉴-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="/js/2022/mo_menu.js?v=20240104064851""></script>
+    <!-- 모바일 햄버거 메뉴-->
+<!-- AceCounter Log Gathering Script V.7.5.2013010701 -->
+<script language='javascript'>
+    var _AceGID=(function(){var Inf=['gtp12.acecounter.com','8080','AH3A41136969111','AW','0','NaPm,Ncisy','ALL','0']; var _CI=(!_AceGID)?[]:_AceGID.val;var _N=0;var _T=new Image(0,0);if(_CI.join('.').indexOf(Inf[3])<0){ _T.src =( location.protocol=="https:"?"https://"+Inf[0]:"http://"+Inf[0]+":"+Inf[1]) +'/?cookie'; _CI.push(Inf);  _N=_CI.length; } return {o: _N,val:_CI}; })();
+    var _AceCounter=(function(){var G=_AceGID;if(G.o!=0){var _A=G.val[G.o-1];var _G=( _A[0]).substr(0,_A[0].indexOf('.'));var _C=(_A[7]!='0')?(_A[2]):_A[3];    var _U=( _A[5]).replace(/\,/g,'_');var _S=((['<scr','ipt','type="text/javascr','ipt"></scr','ipt>']).join('')).replace('tt','t src="'+location.protocol+ '//cr.acecounter.com/Web/AceCounter_'+_C+'.js?gc='+_A[2]+'&py='+_A[4]+'&gd='+_G+'&gp='+_A[1]+'&up='+_U+'&rd='+(new Date().getTime())+'" t');document.writeln(_S); return _S;} })();
+</script>
+<noscript><img src='http://gtp12.acecounter.com:8080/?uid=AH3A41136969111&je=n&' border='0' width='0' height='0' alt=''></noscript>
+<!-- AceCounter Log Gathering Script End -->
+</div>
+
+<!-- //STEP 1.  프리미엄로그분석 스크립트인 wcslog.js  호출 ( 공통스크립트 /  전환스크립트의 function 들을 모두 담고 있음 )-->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "s_1f4da990f21";
+if (!_nasa) var _nasa={};
+wcs.inflow("donga.com");
+wcs_do(_nasa);
+</script>
+
+<!--뷰저블 분석 분석스크립트 설치 2021-08-25(대행사요청) //rum.beusable.net/script/b201012e105630u245/87573f2782 =>트래킹 코드 교체 2022-12-14 (미래연요청)-->
+<script type="text/javascript">
+(function(w, d, a){
+    w.__beusablerumclient__ = {
+        load : function(src){
+            var b = d.createElement("script");
+            b.src = src; b.async=true; b.type = "text/javascript";
+            d.getElementsByTagName("head")[0].appendChild(b);
+        }
+    };w.__beusablerumclient__.load(a + "?url=" + encodeURIComponent(d.URL));
+})(window, document, "//rum.beusable.net/load/b221114e103039u633");
+</script>
+</body>
+</html>

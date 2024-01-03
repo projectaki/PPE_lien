@@ -1,263 +1,160 @@
-   #[1]alternate [2]편집 [3]위키백과 (ko) [4]위키백과 아톰 피드
+   #alternate 편집 위키백과 (ko) 위키백과 아톰 피드
 
-   [5]본문으로 이동
+   본문으로 이동
 
    [ ] 주 메뉴
    주 메뉴
    (BUTTON) 사이드바로 이동 (BUTTON) 숨기기
    둘러보기
-     * [6]대문
-     * [7]최근 바뀜
-     * [8]요즘 화제
-     * [9]임의의 문서로
-     * [10]기부
+     * 대문
+     * 최근 바뀜
+     * 요즘 화제
+     * 임의의 문서로
+     * 기부
 
    사용자 모임
-     * [11]사랑방
-     * [12]사용자 모임
-     * [13]관리 요청
+     * 사랑방
+     * 사용자 모임
+     * 관리 요청
 
    편집 안내
-     * [14]도움말
-     * [15]정책과 지침
-     * [16]질문방
+     * 도움말
+     * 정책과 지침
+     * 질문방
 
    언어
-   이 위키백과에서 언어 링크는 문서 제목 건너편의 문서 최상단에 있습니다. [17]최상단으로 이동합니다.
-   [18]위키백과
-   [19]검색
+   이 위키백과에서 언어 링크는 문서 제목 건너편의 문서 최상단에 있습니다. 최상단으로 이동합니다.
+   위키백과
+   검색
    ____________________
    (BUTTON) 검색
 
-     * [20]계정 만들기
-     * [21]로그인
+     * 계정 만들기
+     * 로그인
 
    [ ] 개인 도구
-     * [22]계정 만들기
-     * [23]로그인
+     * 계정 만들기
+     * 로그인
 
-   로그아웃한 편집자를 위한 문서 [24]더 알아보기
-     * [25]기여
-     * [26]토론
+   로그아웃한 편집자를 위한 문서 더 알아보기
+     * 기여
+     * 토론
 
 목차
 
    (BUTTON) 사이드바로 이동 (BUTTON) 숨기기
-     * [27]처음 위치
-     * [28]1컴퓨터 과학, 수학
-     * [29]2미디어, 엔터테인먼트
+     * 처음 위치
+     * 1컴퓨터 과학, 수학
+     * 2미디어, 엔터테인먼트
        (BUTTON) 미디어, 엔터테인먼트 하위섹션 토글하기
-          + [30]2.1영화
-          + [31]2.2TV 드라마
-     * [32]3같이 보기
+          + 2.1영화
+          + 2.2TV 드라마
+     * 3같이 보기
 
    [ ] 목차 토글
 
 관계
 
    [ ] 4개 언어
-     * [33]English
-     * [34]日本語
-     * [35]Simple English
-     * [36]中文
+     * English
+     * 日本語
+     * Simple English
+     * 中文
 
-   [37]링크 편집
+   링크 편집
 
-     * [38]문서
-     * [39]토론
+     * 문서
+     * 토론
 
    [ ] 한국어
 
-     * [40]읽기
-     * [41]편집
-     * [42]역사 보기
+     * 읽기
+     * 편집
+     * 역사 보기
 
    [ ] 도구
    도구
    (BUTTON) 사이드바로 이동 (BUTTON) 숨기기
    동작
-     * [43]읽기
-     * [44]편집
-     * [45]역사 보기
+     * 읽기
+     * 편집
+     * 역사 보기
 
    일반
-     * [46]여기를 가리키는 문서
-     * [47]가리키는 글의 최근 바뀜
-     * [48]파일 올리기
-     * [49]특수 문서 목록
-     * [50]고유 링크
-     * [51]문서 정보
-     * [52]이 문서 인용하기
-     * [53]축약된 URL 얻기
-     * [54]위키데이터 항목
+     * 여기를 가리키는 문서
+     * 가리키는 글의 최근 바뀜
+     * 파일 올리기
+     * 특수 문서 목록
+     * 고유 링크
+     * 문서 정보
+     * 이 문서 인용하기
+     * 축약된 URL 얻기
+     * 위키데이터 항목
 
    인쇄/내보내기
-     * [55]책 만들기
-     * [56]PDF로 다운로드
-     * [57]인쇄용 판
+     * 책 만들기
+     * PDF로 다운로드
+     * 인쇄용 판
 
    위키백과, 우리 모두의 백과사전.
-   [58]위키낱말사전에
+   위키낱말사전에
    관련된 항목이 있습니다.
-   [59]관계
+   관계
 
    관계는 다음 뜻으로 쓰인다.
-     * [60]관계(官階)는 예전 중국과 한국 관직의 위계를 말한다.
-     * [61]인간 관계
+     * 관계(官階)는 예전 중국과 한국 관직의 위계를 말한다.
+     * 인간 관계
 
-컴퓨터 과학, 수학[[62]편집]
+컴퓨터 과학, 수학[편집]
 
-     * [63]관계 : 수학과 관련된 용어
-     * [64]관계 : 데이터베이스와 관련된 용어
+     * 관계 : 수학과 관련된 용어
+     * 관계 : 데이터베이스와 관련된 용어
 
-미디어, 엔터테인먼트[[65]편집]
+미디어, 엔터테인먼트[편집]
 
-영화[[66]편집]
+영화[편집]
 
-     * 《[67]관계》(1972년) : 대한민국의 영화
-     * 《[68]관계》(2014년) : 대한민국의 영화
+     * 《관계》(1972년) : 대한민국의 영화
+     * 《관계》(2014년) : 대한민국의 영화
 
-TV 드라마[[69]편집]
+TV 드라마[편집]
 
-     * 《[70]관계》(1984년) : [71]KBS 드라마게임
-     * 《[72]관계》(1985년) : [73]KBS 드라마게임
+     * 《관계》(1984년) : KBS 드라마게임
+     * 《관계》(1985년) : KBS 드라마게임
 
-같이 보기[[74]편집]
+같이 보기[편집]
 
-     * [75]제목에 "관계" 항목을 포함한 모든 문서
-     * [76]어피니티
-     * [77]릴레이션
+     * 제목에 "관계" 항목을 포함한 모든 문서
+     * 어피니티
+     * 릴레이션
 
-   [78]Disambiguation icon 이 문서는 명칭은 같지만 대상이 다를 때에 쓰이는 [79]동음이의어 문서입니다.
-   어떤 링크가 [80]이 문서를 가리키고 있다면, 그 링크를 알맞게 고쳐 주세요.
-   원본 주소
-   "[81]https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272"
-   [82]분류:
-     * [83]동음이의어 문서
-     * [84]동음이의어 작품
+   Disambiguation icon 이 문서는 명칭은 같지만 대상이 다를 때에 쓰이는 동음이의어 문서입니다.
+   어떤 링크가 이 문서를 가리키고 있다면, 그 링크를 알맞게 고쳐 주세요.
+   원본 주소 "https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272"
+   분류:
+     * 동음이의어 문서
+     * 동음이의어 작품
 
    숨은 분류:
-     * [85]위키낱말사전과 연결된 문서
-     * [86]모든 동음이의어 문서
+     * 위키낱말사전과 연결된 문서
+     * 모든 동음이의어 문서
 
      * 이 문서는 2023년 10월 26일 (목) 09:58에 마지막으로 편집되었습니다.
-     * 모든 문서는 [87]크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0에 따라 사용할 수 있으며, 추가적인 조건이
-       적용될 수 있습니다. 자세한 내용은 [88]이용 약관을 참고하십시오.
-       Wikipedia®는 미국 및 다른 국가에 등록되어 있는 [89]Wikimedia Foundation, Inc. 소유의
-       등록 상표입니다.
+     * 모든 문서는 크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0에 따라 사용할 수 있으며, 추가적인 조건이 적용될 수
+       있습니다. 자세한 내용은 이용 약관을 참고하십시오.
+       Wikipedia®는 미국 및 다른 국가에 등록되어 있는 Wikimedia Foundation, Inc. 소유의 등록
+       상표입니다.
 
-     * [90]개인정보처리방침
-     * [91]위키백과 소개
-     * [92]면책 조항
-     * [93]행동 강령
-     * [94]개발자
-     * [95]통계
-     * [96]쿠키 정책
-     * [97]모바일 보기
+     * 개인정보처리방침
+     * 위키백과 소개
+     * 면책 조항
+     * 행동 강령
+     * 개발자
+     * 통계
+     * 쿠키 정책
+     * 모바일 보기
 
-     * [98]Wikimedia Foundation
-     * [99]Powered by MediaWiki
+     * Wikimedia Foundation
+     * Powered by MediaWiki
 
      * (BUTTON) 내용 폭 제한 전환
-
-References
-
-   1. https://ko.m.wikipedia.org/wiki/관계
-   2. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-   3. https://ko.wikipedia.org/w/opensearch_desc.php
-   4. https://ko.wikipedia.org/w/index.php?title=특수:최근바뀜&feed=atom
-   5. https://ko.wikipedia.org/wiki/관계#bodyContent
-   6. https://ko.wikipedia.org/wiki/위키백과:대문
-   7. https://ko.wikipedia.org/wiki/특수:최근바뀜
-   8. https://ko.wikipedia.org/wiki/포털:요즘_화제
-   9. https://ko.wikipedia.org/wiki/특수:임의문서
-  10. https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_ko.wikipedia.org&uselang=ko
-  11. https://ko.wikipedia.org/wiki/위키백과:사랑방
-  12. https://ko.wikipedia.org/wiki/위키백과:사용자_모임
-  13. https://ko.wikipedia.org/wiki/위키백과:요청
-  14. https://ko.wikipedia.org/wiki/위키백과:도움말
-  15. https://ko.wikipedia.org/wiki/위키백과:정책과_지침
-  16. https://ko.wikipedia.org/wiki/위키백과:질문방
-  17. https://ko.wikipedia.org/wiki/관계#p-lang-btn
-  18. https://ko.wikipedia.org/wiki/위키백과:대문
-  19. https://ko.wikipedia.org/wiki/특수:검색
-  20. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계
-  21. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계
-  22. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계
-  23. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계
-  24. https://ko.wikipedia.org/wiki/도움말:소개
-  25. https://ko.wikipedia.org/wiki/특수:내기여
-  26. https://ko.wikipedia.org/wiki/특수:내사용자토론
-  27. https://ko.wikipedia.org/wiki/관계
-  28. https://ko.wikipedia.org/wiki/관계#컴퓨터_과학,_수학
-  29. https://ko.wikipedia.org/wiki/관계#미디어,_엔터테인먼트
-  30. https://ko.wikipedia.org/wiki/관계#영화
-  31. https://ko.wikipedia.org/wiki/관계#TV_드라마
-  32. https://ko.wikipedia.org/wiki/관계#같이_보기
-  33. https://en.wikipedia.org/wiki/Relationship
-  34. https://ja.wikipedia.org/wiki/関係
-  35. https://simple.wikipedia.org/wiki/Relationship
-  36. https://zh.wikipedia.org/wiki/关系
-  37. https://www.wikidata.org/wiki/Special:EntityPage/Q62075492#sitelinks-wikipedia
-  38. https://ko.wikipedia.org/wiki/관계
-  39. https://ko.wikipedia.org/wiki/토론:관계
-  40. https://ko.wikipedia.org/wiki/관계
-  41. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-  42. https://ko.wikipedia.org/w/index.php?title=관계&action=history
-  43. https://ko.wikipedia.org/wiki/관계
-  44. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-  45. https://ko.wikipedia.org/w/index.php?title=관계&action=history
-  46. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계
-  47. https://ko.wikipedia.org/wiki/특수:링크최근바뀜/관계
-  48. https://ko.wikipedia.org/wiki/위키백과:파일_올리기
-  49. https://ko.wikipedia.org/wiki/특수:특수문서
-  50. https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272
-  51. https://ko.wikipedia.org/w/index.php?title=관계&action=info
-  52. https://ko.wikipedia.org/w/index.php?title=특수:이문서인용&page=관계&id=35818272&wpFormIdentifier=titleform
-  53. https://ko.wikipedia.org/w/index.php?title=특수:UrlShortener&url=https://ko.wikipedia.org/wiki/%EA%B4%80%EA%B3%84
-  54. https://www.wikidata.org/wiki/Special:EntityPage/Q62075492
-  55. https://ko.wikipedia.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계
-  56. https://ko.wikipedia.org/w/index.php?title=특수:DownloadAsPdf&page=관계&action=show-download-screen
-  57. https://ko.wikipedia.org/w/index.php?title=관계&printable=yes
-  58. https://ko.wikipedia.org/wiki/위키낱말사전
-  59. https://ko.wiktionary.org/wiki/관계
-  60. https://ko.wikipedia.org/wiki/산계_(관직)
-  61. https://ko.wikipedia.org/wiki/인간_관계
-  62. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=1
-  63. https://ko.wikipedia.org/wiki/관계_(수학)
-  64. https://ko.wikipedia.org/wiki/관계_(데이터베이스)
-  65. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=2
-  66. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=3
-  67. https://ko.wikipedia.org/wiki/관계_(1972년_영화)
-  68. https://ko.wikipedia.org/wiki/관계_(2014년_영화)
-  69. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=4
-  70. https://ko.wikipedia.org/w/index.php?title=관계_(1984년_드라마)&action=edit&redlink=1
-  71. https://ko.wikipedia.org/wiki/KBS_드라마게임
-  72. https://ko.wikipedia.org/w/index.php?title=관계_(1985년_드라마)&action=edit&redlink=1
-  73. https://ko.wikipedia.org/wiki/KBS_드라마게임
-  74. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=5
-  75. https://ko.wikipedia.org/wiki/특수:검색/intitle:"관계"
-  76. https://ko.wikipedia.org/wiki/어피니티
-  77. https://ko.wikipedia.org/wiki/릴레이션
-  78. https://ko.wikipedia.org/wiki/파일:Disambig_colour.svg
-  79. https://ko.wikipedia.org/wiki/위키백과:동음이의어_문서
-  80. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계
-  81. https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272
-  82. https://ko.wikipedia.org/wiki/특수:분류
-  83. https://ko.wikipedia.org/wiki/분류:동음이의어_문서
-  84. https://ko.wikipedia.org/wiki/분류:동음이의어_작품
-  85. https://ko.wikipedia.org/wiki/분류:위키낱말사전과_연결된_문서
-  86. https://ko.wikipedia.org/wiki/분류:모든_동음이의어_문서
-  87. https://creativecommons.org/licenses/by-sa/4.0/deed.ko
-  88. https://wikimediafoundation.org/wiki/Terms_of_Use/ko
-  89. http://www.wikimediafoundation.org/
-  90. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
-  91. https://ko.wikipedia.org/wiki/위키백과:소개
-  92. https://ko.wikipedia.org/wiki/위키백과:면책_조항
-  93. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
-  94. https://developer.wikimedia.org/
-  95. https://stats.wikimedia.org/#/ko.wikipedia.org
-  96. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
-  97. https://ko.m.wikipedia.org/w/index.php?title=관계&mobileaction=toggle_view_mobile
-  98. https://wikimediafoundation.org/
-  99. https://www.mediawiki.org/

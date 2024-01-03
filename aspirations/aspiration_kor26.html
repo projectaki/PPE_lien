@@ -1,16 +1,2605 @@
-HTTP/1.1 200 OK
-Content-Length: 1463
-Content-Language: ko-KR
-Content-Type: text/html; charset=utf-8
-Expires: Wed, 29 Nov 2023 09:22:36 GMT
-Cache-Control: max-age=0, no-cache, no-store
-Pragma: no-cache
-Date: Wed, 29 Nov 2023 09:22:36 GMT
-Connection: keep-alive
-Set-Cookie: __smVisitorID=zuQMFTfKdFB; Expires=Thu, 28-Nov-2024 09:22:36 GMT; Path=/
-Set-Cookie: __smVisitorID=D_o_7Kgr68Z; Expires=Thu, 28-Nov-2024 09:22:36 GMT; Path=/
-Set-Cookie: __smVisitorID=DqRBwjtqCkm; Expires=Thu, 28-Nov-2024 09:22:36 GMT; Path=/
-Set-Cookie: __smVisitorID=PG888zCsuSj; Max-Age=31536000; Path=/; HttpOnly
-Set-Cookie: __smVisitorID=G1EktT2xISp; Expires=Thu, 28-Nov-2024 09:22:36 GMT; Path=/
-Set-Cookie: JSESSIONID=UeMIAA8anfpBuqsPDMAFbDmQp6PStht2vwQtvwc1x8hv9MJTnReapFXHgEi1Xk0C.bWRjX2RvbWFpbi9tZGNvd2FwMS1tZGNhcHAwMQ==; Domain=.krx.co.kr; Path=/; HttpOnly
 
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=yes">
+	<meta name="author" content="한국거래소" />
+	<meta name="description" content="증권·파생상품의 시장정보(Marketdata), 공매도정보, 투자분석정보(SMILE) 등 한국거래소의 정보데이터를 통합하여 제공 서비스" />
+	<meta name="keywords" content="정보데이터시스템 데이터시스템 한국거래소 통계 KRX통계 한국거래소정보 시장정보 주식 한국거래소데이터 KRX 한국거래소공매도 공매도 투자분석정보 증권투자정보포털 코스닥기술분석보고서 분석보고서" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="KRX 정보데이터시스템" />
+	<meta property="og:description" content="증권·파생상품의 시장정보(Marketdata), 공매도정보, 투자분석정보(SMILE) 등 한국거래소의 정보데이터를 통합하여 제공 서비스" />
+	<meta name="naver-site-verification" content="222ad2f14a7a611c5494c898d311a8d7b61ba13e"/>
+	<meta name="robots" content="index,follow" >
+	
+		
+			
+				
+				
+					
+				
+			
+		
+	
+	<title>수익률 상관관계 - KRX | 정보데이터시스템</title>
+	<script type="text/javascript" src="/inc/lib/jquery/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/inc/lib/jquery/jquery-ui-1.12.1.custom.min.css" />
+<script type="text/javascript" src="/inc/lib/jquery/jquery-ui-1.12.1.custom.min.js"></script>
+<script type="text/javascript" src="/inc/lib/scroll/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="/inc/lib/scroll/slimScrollHorizontal.js?v=20220108_2"></script>
+<script type="text/javascript" src="/inc/lib/lodash/lodash-3.10.1.min.js"></script>
+
+      <script type="text/javascript">
+      	if (!Object.assign) Object.assign = _.assign;
+      </script>
+      
+<script type="text/javascript" src="/WEB-APP/webponent/ci/agent.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/ci/util.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/ci/ui.js"></script>
+<!-- getDevice not defined --><script type="text/javascript" src="/inc/js/mdc.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/js/mdc.lang.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/js/mdc.module.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/js/mdc.util.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/js/mdc.layer.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/js/mdc.validate.js?v=20231229_2 "></script>
+
+      <script type="text/javascript">
+      	/*
+				if (ci.agent.isMobile) {
+					if (location.pathname.indexOf('/contents/MDC/') > -1) location.href='/contents/MMC/MAIN/main/index.cmd';
+				} else {
+					if (location.pathname.indexOf('/contents/MMC/') > -1) location.href='/contents/MDC/MAIN/main/index.cmd';
+				}
+				*/
+      	mdc.lang.setLocale(document.querySelector('html').lang);
+				mdc.lang.setResources();
+
+				if (!location.origin) {
+					location.origin = location.protocol + '//' + location.hostname;
+					if (location.port) location.origin += ':' + location.port;
+				}
+      </script>
+      
+ 
+	<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/dialog/dialog.css" />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/dialog/layerlink.css" />
+<link rel="stylesheet" type="text/css" href="/templets/mdc_hard/css/common.css?v=20231229_2 " />
+<link rel="stylesheet" type="text/css" href="/templets/mdc_hard/css/dev.css?v=20231229_2 " />
+<link rel="stylesheet" type="text/css" href="/inc/lib/calendar/css/pc/calendar.css?v=20231229_2 " />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/grid2.0/css/webponent.grid.css" />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/grid2.0/css/webponent.grid.flat.css?v=20230707_5" />
+<link rel="stylesheet" type="text/css" href="/templets/mdc/css/grid.css?v=20230707_5" />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/grid2.0/css/webponent.pagingUI.css" />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/grid2.0/css/webponent.Tree.css" />
+<link rel="stylesheet" type="text/css" href="/inc/lib/ci-grid/css/ci-grid.css?v=20231229_2 " />
+<link rel="stylesheet" type="text/css" href="/WEB-APP/webponent/chart2.0/lib/chart/webponent.chart.css" />
+<link rel="stylesheet" type="text/css" href="/inc/lib/d3/custom-chart.css" />
+<link rel="stylesheet" type="text/css" href="/inc/lib/Nwagon/Nwagon.css" />
+<script type="text/javascript" src="/WEB-APP/webponent/dialog/dialog.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/dialog/layerlink.js"></script>
+<script type="text/javascript" src="/templets/mdc_hard/js/common.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/inc/lib/calendar/calendar.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/webponent.licenseKey.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/external/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/webponent.grid.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/external/webponent.pagingUI.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/webponent.grid.UIplugin.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/external/json2.min.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/external/lz-string.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/webponent.report.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/grid2.0/webponent.grid.AjaxTree.js"></script>
+<script type="text/javascript" src="/inc/lib/ci-grid/js/ci-grid-1.00.0.js?v=20231229_2 "></script>
+<script type="text/javascript" src="/webponent.licenseKey.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/comm/raphael.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/comm/webponent.comm.common.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/comm/webponent.comm.export.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/chart/webponent.chart.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/chart/webponent.chart.style.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/chart/webponent.chart.option.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/chart/webponent.chart.series.js"></script>
+<script type="text/javascript" src="/inc/lib/d3/d3.v3.min.js"></script>
+<script type="text/javascript" src="/inc/lib/d3/d3.v4.min.js"></script>
+<script type="text/javascript" src="/inc/lib/d3/queue.v1.min.js"></script>
+<script type="text/javascript" src="/inc/lib/d3/topojson.v1.min.js"></script>
+<script type="text/javascript" src="/inc/lib/Nwagon/Nwagon.js"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.horizon.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.korea.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.pie.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.scatterplot.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.treemap.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.radar.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.shaped.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.gauge.style.js?v=20230707_5"></script>
+<script type="text/javascript" src="/WEB-APP/webponent/chart2.0/lib/visual/webponent.visual.angular.js?v=20230707_5"></script>
+<script type="text/javascript" src="/inc/lib/atoh/atoh.js"></script>
+
+	
+
+	<style type="text/css">
+		.tab.type02_fix.scrolldown li {margin-right:1px;width:calc((100% - 6px)/5);}
+		.tab.type03.scrolldown li {width:calc((100% - 3px)/2);}
+	</style>
+</head>
+<body>
+<div class="wrap">
+	<header>
+		<h1><a href="/contents/MDC/HARD/hardController/MDCHARD001.cmd"><img src="/templets/mdc_hard/img/logo.png" alt=""></a></h1>
+		<div class="btnLang">
+			<button type="button" onclick="kor();" class="btn_lang on"><span>KOR</span></button>
+			<button type="button" onclick="eng();" class="btn_lang"><span>ENG</span></button>
+	    </div>
+		<form id="tempFrm" action="/contents/MDC/HARD/hardController/changeLanguage.cmd" method="post">
+			<input type="hidden" name="language" value=""/>
+		</form>
+		<script>
+		function eng(){
+			mdc.util.setCookie("lang","en",365);
+			$("#tempFrm input").val('en');
+			$("#tempFrm").submit();
+		}
+		function kor(){
+			$("#tempFrm input").val('ko');
+			mdc.util.setCookie("lang","ko_KR",365);
+			$("#tempFrm").submit();
+			
+		}
+		</script>
+		<button><img src="/templets/mdc_hard/img/menu_tit1.png" alt="전체메뉴 열기"><img src="/templets/mdc_hard/img/menu_tit2.png" alt="전체메뉴 닫기"></button>
+		<div class="header_toggles">
+			<div>
+				
+					
+						<h5>서비스 소개</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/INFO/informationController/MDCINFO001.cmd" target="_blank">정보데이터시스템 소개</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/INFO/informationController/MDCINFO002.cmd" target="_blank">이용안내</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/INFO/informationController/MDCINFO003.cmd" target="_blank">마켓데이터 이용약관</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="http://open.krx.co.kr/contents/OPN/05/05000000/OPN05000000.jsp" target="_blank">보도자료</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/COMS/board/MDCCOMS010_S1.cmd?boardId=MDCINFO004" target="_blank">공지사항</a>
+									
+								
+							
+						</p>
+					
+				
+					
+						<h5>통계</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201" target="_blank">기본 통계</a>
+									
+									
+									
+									
+									
+									
+									
+								
+							
+								
+								
+								
+									
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0202" target="_blank">이슈 통계</a>
+									
+									
+									
+									
+									
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0203" target="_blank">공매도 통계</a>
+									
+									
+									
+									
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0204" target="_blank">통계DB 정보</a>
+									
+									
+									
+									
+								
+							
+								
+								
+								
+									
+										<a href="javascript:window.open('/contents/MDC/STAT/dataDic/dictionary/index.cmd?menuId=MDC0205', 'MDC0205', 'width=1000,height=800,resizable=yes'); void(0);">정보데이터 종합사전</a>
+									
+									
+									
+									
+									
+									
+									
+									
+								
+							
+						</p>
+					
+				
+					
+						<h5>쉽게 보는 통계</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0301" target="_blank">주요 통계</a>
+									
+									
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0302" target="_blank">순위 통계</a>
+									
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/EASY/visualController/MDCEASY001.cmd" target="_blank">시각화 통계</a>
+									
+								
+							
+						</p>
+					
+				
+					
+						<h5>깊이 있는 통계</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/HARD/hardController/MDCHARD002.cmd" target="_blank">기업분석보고서</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/HARD/hardController/MDCHARD008.cmd" target="_blank">투자분석정보</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="http://esgportal.kr" target="_blank">ESG 정보</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/HARD/hardController/MDCHARD054.cmd" target="_blank">이용안내</a>
+									
+								
+							
+						</p>
+					
+				
+					
+						<h5>간행물</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/MGZN/publication/MDCMGZN001.cmd?menuId=MDCMGZN001" target="_blank">시장동향</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/MGZN/publication/MDCMGZN001.cmd?menuId=MDCMGZN014" target="_blank">발간자료</a>
+									
+								
+							
+						</p>
+					
+				
+					
+						<h5>데이터 상품</h5>
+						<p>
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/DATA/datasale/index.cmd?viewNm=MDCDATA001" target="_blank">데이터 구입</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/DATA/datasale/index.cmd?viewNm=MDCDATA400" target="_blank">데이터 분배</a>
+									
+								
+							
+								
+								
+								
+									
+									
+									
+									
+									
+									
+									
+									
+										<a href="/contents/MDC/DATA/datasale/index.cmd?viewNm=MDCDATA403" target="_blank">지수 라이센스</a>
+									
+								
+							
+						</p>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+		</div>
+		<ul class="jsDepth2">
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+							
+								<li >
+									<a href="/contents/MDC/HARD/hardController/MDCHARD002.cmd">기업분석보고서</a>
+								</li>
+								
+							
+						
+							
+								<li class="on">
+									<a href="/contents/MDC/HARD/hardController/MDCHARD008.cmd">투자분석정보</a>
+								</li>
+								
+									
+									
+										
+									
+									
+								
+							
+						
+							
+								<li >
+									<a href="http://esgportal.kr">ESG 정보</a>
+								</li>
+								
+							
+						
+							
+								<li >
+									<a href="/contents/MDC/HARD/hardController/MDCHARD054.cmd">이용안내</a>
+								</li>
+								
+							
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+
+		
+			
+		
+			
+		
+			
+		
+			
+				
+					
+						
+					
+						
+							
+								<div class="tab jsDepth3 type02_fix on">
+									<ol>
+										
+											
+												<li class="on">
+
+													<a href="/contents/MDC/HARD/hardController/MDCHARD008.cmd"  >가격정보
+														
+															
+														
+															
+																<span>수익률 상관관계</span>
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+												</li>
+											
+										
+											
+												<li >
+
+													<a href="/contents/MDC/HARD/hardController/MDCHARD023.cmd"  >거래정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+												</li>
+											
+										
+											
+												<li >
+
+													<a href="/contents/MDC/HARD/hardController/MDCHARD028.cmd"  >추세정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+												</li>
+											
+										
+											
+												<li >
+
+													<a href="/contents/MDC/HARD/hardController/MDCHARD036.cmd"  >기업정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+												</li>
+											
+										
+											
+												<li >
+
+													<a href="/contents/MDC/HARD/hardController/MDCHARD046.cmd"  >참고정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+												</li>
+											
+										
+										
+											
+											
+												
+													
+														
+															
+														
+															
+																
+																
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													
+												
+													
+												
+													
+												
+													
+												
+													
+												
+											
+										
+									</ol>
+								</div>
+							
+						
+					
+						
+					
+						
+					
+				
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+
+
+		<div class="tab type02">
+			<ol>
+				
+					
+				
+					
+				
+					
+				
+					
+						
+							
+								
+									
+								
+							
+								
+									
+										
+											
+												<li class="on">
+													<a href="/contents/MDC/HARD/hardController/MDCHARD008.cmd">가격정보
+														
+															
+														
+															
+																<span>수익률 상관관계</span>
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+													<div>
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD008.cmd">가격 유사도 분석</a></p>
+															
+														
+															
+																<p class="on"><a href="/contents/MDC/HARD/hardController/MDCHARD011.cmd">수익률 상관관계</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD014.cmd">상대가격 평균 회귀</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD017.cmd">VWAP</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD020.cmd">최우선매수(매도)호가 상승(하락) 비율</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD021.cmd">체결가 상향(하향) 비율</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD022.cmd">최종최우선매도(매수)호가 상승(하락) 비율</a></p>
+															
+														
+													</div>
+												</li>
+											
+										
+											
+												<li >
+													<a href="/contents/MDC/HARD/hardController/MDCHARD023.cmd">거래정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+													<div>
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD023.cmd">거래빈도·거래규모</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD024.cmd">수정 거래회전율</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD025.cmd">거래대금·시가총액비율</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD026.cmd">매수·매도불균형</a></p>
+															
+														
+													</div>
+												</li>
+											
+										
+											
+												<li >
+													<a href="/contents/MDC/HARD/hardController/MDCHARD028.cmd">추세정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+													<div>
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD028.cmd">모멘텀</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD029.cmd">단기·장기반전</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD031.cmd">맥클레란 오실레이터</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD032.cmd">트린지수</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD033.cmd">계절효과</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD034.cmd">폭(Breadth)</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD035.cmd">코팍커브</a></p>
+															
+														
+													</div>
+												</li>
+											
+										
+											
+												<li >
+													<a href="/contents/MDC/HARD/hardController/MDCHARD036.cmd">기업정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+													<div>
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD036.cmd">실적개선랭킹</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD038.cmd">초과이익 지속성</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD039.cmd">매출액이익 변동성</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD040.cmd">총자산이익 변동성</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD041.cmd">성장성 측정지표</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD042.cmd">규모 측정지표</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD043.cmd">수익성 측정지표</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD044.cmd">잠재력 측정지표</a></p>
+															
+														
+													</div>
+												</li>
+											
+										
+											
+												<li >
+													<a href="/contents/MDC/HARD/hardController/MDCHARD046.cmd">참고정보
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</a>
+													<div>
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD046.cmd">Treemap</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD047.cmd">이벤트 효과분석</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD048.cmd">기업 주요 변동사항</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD049.cmd">종목별 시장경보 지정 정보</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD050.cmd">ESG 평가 등급</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD051.cmd">샤프비율</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD052.cmd">투자심리선</a></p>
+															
+														
+															
+																<p ><a href="/contents/MDC/HARD/hardController/MDCHARD053.cmd">종목별 외국인 국적 분류</a></p>
+															
+														
+													</div>
+												</li>
+											
+										
+									
+								
+							
+								
+									
+								
+							
+								
+									
+								
+							
+						
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</ol>
+		</div>
+	</header>
+
+	<section class="title">
+		<h3><span>수익률 상관관계<button></button></span></h3>
+		<p>
+			<img src="/templets/mdc_hard/img/ico_home.png" alt="">
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+						
+							투자분석정보
+							
+								
+									&nbsp;/&nbsp;
+									가격정보
+									
+									
+										
+									
+										
+											&nbsp;/&nbsp;<em>수익률 상관관계</em>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+						
+					
+						
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</p>
+	</section>
+	 
+	 
+	
+		<div class="describe ">
+			
+			 
+				<div>
+					<span>수익률 상관관계</span>
+					<p>조회 대상 종목과 여타 종목간의 과거 수익률 상관관계를 산출하여 상관관계가 높은 종목을 표출합니다.<br>수치가 1에 가까울수록 유사한 패턴을 나타내며, 수치가 0에 가까울수록 상이한 패턴을 지닙니다.</p>
+				</div>
+			
+
+		</div>
+	
+
+	
+
+
+
+
+
+
+
+
+ 
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="list_arrow jsPdfHide">
+  
+    
+  
+    
+  
+    
+  
+    
+      
+        
+          
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                    
+                      
+                        
+                          
+                            
+                              <li class="on"><a href="/contents/MDC/HARD/hardController/MDCHARD011.cmd">상위종목</a></li>
+                            
+                          
+                            
+                              <li ><a href="/contents/MDC/HARD/hardController/MDCHARD012.cmd">차트</a></li>
+                            
+                          
+                            
+                              <li ><a href="/contents/MDC/HARD/hardController/MDCHARD013.cmd">종목비교</a></li>
+                            
+                          
+                        
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                  
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+        
+          
+        
+          
+        
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</ul>
+
+
+
+
+
+
+
+  <section class="content type02">
+
+    
+
+
+
+
+
+
+
+
+
+
+<form class="CI-MDI-COMPONENT-WRAP" name="MDCHARD011_FORM" id="MDCHARD011_FORM" action="null" method="post" onsubmit="return false;">
+	<input type="hidden" name="locale" value="ko_KR"/>
+  
+
+
+        <div class="list_search_term">
+          <table>
+            <colgroup>
+              <col style="width:90px;">
+              <col>
+            </colgroup>
+            <tr>
+              <th scope="col"><span>종목명</span></th>
+              <td>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="searchBoxWrap">
+  <div class="search">
+    <p>
+      <input type="text" id="tboxisuCd_finder_stkisu0" name="tboxisuCd_finder_stkisu0" style="width: 350px;" autocomplete="off" value="005930/삼성전자" title="주식 종목 검색"  >
+      <img name="btnisuCd_finder_stkisu0" id="btnisuCd_finder_stkisu0" src="/pub/img/btn_dbg.png" alt="검색팝업">
+    </p>
+  </div>
+  
+</div>
+<input type="hidden" name="isuCd" id="isuCd_finder_stkisu0" value="KR7005930003" />
+<input type="hidden" name="isuCd2" id="isuCd_finder_stkisu02" value="KR7005930003" />
+<input type="hidden" name="codeNmisuCd_finder_stkisu0" id="codeNmisuCd_finder_stkisu0" value="삼성전자" />
+<input type="hidden" name="param1isuCd_finder_stkisu0" id="param1isuCd_finder_stkisu0" value="ALL" />
+<input type="hidden" name="" id="" value="" />
+
+<script type="text/javascript">
+  mdc.module.setModule({
+    name: 'FINDER_COMPONENT_isuCd_finder_stkisu0',
+    init: 'init',
+    mdi: {
+      name: mdc.module.getMdiModuleName()
+    },
+    function: function (self, api) {
+      var $content = api.getModuleNode();
+      var $sel = $content.select;
+	    var locale = "ko_KR";
+
+      self.init = function () {
+        
+      };
+
+      
+
+      $sel('#btnisuCd_finder_stkisu0').on('click', function () {
+
+        if($sel('#tboxisuCd_finder_stkisu0').val()==""){
+          self.openFinder(false);
+        }else{
+          self.openFinder(true);
+        }
+
+      });
+
+      $sel('#tboxisuCd_finder_stkisu0').on('keydown', function (e) {
+        if (13 == e.keyCode) {
+          if($sel('#tboxisuCd_finder_stkisu0').val()==""){
+            self.openFinder(false);
+          }else{
+            self.openFinder(true);
+          }
+
+        }
+      });
+
+      self.openFinder = function (isKeyDown) {
+        var s_tboxNmVal = '';
+
+        //검색텍스트박스값의 변경이 없을 경우 검색어 안넘어가도록 (전체 검색 개념)
+        var s_defaultVal = '005930/삼성전자';
+        var input = {
+          lang: 'ko_KR',
+          finderCd: 'finder_stkisu',
+          typeNo: '0'
+        };
+        var s_tbox = api.util.getFinderStorage(input);
+
+        if(s_tbox.tbox !== $sel('#tboxisuCd_finder_stkisu0').val() && s_defaultVal !== $sel('#tboxisuCd_finder_stkisu0').val()){
+          s_tboxNmVal = $sel('#tboxisuCd_finder_stkisu0').val();
+        }
+
+        var params = {
+          finderNo: '_finder_stkisu0',
+          finderCd: 'finder_stkisu',
+          typeNo: '0',
+          compValue: '',
+          param1 : $sel('#param1isuCd_finder_stkisu0').val(),
+          tboxId : 'tboxisuCd_finder_stkisu0',
+          tboxNm : s_tboxNmVal,
+          codeValId : 'isuCd_finder_stkisu0',
+          codeNmId : 'codeNmisuCd_finder_stkisu0',
+          pnlid : '',
+          disableCompValue: '',
+          initSearch: 'false'
+        };
+
+        if(!isKeyDown){
+          params.tboxNm = '';
+        }
+
+        if(mdc.validate.checkSearchText(params.tboxNm)){
+          //= (20201120, 김정삼) 자동검색 목록을 선택목록 엔터키 입력 시 검색기 팝업 하지 않는다.
+          //  >>> 개발담당자 로직 확인하자
+          var $searchAuto = $sel('.search-auto');
+          var visble = $searchAuto.is(':visible');
+          // 목록에 1개 있을 때 enter 키인시 선택
+          if ( visble && $searchAuto.find('li').length == 1 ) {
+            $searchAuto.find('li').addClass('on');
+          }
+          var $selLi = $searchAuto.find('li.on');
+
+          if ( visble && $selLi.length ) {
+            $('a', $selLi).click();
+
+            
+
+            return false;
+          }
+          //=/
+					
+					if(params.finderCd == "finder_drvetcidx"){
+	          mdc.layer.openModal({
+	              appendTo: $content.getNode(),
+	              className: 'pop_opened pop_opened1',
+	              id: 'jsLayer_finder_stkisu0',
+	              title: '주식 종목 검색',
+	              width: 563,
+	              height: 530,
+	              url: '/comm/finder/finder_stkisu.jsp',
+	              useCloseButton: false,
+	              ajaxOption: {data: params},
+	              focus: $(this),
+	              afterAppend: function () {
+	                api.module.getModule('FINDER_LAYER__finder_stkisu0').procInit();
+	              }
+                
+	            });
+					} else {          
+	          mdc.layer.openModal({
+	            appendTo: $content.getNode(),
+	            className: 'pop_opened pop_opened1',
+	            id: 'jsLayer_finder_stkisu0',
+	            title: '주식 종목 검색',
+	            width: 548,
+	            height: 'auto',
+	            url: '/comm/finder/finder_stkisu.jsp',
+	            useCloseButton: false,
+	            ajaxOption: {data: params},
+	            focus: $(this),
+	            afterAppend: function () {
+	              api.module.getModule('FINDER_LAYER__finder_stkisu0').procInit();
+	            }
+              
+	          });
+					}
+        }
+      };
+
+      
+      
+      var isEmptyCodeVal = false;
+      $sel('#tboxisuCd_finder_stkisu0').on('keyup', function (e) {
+        if ( e.keyCode != 13 && !isEmptyCodeVal) {
+
+          var s_defaultVal = '005930/삼성전자';
+          var input = {
+            lang: 'ko_KR',
+            finderCd: 'finder_stkisu',
+            typeNo: '0'
+          };
+          var s_tbox = api.util.getFinderStorage(input);
+
+          if(s_tbox.tbox === '' && s_defaultVal === ''){
+            isEmptyCodeVal = true;
+          }
+          else {
+            if(s_tbox.tbox !== $sel('#tboxisuCd_finder_stkisu0').val() && s_defaultVal !== $sel('#tboxisuCd_finder_stkisu0').val()){
+              $sel('#isuCd_finder_stkisu0').val("");
+              $sel('#isuCd_finder_stkisu02').val("");
+              isEmptyCodeVal = true;
+            }
+          }
+
+        }
+      });
+      
+    }
+  });
+
+
+
+  
+  $.fn.defaultAutocomplete = $.fn.autocomplete;
+
+  $.fn.autocomplete = function (options) {
+
+    var _this = this;
+    var isMouseUnder = false;
+
+    var config = {
+      'contextName' : 'output',
+      'viewCount' : 7,
+      'bldPath' : '',
+      'submit' : undefined,
+      'listFn' : undefined,
+      'className' : 'search-auto',
+      'submitClear' :  true,
+      'searchCookie' : false,
+      'searchCookieType' : '',
+      'enterSubmit' : false,
+      'param' : { }
+    };
+
+    if (options != null && options !== undefined) {
+      $.extend(config, options);
+    }
+
+    var $searchAuto = $('<div></div>', {
+      'class' : config.className,
+      'css' : {
+        'display' : 'none'
+      }
+    });
+
+    $(_this).after($searchAuto);
+
+    var submit = function (obj) {
+      if (config.submit) {
+        config.submit(obj);
+      }
+      $searchAuto.html('');
+      $searchAuto.hide();
+      if (config.submitClear) {
+        $(_this).val('');
+      }
+    };
+
+    $(_this).focusout(function () {
+      if (!isMouseUnder) {
+        $searchAuto.hide();
+      }
+    });
+
+    $(_this).keyup(function (e) {
+      if ((47 < e.keyCode && e.keyCode < 106) || (185 < e.keyCode && e.keyCode < 223) || (105 < e.keyCode && e.keyCode < 112) || 8 == e.keyCode || 46 == e.keyCode){
+        if (!config.searchCookie){
+          getSearchList();
+        }
+      }
+
+      if (13 == e.keyCode && config.enterSubmit) {
+        submit($searchAuto.find('li[data-selected=true]'));
+      }
+
+    });
+
+    $(_this).keydown(function (e) {
+      if(e.keyCode == 40) {
+        var selected = $searchAuto.find('li[data-selected=true]');
+        if (selected.length == 1) {
+          selected.removeAttr('data-selected');
+          selected.removeClass('on');
+
+          var next = selected.next();
+          next.attr('data-selected', 'true');
+          next.addClass('on');
+          $(_this).val(next.children('a').text());
+        } else {
+          var first = $searchAuto.find('li:first');
+          first.attr('data-selected', 'true');
+          first.addClass('on');
+          $(_this).val(first.children('a').text());
+        }
+      }else if(e.keyCode == 38){
+        var selected = $searchAuto.find('li[data-selected=true]');
+        if (selected.length == 1) {
+          selected.removeAttr('data-selected');
+          selected.removeClass('on');
+
+          var prev = selected.prev();
+          prev.attr('data-selected', 'true');
+          prev.addClass('on');
+          $(_this).val(prev.children('a').text());
+        } else {
+          var last = $searchAuto.find('li:last');
+          last.attr('data-selected', 'true');
+          last.addClass('on');
+          $(_this).val(last.children('a').text());
+        }
+      }
+    }).click(function(e){
+      if (config.searchCookie){
+        if(Cookies.get(config.searchCookieType) != undefined){
+          var schSaveData = Cookies.getJSON(config.searchCookieType);
+          $ul = $('<ul/>');
+          $.each(schSaveData, function(i, item){
+            $ul.append('<li data-cd=\"'+ item.keyCd +'\" data-fcd=\"'+ item.KeyFullCd +'\" data-nm=\"'+ item.codNm +'\"><a href=\"#\">'+item.title+'</a></li>');
+          });
+          $searchAuto.html($ul);
+          attachListEvent();
+          $searchAuto.show();
+        }
+      }
+    });
+
+    var attachListEvent = function () {
+      var li = $searchAuto.find('li');
+      li.find('a').click(function () {
+        submit($(this).parent());
+        return false;
+      });
+
+      li.find('a').focusout(function () {
+        $searchAuto.hide();
+      });
+
+      li.find('a').focus(function () {
+        $searchAuto.show();
+      });
+
+      $searchAuto.find('ul').mouseleave(function () {
+        isMouseUnder = false;
+      });
+
+      li.mouseenter(function () {
+        li.removeAttr('data-selected');
+        li.removeClass('on');
+        var t = $(this);
+        t.addClass('on');
+        t.attr('data-selected', 'true');
+        $(_this).val(t.children('a').text());
+        isMouseUnder = true;
+      });
+    };
+
+    var getSearchList = function () {
+      var data = {
+        'contextName' : config.contextName,
+        'value' : encodeURIComponent($(_this).val()),
+        'viewCount' : config.viewCount,
+        'bldPath' : config.bldPath
+      };
+      $.extend(data, config.param);
+      $.ajax({
+        'url' : '/comm/finder/autocomplete.jspx',
+        'data' : data,
+        'success' : function (html) {
+          if (html == '') {
+            $searchAuto.hide();
+          } else {
+            var ul = '<ul>'+html+'</ul>';
+            $searchAuto.html(ul);
+            if (config.listFn) {
+              config.listFn($searchAuto);
+            }
+            attachListEvent();
+            $searchAuto.show();
+          }
+        }
+      });
+    };
+  };
+
+  $('#tboxisuCd_finder_stkisu0').autocomplete({
+    'contextName' : 'finder_stkisu',
+    'bldPath' : '/dbms/comm/finder/finder_stkisu_autocomplete',
+    'viewCount' : 5,
+    'submit' : function (li) {
+      var shotCd = li.attr('data-tp');
+      var fullCd = li.attr('data-cd');
+      var codeNm = li.attr('data-nm');
+      var mktNm = 'ALL';
+
+      $('#codeNmisuCd_finder_stkisu0').val(li.attr('data-nm'));
+      $('#isuCd_finder_stkisu0').val(li.attr('data-cd'));
+      $('#isuCd_finder_stkisu02').val(li.attr('data-tp'));
+
+      // 지수면 명칭만
+      if ( 'ISU' === 'IDX' ) {
+        $('#tboxisuCd_finder_stkisu0').val(li.attr('data-nm'));
+      }
+      // 회사면 발행기관 코드
+      else if ( 'ISU' === 'COM' ) {
+        $('#tboxisuCd_finder_stkisu0').val(li.attr('data-cd')+'/'+li.attr('data-nm'));
+      }
+      // 그외 코드/명칭
+      else {
+        $('#tboxisuCd_finder_stkisu0').val(li.attr('data-tp')+'/'+li.attr('data-nm'));
+      }
+
+      var input = {
+        lang: 'ko_KR',
+        finderCd: 'finder_stkisu',
+        tbox: shotCd +'/'+ codeNm,
+        codeNm: codeNm,
+        codeVal: fullCd,
+        codeVal2: fullCd,
+        typeNo: '',
+        param1: mktNm
+      };
+
+      //= (20201202, 김정삼)
+      if ( 'ISU' === 'IDX' ) {//지수
+        input.tbox = codeNm;
+        input.codeVal2 = shotCd;
+      }
+      //=/
+      mdc.util.setFinderStorage(input);
+
+      return false;
+    },
+    'submitClear' : false
+  });
+  
+</script>
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#none" class="btn_search_tr null" name="search" id="jsSearchButton">조회</a>
+
+
+<script type="text/javascript">
+  mdc.module.setModule({
+    name: 'SEARCH_COMPONENT__064548803',
+    mdi: {
+      name: mdc.module.getMdiModuleName()
+    },
+    function: function (self, api) {
+      var $content = api.getModuleNode();
+      var $element = $content.select('[name="search"]');
+
+      
+
+      
+
+      
+        $element.on('click', function () {
+          mdc.module.getModule('MDCHARD011')['getList']($element);
+        });
+      
+
+      
+    }
+  });
+</script>
+
+
+              </td>
+            </tr>
+            <tr>
+              <th scope="col"><span>비교시장</span></th>
+              <td>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="radiowrap"><label for="marketGubun_0"><input type="radio" name="marketGubun" id="marketGubun_0" value="ALL"><span>전체</span><span></span></label></span><span class="radiowrap"><label for="marketGubun_1"><input type="radio" name="marketGubun" id="marketGubun_1" value="STK" checked><span>KOSPI</span><span></span></label></span><span class="radiowrap"><label for="marketGubun_2"><input type="radio" name="marketGubun" id="marketGubun_2" value="KSQ"><span>KOSDAQ</span><span></span></label></span><span class="radiowrap"><label for="marketGubun_3"><input type="radio" name="marketGubun" id="marketGubun_3" value="KNX"><span>KONEX</span><span></span></label></span>
+
+
+
+              </td>
+            </tr>
+            <tr>
+              <th scope="col"><span>표출결과</span></th>
+              <td>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<select class="selectbox search_select" name="rsltCnt" id="rsltCnt"><option value="20">20위</option><option value="50" selected>50위</option><option value="100">100위</option><option value="200">200위</option></select>
+
+
+
+              </td>
+            </tr>
+          </table>
+        </div>
+      
+
+
+
+
+
+
+
+
+
+<div class="foldupdown jsPdfHide">
+
+	
+		<button><span>검색조건 닫기</span><span>검색조건 열기</span></button>
+	
+	
+
+</div>
+
+<script>
+  $(function () {
+    $(".foldupdown").bind('click', function () {
+      $('.list_search_term').toggle();
+      $(".foldupdown").toggleClass('on');
+    });
+
+    $('.search').each(function (index, item) {
+      $(item).children().addClass('search_input');
+      $(item).find('img').hide().wrap('<button></button>');
+
+      $(item).find('button').off('mousedown').on('mousedown', function () {
+        $(this).find('img').trigger('click');
+      });
+    });
+
+  });
+
+</script>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CI-MDI-UNIT-WRAP" id="UNIT-WRAP0">
+  <div class="time CI-MDI-UNIT"  data-view-sequence="0">
+    
+    <p class="CI-MDI-UNIT-TIME"></p>
+    
+    
+    <p>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<select class="CI-MDI-UNIT-SHARE" name="share" disabled style="display: none;"><option value="1" selected>주</option><option value="2">천주</option><option value="3">백만주</option></select>
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<select class="CI-MDI-UNIT-MONEY" name="money" disabled style="display: none;"><option value="1" selected>원</option><option value="2">천원</option><option value="3">백만원</option><option value="4">십억원</option></select>
+
+
+
+      
+      
+      
+      
+      <button type="button" class="CI-MDI-UNIT-FILTER"
+       style="display: none;"><img src="/templets/mdc/img/btn_time2.png" title="
+      컬럼필터 팝업" /></button>
+      <button type="button" class="CI-MDI-UNIT-DOWNLOAD"><img src="/templets/mdc/img/btn_time1.png" title="
+      다운로드 팝업" /></button>
+    </p>
+  </div>
+</div>
+
+<script type="text/javascript">
+(function(mdc, $) {
+  var $sel = $('#UNIT-WRAP0 select[name="otherUnit"].CI-MDI-UNIT-MONEY');
+  if ( $('option',$sel).length <= 1 ) { $sel.addClass('bg_none'); }
+
+  var $money = $('#UNIT-WRAP0 select[name="money"].CI-MDI-UNIT-MONEY');
+  if ( $('option',$money).length <= 1 ) { $money.addClass('bg_none'); }
+}(window.mdc, jQuery));
+</script>
+
+    
+</form>
+
+
+
+    <table id="jsListTable" class="table_pink mb20">
+      <colgroup>
+        <col style="width:250px;">
+        <col style="width:120px;">
+        <col style="width:100px;">
+        <col style="width:100px;">
+        <col style="width:120px;">
+        <col style="width:120px;">
+        <col style="width:120px;">
+        <col style="width:200px;">
+        <col>
+      </colgroup>
+      <thead>
+      <tr>
+        <th scope="col">종목명</th>
+        <th scope="col">현재가</th>
+        <th scope="col">대비</th>
+        <th scope="col">등락률(%)</th>
+        <th scope="col">시가</th>
+        <th scope="col">고가</th>
+        <th scope="col">저가</th>
+        <th scope="col">거래량(주)</th>
+        <th scope="col">거래대금(원)</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr style="height: 28px;">
+        <td name="ISU_ABBRV" data-bind="ISU_ABBRV"></td>
+        <td name="ISU_CUR_PR" data-bind="ISU_CUR_PR"></td>
+        <td name="CMPR_RT" data-bind="CMPR_RT"></td>
+        <td name="UPDN_RATE" data-bind="UPDN_RATE"></td>
+        <td name="ISU_OPN_PR" data-bind="ISU_OPN_PR"></td>
+        <td name="ISU_HG_PR" data-bind="ISU_HG_PR"></td>
+        <td name="ISU_LW_PR" data-bind="ISU_LW_PR"></td>
+        <td name="ISU_TR_VL" data-bind="ISU_TR_VL"></td>
+        <td name="ISU_TR_AMT" data-bind="ISU_TR_AMT"></td>
+      </tr>
+      </tbody>
+    </table>
+
+
+    <div id="jsGrid_MDCHARD011_0" class="COMPST-INFO-GRID">
+      <table id="jsTable_MDCHARD011_0" data-grid="{databind: true, emptyData: true, scroll: true}" summary="수익률 상관관계">
+        <colgroup>
+          <col style="width:60px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+          <col style="width:100px;">
+        </colgroup>
+        <thead>
+        <tr>
+          <th scope="col" name="RN" rowspan="2">순위</th>
+          <th scope="col" name="day10" colspan="2">10일</th>
+          <th scope="col" name="day20" colspan="2">20일</th>
+          <th scope="col" name="day50" colspan="2">50일</th>
+          <th scope="col" name="day100" colspan="2">100일</th>
+        </tr>
+        <tr>
+          <th scope="col" parent="day10" name="CMP_ISU_NM_10">종목명</th>
+          <th scope="col" parent="day10" name="CORR_VAL_10">수치</th>
+          <th scope="col" parent="day20" name="CMP_ISU_NM_20">종목명</th>
+          <th scope="col" parent="day20" name="CORR_VAL_20">수치</th>
+          <th scope="col" parent="day50" name="CMP_ISU_NM_50">종목명</th>
+          <th scope="col" parent="day50" name="CORR_VAL_50">수치</th>
+          <th scope="col" parent="day100" name="CMP_ISU_NM_100">종목명</th>
+          <th scope="col" parent="day100" name="CORR_VAL_100">수치</th>
+        </tr>
+        </thead>
+        <tbody data-keepdata="true">
+        <tr>
+          <td class="tac" name="RN" data-bind="RN"></td>
+          <td name="CMP_ISU_NM_10" data-bind="CMP_ISU_NM_10"></td>
+          <td class="tar" name="CORR_VAL_10" data-bind="CORR_VAL_10"></td>
+          <td name="CMP_ISU_NM_20" data-bind="CMP_ISU_NM_20"></td>
+          <td class="tar" name="CORR_VAL_20" data-bind="CORR_VAL_20"></td>
+          <td name="CMP_ISU_NM_50" data-bind="CMP_ISU_NM_50"></td>
+          <td class="tar" name="CORR_VAL_50" data-bind="CORR_VAL_50"></td>
+          <td name="CMP_ISU_NM_100" data-bind="CMP_ISU_NM_100"></td>
+          <td class="tar" name="CORR_VAL_100" data-bind="CORR_VAL_100"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="txt_pink">본 정보는 투자자 편의 제고를 위한 투자 참고 사항으로 , 한국거래소는 제공된 정보에 의한 투자결과에 대하여 법적 책임을 지지 않습니다. 결과 산출에 이용된 재무관련 데이터는 NICE평가정보(주)의 제공 자료에 기반하였습니다.</p>
+
+
+
+
+  </section>
+
+
+
+<script type="text/javascript">
+  mdc.module.setModule({
+    name: 'MDCHARD011',
+    init: 'init',
+    function: function (self, api) {
+      var $f = $('#MDCHARD011_FORM');
+      var $gridTable = $('#jsTable_MDCHARD011_0');
+      var $grid;
+      self.init = function () {
+        self.grid = api.util.grid.init({
+          node: api.getModuleNode().getNode(),
+          form: $f,
+          layout: 'mdc_hard',
+          gridHeight: $(window).height() - 100 - $('.txt_pink').outerHeight(),
+          grid: [
+            {
+              // template: $('#jsGrid_MDCHARD011_0'),
+              // bld: 'dbms/MDC/HARD/MDCHARD01101',
+              // bldDataKey: 'block1',
+              menuIdForPdf: 'MDCHARD011'
+            }
+          ]
+        });
+
+        $grid = $gridTable.initGrid({
+          message: {
+            emptyData: api.lang.getMessage('MD002') // 데이터가 없습니다.
+          },
+          scroll: {
+            maxRowCount: 28,
+            autoHeight: true
+          }
+        });
+
+        
+        
+        
+
+        self.getList();
+
+        $(window).resize(function () {
+          $('.CI-TBODY-WRAPPER').css('height',$(window).height() - 170 - $('.txt_pink').outerHeight());
+        });
+      };
+
+      self.getList = function () {
+        self.isuNm = $('#codeNmisuCd_finder_stkisu0').val();
+        api.util.submitAjax({
+          url: '/comm/bldAttendant/getJsonData.cmd?bld=dbms/MDC/HARD/MDCHARD01101',
+          data: $f.serialize(),
+            showLoading: true,
+            success: function (resp) {
+              var data = resp['block1'];
+              data = {result: data};
+              $grid.databind(data, 'result');
+              $('.CI-MDI-UNIT-TIME').html(api.util.getDateTimeFormat(resp['CURRENT_DATETIME']));
+
+            $grid.$table.find('tbody tr').each(function (index, item) {
+              if ($(item).hasClass('CI-EMPTY-ROW')) {
+                return false;
+              }
+              cmpIsuPopup(item, 1);
+              cmpIsuPopup(item, 3);
+              cmpIsuPopup(item, 5);
+              cmpIsuPopup(item, 7);
+            });
+
+            if ('mdc_hard'.indexOf('pdf') === -1) $('.CI-TBODY-WRAPPER').css('height',$(window).height() - 170 - $('.txt_pink').outerHeight());
+          }
+        });
+
+        api.util.submitAjax({
+          url: '/comm/bldAttendant/getJsonData.cmd?bld=dbms/MDC/HARD/MDCHARD00001',
+          data: $f.serialize(),
+          success: function (data) {
+            $('#jsListTable [name=CMPR_RT], #jsListTable [name=UPDN_RATE]').removeClass();
+
+            if(data.CMPR_RT !== '-') data.CMPR_RT = data.CMPR_RT.replace('-', '');
+
+            mdc.util.singleDatabind($('#jsListTable'), data);
+            if (data.UPDN_TYP === '1') {
+              $('#jsListTable [name=CMPR_RT], #jsListTable [name=UPDN_RATE]').addClass('up');
+              $('#jsListTable [name=CMPR_RT]').prepend('▲ ');
+              $('#jsListTable [name=UPDN_RATE]').prepend('+');
+            } else if (data.UPDN_TYP === '2') {
+              $('#jsListTable [name=CMPR_RT], #jsListTable [name=UPDN_RATE]').addClass('down');
+              $('#jsListTable [name=CMPR_RT]').prepend('▼ ');
+            }
+          }
+        });
+      }
+
+      var cmpIsuPopup = function (item, index) {
+        item.children[index].innerHTML = '<span class="jsCmpIsu">' + item.children[index].innerHTML + '</span>';
+        $(item).find('.jsCmpIsu').on('click', function () {
+          self.selRow = this;
+          var $bigChartLayerWrap = $('<DIV>', {
+            class: 'ci-dialog-content bigChartLayerWrap'
+          }).append($('<DIV>', {
+            id: 'chart_cls_big',
+            class: 'chart_cls_big'
+          }));
+
+          api.layer.openModal({
+            width: '822',
+            height: '592',
+            id: 'bigChartLayer',
+            title: api.lang.getWord('WS015'), //시세 비교 차트
+            dom: $bigChartLayerWrap,
+            afterAppend: function () {
+              var cmpDate = $(self.selRow).closest('td').attr('name').substr(-2) === '00' ? 100 : $(self.selRow).closest('td').attr('name').substr(-2);
+              var chart_option = webponent.chart.options.multiLine;
+              chart_option.func.tip = function (tipElement, data, rect) {
+                var date = data.xaxis;
+                var tip = '<div class="text">'+
+                  '<p class="tooltip_head">'+date+'</p>'+
+                  '<p class="tooltip_body">'+ //WE001(좌축), WE002(우축)
+                  self.isuNm + api.lang.getWord('WE001')+' : ' + String(data.data.DATA1).format().trim()+'<br>'+
+                  self.selRow.textContent + api.lang.getWord('WE002')+' : ' + String(data.data.DATA2).format()+
+                  '</p>'+
+                  '</div>';
+
+                tipElement.html(tip).show();
+                webponent.chart.options.tip.common(tipElement, rect);
+              };
+              chart_option.use.multiYAxis = true;
+              var chart_style = webponent.chart.styles.multiLine_bar;
+              chart_style.main.xAxis.text.size = 12;
+              chart_style.main.layout.paddingBottom = 20;
+              var chart_series = { //차트 형태 및 X,Y축 기준 설정
+                main: {
+                  s1: {series: 'line', xaxis: 'TRD_DD', yaxis: 'DATA1', yaxisid: 's1'},
+                  s3_r: {series: 'line', xaxis: 'TRD_DD', yaxis: 'DATA2', yaxisid: 's3_r'}
+                }
+              }
+              api.util.submitAjax({
+                url: '/comm/bldAttendant/getJsonData.cmd?bld=dbms/MDC/HARD/MDCHARD00004',
+                data: {isuCd: $(self.selRow).closest('tr')[0]["rowData"]["ISU_CD"],
+                  cmpIsuCd: $(self.selRow).closest('tr')[0]["rowData"]["CMP_ISU_CD_"+cmpDate],
+                  periodVal: '-'+cmpDate},
+                async: false,
+                success: function (resp) {
+                  var data = {};
+                  data.data = resp['block1'];
+                  chart_option.data = data;
+                }
+              });
+
+              webponent.chart.init($('#chart_cls_big'), chart_option, chart_style, chart_series);
+
+              var markupList = $('<UL>',{class: 'result_bottomlist2'});
+              markupList.append(
+                $('<LI>').append(
+                  $('<SPAN>', {class: 'color_tp1'})
+                ).append(
+                  $('<SPAN>').append(self.isuNm + api.lang.getWord('WE001')) //(좌축)
+                )
+              );
+              markupList.append(
+                $('<LI>').append(
+                  $('<SPAN>', {class: 'color_tp3'})
+                ).append(
+                  $('<SPAN>').append(self.selRow.textContent + api.lang.getWord('WE002')) //(우축) 
+                )
+              );
+              $('#chart_cls_big').append(markupList);
+
+            },
+            focus: $(this)
+          });
+        })
+      }
+
+    }
+  });
+</script>
+
+
+	<button class="jsTopBtn"></button>
+</div>
+
+<script type="text/javascript">
+	mdc.module.setModule({
+		name: 'TEMPLET_MODULE',
+		function: function (self, api) {
+			self.init = function () {
+				if("en"==""){
+					mdc.util.setCookie("lang","en",365);					
+				}else if("ko_KR"==""){
+					mdc.util.setCookie("lang","ko_KR",365);
+				}
+			};
+			$('.jsTopBtn').on('click', function () {
+				window.scrollTo(0,0);
+				$('.jsTopBtn').css({opacity:0});
+			});
+
+			$(window).scroll(function () {
+				if ($(window).scrollTop() > 100) {
+					$('.jsTopBtn').css({opacity:1});
+				} else {
+					$('.jsTopBtn').css({opacity:0});
+				}
+			});
+		}
+	});
+</script>
+</body>
+</html>

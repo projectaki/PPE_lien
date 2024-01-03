@@ -1,158 +1,35 @@
-
-   언어
-   이 위키백과에서 언어 링크는 문서 제목 건너편의 문서 최상단에 있습니다. [17]최상단으로 이동합니다.
-   [18]위키백과
-   [19]검색
---
-     * [28]1정의
-     * [29]2예
-     * [30]3외부 링크
-
-   [ ] 목차 토글
-
 관계 (수학)
-
-   [ ] 44개 언어
---
-     * [74]粵語
-
-   [75]링크 편집
-
-     * [76]문서
---
-     * [86]파일 올리기
-     * [87]특수 문서 목록
-     * [88]고유 링크
-     * [89]문서 정보
-     * [90]이 문서 인용하기
---
-   위키백과, 우리 모두의 백과사전.
-
    [97]집합론에서 관계(關係, [98]영어: relation)는 [99]곱집합의 [100]부분 집합이다. 원소의 [101]튜플이
    이 부분 집합에 속하는지 여부를 통해 원소들 사이의 관계를 나타낸다.
-
-정의[[102]편집]
---
-   <annotation encoding="application/x-tex">{\displaystyle \{X_{i}\}_{i\in
-   I}}</annotation> </semantics> :MATH]
    \{X_{i}\}_{{i\in I}} 위의 관계는 [104]곱집합의 [105]부분 집합
-
-          [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
---
-   <annotation encoding="application/x-tex">{\displaystyle \alpha
-   }</annotation> </semantics> :MATH]
    \alpha 항 관계([107]영어:
-   [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-   displaystyle="true" scriptlevel="0"> <mi>α</mi> </mstyle> </mrow>
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       X}</annotation> </semantics> :MATH]
        X 위의 영항 관계(零項關係, [109]영어: nullary relation)
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> <mo>⊆</mo> <mo
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       X}</annotation> </semantics> :MATH]
        X 위의 단항 관계(單項關係, [110]영어: unary relation)
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> <mo>⊆</mo>
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       X}</annotation> </semantics> :MATH]
        X 위의 이항 관계(二項關係, [111]영어: binary relation)
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> <mo>⊆</mo>
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       X}</annotation> </semantics> :MATH]
        X 위의 삼항 관계(三項關係, [112]영어: ternary relation)
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> <mo>⊆</mo>
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       n}</annotation> </semantics> :MATH]
        n 항 관계(-項關係, [113]영어: n-ary relation)
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> <mo>⊆</mo> <msup>
---
-예[[114]편집]
-
      * [115]공선점 관계는 공간 속의 점들에 대한 삼항 관계이다.
      * 여러 가지 이항 관계: 여기서는 집합
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>X</mi> </mstyle> </mrow>
-       <annotation encoding="application/x-tex">{\displaystyle
-       X}</annotation> </semantics> :MATH]
        X 상의 이항 관계
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>R</mi> </mstyle> </mrow>
---
-       {\displaystyle \forall x,y,z\in X(xRy\wedge yRz\rightarrow xRz)} 를
-       추이성이라 한다.
      * 반사적, 대칭적, 추이적인 관계를 동치 관계라 한다.
      * 반사적, 반대칭적, 추이적인 관계를 순서 관계라 하고 비대칭적, 추이적인 관계를 강 순서 관계라 한다. 그러면 관계
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mo><</mo> </mstyle> </mrow>
-       <annotation encoding="application/x-tex">{\displaystyle
-       <}</annotation> </semantics> :MATH]
        < 와 관계
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mo>≤</mo> </mstyle> </mrow>
---
-       <annotation encoding="application/x-tex">{\displaystyle
-       <}</annotation> </semantics> :MATH]
        < 가 강 순서 관계일 조건과
-       [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mo>≤</mo> </mstyle> </mrow>
-       <annotation encoding="application/x-tex">{\displaystyle \leq
-       }</annotation> </semantics> :MATH]
        \le 가 순서 관계일 조건은 서로 필요충분조건이다. 문맥에 따라 강 순서 관계를 그저 순서 관계로 할 수도 있으므로
-       주의가 필요하다.
-
-외부 링크[[116]편집]
-
-     * [117]“Relation”. 《Encyclopedia of Mathematics》 (영어).
---
-
-   원본 주소
    "[136]https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
-   "
-   [137]분류:
      * [138]관계 (수학)
-
-   숨은 분류:
---
-References
-
    1. https://ko.m.wikipedia.org/wiki/관계_(수학)
    2. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit
-   3. https://ko.wikipedia.org/w/opensearch_desc.php
-   4. https://ko.wikipedia.org/w/index.php?title=특수:최근바뀜&feed=atom
    5. https://ko.wikipedia.org/wiki/관계_(수학)#bodyContent
-   6. https://ko.wikipedia.org/wiki/위키백과:대문
-   7. https://ko.wikipedia.org/wiki/특수:최근바뀜
---
-  15. https://ko.wikipedia.org/wiki/위키백과:정책과_지침
-  16. https://ko.wikipedia.org/wiki/위키백과:질문방
   17. https://ko.wikipedia.org/wiki/관계_(수학)#p-lang-btn
-  18. https://ko.wikipedia.org/wiki/위키백과:대문
-  19. https://ko.wikipedia.org/wiki/특수:검색
   20. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계+(수학)
   21. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계+(수학)
   22. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계+(수학)
   23. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계+(수학)
-  24. https://ko.wikipedia.org/wiki/도움말:소개
-  25. https://ko.wikipedia.org/wiki/특수:내기여
-  26. https://ko.wikipedia.org/wiki/특수:내사용자토론
   27. https://ko.wikipedia.org/wiki/관계_(수학)
   28. https://ko.wikipedia.org/wiki/관계_(수학)#정의
   29. https://ko.wikipedia.org/wiki/관계_(수학)#예
   30. https://ko.wikipedia.org/wiki/관계_(수학)#외부_링크
-  31. https://ar.wikipedia.org/wiki/علاقة_(منطق)
-  32. https://be.wikipedia.org/wiki/Дачыненне_(матэматыка)
---
-  74. https://zh-yue.wikipedia.org/wiki/關係_(數學)
-  75. https://www.wikidata.org/wiki/Special:EntityPage/Q203066#sitelinks-wikipedia
   76. https://ko.wikipedia.org/wiki/관계_(수학)
   77. https://ko.wikipedia.org/wiki/토론:관계_(수학)
   78. https://ko.wikipedia.org/wiki/관계_(수학)
@@ -163,43 +40,15 @@ References
   83. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=history
   84. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계_(수학)
   85. https://ko.wikipedia.org/wiki/특수:링크최근바뀜/관계_(수학)
-  86. https://ko.wikipedia.org/wiki/위키백과:파일_올리기
-  87. https://ko.wikipedia.org/wiki/특수:특수문서
   88. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
   89. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=info
   90. https://ko.wikipedia.org/w/index.php?title=특수:이문서인용&page=관계_(수학)&id=33176364&wpFormIdentifier=titleform
-  91. https://ko.wikipedia.org/w/index.php?title=특수:UrlShortener&url=https://ko.wikipedia.org/wiki/%EA%B4%80%EA%B3%84_(%EC%88%98%ED%95%99)
-  92. https://www.wikidata.org/wiki/Special:EntityPage/Q203066
   93. https://ko.wikipedia.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계+(수학)
   94. https://ko.wikipedia.org/w/index.php?title=특수:DownloadAsPdf&page=관계_(수학)&action=show-download-screen
   95. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&printable=yes
-  96. https://commons.wikimedia.org/wiki/Category:Relations_(mathematics)
-  97. https://ko.wikipedia.org/wiki/집합론
---
- 100. https://ko.wikipedia.org/wiki/부분_집합
- 101. https://ko.wikipedia.org/wiki/튜플
  102. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=1
- 103. https://ko.wikipedia.org/wiki/집합족
- 104. https://ko.wikipedia.org/wiki/곱집합
---
- 112. https://ko.wikipedia.org/wiki/영어
- 113. https://ko.wikipedia.org/wiki/영어
  114. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=2
- 115. https://ko.wikipedia.org/wiki/공선점
  116. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=3
- 117. https://encyclopediaofmath.org/wiki/Relation
- 118. https://ko.wikipedia.org/wiki/국제_표준_도서_번호
---
- 134. https://www.wikidata.org/wiki/Q203066#identifiers
- 135. https://d-nb.info/gnd/4177675-6
  136. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
- 137. https://ko.wikipedia.org/wiki/특수:분류
  138. https://ko.wikipedia.org/wiki/분류:관계_(수학)
- 139. https://ko.wikipedia.org/wiki/분류:위키데이터_속성_P373을_사용하는_문서
- 140. https://ko.wikipedia.org/wiki/분류:위키데이터_속성_P227을_사용하는_문서
---
- 152. https://stats.wikimedia.org/#/ko.wikipedia.org
- 153. https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
  154. https://ko.m.wikipedia.org/w/index.php?title=관계_(수학)&mobileaction=toggle_view_mobile
- 155. https://wikimediafoundation.org/
- 156. https://www.mediawiki.org/

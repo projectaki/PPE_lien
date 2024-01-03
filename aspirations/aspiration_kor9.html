@@ -1,10 +1,1264 @@
-HTTP/1.1 200 OK
-Date: Wed, 29 Nov 2023 09:21:26 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Last-Modified: Sat, 17 Jun 2023 10:35:06 GMT
-ETag: "1666a-5fe50dae56836"
-Accept-Ranges: bytes
-Content-Length: 91754
-Vary: Accept-Encoding
-Content-Type: text/html
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
 
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 장 관계와 표현 | 이산수학 (Discrete Mathematics)</title>
+  <meta name="description" content="5 장 관계와 표현 | 이산수학 (Discrete Mathematics)" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 장 관계와 표현 | 이산수학 (Discrete Mathematics)" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 장 관계와 표현 | 이산수학 (Discrete Mathematics)" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="증명.html"/>
+<link rel="next" href="matrix.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Discrete Mathematics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>과목소개</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#개요"><i class="fa fa-check"></i>개요</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#강의-계획"><i class="fa fa-check"></i>강의 계획</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#평가방법"><i class="fa fa-check"></i>평가방법</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#교재-및-참고도서"><i class="fa fa-check"></i>교재 및 참고도서</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="이산수학개요.html"><a href="이산수학개요.html"><i class="fa fa-check"></i><b>1</b> 이산수학의 개요</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="이산수학개요.html"><a href="이산수학개요.html#이산수학discrete-mathematics이란"><i class="fa fa-check"></i><b>1.1</b> 이산수학(Discrete Mathematics)이란?</a></li>
+<li class="chapter" data-level="1.2" data-path="이산수학개요.html"><a href="이산수학개요.html#이산수학으로-해결하려는-다양한-문제들"><i class="fa fa-check"></i><b>1.2</b> 이산수학으로 해결하려는 다양한 문제들</a></li>
+<li class="chapter" data-level="1.3" data-path="이산수학개요.html"><a href="이산수학개요.html#본-강좌의-목표"><i class="fa fa-check"></i><b>1.3</b> 본 강좌의 목표</a></li>
+<li class="chapter" data-level="1.4" data-path="이산수학개요.html"><a href="이산수학개요.html#인공지능과-이산수학"><i class="fa fa-check"></i><b>1.4</b> 인공지능과 이산수학</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="논리명제.html"><a href="논리명제.html"><i class="fa fa-check"></i><b>2</b> 논리와 명제 (Logic &amp; Propositions)</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="논리명제.html"><a href="논리명제.html#명제-propositions"><i class="fa fa-check"></i><b>2.1</b> 명제 (Propositions)</a></li>
+<li class="chapter" data-level="2.2" data-path="논리명제.html"><a href="논리명제.html#논리-연산"><i class="fa fa-check"></i><b>2.2</b> 논리 연산</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="논리명제.html"><a href="논리명제.html#부정negation"><i class="fa fa-check"></i><b>2.2.1</b> 부정(Negation)</a></li>
+<li class="chapter" data-level="2.2.2" data-path="논리명제.html"><a href="논리명제.html#논리곱-conjunction"><i class="fa fa-check"></i><b>2.2.2</b> 논리곱 (Conjunction)</a></li>
+<li class="chapter" data-level="2.2.3" data-path="논리명제.html"><a href="논리명제.html#논리합-disjunction과-배타적-논리합-xor"><i class="fa fa-check"></i><b>2.2.3</b> 논리합 (Disjunction)과 배타적 논리합 (XOR)</a></li>
+<li class="chapter" data-level="2.2.4" data-path="논리명제.html"><a href="논리명제.html#조건-함축-conditional-or-implication"><i class="fa fa-check"></i><b>2.2.4</b> 조건, 함축 (conditional or implication)</a></li>
+<li class="chapter" data-level="2.2.5" data-path="논리명제.html"><a href="논리명제.html#상호조건-쌍방조건-biconditional-bi-implications"><i class="fa fa-check"></i><b>2.2.5</b> 상호조건, 쌍방조건 (biconditional, bi-implications)</a></li>
+<li class="chapter" data-level="2.2.6" data-path="논리명제.html"><a href="논리명제.html#논리연산자의-우선순위"><i class="fa fa-check"></i><b>2.2.6</b> 논리연산자의 우선순위</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="논리명제.html"><a href="논리명제.html#항진명제-모순명제"><i class="fa fa-check"></i><b>2.3</b> 항진명제, 모순명제</a></li>
+<li class="chapter" data-level="2.4" data-path="논리명제.html"><a href="논리명제.html#논리적-동치-관계"><i class="fa fa-check"></i><b>2.4</b> 논리적 동치 관계</a></li>
+<li class="chapter" data-level="2.5" data-path="논리명제.html"><a href="논리명제.html#논증과-추론"><i class="fa fa-check"></i><b>2.5</b> 논증과 추론</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="논리명제.html"><a href="논리명제.html#추론-규칙"><i class="fa fa-check"></i><b>2.5.1</b> 추론 규칙</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="논리명제.html"><a href="논리명제.html#차-논리1st-order-logic-predicate-logic"><i class="fa fa-check"></i><b>2.6</b> 1차 논리(1st-order logic, predicate logic)</a></li>
+<li class="chapter" data-level="2.7" data-path="논리명제.html"><a href="논리명제.html#symbolic-programming-with-python"><i class="fa fa-check"></i><b>2.7</b> Symbolic programming with Python</a></li>
+<li class="chapter" data-level="2.8" data-path="논리명제.html"><a href="논리명제.html#과제"><i class="fa fa-check"></i><b>2.8</b> 과제</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html"><i class="fa fa-check"></i><b>3</b> 집합과 디지털 수</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#집합-set"><i class="fa fa-check"></i><b>3.1</b> 집합 (Set)</a></li>
+<li class="chapter" data-level="3.2" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#집합을-표현하는-방법"><i class="fa fa-check"></i><b>3.2</b> 집합을 표현하는 방법</a></li>
+<li class="chapter" data-level="3.3" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#set-operations집합연산"><i class="fa fa-check"></i><b>3.3</b> Set operations(집합연산)</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#집합의-연산-법칙"><i class="fa fa-check"></i><b>3.3.1</b> 집합의 연산 법칙</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#집합의분할"><i class="fa fa-check"></i><b>3.4</b> 집합의 분할</a></li>
+<li class="chapter" data-level="3.5" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#컴퓨터에서-집합-표현-및-연산"><i class="fa fa-check"></i><b>3.5</b> 컴퓨터에서 집합 표현 및 연산</a></li>
+<li class="chapter" data-level="3.6" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#파이썬-집합-및-집합연산"><i class="fa fa-check"></i><b>3.6</b> 파이썬 집합 및 집합연산</a></li>
+<li class="chapter" data-level="3.7" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#이진수의-표현-및-계산"><i class="fa fa-check"></i><b>3.7</b> 이진수의 표현 및 계산</a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#십진수decimal를-이진수binary로-변환"><i class="fa fa-check"></i><b>3.7.1</b> 십진수(decimal)를 이진수(binary)로 변환</a></li>
+<li class="chapter" data-level="3.7.2" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#이진수의-보수"><i class="fa fa-check"></i><b>3.7.2</b> 이진수의 보수</a></li>
+<li class="chapter" data-level="3.7.3" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#보수를-이용한-뺄셈"><i class="fa fa-check"></i><b>3.7.3</b> 보수를 이용한 뺄셈</a></li>
+<li class="chapter" data-level="3.7.4" data-path="집합과-디지털-수.html"><a href="집합과-디지털-수.html#이진수-곱하기"><i class="fa fa-check"></i><b>3.7.4</b> 이진수 곱하기</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="증명.html"><a href="증명.html"><i class="fa fa-check"></i><b>4</b> 증명 (Proofs)</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="증명.html"><a href="증명.html#수학에서-증명이란"><i class="fa fa-check"></i><b>4.1</b> 수학에서 증명이란</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="증명.html"><a href="증명.html#증명관련-용어"><i class="fa fa-check"></i><b>4.1.1</b> 증명관련 용어</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="증명.html"><a href="증명.html#증명의-방법론"><i class="fa fa-check"></i><b>4.2</b> 증명의 방법론</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="증명.html"><a href="증명.html#증명의-단계적-접근-방법"><i class="fa fa-check"></i><b>4.2.1</b> 증명의 단계적 접근 방법</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="증명.html"><a href="증명.html#여러-가지-증명-방법"><i class="fa fa-check"></i><b>4.3</b> 여러 가지 증명 방법</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="증명.html"><a href="증명.html#수학적-귀납법mathematical-induction"><i class="fa fa-check"></i><b>4.3.1</b> 수학적 귀납법(Mathematical Induction)</a></li>
+<li class="chapter" data-level="4.3.2" data-path="증명.html"><a href="증명.html#직접-증명법direct-proof"><i class="fa fa-check"></i><b>4.3.2</b> 직접 증명법(Direct Proof)</a></li>
+<li class="chapter" data-level="4.3.3" data-path="증명.html"><a href="증명.html#대우-증명법contrapositive-proof"><i class="fa fa-check"></i><b>4.3.3</b> 대우 증명법(Contrapositive Proof)</a></li>
+<li class="chapter" data-level="4.3.4" data-path="증명.html"><a href="증명.html#모순-증명법proof-by-contradiction"><i class="fa fa-check"></i><b>4.3.4</b> 모순 증명법(Proof by Contradiction)</a></li>
+<li class="chapter" data-level="4.3.5" data-path="증명.html"><a href="증명.html#존재-증명법existence-proof"><i class="fa fa-check"></i><b>4.3.5</b> 존재 증명법(Existence Proof)</a></li>
+<li class="chapter" data-level="4.3.6" data-path="증명.html"><a href="증명.html#반례-증명법proof-by-counter-example"><i class="fa fa-check"></i><b>4.3.6</b> 반례 증명법(Proof by Counter-example)</a></li>
+<li class="chapter" data-level="4.3.7" data-path="증명.html"><a href="증명.html#필요충분조건-증명법if-and-only-if-proof"><i class="fa fa-check"></i><b>4.3.7</b> 필요충분조건 증명법(if and only if proof)</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="증명.html"><a href="증명.html#프로그램의-입증"><i class="fa fa-check"></i><b>4.4</b> 프로그램의 입증</a></li>
+<li class="chapter" data-level="4.5" data-path="증명.html"><a href="증명.html#과제-1"><i class="fa fa-check"></i><b>4.5</b> 과제</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="관계.html"><a href="관계.html"><i class="fa fa-check"></i><b>5</b> 관계와 표현</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="관계.html"><a href="관계.html#관계-relations"><i class="fa fa-check"></i><b>5.1</b> 관계 (Relations)</a></li>
+<li class="chapter" data-level="5.2" data-path="관계.html"><a href="관계.html#관계의-표현-방법"><i class="fa fa-check"></i><b>5.2</b> 관계의 표현 방법</a></li>
+<li class="chapter" data-level="5.3" data-path="관계.html"><a href="관계.html#관계의-합성-combining-relations"><i class="fa fa-check"></i><b>5.3</b> 관계의 합성 (Combining Relations)</a></li>
+<li class="chapter" data-level="5.4" data-path="관계.html"><a href="관계.html#complementary-relations-보수-관계"><i class="fa fa-check"></i><b>5.4</b> Complementary Relations (보수 관계)</a></li>
+<li class="chapter" data-level="5.5" data-path="관계.html"><a href="관계.html#관계의-성질-properties-of-relations"><i class="fa fa-check"></i><b>5.5</b> 관계의 성질 (Properties of Relations)</a></li>
+<li class="chapter" data-level="5.6" data-path="관계.html"><a href="관계.html#동치와-분할"><i class="fa fa-check"></i><b>5.6</b> 동치와 분할</a></li>
+<li class="chapter" data-level="5.7" data-path="관계.html"><a href="관계.html#부분-순서-관계"><i class="fa fa-check"></i><b>5.7</b> 부분 순서 관계</a></li>
+<li class="chapter" data-level="5.8" data-path="관계.html"><a href="관계.html#연습문제"><i class="fa fa-check"></i><b>5.8</b> 연습문제</a></li>
+<li class="chapter" data-level="" data-path="관계.html"><a href="관계.html#중간고사-일정-공지"><i class="fa fa-check"></i>중간고사 일정 공지</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="matrix.html"><a href="matrix.html"><i class="fa fa-check"></i><b>6</b> 행렬과 행렬식</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="matrix.html"><a href="matrix.html#행렬-연산"><i class="fa fa-check"></i><b>6.1</b> 행렬 연산</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="matrix.html"><a href="matrix.html#행렬합"><i class="fa fa-check"></i><b>6.1.1</b> 행렬합</a></li>
+<li class="chapter" data-level="6.1.2" data-path="matrix.html"><a href="matrix.html#벡터의-놈norm과-내적-inner-product"><i class="fa fa-check"></i><b>6.1.2</b> 벡터의 놈(norm)과 내적 (inner product)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="matrix.html"><a href="matrix.html#matrix-vector-multiplication"><i class="fa fa-check"></i><b>6.1.3</b> Matrix-Vector Multiplication</a></li>
+<li class="chapter" data-level="6.1.4" data-path="matrix.html"><a href="matrix.html#행렬곱"><i class="fa fa-check"></i><b>6.1.4</b> 행렬곱</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="matrix.html"><a href="matrix.html#특수한-행렬"><i class="fa fa-check"></i><b>6.2</b> 특수한 행렬</a></li>
+<li class="chapter" data-level="6.3" data-path="matrix.html"><a href="matrix.html#역행렬"><i class="fa fa-check"></i><b>6.3</b> 역행렬</a></li>
+<li class="chapter" data-level="6.4" data-path="matrix.html"><a href="matrix.html#선형방정식-linear-equation"><i class="fa fa-check"></i><b>6.4</b> 선형방정식 (linear equation)</a></li>
+<li class="chapter" data-level="6.5" data-path="matrix.html"><a href="matrix.html#선형변환"><i class="fa fa-check"></i><b>6.5</b> 선형변환</a></li>
+<li class="chapter" data-level="6.6" data-path="matrix.html"><a href="matrix.html#boolian-행렬-0-1-행렬"><i class="fa fa-check"></i><b>6.6</b> Boolian 행렬 (0-1 행렬)</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="function.html"><a href="function.html"><i class="fa fa-check"></i><b>7</b> 함수</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="function.html"><a href="function.html#함수"><i class="fa fa-check"></i><b>7.1</b> 함수</a></li>
+<li class="chapter" data-level="7.2" data-path="function.html"><a href="function.html#단사-함수-전사-함수-전단사-함수"><i class="fa fa-check"></i><b>7.2</b> 단사 함수, 전사 함수, 전단사 함수</a></li>
+<li class="chapter" data-level="7.3" data-path="function.html"><a href="function.html#역함수-합성함수"><i class="fa fa-check"></i><b>7.3</b> 역함수, 합성함수</a></li>
+<li class="chapter" data-level="7.4" data-path="function.html"><a href="function.html#countable-verus-uncountable"><i class="fa fa-check"></i><b>7.4</b> Countable verus Uncountable</a></li>
+<li class="chapter" data-level="" data-path="function.html"><a href="function.html#교재-연습문제"><i class="fa fa-check"></i>교재 연습문제</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="수열과급수.html"><a href="수열과급수.html"><i class="fa fa-check"></i><b>8</b> 수열과 급수</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="수열과급수.html"><a href="수열과급수.html#특별한-수열"><i class="fa fa-check"></i><b>8.1</b> 특별한 수열</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="그래프.html"><a href="그래프.html"><i class="fa fa-check"></i><b>9</b> 그래프</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="그래프.html"><a href="그래프.html#컴퓨터공학에서-그래프-이론의-응용"><i class="fa fa-check"></i><b>9.1</b> 컴퓨터공학에서 그래프 이론의 응용</a></li>
+<li class="chapter" data-level="9.2" data-path="그래프.html"><a href="그래프.html#그래프-graph"><i class="fa fa-check"></i><b>9.2</b> 그래프 (graph)</a></li>
+<li class="chapter" data-level="9.3" data-path="그래프.html"><a href="그래프.html#그래프의-표현-방법"><i class="fa fa-check"></i><b>9.3</b> 그래프의 표현 방법</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="그래프.html"><a href="그래프.html#인접행렬adjacency-matrix"><i class="fa fa-check"></i><b>9.3.1</b> 인접행렬(adjacency matrix)</a></li>
+<li class="chapter" data-level="9.3.2" data-path="그래프.html"><a href="그래프.html#인접리스트adjacency-list"><i class="fa fa-check"></i><b>9.3.2</b> 인접리스트(adjacency list)</a></li>
+<li class="chapter" data-level="9.3.3" data-path="그래프.html"><a href="그래프.html#결합행렬-근접행렬-incidence-matrices"><i class="fa fa-check"></i><b>9.3.3</b> 결합행렬 (근접행렬; Incidence Matrices)</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="그래프.html"><a href="그래프.html#특수형태-그래프"><i class="fa fa-check"></i><b>9.4</b> 특수형태 그래프</a></li>
+<li class="chapter" data-level="9.5" data-path="그래프.html"><a href="그래프.html#연결-그래프"><i class="fa fa-check"></i><b>9.5</b> 연결 그래프</a></li>
+<li class="chapter" data-level="9.6" data-path="그래프.html"><a href="그래프.html#그래프-응용"><i class="fa fa-check"></i><b>9.6</b> 그래프 응용</a>
+<ul>
+<li class="chapter" data-level="9.6.1" data-path="그래프.html"><a href="그래프.html#최단-경로"><i class="fa fa-check"></i><b>9.6.1</b> 최단 경로</a></li>
+<li class="chapter" data-level="9.6.2" data-path="그래프.html"><a href="그래프.html#해밀턴-순회의-응용"><i class="fa fa-check"></i><b>9.6.2</b> 해밀턴 순회의 응용</a></li>
+</ul></li>
+<li class="chapter" data-level="9.7" data-path="그래프.html"><a href="그래프.html#그래프의-순회탐색"><i class="fa fa-check"></i><b>9.7</b> 그래프의 순회(탐색)</a>
+<ul>
+<li class="chapter" data-level="9.7.1" data-path="그래프.html"><a href="그래프.html#깊이-우선-탐색depth-first-search-dfs"><i class="fa fa-check"></i><b>9.7.1</b> 깊이 우선 탐색(Depth First Search : DFS)</a></li>
+<li class="chapter" data-level="9.7.2" data-path="그래프.html"><a href="그래프.html#너비-우선-탐색breadth-first-search-bfs"><i class="fa fa-check"></i><b>9.7.2</b> 너비 우선 탐색(Breadth First Search : BFS)</a></li>
+</ul></li>
+<li class="chapter" data-level="9.8" data-path="그래프.html"><a href="그래프.html#그래프의-색칠-문제"><i class="fa fa-check"></i><b>9.8</b> 그래프의 색칠 문제</a></li>
+<li class="chapter" data-level="" data-path="그래프.html"><a href="그래프.html#교재-연습문제-1"><i class="fa fa-check"></i>교재 연습문제</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="tree.html"><a href="tree.html"><i class="fa fa-check"></i><b>10</b> 트리</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="tree.html"><a href="tree.html#트리의-기본개념"><i class="fa fa-check"></i><b>10.1</b> 트리의 기본개념</a></li>
+<li class="chapter" data-level="10.2" data-path="tree.html"><a href="tree.html#순서화된-트리"><i class="fa fa-check"></i><b>10.2</b> 순서화된 트리</a></li>
+<li class="chapter" data-level="10.3" data-path="tree.html"><a href="tree.html#이진-트리"><i class="fa fa-check"></i><b>10.3</b> 이진 트리</a></li>
+<li class="chapter" data-level="10.4" data-path="tree.html"><a href="tree.html#이진-트리를-표현하는-방법"><i class="fa fa-check"></i><b>10.4</b> 이진 트리를 표현하는 방법</a></li>
+<li class="chapter" data-level="10.5" data-path="tree.html"><a href="tree.html#이진-트리의-순회"><i class="fa fa-check"></i><b>10.5</b> 이진 트리의 순회</a></li>
+<li class="chapter" data-level="10.6" data-path="tree.html"><a href="tree.html#생성트리와-최소비용-생성트리"><i class="fa fa-check"></i><b>10.6</b> 생성트리와 최소비용 생성트리</a>
+<ul>
+<li class="chapter" data-level="10.6.1" data-path="tree.html"><a href="tree.html#mst의-응용분야"><i class="fa fa-check"></i><b>10.6.1</b> MST의 응용분야</a></li>
+</ul></li>
+<li class="chapter" data-level="10.7" data-path="tree.html"><a href="tree.html#트리의-활용"><i class="fa fa-check"></i><b>10.7</b> 트리의 활용</a>
+<ul>
+<li class="chapter" data-level="10.7.1" data-path="tree.html"><a href="tree.html#문법의-파싱parsing"><i class="fa fa-check"></i><b>10.7.1</b> 문법의 파싱(parsing)</a></li>
+<li class="chapter" data-level="10.7.2" data-path="tree.html"><a href="tree.html#결정-트리decision-tree"><i class="fa fa-check"></i><b>10.7.2</b> 결정 트리(decision tree)</a></li>
+<li class="chapter" data-level="10.7.3" data-path="tree.html"><a href="tree.html#게임-트리game-tree"><i class="fa fa-check"></i><b>10.7.3</b> 게임 트리(game tree)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="tree.html"><a href="tree.html#기말고사-일정-및-보강계획"><i class="fa fa-check"></i>기말고사 일정 및 보강계획</a></li>
+<li class="chapter" data-level="" data-path="tree.html"><a href="tree.html#교재-연습문제-2"><i class="fa fa-check"></i>교재 연습문제</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html"><i class="fa fa-check"></i><b>11</b> 순열, 이산확률, 재귀적관계</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#경우의-수-순열과-조합"><i class="fa fa-check"></i><b>11.1</b> 경우의 수, 순열과 조합</a></li>
+<li class="chapter" data-level="11.2" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#이산적-확률과-통계"><i class="fa fa-check"></i><b>11.2</b> 이산적 확률과 통계</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#확률의-유래"><i class="fa fa-check"></i><b>11.2.1</b> 확률의 유래</a></li>
+<li class="chapter" data-level="11.2.2" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#확률의-정의"><i class="fa fa-check"></i><b>11.2.2</b> 확률의 정의</a></li>
+<li class="chapter" data-level="11.2.3" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#확률의-계산-고전적-정의에-의한"><i class="fa fa-check"></i><b>11.2.3</b> 확률의 계산 (고전적 정의에 의한)</a></li>
+<li class="chapter" data-level="11.2.4" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#조건부-확률과-베이즈-정리"><i class="fa fa-check"></i><b>11.2.4</b> 조건부 확률과 베이즈 정리</a></li>
+<li class="chapter" data-level="11.2.5" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#확률변수"><i class="fa fa-check"></i><b>11.2.5</b> 확률변수</a></li>
+<li class="chapter" data-level="11.2.6" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#베르누이-분포-이항분포"><i class="fa fa-check"></i><b>11.2.6</b> 베르누이 분포, 이항분포</a></li>
+<li class="chapter" data-level="11.2.7" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#초기하분포와-확률변수"><i class="fa fa-check"></i><b>11.2.7</b> 초기하분포와 확률변수</a></li>
+<li class="chapter" data-level="11.2.8" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#기하분포-음이항분포"><i class="fa fa-check"></i><b>11.2.8</b> 기하분포, 음이항분포</a></li>
+<li class="chapter" data-level="11.2.9" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#포아송poisson-문포"><i class="fa fa-check"></i><b>11.2.9</b> 포아송(Poisson) 문포</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#비둘기-집-원리"><i class="fa fa-check"></i><b>11.3</b> 비둘기 집 원리 *</a></li>
+<li class="chapter" data-level="11.4" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#재귀적-정의"><i class="fa fa-check"></i><b>11.4</b> 재귀적 정의</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="순열-이산확률-재귀적관계.html"><a href="순열-이산확률-재귀적관계.html#피보나치-수fibonacci-numbers"><i class="fa fa-check"></i><b>11.4.1</b> 피보나치 수(Fibonacci numbers)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="algorithm.html"><a href="algorithm.html"><i class="fa fa-check"></i><b>12</b> 알고리즘을 통한 문제해결</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="algorithm.html"><a href="algorithm.html#알고리즘-분석"><i class="fa fa-check"></i><b>12.1</b> 알고리즘 분석</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="algorithm.html"><a href="algorithm.html#시간-복잡성과-공간-복잡성"><i class="fa fa-check"></i><b>12.1.1</b> 시간 복잡성과 공간 복잡성</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="algorithm.html"><a href="algorithm.html#알고리즘-복잡성"><i class="fa fa-check"></i><b>12.2</b> 알고리즘 복잡성</a></li>
+<li class="chapter" data-level="12.3" data-path="algorithm.html"><a href="algorithm.html#재귀-함수의-복잡성"><i class="fa fa-check"></i><b>12.3</b> 재귀 함수의 복잡성</a></li>
+<li class="chapter" data-level="12.4" data-path="algorithm.html"><a href="algorithm.html#탐색-알고리즘"><i class="fa fa-check"></i><b>12.4</b> 탐색 알고리즘</a>
+<ul>
+<li class="chapter" data-level="12.4.1" data-path="algorithm.html"><a href="algorithm.html#on-알고리즘"><i class="fa fa-check"></i><b>12.4.1</b> <span class="math inline">\(O(n)\)</span> 알고리즘</a></li>
+<li class="chapter" data-level="12.4.2" data-path="algorithm.html"><a href="algorithm.html#olog_2-n-알고리즘"><i class="fa fa-check"></i><b>12.4.2</b> <span class="math inline">\(O(\log_2 n)\)</span> 알고리즘</a></li>
+</ul></li>
+<li class="chapter" data-level="12.5" data-path="algorithm.html"><a href="algorithm.html#정렬-알고리즘"><i class="fa fa-check"></i><b>12.5</b> 정렬 알고리즘</a>
+<ul>
+<li class="chapter" data-level="12.5.1" data-path="algorithm.html"><a href="algorithm.html#on2-알고리즘"><i class="fa fa-check"></i><b>12.5.1</b> <span class="math inline">\(O(n^2)\)</span> 알고리즘</a></li>
+<li class="chapter" data-level="12.5.2" data-path="algorithm.html"><a href="algorithm.html#on-log_2-n-알고리즘"><i class="fa fa-check"></i><b>12.5.2</b> <span class="math inline">\(O(n \log_2 n)\)</span> 알고리즘</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="algorithm.html"><a href="algorithm.html#교재-연습문제-3"><i class="fa fa-check"></i>교재 연습문제</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="부울대수.html"><a href="부울대수.html"><i class="fa fa-check"></i><b>13</b> 부울 대수</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="부울대수.html"><a href="부울대수.html#부울식-boolian-expression"><i class="fa fa-check"></i><b>13.1</b> 부울식 (Boolian expression)</a></li>
+<li class="chapter" data-level="13.2" data-path="부울대수.html"><a href="부울대수.html#bool-function-부울-함수"><i class="fa fa-check"></i><b>13.2</b> Bool function (부울 함수)</a></li>
+<li class="chapter" data-level="13.3" data-path="부울대수.html"><a href="부울대수.html#representing-boolean-functions"><i class="fa fa-check"></i><b>13.3</b> Representing Boolean Functions</a></li>
+<li class="chapter" data-level="13.4" data-path="부울대수.html"><a href="부울대수.html#부울함수의-간소화"><i class="fa fa-check"></i><b>13.4</b> 부울함수의 간소화</a>
+<ul>
+<li class="chapter" data-level="13.4.1" data-path="부울대수.html"><a href="부울대수.html#두-변수에-대한-카노우맵"><i class="fa fa-check"></i><b>13.4.1</b> 두 변수에 대한 카노우맵</a></li>
+<li class="chapter" data-level="13.4.2" data-path="부울대수.html"><a href="부울대수.html#세-변수에-대한-카노우맵"><i class="fa fa-check"></i><b>13.4.2</b> 세 변수에 대한 카노우맵</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="부울대수.html"><a href="부울대수.html#교재-연습문제-4"><i class="fa fa-check"></i>교재 연습문제</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="a1.-부록.html"><a href="a1.-부록.html"><i class="fa fa-check"></i>A1. 부록</a>
+<ul>
+<li class="chapter" data-level="13.5" data-path="a1.-부록.html"><a href="a1.-부록.html#파이썬-sympy-패키지-소개"><i class="fa fa-check"></i><b>13.5</b> 파이썬 <code>sympy</code> 패키지 소개</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="a2.-과제-및-연습문제-풀이.html"><a href="a2.-과제-및-연습문제-풀이.html"><i class="fa fa-check"></i>A2. 과제 및 연습문제 풀이</a>
+<ul>
+<li class="chapter" data-level="" data-path="a2.-과제-및-연습문제-풀이.html"><a href="a2.-과제-및-연습문제-풀이.html#과제1-논리와-명제"><i class="fa fa-check"></i>과제1: 논리와 명제</a></li>
+<li class="chapter" data-level="" data-path="a2.-과제-및-연습문제-풀이.html"><a href="a2.-과제-및-연습문제-풀이.html#과제2-증명법"><i class="fa fa-check"></i>과제2: 증명법</a></li>
+<li class="chapter" data-level="" data-path="a2.-과제-및-연습문제-풀이.html"><a href="a2.-과제-및-연습문제-풀이.html#관계와-표현-연습문제"><i class="fa fa-check"></i>관계와 표현 연습문제</a></li>
+<li class="chapter" data-level="" data-path="a2.-과제-및-연습문제-풀이.html"><a href="a2.-과제-및-연습문제-풀이.html#행렬"><i class="fa fa-check"></i>행렬</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="이산구조-중간고사-결과-및-해답.html"><a href="이산구조-중간고사-결과-및-해답.html"><i class="fa fa-check"></i>이산구조 중간고사 결과 및 해답</a>
+<ul>
+<li class="chapter" data-level="" data-path="이산구조-중간고사-결과-및-해답.html"><a href="이산구조-중간고사-결과-및-해답.html#중간고사-결과"><i class="fa fa-check"></i>중간고사 결과</a></li>
+<li class="chapter" data-level="" data-path="이산구조-중간고사-결과-및-해답.html"><a href="이산구조-중간고사-결과-및-해답.html#중간고사-문제-풀이"><i class="fa fa-check"></i>중간고사 문제 풀이</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="이산구조-기말고사-해답.html"><a href="이산구조-기말고사-해답.html"><i class="fa fa-check"></i>이산구조 기말고사 해답</a>
+<ul>
+<li class="chapter" data-level="" data-path="이산구조-기말고사-해답.html"><a href="이산구조-기말고사-해답.html#ox문제"><i class="fa fa-check"></i>O/X문제</a></li>
+<li class="chapter" data-level="" data-path="이산구조-기말고사-해답.html"><a href="이산구조-기말고사-해답.html#선택문제"><i class="fa fa-check"></i>선택문제</a></li>
+<li class="chapter" data-level="" data-path="이산구조-기말고사-해답.html"><a href="이산구조-기말고사-해답.html#주관식문제"><i class="fa fa-check"></i>주관식문제</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="http://bigdata.dongguk.ac.kr/lectures.html" target="blank">강의 홈</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">이산수학 (Discrete Mathematics)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="관계" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5 장</span> 관계와 표현<a href="관계.html#관계" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>관계(Relation)</strong></p>
+<ul>
+<li><p>관계(Relation)란 객체들 간의 연관성을 표현하는 구조로서, 수학이나 공학 분야뿐만 아니라 여러 다른 분야에서도 기본적이고 중요한 개념임</p></li>
+<li><p>수학, 컴퓨터, 여러 가지 공학 분야에서의 객체들도 이와 같이 여러 가지 관계를 가짐</p></li>
+</ul>
+<p><strong>관계의 예시</strong></p>
+<ul>
+<li>집합A가 집합B의 부분 집합인 경우 관계가 있음</li>
+<li>두 개의 디지털 논리 회로가 같은 입출력 도표를 가졌을 때 두 회로는 관계가 있음</li>
+<li>컴퓨터 프로그램에서 두 변수가 같은 이름과 프로그램 실행 시 같은 저장 장소를 사용하면 관계가 있다고 함</li>
+</ul>
+<div id="관계-relations" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> 관계 (Relations)<a href="관계.html#관계-relations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="definition">
+<p><span id="def:unnamed-chunk-85" class="definition"><strong>정의 5.1  (Relation) </strong></span>집합 <span class="math inline">\(A\)</span>와 <span class="math inline">\(B\)</span>가 있을 때, <span class="math inline">\(A\)</span>와 <span class="math inline">\(B\)</span>의 카테시안 곱(<span class="math inline">\(A\times B\)</span>)의 부분집합(subset) <span class="math inline">\(R\)</span>을 <strong><span class="math inline">\(A\)</span>에서 <span class="math inline">\(B\)</span>로 관계</strong>라고 한다. 또는 <strong>binary relations (이진관계, 이항관계)</strong>라고 한다.
+<span class="math display">\[
+R := \{(a,b) | a\in A, b \in B\} \subseteq A\times B.
+\]</span></p>
+<ul>
+<li>위에서 <span class="math inline">\(A\)</span>를 정의역 (Domain), <span class="math inline">\(B\)</span>를 공역 (Codomain)이라고 함</li>
+<li>치역(Range) = <span class="math inline">\(\{b \in B | (a,b) \in R\}\)</span></li>
+</ul>
+</div>
+<p><img src="figures/relation.png" style="width:60.0%" /></p>
+<ul>
+<li><span class="math inline">\((a,b)\)</span>가 관계 <span class="math inline">\(R\)</span>의 원소이면 아래처럼 표시함
+<span class="math display">\[
+(a,b) \in R, \\
+aRb, \\
+R (a, b).
+\]</span>
+<!-- - 예: $a < b$는 $(a,b)\in <$를 의미함 --></li>
+<li><span class="math inline">\(aRb\)</span>이면, “<span class="math inline">\(a\)</span>는 (관계 <span class="math inline">\(R\)</span>에 의해서) <span class="math inline">\(b\)</span>에 관계된다”고 말한다.</li>
+</ul>
+<div class="example">
+<p><span id="exm:unnamed-chunk-86" class="example"><strong>예제 5.1  </strong></span><span class="math inline">\(A=\{1,2,3\}\)</span>, <span class="math inline">\(B=\{a, b\}\)</span>일 때, <span class="math inline">\(\{(1,a), (2,a), (3,b)\}\)</span>는 <span class="math inline">\(A\)</span>에서 <span class="math inline">\(B\)</span>로의 관계이다.</p>
+</div>
+<div class="definition">
+<p><span id="def:unnamed-chunk-87" class="definition"><strong>정의 5.2  </strong></span>집합 <span class="math inline">\(A\)</span>에서 자기 자신 <span class="math inline">\(A\)</span>로의 관계를 <strong>집합 <span class="math inline">\(A\)</span> 위로의 관계</strong>(relation on a set <span class="math inline">\(A\)</span>)라고 한다.
+<span class="math display">\[
+  R \subseteq A\times A.
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-88" class="example"><strong>예제 5.2  </strong></span><span class="math inline">\(A = \{1, 2, 3, 4\}\)</span>일 때, <span class="math inline">\(b/a\)</span>가 정수가 되는 모든 순서쌍<span class="math inline">\((a,b)\)</span>을 원소로 하는 관계를 구하라.</p>
+</div>
+<div class="solution">
+<p><span id="unlabeled-div-45" class="solution"><em>풀이</em>. </span><span class="math display">\[
+  R = \{(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 4), (3, 3), (4, 4)\}
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-90" class="example"><strong>예제 5.3  </strong></span><span class="math inline">\(A = \{a,b,c\}\)</span>일 때, 집합<span class="math inline">\(A\)</span> 위로의 관계는 모두 몇개인가?</p>
+</div>
+<div class="solution">
+<p><span id="unlabeled-div-46" class="solution"><em>풀이</em>. </span>집합 <span class="math inline">\(A\)</span>위로의 관계는 카테시안 곱 (<span class="math inline">\(A\times A\)</span>)의 부분집합이다.</p>
+<p>가능한 집합<span class="math inline">\(A\)</span> 위로의 관계는 카테시안 곱 (<span class="math inline">\(A\times A\)</span>)의 부분집합의 개수와 같다.</p>
+<p>카테시안 곱 (<span class="math inline">\(A\times A\)</span>)의 원소의 개수는 <span class="math inline">\(3^2=9\)</span>이므로 부분집합의 개수는
+<span class="math display">\[
+  2^{9} = 512.
+\]</span></p>
+</div>
+<!-- - 집합 A위로의 관계 (relation on $A$): 집합 $A$에서 $A$로의 관계, 자기자신으로의 관계 -->
+<!-- E.g., the "$<$" relation from earlier was defined as a relation on the set N of natural numbers.("$<$"은 정수 집합 N에 대한 관계이다.) -->
+<div class="definition">
+<p><span id="def:unnamed-chunk-92" class="definition"><strong>정의 5.3  (항등 관계) </strong></span>집합 <span class="math inline">\(A\)</span>위로의 관계가 아래와 같을 때, <span class="math inline">\(I_A\)</span>를 <strong>항등 관계</strong>(identity relation)라고 한다.
+<span class="math display">\[
+I_A = \{(a,a)|a\in A\}.
+\]</span></p>
+</div>
+<hr />
+<!-- - 집합 $A$와 $B$가 있을 때, **$A$에서 $B$로 가는 이진관계** $R$은 $A$와 $B$의 카테시안 곱($A\times B$)의 부분집합(subset)이고, -->
+<!--     $$ -->
+<!--     R:A\lra B -->
+<!--     $$ -->
+<!-- 로 표기한다. -->
+<!--     - E.g., let $< : N\lra N :\equiv \{(n,m) | n < m\}$ -->
+<div class="definition">
+<p><span id="def:unnamed-chunk-93" class="definition"><strong>정의 5.4  (역관계, inverse relation) </strong></span><span class="math inline">\(A\)</span>에서 <span class="math inline">\(B\)</span>로의 이진관계 <span class="math inline">\(R\)</span>의 <strong>역관계</strong> (inverse relation) <span class="math inline">\(R^{−1}\)</span>는 <span class="math inline">\(B\)</span>에서 <span class="math inline">\(A\)</span>로의 관계로 다음과 같이 정의함
+<span class="math display">\[
+R^{−1} := \{(b,a) | (a,b) \in R\}.
+\]</span>
+즉, <span class="math inline">\(R\)</span>에서의 순서쌍의 순서를 바꾼 것과 같다.</p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-94" class="example"><strong>예제 5.4  </strong></span><span class="math inline">\(A = \{1,2,3\}\)</span>, <span class="math inline">\(B=\{3,4\}\)</span>일 때, 관계 <span class="math inline">\(R\)</span>이 다음과 같이 정의되었다고 하자. <span class="math inline">\(R\)</span>의 역관계는 ?
+<span class="math display">\[
+  R = \{(1,3), (2,3), (2,4), (3,4)\}
+\]</span></p>
+</div>
+<div class="solution">
+<p><span id="unlabeled-div-47" class="solution"><em>풀이</em>. </span>역관계는 순서쌍의 순서를 바꾸면 됨, 따라서
+<span class="math display">\[
+  R^{-1} = \{(3,1), (3,2), (4,2), (4,3)\}.
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-96" class="example"><strong>예제 5.5  </strong></span>If <span class="math inline">\(R:People{\leftrightarrow}Foods\)</span> is defined by
+<span class="math inline">\(aRb \equiv a \text{ eats }b\)</span>, then:<br />
+<span class="math inline">\(b R^{−1} a \equiv b \text{ is eaten by }a\)</span>.
+(<span class="math inline">\(R^{−1} =\)</span> “is eaten by”.)</p>
+</div>
+</div>
+<div id="관계의-표현-방법" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> 관계의 표현 방법<a href="관계.html#관계의-표현-방법" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p>관계를 표현하는 편리한 방법들로는 화살표 도표(arrow diagram), 좌표 도표(coordinate diagram), 방향 그래프(directed graph), 관계 행렬(relation matrix) 등이 있음</p>
+</blockquote>
+<p><img src="figures/%EA%B4%80%EA%B3%84%ED%91%9C%EC%8B%9C%EB%B0%A9%EB%B2%95.png" style="width:80.0%" /></p>
+<dl>
+<dt>화살표 도표(arrow diagram)</dt>
+<dd>
+<span class="math inline">\((a, b) \in R\)</span>라고 할 때, 원소 <span class="math inline">\(a\in A\)</span>에서 <span class="math inline">\(b\in B\)</span>로 화살표로 연결
+</dd>
+</dl>
+<p><img src="figures/%ED%99%94%EC%82%B4%ED%91%9C%EB%8F%84%ED%91%9C.PNG" style="width:60.0%" /></p>
+<dl>
+<dt>좌표 도표(Coordinate Diagram)</dt>
+<dd>
+집합 <span class="math inline">\(A\)</span>의 원소를 <span class="math inline">\(x\)</span>-좌표, 집합 <span class="math inline">\(B\)</span>의 원소를 <span class="math inline">\(y\)</span>-좌표로 간주하여
+<span class="math inline">\(x-y\)</span>좌표 평면에 점으로 표시
+</dd>
+</dl>
+<p><img src="figures/%EC%A2%8C%ED%91%9C%EB%8F%84%ED%91%9C.PNG" style="width:60.0%" /></p>
+<dl>
+<dt>방향 그래프(Directed Graph)</dt>
+<dd>
+관계 <span class="math inline">\(R\)</span>이 집합 <span class="math inline">\(A\)</span> 위로의 관계라고 할 때,
+집합 <span class="math inline">\(A\)</span>의 원소를 그래프의 꼭지점(vertex)으로 하여, <span class="math inline">\((a, b) \in R\)</span>을 간선(edge)하는 방향그래프로 표현
+</dd>
+</dl>
+<p><img src="figures/%EB%B0%A9%ED%96%A5%EA%B7%B8%EB%9E%98%ED%94%84%ED%91%9C%EC%8B%9C%EB%B2%95.PNG" style="width:50.0%" /></p>
+<dl>
+<dt>관계 행렬(Relation Matrix), 부울 행렬(Boolean Matrix)</dt>
+<dd>
+행렬의 각 행은 집합 A의 원소, 각 열은 집합 B의 원소를 표시하고,
+관계의 원소인 순서쌍 <span class="math inline">\((a, b) \in R\)</span>에 대하여 대응되는 행렬의 원소를 1, 나머지는 0으로 표현하는 방법, 아래는 <span class="math inline">\(A=\{1,2,3\}\)</span>에서 <span class="math inline">\(B=\{a,b,c,d\}\)</span>로의 관계를 관계행렬로 나타낸 것임
+</dd>
+</dl>
+<p><img src="figures/dmatrix.png" style="width:40.0%" />
+<!-- $$ -->
+<!-- \begin{align} -->
+<!--  ~   &~~~  \begin{matrix}a  &   b& c &   d   \end{matrix}  \\ -->
+<!--     \begin{matrix} -->
+<!-- 1 \\ 2\\3\\ -->
+<!--     \end{matrix} -->
+<!--     & -->
+<!--     \begin{bmatrix}  -->
+<!-- 1    & 1 & 0& 0 \\ -->
+<!-- 0    & 1 & 1& 0 \\ -->
+<!-- 1    & 0 & 1& 0 \\ -->
+<!--     \end{bmatrix} -->
+<!-- \end{align} -->
+<!-- $$ --></p>
+</div>
+<div id="관계의-합성-combining-relations" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> 관계의 합성 (Combining Relations)<a href="관계.html#관계의-합성-combining-relations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="definition">
+<p><span id="def:unnamed-chunk-97" class="definition"><strong>정의 5.5  (합성관계) </strong></span><span class="math inline">\(R: A {\leftrightarrow}B\)</span>, <span class="math inline">\(S: B {\leftrightarrow}C\)</span>라고 할 때, <span class="math inline">\(R\)</span>과 <span class="math inline">\(S\)</span>의 <strong>합성관계</strong> (composite relation)은 아래와 같이 정의함
+<span class="math display">\[
+  R \circ S = \{(a,c) | a \in A, c \in C, (a, b) \in R, (b, c) \in S \}.
+\]</span></p>
+</div>
+<p><img src="figures/composition_relation.png" style="width:70.0%" /></p>
+<div class="example">
+<p><span id="exm:unnamed-chunk-98" class="example"><strong>예제 5.6  </strong></span><span class="math inline">\(A= \{1, 2, 3\}, B= \{1, 2, 3, 4\}, C=\{0, 1, 2\}\)</span>가 주어지고, 관계 <span class="math inline">\(R: A \iff B\)</span>과 <span class="math inline">\(S: B\iff C\)</span>를 아래와 같이 정의할 때, 합성관계 <span class="math inline">\(R \circ S\)</span>를 구하라.
+<span class="math display">\[
+R = \{(1, 1), (1, 4), (2, 3), (3, 1), (3, 4)\}\\
+S = \{(1, 0), (2, 0), (3, 1), (3, 2), (4, 1)\}
+\]</span></p>
+</div>
+<p><img src="figures/composition_relation_ex1.png" style="width:70.0%" /></p>
+<div class="definition">
+<p><span id="def:unnamed-chunk-99" class="definition"><strong>정의 5.6  (Boolean Arithmetic) </strong></span><strong>불리안 연산</strong>은 {0,1}에서 합과 곱에 대하여 정의
+<span class="math display">\[
+0+0=0, ~0+1=1+0=1, ~1+1=1
+\]</span>
+<span class="math display">\[    
+0\times 0=0, ~0\times 1=1\times 0=0, ~1\times 1=1
+\]</span></p>
+</div>
+<p><strong>불리안(Boolian) 행렬곱을 이용한 합성관계의 계산</strong>
+<span class="math display">\[
+R=  \begin{bmatrix}
+     1 &amp; 0&amp; 0 &amp;1 \\
+     0 &amp; 0&amp; 1&amp;0 \\
+     1 &amp; 0&amp; 0&amp;1 \\
+    \end{bmatrix},~
+S=  \begin{bmatrix}
+     1 &amp; 0&amp; 0 \\
+     1 &amp; 0&amp; 0 \\
+     0 &amp; 1&amp; 1 \\
+     0 &amp; 1&amp; 0 \\
+    \end{bmatrix},~
+R\circ S = RS = \begin{bmatrix}
+1 &amp; 1 &amp; 0\\
+0 &amp; 1 &amp; 1\\
+1 &amp; 1 &amp; 0\\
+\end{bmatrix}
+\]</span></p>
+<div class="example">
+<p><span id="exm:unnamed-chunk-101" class="example"><strong>예제 5.7  </strong></span><span class="math inline">\(A = \{1,2,3,4\}, B=\{1,2,3\}\)</span>이고 <span class="math inline">\(A\)</span>에서 <span class="math inline">\(B\)</span>로의 관계 <span class="math inline">\(R\)</span>이 다음과 같다.
+<span class="math display">\[
+  R = \{(1,2), (1.3), (2,2), (3,1), (4,2)\}.
+\]</span>
+아래를 구하라.</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(I_A\)</span> (<span class="math inline">\(A\)</span>위로의 항등관계)</li>
+<li><span class="math inline">\(I_B\)</span> (<span class="math inline">\(A\)</span>위로의 항등관계)</li>
+<li><span class="math inline">\(I_A \circ R\)</span></li>
+</ol>
+</div>
+<div class="solution">
+<p><span id="unlabeled-div-48" class="solution"><em>풀이</em>. </span></p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(I_A = \{(a,a)| a\in A\} = \{(1,1), (2,2), (3,3), (4,4)\}\)</span></li>
+<li><span class="math inline">\(I_B = \{(a,a)| a\in B\} = \{(1,1), (2,2), (3,3)\}\)</span></li>
+<li><span class="math inline">\(I_A \circ R = R = \{(1,1), (2,2), (3,3), (4,4)\}\)</span></li>
+</ol>
+<p>위의 예 (3)번은 행렬 연산을 이용하여 보일 수 있다.
+<span class="math display">\[
+I_A = \begin{bmatrix}
+     1 &amp; 0&amp; 0 &amp; 0 \\
+     0 &amp; 1&amp; 0 &amp; 0 \\
+     0 &amp; 0&amp; 1 &amp; 0 \\
+     0 &amp; 0&amp; 0 &amp; 1 \\
+    \end{bmatrix},
+R = \begin{bmatrix}
+     0 &amp; 1&amp; 1 \\
+     0 &amp; 1&amp; 0 \\
+     1 &amp; 0&amp; 0 \\
+     0 &amp; 1&amp; 0 \\
+    \end{bmatrix}
+\]</span>
+로 표현할 수 있고, 불리안 행렬곱을 이용하면
+<span class="math display">\[       
+I_A R = \begin{bmatrix}
+     1 &amp; 0&amp; 0 &amp; 0 \\
+     0 &amp; 1&amp; 0 &amp; 0 \\
+     0 &amp; 0&amp; 1 &amp; 0 \\
+     0 &amp; 0&amp; 0 &amp; 1 \\
+    \end{bmatrix}
+     \begin{bmatrix}
+     0 &amp; 1&amp; 1 \\
+     0 &amp; 1&amp; 0 \\
+     1 &amp; 0&amp; 0 \\
+     0 &amp; 1&amp; 0 \\
+    \end{bmatrix}
+=      
+\begin{bmatrix}
+0 &amp; 1&amp; 1 \\
+0 &amp; 1&amp; 0 \\
+1 &amp; 0&amp; 0 \\
+0 &amp; 1&amp; 0 \\
+\end{bmatrix} = R.
+\]</span>
+위와 비슷하게 <span class="math inline">\(R I_B = R\)</span>, 즉 어떤 관계와 항등관계의 합성은 다음과 같은 성질이 성립한다.
+<span class="math display">\[
+  I_A \circ R = R\circ I_B = R.
+\]</span></p>
+</div>
+</div>
+<div id="complementary-relations-보수-관계" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Complementary Relations (보수 관계)<a href="관계.html#complementary-relations-보수-관계" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>어떤 이진관계 <span class="math inline">\(R:A{\leftrightarrow}B\)</span>에 대하여, <span class="math inline">\(R\)</span>의 보수(complement)
+<span class="math display">\[
+  \Rx:A{\leftrightarrow}B
+  \]</span>
+는 이진관계이며 아래와 같이 정의한다.
+<span class="math display">\[
+  \Rx := \{(a,b) | (a,b)\notin R\} = (A\times B) − R
+  \]</span></p>
+<ul>
+<li>예:<br />
+<span class="math display">\[
+  \nless = \{(a,b) | (a,b) \notin &lt;\} = \{(a,b) | \lnot(a&lt;b)\} = \ge
+  \]</span></li>
+</ul></li>
+<li><p>예제:
+<span class="math inline">\(A = \{0, 1, 2\}, B = \{a, b\}\)</span>라 하고, A에서 B로의 이진관계 <span class="math inline">\(R = \{(0,a), (0,b), (1,a), (2,b)\}\)</span>라고 하자.</p>
+<ul>
+<li><span class="math inline">\((0,a)\in R\)</span> 이므로, <span class="math inline">\(0Ra\)</span>라 할 수 있다.</li>
+<li>그러나, <span class="math inline">\((1,b)\notin R\)</span> 이므로, <span class="math inline">\(1\Rx b\)</span>라 할 수 있다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="관계의-성질-properties-of-relations" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> 관계의 성질 (Properties of Relations)<a href="관계.html#관계의-성질-properties-of-relations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="definition">
+<p><span id="def:unlabeled-div-49" class="definition"><strong>정의 5.7  (Reflexivity, 반사성) </strong></span></p>
+<ol style="list-style-type: lower-roman">
+<li><span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>반사적 (reflexive)</strong>이다.
+<span class="math display">\[
+(a, a) \in R ~(= aRa), ~\forall a \in A.
+\]</span></li>
+<li><span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>비반사적 (irreflexive)</strong>이다.
+<span class="math display">\[
+    (a, a) \notin R ~(= a\Rx a), ~\forall a \in A.
+    \]</span>
+위 조건은 다음 조건과 동치이다.
+<span class="math display">\[
+\nexists a \in A \text{ such that } (a, a) \in R .
+\]</span></li>
+</ol>
+</div>
+<p>아래 그림은 반사관계의 예시를 <strong>방향 그래프</strong> 로 나타낸 것임</p>
+<p><img src="figures/%EB%B0%98%EC%82%AC%EA%B4%80%EA%B3%84.PNG" style="width:80.0%" /></p>
+<div class="example">
+<p><span id="exm:unnamed-chunk-103" class="example"><strong>예제 5.8  </strong></span></p>
+<ul>
+<li><p>The relation <span class="math inline">\(\ge:= \{(a,b) | a\ge b, a\in N, b\in N\}\)</span> is reflexive because <span class="math inline">\((a,a)\in \ge\)</span> for all <span class="math inline">\(a\in N\)</span>.</p></li>
+<li><p>The relation <span class="math inline">\(&lt;\)</span> is irreflexive because there is not exist <span class="math inline">\(a\)</span> such that <span class="math inline">\(a&lt;a\)</span>.</p></li>
+<li><p>양의 정수 집합에 대해 “나누다(/)” 관계는 반사적인가?</p>
+<ul>
+<li>임의의 양의 정수 <span class="math inline">\(a/a=1\)</span>는 자기 자신으로 나누어 진다.</li>
+<li>즉, <span class="math inline">\((a,a) \in /\)</span>가 성립한다.</li>
+<li>따라서, “나누다”는 양의 정수 집합에 대해 반사적이다.</li>
+</ul></li>
+</ul>
+</div>
+<hr />
+<div class="definition">
+<p><span id="def:unlabeled-div-50" class="definition"><strong>정의 5.8  (symmetry 대칭성) </strong></span></p>
+<ol style="list-style-type: lower-roman">
+<li>집합 <span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>대칭적 (symmetric)</strong>이다.
+<span class="math display">\[
+\forall a, b\in A: (a,b)\in R  ~\then~ (b,a)\in R.
+\]</span>
+즉, <span class="math inline">\((a,b)\)</span>가 <span class="math inline">\(R\)</span>의 원소일 때, 반드시 <span class="math inline">\((b,a)\)</span>도 <span class="math inline">\(R\)</span>의 원소이면 대칭적이라 한다.</li>
+</ol>
+<p><img src="figures/%EB%8C%80%EC%B9%AD%EA%B4%80%EA%B3%84.PNG" style="width:80.0%" /></p>
+<p>위의 그림에서 한점은 자기자신과 그리고 두 점간에는는 양방향 연결이 있음(a), 우측 행렬(b)은 대칭행렬(symetric matrix)</p>
+<ol start="2" style="list-style-type: lower-roman">
+<li>집합 <span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>반대칭적 (antisymmetric)</strong>이다.
+<span class="math display">\[
+\forall a, b\in A: (a,b)\in R \text{ and } (b,a)\in R  ~\then~ a=b.
+\]</span>
+위의 조건과 동치인 조건
+<span class="math display">\[
+\forall a, b\in A: (a,b) \in R, a \ne b \then (b,a) \notin R.
+\]</span>
+<strong>반대칭적 (antisymmetric)</strong>은 <strong>대칭적 (symmetric)</strong>이 아니다를 뜻하지 않음, <span class="math inline">\((a,b)\)</span> 이고 <span class="math inline">\((b,a)\)</span>인 관계가 있으면 반드시 <span class="math inline">\(a\)</span>와 <span class="math inline">\(b\)</span>는 같아야 된다는 의미.</li>
+</ol>
+<p><img src="figures/antisymmetrix.png" style="width:45.0%" />
+<img src="figures/asymmetrix.png" style="width:45.0%" /></p>
+<p>왼쪽은 반대칭, 오른쪽은 반대칭이 아님</p>
+<div class="figure">
+<img src="figures/Symmetric-and-or-antisymmetric.svg.png" style="width:60.0%" alt="" />
+<p class="caption">From Wikipidia: 대칭, 반대칭 비교</p>
+</div>
+<ol start="2" style="list-style-type: lower-roman">
+<li>집합 <span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>비대칭적 (asymmetric)</strong>이다.
+<span class="math display">\[
+\forall a, b\in A : (a,b)\in R  \then (b,a)\notin R.
+\]</span>
+<strong>비대칭적 (asymmetric)</strong>은 <strong>대칭적 (symmetric)</strong>이 아니다를 뜻하지 않음</li>
+</ol>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-51" class="remark"><em>Remark</em>. </span><span class="math inline">\((a,b)\in R\)</span>, <span class="math inline">\((b,a)\in R\)</span>, <span class="math inline">\(a=b\)</span>를 각각 <span class="math inline">\(p,q,r\)</span>이라 하고,
+함축을 포함한 논리적 동치를 이용하면 (ii) 반대칭의 조건이 동치임을 보일 수 있음
+<span class="math display">\[
+p \land q \to r \IFF (p\to r) \lor (q\to r)\\
+\IFF (\neg p \lor r) \lor (\neg q \lor r)\\
+\IFF (\neg p \lor r) \lor (\neg q)\\
+\IFF \neg(\neg p \lor r) \to (\neg q) \\
+\IFF (p \land \neg r) \to (\neg q) \\
+\]</span></p>
+</div>
+<div class="theorem">
+<p><span id="thm:unlabeled-div-52" class="theorem"><strong>정리5.1  </strong></span>비대칭(asymmetric) 관계는 반대칭(antisymmetric)이다.</p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-53" class="proof"><em>증명</em>. </span></p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(R\)</span> is asymmetric: for all <span class="math inline">\(a, b \in A\)</span>, <span class="math inline">\((a,b) \in R \then (b, a) \notin R\)</span>.</li>
+<li>This implies that for all <span class="math inline">\(a \ne b \in A\)</span>, <span class="math inline">\((a,b) \in R \then (b, a) \notin R\)</span>.</li>
+<li>So, <span class="math inline">\(R\)</span> is antisymmetric by definition (반대칭의 동치 조건).</li>
+</ol>
+</div>
+<div class="figure">
+<img src="figures/relationship_%EA%B4%80%EA%B3%841.png" style="width:80.0%" alt="" />
+<p class="caption">대칭, 반대칭, 비대칭관계 비교</p>
+</div>
+<p><img src="figures/antisymmetrix.png" style="width:40.0%" />
+<img src="figures/not_antisymmetric.png" style="width:40.0%" /></p>
+<p>왼쪽은 반대칭 &amp; 비대칭 관계, 오른쪽 그림은 반대칭이지만 비대칭 아닌 관계의 예</p>
+<div class="theorem">
+<p><span id="thm:unlabeled-div-54" class="theorem"><strong>정리5.2  </strong></span>비대칭(asymmetric) 관계는 반대칭(antisymmetric)이고 비반사적인(irreflexive) 관계와 동치이다. 즉,</p>
+<ol style="list-style-type: decimal">
+<li><p>비대칭 관계이면 반대칭 관계이고 동시에 비반사적이다.</p></li>
+<li><p>역으로 반대칭 관계이고 동시에 비반사적이면 비대칭 관계이다.</p></li>
+</ol>
+</div>
+<div class="figure">
+<img src="figures/relationship_asymmetry.png" style="width:60.0%" alt="" />
+<p class="caption">비반사관계이고 반대칭이면 비대칭 관계</p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-55" class="example"><strong>예제 5.9  </strong></span></p>
+<ul>
+<li>“=” (equality) is symmetric, antisymmetric, but not asymmetric</li>
+<li><span class="math inline">\(\le\)</span> is antisymmetric but neither symmetric nor asymetric</li>
+<li><span class="math inline">\(&lt;\)</span> is asymmetric, antisymmetric but not symmetric</li>
+<li><strong>“is married to”</strong> is symmetric, antisymmetric, but not asymmetric</li>
+<li><strong>“likes”</strong> is antisymmetric, but neither symmetric nor asymmetric</li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-56" class="example"><strong>예제 5.10  </strong></span>자연수 집합에 대한 <strong>“나누다”</strong> 관계(<span class="math inline">\(\vert\)</span>)는 대칭인가? 반대칭인가?</p>
+<ul>
+<li><span class="math inline">\((1, 2) \in \vert\)</span> 이지만 <span class="math inline">\((2, 1) \notin \vert\)</span>이므로 대칭이 아님</li>
+<li>Let <span class="math inline">\(p\)</span>: <span class="math inline">\(((a\vert b) \land (b\vert a))\)</span>, and <span class="math inline">\(q\)</span>: <span class="math inline">\(a=b\)</span>.
+<ul>
+<li>To prove that <span class="math inline">\(p\to q\)</span>, we will show <span class="math inline">\(\neg q \to \neg p\)</span> (this is contrapositive.)</li>
+<li>If <span class="math inline">\(a\ne b\)</span>, Not exist both <span class="math inline">\(a \vert b\)</span> and <span class="math inline">\(b \vert a\)</span></li>
+<li><span class="math inline">\(\therefore \vert\)</span> is antisymmetric.</li>
+</ul></li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-104" class="example"><strong>예제 5.11  </strong></span><span class="math inline">\(A = \{1,2,3,4\}\)</span> 위로 정의된 관계 <span class="math inline">\(R\)</span>는 대칭, 반대칭, 비대칭?<span class="math display">\[
+R = \{ (1, 1), (2, 2), (3, 3), (4, 4) \}.
+\]</span></p>
+<p>Check the condition:</p>
+<ol style="list-style-type: decimal">
+<li>모든 <span class="math inline">\((a, b) \in R\)</span>, <span class="math inline">\((b, a) \in R\)</span>: <strong>대칭</strong></li>
+<li>모든 <span class="math inline">\(a \ne b\)</span>, <span class="math inline">\((a, b) \in R\)</span>이고 <span class="math inline">\((b, a) \notin R\)</span>이므로: <strong>반대칭</strong></li>
+<li><span class="math inline">\((1, 1) \in R\)</span>이므로 <strong>비대칭이 아님</strong></li>
+</ol>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-105" class="example"><strong>예제 5.12  </strong></span><span class="math inline">\(A = \{1,2,3,4\}\)</span> 위로 정의된 관계 <span class="math inline">\(R\)</span>는 대칭, 반대칭, 비대칭?
+<span class="math display">\[
+R = \{ (1, 1), (1, 3), (2, 3), (3, 4) \}.
+\]</span>
+Check the condition:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\((1, 3) \in R\)</span>이지만 <span class="math inline">\((3, 1) \notin R\)</span> <strong>대칭이 아님</strong></li>
+<li>모든 <span class="math inline">\(a \ne b\)</span>, <span class="math inline">\((a, b) \in R\)</span>이고 <span class="math inline">\((b, a) \notin R\)</span>이므로: <strong>반대칭</strong></li>
+<li><span class="math inline">\((1, 1) \in R\)</span> 비대칭이 아님</li>
+</ol>
+</div>
+<hr />
+<div class="definition">
+<p><span id="def:unlabeled-div-57" class="definition"><strong>정의 5.9  (transitive, 추이관계) </strong></span>집합 <span class="math inline">\(A\)</span>위로의 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <span class="math inline">\(R\)</span>를 <strong>추이관계 (transitive)</strong>라고 함
+<span class="math display">\[
+\forall a, b, c \in A: (a, b) \in R \text{ and } (b, c) \in R \then (a, c) \in R.
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-58" class="example"><strong>예제 5.13  </strong></span>자연수 집합(<span class="math inline">\(\mathrm{N}\)</span>)위의 “divides” (<span class="math inline">\(\vert\)</span>) 관계는 transitive?</p>
+<ul>
+<li><span class="math inline">\(a | b \land b| c\)</span> (premise)</li>
+<li>Then, <span class="math inline">\(\exists k \exists l ((b = ak)\land (c = bl))\)</span>.</li>
+<li>Hence, <span class="math inline">\(c = a(kl)\)</span>, so <span class="math inline">\(a\)</span> divides <span class="math inline">\(c\)</span> (<span class="math inline">\(a|c\)</span>)</li>
+<li>So, this relation is transitive.</li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unlabeled-div-59" class="example"><strong>예제 5.14  </strong></span>정수 집합(<span class="math inline">\(\mathrm{Z}\)</span>)위의 <span class="math inline">\(&lt;\)</span> 관계는 transitive?</p>
+<ul>
+<li><span class="math inline">\(a &lt; b \land b&lt; c\)</span> 이면 <span class="math inline">\(a &lt; c\)</span>이므로 추이관계</li>
+</ul>
+</div>
+<div class="theorem">
+<p><span id="thm:unlabeled-div-60" class="theorem"><strong>정리5.3  </strong></span>집합 <span class="math inline">\(A\)</span>위로의 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <span class="math inline">\(R\)</span>은 <strong>추이관계 (transitive)</strong>이다.
+<span class="math display">\[
+R^2:=R\circ R \subseteq R.
+\]</span></p>
+</div>
+<div class="proof">
+<p><span id="unlabeled-div-61" class="proof"><em>증명</em>. </span>By definition of composition (<span class="math inline">\(R\circ R\)</span>),
+<span class="math display">\[
+(a, b)\in R \land (b, c) \in R \then (a,c) \in R^2.
+\]</span>
+And from the assumption <span class="math inline">\(R\circ R \subseteq R\)</span>,
+<span class="math display">\[
+(a,c) \in R.
+\]</span>
+This completes the proof.</p>
+</div>
+<hr />
+<div class="definition">
+<p><span id="def:unnamed-chunk-106" class="definition"><strong>정의 5.10  (closure, 클로저) </strong></span>집합 <span class="math inline">\(A\)</span>위로의 <span class="math inline">\(R\)</span>이 있을 때, 어떤 성질 P에 대한 <strong><span class="math inline">\(R\)</span>의 클로저(closure)</strong>, <span class="math inline">\(R^+\)</span>는 다음과 같이 정의한다.</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(R^+\)</span>는 성질 P를 갖는다.</li>
+<li><span class="math inline">\(R \subseteq R^+\)</span>이고</li>
+<li><span class="math inline">\(R^+\)</span>는 성질 P를 가지는 <span class="math inline">\(A \times A\)</span>의 원소를 포함한다.</li>
+</ol>
+</div>
+<p><strong>위에서 성질 P는 관계의 성질인 반사성, 대칭성, 추이성 중 하나임</strong></p>
+<div class="example">
+<p><span id="exm:unnamed-chunk-107" class="example"><strong>예제 5.15  (reflexive closure) </strong></span><span class="math inline">\(A = \{1, 2, 3\}\)</span>위로의 관계 <span class="math inline">\(R = \{(1, 1), (1, 2), (2, 1), (3, 2)\}\)</span>의 반사성을 가지는 클로저 <span class="math inline">\(R^+\)</span>는 <span class="math inline">\((2, 2)\)</span>와 <span class="math inline">\((3, 3)\)</span>를 <span class="math inline">\(R\)</span>에 추가하면 된다.
+<span class="math display">\[
+  R^+ = \{(1, 1), (1, 2), (2, 1), (3, 2)\} \cup \{(2, 2), (3, 3)\}
+\]</span>
+<span class="math display">\[  
+=  \{(1, 1), (1, 2), (2, 1), (3, 2),(2, 2), (3, 3)\}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(R \subseteq R^+\)</span></li>
+<li>반사성 체크: <span class="math inline">\(\forall a \in A: (a,a) \in R^+\)</span> … OK.</li>
+</ul>
+</div>
+<div class="remark">
+<p><span id="unlabeled-div-62" class="remark"><em>Remark</em>. </span></p>
+<ul>
+<li>반사성을 가지는 클로저
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\Delta = \{(a, a)| a \in A\}\)</span>를 diagonal relation(대각 관계)라고 함</li>
+<li><span class="math inline">\(R^+ = R \cup \Delta\)</span>.</li>
+</ol></li>
+<li>대칭성을 가지는 클로저
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(R^{-1} = \{(b, a)| (a, b) \in R\}\)</span> (역관계)</li>
+<li><span class="math inline">\(R^+ = R \cup R^{-1}\)</span>.</li>
+</ol></li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-109" class="example"><strong>예제 5.16  </strong></span>정수집합위에 정의된 관계 <span class="math inline">\(R = \{(a, b) | a &lt; b\}\)</span>의 반사성(reflexivity)을 가지는 클로저(closure)는?</p>
+<p><span class="math display">\[
+R^+ = R \cup \Delta = \{(a, b) | a &lt; b\} \cup \{(a, a)| a \in Z\} = \{(a, b)| a \le b\}.
+\]</span></p>
+</div>
+<hr />
+<div class="definition">
+<p><span id="def:unnamed-chunk-110" class="definition"><strong>정의 5.11  </strong></span>Let <span class="math inline">\(R\)</span> be a relation on a set <span class="math inline">\(A\)</span>. The <strong>connectivity relation <span class="math inline">\(R^∗\)</span></strong> consists of the pairs <span class="math inline">\((a, b)\)</span> such that there is a path of length at least one from <span class="math inline">\(a\)</span> to <span class="math inline">\(b\)</span> in <span class="math inline">\(R\)</span>.</p>
+</div>
+<p><span class="math display">\[
+R^* = \bigcup_{n=1}^\infty R^n.
+\]</span></p>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-111" class="theorem"><strong>정리5.4  </strong></span>The transitive closure of a relation <span class="math inline">\(R\)</span> equals the connectivity relation <span class="math inline">\(R^∗\)</span>.</p>
+</div>
+</div>
+<div id="동치와-분할" class="section level2 hasAnchor" number="5.6">
+<h2><span class="header-section-number">5.6</span> 동치와 분할<a href="관계.html#동치와-분할" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="definition">
+<p><span id="def:unnamed-chunk-112" class="definition"><strong>정의 5.12  (동치관계, equivalence) </strong></span>A relation is called <strong>equivalence</strong> relation if it is reflexive, symmetric and transitive.</p>
+<p><strong>반사성, 대칭성, 추이성</strong>을 가지는 관계를 <strong>동치관계(equivalence relation)</strong>라고 함, 즉</p>
+<ol style="list-style-type: decimal">
+<li><p>반사성: <span class="math inline">\((a,a) \in R\)</span>,</p></li>
+<li><p>대칭성: <span class="math inline">\((a,b) \in R \then (b,a) \in R\)</span>,</p></li>
+<li><p>추이성: <span class="math inline">\((a,b) \in R \land (b,c) \in R \then (a,c)\in R\)</span></p></li>
+</ol>
+</div>
+<p><img src="figures/relationship_equivalence.png" style="width:70.0%" /></p>
+<div class="example">
+<p><span id="exm:unnamed-chunk-113" class="example"><strong>예제 5.17  </strong></span>집합 <span class="math inline">\(X=\{a,b,c\}\)</span>위로의 관계 <span class="math inline">\(R\)</span>을 아래와 같이 정의할 때, <span class="math inline">\(R\)</span>은 동치관계?
+<span class="math display">\[
+R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\}
+\]</span></p>
+<ol style="list-style-type: decimal">
+<li><p>반사성: <span class="math inline">\((a,a),(b,b),(c,c) \in R\)</span>,</p></li>
+<li><p>대칭성: <span class="math inline">\((b,c) \in R \then (c,a) \in R\)</span>,</p></li>
+<li><p>추이성: <span class="math inline">\((b,c) \in R \land (c,b) \in R \then (b,b)\in R\)</span></p></li>
+</ol>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-114" class="example"><strong>예제 5.18  </strong></span>정수집합(<span class="math inline">\(Z\)</span>)위에 정의된 <span class="math inline">\(R = \{(a, b) | a - b \in Z\}\)</span>, <span class="math inline">\(R\)</span>은 <strong>동치관계</strong>?</p>
+<p><strong>Check conditions:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>반사성: <span class="math inline">\((a,a) \in R\)</span>, <span class="math inline">\(a-a = 0 \in Z\)</span> ….. OK</p></li>
+<li><p>대칭성: <span class="math inline">\((a,b) \in R \then (b,a) \in R\)</span>, <span class="math inline">\(a-b \in Z \then b-a \in Z\)</span> ….. OK</p></li>
+<li><p>추이성: <span class="math inline">\((a,b) \in R \land (b,c) \in R \then (a,c)\in R\)</span>, <span class="math inline">\(a-c = (a-b) + (b-c) \in Z\)</span> ….. OK</p></li>
+</ol>
+</div>
+<div class="definition">
+<p><span id="def:unnamed-chunk-115" class="definition"><strong>정의 5.13  (동치클래스, equialence class) </strong></span><span class="math inline">\(R\)</span>를 집합 <span class="math inline">\(A\)</span>위로의 동치관계일 때, <span class="math inline">\(A\)</span>에 속한 어떤 <span class="math inline">\(x\)</span>에 대하여 <span class="math inline">\((x, y) \in R\)</span>인 <span class="math inline">\(y\)</span>들의 모임을 <span class="math inline">\(R\)</span>에 대한 <span class="math inline">\(x\)</span>의
+동치클래스 또는 동치류(equialence class)라고 하고 <span class="math inline">\([x]\)</span>로 표시함, 즉
+<span class="math display">\[
+  [x] = \{y| (x,y)\in R\},
+\]</span><br />
+이 때, <span class="math inline">\(A\)</span>에 속한 모든 <span class="math inline">\(x\)</span>들의 동치클래스의 모임을 <strong>몫집합(quotient set)</strong>이라 하고 <span class="math inline">\(\frac{A}{R}\)</span>로 표기함, 즉
+<span class="math display">\[
+  \frac{A}{R} = \{[x] | x \in A\}.
+\]</span></p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-116" class="example"><strong>예제 5.19  </strong></span>집합 <span class="math inline">\(X=\{a,b,c\}\)</span>위로의 동치관계 <span class="math inline">\(R\)</span>을 아래와 같이 정의할 때,
+<span class="math display">\[
+R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\}
+\]</span>
+<span class="math inline">\(X\)</span>의 각 원소에 대한 동치클래스는
+<span class="math display">\[
+[a]=\{a\},~~~~[b]=[c]=\{b,c\}.
+\]</span></p>
+</div>
+<div class="definition">
+<p><span id="def:unnamed-chunk-117" class="definition"><strong>정의 5.14  (집합의 분할, partition) </strong></span><span class="math inline">\(S\)</span>를 공집합이 아닌 임의의 집합이라고 하고, <span class="math inline">\(S\)</span>의 부분집합이 원소인 집합 <span class="math inline">\(P= \{A_1, A_2, ..., A_n\}\)</span>가 다음을 만족하면 <span class="math inline">\(P\)</span>를 집합 <span class="math inline">\(S\)</span>의 분할이라고 한다.</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(A_1, A_2, ..., A_n\)</span>이 <span class="math inline">\(S\)</span>의 공집합이 아닌 진부분집합이고 (<span class="math inline">\(A_i \ne \emptyset\)</span>, <span class="math inline">\(A_i \subset S\)</span>, <span class="math inline">\(i=1,2,...,n\)</span>),</li>
+<li><span class="math inline">\(A_i \cap A_j = \emptyset, i\ne j\)</span> (서로소, disjoint),</li>
+<li><span class="math inline">\(S = A_1 \cup A_2 \cup ... \cup A_n = \bigcup_{i=1}^n A_i.\)</span><br />
+</li>
+</ol>
+</div>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-118" class="theorem"><strong>정리5.5  </strong></span></p>
+<ol style="list-style-type: decimal">
+<li>모든 <span class="math inline">\(x \in X\)</span>는 <span class="math inline">\(x \in [x]\)</span>,</li>
+<li>임의의 두 동치클래스 <span class="math inline">\([x]\)</span>와 <span class="math inline">\([[y]\)</span>는 서로 같거나 또는 서로소(disjoint)이다.</li>
+<li><span class="math inline">\(x\in [x]\)</span>이고 <span class="math inline">\(x in [y]\)</span>이면 <span class="math inline">\([x] = [y]\)</span>.</li>
+<li><span class="math inline">\(A\)</span>에서 정의한 동치관계의 모든 동치클래스는 집합 <span class="math inline">\(A\)</span>의 분할이다.</li>
+</ol>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-119" class="example"><strong>예제 5.20  </strong></span>위의 예제에서 <span class="math inline">\(X=\{a,b,c\}\)</span>위로의 동치관계
+<span class="math display">\[
+R=\{(a,a),(b,b),(c,c),(b,c),(c,b)\},
+\]</span>
+<span class="math inline">\(X\)</span>의 각 원소에 대한 동치클래스는
+<span class="math display">\[
+[a]=\{a\},~~~~[b]=[c]=\{b,c\}.
+\]</span>
+이고, <span class="math inline">\([a]\)</span>와 <span class="math inline">\([b]\)</span>는 <span class="math inline">\(X=\{a,b,c\}\)</span>의 분할이다.</p>
+</div>
+<hr />
+<div class="definition">
+<p><span id="def:unnamed-chunk-120" class="definition"><strong>정의 5.15  (mod 합동; congruence modulo) </strong></span>정수집합에서 <span class="math inline">\(m\)</span>으로 나누었을 때 나머지가 같은 순서쌍 <span class="math inline">\((a, b)\)</span>들로 이루어진 관계를 mod 합동 관계라고 하고, 두 수의 관계를 다음과 같이 표시함
+<span class="math display">\[
+  a \equiv b (mod ~~m).
+\]</span>
+즉, mod 합동 관계는
+<span class="math display">\[
+  R = \{(a, b) | a \equiv b (mod ~~m)\}.
+\]</span></p>
+</div>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-121" class="theorem"><strong>정리5.6  </strong></span>mod 합동 관계(congruence modulo)는 동치관계임</p>
+<ol style="list-style-type: decimal">
+<li>반사성 (Reflexivity): <span class="math inline">\(a \equiv a (mod ~n)\)</span></li>
+<li>대칭성 (Symmetry): <span class="math inline">\(a ≡ b (mod ~n)\)</span>이면 <span class="math inline">\(b ≡ a (mod ~n)\)</span>.</li>
+<li>추이성 (Transitivity): <span class="math inline">\(a ≡ b (mod ~n)\)</span>이고 <span class="math inline">\(b ≡ c (mod ~n)\)</span>이면 <span class="math inline">\(a ≡ c (mod ~n)\)</span></li>
+</ol>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-122" class="example"><strong>예제 5.21  </strong></span>0과 양의 정수집합 <span class="math inline">\(Z_0 = \{0\}\cup Z^+\)</span>에서 정의된 <span class="math inline">\(a \equiv b (mod ~3)\)</span>에서 동치클래스를 구하면 아래와 같고</p>
+<p><span class="math display">\[[0]=\{0,3,6,...\} = \{3k| k\in Z_0\}\]</span>
+<span class="math display">\[[1]=\{1,4,7,...\}= \{3k+1| k\in Z_0\}\]</span>
+<span class="math display">\[[2]=\{2,5,8,...\}= \{3k+2| k\in Z_0\}\]</span></p>
+<p>위의 동치클래스는 <span class="math inline">\(Z_0\)</span>의 분할이다.</p>
+</div>
+</div>
+<div id="부분-순서-관계" class="section level2 hasAnchor" number="5.7">
+<h2><span class="header-section-number">5.7</span> 부분 순서 관계<a href="관계.html#부분-순서-관계" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="definition">
+<p><span id="def:unnamed-chunk-123" class="definition"><strong>정의 5.16  (부분 순서 관계, partial ordered relation) </strong></span></p>
+<ul>
+<li><p><strong>반사성(reflexive), 반대칭성(antisymmetric), 추이성(transitive)</strong>을 가지는 관계를 <strong>부분 순서 관계</strong>라고 함</p></li>
+<li><p>집합 <span class="math inline">\(A\)</span>와 <span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 <strong>부분 순서 관계</strong>이면 <span class="math inline">\((A, R)\)</span>을 <strong>부분순서집합(partial ordered set, POSet)</strong>이라고 함</p></li>
+<li><p><span class="math inline">\((x, y) \in R\)</span> (부분 순서 관계)이면 <span class="math inline">\(x \lesssim y\)</span>으로 표시함</p></li>
+</ul>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-124" class="example"><strong>예제 5.22  </strong></span>아래는 <span class="math inline">\(\{x,y,z\}\)</span>의 멱집합(power set)위로의 포함관계(<span class="math inline">\(\subset\)</span>)를 방향그래프로 나타낸 것이다. 이런 관계는 부분 순서 관계인가?</p>
+<p><img src="figures/1200px-Hasse_diagram_of_powerset_of_3.svg.png" style="width:60.0%" /></p>
+</div>
+<p><img src="figures/Partial-order-graph.png" style="width:80.0%" /></p>
+<div class="figure">
+<img src="figures/PORelation.png" style="width:40.0%" alt="" />
+<p class="caption">부분 순서 관계그래프</p>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-125" class="example"><strong>예제 5.23  </strong></span>자연수 집합에서 <span class="math inline">\(\le\)</span> 는 부분순서관계임</p>
+<p><strong>부분순서관계에 대한 조건을 체크:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>반사관계
+<span class="math display">\[
+  \forall x\in N, ~x \le x
+\]</span></p></li>
+<li><p>반대칭관계
+<span class="math display">\[
+  \forall x, y \in N,~ x \le y \land y \le x \then x=y
+\]</span></p></li>
+<li><p>추이관계
+<span class="math display">\[
+  \forall x, y,z \in N, ~x \le y \land y \le x \then x \le z
+\]</span><br />
+</p></li>
+</ol>
+</div>
+<div class="example">
+<p><span id="exm:unnamed-chunk-126" class="example"><strong>예제 5.24  </strong></span>집합 <span class="math inline">\(S\)</span>의 부분집합에서의 포함관계 <span class="math inline">\(\subseteq\)</span> 는 부분순서관계임</p>
+<ol style="list-style-type: decimal">
+<li><p>반사관계
+<span class="math display">\[
+  \forall A\subseteq S, ~A \subseteq A
+\]</span></p></li>
+<li><p>반대칭관계
+<span class="math display">\[
+  \forall A, B \subseteq S,~ A \subseteq B \land B \subseteq A \then A=B
+\]</span></p></li>
+<li><p>추이관계
+<span class="math display">\[
+  \forall A, B,C \subseteq S, ~A \le B \land B \subseteq C \then A \subseteq C
+\]</span></p></li>
+</ol>
+</div>
+<dl>
+<dt>비교 가능(comparable)</dt>
+<dd>
+부분 순서 집합 <span class="math inline">\((A, \lesssim)\)</span>에서 집합 <span class="math inline">\(A\)</span>의 모든 두 원소 <span class="math inline">\(x \ne y\)</span>가 <span class="math inline">\(x \lesssim y\)</span> 또는 <span class="math inline">\(y \lesssim x\)</span>이면(둘 중 하나) <span class="math inline">\(x\)</span> 와 <span class="math inline">\(y\)</span>는 <strong>비교가능</strong>이라고 함
+</dd>
+</dl>
+<div class="definition">
+<p><span id="def:unlabeled-div-63" class="definition"><strong>정의 5.17  (선형순서, linear order, total order) </strong></span>집합 <span class="math inline">\(A\)</span>위로의 관계 <span class="math inline">\(R\)</span>이 다음 조건을 만족하면 <strong>선형순서</strong>라고 함</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(R\)</span>이 <strong>부분 순서 관계</strong>이면서</li>
+<li>만약 <span class="math inline">\((a, b) \in R\)</span> 또는 <span class="math inline">\((b, a) \in R\)</span> 또는 <span class="math inline">\(a=b\)</span> 중 하나이다.</li>
+</ol>
+</div>
+<dl>
+<dt>선형 순서 집합(linearly ordered set)</dt>
+<dd>
+집합 <span class="math inline">\(A\)</span>의 모든 두 원소가 <strong>비교가능</strong>하면 <span class="math inline">\(A\)</span>를 선형 순서 집합이라 함
+</dd>
+<dt>선형 순서 관계(linearly ordered relation, linear order)</dt>
+<dd>
+선형 순서 집합, <span class="math inline">\((A, \lesssim)\)</span>에서 관계 <span class="math inline">\(\lesssim\)</span>를 <strong>선형 순서 관계</strong>라고 함
+</dd>
+</dl>
+<div class="example">
+<p><span id="exm:unnamed-chunk-127" class="example"><strong>예제 5.25  </strong></span>정수집합에서 <span class="math inline">\(\le\)</span>는 선형순서 관계임</p>
+<p>왜냐하면 <span class="math inline">\(a\ne b\)</span>이면 <span class="math inline">\(a \le b\)</span>이거나 <span class="math inline">\(b \le a\)</span> 둘 중 하나임</p>
+</div>
+<dl>
+<dt>하세 도표(Hasse Diagram)</dt>
+<dd>
+독일의 수학자 하세(Helmut Hasse, 1898~1979)가 부분 순서 집합 (POset)<span class="math inline">\((A, \lesssim)\)</span>를 그래프로 나타낼 때 고안하여 사용함
+</dd>
+</dl>
+<ul>
+<li><p>화살표와 모든 순환(loop)은 표시하지 않고</p></li>
+<li><p>모든 연결선(edge)을 트리(tree)와 같이 모두 아래 방향을 향하도록 그림</p></li>
+<li><p>집합 <span class="math inline">\(A\)</span>의 원소 <span class="math inline">\(x, y, z\)</span>에서 <span class="math inline">\(x \lesssim y\)</span>이고 <span class="math inline">\(y \lesssim z\)</span>를 만족하는 <span class="math inline">\(y\)</span>가 존재하지 않을 경우에만 <span class="math inline">\(x\)</span>에서 <span class="math inline">\(z\)</span>로 연결</p></li>
+</ul>
+<div class="example">
+<p><span id="exm:unnamed-chunk-128" class="example"><strong>예제 5.26  </strong></span><span class="math inline">\(A = \{1, 2, 3, 4\}\)</span>위의 관계 <span class="math inline">\(\le\)</span>에 대한 Hasse Diagram의 작성</p>
+<p><span class="math display">\[
+  \le = \{(1,1), (1,2), (1,3), (1,4), (2,2), (2,3), (2,4), (3,3), (3,4), (4,4)\}
+\]</span></p>
+<p>아래 그림에서 처럼</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>loop제거</p></li>
+<li><p>(1,2), (2,3)이 있으므로 (1,3)을 제거, 같은 방법으로 나머지도 제거함</p></li>
+<li><p>화살표 제거</p></li>
+</ol>
+<p><img src="figures/hasse_diagram_00.png" style="width:75.0%" /></p>
+</div>
+<p><strong>하세도표의 예</strong></p>
+<p><img src="figures/hasse_diagram.png" style="width:45.0%" />
+<img src="figures/hasse_diagram_2.png" style="width:45.0%" /></p>
+</div>
+<div id="연습문제" class="section level2 hasAnchor" number="5.8">
+<h2><span class="header-section-number">5.8</span> 연습문제<a href="관계.html#연습문제" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p>교재 206 ~ 210페이지의 아래 주관식 문제를 풀어라.</p>
+</blockquote>
+<blockquote>
+<p>5, 6, 8, 9, 12, 13, 14, 17, 19</p>
+</blockquote>
+</div>
+<div id="중간고사-일정-공지" class="section level2 unnumbered hasAnchor">
+<h2>중간고사 일정 공지<a href="관계.html#중간고사-일정-공지" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>일시: 4월 27일 목요일 오후 2:30 ~ 4:00</li>
+<li>범위: 논리와 명제, 집합과 수, 증명, 관계, 행렬</li>
+<li>장소: 논리회로실(20명), 에밀레홀 (나머지 인원)</li>
+<li>시험준비방법: 교재 및 강의노트 중심으로 각 단원별 연습문제 풀기 (과제 포함)</li>
+<li>시험 유형 및 내용
+<ol style="list-style-type: decimal">
+<li>객관식 / 주관식 문항 혼합</li>
+<li>개념 및 정의</li>
+<li>간단한 증명</li>
+<li>기타 연습문제 내용</li>
+</ol></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="증명.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="matrix.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

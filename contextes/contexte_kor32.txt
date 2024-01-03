@@ -1,109 +1,28 @@
-Sia is Studying
-
    관계(Relations) / 관계의 특징(Relations and their properties)
-   [67]ੈ✩‧₊˚Computer Science/이산수학
-
 관계(Relations) / 관계의 특징(Relations and their properties)
-
-   2020. 11. 24. 22:31
---
-   [INS: :INS]
-
 이항관계(binary relations)
-
    정의 1 : A와 B라는 집합이 있을 때, A로부터 B까지의 이항 관계는 AXB의 부분집합이다.
-
-   def 1 : Let A and B be sets. A binary relation from A to B is a subset
---
-
-     * A X B = {(0,a), (0,b), (1,a), (2,b)}
      * set A 와 B의 관계를 graphically 하게 표현할 수 있다.
      * 관계는 함수보다 더 general한 표현이다.
-
-
-
-
    정의 2: A라는 집합에 대한 관계는 A X A 의 부분집합이다.
-
-   def 2 : a binary relation on a set A is a subset of A X A
---
-
-
    문제) 만약 n개의 element가 있는 set은 몇개의 관계(relation)을 가질까?
-
-   답) A X A 가 n의 제곱개의 원소를 가지니까 2의 n제곱 승이 정답
---
-relation의 종류
-
    1. 반사 관계(reflective relation)
-
    정의 :모든 a ∈ A 에 대해 (a,a) ∈R인 관계
-
-   def : R is reflective if (a,a)∈ R for every element a∈A
---
-
-
    반사 관계 / 반사 관계 아닌 것
-
-   [img.png]
-
    주의해야할 점은 반산관계가 아니라고 해서 비반사관계거나, 비반사관계가 아니라고 해서 반사관계는 아니다.
-
-
    2.대칭관계(Symmetric relation)
-
    정의 : 어떤 a,b ∈ A에 대해 (a,b) ∈R이면 (b,a) ∈R인 관계
-
-   def : R is symmetric iff (b,a) ∈ R whenever (a,b) ∈ R for all, a,b ∈A
---
-   [img.png]
-
    3.반대칭관계(Antisymmetric relation)
-
    정의 : 어떤 a,b ∈ A 에 대해 (a,b) ∈ R 일 때, (b,a) ∈R이면 a=b인 관계
-
-   def : R is antisymmetric when (a,b) ∈ R, (b,a) ∈ R only if a= b for all
---
-   [img.png]
-
    4.추적관계(transitive relation)
-
-   정의 : (a,b) ∈ R , (b,c) ∈ R 일 때, 모든 a,b,c ∈ A에 대하여 (a,c) ∈ R이다.
---
-
-
    5. 구성 관계(composition relation)
-
    정의 : R 은 set A와 set B의 관계, S는 set B와 setC의 관계이다. R과 S의 구성관계는 set A 에서
    setC의 관계이다.
-
-   [img.png]
---
-'[69]ੈ✩‧₊˚Computer Science > [70]이산수학' 카테고리의 다른 글
-
    [71]동치관계(equivalence relation)/동치류(Equivalence Class)  (0) 2020.11.29
             [72]관계의 표현(representing relations)  (0)           2020.11.25
-                [73]베이즈 정리(Bayes' theorem)  (0)               2020.11.21
-
-   'ੈ✩‧₊˚Computer Science/이산수학' 카테고리의 다른 글
      * [74]동치관계(equivalence relation)/동치류(Equivalence Class)
      * [75]관계의 표현(representing relations)
-     * [76]베이즈 정리(Bayes' theorem)
-
    [77]Relation, [78]관계, [79]이산수학
-   샨샨
-   샨샨
---
-   [ ] [80]댓글쓰기
-
    [81]관계의 표현(representing relations)
-   다음 글
    관계의 표현(representing relations)
-   [82]베이즈 정리(Bayes' theorem)
-   이전 글
---
-  76. https://jesus-never-fail.tistory.com/19?category=899260
-  77. https://jesus-never-fail.tistory.com/tag/Relation
   78. https://jesus-never-fail.tistory.com/tag/관계
-  79. https://jesus-never-fail.tistory.com/tag/이산수학
-  80. https://jesus-never-fail.tistory.com/22

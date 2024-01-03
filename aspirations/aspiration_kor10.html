@@ -1,28 +1,97 @@
-HTTP/2 200 
-content-type: text/html
-content-length: 20701
-date: Wed, 29 Nov 2023 08:55:47 GMT
-server: AmazonS3
-strict-transport-security: max-age=63072000; includeSubDomains; preload
-content-security-policy: frame-ancestors 'self' https: http://*.rls.tableautest.com http://localhost:8081;
-x-content-type-options: nosniff
-x-frame-options: SAMEORIGIN
-x-xss-protection: 1; mode=block
-x-amz-id-2: f1eVZudSUCd1L3Aub4c9EDa0Kq4nBxVlYKlxGkIl0Njl3QxwL/CxSRMgHohLQD6msoBKW4ixbe4=
-x-amz-request-id: 52XQDE8KWXV4BDY1
-x-amz-meta-tableau-s3-uploader: help-build-runner-alpha
-x-amz-meta-build-number: 9511c171
-last-modified: Thu, 23 Nov 2023 21:45:19 GMT
-x-amz-version-id: null
-etag: "54b94ef249dab9b022b321be10caff73"
-cache-control: max-age=86400, public
-vary: Accept-Encoding
-tableau-help-client-ip: 194.199.129.20
-tableau-help-request-id: hn34ef_lMCepmy3hInFxbVCMw4C7mTyeqBjH6D-m80Akb9qDV5EkKQ==
-tableau-help-accept-language: 
-x-cache: Hit from cloudfront
-via: 1.1 ae1b2f64d909bc787f8b2cb1e91446cc.cloudfront.net (CloudFront)
-x-amz-cf-pop: CDG53-C1
-x-amz-cf-id: hn34ef_lMCepmy3hInFxbVCMw4C7mTyeqBjH6D-m80Akb9qDV5EkKQ==
-age: 1541
+<!DOCTYPE html><html lang="ko-kr"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:type" content="website"><meta property="og:title" content="관계가 조인과 다른 점"><meta property="og:description" content="관계는 분석을 위해 여러 테이블에서 데이터를 결합하는 동적이고 유연한 방법입니다"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@tableau"><meta name="twitter:title" content="관계가 조인과 다른 점"><meta name="twitter:description" content="관계는 분석을 위해 여러 테이블에서 데이터를 결합하는 동적이고 유연한 방법입니다"><meta name="section" content="Support"><meta name="subsection" content="Product Help"><meta name="breadcrumb_l1_text" content="Support"><meta name="breadcrumb_l1_url" content="http://www.tableau.com/ko-kr/support"><meta name="breadcrumb_l2_text" content="Product Help"><meta name="breadcrumb_l2_url" content="http://www.tableau.com/ko-kr/support/help"><meta name="product_applies_to" content="AppliesTo.Tableau Desktop,AppliesTo.Tableau Cloud,AppliesTo.Tableau Server" /><title>관계가 조인과 다른 점 - Tableau</title><script src="https://a.sfdcstatic.com/enterprise/tableau/prod/6170/v1/oneTrust/scripttemplates/otSDKStub.js" data-domain-script="2d08f29e-0ede-4e8c-997c-f7ef5be8d4e7" type="text/javascript" charset="UTF-8"></script><script type="text/javascript">function OptanonWrapper() {
+        window.addEventListener('load', () => {
+          window.dataLayer.push({ event: 'OneTrustGroupsUpdated' });
 
+          let optanonCookie = decodeURIComponent(document.cookie);
+          let activeGroups = OnetrustActiveGroups;
+
+          if (optanonCookie.includes('OptanonConsent') && activeGroups) {
+            if (activeGroups.includes('3')) {
+              let event = new CustomEvent('UpdateCookieConsent', {
+                detail: {
+                  value: true
+                }
+              });
+              window.dispatchEvent(event);
+            }
+          }
+        });
+
+        OneTrust.OnConsentChanged(OneTrustActiveGroups => {
+          if (OnetrustActiveGroups.includes('3')) {
+            let event = new CustomEvent('UpdateCookieConsent', {
+              detail: {
+                value: true
+              }
+            });
+            window.dispatchEvent(event);
+          } else {
+            let event = new CustomEvent('UpdateCookieConsent', {
+              detail: {
+                value: false
+              }
+            });
+            window.dispatchEvent(event);
+          }
+        });
+      }</script><script type="text/javascript">(function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? String.fromCharCode(38) + 'l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-BVCN');</script><script type="text/javascript">var _elqQ = _elqQ || [];
+      _elqQ.push(['elqSetSiteId', '840']);
+      _elqQ.push(['elqTrackPageView']);
+      (function() {
+        function async_load() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://img.en25.com/i/elqCfg.min.js';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load);
+      })();</script><script>function getPrivacyLink() {
+        let buildLang = 'ko-kr';
+        let privacyUrl = 'https://www.salesforce.com/company/privacy/';
+
+        if (buildLang !== 'en-us') {
+          locMapping = {
+            'de-de': 'de',
+            'en-gb': 'uk',
+            'es-es': 'es',
+            'fr-ca': 'fr-ca',
+            'fr-fr': 'fr',
+            'it-it': 'it',
+            'ja-jp': 'jp',
+            'ko-kr': 'kr',
+            'nl-nl': 'nl',
+            'pt-br': 'br',
+            'sv-se': 'se',
+            'zh-cn': 'cn',
+            'zh-tw': 'tw',
+            'th-th': 'th'
+          };
+          privacyUrl = 'https://www.salesforce.com/loc/company/privacy/';
+          privacyUrl = privacyUrl.replace('loc', locMapping[buildLang]);
+        }
+        return privacyUrl;
+      }
+
+      window.addEventListener('load', function() {
+        let hrefValue = document.getElementById('privacyLink');
+
+        if (hrefValue) {
+          hrefValue.href = getPrivacyLink();
+        }
+      });</script><link href="./Resources/app.css?03e2f30f7654c0752e35" rel="stylesheet"></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-BVCN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="app" class="wrapper"><header id="tableau-help-article-header" class="container--full-width quick-help-header"><div class="container--centered"><div class="header__mobile-menu quick-help-hidden"><menu-tree-toggle></menu-tree-toggle></div><div class="header__logo quick-help-hidden"><a href="https://www.tableau.com/ko-kr/"><img src="./Resources/tableau-logo.png" class="header__logo__img" alt="Tableau"></a></div><div class="header__search"><search-header-help placeholder="검색"></search-header-help></div></div></header><div class="container--navigation-top quick-help-hidden content-only-hidden"><div id="help-subheader" class="subheader print-hidden"><div class="container--centered"><h4 class="heading--subheader">Tableau Desktop 및 웹 작성 도움말</h4></div></div><div class="container--top-links"><div class="container--centered container--breadcrumbs"><div><breadcrumb-links-help></breadcrumb-links-help></div></div><div id="help-container-menu-headings" class="container--menu-headings"><nav class="nav-medium-screen"><menu-heading-links-static-help menu-title="이 문서의 내용" :disabled="false" :headings="pageHeadings"></menu-heading-links-static-help></nav></div></div></div><div class="section--main container--full-width"><div class="container--centered"><nav class="nav-side nav-side--left" role="navigation"><menu-tree-help menu-title="콘텐츠"></menu-tree-help></nav><article role="main"><h1 id="contentH1">관계가 조인과 다른 점</h1><div class="caption article__tags content-only-hidden quick-help-hidden"><span class="article__tags--applies-to">적용 대상: Tableau Cloud, Tableau Desktop, Tableau Server</span><br><span class="article__tags--role"> </span></div><div id="content-body">
+            <div role="main" id="mc-main-content"><p>관계는 분석을 위해 여러 테이블에서 데이터를 결합하는 동적이고 유연한 방법입니다. 관계의 조인 유형을 정의하지 않으므로 관계를 만들 때 벤 다이어그램이 표시되지 않습니다.</p><p>관계를 두 테이블 간의 계약으로 간주할 수 있습니다. 이러한 테이블의 필드를 사용하여 비주얼리제이션을 작성하는 경우 Tableau는 해당 계약에 따라 이러한 테이블의 데이터를 가져와 적절한 조인으로 쿼리를 작성합니다.</p><ul><li><b>선행 조인 유형 없음</b>. 관계를 정의하는 일치하는 필드만 선택해야 됩니다(<a href="#WhereAreJoins">조인 유형 없음</a>). Tableau는 먼저 기존 키 제약 조건과 일치하는 필드명을 기반으로 관계를 만듭니다. 사용하려는 필드가 맞는지 확인할 수 있으며, 그렇지 않다면 더 많은 필드 쌍을 추가하여 테이블이 연관되는 방식을 보다 정확하게 정의할 수 있습니다.</li><li><b>자동 및 컨텍스트 인식</b>. 관계는 분석의 시간 및 컨텍스트에 따라 조인을 연기합니다. Tableau는 비주얼리제이션에 사용되는 필드를 기반으로 조인 유형을 자동으로 선택합니다. 분석 중에 Tableau는 지능적으로 조인 유형을 조정하고 데이터의 기본 세부 수준을 보존합니다. 기초 조인을 고려할 필요 없이 비주얼리제이션에서 필드의 세부 수준에서 집계를 확인할 수 있습니다. FIXED와 같은 LOD 식을 사용하여 관련 테이블에서 데이터의 중복을 제거할 필요가 없습니다.</li><li><b>유연성</b>. 관계는 다대다일 수 있으며 전체 Outer 조인을 지원합니다. 관계를 사용하여 테이블을 결합하는 것은 통합 문서의 단일 데이터 원본에 있는 모든 비주얼리제이션에 대해 유연한 사용자 지정 데이터 원본을 만드는 것과 같습니다. Tableau는 비주얼리제이션의 필드 및 필터를 기반으로 필요한 테이블만 쿼리하므로 다양한 분석 흐름에 사용할 수 있는 데이터 원본을 작성할 수 있습니다.</li></ul><p>자세한 내용은 <a href="https://help.tableau.com/current/pro/desktop/ko-kr/relate_tables.htm" target="_blank">데이터 연관<span class="sr-only">(링크가 새 창에서 열림)</span></a> 및 <a href="https://help.tableau.com/current/pro/desktop/ko-kr/datasource_dont_be_scared.htm" target="_blank">관계에 대한 두려움 극복<span class="sr-only">(링크가 새 창에서 열림)</span></a>을 참조하십시오.</p><p class="note--tip">여전히 조인도 데이터를 결합하는 옵션으로 사용할 수 있습니다. 논리적 테이블을 두 번 클릭하여 조인 캔버스로 이동합니다. 자세한 내용은 <a href="#WhereAreJoins" class="MCXref xref" xrefformat="{paratext}">조인은 어떻게 되었습니까?</a>를 참조하십시오.</p><div class="note"><p><b>동영상 시청</b>: Tableau의 관계 사용에 대한 소개를 보려면 이 동영상(5분)을 시청하십시오.</p><p><iframe width="560" height="315" src="https://players.brightcove.net/3798483592001/default_default/index.html?videoId=6141189062001" frameborder="0" allowfullscreen="1" webkitallowfullscreen="1" mozallowfullscreen="1"></iframe></p><p><b>참고</b>: 이 동영상에 나온 관계 편집용 인터페이스는 현재 릴리스와 약간 다를 수 있지만 기능은 같습니다.</p><p><a href="https://action-analytics.com/library/" target="_blank">Action Analytics<span class="sr-only">(링크가 새 창에서 열림)</span></a>에서 <a href="https://action-analytics.com/ep-1-why-did-tableau-invent-relationships/" target="_blank">Tableau가 관계를 발명한 이유는 무엇입니까?(영문)<span class="sr-only">(링크가 새 창에서 열림)</span></a>와 같은 동영상 팟캐스트도 참조하십시오. <a href="https://action-analytics.com/library/" target="_blank">Library(라이브러리)<span class="sr-only">(링크가 새 창에서 열림)</span></a>에서 “Video Podcast(동영상 팟캐스트)”를 클릭하여 자세히 알아볼 수 있습니다.</p><p>관계 쿼리가 작동하는 방식과 관련된 정보는 다음 Tableau 블로그 게시물을 참조하십시오.</p><ul><li><a href="https://www.tableau.com/about/blog/2020/5/relationships-part-1-meet-new-tableau-data-model" target="_blank">관계, 1부: Tableau의 새로운 데이터 모델링 소개(영문)<span class="sr-only">(링크가 새 창에서 열림)</span></a></li><li><a href="https://www.tableau.com/about/blog/2020/5/relationships-part-2-tips-and-tricks" target="_blank">관계, 2부: 팁과 요령(영문)<span class="sr-only">(링크가 새 창에서 열림)</span></a></li><li><a href="https://www.tableau.com/about/blog/2020/6/relationships-part-3-asking-questions-across-multiple-related-tables" target="_blank">관계, 3부: 여러 관련 테이블에서 질문하기(영문)<span class="sr-only">(링크가 새 창에서 열림)</span></a></li></ul></div><div><h2 is="heading-item" :level="2" id="관계-및-조인의-특성">관계 및 조인의 특성</h2><p>관계는 분석을 위해 여러 테이블에서 데이터를 결합하는 동적이고 유연한 방법입니다. 관계를 사용하면 데이터 준비 및 분석이 더 쉬워지고 보다 직관적이 되므로 데이터를 결합할 때 처음에 관계를 사용하는 것이 좋습니다. <a href="https://help.tableau.com/current/pro/desktop/ko-kr/datasource_datamodel_faq.htm#can-i-use-joins-between-logical-tables" target="_blank">조인은 꼭 필요한 경우에만 사용하십시오<span class="sr-only">(링크가 새 창에서 열림)</span></a>.</p><p>다음은 관계를 사용하여 테이블을 결합하는 경우의 몇 가지 이점입니다.</p><ul><li>데이터 원본을 더 쉽게 정의하고 변경하고 재사용할 수 있습니다.</li><li>올바른 세부 수준(LOD)에서 여러 테이블에 걸쳐 데이터를 더욱 쉽게 분석할 수 있습니다.</li><li>서로 다른 세부 수준의 분석에서 LOD 식이나 LOD 계산을 사용할 필요가 없습니다.</li><li>현재 비주얼리제이션에서 사용되는 필드가 있는 테이블의 데이터만 쿼리합니다.</li></ul><h3 is="heading-item" :level="3" id="관계">관계</h3><ul><li>논리적 테이블 사이에 유연한 이음줄로 표시됩니다.</li><li>두 논리적 테이블 간에서 일치하는 필드를 선택해야 합니다.</li><li>조인 유형을 선택할 필요가 없습니다.</li><li>잠재적으로 데이터 원본에서 관련 테이블의 모든 행 및 열 데이터를 사용할 수 있게 만듭니다.</li><li>분석 중에 데이터 원본에서 각 테이블의 세부 수준을 유지합니다.</li><li>여러 세부 수준에서 독립된 도메인을 만듭니다. 데이터 원본에서 테이블이 병합되지 않습니다.</li><li>분석 중에 사용되는 필드를 기반으로 적절한 조인을 자동으로 만듭니다.</li><li>집계 값이 중복되지 않습니다(성능 옵션을 다대다로 설정한 경우).</li><li>일치하지 않는 측정값을 유지합니다(성능 옵션을 일부 레코드 일치로 설정한 경우).</li></ul><h3 is="heading-item" :level="3" id="조인">조인</h3><p>조인은 데이터를 결합하는 보다 정적인 방식입니다. 조인은 분석 전에 미리 물리적 테이블 간에서 정의되어야 하며 해당 데이터 원본을 사용하는 모든 시트에 영향을 주지 않고 변경할 수 없습니다. 조인된 테이블은 항상 단일 테이블로 병합됩니다. 결과적으로 조인된 데이터에서 일치하지 않는 값이 누락되거나 집계된 값이 중복될 수 있습니다.</p><ul><li>물리적 테이블 사이에 벤 다이어그램 아이콘으로 표시됩니다.</li><li>조인 유형 및 조인 절을 선택해야 합니다.</li><li>조인된 물리적 테이블은 고정된 데이터 결합을 사용하여 단일 논리적 테이블로 병합됩니다.</li><li>일치하지 않는 측정값이 누락될 수 있습니다.</li><li>필드가 서로 다른 세부 수준에 있는 경우 집계 값이 중복될 수 있습니다.</li><li>추출 필터 및 집계와 같은 단일 데이터 테이블이 필요한 시나리오를 지원합니다.</li></ul><h2 is="heading-item" :level="2" id="관계-사용을-위한-요구-사항">관계 사용을 위한 요구 사항</h2><ul><li>테이블을 연관시킬 때 관계를 정의하는 필드들은 동일한 데이터 유형이어야 합니다. 데이터 원본 페이지에서 데이터 유형을 변경해도 이 요구 사항은 영향을 받지 않습니다. Tableau는 쿼리에 계속 기초 데이터베이스의 데이터 유형을 사용합니다.</li><li>지리적 필드를 기반으로 관계를 정의할 수 없습니다.</li><li>순환 관계는 데이터 모델에서 지원되지 않습니다.</li><li>게시된 데이터 원본 사이에서 관계를 정의할 수 없습니다.</li></ul><h3 is="heading-item" :level="3" id="관련-테이블의-이점을-제한하는-요소">관련 테이블의 이점을 제한하는 요소</h3><ul><li>잘 구조화된 모델을 고려하여 만들어지지 않았으며 여러 테이블에 측정값과 차원이 혼합되어 있는 테이블 등에서, 테이블의 불필요한 데이터(dirty data)는 다중 테이블 분석을 더 복잡하게 만들 수 있습니다.</li><li>데이터 원본 필터를 사용하면 데이터의 조인 선별을 수행하는 Tableau 기능이 제한됩니다. 조인 선별은 Tableau가 불필요한 조인을 제거하여 쿼리를 간소화하는 방법을 나타내는 용어입니다.</li><li>테이블의 관계 간에서 일치하지 않는 값이 많습니다.</li><li>여러 팩트 테이블을 여러 차원 테이블과 상호 관련시킵니다(공유 또는 준수 차원을 모델링하려고 함).</li></ul><div><h2 is="heading-item" :level="2" id="조인은-어떻게-되었습니까"><a name="WhereAreJoins"></a>조인은 어떻게 되었습니까?</h2><p>여전히 데이터 원본의 물리적 계층에서 테이블 간에 조인을 지정할 수 있습니다. 논리적 테이블을 두 번 클릭하여 물리적 계층의 조인/유니온 캔버스로 이동하고 조인 또는 유니온을 추가합니다.</p><p>각 최상위 수준 논리적 테이블은 하나 이상의 물리적 테이블을 포함합니다. 논리적 테이블을 열어 해당 물리적 테이블 간의 조인을 보거나, 편집하거나, 만드십시오. 논리적 테이블을 마우스 오른쪽 단추로 클릭한 다음 <span class="uicontrol">열기</span>를 클릭합니다. 또는 테이블을 두 번 클릭하여 엽니다.</p><p><img src="Img/data_model_singletable_joins.gif" alt=""></p><p>데이터 원본을 만들면 두 계층이 존재합니다. 최상위 수준 계층은 데이터 원본의 논리적 계층입니다. 논리적 계층에서 관계를 사용하여 테이블 간의 데이터를 결합합니다.</p><p>다음 계층은 데이터 원본의 물리적 계층입니다. 물리적 계층에서 조인을 사용하여 테이블 간의 데이터를 결합합니다. 자세한 내용은 <a href="https://help.tableau.com/current/pro/desktop/ko-kr/datasource_datamodel.htm" target="_blank">데이터 모델의 논리적 테이블 및 물리적 테이블<span class="sr-only">(링크가 새 창에서 열림)</span></a>을 참조하십시오.</p><p><img src="Img/data_model_layers_sm.png" alt=""></p></div></div></div></div><div class="article__footer--back-to-top text--centered print-hidden quick-help-hidden"><a href="#" class="text--caps"><span class="icon--med icon--arrow-up"></span> 맨 위로 이동</a></div><feedback-form :disabled="false" class="print-hidden content-only-hidden" helpful-question="이 문서의 내용으로 문제가 해결되었습니까?" helpful-yes="예" helpful-no="아니요" comment-question="여러분의 피드백은 소중합니다. 여기에 댓글을 추가하십시오." submit-option="보내기" cancel-option="취소" loading-text="보내는 중..."><span slot="submittedMessage">피드백을 제공해 주셔서 감사합니다!</span></feedback-form></article><nav class="nav-side nav-side--right"><menu-heading-links-scrollable-help menu-title="이 문서의 내용" :disabled="false" :headings="pageHeadings"></menu-heading-links-scrollable-help></nav></div></div><feedback-button-floating tooltip="피드백 보내기" :disabled="false"></feedback-button-floating><footer class="container--full-width"><div class="container--centered"><div class="footer__links text--caps"><ul><li><a href="https://www.tableau.com/ko-kr/legal" class="">법적 고지 사항</a></li><li><a id="privacyLink" class="">개인 정보 보호</a></li><li><a href="#" data-ignore-geolocation="true" class="optanon-toggle-display">쿠키 기본 설정</a></li></ul></div><div class="footer__copyright text--caps"><copyright-notice year-start="2003" notice-text="Tableau Software LLC. 모든 권리 유보"></copyright-notice></div></div></footer></div><script type="text/javascript">var TabHelp = TabHelp || {}; TabHelp.PageData = { name: "datasource_relationships_learnmorepage.htm" };</script> <script type="text/javascript" src="./Resources/toc.js"></script><script type="text/javascript" src="./Resources/vendor.js?03e2f30f7654c0752e35"></script><script type="text/javascript" src="./Resources/app.js?03e2f30f7654c0752e35"></script></body></html>

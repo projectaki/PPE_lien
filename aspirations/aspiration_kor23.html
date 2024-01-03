@@ -1,13 +1,1337 @@
-HTTP/1.1 200 OK
-Date: Wed, 29 Nov 2023 09:22:23 GMT
-Server: Apache
-Set-Cookie: PHPSESSID=hcqci18nstaf8caf3ocd4sh4k4; path=/
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Cache-Control: no-store, no-cache, must-revalidate
-Pragma: no-cache
-Set-Cookie: PHPSESSID=hcqci18nstaf8caf3ocd4sh4k4; path=/; secure; SameSite=Lax
-Set-Cookie: counter=2023-11-30+00%3A00%3A00; expires=Wed, 29-Nov-2023 15:00:00 GMT; Max-Age=20257; path=/; SameSite=Strict; domain=hanilhis.or.kr; secure; HttpOnly
-Vary: User-Agent
-X-XSS-Protection: 1; mode=block
-Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" id="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+    <title>한일관계사학회</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="한일관계사학회">
+<meta property="og:title" content="한일관계사학회">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://hanilhis.or.kr">
+<meta name="twitter:title" content="한일관계사학회">
+<meta name="twitter:site" content="@한일관계사학회">
+<meta name="twitter:creator" content="@한일관계사학회">
 
+    <link rel="shortcut icon" href="/config/favicon.ico" type="image/x-icon">    
+    <link rel="canonical" href="https://hanilhis.or.kr/">
+    <link rel="stylesheet" type="text/css" href="/inc/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/inc/css/animation.css">
+    <link rel="stylesheet" type="text/css" href="/inc/css/sns_list.css">
+
+
+    <style type="text/css">
+            body .mobile_wrap, th, td, input, select, textarea, button { font-family:"Noto Sans KR"; }
+        /* 템플릿 공통 */
+button.point_btn { background-color:#cc9964; }
+.point_color { color:#cc9964; }
+.point_bg { background-color:#cc9964; }
+.point_ico:before { color:#cc9964; }
+.point_ico_hover:hover:before { color:#cc9964; }
+.point_hover_bg:hover { background-color:#cc9964; }
+.point_hover_txt:hover { color:#cc9964; }
+.point_hover_bd:hover { border-color:#cc9964; }
+.point_hover_bd_left5:hover { border-color:#cc9964; }
+
+/* 네비게이션 */
+.point_bd:before { border-color:#cc9964 transparent;}
+#main_menu .depth1:hover > a.point_hover_bd { border-color:#cc9964; }
+#main_menu .gnb .depth1.active > a { color:#cc9964; }
+.depth2 li.active  > a.point_hover_txt { color:#cc9964; }
+.depth3 li.active a.point_hover_txt { color:#cc9964; }
+#main_menu .depth1:hover .depth2{border-color:#cc9964;}
+.tit_m_hmenu { background-color:#cc9964; }
+.mobile_wrap .mobile_hmenu.point_bg { background-color:#cc9964;}
+#mobile_mainmenu .depth_back { background-color:#cc9964;}
+.mobile_wrap.default_color #mobile_mainmenu h3.point_bg { background-color:#cc9964 !important; }
+.mobile_wrap .mobile_hmenu .bth_m_hmenu { background-color:#cc9964 !important;}
+#main_menu .depth2.point_nav_bg:before { border-color: #cc9964 transparent;  }
+
+/* 서브메뉴 */
+.sub_depth li.active a.point_bg { background-color:#cc9964; }
+#sub_title h1 .sub_title_desc { background-color:#cc9964; }
+#sub_title > p .sub_title_desc { background-color:#cc9964; }
+
+#sub_lnb li:last-child span{ color:#cc9964; }
+
+/* 로그인 페이지 */
+.member_page .member_links a { color:#cc9964; }
+.member_page .member_links a:hover { color:#cc9964; }
+.member_page .login_tap li.active { color:#cc9964; }
+.member_page .login_tap li.active::after { background-color:#cc9964; }
+.box_join_certify .box_inner .btn_default.point_btn { background-color:#cc9964; }
+.box_join_certify .box_inner .btn_primary { background-color:#cc9964; }
+.member_page .wrap_join_step { border-top-color: #cc9964; }
+.wrap_btn_agree .btn_comm.btn_primary.point_btn { background-color:#cc9964; }
+.wrap_join_step li div span.txt_join_step1.point_bg { background-color:#cc9964; }
+.wrap_join_step li div span.txt_join_step2.point_bg { background-color:#cc9964; }
+.wrap_join_step li div span.txt_join_step3.point_bg { background-color:#cc9964; }
+.list_join_step1, .list_join_step2, .list_join_step3 { background-color:#cc9964; }
+.wrap_tab_joincertify .tab_list a.point_bd { border-color:#cc9964; }
+.wrap_tab_joincertify .tab_list.active a.point_color { color:#cc9964; }
+.login_info .tab_list a.point_bd { border-color:#cc9964; }
+.login_info .tab_list.active a.point_color { color:#cc9964; }
+.cont_check .login_page_button { background-color:#cc9964; }
+.ddCombobox .ddTitle .arrow { background-color:#cc9964; }
+.login_id .box_id .ddCombobox .ddChild li:hover { color:#cc9964; }
+.login_id .box_id .ddCombobox .ddChild li.selected { color:#cc9964; }
+.member_page button.btn_submit { background-color:#cc9964; }
+.wrap_tab_joincertify .tab_list.active { background-color:#cc9964; border-color:#cc9964; }
+.member_page .btn_comm.btn_login{background-color:#cc9964; border-color:#cc9964;}
+.member_page .btn_primary.btn_save_pwd{background-color:#cc9964; border-color:#cc9964;}
+
+/* 마이페이지 */
+.member_page .element_box.date .date_option .date_select.point_bg { background-color:#cc9964; }
+.tit_my_activity { color:#cc9964; }
+.my_activity dd { color:#cc9964; }
+.box_sub .btn_comm.btn_member_leave { color:#cc9964; }
+.your_page .your_page_tab_bot { background-color:#cc9964; }
+.board_order_content .mo_date { background-color:#cc9964; }
+.board_order_content .mo_status { color:#cc9964; }
+@media screen and (max-width:767px) {
+.lnb_mypage li.active a.point_bg { background-color:#cc9964; }
+}
+.your_page .your_page_sub_tab li.active { border-color:#cc9964; color:#cc9964; }
+
+/* 나의 게시글(mytrace) */
+.board_mypage_tab .tab_list.active a.point_color { color:#cc9964; }
+.board_mypage_tab .tab_list.active a.point_bd { border-color:#cc9964; }
+
+/* 셀렉트 박스 */
+.element_box .selectBox-dropdown .selectBox-arrow.point_bg { background-color:#cc9964; }
+.selectBox-dropdown .selectBox-arrow.point_bg { background-color:#cc9964; }
+.join_birth .selectBox-dropdown .selectBox-arrow.point_bg { background-color:#cc9964; }
+.board_mytrace .selectBox-dropdown .selectBox-arrow.point_bg { background-color:#cc9964; }
+.board_page .selectBox-dropdown .selectBox-arrow.point_bg { background-color:#cc9964; }
+.board_page .board_write_main dl.box_period .date_select { background-color:#cc9964; }
+
+/* 사이트맵 */
+.site_map .list_depth1>li strong a { color:#cc9964; }
+
+/* 풋터 */
+#footer_menu .link_privacy a { color:#cc9964; }
+
+/* 스크롤업 */
+.scrollup.point_bg { background-color:#cc9964; }
+
+/* 개인정보처리방침 */
+.privacy_lst dt .btn_top { background-color:#cc9964; }
+.privacy_lst dt .btn_top:hover { color:#cc9964; }
+.privacy_nav li:hover a { color:#cc9964; }
+ul.privacy_nav li:hover { border-color:#cc9964; }
+ul.privacy_nav li:nth-child(2n+1):hover:before { border-color:#cc9964; }
+ul.privacy_nav li:nth-child(2n+2):hover:before { border-color:#cc9964; }
+ul.privacy_nav li:nth-child(2n+2):hover:after { border-color:#cc9964; }
+
+/* 이용약관 */
+.terms_lst>li dt { color:#cc9964; }
+.terms_main .btn_top a { background-color:#cc9964; }
+.terms_main .btn_top a:hover { color:#cc9964; }
+
+/* Switch */
+.switch > input:checked + span.point_bg { background-color:#cc9964; }
+
+/* 게시판 앱 공통 */
+.DUBU_Board_s150319001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_s150319001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_a151027001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_a151027001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_t150320001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_t150320001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_c170203001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_c170203001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_i170213001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_i170213001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_m170313001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_m170313001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.DUBU_Board_s171127001001 .inquiry_main_write .btn_apply.point_btn { background-color:#cc9964; }
+.DUBU_Board_s171127001001 .gallery_main_group:hover .wrap_gallery_contents .txt_subject a { color:#cc9964; }
+.board_main .tab_list.active a.point_color { color:#cc9964; }
+.board_main .tab_list.active.point_bg:after { background-color:#cc9964; }
+.mobile_wrap .board_main .tab_list:hover a.point_color { color:#cc9964; }
+.mobile_wrap .board_main .tab_list.point_bg:hover:after { background-color:#cc9964; }
+.board_page button.btn_admin { background-color:#cc9964; }
+.board_main .tab_list.active a.link_tab_list { color:#cc9964; }
+.board_main .tab_list:hover a.link_tab_list { color:#cc9964; }
+.board_page .tbl_board_list tbody tr:hover .col_subject a { color:#cc9964; }
+.board_page .btn_apply.point_bg { background-color:#cc9964; }
+.board_main .tab_list.active a:after { background-color:#cc9964; }
+.board_main .tab_list:hover a:after { background-color:#cc9964; }
+.webzine_main .tab_box .tab_list.active a.link_tab_list { color:#cc9964; }
+.webzine_main .tab_box .tab_list:hover a.link_tab_list { color:#cc9964; }
+.webzine_main .tab_box .tab_list.active a:after { background-color:#cc9964; }
+.webzine_main .tab_box .tab_list:hover a:after { background-color:#cc9964; }
+.board_page .paginator a:hover { color:#cc9964; }
+.board_page .txt_subject a { color:#cc9964; }
+.board_page .txt_subject a:hover { color:#cc9964; }
+.board_page button.btn_more { background-color:#cc9964; }
+.board_page .num_file { color:#cc9964; }
+.board_page .answer_write h3 { background-color:#cc9964; }
+.board_page .txt_content h3 { color:#cc9964; }
+.board_page .txt_cmt_count { color:#cc9964; }
+.board_page .layer_delete h4 { background-color:#cc9964; }
+.board_page .layer_delete p { background-color:#cc9964; }
+.board_page .btn_layer_apply { background-color:#cc9964; }
+.board_page button.btn_write,
+.board_page button.btn_list { background-color:#cc9964; }
+.board_page .wrap_gallery_contents { border-color:#cc9964; }
+.board_page .txt_content h3:before { background-color:#cc9964; }
+.board_page .btn_comm.point_btn { background-color:#cc9964; }
+.board_page .btn_comm.point_btn.btn_write { background-color:#cc9964; }
+.board_page li.notice .txt_subject > a { color:#cc9964; }
+
+/* 게시판 비밀글 */
+.board_secret_main .btn_comm.btn_apply { background-color:#cc9964; }
+
+/* 메인 게시판 */
+.gallery_main .tab_box .tab_list:hover a.link_tab_list { color:#cc9964; }
+.gallery_main .tab_box .tab_list.active a.link_tab_list { color:#cc9964; }
+.gallery_main .tab_box .tab_list a:after { background-color:#cc9964; }
+.gallery_main .tab_box .tab_list.active a:after { background-color:#cc9964; }
+.gallery_main .txt_subject a:hover { color:#cc9964; }
+.board_main .txt_subject:hover > .tit_content { color:#cc9964; }
+.webzine_list li:hover .box_subject { color:#cc9964; }
+.webzine_list li:hover .box_subject .txt_subject > a { color:#cc9964; }
+.txt_s_title { color:#cc9964; }
+.selectBox-options li:hover a { color:#cc9964; }
+.selectBox-options li.selectBox-selected a { color:#cc9964;  }
+.box_datepic .tbl_pic_month td.selected a { background-color:#cc9964; }
+.box_datepic .tbl_pic_month td a:hover { background-color:#cc9964; }
+.webzine_main_content.tab_info_content .box_post .box_subject:hover{ color:#cc9964;}
+.tab_box .tab_info .tab_list.active { border-color:#cc9964; }
+
+    .DUBU_Booking_Search_b160128001001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_b160128002001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_b160128003001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_b160128004001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_i170213001001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_i170213002001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_m170313001001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+    .DUBU_Booking_Search_m170313002001 .booking_gallery_col .btn_primary { background-color:#cc9964; }
+.booking_type_01 .box_booking_gallery:hover .inner_gallery { border-color:#cc9964; }
+.booking_type_01 .box_booking_gallery:hover .gallery_contents{ border-color:#cc9964; }
+.booking_gallery_control .ddCombobox.active,
+.booking_gallery_control input.booking_tf:focus,
+.booking_gallery_control input.booking_tf:active { box-shadow: 0 0 0 2px #cc9964; }
+.booking_list_footer .mo_booking_paginator .mo_paginator span.npage {color:#cc9964;}
+
+/* social_stream */
+.sns_stream_wrap .sns_filter ul li.point_hover_bg.on { background-color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.point_hover_bg:hover { background-color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.point_bd { border-color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.on.point_bd { border-color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.point_bd:hover { border-color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.on .sns_tit.point_color { color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li:hover .sns_ico.point_ico_hover:before { color:#cc9964; }
+.sns_stream_wrap .sns_filter ul li.on .sns_ico.point_ico_hover:before { color:#cc9964; }
+.sns_stream_wrap .btn_more span.point_bd { border-color:#cc9964; }
+.sns_stream_wrap .btn_more span.point_color { color:#cc9964; }
+
+    .sns_stream_skin1 .btn_more span.point_btn { background-color:#cc9964; }
+    .sns_stream_skin2 .btn_more span.point_btn { background-color:#cc9964; }
+    .sns_stream_skin3 .btn_more span.point_btn { background-color:#cc9964; }
+    .sns_stream_skin4 .btn_more span.point_btn { background-color:#cc9964; }
+    .sns_stream_skin5 .btn_more span.point_btn { background-color:#cc9964; }
+
+/* 메인 회원관리 앱 */
+    .DUBU_Members_s150319001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_s150319001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_s150319001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_s150319001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_s150319001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_s150319001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_t150320001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_c170203001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_i170213001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_m170313001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_s171127001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .btn_login.point_bg { background-color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .num_active_info { color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .member_links a.link_join { color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .member_links a.link_find_pwd { color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .member_links a.link_find_id { color:#cc9964; }
+    .DUBU_Members_z180726001001 .login_page .box_btn_loginon .btn_comm.btn_logout { background-color:#cc9964; }
+
+/* 우편번호 */
+.postcode_page .header_post_code:after { background-color:#cc9964; }
+.postcode_page .explain_post_code h2 { color:#cc9964; }
+.postcode_page .search_post_code .btn_search_postcode { background-color:#cc9964; }
+.postcode_page .txt_result_postcode { background-color:#cc9964; }
+.postcode_page .list_postcode .txt_postcode { color:#cc9964; }
+.postcode_page .paging_postcode strong { color:#cc9964; }
+@media screen and (max-width:767px) {
+.postcode_page .header_post_code { background-color:#cc9964 !important; }
+}
+
+/* i170213001001 (안단테1987) */
+#section_1484881768 div h3:after{background-color:#cc9964;}
+
+/* 템플릿 공통 */
+.point_section_bg { background-color:#cc9964; }
+.point_section_txt { color:#cc9964; }
+
+/* 서브메뉴 */
+#sub_title h1 { color:#cc9964; }
+#sub_title > p { color:#cc9964; }
+
+#sub_menu .sub_depth .depth3 li:first-of-type { border-top-color:#cc9964; }
+
+/* 템플릿 공통 */
+.body_point_bg { background-color:#ffffff; }
+
+/* 템플릿 공통 */
+.header_point_bg { background-color:#ffffff; }
+
+/* 메인 게시판 */
+.body_point_bd { border-color:#ffffff; }
+
+/* 템플릿 공통 */
+.footer_point_bg { background-color:#332e2c; }
+
+/* 템플릿 공통 */
+#sub_menu .sub_menu_title.point_bg_sub { background-color:#ffffff; }
+
+/* 템플릿 공통 */
+.point_bg_sub_depth { background-color:#7a8b01; }
+
+/* 서브메뉴 */
+.point_bg_sub_depth a.point_bg{ background-color:#7a8b01; }
+
+/* 템플릿 공통 */
+.point_bd { border-color:#0bb5a9; }
+
+/* 네비게이션 */
+#mobile_header { border-color: #0bb5a9; }
+
+/* 마이페이지 */
+.member_page .board_mytrace .board_mytrace_content,
+.your_page .your_page_tab_content { border-color:#0bb5a9; }
+
+/* Switch */
+.switch > input:checked + span.point_bd { border-color:#0bb5a9; }
+
+
+/* 메인 회원관리 앱 */
+.DUBU_Members_s150319001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_t150320001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_c170203001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_i170213001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_m170313001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_s171127001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+.DUBU_Members_z180726001001 .login_page .btn_login.point_bg:hover { background-color:#ebba78; }
+
+/* 템플릿 공통 */
+button.point_btn:hover { background-color:#ebba78; }
+
+/* 네비게이션 */
+#mobile_mainmenu h3.point_bg { background-color:#ebba78; }
+
+/* 로그인 페이지 */
+.box_join_certify .box_inner .btn_default.point_btn:hover { background-color:#ebba78; }
+.wrap_btn_agree .btn_comm.btn_primary.point_btn:hover { background-color:#ebba78; }
+.cont_check .login_page_button:hover { background-color:#ebba78; }
+.member_page .btn_comm.point_btn:hover { background-color:#ebba78; }
+.member_page button.btn_submit:hover { background-color:#ebba78; }
+
+/* 게시판 앱 공통 */
+.board_page .btn_admin:hover { background-color:#ebba78; }
+.board_page .btn_apply.point_bg:hover { background-color:#ebba78; }
+.board_page button.btn_write:hover { background-color:#ebba78; }
+.board_page button.btn_list:hover { background-color:#ebba78; }
+
+/* 메인 게시판 앱 공통 */
+.DUBU_Board_s150319001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_a151027001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_t150320001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_c170203001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_i170213001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_m170313001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+.DUBU_Board_s171127001001 .inquiry_main_write .btn_apply.point_btn:hover { background-color:#ebba78; }
+
+
+/* 추가 */
+.board_page .btn_comm.point_btn:hover { background-color:#ebba78; }
+.board_page .btn_comm.point_btn.btn_write:hover { background-color:#ebba78; }
+
+/* 게시판 비밀글 */
+.board_secret_main .btn_comm.btn_apply:hover { background-color:#ebba78; }
+
+/* 메인 숙박 앱  */
+.booking_gallery_col .btn_primary:active { background-color:#ebba78; }
+    .DUBU_Booking_Search_b160128001001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_b160128002001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_b160128003001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_b160128004001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_i170213001001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_i170213002001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_m170313001001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+    .DUBU_Booking_Search_m170313002001 .booking_gallery_col .btn_primary:hover { background-color:#ebba78; }
+
+/* 우편번호 */
+.postcode_page .search_post_code .btn_search_postcode:hover { background-color:#ebba78; }
+
+/* social_stream */
+    .sns_stream_skin1 .btn_more span.point_btn:hover { background-color:#ebba78; }
+    .sns_stream_skin2 .btn_more span.point_btn:hover { background-color:#ebba78; }
+    .sns_stream_skin3 .btn_more span.point_btn:hover { background-color:#ebba78; }
+    .sns_stream_skin4 .btn_more span.point_btn:hover { background-color:#ebba78; }
+    .sns_stream_skin5 .btn_more span.point_btn:hover { background-color:#ebba78; }
+
+/* 메인 회원관리 앱 */
+    .DUBU_Members_s150319001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_t150320001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_c170203001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_i170213001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_m170313001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_s171127001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+    .DUBU_Members_z180726001001 .login_page .box_btn_loginon .btn_comm.btn_logout:hover { background-color:#ebba78; }
+
+/* 템플릿 공통 */
+.point_bd_bottom { border-color:#515c00; }
+
+/* 템플릿 공통 */
+.point_sub_menu { background-color:#f1f6f9; }
+
+/* 템플릿 공통 */
+.point_section_bd { border-color:#0bb5a9; }
+
+/* 템플릿 공통 */
+.header_nav_bg { background-color:#ffffff; }
+
+/* 네비게이션 */
+#mobile_mainmenu h3 > a{ color:#ffffff; }
+#mobile_mainmenu .depth1 a.on.point_hover_txt { color:#ffffff; }
+.depth1:hover > a { color:#ffffff; }
+.depth1:hover > a.point_hover_txt { color:#ffffff; }
+#mobile_mainmenu .depth2 > ul > li:hover > a{ color:#ffffff; }
+#mobile_mainmenu .depth3 > ul > li:hover > a{ color:#ffffff; }
+#main_menu .gnb .depth1:hover > a { color:#ffffff; }
+
+/* 네비게이션 */
+#main_menu .point_hover_bg:hover { background-color:#cc9964; }
+#main_menu .gnb .depth1.active.point_hover_bg { background-color:#cc9964; }
+#main_menu .gnb .depth1:hover > a { background-color:#cc9964; }
+.box_mobile_hmenu > li:hover > a { color:#cc9964;  }
+
+/* 네비게이션 */
+#main_menu .gnb .depth2.point_nav_bg .depth3.point_nav_bg { background-color:#144990; }
+#main_menu .depth2 li:hover > .depth3{background-color:#144990;}
+
+
+/* 네비게이션 */
+.point_nav_bg { background-color:#cc9964; }
+
+/* 네비게이션 */
+#main_menu .point_section_bd { border-color:#e6e6e6; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth1 > a {color:#ffffff;}
+
+/* m170313001001 (두부펜션) */
+.section_txt p { color:#ffffff; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth2.point_nav_bg { background-color:#ffffff; }
+
+/* 네비게이션 */
+#main_menu .gnb ul.depth2.point_nav_bg li:hover { background-color:#6aa3a2; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth2.point_nav_bg > li > a { color:#999999; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth2.point_nav_bg > li:hover > a { color:#cc9964; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth2.point_nav_bg li > .depth3 li:hover { background-color:#0d0d0d; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth3.point_nav_bg > li > a { color:#999999; }
+
+/* 네비게이션 */
+#main_menu .gnb .depth3.point_nav_bg > li:hover > a { color:#cc9964; }
+
+/* 헤더메뉴 */
+#header_menu li a { color:#666666; }
+
+
+/* 헤더메뉴 */
+#header_menu li.link_home a.point_bd { border-color:#2c8cbd; }
+
+/* 헤더메뉴 */
+.header-section-bg{background-color:#36a9e3;}
+
+/* 헤더메뉴 */
+.sub_depth li.active >a.point_color { color:#cc9964; }
+#sub_menu .sub_depth .depth3 li:hover a { color:#cc9964; }
+.sub_depth .depth3 .active >a{ color:#cc9964; }
+
+/* m170313001001 (두부펜션) */
+.contact_point_bg { background-color:#cc9964; }
+.contact_point_color { color:#cc9964; }
+
+/* 서브메뉴 */
+#sub_menu .sub_menu_title h1 { color:#98a4b0; }
+
+/* 서브메뉴 */
+#sub_menu .sub_depth > li > a{ color:#666666; }
+
+/* 서브메뉴 */
+#sub_menu .sub_depth > li:hover> a { color:#cc9964; background-color:#6ba3a2; }
+#sub_menu .sub_depth > li.active > a{ color:#cc9964; background-color:#6ba3a2;}
+
+/* 로그인 페이지 */
+.member_page .btn_comm.point_btn { background-color:#cc9964; border-color:#0bb5a9; }
+
+
+/* 마이페이지 */
+.member_page .lnb_mypage li.active { border-top-color:#cc9964;}
+.lnb_mypage li.active a.point_bg:after { background-color:#cc9964; }
+.lnb_mypage li.active a.point_color { color:#cc9964; }
+
+
+
+/* 풋터 */
+.footer_point_txt #copyright p, .footer_point_txt #copyright a{ color:#999999; }
+
+/* 게시판 앱 공통 */
+.board_main .tab_list.active.point_bg,
+.gallery_main .tab_list.active.point_bg{ background-color:#cc9964; }
+
+/* 메인 게시판 */
+.webzine_main .webzine_main_header .tab_box .tab_list.active{ background-color:#cc9964; }
+
+/* 메인 게시판 */
+.webzine_main .tab_list.active a.link_more.point_board_more{ background-color:#0bb5a9; }
+
+/* c170203001001 (두부사랑치과) - 게시판 앱 */
+.DUBU_Board_c170203001001 .board_main .tab_box .tab_info .tab_list.active,
+.DUBU_Board_c170203001001 .webzine_main .tab_box .tab_info .tab_list.active,
+.DUBU_Board_c170203001001 .gallery_main .tab_box .tab_info .tab_list.active{border-color:#b4814d !important;}
+
+/* c170203001001 (두부사랑치과) - 게시판 앱 */
+.DUBU_Board_c170203001001 .board_main .tab_list.active a.link_more.point_board_more,
+.DUBU_Board_c170203001001 .webzine_main .tab_list.active a.link_more.point_board_more,
+.DUBU_Board_c170203001001 .gallery_main .tab_list.active a.link_more.point_board_more{ background-color:#b4814d !important;}
+
+/* m170313001001 (두부펜션) */
+.section1_point_bg { background-color:#f0f6f8; }
+
+/* m170313001001 (두부펜션) */
+.section2_point_bg { background-color:#f0f6f8; }
+
+
+
+/* c181129001001 건축 추가 */
+
+
+.border-theme:hover{color:#ebba78;} 
+.slide_items.button.point_bd:hover:after,
+.slide_items.button.point_bd:hover:before{border-color: !important;}
+
+/* u200921001001 Quadri Coffee */
+.DUBU_Board_u200921001001 .tab_info .tab_list:hover .link_more::before { background-color: #cc9964; }
+.DUBU_Board_u200921001001 .tab_info .tab_list:hover .link_more::after { background-color: #cc9964; }
+.DUBU_Board_u200921001001 .tab_info .tab_list.active .link_more::before { background-color: #cc9964; }
+.DUBU_Board_u200921001001 .tab_info .tab_list.active .link_more::after { background-color: #cc9964; }
+.DUBU_Board_u200921001001 .tab_list.active::after { background-color: #cc9964; }
+.DUBU_Board_u200921001001 .tab_list:hover::after { background-color:#cc9964; }
+.DUBU_Board_u200921001001 .box_agrees .person_info .pc_hidden div:first-child { color:#cc9964; }
+.DUBU_Board_u200921001001 .gallery_main div.gallery_contents { background-color: rgba(204, 153, 100, 0.8); }
+.DUBU_Members_u200921001001 .login_page .member_links a.link_join { color: #cc9964 }
+.DUBU_Members_u200921001001 .login_page .btn_logout { background-color: #cc9964 }
+.DUBU_Members_u200921001001 .login_page .btn_logout:hover,
+.DUBU_Members_u200921001001 .login_page .btn_logout:focus { background-color: #ebba78 }
+.DUBU_Members_u200921001001 .box_active_info .num_active_info { color: #cc9964 }
+.DUBU_Members_u200921001001 .social_login_wrap .title_txt::before { background-color: #cc9964 }
+.DUBU_Members_u200921001001 .social_login_wrap .title_txt::after { background-color: #cc9964 }
+
+/* common */
+.ico_file { background-color: #cc9964 }
+.box_msg_satisfy ul.list_msg_satisfy li.active::before { background-color: #cc9964 }
+.box_msg ul.list_msg_satisfy li.active::before { background-color: #cc9964 }
+.wrap_btn_agree .btn_comm.btn_primary.point_btn:focus { background-color:#ebba78; }
+.slideshow.skin_type10 ol li.active span { background-color: #cc9964 }
+
+/* social_account */
+.social_account .title_txt::before { background-color: #cc9964 }
+.social_account .title_txt::after { background-color: #cc9964 }
+
+/* board_page */
+.board_page .mo_paginator .page_lst { color: #cc9964 }
+.board_page span.txt_s_title { color: #cc9964 }
+.board_page .form_add dt { color: #cc9964 }
+.board_page .board_secret { color: #cc9964; }
+.board_page .list_thumb_img li:hover::after { border-color:#cc9964; }
+.board_page .list_btn_share a.url_copy { background-color:#cc9964; }
+.board_page .wrap_gallery_contents .gallery_contents.point_bg { background-color: rgba(204, 153, 100, 0.8); }
+.board_page button.btn_img_delete { background-color:#cc9964; }
+.board_page button.btn_zip_code { background-color:#cc9964; }
+.board_page button.btn_layer_apply { background-color: #cc9964 }
+.board_page button.btn_modify { background-color: #cc9964 }
+.board_page button.btn_modify:hover { background-color: #ebba78 }
+.board_page button.btn_modify:focus { background-color: #ebba78 }
+.board_page button.btn_list:focus { background-color: #ebba78 }
+.board_page button.btn_write:focus { background-color:#ebba78; }
+.board_page button.btn_list:focus { background-color:#ebba78; }
+
+/* member_page */
+.member_page p.dubu_login a { color: #cc9964 }
+.member_page .pwdset_id { color: #cc9964 }
+.member_page .check_id { color:#cc9964; }
+.member_page div.box_mypage dd { color: #cc9964 }
+.member_page .account_check .user_id { color:#cc9964; }
+.member_page .switch input:checked + span { background-color: #cc9964; border-color: #cc9964 }
+.lnb_mypage li.active a { color: #cc9964 }
+.lnb_mypage li.active a::after { background-color: #cc9964 }
+.btn_sleepok_login { background-color: #cc9964 }
+.btn_sleepok_login:hover,
+.btn_sleepok_login:focus { background-color: #ebba78 }
+.dues_history li::after { background-color: #cc9964 }
+
+/* mobile_mainmenu */
+#mobile_mainmenu .gnb .depth_open { color: #cc9964 }
+
+/* sub_menu */
+#sub_menu li:hover > a { color: #cc9964 }
+#sub_menu li a:hover { color: #cc9964 }
+#sub_menu .depth3 li::before { background-color: #cc9964 }
+
+/* payment */
+.dues_payment_list_box div.dues_payment_list_price { color: #cc9964 }
+
+/* mypage review */
+.your_page .your_page_qa_right { background-color:#cc9964; }
+
+    
+    .ddCombobox .ddChild li:hover { background-color: rgba(204, 153, 100, 0.7); }
+
+   
+        .DUBU_Board_u200921001001 span.ico_proceeding { background-color: hsl(40, 72%, 73%); }
+    .DUBU_Board_u200921001001 span.proceeding_0 { background-color: hsl(40, 72%, 57%); }
+    .DUBU_Board_u200921001001 span.proceeding_4 { background-color: hsl(40, 72%, 30%); }
+    .board_page span.ico_proceeding { background-color: hsl(40, 72%, 73%); }
+    .board_page span.proceeding_0 { background-color: hsl(40, 72%, 57%); }
+    .board_page span.proceeding_4 { background-color: hsl(40, 72%, 30%); }
+
+    </style>
+    <link rel="stylesheet" type="text/css" id="webfont_sheet" href="https://fonts.dubuplus.com/css?family=Noto Sans KR,Nanum Gothic">
+<link rel="stylesheet" type="text/css" href="/template/s171127001001/layout/main/layout-latest.css?1684093964">
+<link rel="stylesheet" type="text/css" href="/template/s171127001001/layout/main/application-latest.css?1684093964">
+        
+    <script type="text/javascript" src="/inc/js/external.min.js"></script>
+    
+            <script type="text/javascript" src="/inc/plugins/NuriMedia/js/nurimedia.js"></script>
+            <script type="text/javascript" src="/inc/js/common.js"></script>
+
+    <script type="text/javascript" src="/inc/application/dubu_board/js/main.min.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/inc/external/html5shiv.js"></script>
+    <script type="text/javascript" src="/inc/external/respond.min.js"></script>
+    <![endif]-->
+
+    </head>
+<body >
+<div class="mobile_wrap body_point_bg">
+	<div class="mobile_wrap_overlay"></div>
+	<div id="mobile_hmenu" class="module mobile_hmenu point_bg">    <div class="tit_m_hmenu">        <button type="button" class="bth_m_hmenu point_bg">닫기</button>        <div class="txt_m_hmenu">MY MENU</div>    </div>        <ul class="box_mobile_hmenu">        <li class="link_home">            <a href="javascript:goHome();">Home</a>        </li>        <li class="link_login" style="display:none;">            <a href="/login">로그인</a>        </li>        <li class="link_join" style="display:none;">            <a href="/join">회원가입</a>        </li>        <li class="link_mydues" style="display:none;">            <a href="/mypage/mydues">납부내역</a>        </li>        <li class="link_sitemap" style="display:none;">            <a href="/sitemap">사이트맵</a>        </li>        <li class="link_cus1635473257">            <a href="/20">공지사항</a>        </li>        <li class="link_cus1635473269">            <a href="mailto:crinoid@dgu.ac.kr">E-mail</a>        </li>        <li class="link_admin">            <a href="/admin" target="_parent">관리자</a>        </li>    </ul></div>	
+	
+	
+
+<nav id="mobile_mainmenu" class="module mo_mclose">
+    <div class="gnb point_bg">
+        <ul>
+
+            <li class="depth1 depth1_01">
+                <a href="#" class="depth_arrow" title="학회소개" target="_self">학회소개<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="학회소개" target="_self">학회소개</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/17" class="" title="학회소개" target="_self">학회소개<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/43" class="" title="회장 인사말" target="_self">회장 인사말<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/18" class="" title="연혁" target="_self">연혁<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/44" class="" title="역대 회장단" target="_self">역대 회장단<span></span></a>
+                            
+                        </li>
+                        <li class="last">
+                            <a href="/19" class="" title="임원진" target="_self">임원진<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="depth1 depth1_02">
+                <a href="#" class="depth_arrow" title="학회규정" target="_self">학회규정<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="학회규정" target="_self">학회규정</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/21" class="" title="학회회칙" target="_self">학회회칙<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/22" class="" title="학술상 규정" target="_self">학술상 규정<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/23" class="" title="연구윤리규정" target="_self">연구윤리규정<span></span></a>
+                            
+                        </li>
+                        <li class="last">
+                            <a href="/37" class="" title="월례발표회 규정" target="_self">월례발표회 규정<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="depth1 depth1_03">
+                <a href="#" class="depth_arrow" title="학술지/투고" target="_self">학술지/투고<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="학술지/투고" target="_self">학술지/투고</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/24" class="" title="논문투고규정" target="_self">논문투고규정<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/38" class="" title="논문심사규정" target="_self">논문심사규정<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="#" class="" title="온라인논문투고신청" target="_self">온라인논문투고신청<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://submit.dbpia.co.kr/" class="" title="구)온라인논문투고" target="_blank">구)온라인논문투고<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="#" class="" title="온라인논문심사" target="_self">온라인논문심사<span></span></a>
+                            
+                        </li>
+                        <li class="last">
+                            <a href="/26" class="" title="한일관계사연구 원문검색" target="_self">한일관계사연구 원문검색<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="depth1 depth1_04">
+                <a href="#" class="depth_arrow" title="학술활동" target="_self">학술활동<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="학술활동" target="_self">학술활동</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/27" class="" title="월례발표회 및 학술대회" target="_self">월례발표회 및 학술대회<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/28" class="" title="경인한일관계총서" target="_self">경인한일관계총서<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/29" class="" title="신간서적 안내" target="_self">신간서적 안내<span></span></a>
+                            
+                        </li>
+                        <li class="last">
+                            <a href="/40" class="" title="학술대회자료집" target="_self">학술대회자료집<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="depth1 depth1_05">
+                <a href="#" class="depth_arrow" title="학회소식" target="_self">학회소식<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="학회소식" target="_self">학회소식</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/20" class="" title="공지사항" target="_self">공지사항<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/30" class="" title="자유게시판" target="_self">자유게시판<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="/45" class="" title="회원동정" target="_self">회원동정<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="depth1 depth1_06">
+                <a href="/32" class="" title="갤러리" target="_self">갤러리<span></span></a>
+            </li>
+            <li class="depth1 depth1_07">
+                <a href="#" class="depth_arrow" title="회원가입" target="_self">회원가입<span></span></a>
+                <div class="depth2">
+                    <a class="depth_back">back</a>
+                    <h3 class="point_bg"><a href="#" title="회원가입" target="_self">회원가입</a></h3>
+                    <ul>
+                        <li class="first">
+                            <a href="/34" class="" title="회원가입 및 회비납부 안내" target="_self">회원가입 및 회비납부 안내<span></span></a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="#" class="" title="회원가입신청" target="_self">회원가입신청<span></span></a>
+                            
+                        </li>
+                        <li class="last">
+                            <a href="#" class="" title="회원정보수정" target="_self">회원정보수정<span></span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>	<div class="wrap"> <header id="mobile_header" class="header_point_bg hidden-md hidden-lg ">    <button type="button" class="link_mohmenu">MY MENU</button>    <button type="button" class="link_mobasket">BASKET</button>    <button type="button" class="link_momenu point_bg">MENU</button>    <div class="link_mologo"><a href="/"><img src="/template/s171127001001/images/logo_header.jpg" alt=""></a></div></header>		<div class="hidden-xs section" id="section_1629435940">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col_1635837696"> 
+
+<ul id="header_menu" class="module"  >
+
+    <li class="link_home">
+        <a  class="point_bg point_bd" href="javascript:goHome();">Home</a>
+    </li>
+
+    <li class="link_login" style="display:none;">
+        <a  href="/login">로그인</a>
+    </li>
+
+    <li class="link_join" style="display:none;">
+        <a  href="/join">회원가입</a>
+    </li>
+
+    <li class="link_mydues" style="display:none;">
+        <a  href="/mypage/mydues">납부내역</a>
+    </li>
+
+    <li class="link_sitemap" style="display:none;">
+        <a  href="/sitemap">사이트맵</a>
+    </li>
+
+    <li class="link_cus1635473257">
+        <a  href="/20">공지사항</a>
+    </li>
+
+    <li class="link_cus1635473269">
+        <a  href="mailto:crinoid@dgu.ac.kr">E-mail</a>
+    </li>
+
+    <li class="link_admin">
+        <a  href="/admin">관리자</a>
+    </li>
+
+</ul></div>
+				</div>
+			</div>
+		</div>
+		<header id="header" class="hidden-xs header_point_bg">
+			<div class="container">
+				<div id="row_1391759269" class="row">
+					<div id="col_1391759277" class="col-md-3"> <div id="logo" class="module"  ><a href="javascript:goHome();"><img src="/template/s171127001001/images/logo_header.jpg" alt=""></a></div> </div>
+					<div class="col-md-9"> 
+
+<nav id="main_menu" class="module"  >
+    <button type="button" class="btn_main_menu point_bg">MENU</button>
+    <ul class="gnb" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        
+        <li class="depth1 point_hover_bg depth1_01" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="학회소개" target="_self">학회소개</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/17" title="학회소개" target="_self">학회소개</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/43" title="회장 인사말" target="_self">회장 인사말</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/18" title="연혁" target="_self">연혁</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/44" title="역대 회장단" target="_self">역대 회장단</a>
+                </li>
+                <li class="point_section_bd point_hover_bg last" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/19" title="임원진" target="_self">임원진</a>
+                </li>
+            </ul>
+        </li>
+        <li class="depth1 point_hover_bg depth1_02" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="학회규정" target="_self">학회규정</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/21" title="학회회칙" target="_self">학회회칙</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/22" title="학술상 규정" target="_self">학술상 규정</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/23" title="연구윤리규정" target="_self">연구윤리규정</a>
+                </li>
+                <li class="point_section_bd point_hover_bg last" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/37" title="월례발표회 규정" target="_self">월례발표회 규정</a>
+                </li>
+            </ul>
+        </li>
+        <li class="depth1 point_hover_bg depth1_03" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="학술지/투고" target="_self">학술지/투고</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/24" title="논문투고규정" target="_self">논문투고규정</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/38" title="논문심사규정" target="_self">논문심사규정</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="#" title="온라인논문투고신청" target="_self">온라인논문투고신청</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="http://submit.dbpia.co.kr/" title="구)온라인논문투고" target="_blank">구)온라인논문투고</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="#" title="온라인논문심사" target="_self">온라인논문심사</a>
+                </li>
+                <li class="point_section_bd point_hover_bg last" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/26" title="한일관계사연구 원문검색" target="_self">한일관계사연구 원문검색</a>
+                </li>
+            </ul>
+        </li>
+        <li class="depth1 point_hover_bg depth1_04" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="학술활동" target="_self">학술활동</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/27" title="월례발표회 및 학술대회" target="_self">월례발표회 및 학술대회</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/28" title="경인한일관계총서" target="_self">경인한일관계총서</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/29" title="신간서적 안내" target="_self">신간서적 안내</a>
+                </li>
+                <li class="point_section_bd point_hover_bg last" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/40" title="학술대회자료집" target="_self">학술대회자료집</a>
+                </li>
+            </ul>
+        </li>
+        <li class="depth1 point_hover_bg depth1_05" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="학회소식" target="_self">학회소식</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/20" title="공지사항" target="_self">공지사항</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/30" title="자유게시판" target="_self">자유게시판</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/45" title="회원동정" target="_self">회원동정</a>
+                </li>
+            </ul>
+        </li>
+        <li class="depth1 point_hover_bg depth1_06" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="/32" title="갤러리" target="_self">갤러리</a>
+        </li>
+        <li class="depth1 point_hover_bg depth1_07" itemprop="name">
+            <a itemprop="url" class="point_hover_txt" href="#" title="회원가입" target="_self">회원가입</a>
+            <ul class="depth2 point_bd point_nav_bg">
+                <li class="point_section_bd point_hover_bg first" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="/34" title="회원가입 및 회비납부 안내" target="_self">회원가입 및 회비납부 안내</a>
+                </li>
+                <li class="point_section_bd point_hover_bg " itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="#" title="회원가입신청" target="_self">회원가입신청</a>
+                </li>
+                <li class="point_section_bd point_hover_bg last" itemprop="name">
+                    <a itemprop="url" class="point_hover_txt" href="#" title="회원정보수정" target="_self">회원정보수정</a>
+                </li>
+            </ul>
+        </li>    </ul>
+</nav> </div>
+				</div>
+			</div>
+		</header>
+		<div id="section_1391755408" class="section">
+			<div class="container fullsize">
+				<div class="row" id="row_1635484967">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col_1635484972"><div id="app_1635484988" class="DUBU_Slideshow module"  ><link rel="stylesheet" href="https://fonts.dubuplus.com/css?family=noto_sans_kr">
+<link rel="stylesheet" type="text/css" href="/inc/application/dubu_slideshow/skin/slideshow.css">
+<link rel="stylesheet" href="/app/dubu_slideshow/docs/slideshow_1635409221006/slideshow.css?v=1684093286" data-media>
+<div id="slideshow_1635409221006" class="slideshow skin_type3" slide-animation="slide" slide-autoplay=1 slide-dots="1" slide-nav="0" slide-interval=3000 slide-duration=1000>
+    <div class="slides" id="slide_1635409957928" style=""><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1637279822613" unselectable="on"><h1 style="text-align: left;"><span style="font-family:Noto Sans KR;">한일관계사학회<br></span></h1></div><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1637279824658" unselectable="on"><p style="text-align: center;">The Korea-Japan Historical Society</p></div></div><div class="slides" id="slide_1637123509871"><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358871078" unselectable="on"><h1 style="text-align: left;"><span style="font-family:Noto Sans KR;">한일관계사학회<br></span></h1></div><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358875358" unselectable="on"><p style="text-align: center;">The Korea-Japan Historical Society</p></div></div><div class="slides" id="slide_1637295785511"><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358871525" unselectable="on"><h1 style="text-align: left;"><span style="font-family:Noto Sans KR;">한일관계사학회<br></span></h1></div><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358875766" unselectable="on"><p style="text-align: center;">The Korea-Japan Historical Society</p></div></div><div class="slides" id="slide_1635409885952" style=""><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358872365" unselectable="on"><h1 style="text-align: left;"><span style="font-family:Noto Sans KR;">한일관계사학회<br></span></h1></div><div class="slide_items text" item-type="text" link-href="" link-type="url" video-src="" id="slide_items_1641358876438" unselectable="on"><p style="text-align: center;">The Korea-Japan Historical Society</p></div></div><div class="slides hidden_slide" id="slide_1667785998803"></div><div class="slides hidden_slide" id="slide_1667786022590"></div>
+</div>
+<script type="text/javascript" src="/inc/application/dubu_slideshow/js/jquery.carousel.js"></script>
+<script type="text/javascript" src="/inc/application/dubu_slideshow/js/slideshow.js"></script>
+</div></div>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container">
+				<div class="row" id="row_1424139034">
+					<div class="col-md-6"><div id="app_1635473213" class="DUBU_Board DUBU_Board_s150319001001 module"  ><div id="dubu_board_main_17043183249179" class="board_main">
+    <div class="board_main_header">
+        <div class="tit_board_main">
+            <h3>공지사항</h3>
+            <a href="/20" class="btn_more" title="더보기"><span class="ico_more"></span>더보기</a>
+        </div>
+    </div>
+    <div class="board_main_content tab_info_content">
+        <table id="board_content_16378_" class="tab_content active">
+            <thead>
+            <tr>
+                <th class="col_subject">제목</th>
+                <th class="col_date">작성일</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="col_subject">
+                    <a href="/20/12060444" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제209회 월례발표회(2023.11.11) 논문집</span>
+                        <span class="ico_comm ico_file">첨부파일</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.11.21</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/20/12026672" class="txt_subject">
+                        <span class="tit_content">10월 학술대회(한일관계사학회-전북대 이재연구소 공동개최) 자료집</span>
+                        <span class="ico_comm ico_file">첨부파일</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.10.30</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/20/11938625" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 8월, 9월 학술회의 자료</span>
+                        <span class="ico_comm ico_file">첨부파일</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.09.08</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/20/11830020" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제208회 월례발표회(2023.06.10) 논문집</span>
+                        <span class="ico_comm ico_file">첨부파일</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.06.09</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/20/11799091" class="txt_subject">
+                        <span class="tit_content">[호서고고학회] 2023년 5월 18일 제47회 정기학술대회 개최 안내</span>
+                        <span class="ico_comm ico_file">첨부파일</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.05.16</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="/inc/js/ui/jquery.tab.js"></script>
+<script type="text/javascript">
+    (function(){
+        loadDubuBoardMain('dubu_board_main_17043183249179', {
+            type: '0'
+        });
+    })();
+</script></div></div>
+					<div class="clearfix visible-sm"></div>
+					<div class="clearfix visible-xs"></div>
+					<div class="col-md-6">
+						<div class="row" id="row_1629685024">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="col_1635498187" data-link-href="javascript:open_dbpia(0)" data-link-target="_self">
+								<div class="dpl_element module" data-element="codecell" id="element_1629428773"><a class="mainban ban4" href="javascript:open_dbpia(0)" title="온라인논문투고신청">
+									<div class="mainban_txtbox">
+										<h4 class="mainban_tit">온라인 논문투고</h4>
+										<span class="mainban_tit2">Online Submission</span> </div>
+									<img class="mainban_img_bg" src="/template/s171127001001/images/togo.jpg" alt="온라인논문투고"> </a></div>
+							</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="col_1635498203" data-link-target="_blank">
+								<div class="dpl_element module" data-element="codecell" id="element_1426134629"><a class="mainban ban1" href="/34" title="회비납부안내">
+									<div class="mainban_txtbox"> <img class="mainban_img_icon" src="/template/s150319001001/images/card_icon.png" alt="회비납부안내아이콘">
+										<h5 class="mainban_h5">&lt;회비납부 안내&gt;</h5>
+										<p class="mainban_p_size">국민은행 <br>
+											217002-04-676500 </p>
+										<p class="mainban_p_size">예금주 : 조인희</p>
+										<p class="mainban_p">회비납입 확인 후 등업됩니다</p>
+									</div>
+									</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="row_1424153230">
+					<div class="col-md-6" id="col_1424151767"><div id="app_1635473214" class="DUBU_Board DUBU_Board_s150319001001 module"  ><div id="dubu_board_main_17043183252400" class="board_main">
+    <div class="board_main_header">
+        <div class="tit_board_main">
+            <h3>월례발표회 및 학술대회</h3>
+            <a href="/27" class="btn_more" title="더보기"><span class="ico_more"></span>더보기</a>
+        </div>
+    </div>
+    <div class="board_main_content tab_info_content">
+        <table id="board_content_16379_" class="tab_content active">
+            <thead>
+            <tr>
+                <th class="col_subject">제목</th>
+                <th class="col_date">작성일</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="col_subject">
+                    <a href="/27/12092495" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제210회 월례발표회(2023.12.09)</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.12.07</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/27/12035750" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제209회 월례발표회(2023.11.11) </span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.11.06</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/27/11879118" class="txt_subject">
+                        <span class="tit_content">[한일관계사학회-부경역사연구소]  공동개최 학술대회 안내(2023.08.05(토) 부산 국립해양박물관 13:00~18:00)</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.07.27</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/27/11816940" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제208회 월례발표회(2023.06.10)</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.05.31</span></td>
+            </tr>
+            <tr>
+                <td class="col_subject">
+                    <a href="/27/11783503" class="txt_subject">
+                        <span class="tit_content">한일관계사학회 제207회 월례발표회(2023.05.13)</span>
+                    </a>
+                </td>
+                <td class="col_date"><span class="txt_date">2023.05.03</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="/inc/js/ui/jquery.tab.js"></script>
+<script type="text/javascript">
+    (function(){
+        loadDubuBoardMain('dubu_board_main_17043183252400', {
+            type: '0'
+        });
+    })();
+</script></div></div>
+					<div class="col-md-6" id="col_1424157567">
+						<div class="row" id="row_1629685034">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="col_1629428778">
+								<div class="dpl_element module" data-element="codecell" id="element_1635491777">
+									<div class="mainban3">
+										<div class="login_area"> <div id="app_1635827072" class="DUBU_Members DUBU_Members_i170213001001 module"  ><div class="login_page">
+    <div class="login">
+        <form name="frm_login" method="post" onsubmit="return false">
+            <div class="box_info_cont">
+                <div class="input_info">
+                    <div class="login_id">
+                        <label for="tf_id" class="txt_id">아이디</label>
+                        <div class="box_id">
+                            <input type="text" id="tf_id" name="user_id" value="" class="tf_comm">
+                            <span class="msg_id txt_placeholder">아이디 입력</span>
+                        </div>
+                    </div>
+                    <div class="login_pwd">
+                        <label for="tf_pwd" class="txt_pwd">비밀번호</label>
+                        <div class="box_pwd">
+                            <input type="password" id="tf_pwd" name="user_pwd" value="" class="tf_comm">
+                            <span class="msg_pwd txt_placeholder">비밀번호 입력</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_check">
+                    <label class="design_checkbox lab_check">
+                        <input type="checkbox" name="auto_login" value="Y"><span class="txt_lab">로그인 상태 유지</span>
+                    </label>
+                    <button type="submit" class="btn_comm btn_primary btn_login point_btn">로그인</button>
+                </div>
+            </div>
+            <input type="hidden" name="return_url" value="">
+            <input type="hidden" name="site_id" value="38009">
+            <p class="msg_error">입력하신 아이디 또는 비밀번호가 일치하지 않습니다.</p>
+        </form>
+
+
+        
+        <div class="links_area">
+            <div class="member_links">
+                <a href="/login/login_info" class="link_find_id" title="아이디 찾기">아이디 찾기</a>
+                <a href="/login/login_info" class="link_find_pwd" title="비밀번호 찾기">비밀번호 찾기</a>
+                <a href="/join" class="link_join" title="회원가입하기">회원가입하기</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://auth.dubuplus.com/user/js/sdk.js"></script>
+    <script type="text/javascript" src="/inc/application/dubu_members/js/common.js"></script>
+</div>
+
+</div> </div>
+										<div class="ban_list"> <a href="/29" class="mainban_new"> <img src="/template/s171127001001/images/book_icon.png" alt="책 두권">
+											<p>신간서적 안내</p>
+											</a> <a href="/26" class="mainban_search"> <img src="/template/s171127001001/images/glasses_icon.png" alt="돋보기">
+											<p>한일관계사연구 원문검색</p>
+											</a> </div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="col_1635489515">
+								<div class="dpl_element module" data-element="codecell" id="element_1426134662"><a class="mainban ban4 mainban2" href="/32" title="갤러리">
+									<div class="mainban_txtbox">
+										<h4 class="mainban_tit">갤러리</h4>
+										<span class="mainban_tit2">Gallery</span> </div>
+									<img class="mainban_img_bg mainban_img_bg2" src="/template/s171127001001/images/gallery.jpg" alt="갤러리"> </a> <a href="https://youtu.be/3IAWpXuWIjw" target="_blank" class="video_btn">30주년 역대 회장 간담회</a> <a href="https://youtu.be/AHwK4iO1Nfg" target="_blank" class="video_btn">창립30주년 기념 학술회의 영상</a>
+									<style>
+.mainban2{height:115px !important;}
+.mainban_img_bg2{width:110% !important;}
+.video_btn{display: block;background-color:#b48a5b;color:#ffffff;font-size:16px;text-align: center;margin-top:10px;padding:11.5px 0}
+.video_btn:hover{opacity: 0.8;}
+</style>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="row_1630480322">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="dpl_element module" data-element="codecell" id="element_1630480271">
+							<div class="banners">
+								<iframe src="/banner" frameborder="0" style="width: 100%; height: 60px;" width="100%" height="100%" scrolling="no"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section_1629429003">
+			<div class="container">
+				<div class="row" id="row_1635757554">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col_1635485781"> 
+
+<ul id="footer_menu" class="module"  >
+    <li class="link_aboutus" style="display:none;">
+        <a href="#">회사소개</a>
+    </li>
+    <li class="link_useguide" style="display:none;">
+        <a href="#">이용안내</a>
+    </li>
+    <li class="link_service">
+        <a href="/terms_of_use">이용약관</a>
+    </li>
+    <li class="link_privacy">
+        <a href="/privacy">개인정보취급방침</a>
+    </li>
+    <li class="link_nospam">
+        <a href="/email_security">이메일주소무단수집거부</a>
+    </li>
+    <li class="link_cus1635485841">
+        <a href="/login/login_info">아이디찾기</a>
+    </li>
+    <li class="link_cus1635485870">
+        <a href="/login/login_info">비밀번호 재설정</a>
+    </li>
+    <li class="link_cus1635485899">
+        <a href="/join/join_certify">회원가입하기</a>
+    </li>
+</ul></div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer" class="">
+			<div class="container">
+				<div class="row" id="row_1635487144">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="dpl_element module" data-element="codecell" id="element_1635487058">
+							<div class="footer_txt">
+								<h3>한일관계사학회</h3>
+								<p> <b>회장 나행주</b> 05029 서울시 광진구 능동로 120 건국대학교 인문학관 연구동 109호 사학과 / <a href="tel:010-4079-5585">010-4079-5585</a><br>
+									<b>총무이사 조인희</b> 36605 경상북도 안동시 도산면 퇴계로 1997 한국국학진흥원 207호 / <a href="mailto:hanilhis1992@naver.com" target="_blank">hanilhis1992@naver.com</a> / <a href="tel:010-3837-6091">010-3837-6091</a></p>
+							</div>
+						</div>
+						<div class="dpl_element module" data-element="paragraph" id="element_1629428524">
+							<p>COPYRIGHT (C)2021. 이 웹사이트의 저작권은 한일관계사학회에 있습니다.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+<a href="#" class="scrollup point_bg">Top</a> 
+<!-- 지우지 마세요 --> 
+<script type="text/javascript" src="/inc/js/ui/jquery.multipushmenu.js"></script> 
+<script src="/template/s171127001001/js/common.js"></script> 
+<script type="text/javascript">
+$(function(){
+    $('#mobile_mainmenu').multiPushMenu();
+});
+</script><script type="text/javascript" src="/inc/application/dubu_popup/js/popup.js"></script>
+<link rel="stylesheet" href="https://fonts.dubuplus.com/css?family=">
+<link rel="stylesheet" href="/inc/application/dubu_popup/skin/popup.css">
+
+</body>
+</html>

@@ -1,103 +1,21 @@
-   집합
-
 관계 (relation)란?
-
-   밝은비 2012. 8. 13. 17:20
---
-
-
    두 [7]집합 A, B에서 정의된 관계는 A의 [8]원소와 B의 원소로 이루어진 [9]순서쌍의 집합을 뜻합니다.
-
-
    즉 관계 R은 A와 B의 [10]데카르트 곱의 [11]부분집합이 됩니다.
-
-
---
-
-
    a는 b와 R 관계이다 (a is R-related to b)라고 읽습니다.
-
-
-
-
    실수의 집합에서 크다, 작다, 같다, 크거나같다 등등도 모두 관계이며 mathbb{R} × mathbb{R} 의 부분집합으로
-   정의됩니다.
-
---
-
-
    어떤 관계 R의 한 원소 (a,b)를 그림으로 다음과 같이 나타낼 수 있습니다.
-
-
---
-
-
    관계의 특성을 이해할 때 이렇게 그림으로 나타내는 방식을 자주 사용합니다.
-
-
---
-
-
    위의 정의는 정확히 말해 이항관계 (binary relation)입니다.
-
-
    즉 어떤 두 대상 사이의 관계인 것이고
-
-
    이것을 일반화시켜 n개의 대상 사이의 관계 (n항 관계 : n-ary relation)를 생각할 수 있습니다.
-
-
-
    n항 관계는 이항관계와 같은 방식으로 다음과 같이 정의될 수 있습니다.
-
-
---
-
-
    R을 남자친구관계라고 정의한다면
-
-
---
-
-
    이렇게 특별한 관계 뿐만 아니라
-
-
    임의로 순서쌍들을 모아놓아도 관계가 됩니다.
-
-
---
-
-         [13]정의역 (domain)과 상 (image)  (0)        2012.08.15
           [14]역관계 (inverse relation)  (0)        2012.08.13
-        [15]데카르트 곱 (cartesian product)  (0)      2012.08.10
-            [16]순서쌍 (ordered pair)  (0)          2012.08.09
---
-Tag
-
    [18]relation, [19]관계
-
-'집합'의 다른글
-
-     * [20]이전글데카르트 곱 (cartesian product)
      * 현재글관계 (relation)란?
      * [21]다음글역관계 (inverse relation)
-
-관련글
-
-     * [22]정의역 (domain)과 상 (image) 2012.08.15
      * [23]역관계 (inverse relation) 2012.08.13
-     * [24]데카르트 곱 (cartesian product) 2012.08.10
-     * [25]순서쌍 (ordered pair) 2012.08.09
---
-
-     * [59]데카르트 곱 (cartesian product) 2012.08.10 12:58
      * [60]집합의 포함관계 : 부분집합 2012.06.15 13:23
-     * [61]구간 (interval) : 개구간, 폐구간, 반개구간, 반폐구간 2012.07.22 16:02
-
---
-  17. https://hanmaths.tistory.com/43
-  18. https://hanmaths.tistory.com/tag/relation
   19. https://hanmaths.tistory.com/tag/관계
-  20. https://hanmaths.tistory.com/49
-  21. https://hanmaths.tistory.com/51
