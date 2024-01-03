@@ -18,3 +18,6 @@ notre ami bash. J'ai maintenant un peu mieux compris l'histoire des merge et des
 # Cours 12 - 13/12
 (Débora) J'ai demandé en cours pour la tokenisation du coréen, et j'ai dû installer la librairie konlpy. On a
 modifié le fichier de tokenisation du japonais et on l'a renommé korean.py. Les essais ont l'air concluants.
+
+# 03/01
+(Débora) Modifications de la page html et ajout de nouveaux liens pour le coréen.
