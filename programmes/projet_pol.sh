@@ -21,7 +21,7 @@ echo "<html>
 	<body>"
 
 echo "		<table>
-		<tr><th>Numéro</th><th>URL</th><th>Code HTTP</th><th>Encodage</th><th>Aspiration</th><th>Dump</th><th>Nombre d'occurences</th><th>Contexte</th></tr>"
+		<tr><th>Numéro</th><th>URL</th><th>Code HTTP</th><th>Encodage</th><th>Aspiration</th><th>Dump</th><th>Nombre d'occurences</th><th>Contexte</th><th>Concordances</th></tr>"
 while read -r URL
 do
    	response=$(curl -s -L -w "%{http_code}" -o "./aspirations/aspiration_pl$N.html" $URL)
@@ -36,6 +36,7 @@ do
     lynx -assume_charset UTF-8 -dump -nolist "$URL" > ./dumps-text/dump_pl${N}.html
     COMPTE=$(cat ./dumps-text/dump_pl$N.html | grep -i -o -E "zwiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))"  | wc -w)
     cat ./dumps-text/dump_pl$N.html | grep -C 3 -i -E "zwiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))" > "./contextes/contexte_pl$N.txt" 
+	bash ./concordances/concordancier.sh pl pl$N > "./concordances/concord_pl$N.html"
 	fi
 
     echo "<tr>
@@ -47,6 +48,7 @@ do
     <td><a href='../dumps-text/dump_pl$N.html'>dump</a></td>
     <td>$COMPTE</td>
     <td><a href='../contextes/contexte_pl$N.txt'>contexte</a></td>
+	<td><a href="../concordances/concord_pl$N.html">Concordances</a></td>
     </tr>"
     N=$((N + 1))
 

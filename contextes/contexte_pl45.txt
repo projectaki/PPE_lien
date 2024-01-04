@@ -26,29 +26,30 @@ Definicja zwiazek "jest"
 
    Czym jest Jest Zwiazek znaczenie w Sl/ownik definicji Z .
 
-   Co znaczy Zalezne Zl/aczenie:
-          Definicja operator obiektowych jezyków pytan takich jak OQL.
-          L/aczy on dwa zapytania, z których pierwsze deklaruje pewna
-          zmienna, zas drugie odwol/uje sie do tej zmiennej. Rezultat
-          stanowi zestawienie, gdzie zwiazek "jest" co to jest.
+   Co znaczy Zl/ozony Atrybut:
+          Porównanie Zobacz: atrybut zl/ozony zwiazek "jest" co znaczy.
 
-   Co znaczy Zasada Zamienialnosci:
-          Definicja Zobacz: zamienialnosc zwiazek "jest" definicja.
+   Krzyzówka Zmienialny:
+          Dlaczego Ustalenie wyznacznika albo innej cechy posiadajacej
+          wl/asnosc zmienialnosci; zobacz: zmienialnosc zwiazek "jest"
+          krzyzówka.
 
-   Co znaczy Zmienna Polowa:
-          Definicja Atrybut obiektu w terminologii jezyka Java zwiazek
-          "jest" co znaczy.
+   Co to jest Zl/ozonosc:
+          Jak lepiej miara ilosciowa albo miara jakosciowa
+          odzwierciedlajaca stopien skomplikowania danego problemu, poziom
+          trudnosci rozwiazania problemu, albo stopien skomplikowania
+          pewnego tworu ludzkiej dzial/alnosci zwiazek "jest" co to jest.
 
-   Co znaczy Zaleznosc Funkcyjna:
-          Definicja integralnosciowe nakl/adane z zewnatrz na
-          (nieskonczona) rodzine stosunku o wspólnym zestawie atrybutów,
-          stwierdzajace, iz dla kazdej stosunku nalezacej do tej rodziny
-          kazda z wartosci atrybutu A jest zwiazek "jest" sl/ownik.
+   Sl/ownik Zbiór:
+          Kiedy obiektowych baz danych (na przykl/ad ODMG), konstruktor
+          typów/klas nawiazujacy do matematycznego definicje zbioru.
+          Przedmiot albo wartosc typu zestaw mozna dowolnie zwiekszac o
+          nowe przedmioty i zwiazek "jest" sl/ownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
 --
-       Associates.http://www.odbmsfacts.com
+       danych.http://www.pmg.lcs.mit.edu/Thor.html czym jest
      __________________________________________________________________
 
 Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
@@ -61,7 +62,7 @@ Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
 
 --
 
-   2009-2023 © Sl/ownik na zajebistyka.pl
+   2009-2024 © Sl/ownik na zajebistyka.pl
 
    Co to znaczy zwiazek definicja.
 

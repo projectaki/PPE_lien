@@ -11,7 +11,7 @@
 
 Rejestrowany zwiazek partnerski
 
-   [ ] 48 jezyków
+   [ ] 49 jezyków
      * Afrikaans
 --
 

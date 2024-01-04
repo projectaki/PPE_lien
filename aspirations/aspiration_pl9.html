@@ -47,10 +47,10 @@
         
         
         <meta name="google-site-verification" content="lg0qcRkaLtMeKJcXsOLoptzK-2MIRJzuEtiYHZf_O2Y">
-    <link rel="shortcut icon" type="image/x-icon" href="https://dictionary.cambridge.org/pl/external/images/favicon.ico?version=5.0.365">
+    <link rel="shortcut icon" type="image/x-icon" href="https://dictionary.cambridge.org/pl/external/images/favicon.ico?version=5.0.370">
     <link rel="search" type="application/opensearchdescription+xml" href="/pl/opensearch.xml" title="Cambridge Dict" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://dictionary.cambridge.org/pl/external/images/apple-touch-icon-precomposed.png?version=5.0.365">
-    <link rel="preload" href="/pl/external/fonts/cdoicons.woff?version=5.0.365" as="font" crossorigin>
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://dictionary.cambridge.org/pl/external/images/apple-touch-icon-precomposed.png?version=5.0.370">
+    <link rel="preload" href="/pl/external/fonts/cdoicons.woff?version=5.0.370" as="font" crossorigin>
     <meta property="og:title" content="zwi&#261;zek">
     <meta property="og:description" content="ZWI&#260;ZEK - przet&#322;umacz na angielski za pomoc&#261; s&#322;ownika polsko-angielskiego - Cambridge Dictionary">
     <meta property="og:image" content="https://dictionary.cambridge.org/pl/external/images/og-image.png">
@@ -73,10 +73,9 @@
 
     <script defer type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script defer type="text/javascript" src="https://cdn.polarbyte.com/idm/cdo/pb.min.js"></script>
-    <link rel="preload" href="https://www.google-analytics.com/analytics.js" as="script">
     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7" as="script">
-    <link href="/pl/common.css?version=5.0.365" rel="stylesheet" type="text/css">
-    <link href="/pl/adserver.css?version=5.0.365" rel="stylesheet" type="text/css">
+    <link href="/pl/common.css?version=5.0.370" rel="stylesheet" type="text/css">
+    <link href="/pl/adserver.css?version=5.0.370" rel="stylesheet" type="text/css">
             
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
@@ -89,7 +88,7 @@
     <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
                     <script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
                         
-    <script type="text/javascript" src="/pl/autocomplete.js?version=5.0.365"></script>
+    <script type="text/javascript" src="/pl/autocomplete.js?version=5.0.370"></script>
 
     
     
@@ -144,7 +143,7 @@ var pl_p = localStorage.pl;
     //]]>
     </script>
     <script defer type="text/javascript" src="https://cdn.polarbyte.com/idm/cdo/iaw.min.js"></script>
-    <script defer type="text/javascript" src="/pl/aos.js?version=5.0.365"></script>
+    <script defer type="text/javascript" src="/pl/aos.js?version=5.0.370"></script>
 
                     <script>
                 (function(h,o,t,j,a,r){
@@ -178,15 +177,41 @@ var pl_p = localStorage.pl;
             "authorizationTimeout": 10000
         }
     </script>
-              <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7"></script>
-    <script>
+          <script type="text/javascript">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      
+      if(typeof iaw !== 'undefined') {
+        iaw.que.push(function() {
+          iaw.setGTAG(gtag);
+        });
+      }
+      
+      function sendGAEvent(eventCategory, eventAction, eventLabel, eventValue) {
+        var event = {};
+
+        if(eventAction != null)
+          event[eventCategory + '_action'] = eventAction;
+
+        if(eventLabel != null)
+          event[eventCategory + '_label'] = eventLabel;
+
+        if(eventValue != null)
+          event[eventCategory + '_value'] = eventValue;
+
+        gtag('event', eventCategory, event);
+      }
+    </script>
+    <script type="text/plain" class="optanon-category-C0002">
+      var gtagScript = document.createElement("script");
+      gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7";
+      gtagScript.async = true;
+      document.head.appendChild(gtagScript);
+
       gtag('js', new Date());
       gtag('config', 'G-L9GCR21SZ7', {
-          'cookie_domain': 'dictionary.cambridge.org',
-                    send_page_view: false
+        'cookie_domain': 'dictionary.cambridge.org',
+                send_page_view: false
       });
 
                   gtag('event','page_view', {
@@ -194,45 +219,11 @@ var pl_p = localStorage.pl;
         "dataset":  "polish-english" ,
         "locale": "pl"
       });
-    </script>
-    <script type="text/javascript">
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 
-      function sendGAEvent(eventCategory, eventAction, eventLabel, eventValue) {
-            var event = {};
-
-            if(typeof eventAction !== 'undefined')
-                event['action'] = eventAction;
-
-            if(typeof eventLabel !== 'undefined')
-                event['label'] = eventLabel;
-
-            if(typeof eventValue !== 'undefined')
-                event['value'] = eventValue;
-
-            ga('send', 'event', eventCategory, eventAction, eventLabel, eventValue);
-            gtag('event', eventCategory, event);
-      }
-
-      ga('create', 'UA-31379-3',{cookieDomain:'dictionary.cambridge.org',siteSpeedSampleRate: 10});
-            ga('set', 'anonymizeIp', true);
-
-      ga('require', 'displayfeatures');
+                    gtag("event", "dcPageType", {"dcPageType": "entry-no-exs"});
+                    gtag("event", "contentType", {"contentType": "default"});
       
-                          ga('set', 'dimension2', "entry-no-exs");
-        gtag("event", "dcPageType", {"dcPageType": "entry-no-exs"});
-                            ga('set', 'dimension3', "default");
-        gtag("event", "contentType", {"contentType": "default"});
-                    ga('send', 'pageview');
-      
-            
-      if(typeof iaw !== 'undefined') {
-        iaw.que.push(function() {
-          iaw.setGA(ga);
-        });
-      }
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+                </script>
   
     <!-- Twitter conversion tracking base code -->
 <script>
@@ -279,10 +270,10 @@ var pl_p = localStorage.pl;
 
                                                 <div class="hdib hvt hao tc-bd lpt-10 lpb-2 lpr-15 lbr-s lb-ch ">
                     <a class="hdib lpb-5  lpt-1 " href="/pl/" title="Cambridge Dictionary">
-                        <amp-img src="/pl/external/images/logo-lrg-small.png?version=5.0.365" height="30" width="95"
+                        <amp-img src="/pl/external/images/logo-lrg-small.png?version=5.0.370" height="30" width="95"
                             noloading alt="Cambridge Dictionary"></amp-img>
                         <noscript>
-                            <img src="/pl/external/images/logo-lrg-small.png?version=5.0.365" height="30" width="95"
+                            <img src="/pl/external/images/logo-lrg-small.png?version=5.0.370" height="30" width="95"
                                 class="lpb-5" alt="Cambridge Dictionary" />
                         </noscript>
                     </a>
@@ -720,8 +711,6 @@ var pl_p = localStorage.pl;
 
 
 
-
-
     
                 
                                     
@@ -762,7 +751,7 @@ var pl_p = localStorage.pl;
         </div>
                 <meta itemprop="headline" content="ZWI&#260;ZEK - przet&#322;umacz na angielski za pomoc&#261; s&#322;ownika polsko-angielskiego - Cambridge Dictionary" />
                 <meta itemprop="copyrightHolder" content="&copy; 2014 K Dictionaries Ltd" />
-                <meta itemprop="copyrightYear" content="2023" />
+                <meta itemprop="copyrightYear" content="2024" />
                 <meta itemprop="inLanguage" content="en" />
                                 
                     
@@ -883,49 +872,49 @@ var pl_p = localStorage.pl;
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/affiliation"><span class="trans dtrans lmr--5">affiliation</span></a> </span>
-               <span class="tgram dgram">[noun]</span> a connection with (an organization etc)</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-2"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> a connection with (an organization etc)</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-2"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/brotherhood"><span class="trans dtrans lmr--5">brotherhood</span></a> </span>
-               <span class="tgram dgram">[noun]</span> an association of men for a certain purpose</div></div></div>                                                             <div id='ad_contentslot_1' class='am-default contentslot'>
+               <span class="tgram dgram"> [noun]</span> an association of men for a certain purpose</div></div></div>                                                             <div id='ad_contentslot_1' class='am-default contentslot'>
             <script type="text/javascript">iaw.cmd.push(function() { iaw.display('ad_contentslot_1'); });</script>
         </div>
                                      </div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-3"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/compound"><span class="trans dtrans lmr--5">compound</span></a> </span>
-               <span class="tgram dgram">[noun]</span> a substance, word etc formed from two or more elements</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-4"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> a substance, word etc formed from two or more elements</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-4"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/connection"><span class="trans dtrans lmr--5">connection</span></a> </span>
-               <span class="tgram dgram">[noun]</span> (a) state of being connected or related</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-5"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> (a) state of being connected or related</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-5"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/fellowship"><span class="trans dtrans lmr--5">fellowship</span></a> </span>
-               <span class="tgram dgram">[noun]</span> an association (of people with common interests)</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-6"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> an association (of people with common interests)</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-6"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/relation"><span class="trans dtrans lmr--5">relation</span></a> </span>
-               <span class="tgram dgram">[noun]</span> a relationship (between facts, events etc).</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-7"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> a relationship (between facts, events etc).</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-7"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/relationship"><span class="trans dtrans lmr--5">relationship</span></a> </span>
-               <span class="tgram dgram">[noun]</span> the friendship, contact, communications etc which exist between people</div></div></div>                                                             <div id='ad_contentslot_2' class='am-default contentslot'>
+               <span class="tgram dgram"> [noun]</span> the friendship, contact, communications etc which exist between people</div></div></div>                                                             <div id='ad_contentslot_2' class='am-default contentslot'>
             <script type="text/javascript">iaw.cmd.push(function() { iaw.display('ad_contentslot_2'); });</script>
         </div>
                                      </div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-8"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/relevance"><span class="trans dtrans lmr--5">relevance</span></a> , also relevancy</span>
-               <span class="tgram dgram">[noun]</span></div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-9"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span></div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-9"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/union"><span class="trans dtrans lmr--5">union</span></a> </span>
-               <span class="tgram dgram">[noun]</span> the state of being united, eg in marriage, friendship etc</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-10"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
+               <span class="tgram dgram"> [noun]</span> the state of being united, eg in marriage, friendship etc</div></div></div></div><div class="sense-block pr dsense dsense-noh"><div class="cid" id="k-pl-en-pw-1-10"></div>            <div class="sense-body dsense_b"><div class="def-block ddef_block ddef_block-nos">
                     <div class="dwl dwl-ns"></div>
                 <div class="def-body ddef_b ddef_b-t">
                           <span class="trans dtrans" lang="en"> <a href="/pl/dictionary/english-polish/union"><span class="trans dtrans lmr--5">union</span></a> </span>
-               <span class="tgram dgram">[noun]</span> a club or association</div></div></div></div></div></div></div></span><div class="definition-src ddef-src lbt lb-cm lpb-10"><p class="lmt-10 lmb-25"><small class="ddef had">
+               <span class="tgram dgram"> [noun]</span> a club or association</div></div></div></div></div></div></div></span><div class="definition-src ddef-src lbt lb-cm lpb-10"><p class="lmt-10 lmb-25"><small class="ddef had">
                                (Tłumaczenie <b>związek</b> z <a href="https://dictionary.cambridge.org/pl/dictionary/polish-english/" title="Polsko-angielski słownik PASSWORD" class="a--rev"><b>Polsko-angielski słownik PASSWORD</b></a> © 2014 K Dictionaries Ltd)
                     </small></p></div></div></div>
 
@@ -1013,10 +1002,10 @@ var pl_p = localStorage.pl;
                 class="pr bw hdb lcs lp-5 lb"
                 title="Przetestuj swoje s&#322;ownictwo za pomoc&#261; naszych zabawnych quiz&oacute;w obrazkowych.">
                 <div class="pr wl-fc-2">
-                    <amp-img src="/pl/external/images/quiz/hook/{{randomImageQuizHook.filename}}?version=5.0.365" layout="fill"
+                    <amp-img src="/pl/external/images/quiz/hook/{{randomImageQuizHook.filename}}?version=5.0.370" layout="fill"
                             alt="{{randomImageQuizHook.quizId}}">
                         <noscript>
-                            <img src="/pl/external/images/quiz/hook/{{randomImageQuizHook.filename}}?version=5.0.365"
+                            <img src="/pl/external/images/quiz/hook/{{randomImageQuizHook.filename}}?version=5.0.370"
                                 alt="{{randomImageQuizHook.quizId}}" />
                         </noscript>
                     </amp-img>
@@ -1036,10 +1025,10 @@ var pl_p = localStorage.pl;
     {{^randomImageQuizHook.isQuiz}}
     <div class="bw lmb-25 pr htc">
         <a href="/pl/plus{{randomImageQuizHook.quizId}}" class="pr hdib" style="height:252px;width:300px;">
-            <amp-img src="/pl/external/images/games/{{randomImageQuizHook.filename}}?version=5.0.365" height="252" width="300" layout="fill"
+            <amp-img src="/pl/external/images/games/{{randomImageQuizHook.filename}}?version=5.0.370" height="252" width="300" layout="fill"
                     alt="{{randomImageQuizHook.quizId}}">
                 <noscript>
-                    <img src="/pl/external/images/games/{{randomImageQuizHook.filename}}?version=5.0.365"
+                    <img src="/pl/external/images/games/{{randomImageQuizHook.filename}}?version=5.0.370"
                         alt="{{randomImageQuizHook.quizId}}" />
                 </noscript>
             </amp-img>
@@ -1111,16 +1100,16 @@ var pl_p = localStorage.pl;
     
     <div class="pr boa lp-5 lpl-10 lpr-10 lc1">
                     <div class="pr hdib i i-facebook lp-5 lmr-10">
-            <a class="pa p0" onclick="sendGAEvent('share_this_entry', 'facebook')" target="_blank" rel="noopener" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdictionary.cambridge.org%2Fpl%2Fdictionary%2Fenglish%2Ffan-favourite%23cald4-1&t=" title="Udost&#281;pnij na Facebooku"></a>
+            <a class="pa p0" onclick="sendGAEvent('share_this_entry', 'facebook')" target="_blank" rel="noopener" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdictionary.cambridge.org%2Fpl%2Fdictionary%2Fenglish%2Ffamily-friendly%23cbed-1&t=" title="Udost&#281;pnij na Facebooku"></a>
         </div>
         <div class="pr hdib i i-twitter lp-5 lmr-10">
-            <a class="pa p0" onclick="sendGAEvent('share_this_entry', 'twitter')" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdictionary.cambridge.org%2Fpl%2Fdictionary%2Fenglish%2Ffan-favourite%23cald4-1&text=" title="Udost&#281;pnij na Twitterze"></a>
+            <a class="pa p0" onclick="sendGAEvent('share_this_entry', 'twitter')" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdictionary.cambridge.org%2Fpl%2Fdictionary%2Fenglish%2Ffamily-friendly%23cbed-1&text=" title="Udost&#281;pnij na Twitterze"></a>
         </div>
     
         <div class="htc hax lmt-20 lmb-25">
             <p class="fs12 tcu lmb-0">Słowo dnia</p>
             <p class="fs36 lmt-5 feature-w-big wotd-hw">
-                <a href="/pl/dictionary/english/fan-favourite#cald4-1">fan favourite</a>
+                <a href="/pl/dictionary/english/family-friendly#cbed-1">family-friendly</a>
             </p>
                         <div class="hdib">
                 <span class="region dreg">UK</span>
@@ -1130,14 +1119,13 @@ var pl_p = localStorage.pl;
     <div class="hdib" fallback>
         <p>Your browser doesn't support HTML5 audio</p>
     </div>
-    <source type="audio/mpeg" src="/pl/media/english/uk_pron/c/cdo/cdo02/cdo0216fansuk0691.mp3"/>
-    <source type="audio/ogg" src="/pl/media/english/uk_pron_ogg/c/cdo/cdo02/cdo0216fansuk0691.ogg"/>
+    <source type="audio/mpeg" src="/pl/media/english/uk_pron/u/uka/uka31/uka31178.mp3"/>
+    <source type="audio/ogg" src="/pl/media/english/uk_pron_ogg/u/uka/uka31/uka31178.ogg"/>
 </audio>
 <div title="Posłuchaj brytyjskiej wymowy" class="i i-volume-up c_aud htc hdib hp hv-1 fon tcu tc-bd lmr-10 lpt-3 fs20 hv-3" onclick="audio1.load(); audio1.play();" role="button" tabindex="0">
 </div>
                     </span>
-                                                    <span class="ipa dipa lpr-2 lpl-1">/ˌfænz ˈfeɪ.vər.ɪt/</span>
-                            </div>
+                                            </div>
                                     <div class="hdib">
                 <span class="region dreg">US</span>
                                     <span class="daud">
@@ -1146,31 +1134,30 @@ var pl_p = localStorage.pl;
     <div class="hdib" fallback>
         <p>Your browser doesn't support HTML5 audio</p>
     </div>
-    <source type="audio/mpeg" src="/pl/media/english/us_pron/c/cdo/cdo03/cdo0318usfans1765.mp3"/>
-    <source type="audio/ogg" src="/pl/media/english/us_pron_ogg/c/cdo/cdo03/cdo0318usfans1765.ogg"/>
+    <source type="audio/mpeg" src="/pl/media/english/us_pron/u/usa/usa31/usa31178.mp3"/>
+    <source type="audio/ogg" src="/pl/media/english/us_pron_ogg/u/usa/usa31/usa31178.ogg"/>
 </audio>
 <div title="Posłuchaj amerykańskiej wymowy" class="i i-volume-up c_aud htc hdib hp hv-1 fon tcu tc-bd lmr-10 lpt-3 fs20 hv-3" onclick="audio2.load(); audio2.play();" role="button" tabindex="0">
 </div>
                     </span>
-                                                    <span class="ipa dipa lpr-2 lpl-1">/ˌfænz ˈfeɪ.vər.ət/</span>
-                            </div>
+                                            </div>
                     </div>
     </div>
 
     <div class="hoh lp-20">
-        <p class="lmt-0 lmb-20">a sports player, actor, character, etc. who is very popular with the fans of a particular team, film, television programme, etc. (= people who support it or are very enthusiastic about it)</p>
+        <p class="lmt-0 lmb-20">family-friendly practices at work are intended to make sure employees with children are able to continue with their job without having additional problems because they have children</p>
 
-        <a href="/pl/dictionary/english/fan-favourite#cald4-1" class="bh hao hbtn hbtn-tab tb">Informacje</a>
+        <a href="/pl/dictionary/english/family-friendly#cbed-1" class="bh hao hbtn hbtn-tab tb">Informacje</a>
     </div>
 </div>
 
 
         
         <div class="bw hbss x lmb-25">
-            <a href="https://dictionaryblog.cambridge.org/2023/12/06/talking-about-sustainability/" target="_blank" rel="noopener noreferrer" class="hdb hao lc1">
-            <amp-img src="/pl/rss/images/sustainability.jpg" height="180" width="300" alt="Innovation and social justice: talking about sustainability" layout="responsive">
+            <a href="https://dictionaryblog.cambridge.org/2024/01/03/more-verbs-to-describe-movement/" target="_blank" rel="noopener noreferrer" class="hdb hao lc1">
+            <amp-img src="/pl/rss/images/wobble.jpg" height="180" width="300" alt="Juddering, quivering and wobbling: more verbs to describe movement" layout="responsive">
                 <noscript>
-                    <img src="/pl/rss/images/sustainability.jpg" height="180" width="300" alt="Innovation and social justice: talking about sustainability" class="lc1" />
+                    <img src="/pl/rss/images/wobble.jpg" height="180" width="300" alt="Juddering, quivering and wobbling: more verbs to describe movement" class="lc1" />
                 </noscript>
             </amp-img>
         </a>
@@ -1178,13 +1165,13 @@ var pl_p = localStorage.pl;
     <div class="hoh lp-20">
         <p class="h6 lm-0 lmb-15">Blog</p>
         <p class="fs19 hlh1_5 lmb-15">
-            <a href="https://dictionaryblog.cambridge.org/2023/12/06/talking-about-sustainability/" class="ha" target="_blank" rel="noopener noreferrer">Innovation and social justice: talking about sustainability</a>
+            <a href="https://dictionaryblog.cambridge.org/2024/01/03/more-verbs-to-describe-movement/" class="ha" target="_blank" rel="noopener noreferrer">Juddering, quivering and wobbling: more verbs to describe movement</a>
         </p>
         <div class="fs14 tc-bl lmb-20">
-                        <time datetime="2023-12-06">December 06, 2023</time>
+                        <time datetime="2024-01-03">January 03, 2024</time>
         </div>
         <div>
-            <a href="https://dictionaryblog.cambridge.org/2023/12/06/talking-about-sustainability/" target="_blank" rel="noopener noreferrer" class="bh hao hbtn hbtn-tab tb">
+            <a href="https://dictionaryblog.cambridge.org/2024/01/03/more-verbs-to-describe-movement/" target="_blank" rel="noopener noreferrer" class="bh hao hbtn hbtn-tab tb">
                 Przeczytaj więcej            </a>
         </div>
     </div>
@@ -1194,10 +1181,10 @@ var pl_p = localStorage.pl;
 <div class="bw hbss x lmb-25">
                     
                 
-                <a href="https://dictionaryblog.cambridge.org/2023/12/11/new-words-11-december-2023/" target="_blank" rel="noopener noreferrer" class="hdb hao lc1">
-            <amp-img src="/pl/rss/images/grand-mate.jpg" height="180" width="300" alt="<p>grand-mate" layout="responsive">
+                <a href="https://dictionaryblog.cambridge.org/2024/01/01/new-words-1-january-2024/" target="_blank" rel="noopener noreferrer" class="hdb hao lc1">
+            <amp-img src="/pl/rss/images/broken-rung.jpg" height="180" width="300" alt="<p>broken rung" layout="responsive">
                 <noscript>
-                    <img src="/pl/rss/images/grand-mate.jpg" height="180" width="300" alt="<p>grand-mate" class="lc1" />
+                    <img src="/pl/rss/images/broken-rung.jpg" height="180" width="300" alt="<p>broken rung" class="lc1" />
                 </noscript>
             </amp-img>
         </a>
@@ -1205,14 +1192,14 @@ var pl_p = localStorage.pl;
         <p class="h6 lm-0 lmb-5">Nowe słowa</p>
 
         <div class="lmb-15  fs36 ">
-            <a href="https://dictionaryblog.cambridge.org/2023/12/11/new-words-11-december-2023/" class="ha" target="_blank" rel="noopener noreferrer"><p>grand-mate</a>
+            <a href="https://dictionaryblog.cambridge.org/2024/01/01/new-words-1-january-2024/" class="ha" target="_blank" rel="noopener noreferrer"><p>broken rung</a>
         </div>
 
         <div class="fs14 tc-bl lmb-20">
-                        <time datetime="2023-12-11">December 11, 2023</time>
+                        <time datetime="2024-01-01">January 01, 2024</time>
         </div>
 
-        <a href="https://dictionaryblog.cambridge.org/2023/12/11/new-words-11-december-2023/" target="_blank" rel="noopener noreferrer" class="bh hao hbtn hbtn-tab tb">
+        <a href="https://dictionaryblog.cambridge.org/2024/01/01/new-words-1-january-2024/" target="_blank" rel="noopener noreferrer" class="bh hao hbtn hbtn-tab tb">
             Więcej nowych słów        </a>
     </div>
 </div>
@@ -1315,8 +1302,6 @@ var pl_p = localStorage.pl;
     </script>
 </amp-state>
 
-  
-
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -1350,7 +1335,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
     
       </script>
 
-      <script type="text/javascript" src="/pl/external/scripts/pb-reach.min.js?version=5.0.365" async></script>
+      <script type="text/javascript" src="/pl/external/scripts/pb-reach.min.js?version=5.0.370" async></script>
   
 
 <footer id="footer" class="pr bh han cf lp-s_25 lp-s_t-15">
@@ -1372,7 +1357,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
 
 <div class="hcb htc hfr-s hcl-s fs12 lpb-20 lpt-20 lp-xs_t-10 lp-s_t-15">
     <a class="hdib s s-logo-footer" href="http://www.cambridge.org/" title="Cambridge University Press &amp; Assessment" rel="external"></a>
-    <p>© Cambridge University Press & Assessment 2023</p>
+    <p>© Cambridge University Press & Assessment 2024</p>
 </div>        </div>
 
         <div class="cfn hfl-s lc1 lc-xsa hul-u hul-un hul-u0 lmb-0 lcs">
@@ -1446,7 +1431,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
 
 <div class="hcb htc hfr-s hcl-s fs12 lpb-20 lpt-20 lp-xs_t-10 lp-s_t-15">
     <a class="hdib s s-logo-footer" href="http://www.cambridge.org/" title="Cambridge University Press &amp; Assessment" rel="external"></a>
-    <p>© Cambridge University Press & Assessment 2023</p>
+    <p>© Cambridge University Press & Assessment 2024</p>
 </div>        </div>
     </div>
 </footer>
@@ -1563,7 +1548,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
   <script type='text/javascript'>
     var aBk = true;
   </script>
-  <script type='text/javascript' src="/pl/external/scripts/ads.min.js?version=5.0.365" ></script>
+  <script type='text/javascript' src="/pl/external/scripts/ads.min.js?version=5.0.370" ></script>
             <script type='text/javascript'>
   var aData = {"aBk":aBk};
   </script>
@@ -1605,10 +1590,10 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
 
                 <div class="hdib hvt hao lpt-10 lpb-1 lpr-15">
                     <a class="hdib lpt-1 lpb-5" href="./" title="Cambridge Dictionary">
-                        <amp-img src="/pl/external/images/logo-lrg-small.png?version=5.0.365" height="30" width="95"
+                        <amp-img src="/pl/external/images/logo-lrg-small.png?version=5.0.370" height="30" width="95"
                             alt="Cambridge Dictionary"></amp-img>
                         <noscript>
-                            <img src="/pl/external/images/logo-lrg-small.png?version=5.0.365" height="30" width="95"
+                            <img src="/pl/external/images/logo-lrg-small.png?version=5.0.370" height="30" width="95"
                                 class="lpb-5" alt="Cambridge Dictionary" />
                         </noscript>
                     </a>
@@ -1660,10 +1645,10 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
         <nav class="lp-s_t-5">
 
             <div class="hdn hdb-s lp-15 lpb-20 lbb lb-cm">
-                <amp-img src="/pl/external/images/logo-pos.png?version=5.0.365" height="53" width="168"
+                <amp-img src="/pl/external/images/logo-pos.png?version=5.0.370" height="53" width="168"
                     alt="Cambridge Dictionary" noloading></amp-img>
                 <noscript>
-                    <img src="/pl/external/images/logo-pos.png?version=5.0.365" height="53" width="168"
+                    <img src="/pl/external/images/logo-pos.png?version=5.0.370" height="53" width="168"
                         alt="Cambridge Dictionary" />
                 </noscript>
             </div>
@@ -1727,6 +1712,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
                                                                                                                     "english_polish": false,
                                                                                                                     "english_portuguese": false,
                                                                                                                     "english_spanish": false,
+                                                                                                                    "english_swedish": false,
                                                                                                                 "erroneous_extra_item": false
                                                         }
                                             </script>
@@ -1887,6 +1873,19 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
                                             class="hdn" [class]="stateSidebarNavBi.english_spanish ? '' : 'hdn'"
                                             data-dictCode="spanish-english"
                                             title="Diccionario Espa&ntilde;ol-ingl&eacute;s">hiszpański–angielski</a>
+                                    </div>
+                                                                    <div class="fs16 lpt-3 lmb-5">
+                                        <i class="hp i i-exchange fs14 hv0 tc-p lpl-5 lpr-5" aria-hidden="true" role="button"
+                                            on="tap: AMP.setState({ stateSidebarNavBi: { english_swedish: ! stateSidebarNavBi.english_swedish } })"
+                                            title="Zmie&#324; kierunek t&#322;umaczenia" tabindex="0"></i>
+                                        <a href='/dictionary/english-swedish/'
+                                            [class]="stateSidebarNavBi.english_swedish ? 'hdn' : ''"
+                                            data-dictCode="english-swedish"
+                                            title="English-Swedish Dictionary">English–Swedish</a>
+                                                                                <a href='/dictionary/swedish-english/'
+                                            class="hdn" [class]="stateSidebarNavBi.english_swedish ? '' : 'hdn'"
+                                            data-dictCode="swedish-english"
+                                            title="Swedish-English Dictionary">Swedish–English</a>
                                     </div>
                                                                                         </div>
 
@@ -2224,6 +2223,7 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
                                                                                     "english_polish": false,
                                                                                     "english_portuguese": false,
                                                                                     "english_spanish": false,
+                                                                                    "english_swedish": false,
                                                                                 "erroneous_extra_item": false
                                         }
                                     </script>
@@ -2425,6 +2425,22 @@ src="https://www.facebook.com/tr?id=3409493515968429&ev=PageView
                                         on="tap:AMP.setState({ stateSearch: { dataset: 'spanish-english', dataset_text: 'hiszpa&#324;ski&ndash;angielski', dataset_search: 'Wyszukaj hiszpa&#324;ski–angielski', isbilang: true, datasetrev: 'english-spanish', datasetrev_text: 'angielski&ndash;hiszpa&#324;ski', datasetrev_search: 'Wyszukaj angielski–hiszpa&#324;ski'} }),sidebarDict.close,searchword.focus"
                                         role="button" aria-label="Set dictionary search to Diccionario Espa&ntilde;ol-ingl&eacute;s"
                                         tabindex="0" title="Diccionario Espa&ntilde;ol-ingl&eacute;s">hiszpa&#324;ski&ndash;angielski</span>
+                                </li>
+                                                            <li>
+                                    <i class="hp i i-exchange fs14 hv0 tc-p lpl-5 lpr-10" title="Zmie&#324; kierunek t&#322;umaczenia"
+                                        on="tap: AMP.setState({ stateSidebarDictBi: { english_swedish: ! stateSidebarDictBi.english_swedish }, stateSearch: { dataset: stateSidebarDictBi.english_swedish ? 'english-swedish' : 'swedish-english', dataset_text: stateSidebarDictBi.english_swedish ? 'English&ndash;Swedish' : 'Swedish&ndash;English', dataset_search: stateSidebarDictBi.english_swedish ? 'Wyszukaj English&ndash;Swedish' : 'Wyszukaj Swedish&ndash;English' } })"
+                                        role="button" aria-label="Zmie&#324; kierunek t&#322;umaczenia" tabindex="0" aria-hidden="true">
+                                    </i>
+                                    <span data-dictCode="english-swedish" class="hp"
+                                        [class]="stateSidebarDictBi.english_swedish ? 'hdn' : 'hp'"
+                                        on="tap:AMP.setState({ stateSearch: { dataset: 'english-swedish', dataset_text: 'English&ndash;Swedish', dataset_search: 'Wyszukaj English–Swedish', isbilang: true, datasetrev: 'swedish-english', datasetrev_text: 'Swedish&ndash;English', datasetrev_search: 'Wyszukaj Swedish–English'} }),sidebarDict.close,searchword.focus"
+                                        role="button" aria-label="Set dictionary search to English-Swedish Dictionary"
+                                        tabindex="0" title="English-Swedish Dictionary">English&ndash;Swedish</span>
+                                    <span data-dictCode="swedish-english" class="hdn"
+                                        [class]="stateSidebarDictBi.english_swedish ? 'hp' : 'hdn'"
+                                        on="tap:AMP.setState({ stateSearch: { dataset: 'swedish-english', dataset_text: 'Swedish&ndash;English', dataset_search: 'Wyszukaj Swedish–English', isbilang: true, datasetrev: 'english-swedish', datasetrev_text: 'English&ndash;Swedish', datasetrev_search: 'Wyszukaj English–Swedish'} }),sidebarDict.close,searchword.focus"
+                                        role="button" aria-label="Set dictionary search to Swedish-English Dictionary"
+                                        tabindex="0" title="Swedish-English Dictionary">Swedish&ndash;English</span>
                                 </li>
                                                         </ul>
                         
