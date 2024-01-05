@@ -26,29 +26,32 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Złączenie Naturalne:
-          Porównanie złączenie bazujące na identyczności nazw kolumn
-          złączanych tablic. Na przykład naturalne złączenie tablic:
-          Spółka(NrFirmy, Nazwa, Adres) i PRACOWNIK(NrPrac, Nazwisko,
-          NrFirmy) utworzy pewną relację związek "jest" co znaczy.
+   Co znaczy Zapamiętana Procedura:
+          Porównanie zazwyczaj napisana w SQL albo innym języku
+          interpretowanym, która jest zapamiętana na dysku jako składnik
+          bazy danych. W obiektowych bazach danych zapamiętane procedury
+          mogłyby przyjąć postać związek "jest" co znaczy.
 
-   Krzyżówka Zwisający Wskaźnik:
-          Dlaczego Parametr, który nie jest identyfikatorem obecnie
-          przechowywanego obiektu, i którego wartość nie jest zerowa (NIL
-          związek "jest" krzyżówka.
+   Krzyżówka Zagnieżdżony:
+          Dlaczego znaczy coś, co jest zawarte w innym bycie, jest
+          składową innego bytu (na przykład zagnieżdżone pytanie,
+          zagnieżdżony moduł, i tak dalej). Niekiedy terminem tym ustala
+          również byt zawierający w sobie związek "jest" krzyżówka.
 
-   Co to jest Zdjęcie:
-          Jak lepiej struktura danych przechowująca pewien chwilowy stan
-          obiektów, stan zmiennych programu albo stan bazy danych.
-          Przeważnie zdjęcie jest kopią bazy danych albo pewnego jej
-          fragmentu (perspektywy związek "jest" co to jest.
+   Co to jest Zapis:
+          Jak lepiej wielu starszych językach i systemach na oznaczenia
+          zestawu nazwanych wartości. Synonimem zapisu w rodzinie języków
+          C/C++ jest struktura, w systemach relacyjnych jest nim krotka
+          albo wiersz, zaś w związek "jest" co to jest.
 
-   Słownik Związek Jednokierunkowy:
-          Kiedy Związek pozwalający na przechodzenie (nawigację) od jednej
-          klasy do drugiej klasy, lecz nie odwrotnie związek "jest"
-          słownik.
+   Słownik Zależność Funkcyjna:
+          Kiedy integralnościowe nakładane z zewnątrz na (nieskończoną)
+          rodzinę stosunku o wspólnym zestawie atrybutów, stwierdzające,
+          iż dla każdej stosunku należącej do tej rodziny każda z wartości
+          atrybutu A jest związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
+     * Autor: Redaktor naczelny Redaktor naczelny
 --
        danych.http://www.pmg.lcs.mit.edu/Thor.html czym jest
      __________________________________________________________________
