@@ -1,0 +1,159 @@
+          + > Content
+          + > Enterprise
+          + > International
+          + > Link building
+          + > Local marketing
+          + > SEO Periodic Table
+          + > All topics
+--
+   (BUTTON) Search
+
+   Search Engine Land » Platforms » Google » Google algorithm updates »
+   Link building is a human endeavor
+
+Link building is a human endeavor
+
+--
+
+   handshake-partnership-ss-1920 handshake-partnership-ss-1920
+
+   Since the beginning of SEO, link building has been about human
+   connection. People like Eric Ward were building links on the web before
+   search engines like Google existed. Ward and other link-building
+   pioneers weren’t building links for SEO and search crawlers — they were
+   building links for human readers and site owners, helping connect
+   people to the information they sought.
+
+   People rely on the internet in their day-to-day lives more now than
+   they ever have before, and the web is fueled by links. Search engines
+   may be able to track links and even analyze them to a degree, but links
+   are first and foremost designed to serve people. It takes human minds
+   to create links that are truly valuable to other humans.
+
+   Link building is a human endeavor.
+
+Google is devaluing spam and manipulation
+
+   Link building is no longer about manipulation.
+
+   Google has gotten much better at detecting manipulation and link
+   spam — and is continuing to improve. Gone are the days of
+   auto-generating thousands of shoddy links and spamming your way to the
+   top of the search results.
+
+   Thanks to the Penguin algorithm and the continued efforts of
+   Google’s web spam team, link building has come full circle. Building
+   links today is much more akin to the “good ol’ days” when people
+   first started building links, rather than the Wild West-style antics of
+   the pre-Penguin era.
+
+   As Google continues to get better at identifying and devaluing link
+   spam, link building as an industry is shifting back toward human value
+   and interaction.
+
+   If Penguin ever updates again, it is expected to move to a real-time
+   model. This would mean another step forward for Google in the battle
+   against spam, making real links earned through human interaction even
+   more valuable.
+
+Real links require human interaction
+
+   The best way to acquire real links that search engines value is through
+   human interaction. This means manual outreach to real people and site
+   owners.
+
+   I recently attended SearchFest in Portland and sat in on Jon Cooper’s
+   session about link building. One of the first points Jon made was that
+   bulk link building is dead, and that links should come from one-on-one
+   outreach with a real person.
+
+   Any site that lets you put a link up without any sort of human
+   engagement or interaction probably isn’t a site you want a link on. You
+   should be able to find a real human being who is clearly in charge of
+   any site you target. Otherwise the site is likely abandoned, created
+   purely for web spiders, or both.
+
+   Identifying appropriate link prospects also requires a human eye.
+
+   Relevance is the most important factor when considering a link
+   prospect, and that can only be determined through human thought and
+--
+
+   Metrics measured by algorithms and machines (such as Domain Authority,
+   Page Authority and Trust Flow) are important, but they only provide a
+   piece of the full picture. It takes a human link builder to combine
+   that information with other factors like relevance and audience
+   engagement to assess the true value of a link prospect.
+
+   Worthwhile links don’t happen without a real connection. If a link to
+   your site isn’t going to benefit a site owner’s audience, then you
+   won’t get a link — and you shouldn’t.
+
+Links are for people, not spiders
+
+   Eric Ward was building links before search engines were popular because
+   links are meant for human users, not search crawlers.
+
+   Links were useful and necessary long before Google existed. Google
+   became the search giant it is today because it recognized the inherent
+   value in links online and leveraged this value for their search
+   algorithm.
+
+   Links help people traverse the web. Without links, the internet would
+   be an unnavigable mess of information, and search engines like Google
+   couldn’t function. Consider a human-first approach when earning links,
+   and think about how the links you build will help your audience find
+   your site.
+
+   Google will never devalue or penalize links that are built with a
+   human-first approach, because they are foundational to the way its
+   algorithm operates.
+
+   Links are public endorsements. Of course, links signal authority to
+   search engines, but they also signal trust and respect to human
+   readers. If a site owner wants to endorse or recommend another site to
+   their audience, they link to it. A link provides a direct pathway to
+   the recommended site, and there is no simpler or better way to endorse
+   another site online.
+
+   Links also improve user experience, particularly for online content.
+   Links can be used as citations or references to add depth to content.
+   Rather than expanding on a large, complicated topic, links provide a
+   way to deliver important information to your readers without having to
+   distract from your main point.
+
+   As a link builder, you should be promoting your resources to the
+   appropriate sites because links help connect the web and improve the
+   overall user experience.
+
+Using a “human-first” approach for link building
+
+   Understanding that link building is a human endeavor is one thing, but
+   putting that philosophy into practice is another.
+
+   Here are some general guidelines for using a human-first approach for
+   link acquisition:
+     * Focus on relevance: Explain to another person (colleague, friend or
+       client) why a given link opportunity is relevant. If you can’t
+       plainly state why it’s relevant, don’t pursue that link.
+     * Operate with an audience-first mindset: When prospecting,
+       prioritize sites your customers frequently visit over general
+       authority metrics.
+     * Consider context: Think about where your link might appear on a
+       page and whether or not someone would click it. If so, would they
+       be pleased with where it takes them?
+     * Human outreach: Remember that there is a real (and likely busy)
+       person on the other side of your outreach, and treat them as such.
+       Always be polite and considerate.
+     * Deliver value: Earn links that offer a “triple-win” for your site,
+       the linking site and human readers that find them.
+     __________________________________________________________________
+
+--
+   Andrew Dennis
+   Andrew Dennis is a Content Marketing Specialist at Page One Power.
+   Along with his column here on Search Engine Land, Andrew also writes
+   about SEO and link building for the Page One Power blog. When he's not
+   reading or writing about SEO, you'll find him cheering on his favorite
+   professional teams and supporting his alma mater the University of
+   Idaho.

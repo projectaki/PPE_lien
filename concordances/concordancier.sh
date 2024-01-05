@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 LANGUE=$1
 FICHIER=$2
-CHEMIN=./contextes/contexte_$FICHIER.txt
+CHEMIN=../contextes/contexte_$FICHIER.txt
 
 if [ "$LANGUE" ==  "ang" ]
 then

@@ -1,9 +1,3 @@
-   #GeeksforGeeks » Feed GeeksforGeeks » Comments Feed GeeksforGeeks »
-   HTML Links Comments Feed alternate alternate
-
-   Skip to content
-   geeksforgeeks
---
 
    What is a link?
 
@@ -146,7 +140,6 @@ Please Login to comment...
    Similar Reads
    Difference between normal links and active links
    HTML DOM links Collection
-   How to create Right Aligned Menu Links using HTML and CSS ?
    How to create links to sections within the same page in HTML ?
    How to use anchor tag to open links in HTML ?
    How to Create Navigation Links using HTML5 ?
@@ -155,4 +148,4 @@ Please Login to comment...
    How to customize links for pagination in Bootstrap ?
    Which href value should we use for JavaScript links, "#" or
    "javascript:void(0)" ?
-   Complete Tutorials
+   HTML Course | Structure of an HTML Document

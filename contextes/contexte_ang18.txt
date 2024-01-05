@@ -1,63 +1,179 @@
+   #WordStream » Feed WordStream » Comments Feed WordStream » Learn the
+   Basics of Quality Link Building for SEO Comments Feed alternate
+   alternate alternate
 
-Creating an internet link
-
-   You can add internet links to containers in Objective ECM. For example,
-   during research on a team project you may have come across valuable
-   information within a number of websites. You can add these website
-   links to your team's folder.
-
-   Internet links can be one of the following protocols:
-     * http
-     * https
-     * mailto
-     * ftp
-     * a custom protocol.
-
-   How to add an internet link Closed
-    1. Find or go to the location where you wish to create the internet
-       link.
-    2. Select the Action button, then Create object .
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-W7WSGJ3
 --
-       Content pane.
-    3. Select Internet link.
-    4. Enter a Name for the internet link.
-    5. If you would like to create the internet link in a different
-       container other than your Handy folder, select magnify or choose a
-       recently used Container from the drop-down list
-       On the Change container dialog box, there are a number of browse
+   ____________________ (BUTTON)
+   (BUTTON)
+   Free Google Ads Grader
+   Home — Learn the Basics of Quality Link Building for SEO
+
+Learn the Basics of Quality Link Building for SEO
+     __________________________________________________________________
+
+What Is Link Building? A Definition
+
+   Link building, simply put, is the process of getting other websites to
+   link back to your website. All marketers and business owners should be
+   interested in building links to drive referral traffic and increase
+   their site’s authority.
+
+   Why build links? Google’s algorithms are complex and always evolving,
+   but backlinks remain an important factor in how every search engine
+   determines which sites rank for which keywords. Building links is one
+   of the many tactics used in search engine optimization (SEO) because
+   links are a signal to Google that your site is a quality resource
+   worthy of citation. Therefore, sites with more backlinks tend to earn
+   higher rankings.
+
+
+   what is link building what is link building
+
+   There’s a right way and a wrong way, however, to build links to your
+   site. If you care about the long-term viability of your site and
+   business, you should only engage in natural linkbuilding, meaning, the
+   process of earning links rather than buying them or otherwise achieving
+   them through manipulative tactics (sometimes known as black-hat SEO, a
+   practice that can get your site essentially banned from the search
+   results).
+
+   That said, natural, organic link building is a difficult,
+   time-consuming process. Not all links are created equal: A link from an
+   authoratative website like the Wall Street Journal will have a greater
+   impact on your rankings on the SERP than a link from a small or newly
+   built website, but high-quality links are harder to come by.
+
+   This guide will teach you how to build quality links that improve your
+   organic rankings without violating Google guidelines.
+
+   Remember, link building is imperative in achieving high organic search
+   rankings.
+
+Why Link Building Is Important for SEO
+
+   Link building is important because it is a major factor in how Google
+   ranks web pages. Google notes that:
+
+   “In general, webmasters can improve the rank of their sites by
+   increasing the number of high-quality sites that link to their pages.”
+
+   Imagine that we own a site promoting wind turbine equipment that we
+   sell. We’re competing with another wind turbine equipment manufacturer.
+   One of the ranking factors Google will look at in determining how to
+   rank our respective pages is link popularity.
+
+
+   link building strategies link building strategies
+
+   While the above example provides a general visual understanding of why
+   link building is important, it’s very basic. It omits key factors such
+   as:
+     * The trust and authority of the linking pages.
+     * The SEO and content optimization of the respective sites.
 --
-    6. Select an object sub-Type from the drop-down list.
-       By default the type is internet link.
-    7. Enter or copy and paste the URL for the internet link.
-    8. Optionally enter a Description for the internet link you are
-       creating.
 
-    9. Expand the Security settings section:
+   The most important concept to understand is that, as Google says,
+   you’re more likely to have your content rank higher for keywords you’re
+   targeting if you can get external websites to link to your pages.
+
+Simple Link Building Strategies: How To Get Other Sites to Link to You
+
+   There are a number of link building strategies used to get external
+   websites to link to yours:
+     * Content Creation & Promotion – Create compelling, unique,
+       high-quality content that people will naturally want to reference
+       and link to, and tell people about it. You have to spread the word
+       before you can expect anyone to find your content and link to it!
+     * Reviews & Mentions – Put your product, service, or site in front of
+       influencers in your industry, such as popular bloggers or people
+       with a large social media following.
+     * Links from Friends & Partners – Ask people you know and people you
+       work with to link to your site. Remember that relevance matters;
+       links from sites that are in the same general industry or niche as
+       your site will have more value than links from random, unrelated
+       sites.
+
+   It can take a while to build a lot of links, but be patient, and
+   remember that shortcuts like buying links are against Google’s
+   guidelines and can be devastating for your SEO. Don’t take chances.
+
+Build Links for Free with Internal Link Building
+
+   There’s an easy, underrated way to build links to the pages you’re
+   attempting to improve search engine rankings for. And it’s a method you
+   have total control over: Internal link building.
+
+   In attempting to get a Web page to rank, there are a few key factors to
+   consider:
+     * Anchor Text – One of the most important things search engines take
+       into account in ranking a page is the actual text a linking page
+       uses to talk about your content. So if someone links to our Good
+       Guys Wind Turbine Parts site with the text “wind turbine parts”,
+       that will help us to rank highly for that keyword phrase, whereas
+       if they had simply used text like “Good Guys LLC” to link to our
+       site, we wouldn’t enjoy the same ranking advantage for the phrase
+       “wind turbine parts”.
+     * Quality of the Linking Page – Another factor taken into account is
+       the quality of the page that is sending the link; search engines
+       allow links from high-quality, trusted pages to count more in
+       boosting rankings than questionable pages and sites.
+     * Page the Link is Aimed At – Many times, when people talk about your
+       site they’ll link to the home page. This makes it difficult for
+       individual pages to achieve high rankings (because it’s so
+       difficult for them to generate their own link equity).
+
+   These are all elements we can’t control in attempting to get other
+   sites to link to us. We can, however, control all of these elements in
+   linking to our own pages from our own content. We can:
+     * Determine what anchor text to use.
+     * Decide which page to point that anchor text at.
+     * Ensure that the quality and content of the linking page is high
+       (since it’s our page!).
+
+   Building external links to your site is important, but in focusing more
+   of your efforts on the optimization of these internal links you can
+   build quality in-bound links with rich anchor text to the proper pages,
+   which will provide you with an unparalelled ranking boost (for free!).
+
+Internal Link Building Tools and Tips
+
+   So how do you go about building these great internal links? Well, you
+   can set up a system for interlinking your pages in a few easy steps:
+     * Keyword Research for Link Building – First, you need to utilize a
+       keyword research tool to have numerous keywords suggested to you
+       that are both relevant and popular.
+     * Assign Keywords to Content – Next, you have to group your keywords
+       strategically, creating a search-friendly information architecture.
+     * Link Pages Using Targeted Anchor Text – The final step is to apply
+       your keyword research to intelligent inter-linking; you do this by
+       linking to content using the keywords you’ve discovered.
+
 --
-       Tip:  Select Back at any time to create a different object type if
-       needed.
+Use Your Site Search
 
-   How to update an internet link Closed
-    1. Find the internet link you wish to update.
-    2. Select More button for the internet link then Details to open its
-       Details page.
-    3. Update the internet link as needed.
-       Its URL Closed
-         1. Select edit in the top right-hand corner of the Internet link
-            section to make the Internet link textbox editable.
-         2. Edit the existing internet link URL.
-            The internet link URL can be up to 2000 characters in length.
-       Its name or description Closed
-         1. Select edit in the top right-hand corner of the General
-            section to make the Name and Description textboxes editable.
-         2. Edit the existing internet link Name and/or Description.
-       Its security settings Closed
-         1. Select edit in the top right-hand corner of the Security
-            settings section to make it editable.
-         2. Edit the existing internet link Security classification and
-            Caveats.
-    4. When you have finished making changes to each section of the
-       internet link details, select:
-       • tick to accept and save your changes and exit edit mode.
-       • close to discard your changes and exit edit mode.
+   This one’s pretty simple, and can be used for multiple purposes:
+     * Finding pages on your site to link to a new page – When you create
+       new content, you want to make sure you can search your site for
+       mentions of similar keyword variations you might want to link to
+       that page.
+     * Finding a page that’s been created to link to – Your site may have
+       multiple content authors. In this case, you may have a vague idea
+       that a page about “wind turbine rotors” has been created, but you
+       don’t know the page title or URL. In this case, you can either type
+--
+       rotors” into Google. This would return all of the pages containing
+       that phrase that Google has indexed.
 
+Create an Internal SEO Link Building Wire Frame
+
+   To do this, you simply need to map the keywords you’d like to target to
+   the most logical pages. So, let’s say we have three pages to choose
+--
+   something like this:
+
+
+   what is internal link building what is internal link building
+
+   As you can see, each page is associated with mutiple keywords. By
+   making this document available to all of your content writers, they can

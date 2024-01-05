@@ -3,100 +3,148 @@
 <html lang="ang">
 <head>
 	<meta charset="UTF-8">
-	<title>Concordance</title>
+	<title>Concordances</title>
 </head>
 <body>
 	<table>
 	<thead>
 		<tr>
-    			<th class=has-text-right>Contexte gauche</th>
+    			<th class=has-text-droite>Contexte gauche</th>
     			<th>Mot</th>
-    			<th class=has-text-left>Contexte droit</th>
+    			<th class=has-text-gauche>Contexte droit</th>
 		</tr>
 	</thead>
 	<tbody>
-Add Links
-Links to Sections in the Same
-o Use Custom Link Text
-Links to External Web Pages
-Use the External Links Extension
-o Setup External Links
-o Add Link Make Command
-o Test External Links
-Add Links
-<tr><td>You can include </td><td>links</td><td> to other locations in the</td></tr>
-<tr><td>For more information about creating </td><td>links</td><td> using reStructured Text and</td></tr>
-Links to Sections in the Same
-<tr><td>You can </td><td>link</td><td> from text to a heading</td></tr>
-<tr><td>part of this document would </td><td>link</td><td> to this</td></tr>
-<tr><td>text is printed as the </td><td>link</td><td> text</td></tr>
-Use Custom Link Text
-<tr><td>For internal </td><td>links</td><td> that use text other than</td></tr>
-<tr><td></td><td>link</td><td> to a different section<Cross</td></tr>
-<tr><td>the last word of the </td><td>link</td><td> text and the</td></tr>
-<tr><td></td><td>link</td><td> to a different section is</td></tr>
-<tr><td>the </td><td>link</td><td> text, and</td></tr>
-<tr><td>errors when you have a </td><td>link</td><td> to either section, because Sphinx</td></tr>
-<tr><td>not know which section to </td><td>link</td><td> to</td></tr>
-<tr><td>and </td><td>link</td><td> to it, instead of the</td></tr>
-<tr><td>This is a </td><td>link</td><td> to the RST Overview: :ref</td></tr>
-<tr><td>This is a </td><td>link</td><td> to the Sphinx Overview: :ref</td></tr>
-<tr><td>the </td><td>link</td><td> text is the section title</td></tr>
-Use Custom Link Text
-Links to External Web Pages
-<tr><td>To </td><td>link</td><td> to an external web page</td></tr>
-<tr><td>Link text <</td><td>link</td><td> URL>`_</td></tr>
-<tr><td>You can also separate the </td><td>link</td><td> and the target definition. For</td></tr>
-Use the External Links Extension
-<tr><td>Managing </td><td>links</td><td> in large projects with multiple</td></tr>
-<tr><td></td><td>link</td><td></td></tr>
-try using the External Links Extension
-<tr><td></td><td>links</td><td> to external web pages are</td></tr>
-<tr><td>Each </td><td>link</td><td> is stored in its own</td></tr>
-<tr><td>shows the structure of the </td><td>link</td><td> definition in a</td></tr>
-<tr><td>for the External Links Extension </td><td>link</td><td></td></tr>
-<tr><td>import </td><td>link</td><td></td></tr>
-Sphinx External Links
-External Links Extension
-<tr><td></td><td>link</td><td>.xref_links.update({link_name: (user_text, url</td></tr>
-<tr><td>You then reference a </td><td>link</td><td> within content with the :xref</td></tr>
-<tr><td></td><td>link</td><td> name. For example</td></tr>
-Sphinx External Links
-<tr><td>user text is displayed and </td><td>links</td><td> to the URL</td></tr>
-<tr><td>Before you create a link, check if the </td><td>link</td><td> already</td></tr>
-<tr><td>Reuse an already-defined </td><td>link</td><td> when possible</td></tr>
-Setup External Links
-<tr><td>To set up the external </td><td>links</td><td> extension, take the following steps</td></tr>
-<tr><td>in your source folder called </td><td>links</td><td></td></tr>
-<tr><td>called __init__.py to the </td><td>links</td><td> folder, with the</td></tr>
-<tr><td>Add a file called link.py to the </td><td>links</td><td> folder</td></tr>
-<tr><td></td><td>link</td><td> text", "URL</td></tr>
-<tr><td>from links.</td><td>link</td><td> import</td></tr>
-<tr><td>from </td><td>links</td><td> import</td></tr>
-<tr><td>Then save any </td><td>link</td><td> definition files in the links</td></tr>
-Add Link Make Command
-<tr><td>manually create and save new </td><td>link</td><td> files. You could also add</td></tr>
-<tr><td></td><td>link</td><td> definitions</td></tr>
-<tr><td>create a </td><td>link</td><td> from the command line (without</td></tr>
-<tr><td>source/</td><td>links</td><td></td></tr>
-<tr><td></td><td>link</td><td></td></tr>
-<tr><td></td><td>link</td><td></td></tr>
-Enter a Unique Link Name: " link_name
-<tr><td>Enter the </td><td>link</td><td> text the user sees: " link_text</td></tr>
-<tr><td>use_lower_case_and_underscore of </td><td>link</td><td> name</td></tr>
-<tr><td>The </td><td>link</td><td> name is: " $$link_name</td></tr>
-<tr><td>The </td><td>link</td><td> text is: " $$link_text</td></tr>
-<tr><td>Enter the </td><td>link</td><td> in content as :xref:\`"$$link_name</td></tr>
-<tr><td>you build and test the </td><td>link</td><td></td></tr>
-<tr><td>import </td><td>link</td><td>\n\nen_us_user_text = \"$$link_text\" \n\n</td></tr>
-<tr><td></td><td>links</td><td>.xref_links.update({\"$$link_name\": (en_us_user_text, \"$$link_url</td></tr>
-<tr><td>You can then create a link using the make </td><td>link</td><td> command</td></tr>
-Link key
-Link text
-Test External Links
-<tr><td>external </td><td>links</td><td> in your document. The command</td></tr>
-<tr><td>the following results show one </td><td>link</td><td> error</td></tr>
-Link test results
+<tr><td>Add Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>Links</td><td>Links</td><td>Links to Sections in the Same</td></tr>
+<tr><td>o Use Custom Link</td><td>Link</td><td>Link Text</td></tr>
+<tr><td>Links</td><td>Links</td><td>Links to External Web Pages</td></tr>
+<tr><td>Use the External Links</td><td>Links</td><td>Links Extension</td></tr>
+<tr><td>o Setup External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>o Add Link</td><td>Link</td><td>Link Make Command</td></tr>
+<tr><td>o Test External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>Add Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>You can include links</td><td>links</td><td>links to other locations in the</td></tr>
+<tr><td>For more information about creating links</td><td>links</td><td>links using reStructured Text and</td></tr>
+<tr><td>links</td><td>links</td><td>links</td></tr>
+<tr><td>Links</td><td>Links</td><td>Links to Sections in the Same</td></tr>
+<tr><td>You can link</td><td>link</td><td>link from text to a heading</td></tr>
+<tr><td>part of this document would link</td><td>link</td><td>link to this</td></tr>
+<tr><td>text is printed as the link</td><td>link</td><td>link text</td></tr>
+<tr><td>Use Custom Link</td><td>Link</td><td>Link Text</td></tr>
+<tr><td>For internal links</td><td>links</td><td>links that use text other than</td></tr>
+<tr><td>that you’re link</td><td>link</td><td>link</td></tr>
+<tr><td>link</td><td>link</td><td>link to a different section<Cross</td></tr>
+<tr><td>the last word of the link</td><td>link</td><td>link text and the</td></tr>
+<tr><td>link</td><td>link</td><td>link to a different section is</td></tr>
+<tr><td>the link</td><td>link</td><td>link text, and</td></tr>
+<tr><td>errors when you have a link</td><td>link</td><td>link to either section, because Sphinx</td></tr>
+<tr><td>not know which section to link</td><td>link</td><td>link to</td></tr>
+<tr><td>and link</td><td>link</td><td>link to it, instead of the</td></tr>
+<tr><td>This is a link</td><td>link</td><td>link to the RST Overview: :ref</td></tr>
+<tr><td>This is a link</td><td>link</td><td>link to the Sphinx Overview: :ref</td></tr>
+<tr><td>the link</td><td>link</td><td>link text is the section title</td></tr>
+<tr><td>Use Custom Link</td><td>Link</td><td>Link Text</td></tr>
+<tr><td>Links</td><td>Links</td><td>Links to External Web Pages</td></tr>
+<tr><td>To link</td><td>link</td><td>link to an external web page</td></tr>
+<tr><td>Link
+link</td><td>Link
+link</td><td>Link text <link URL>`_</td></tr>
+<tr><td>You can also separate the link</td><td>link</td><td>link and the target definition. For</td></tr>
+<tr><td>Use the External Links</td><td>Links</td><td>Links Extension</td></tr>
+<tr><td>Managing links</td><td>links</td><td>links in large projects with multiple</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>try using the External Links</td><td>Links</td><td>Links Extension</td></tr>
+<tr><td>links</td><td>links</td><td>links to external web pages are</td></tr>
+<tr><td>Each link</td><td>link</td><td>link is stored in its own</td></tr>
+<tr><td>shows the structure of the link</td><td>link</td><td>link definition in a</td></tr>
+<tr><td>for the External Links Extension link</td><td>Links
+link</td><td>Links Extension link</td></tr>
+<tr><td>import link</td><td>link</td><td>link</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>Sphinx External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>External Links</td><td>Links</td><td>Links Extension</td></tr>
+<tr><td>links</td><td>links</td><td>links.html</td></tr>
+<tr><td>link
+links
+link</td><td>link
+links
+link</td><td>link.xref_links.update({link_name: (user_text, url</td></tr>
+<tr><td>You then reference a link</td><td>link</td><td>link within content with the :xref</td></tr>
+<tr><td>link</td><td>link</td><td>link name. For example</td></tr>
+<tr><td>Sphinx External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>user text is displayed and links</td><td>links</td><td>links to the URL</td></tr>
+<tr><td>Before you create a link
+check if the link</td><td>link
+link</td><td>link, check if the link already</td></tr>
+<tr><td>Reuse an already-defined link</td><td>link</td><td>link when possible</td></tr>
+<tr><td>Setup External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>To set up the external links</td><td>links</td><td>links extension, take the following steps</td></tr>
+<tr><td>in your source folder called links</td><td>links</td><td>links</td></tr>
+<tr><td>called __init__.py to the links</td><td>links</td><td>links folder, with the</td></tr>
+<tr><td>Add a file called link
+py to the links</td><td>link
+links</td><td>link.py to the links folder</td></tr>
+<tr><td>links
+link</td><td>links
+link</td><td>links = {"key" : ("link text", "URL</td></tr>
+<tr><td>from links.link</td><td>links
+link</td><td>links.link import</td></tr>
+<tr><td>from links</td><td>links</td><td>links import</td></tr>
+<tr><td>Then save any link
+definition files in the links</td><td>link
+links</td><td>link definition files in the links</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>Add Link</td><td>Link</td><td>Link Make Command</td></tr>
+<tr><td>manually create and save new link</td><td>link</td><td>link files. You could also add</td></tr>
+<tr><td>link</td><td>link</td><td>link definitions</td></tr>
+<tr><td>create a link</td><td>link</td><td>link from the command line (without</td></tr>
+<tr><td>LINKS</td><td>LINKS</td><td>LINKS</td></tr>
+<tr><td>source/links</td><td>links</td><td>links</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>Enter a Unique Link
+link</td><td>Link
+link</td><td>Link Name: " link_name</td></tr>
+<tr><td>Enter the link
+link</td><td>link
+link</td><td>link text the user sees: " link_text</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>use_lower_case_and_underscore of link</td><td>link</td><td>link name</td></tr>
+<tr><td>The link
+link</td><td>link
+link</td><td>link name is: " $$link_name</td></tr>
+<tr><td>The link
+link</td><td>link
+link</td><td>link text is: " $$link_text</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>LINKS</td><td>LINKS</td><td>LINKS</td></tr>
+<tr><td>Enter the link
+link</td><td>link
+link</td><td>link in content as :xref:\`"$$link_name</td></tr>
+<tr><td>link</td><td>link</td><td>link</td></tr>
+<tr><td>you build and test the link</td><td>link</td><td>link</td></tr>
+<tr><td>import link
+link</td><td>link
+link</td><td>link\n\nen_us_user_text = \"$$link_text\" \n\n</td></tr>
+<tr><td>links
+links
+link
+link</td><td>links
+links
+link
+link</td><td>links.xref_links.update({\"$$link_name\": (en_us_user_text, \"$$link_url</td></tr>
+<tr><td>LINKS</td><td>LINKS</td><td>LINKS</td></tr>
+<tr><td>You can then create a link
+using the make link</td><td>link
+link</td><td>link using the make link command</td></tr>
+<tr><td>Link</td><td>Link</td><td>Link key</td></tr>
+<tr><td>Link</td><td>Link</td><td>Link text</td></tr>
+<tr><td>Test External Links</td><td>Links</td><td>Links</td></tr>
+<tr><td>links</td><td>links</td><td>links to test all</td></tr>
+<tr><td>external links</td><td>links</td><td>links in your document. The command</td></tr>
+<tr><td>the following results show one link</td><td>link</td><td>link error</td></tr>
+<tr><td>Link</td><td>Link</td><td>Link test results</td></tr>
 
 	</tbody>
 	</table>

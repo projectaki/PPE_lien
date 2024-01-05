@@ -1,0 +1,128 @@
+   Marketing tips
+   6 min read
+
+7 powerful SEO link building strategies
+
+How to get backlinks that will boost your search rankings and help you build
+your brand.
+--
+
+   Take a look through the backlink pages, pick the most powerful
+   opportunities, and then reach out to those sites to see if they'd be
+   willing to link to your site. Just one thing: before you reach out,
+   check to see if you already have a backlink from those providers—if you
+   do, acknowledge that before asking for another.
+
+2. Use the broken link building strategy
+
+   Broken link building is the process of finding backlinks that lead to
+   404 pages on other sites, contacting those sites, and suggesting they
+   replace the 404 link with the one leading to a similar page on your
+   website. It's a great way to get backlinks while also offering value to
+   the site giving you the backlink.
+
+--
+   404 errors showing on SEO SpyGlass
+
+   These backlink providers are now your prospects. Visit the page the
+   broken link comes from, see if you have a relevant page to replace it
+   with, and if so, reach out to suggest the replacement. If it truly is
+   relevant, they might use your link because it helps them eliminate a
+   404 without having to take the time to find a good replacement.
+
+Analyze the website you want backlinks from
+--
+   If there's a specific site you want backlinks from, you can analyze it
+   to see if it has any relevant broken links. In my tool, WebSite
+   Auditor, this information is presented in the Site Structure > Site
+   Audit > Links > Broken links module.
+   Analyzing broken links for a specific site
+
+   Once again, if you have a relevant replacement, offer it up to the site
+   owner. If you think it would be a valuable enough backlink, you could
+--
+
+   One last thing: be transparent with the people you're reaching out to.
+   Don't make it sound like you're just trying to help them—be clear that
+   the link you're suggesting they use is from your website, and that you
+   think it would be a relevant replacement. The person making the
+   decision is a real human who will see right through you if you try to
+   hide that.
+--
+   update the Backlink Page Info for your website.
+   Backlink page info on SEO SpyGlass
+
+   The tool will recrawl the selected pages and tell you if some links got
+   lost.
+   Recrawl for missing backlinks on SEO SpyGlass
+
+--
+   Lost:
+   The number of missing backlinks in SEO SpyGlass
+
+   There are plenty of reasons your links may have disappeared:
+     * The link may have been replaced by the site owner (link is
+       missing).
+     * The backlink page may be gone (page not found).
+     * The website may be down at the moment (site is down).
+--
+
+   To restore a missing backlink, you'll need to contact the site owners
+   and ask them for assistance. Depending on what the problem is, you
+   might ask them to place your link on another page if the previous one
+   has been removed, restore the backlink if it was deleted, or remove the
+   noindex directives from their pages.
+
+4. Build links with images
+
+   Images grab attention and take up space, so it makes sense that people
+   click on them. This is why it's worth creating images (infographics,
+--
+
+   But if you use images as backlinks, you want to be sure that the link
+   points to the broader page the image lives on, not to the image
+   directory. Image directory links (ending in .gif, .png, .jpg, etc.) are
+   dead-end: all the traffic that goes there is just wasted.
+
+   To see if any of your backlinks lead to image directories, set up
+--
+   formats.
+   Searching for image directories
+
+   If you find any, ask the site owner to replace the link with the one
+   that leads to the page with the image. If you're letting them embed
+   your image on their site, they should be ok linking to the right place.
+
+--
+5. Write guest posts
+
+   Guest posting will boost your credibility and get your brand in front
+   of a new audience, but if you can include a link to your website within
+   the content, it's also a great SEO strategy. Take a look at this
+   article on how to guest post for SEO for more details about how to find
+   the right opportunities and get your guest posts published.
+--
+6. Get on "best of" lists
+
+   Getting on "best of" lists is of course a great validation of your
+   product or service, but it also puts a link to your site on a relevant,
+   authoritative site.
+
+   To find the lists you might be a fit for, use a tool like Online
+--
+   overdo it; otherwise, you may (accurately!) come off as spammy. The
+   goal here is to share information you think will be helpful for the
+   people in the community. They can choose to do with it what they
+   want—and if you're lucky, they might want to link to you.
+
+   If you join an online community, pay attention to what other community
+   members post. If someone says they're going to write a blog post about
+--
+
+     * Hero image with an icon of a hyperlink
+       Marketing tips
+       What does link in bio mean? And how to make a link in bio page
+       What does link in bio mean? And how to make...
+     * A hero image with the logos for the best marketing podcasts
+       Marketing tips
+       The 10 best marketing podcasts to try in 2024

@@ -29,10 +29,11 @@ do
 	COMPTE=0
 	if [ $response == "200" ]
 	then 
-		if [ ! $CODE == "UTF-8"]
+		if [ ! $CODE == "UTF-8" ]
 		then
 			iconv -f "$CODE" -t "UTF-8" -o "/tmp/recode_${lineo}.html" "../aspirations/aspirations_ang$N.html"
 			mv "/tmp/recode_${lineo}.html" "../aspirations/aspiration_ang${lineo}.html"
+			$CODE="UTF-8"
 		fi
 
 		lynx -assume_charset UTF-8 -dump -nolist ../aspirations/aspiration_ang$N.html >../dumps-text/dump_ang$N.html

@@ -33,7 +33,8 @@ echo "  <table>
 			<th>Aspiration</th>
 			<th>Dump</th>
 			<th>Nombre d'occurences</th>
-			<th>Contexte</th></tr>"
+			<th>Contexte</th>
+			<th>Concordances</th></tr>"
 
 while read -r urls;
 do
@@ -61,6 +62,8 @@ echo "<tr>
     <td><a href="../dumps-text/dump_kor$N.html">Dump</a></td>
     <td>$compte</td>
     <td><a href="../contextes/contexte_kor$N.txt">Contexte</a></td>
+    <td><a href="../concordances/concord_pl$N.html">Concordances</a></td>
+
 	</tr>"
 	N=$((N + 1))
 

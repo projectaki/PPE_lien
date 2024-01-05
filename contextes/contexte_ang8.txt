@@ -1,25 +1,286 @@
-     * Irrespective of what the database calls it, and notwithstanding
-       that it may or may not be a "relation" in a certain sense, the end
-       user's perspective is that the function of the button is to
-       'establish a link' and therefore Link would be the right label for
-       the button.
-       – Kris
-       Jan 6, 2014 at 11:12
+     * What is a hyperlink?
+     * Anatomy of a link
+     * A quick primer on URLs and paths
+     * Link best practices
+     * Active learning: creating a navigation menu
+     * Email links
+     * Test your skills!
 --
-       item 1, item 2 is shown as well.
-       – kasimir
-       Jan 6, 2014 at 12:20
-     * I think, link and relate are different even in daily English. So a
-       native-English user would understand even if you use link. I prefer
-       link cause relate is used to put items together into a relation (a
-       table), right?
-       – Safira
-       Jan 8, 2014 at 1:49
+     * What is a hyperlink?
+     * Anatomy of a link
+     * A quick primer on URLs and paths
+     * Link best practices
+     * Active learning: creating a navigation menu
+     * Email links
+     * Test your skills!
 --
 
-   Verbs that are commands are best when they don't require and object.
+   Hyperlinks are really important — they are what makes the Web a web.
+   This article shows the syntax required to make a link, and discusses
+   link best practices.
+   Prerequisites: Basic HTML familiarity, as covered in Getting started
+   with HTML. HTML text formatting, as covered in HTML text fundamentals.
+   Objective: To learn how to implement a hyperlink effectively, and link
+--
 
-   The meaning of link as "connect or join up" does not require an object.
+   Hyperlinks are one of the most exciting innovations the Web has to
+   offer. They've been a feature of the Web since the beginning, and are
+   what makes the Web a web. Hyperlinks allow us to link documents to
+   other documents or resources, link to specific parts of documents, or
+   make apps available at a web address. Almost any web content can be
+   converted to a link so that when clicked or otherwise activated the web
+   browser goes to another web address (URL).
 
-   The meaning of relate as "show a connection between" can take an
-   object. It doesn't always have to, but as a stand alone word relate
+   Note: A URL can point to HTML files, text files, images, text
+--
+   device) or download the file (in which case you can try to deal with it
+   later on).
+
+   For example, the BBC homepage contains many links that point not only
+   to multiple news stories, but also different areas of the site
+   (navigation functionality), login/registration pages (user tools), and
+   more.
+--
+
+Anatomy of a link
+
+   A basic link is created by wrapping the text or other content inside an
+   <a> element and using the href attribute, also known as a Hypertext
+   Reference, or target, that contains the web address.
+   html
+<p>
+  I'm creating a link to
+  <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+</p>
+
+   This gives us the following result:
+   I'm creating a link to the Mozilla homepage.
+
+Block level links
+
+   As mentioned before, almost any content can be made into a link, even
+   block-level elements. If you want to make a heading element a link then
+   wrap it in an anchor (<a>) element as shown in the following code
+   snippet:
+   html
+--
+
+Adding supporting information with the title attribute
+
+   Another attribute you may want to add to your links is title. The title
+   contains additional information about the link, such as which kind of
+   information the page contains, or things to be aware of on the website.
+   html
+<p>
+  I'm creating a link to
+  <a
+    href="https://www.mozilla.org/en-US/"
+    title="The best place to find more information about Mozilla's
+--
+    the Mozilla homepage</a>.
+</p>
+
+   This gives us the following result and hovering over the link displays
+   the title as a tooltip:
+
+   IFRAME:
+--
+   ating_hyperlinks/runner.html?id=adding_supporting_information_with_the_
+   title_attribute
+
+   Note: A link title is only revealed on mouse hover, which means that
+   people relying on keyboard controls or touchscreens to navigate web
+   pages will have difficulty accessing title information. If a title's
+   information is truly important to the usability of the page, then you
+--
+
+A quick primer on URLs and paths
+
+   To fully understand link targets, you need to understand URLs and file
+   paths. This section gives you the information you need to achieve this.
+
+   A URL, or Uniform Resource Locator is a string of text that defines
+--
+   landing page for project-related information.
+     * Same directory: If you wanted to include a hyperlink inside
+       index.html (the top level index.html) pointing to contacts.html,
+       you would specify the filename that you want to link to, because
+       it's in the same directory as the current file. The URL you would
+       use is contacts.html:
+       html
+--
+     * Moving down into subdirectories: If you wanted to include a
+       hyperlink inside index.html (the top level index.html) pointing to
+       projects/index.html, you would need to go down into the projects
+       directory before indicating the file you want to link to. This is
+       done by specifying the directory's name, then a forward slash, then
+       the name of the file. The URL you would use is projects/index.html:
+       html
+--
+       back down into the pdfs directory. To go up a directory, use two
+       dots — .. — so the URL you would use is ../pdfs/project-brief.pdf:
+       html
+<p>A link to my <a href="../pdfs/project-brief.pdf">project brief</a>.</p>
+
+   Note: You can combine multiple instances of these features into complex
+   URLs, if needed, for example: ../../../complex/path/to/my/file.html.
+
+Document fragments
+
+   It's possible to link to a specific part of an HTML document, known as
+   a document fragment, rather than just to the top of the document. To do
+   this you first have to assign an id attribute to the element you want
+   to link to. It normally makes sense to link to a specific heading, so
+   this would look something like the following:
+   html
+<h2 id="Mailing_address">Mailing address</h2>
+
+   Then to link to that specific id, you'd include it at the end of the
+   URL, preceded by a hash/pound symbol (#), for example:
+   html
+<p>
+--
+  <a href="contacts.html#Mailing_address">mailing address</a>.
+</p>
+
+   You can even use the document fragment reference on its own to link to
+   another part of the current document:
+   html
+<p>
+--
+
+   relative URL: Points to a location that is relative to the file you are
+   linking from, more like what we looked at in the previous section. For
+   example, if we wanted to link from our example file at
+   https://www.example.com/projects/index.html to a PDF file in the same
+   directory, the URL would just be the filename — project-brief.pdf — no
+   extra information needed. If the PDF was available in a subdirectory
+   inside projects called pdfs, the relative link would be
+   pdfs/project-brief.pdf (the equivalent absolute URL would be
+   https://www.example.com/projects/pdfs/project-brief.pdf.)
+
+--
+   location of the file you refer from — for example if we moved our
+   index.html file out of the projects directory and into the root of the
+   website (the top level, not in any directories), the
+   pdfs/project-brief.pdf relative URL link inside it would now point to a
+   file located at https://www.example.com/pdfs/project-brief.pdf, not a
+   file located at
+   https://www.example.com/projects/pdfs/project-brief.pdf.
+
+   Of course, the location of the project-brief.pdf file and pdfs folder
+   won't suddenly change because you moved the index.html file — this
+   would make your link point to the wrong place, so it wouldn't work if
+   clicked on. You need to be careful!
+
+Link best practices
+--
+   There are some best practices to follow when writing links. Let's look
+   at these now.
+
+Use clear link wording
+
+   It's easy to throw links up on your page. That's not enough. We need to
+   make our links accessible to all readers, regardless of their current
+   context and which tools they prefer. For example:
+     * Screen reader users like jumping around from link to link on the
+       page, and reading links out of context.
+     * Search engines use link text to index target files, so it is a good
+       idea to include keywords in your link text to effectively describe
+       what is being linked to.
+     * Visual readers skim over the page rather than reading every word,
+       and their eyes will be drawn to page features that stand out, like
+       links. They will find descriptive link text useful.
+
+   Let's look at a specific example:
+
+   Good link text: Download Firefox
+   html
+<p><a href="https://www.mozilla.org/firefox/">Download Firefox</a></p>
+
+   Bad link text: Click here to download Firefox
+   html
+<p>
+  <a href="https://www.mozilla.org/firefox/">Click here</a> to download Firefox
+</p>
+
+   Other tips:
+     * Don't repeat the URL as part of the link text — URLs look ugly, and
+       sound even uglier when a screen reader reads them out letter by
+       letter.
+     * Don't say "link" or "links to" in the link text — it's just noise.
+       Screen readers tell people there's a link. Visual users will also
+       know there's a link, because links are generally styled in a
+       different color and underlined (this convention generally shouldn't
+       be broken, as users are used to it).
+     * Keep your link text as short as possible — this is helpful because
+       screen readers need to interpret the entire link text.
+     * Minimize instances where multiple copies of the same text are
+       linked to different places. This can cause problems for screen
+       reader users, if there's a list of links out of context that are
+       labeled "click here", "click here", "click here".
+
+Linking to non-HTML resources — leave clear signposts
+--
+
+   When you are linking to a resource that's to be downloaded rather than
+   opened in the browser, you can use the download attribute to provide a
+   default save filename. Here's an example with a download link to the
+   latest Windows version of Firefox:
+   html
+<a
+--
+
+Active learning: creating a navigation menu
+
+   For this exercise, we'd like you to link some pages together with a
+   navigation menu to create a multipage website. This is one common way
+   in which a website is created — the same page structure is used on
+   every page, including the same navigation menu, so when links are
+   clicked it gives the impression that you are staying in the same place,
+   and different content is being brought up.
+
+--
+
+   You should:
+    1. Add an unordered list in the indicated place on one page that
+       includes the names of the pages to link to. A navigation menu is
+       usually just a list of links, so this is semantically OK.
+    2. Change each page name into a link to that page.
+    3. Copy the navigation menu across to each page.
+    4. On each page, remove just the link to that same page — it's
+       confusing and unnecessary for a page to include a link to itself.
+       And, the lack of a link acts a good visual reminder of which page
+       you are currently on.
+
+   The finished example should look similar to the following page:
+--
+
+Email links
+
+   It's possible to create links or buttons that, when clicked, open a new
+   outgoing email message rather than linking to a resource or page. This
+   is done using the <a> element and the mailto: URL scheme.
+
+   In its most basic and commonly used form, a mailto: link indicates the
+   email address of the intended recipient. For example:
+   html
+<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+
+   This results in a link that looks like this: Send email to nowhere.
+
+   In fact, the email address is optional. If you omit it and your href is
+   "mailto:", a new outgoing email window will be opened by the user's
+   email client with no destination address. This is often useful as
+   "Share" links that users can click to send an email to an address of
+   their choosing.
+
+Specifying details
+--
+
+Summary
+
+   That's it for links, for now anyway! You'll return to links later on in
+   the course when you start to look at styling them. Next up for HTML,
+   we'll return to text semantics and look at some more advanced/unusual
+   features that you'll find useful — Advanced text formatting is your

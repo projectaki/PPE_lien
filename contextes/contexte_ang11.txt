@@ -1,7 +1,322 @@
+   (BUTTON)
+   (BUTTON)
 
-   A literature review found 27 studies looking at the effect of physical
-   activity on brain function in people over 60 years of age. In 26 of the
-   studies there was a clear link between physical activity levels and
-   cognitive performance, suggesting that exercise might be an effective
-   way to reduce cognitive decline in later life.
+Apollo Link overview
 
+Customize Apollo Client's data flow
+     __________________________________________________________________
+--
+   API. See
+   Basic HTTP networking.
+
+   The Apollo Link library helps you customize the flow of data between
+   Apollo Client and your GraphQL server. You can define your client's
+   network behavior as a chain of link objects that execute in a sequence:
+
+   Apollo Client
+   Initiated
+--
+   Terminating Link
+   GraphQL server
+
+   Each link should represent either a self-contained modification to a
+   GraphQL operation or a side effect (such as logging).
+
+   In the above diagram:
+    1. The first link might log the details of the operation for debugging
+       purposes.
+    2. The second link might add an HTTP header to the outgoing operation
+       request for authentication purposes.
+    3. The final (terminating) link sends the operation to its destination
+       (usually a GraphQL server over HTTP).
+    4. The server's response is passed back up each link in reverse order,
+       enabling links to modify the response or take other actions before
+       the data is cached.
+
+   By default, Apollo Client uses Apollo Link's
+--
+   many use cases without requiring additional customization.
+
+   To extend or replace this default networking behavior, you can define
+   custom links and specify their order of execution in the ApolloClient
+   constructor.
+
+Your first link chain
+
+   The example below demonstrates a basic link chain with two
+   Apollo-provided links:
+     * An onError link that checks for errors in the server's response. It
+       logs the details of whichever error(s) it finds.
+     * An HttpLink that sends each GraphQL operation to your server.
+          + This is the chain's terminating link.
+
+   Note that if you provide a link chain to the ApolloClient constructor,
+   you don't provide the uri option. Instead, you provide your server's
+   URL to your HttpLink.
+   (BUTTON) Click to expand example
+--
+   });
+   18
+   19
+   // If you provide a link chain to ApolloClient, you
+   20
+   // don't provide the `uri` option.
+   21
+--
+   22
+   // The `from` function combines an array of individual links
+   23
+   // into a link chain
+   24
+   link: from([errorLink, httpLink]),
+   25
+--
+
+Creating a custom link
+
+   A link object is an instance of the ApolloLink class (or a subclass of
+   it). Each link must define a method named request, which is known as
+   the link's request handler. You can provide this method's definition to
+   the ApolloLink constructor.
+
+Example
+
+   The following custom link defines a request handler that adds a GraphQL
+   operation's approximate start time to the operation's context:
+   (BUTTON) JavaScript
+
+--
+   (BUTTON) Copy
+
+   This request handler then calls return forward(operation), which is the
+   syntax for calling the next link down the chain.
+
+The request handler
+
+   Every link must define a request method, also known as its request
+   handler. This method is passed the following arguments:
+     * operation: The GraphQL operation that's being passed through the
+       link.
+          + For details, see The Operation object.
+     * forward: A function for executing the next link in the chain
+       (unless this is a terminating link).
+
+   Whenever Apollo Client prepares to execute a GraphQL operation, it
+   calls the request handler of the first link in the chain. Each link is
+   responsible for executing its logic and then passing execution to the
+   next link by calling the forward function and returning its result.
+
+The Operation object
+
+--
+   null.
+   extensions A map to store extensions data to be sent to the server.
+   getContext A function to return the context of the request. This
+   context can be used by links to determine which actions to perform. See
+   Managing context.
+   setContext A function that takes either a new context object, or a
+   function which takes in the previous context and returns a new one. See
+--
+   When your custom link's request handler is done executing its logic, it
+   should return a call to the forward function that's passed to it
+   (unless it's the chain's terminating link). Calling return
+   forward(operation) passes execution along to the next link in the
+   chain.
+
+   If a non-terminating custom link's request handler doesn't return
+   forward(operation), the link chain ends and the associated GraphQL
+   operation is not executed.
+
+   The forward function's return type is an Observable provided by the
+--
+  Handling a response
+
+   When your GraphQL server responds with an operation result, that result
+   is passed back up through each link in your link chain before it's
+   cached:
+
+   Apollo Client
+--
+   Terminating Link
+   GraphQL server
+
+   Each link can execute logic while the result is being passed back by
+   modifying their request handler's return statement, like so:
+
+   (BUTTON) JavaScript
+--
+   (BUTTON) Copy
+
+   Whatever the function provided to map returns is passed to the next
+   link up the chain.
+
+   You can also perform logic here that has nothing to do with the result.
+   This request handler uses the request context to estimate the
+--
+   });
+   (BUTTON) Copy
+
+Composing a link chain
+
+   Each link represents either a self-contained modification to a GraphQL
+   operation or a side effect (such as logging). By composing these links
+   into a chain, you can create an arbitrarily complex model for your
+   client's data flow.
+
+   There are two forms of link composition: additive and directional.
+     * Additive composition involves combining a set of links into a
+       serially executed chain:
+       Link
+       Link
+--
+
+  The terminating link
+
+   The terminating link is the last link in a link chain. Instead of
+   calling the forward function, the terminating link is responsible for
+   sending your composed GraphQL operation to the destination that
+   executes it (usually a GraphQL server) and returning an
+   ExecutionResult.
+--
+
+  Additive composition
+
+   If you have a collection of two or more links that should always be
+   executed in serial order, use the ApolloLink.from helper method to
+   combine those links into a single link, like so:
+
+   (BUTTON) JavaScript
+
+--
+
+  Directional composition
+
+   You might want your link chain's execution to branch, depending on the
+   details of the operation being performed.
+
+   To support this, the @apollo/client library provides a split function
+--
+   Name Description
+   test A function that takes in the current Operation and returns either
+   true or false depending on its details.
+   left The link to execute next if the test function returns true.
+   right An optional link to execute next if the test function returns
+   false. If this is not provided, the request handler's forward parameter
+   is used.
+
+--
+   import { createClient } from 'graphql-ws';
+   5
+   6
+   export const link = split(
+   7
+   ({ query }) => {
+   8
+--
+
+  Providing to Apollo Client
+
+   After you finish composing your entire link chain, you provide the
+   resulting link to the constructor of ApolloClient, like so:
+
+   (BUTTON) JavaScript
+
+--
+
+  Stateless links
+
+   Most links perform the same logic for every operation they process, and
+   they don't need to know anything about operations that have been
+   executed previously. These links are stateless.
+
+   You can define the request handler for a stateless link in the
+   constructor of an ApolloLink object, like so:
+
+   (BUTTON) JavaScript
+--
+   })
+   (BUTTON) Copy
+
+   Stateless links are great for implementing middleware and even network
+   requests. The following link adds an Authorization header to every
+   outgoing request:
+
+   (BUTTON) JavaScript
+--
+   });
+   (BUTTON) Copy
+
+   This style of link also composes well for customization using a
+   function:
+
+   (BUTTON) JavaScript
+--
+   });
+   22
+   23
+   const link = reportErrors(console.error);
+   (BUTTON) Copy
+
+    Extending ApolloLink
+
+   You can also create a stateless link by extending the ApolloLink class
+   and overwriting its constructor and request handler. For example,
+   here's the same reportErrors link written as an extension of
+   ApolloLink:
+
+   (BUTTON) JavaScript
+--
+   }
+   15
+   16
+   const link = new ReportErrorLink(console.error);
+   (BUTTON) Copy
+
+  Stateful links
+
+   When it's useful, links can maintain state between operations. These
+   links are stateful.
+
+   Stateful links are usually defined as subclasses of ApolloLink. They
+   override the constructor of ApolloLink and implement a request function
+   with the same signature as a stateless link. For example:
+
+--
+   }
+   13
+   14
+   const link = new OperationCountLink();
+   (BUTTON) Copy
+
+   This stateful link maintains a counter called operationCount as an
+   instance variable. Every time a request is passed through the link,
+   operationCount is incremented.
+
+Managing context
+
+   As an operation moves along your link chain, it maintains a context
+   that each link can read and modify. This allows links to pass metadata
+   along the chain that other links use in their execution logic.
+     * Obtain the current context object by calling
+       operation.getContext().
+     * Modify the context object and then write it back with
+--
+
+   HTTP
+
+Apollo Link overview
+
+     * Your first link chain
+     * Creating a custom link
+     * Example
+     * The request handler
+     * Handling a response
+     * Composing a link chain
+     * The terminating link
+     * Additive composition
+     * Directional composition
+     * Providing to Apollo Client
+     * Link types
+     * Stateless links
+     * Stateful links
+     * Managing context

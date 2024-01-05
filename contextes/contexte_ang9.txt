@@ -1,0 +1,42 @@
+
+   ____________________ (BUTTON)
+
+HTML Links Examples
+
+   [INS: :INS]
+
+   Back to HTML Examples List
+
+   This page contains examples of HTML links - examples of
+   hyperlink-specific code that you can use for your own website.
+
+   To use the code, copy it straight from the text box and paste it into
+--
+   attribute is obsolete in HTML5 and you should use the id attribute
+   instead (as outlined above).
+
+   More Info: HTML Link Code, HTML Links Tutorial, HTML <a> Tag
+   (BUTTON) Run
+   (BUTTON) Stack editor (BUTTON) Unstack editor
+
+--
+
+   IFRAME: result11
+
+   More Info: Image Link Code, HTML Image Maps
+   [INS: :INS]
+
+Related
+
+     * HTML Links Tutorial
+     * CSS Hyperlinks
+     * HTML Examples
+
+--
+          + HTML Text Examples
+          + HTML Tables Examples
+          + HTML Lists Examples
+          + HTML Links Examples
+          + HTML Images Examples
+          + HTML Forms Examples
+     * HTML Reference
