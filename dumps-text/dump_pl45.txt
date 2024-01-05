@@ -34,22 +34,27 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zarządzanie Wersjami:
-          Porównanie Zobacz: sterowanie wersjami związek "jest" co znaczy.
+   Co znaczy Złączenie Naturalne:
+          Porównanie złączenie bazujące na identyczności nazw kolumn
+          złączanych tablic. Na przykład naturalne złączenie tablic:
+          Spółka(NrFirmy, Nazwa, Adres) i PRACOWNIK(NrPrac, Nazwisko,
+          NrFirmy) utworzy pewną relację związek "jest" co znaczy.
 
-   Krzyżówka Zasada Zamienialności:
-          Dlaczego Zobacz: zamienialność związek "jest" krzyżówka.
+   Krzyżówka Zwisający Wskaźnik:
+          Dlaczego Parametr, który nie jest identyfikatorem obecnie
+          przechowywanego obiektu, i którego wartość nie jest zerowa (NIL
+          związek "jest" krzyżówka.
 
-   Co to jest Zmienialny:
-          Jak lepiej Ustalenie wyznacznika albo innej cechy posiadającej
-          własność zmienialności; zobacz: zmienialność związek "jest" co
-          to jest.
+   Co to jest Zdjęcie:
+          Jak lepiej struktura danych przechowująca pewien chwilowy stan
+          obiektów, stan zmiennych programu albo stan bazy danych.
+          Przeważnie zdjęcie jest kopią bazy danych albo pewnego jej
+          fragmentu (perspektywy związek "jest" co to jest.
 
-   Słownik Zamek Do Czytania:
-          Kiedy Zamek umieszczany poprzez daną transakcję na pewnym bycie,
-          który znaczy, iż inne transakcje mogą czytać informację z tego
-          bytu, lecz nie mogą go zamieniać. Zobacz także: zamek związek
-          "jest" słownik.
+   Słownik Związek Jednokierunkowy:
+          Kiedy Związek pozwalający na przechodzenie (nawigację) od jednej
+          klasy do drugiej klasy, lecz nie odwrotnie związek "jest"
+          słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
