@@ -1,14 +1,14 @@
 관계 (수학)
-   [97]집합론에서 관계(關係, [98]영어: relation)는 [99]곱집합의 [100]부분 집합이다. 원소의 [101]튜플이
-   이 부분 집합에 속하는지 여부를 통해 원소들 사이의 관계를 나타낸다.
-   \{X_{i}\}_{{i\in I}} 위의 관계는 [104]곱집합의 [105]부분 집합
-   \alpha 항 관계([107]영어:
-       X 위의 영항 관계(零項關係, [109]영어: nullary relation)
-       X 위의 단항 관계(單項關係, [110]영어: unary relation)
-       X 위의 이항 관계(二項關係, [111]영어: binary relation)
-       X 위의 삼항 관계(三項關係, [112]영어: ternary relation)
-       n 항 관계(-項關係, [113]영어: n-ary relation)
-     * [115]공선점 관계는 공간 속의 점들에 대한 삼항 관계이다.
+   집합론에서 관계(關係, 영어: relation)는 곱집합의 부분 집합이다. 원소의 튜플이 이 부분 집합에 속하는지 여부를 통해
+   원소들 사이의 관계를 나타낸다.
+   \{X_{i}\}_{{i\in I}} 위의 관계는 곱집합의 부분 집합
+   \alpha 항 관계(영어:
+       X 위의 영항 관계(零項關係, 영어: nullary relation)
+       X 위의 단항 관계(單項關係, 영어: unary relation)
+       X 위의 이항 관계(二項關係, 영어: binary relation)
+       X 위의 삼항 관계(三項關係, 영어: ternary relation)
+       n 항 관계(-項關係, 영어: n-ary relation)
+     * 공선점 관계는 공간 속의 점들에 대한 삼항 관계이다.
      * 여러 가지 이항 관계: 여기서는 집합
        X 상의 이항 관계
      * 반사적, 대칭적, 추이적인 관계를 동치 관계라 한다.
@@ -16,39 +16,5 @@
        < 와 관계
        < 가 강 순서 관계일 조건과
        \le 가 순서 관계일 조건은 서로 필요충분조건이다. 문맥에 따라 강 순서 관계를 그저 순서 관계로 할 수도 있으므로
-   "[136]https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
-     * [138]관계 (수학)
-   1. https://ko.m.wikipedia.org/wiki/관계_(수학)
-   2. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit
-   5. https://ko.wikipedia.org/wiki/관계_(수학)#bodyContent
-  17. https://ko.wikipedia.org/wiki/관계_(수학)#p-lang-btn
-  20. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계+(수학)
-  21. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계+(수학)
-  22. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계+(수학)
-  23. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계+(수학)
-  27. https://ko.wikipedia.org/wiki/관계_(수학)
-  28. https://ko.wikipedia.org/wiki/관계_(수학)#정의
-  29. https://ko.wikipedia.org/wiki/관계_(수학)#예
-  30. https://ko.wikipedia.org/wiki/관계_(수학)#외부_링크
-  76. https://ko.wikipedia.org/wiki/관계_(수학)
-  77. https://ko.wikipedia.org/wiki/토론:관계_(수학)
-  78. https://ko.wikipedia.org/wiki/관계_(수학)
-  79. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit
-  80. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=history
-  81. https://ko.wikipedia.org/wiki/관계_(수학)
-  82. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit
-  83. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=history
-  84. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계_(수학)
-  85. https://ko.wikipedia.org/wiki/특수:링크최근바뀜/관계_(수학)
-  88. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
-  89. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=info
-  90. https://ko.wikipedia.org/w/index.php?title=특수:이문서인용&page=관계_(수학)&id=33176364&wpFormIdentifier=titleform
-  93. https://ko.wikipedia.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계+(수학)
-  94. https://ko.wikipedia.org/w/index.php?title=특수:DownloadAsPdf&page=관계_(수학)&action=show-download-screen
-  95. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&printable=yes
- 102. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=1
- 114. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=2
- 116. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&action=edit&section=3
- 136. https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364
- 138. https://ko.wikipedia.org/wiki/분류:관계_(수학)
- 154. https://ko.m.wikipedia.org/w/index.php?title=관계_(수학)&mobileaction=toggle_view_mobile
+   "https://ko.wikipedia.org/w/index.php?title=관계_(수학)&oldid=33176364"
+     * 관계 (수학)

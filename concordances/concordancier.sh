@@ -36,7 +36,9 @@ echo "
 	</thead>
 	<tbody>"
 
-	#version polonais
+if [ "$LANGUE" ==  "pl" ]
+then
+
 	grep -h -o -E -i -r "(\w+\W){0,5}$REGEXP(\W+\w+){0,5}" "$CHEMIN" | while read -r line; do
 	context_gauche=$(echo "$line" | grep -o -E -i "(\w+\W){0,5}$REGEXP" | sed 's/^\W*//')
     match=$(echo "$line"| grep -o -E -i "$REGEXP")
@@ -44,8 +46,9 @@ echo "
     
     echo "<tr><td>${context_gauche}</td><td>${match}</td><td>${context_droite}</td></tr>"
 	done
-
-
+else
+	grep -o -E -i "(\w+\W){0,5}$REGEXP(\W+\w+){0,5}" "$CHEMIN" |sed -E "s/(.*)($REGEXP)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/"
+fi
 	#sed -E "s/(.*)($REGEXP)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/i"  
 	#grep -o -E -i "(\w+\W){0,5}$REGEXP(\W+\w+){0,5}" "$CHEMIN" | sed -E "s/(${REGEXP})(.*)/pppp\1oooo\2 xyz/"  
 

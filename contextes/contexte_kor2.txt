@@ -1,60 +1,13 @@
 관계
-   [59]관계
+   관계
    관계는 다음 뜻으로 쓰인다.
-     * [60]관계(官階)는 예전 중국과 한국 관직의 위계를 말한다.
-     * [61]인간 관계
-     * [63]관계 : 수학과 관련된 용어
-     * [64]관계 : 데이터베이스와 관련된 용어
-     * 《[67]관계》(1972년) : 대한민국의 영화
-     * 《[68]관계》(2014년) : 대한민국의 영화
-     * 《[70]관계》(1984년) : [71]KBS 드라마게임
-     * 《[72]관계》(1985년) : [73]KBS 드라마게임
-     * [75]제목에 "관계" 항목을 포함한 모든 문서
-   "[81]https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272"
-   1. https://ko.m.wikipedia.org/wiki/관계
-   2. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-   5. https://ko.wikipedia.org/wiki/관계#bodyContent
-  17. https://ko.wikipedia.org/wiki/관계#p-lang-btn
-  20. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계
-  21. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계
-  22. https://ko.wikipedia.org/w/index.php?title=특수:계정만들기&returnto=관계
-  23. https://ko.wikipedia.org/w/index.php?title=특수:로그인&returnto=관계
-  27. https://ko.wikipedia.org/wiki/관계
-  28. https://ko.wikipedia.org/wiki/관계#컴퓨터_과학,_수학
-  29. https://ko.wikipedia.org/wiki/관계#미디어,_엔터테인먼트
-  30. https://ko.wikipedia.org/wiki/관계#영화
-  31. https://ko.wikipedia.org/wiki/관계#TV_드라마
-  32. https://ko.wikipedia.org/wiki/관계#같이_보기
-  38. https://ko.wikipedia.org/wiki/관계
-  39. https://ko.wikipedia.org/wiki/토론:관계
-  40. https://ko.wikipedia.org/wiki/관계
-  41. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-  42. https://ko.wikipedia.org/w/index.php?title=관계&action=history
-  43. https://ko.wikipedia.org/wiki/관계
-  44. https://ko.wikipedia.org/w/index.php?title=관계&action=edit
-  45. https://ko.wikipedia.org/w/index.php?title=관계&action=history
-  46. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계
-  47. https://ko.wikipedia.org/wiki/특수:링크최근바뀜/관계
-  50. https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272
-  51. https://ko.wikipedia.org/w/index.php?title=관계&action=info
-  52. https://ko.wikipedia.org/w/index.php?title=특수:이문서인용&page=관계&id=35818272&wpFormIdentifier=titleform
-  55. https://ko.wikipedia.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계
-  56. https://ko.wikipedia.org/w/index.php?title=특수:DownloadAsPdf&page=관계&action=show-download-screen
-  57. https://ko.wikipedia.org/w/index.php?title=관계&printable=yes
-  59. https://ko.wiktionary.org/wiki/관계
-  61. https://ko.wikipedia.org/wiki/인간_관계
-  62. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=1
-  63. https://ko.wikipedia.org/wiki/관계_(수학)
-  64. https://ko.wikipedia.org/wiki/관계_(데이터베이스)
-  65. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=2
-  66. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=3
-  67. https://ko.wikipedia.org/wiki/관계_(1972년_영화)
-  68. https://ko.wikipedia.org/wiki/관계_(2014년_영화)
-  69. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=4
-  70. https://ko.wikipedia.org/w/index.php?title=관계_(1984년_드라마)&action=edit&redlink=1
-  72. https://ko.wikipedia.org/w/index.php?title=관계_(1985년_드라마)&action=edit&redlink=1
-  74. https://ko.wikipedia.org/w/index.php?title=관계&action=edit&section=5
-  75. https://ko.wikipedia.org/wiki/특수:검색/intitle:"관계"
-  80. https://ko.wikipedia.org/wiki/특수:가리키는문서/관계
-  81. https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272
-  97. https://ko.m.wikipedia.org/w/index.php?title=관계&mobileaction=toggle_view_mobile
+     * 관계(官階)는 예전 중국과 한국 관직의 위계를 말한다.
+     * 인간 관계
+     * 관계 : 수학과 관련된 용어
+     * 관계 : 데이터베이스와 관련된 용어
+     * 《관계》(1972년) : 대한민국의 영화
+     * 《관계》(2014년) : 대한민국의 영화
+     * 《관계》(1984년) : KBS 드라마게임
+     * 《관계》(1985년) : KBS 드라마게임
+     * 제목에 "관계" 항목을 포함한 모든 문서
+   원본 주소 "https://ko.wikipedia.org/w/index.php?title=관계&oldid=35818272"

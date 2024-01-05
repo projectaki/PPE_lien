@@ -45,11 +45,11 @@ if [ $reponse == 200 ]
 then 
 	if [ ! $encodage == "UTF-8" ]
 	then 
-		iconv -f "$encodage" -t "UTF-8" -o "/tmp/reencodage_${lineno}.html" "./aspirations/kor$N.html"
-		mv "/tmp/reencodage_${lineno}.html" "./aspirations/kor$N.html"
+		iconv -f "$encodage" -t "UTF-8" -o "/tmp/reencodage_${lineno}.html" "../aspirations/kor$N.html"
+		mv "/tmp/reencodage_${lineno}.html" "../aspirations/kor$N.html"
 	fi	
 
-	lynx -assume_charset UTF-8 -dump -nolist "$urls" > "../dumps-text/dump_kor$N.txt"
+	lynx -assume_charset UTF-8 -dump -nolist "$urls" > "../dumps-text/dump_kor$N.html"
 	compte=$(cat "../dumps-text/dump_kor$N.html" | egrep -w "관계" | wc -w)
     cat "../dumps-text/dump_kor$N.html" | egrep "관계" > "../contextes/contexte_kor$N.txt"
 fi
@@ -62,7 +62,7 @@ echo "<tr>
     <td><a href="../dumps-text/dump_kor$N.html">Dump</a></td>
     <td>$compte</td>
     <td><a href="../contextes/contexte_kor$N.txt">Contexte</a></td>
-    <td><a href="../concordances/concord_pl$N.html">Concordances</a></td>
+    <td><a href="../concordances/concord_kor$N.html">Concordances</a></td>
 
 	</tr>"
 	N=$((N + 1))

@@ -1,39 +1,5 @@
 관계
    발음[관계/관게]
-     * 동사: [18]관계되다, [19]관계하다
-     * 파생어: [20]관계인, [21]관계자
-   "[23]https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356"
-   1. https://ko.m.wiktionary.org/wiki/관계
-   2. https://ko.wiktionary.org/w/index.php?title=관계&action=edit
-   5. https://ko.wiktionary.org/wiki/관계#mw-head
-   6. https://ko.wiktionary.org/wiki/관계#searchInput
-   7. https://ko.wiktionary.org/w/index.php?title=관계&action=edit&section=1
-   9. https://ko.wiktionary.org/wiki/파일:Ko-관계.ogg
-  16. https://ko.wiktionary.org/w/index.php?title=관계&action=edit&section=2
-  18. https://ko.wiktionary.org/wiki/관계되다
-  19. https://ko.wiktionary.org/wiki/관계하다
-  20. https://ko.wiktionary.org/w/index.php?title=관계인&action=edit&redlink=1
-  21. https://ko.wiktionary.org/wiki/관계자
-  23. https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356
-  30. https://ko.wiktionary.org/w/index.php?title=특수:계정만들기&returnto=관계
-  31. https://ko.wiktionary.org/w/index.php?title=특수:로그인&returnto=관계
-  32. https://ko.wiktionary.org/wiki/관계
-  33. https://ko.wiktionary.org/w/index.php?title=토론:관계&action=edit&redlink=1
-  34. https://ko.wiktionary.org/wiki/관계
-  35. https://ko.wiktionary.org/w/index.php?title=관계&action=edit
-  36. https://ko.wiktionary.org/w/index.php?title=관계&action=history
-  46. https://ko.wiktionary.org/wiki/특수:가리키는문서/관계
-  47. https://ko.wiktionary.org/wiki/특수:링크최근바뀜/관계
-  50. https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356
-  51. https://ko.wiktionary.org/w/index.php?title=관계&action=info
-  52. https://ko.wiktionary.org/w/index.php?title=특수:이문서인용&page=관계&id=3992356&wpFormIdentifier=titleform
-  54. https://ko.wiktionary.org/w/index.php?title=특수:책&bookcmd=book_creator&referer=관계
-  55. https://ko.wiktionary.org/w/index.php?title=특수:DownloadAsPdf&page=관계&action=show-download-screen
-  56. https://ko.wiktionary.org/w/index.php?title=관계&printable=yes
-  57. https://en.wiktionary.org/wiki/관계
-  58. https://fr.wiktionary.org/wiki/관계
-  59. https://ja.wiktionary.org/wiki/관계
-  60. https://li.wiktionary.org/wiki/관계
-  61. https://mg.wiktionary.org/wiki/관계
-  62. https://zh.wiktionary.org/wiki/관계
-  72. https://ko.m.wiktionary.org/w/index.php?title=관계&mobileaction=toggle_view_mobile
+     * 동사: 관계되다, 관계하다
+     * 파생어: 관계인, 관계자
+   원본 주소 "https://ko.wiktionary.org/w/index.php?title=관계&oldid=3992356"

@@ -18,11 +18,10 @@
    5. 구성 관계(composition relation)
    정의 : R 은 set A와 set B의 관계, S는 set B와 setC의 관계이다. R과 S의 구성관계는 set A 에서
    setC의 관계이다.
-   [71]동치관계(equivalence relation)/동치류(Equivalence Class)  (0) 2020.11.29
-            [72]관계의 표현(representing relations)  (0)           2020.11.25
-     * [74]동치관계(equivalence relation)/동치류(Equivalence Class)
-     * [75]관계의 표현(representing relations)
-   [77]Relation, [78]관계, [79]이산수학
-   [81]관계의 표현(representing relations)
+   동치관계(equivalence relation)/동치류(Equivalence Class)  (0) 2020.11.29
+            관계의 표현(representing relations)  (0)           2020.11.25
+     * 동치관계(equivalence relation)/동치류(Equivalence Class)
+     * 관계의 표현(representing relations)
+   Relation, 관계, 이산수학
    관계의 표현(representing relations)
-  78. https://jesus-never-fail.tistory.com/tag/관계
+   관계의 표현(representing relations)
