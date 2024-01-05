@@ -34,27 +34,22 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zgodność Typów:
-          Porównanie ustalające, kiedy typ T1 pewnego bytu
-          programistycznego wydedukowany opierając się na reguł
-          wnioskowania o typie (type inference rules) jest zgodny z typem
-          T2, występującym w deklaracji tego typu związek "jest" co
-          znaczy.
+   Co znaczy Zarządzanie Wersjami:
+          Porównanie Zobacz: sterowanie wersjami związek "jest" co znaczy.
 
-   Krzyżówka Zdarzenie-Warunek-Akcja:
-          Dlaczego reguł. Czynna reguła uaktywnia się w rezultacie
-          pojawienia się określonego dla niej zdarzenia; jeśli po nim
-          spełniony jest określony warunek, to wówczas podejmowana jest
-          akcja. Zobacz także: czynne związek "jest" krzyżówka.
+   Krzyżówka Zasada Zamienialności:
+          Dlaczego Zobacz: zamienialność związek "jest" krzyżówka.
 
-   Co to jest Zmienna Klasowa:
-          Jak lepiej Zobacz: zmienna klasy związek "jest" co to jest.
+   Co to jest Zmienialny:
+          Jak lepiej Ustalenie wyznacznika albo innej cechy posiadającej
+          własność zmienialności; zobacz: zmienialność związek "jest" co
+          to jest.
 
-   Słownik Zapytanie Ad Hoc:
-          Kiedy Pytanie, które jest sformułowane interakcyjnie poprzez
-          użytkownika (bezpośrednio z jego końcówki). Przeciwieństwem jest
-          pytanie zanurzone (embedded), stanowiące fragment programu
-          aplikacyjnego związek "jest" słownik.
+   Słownik Zamek Do Czytania:
+          Kiedy Zamek umieszczany poprzez daną transakcję na pewnym bycie,
+          który znaczy, iż inne transakcje mogą czytać informację z tego
+          bytu, lecz nie mogą go zamieniać. Zobacz także: zamek związek
+          "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
