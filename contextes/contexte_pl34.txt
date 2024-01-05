@@ -1,15 +1,21 @@
-       sa, pojawiajace sie w okreslonym porzadku, kwalifikatory:
+       pojawiające się w określonym porządku, kwalifikatory:
        chronologiczne, stylistyczne, ekspresyjne, profesjonalno-naukowe,
-       socjolektalno-srodowiskowe, geograficzne. Kwalifikatory
-       towarzyszace terminom i zwiazkom frazeologicznym umieszczane sa
-       zwykle po symbolach graficznych i skr�tach.
-       Kolejne znaczenia w hasle zasadniczo uszeregowane sa od znaczen
-       podstawowych do znaczen specjalistycznych i przestarzal/ych.
+       socjolektalno-środowiskowe, geograficzne. Kwalifikatory
+       towarzyszące terminom i związkom frazeologicznym umieszczane s�
+       zwykle po symbolach graficznych i skrótach.
+       Kolejne znaczenia w haśle zasadniczo uszeregowane są od znaczeń
+       podstawowych do znaczeń specjalistycznych i przestarzałych.
 --
-       1. Wersja internetowa dostepna jest za opl/ata pod adresem:
-       http://usjp.pwn.pl Zawiera dodatkowo przeszl/o stutysieczna baze
-       wyraz�w bliskoznacznych, jak r�wniez dostepne z menu sl/ownika
-       przysl/owia, zwiazki frazeologiczne i terminy specjalistyczne z
-       objasnieniami.
-       2. Uniwersalny sl/ownik jezyka polskiego PWN, wersja 2.0, pwn. pl.
-       sp. z o.o. we wsp�l/pracy z Wydawnictwem Naukowym PWN SA, Warszawa
+       3. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
+       PWN, Warszawa 2008 (wydanie standardowe z płytą CD-ROM, zawierając�
+       bazę relacji leksykalnych opartą na Wielkim słowniku wyrazów
+       bliskoznacznych i bazę związków frazeologicznych opartą na Wielkim
+       słowniku frazeologicznym PWN).
+     * WERSJA ELEKTRONICZNA
+       1. Wersja internetowa dostępna jest za opłatą pod adresem:
+       http://usjp.pwn.pl Zawiera dodatkowo przeszło stutysięczną bazę
+       wyrazów bliskoznacznych, jak również dostępne z menu słownika
+       przysłowia, związki frazeologiczne i terminy specjalistyczne z
+       objaśnieniami.
+       2. Uniwersalny słownik języka polskiego PWN, wersja 2.0, pwn. pl.
+       sp. z o.o. we współpracy z Wydawnictwem Naukowym PWN SA, Warszawa

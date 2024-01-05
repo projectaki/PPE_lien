@@ -1,122 +1,126 @@
-     * Strona gl/�wna
-     * Sl/ownik pojec
+     * Strona główna
+     * Słownik pojęć
      * Z
-     * Zwiazek zawodowy
+     * Związek zawodowy
 
-Sl/ownik pojec
+Słownik pojęć
 
 --
-   Przejdz do Tw�j e-PIT
-                                                                     Z
+   Przejdź do Twój e-PIT
+                                                                    Z
 
-Zwiazek zawodowy
+Związek zawodowy
 
-   Jest dobrowolna i samorzadna organizacja ludzi pracy, powol/ana do
-   reprezentowania i obrony ich praw, interes�w zawodowych
-   i socjalnych. Definicja ta zostal/a zawarta w ustawie z dnia 23 maja
-   1991 r. o zwiazkach zawodowych.
-   Podstawowa cecha zwiazk�w zawodowych jest ich niezaleznosc. Organizacje
-   te sa niezalezne w swojej dzial/alnosci statutowej od pracodawc�w,
-   administracji panstwowej i samorzadu terytorialnego oraz od innych
+   Jest dobrowolną i samorządną organizacją ludzi pracy, powołaną do
+   reprezentowania i obrony ich praw, interesów zawodowych
+   i socjalnych. Definicja ta została zawarta w ustawie z dnia 23 maja
+   1991 r. o związkach zawodowych.
+   Podstawową cechą związków zawodowych jest ich niezależność. Organizacje
+   te są niezależne w swojej działalności statutowej od pracodawców,
+   administracji państwowej i samorządu terytorialnego oraz od innych
    organizacji.
 
-   Co istotne, organy panstwowe, samorzadu terytorialnego i pracodawcy
-   obowiazani sa traktowac jednakowo wszystkie zwiazki zawodowe.
+   Co istotne, organy państwowe, samorządu terytorialnego i pracodawcy
+   obowiązani są traktować jednakowo wszystkie związki zawodowe.
 
-   Czl/onkiem oraz tw�rca zwiazku zawodowego moze byc kazda osoba
-   wykonujaca prace zarobkowa. Nie ma przy tym znaczenia na podstawie
-   jakiej umowy o prace zostal/a ona zatrudniona. Dodatkowo do zwiazku
-   zawodowego moga zapisac sie takze:
+   Członkiem oraz twórcą związku zawodowego może być każda osoba
+   wykonująca pracę zarobkową. Nie ma przy tym znaczenia na podstawie
+   jakiej umowy o pracę została ona zatrudniona. Dodatkowo do związku
+   zawodowego mogą zapisać się także:
      * bezrobotni;
-     * emeryci i rencisci;
+     * emeryci i renciści;
 --
-       zwiazk�w.
+       pracodawcami);
+     * wolontariusze, stażyści i inne osoby, które świadczą osobiście
+       pracę bez wynagrodzenia - na warunkach określonych statutami
+       związków.
 
 
-   Stworzenie nowego zwiazku zawodowego moze nastapic poprzez:
-     * podjecie uchwal/y o jego utworzeniu przez co najmniej 10 os�b
-       uprawnionych do tworzenia zwiazk�w zawodowych;
+   Stworzenie nowego związku zawodowego może nastąpić poprzez:
+     * podjęcie uchwały o jego utworzeniu przez co najmniej 10 osób
+       uprawnionych do tworzenia związków zawodowych;
      * uchwalenie przez te same osoby statutu i
-       wyb�r komitetu zal/ozycielskiego w liczbie od 3 do 7 os�b;
-     * zl/ozenie wniosku do wl/asciwego sadu rejonowego, wydzial/u
-       gospodarczego Krajowego Rejestru Sadowego o wpis zwiazku zawodowego
-       do Krajowego Rejestru Sadowego;
-     * wpisanie przez Sad zwiazku do Krajowego Rejestru Sadowego.
+       wybór komitetu założycielskiego w liczbie od 3 do 7 osób;
+     * złożenie wniosku do właściwego sądu rejonowego, wydziału
+       gospodarczego Krajowego Rejestru Sądowego o wpis związku zawodowego
+       do Krajowego Rejestru Sądowego;
+     * wpisanie przez Sąd związku do Krajowego Rejestru Sądowego.
 
 
-   Co istotne, z chwila zarejestrowania zwiazku zawodowego w Krajowym
-   Rejestrze Sadowym uzyskuje on osobowosc prawna.
+   Co istotne, z chwilą zarejestrowania związku zawodowego w Krajowym
+   Rejestrze Sądowym uzyskuje on osobowość prawną.
 
-   Zwiazki zawodowe sa uprawnione do:
-     * opiniowania akt�w normatywnych w zakresie objetych zadaniami
-       zwiazk�w zawodowych;
-     * prowadzenia rokowan zbiorowych oraz zawierania ukl/ad�w zbiorowych
+   Związki zawodowe są uprawnione do:
+     * opiniowania aktów normatywnych w zakresie objętych zadaniami
+       związków zawodowych;
+     * prowadzenia rokowań zbiorowych oraz zawierania układów zbiorowych
+       pracy, a także innych porozumień przewidzianych przepisami prawa
+       pracy
 --
-       nadzorze nad przestrzeganiem przepis�w oraz zasad bezpieczenstwa
+       nadzorze nad przestrzeganiem przepisów oraz zasad bezpieczeństwa
        i higieny pracy;
-     * orowadzenia dzial/alnosci gospodarczej, przy czym doch�d z niej
-       moze sl/uzyc wyl/acznie realizacji zadan statutowych zwiazku
-       zawodowego.
+     * orowadzenia działalności gospodarczej, przy czym dochód z niej może
+       służyć wyłącznie realizacji zadań statutowych związku zawodowego.
 
 
-   Jak juz zostal/o wskazane na wstepie, podstawowym celem istnienia
-   zwiazku zawodowego jest obrona praw pracownik�w w nim zrzeszonych.
-   W praktyce polega to na tym, ze pracodawca chcac podjac jakies decyzje
-   wiazace wobec pracownik�w wykonujacych prace w jego zakl/adzie
-   pracy, jest zobowiazany do skonsultowania tej kwestii ze zwiazkiem
-   zawodowym funkcjonujacym w tym zakl/adzie pracy.
+   Jak już zostało wskazane na wstępie, podstawowym celem istnienia
+   związku zawodowego jest obrona praw pracowników w nim zrzeszonych.
+   W praktyce polega to na tym, że pracodawca chcąc podjąć jakieś decyzje
+   wiążące wobec pracowników wykonujących pracę w jego zakładzie
+   pracy, jest zobowiązany do skonsultowania tej kwestii ze związkiem
+   zawodowym funkcjonującym w tym zakładzie pracy.
 
-   Wspomniana obrona praw pracownik�w przejawia sie przede wszystkim
+   Wspomniana obrona praw pracowników przejawia się przede wszystkim
 --
-   przez pracodawce. Tyczy sie to przede wszystkim pracownik�w
-   zatrudnionych na podstawie umowy o prace na czas nieokreslony.
+   przez pracodawcę. Tyczy się to przede wszystkim pracowników
+   zatrudnionych na podstawie umowy o pracę na czas nieokreślony.
 
-   Stosownie do tresci art. 251 ust. 1 ustawy o zwiazkach zawodowych,
-   uprawnienia zakl/adowej organizacji zwiazkowej przysl/uguja organizacji
-   zrzeszajacej co najmniej 10 czl/onk�w bedacych:
-     * pracownikami u pracodawcy objetego dzial/aniem tej organizacji lub
-     * innymi niz pracownicy osobami wykonujacymi prace zarobkowa, kt�re
+   Stosownie do treści art. 251 ust. 1 ustawy o związkach zawodowych,
+   uprawnienia zakładowej organizacji związkowej przysługują organizacji
+   zrzeszającej co najmniej 10 członków będących:
+     * pracownikami u pracodawcy objętego działaniem tej organizacji lub
+     * innymi niż pracownicy osobami wykonującymi pracę zarobkową, które
 --
-       objetego dzial/aniem tej organizacji.
+       objętego działaniem tej organizacji.
 
 
-   Zakl/adowa Organizacja Zwiazkowa jest uprawniona do:
+   Zakładowa Organizacja Związkowa jest uprawniona do:
      * zajmowania stanowiska w indywidualnych sprawach pracowniczych
        w zakresie unormowanym w przepisach prawa pracy oraz
-       w indywidualnych sprawach os�b wykonujacych prace zarobkowa
+       w indywidualnych sprawach osób wykonujących pracę zarobkow�
 --
 
 
    Podstawa prawna:
-     * Ustawa z dnia 23 maja 1991 r. o zwiazkach zawodowych (Dz.U. z 2019
+     * Ustawa z dnia 23 maja 1991 r. o związkach zawodowych (Dz.U. z 2019
        r. poz. 263).
 
-   Zobacz takze:
-     * Zmiany w zwiazkach zawodowych
+   Zobacz także:
+     * Zmiany w związkach zawodowych
 
 Potrzebujesz pomocy?
 
 --
    (BUTTON) [copyIcon.png] Skopiuj KRS
-   Przejdz do Tw�j e-PIT
+   Przejdź do Twój e-PIT
 
-Komunikat w zwiazku realizacja obowiazku z art. 13 RODO
+Komunikat w związku realizacją obowiązku z art. 13 RODO
 Informacja nt. Cookies
 
-   Drogi Uzytkowniku!
+   Drogi Użytkowniku!
 --
-   np. firmy IT oraz oczywiscie organy typu sady czy policja, kt�re moga
-   zadac danych na podstawie obowiazujacego prawa.
+   firmy IT oraz oczywiście organy typu sądy czy policja, które mogą żądać
+   danych na podstawie obowiązującego prawa.
 
-   W zwiazku z korzystaniem przez nas z narzedzia Google Analitycs Twoje
-   dane zgromadzone w plikach cookies moga byc przekazywane Google Inc.
-   z siedziba w USA, tj. poza Europejski Obszar Gospodarczy. Przykazywanie
-   odbywac sie bedzie na podstawie regulacji zabezpieczajacych ochrone
+   W związku z korzystaniem przez nas z narzędzia Google Analitycs Twoje
+   dane zgromadzone w plikach cookies mogą być przekazywane Google Inc.
+   z siedzibą w USA, tj. poza Europejski Obszar Gospodarczy. Przykazywanie
+   odbywać się będzie na podstawie regulacji zabezpieczających ochronę
 --
-   w Polityce prywatnosci.
+   w Polityce prywatności.
 
-   Chcesz dowiedziec sie wiecej o zasadach przetwarzania i ochrony danych
-   osobowych w zwiazku z korzystaniem z Serwisu mikroPorady?
+   Chcesz dowiedzieć się więcej o zasadach przetwarzania i ochrony danych
+   osobowych w związku z korzystaniem z Serwisu mikroPorady?
 
-   Przeczytaj wiecej o naszej Polityce Prywatnosci
-   Przeczytaj wiecej o naszej Polityce Cookies
+   Przeczytaj więcej o naszej Polityce Prywatności
+   Przeczytaj więcej o naszej Polityce Cookies

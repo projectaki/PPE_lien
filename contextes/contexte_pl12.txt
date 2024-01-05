@@ -1,56 +1,56 @@
 
-   Sl/ownik wyraz�w bliskoznacznych
+   Słownik wyrazów bliskoznacznych
 
-zwiazek
+związek
 
    (BUTTON)
-     * Stw�rz sciage
+     * Stwórz ściągę
 --
    (BUTTON) 0 Dodaj do listy
-    1. powiazanie, sp�jnosc, l/acznosc, zaleznosc (
+    1. powiązanie, spójność, łączność, zależność (
 
-   zwiazek teorii z praktyka)
-    2. powinowactwo, koneksja, wiez, wezel/ (
+   związek teorii z praktyką)
+    2. powinowactwo, koneksja, więź, węzeł (
 
-   zwiazki krwi)
+   związki krwi)
     1. zrzeszenie, towarzystwo, stowarzyszenie, stronnictwo, zjednoczenie,
-       federacja, sojusz, bractwo, organizacja, korporacja, kol/o (
+       federacja, sojusz, bractwo, organizacja, korporacja, koło (
 
-   zwiazek zawodowy)
-    4. l/acznosc, powiazanie, kontakt, wsp�lnota, jednosc (
+   związek zawodowy)
+    4. łączność, powiązanie, kontakt, wspólnota, jedność (
 
-   zwiazki z natura)
-   (BUTTON) podziel sie
-   Zgl/os
+   związki z naturą)
+   (BUTTON) podziel się
+   Zgłoś
 
 Zobacz podobne
 
-     * zwiazek
-     * zwiazek
-     * Zwiazek Hellenski
-     * Zwiazek Pruski
-     * Zwiazek Koryncki
+     * związek
+     * związek
+     * Związek Helleński
+     * Związek Pruski
+     * Związek Koryncki
 
 Potrzebujesz pomocy?
 
 --
 
-To ci sie przyda
+To ci się przyda
 
-     * Zwiazek Hellenski
-     * Zwiazek Pruski
-     * R�g obfitosci - co oznacza ten zwiazek frazeologiczny?
-     * Definicje i gl/�wne pojecia zwiazek postepowaniem adm...
-     * Objasnij zwiazek  tytul/u z trescia wiersza
-     * wyjasnij zwiazek pomiedzy Wniebowstapieniem Jezusa i...
+     * Związek Helleński
+     * Związek Pruski
+     * Róg obfitości - co oznacza ten związek frazeologiczny?
+     * Definicje i główne pojęcia związek postępowaniem adm...
+     * Objaśnij związek  tytułu z treścią wiersza
+     * wyjaśnij związek pomiędzy Wniebowstąpieniem Jezusa i...
 
-Sprawdz to
+Sprawdź to
 
 --
      * Bryk.pl
-     * sl/owniki
-     * Sl/ownik wyraz�w bliskoznacznych
-     * zwiazek
+     * słowniki
+     * Słownik wyrazów bliskoznacznych
+     * związek
 
-   (BUTTON) �
+   (BUTTON) ×
 

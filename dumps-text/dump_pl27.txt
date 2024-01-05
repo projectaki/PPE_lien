@@ -1,0 +1,142 @@
+   [uwm_logo_2018.png] [rss16.png]
+     * mapa serwisu
+     * słownik skrótów
+     * ePUAP: /UWM/ESP
+     * wyślij e-mail
+
+   _______________
+   Szukaj
+   [bip-napis.png] [newbiplogo3.jpg]
+
+     * menu przedmiotowe
+          + Status prawny
+          + Władze Uniwersytetu
+          + Wewnętrzne akty prawne
+          + Działalność Uniwersytetu
+          + Struktura organizacyjna
+          + Doktoraty i habilitacje
+          + Ogłoszenia i komunikaty
+          + Konkursy na stanowiska nauczycieli akademickich
+          + Oferty zatrudnienia w projektach
+          + Baza dokumentów
+          + Regulaminy
+          + Prowadzone rejestry, ewidencje i archiwa
+          + Studia i studenci
+          + Programy studiów
+          + Oceny Polskiej Komisji Akredytacyjnej
+          + Zamówienia publiczne
+          + Współpraca Międzynarodowa
+     * dostęp do informacji
+          + Podstawa prawna
+          + Deklaracja dostępności strony internetowej Uniwersytetu
+            Warmińsko-Mazurskiego w Olsztynie
+          + Sposób uzyskania
+          + Wniosek o udostępnienie informacji publicznej
+          + Archiwalna wersja strony
+          + Strony usunięte
+     * obsługa biuletynu UWM
+          + Pomoc do BIP UWM
+          + instrukcja BIP UWM
+          + Redakcja
+          + Regulamin BIP UWM
+          + Statystyki
+
+     projekt graficzny : Piotr Kucharzewski
+     wykonanie : Kamil Strzelecki
+   Jesteś tutaj: Strona główna » menu górne
+
+słownik skrótów
+
+   Skrót Definicja ikona sortowania
+   RTF - (Rich Format Text) jeden z podtypów plików tekstowych
+   rtf - (Rich Format Text) jeden z podtypów plików tekstowych
+   ART - Akademia Rolniczo-Techniczna
+   AZS - Akademicki Związek Spotowy
+   BSRUN - Baltic Sea Region University Network
+   BIP - Biuletyn Informacji Publicznej
+   CEIG - Centrum Egzaminacyjne Instytutu Goethego
+   CSUiE - Centrum Szkolenia Uzbrojenia i Elektroniki w Olsztynie
+   czł. rzecz. PAN - członek rzeczywisty Polskiej Akademii Nauk
+   DAAD - Deutscher Akademischer Austauschdienst
+   DS. - do spraw
+   dr. h. c. mult. - doktor honoris causa multorum
+   ODT - dokument tekstowy w formacie OpenDocument
+   DS - Dom Studencki
+   DKS - Dziennikarstwo i Komunikacja Społeczna
+   EFS - Europejski Fundusz Społeczny
+   EFTA - Europejskie Stowarzyszenie Wolnego Handlu (European Free Trade
+   Association)
+   FG - Filologia Germańska
+   FP - Filologia Polska
+   FR - Filologia Rosyjska
+   FRA - Filologia Rosyjska z językiem angielskim
+   FRN - Filologia Rosyjska z jezykiem Niemieckim
+   FUP - Filologia Ukraińsko-Polska
+   xls - format odczytywany za pomocą programu MS Excel
+   doc - format zapisu plików dokumentów tekstowych Microsoft Word
+   FNP - Fundacja na rzecz Nauki Polskiej
+   FNiTP - Fundusz Nauki i Technologii Polskiej
+   HT - Historia
+   HTML - HyperText Markup Language specjalny język służący do opisu
+   strony oraz odniesień z poszczegól
+   IRK - Internetowa Rekrutacja Kandydatów
+   IŚ - Inżynieria Środowiska
+   zip - Jedna z najpopularniejszych metod kompresji plików
+   KZ NSZZ „S” - Komisja Zakładowa Niezależnego Samorządu Związków
+   Zawodowych „Solidarność”
+   KN - Koło Naukowe
+   KRN - Krajowa Rada Nauki
+   REGON - Krajowy rejestr urzędowy podmiotów gospodarki narodowej
+   LLP - Lifelong Learning Programme
+   MNK - Miedzywydziałowe Koło Studenckie
+   MKN - Międzywydziałowe Naukowe Koło
+   MNiSW - Ministerstwo Nauki i Szkolnictwa Wyższego
+   NK - Naukowe Koło
+   NSZZ - Niezależny Samorządny Związek Zawodowy
+   NIP - Numer Identyfikacji Podatkowej
+   PDF - Portable Document Format, format pliku możliwego do odczytania za
+   pomocą bezpłatnego programu
+   pdf - Portable Document Format, format pliku możliwego do odczytania za
+   pomocą bezpłatnego programu
+   RM - Rada Mieszkańców
+   ROA - Rada Osiedla Akademickiego
+   start-up - Spółka nowozakładana lub bardzo wczesnej fazie rozwoju, w
+   którym dużą rolę odgrywa innowacyjny pomysł oraz determinacja
+   pomysłodawcy w jego realizacji.
+   UE - Unia Europejska
+   UWM - Uniwersytet Warmińsko-Mazurski
+   INTRASTAT - wprowadzony w Polsce 1 maja 2004, a funkcjonujący w Unii
+   Europejskiej od 1993 system statystyk związanych z obrotem handlowym
+   pomiędzy państwami członkowskimi Unii Europejskiej.
+   WNM - Wydział Nauk Medycznych
+   WSP - Wyższa Szkoła Pedagogiczna
+   ZPK - Zakładowy Plan Kont
+   ZPORR - Zintegrowany Program Operacyjny Rozwoju Regionalnego
+   ZNP - Związek Nauczycielstwa Polskiego
+   ZNP RSzWiN - Związek Nauczycielstwa Polskiego Rada Szkolnictwa Wyższego
+   i Nauki
+   spin-off - [firma odpryskowa] nowe przedsiębiorstwo powstałe w drodze
+   usamodzielnienia się pracownika/ów przedsiębiorstwa macierzystego lub
+   innej organizacji (np. laboratorium badawczego, szkoły wyższej),
+   wykorzystujące w tym celu intelektualne zasoby organizacji
+   macierzystej. Firmy spin-off posiadają charakter przedsięwzięć
+   niezależnych od organizacji macierzystej.
+   spin-out - [internal start-up] nowe przedsiębiorstwo założone przez
+   pracownika/ów przedsiębiorstwa macierzystego lub innej organizacji (np.
+   laboratorium badawczego, szkoły wyższej), przy wykorzystaniu w tym celu
+   intelektualne oraz materialne zasoby organizacji macierzystej. Firmy
+   spin-out są kapitałowo lub operacyjnie powiązane z organizacj�
+   macierzystą.
+   MNiI - Ministerstwo Nauki i Informatyzacji
+   MNiSzW - Ministerstwo Nauki i Szkolnictwa Wyższego
+   St. Dyd.-Bad. - Stacja Dydaktyczno-Badawcza
+   SNK - Studenckie Koło Naukowe
+   SKN - Studenckie Koło Naukowe
+   ZPD - Zakład Produkcujno-Doświadczalny
+   RCI - Regionalne Centrum Informatyczne
+   [move_to_top_btn.png]
+   Uniwersytet Warmińsko-Mazurski w Olsztynie
+   ul. Oczapowskiego 2, 10-719 Olsztyn, inf. tel. o numerach UWM: + 48 89
+   523-49-13, fax: + 48 89 523-44-56
+   Czas wyświetlenia strony: 05.01.2024 17:36
+   Logowanie

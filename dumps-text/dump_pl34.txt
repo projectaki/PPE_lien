@@ -1,0 +1,228 @@
+
+   IFRAME:
+   http://www.facebook.com/plugins/like.php?app_id=202463933151350&href=ht
+   tp%3A%2F%2Fwww.leksykografia.uw.edu.pl&send=false&layout=button_count&w
+   idth=450&show_faces=true&action=like&colorscheme=light&font&height=21
+
+     * [strona_logo.png]
+       Internetowy przewodnik edukacyjny, red. Mirosław Bańko, Magdalena
+       Majdak, Maciej Czeszewski
+     * [wkl-logo.png]
+     * [uw-logo.png]
+
+     * [homepage.gif]
+     * Wprowadzenie
+     * Słowniki
+     * Hasła diagnostyczne
+     * Literatura
+     * Autorzy
+     * Podziękowania
+     * Mapa strony
+
+   szukaj...___________ [search-btn.png]-Submit
+   [uniwersalny_skan-medium.jpg] [ogolne-icon.gif]
+     *
+     *
+
+   [pdf-icon.png] pobierz hasło diagnostyczne
+   wyświetl hasło diagnostyczne z opisem
+
+Uniwersalny słownik języka polskiego, Warszawa 2003
+
+   red. Stanisław Dubisz
+     * PEŁNY TYTUŁ
+       Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
+       Wydawnictwo Naukowe PWN, Warszawa 2003.
+     * JĘZYK / JĘZYKI
+       Polski.
+     * LICZBA HASEŁ
+       Około 100 tysięcy haseł (około 150 000 jednostek leksykalnych).
+     * UKŁAD HASEŁ
+       Alfabetyczny (na porządek haseł nie mają wpływu odstępy, dywizy
+       oraz znaki diakrytyczne i akcenty w wyrazach obcych).
+     * TWÓRCY
+       Redaktor naukowy, Stanisław Dubisz, jest profesorem zwyczajnym w
+       Uniwersytecie Warszawskim, pracownikiem naukowym i dydaktycznym na
+       Wydziale Polonistyki UW, członkiem m.in. Komitetu Językoznawstwa
+       PAN, Polskiego Towarzystwa Językoznawczego, Towarzystwa Naukowego
+       Warszawskiego, Międzynarodowego Komitetu Slawistów, Rady Języka
+       Polskiego. W latach 1996–2002 i 2005 był dziekanem Wydziału
+       Polonistyki UW. Jego zainteresowania badawcze skupiają się wokół
+       zagadnień rozwoju historycznego i stylistycznych uwarunkowań
+       polszczyzny, słownictwa polszczyzny ogólnej, polskich gwar i
+       dialektów, kontaktów językowo-kulturowych oraz języka polskiego
+       poza granicami kraju.
+     * CHARAKTERYSTYKA
+       Uniwersalny słownik języka polskiego (dalej USJP) jest
+       synchroniczno-diachronicznym, jednojęzycznym słownikiem ogólnym,
+       charakteryzującym się ekstensywnością i selektywnością w doborze
+       materiału oraz ograniczeniem encyklopedyzmu w opisie
+       leksykograficznym. Zasadniczym jego zadaniem jest rejestracja i
+       charakterystyka wyselekcjonowanego zasobu słownictwa współczesnej
+       polszczyzny ogólnej.
+       Geneza USJP wiąże się z projektem opracowania przez Redakcję
+       Słownika Języka Polskiego Wydawnictwa Naukowego PWN rozszerzonego i
+       zmodernizowanego wydania trzytomowego Słownika języka polskiego pod
+       redakcją M. Szymczaka. Rozpoczęte na przełomie 1994 i 1995 r.
+       prace, w wyniku modyfikacji zachodzących w warsztacie
+       leksykograficznym i zmiany koncepcji słownika, zakończyły się
+       przyjęciem nowej formuły słownika rejestrującego leksykę
+       współczesnej polszczyzny i pierwszym wydaniem słownika, które
+       ukazało się w 2003 r. (prace autorskie zakończono na przełomie lat
+       2000 i 2001).
+       Cechą konstytutywną USJP jest przyjęcie zasady jednojęzyczności.
+       Jednostki odnotowane w słowniku należą do zasobu leksykalnego
+       języka polskiego i opisywane są w odniesieniu do polskiego systemu
+       językowego. Warunkiem rejestracji jednostek pochodzenia obcego jest
+       obecność wykładników ich adaptacji fonetycznej (graficznej),
+       gramatycznej lub kulturowej. W słowniku znalazły się także
+       przyswojone kulturowo i ustabilizowane przez polski zwyczaj
+       językowy obcojęzyczne wtręty (cytaty).
+       Jako kryterium doboru materiału leksykalnego i hierarchizacji
+       znaczeń przyjęto w USJP zasadę zakresu (stopnia) upowszechnienia
+       (podstawą był Korpus Języka Polskiego PWN). Celem redaktora
+       słownika było ukazanie całości klas zasobu leksykalnego
+       współczesnego języka polskiego – w USJP odnotowano zatem słownictwo
+       należące zarówno do starannej odmiany polszczyzny, jak i słownictwo
+       codzienne oraz wspólne różnym odmianom polszczyzny, uwzględniając
+       przy tym specjalistyczne znaczenia wyrazów oraz terminologię
+       techniczną i naukową. Zgodnie z przyjętą zasadą selektywności w
+       słowniku nie odnotowano całego współczesnego zasobu polszczyzny,
+       lecz duży, reprezentatywny zbiór jednostek charakteryzujących się
+       wysoką frekwencją użycia i znajdujących się w szerszym obiegu
+       językowym.
+       Zanotowane w USJP jednostki należą zasadniczo do zasobu
+       leksykalnego polszczyzny drugiej połowy XX wieku. Opisem objęto
+       jednak także wybrane historyzmy, pozostające w biernym zasobie
+       słownictwa i – wyjątkowo – archaizmy leksykalne.
+       USJP jest w ostatnich pięćdziesięciu latach drugim chronologicznie
+       po Słowniku języka polskiego pod red. W. Doroszewskiego
+       opracowaniem leksykograficznym rejestrującym tak obszerny zasób
+       słownictwa współczesnej polszczyzny ogólnej, spełniającym wymagania
+       o charakterze normatywnym i dydaktycznym.
+       Słownik otrzymał pozytywną opinię Rady Języka Polskiego (na
+       podstawie recenzji: prof. prof. Andrzeja Markowskiego, Stanisława
+       Gajdy i Jerzego Podrackiego).
+     * INNOWACJE WARSZTATOWE
+       Innowacje warsztatowe w zakresie doboru materiału leksykalnego:
+       ► Uwzględniono w większym niż do tej pory stopniu wyrazy
+       pochodzenia obcego (USJP jest pierwszym słownikiem języka
+       polskiego, w którym zarejestrowano takie jednostki, jak blokers,
+       dżihad, stringi, SMS, e-book).
+       ► W większym niż dotychczas zakresie odnotowano nazwy własne, które
+       do tej pory pojawiały się przede wszystkim w encyklopediach i
+       leksykonach.
+       ► Uwzględniono skróty i skrótowce.
+       ► Materiał leksykalny zgromadzono, opierając się na kartotece
+       cytatów Wydawnictwa Naukowego PWN, kartotece Słownika języka
+       polskiego pod red. W. Doroszewskiego oraz na Korpusie Języka
+       Polskiego PWN.
+       ► Materiał zestawiono proporcjonalnie do zasobu słownictwa
+       podstawowego (wspólnego różnym odmianom), starannego (oficjalnego)
+       i codziennego (potocznego).
+       Innowacje warsztatowe w zakresie sposobu opisu leksykograficznego:
+       ► W artykule hasłowym można znaleźć informacje zawarte w słownikach
+       wyrazów obcych, ortograficznych, poprawnej polszczyzny.
+       ► Artykuł hasłowy obejmuje część leksykalno-frazeologiczną oraz
+       część pragmatyczną.
+       ► Wyrazom hasłowym towarzyszy większa niż w porównywalnych
+       słownikach językowych liczba kwalifikatorów, tworzących system.
+       ► Znacznie ograniczono encyklopedyzm i scjentyzm definicji
+       znaczeniowych w stosunku do Słownika języka polskiego pod redakcj�
+       W. Doroszewskiego.
+       ► Zróżnicowana i obszerna jest egzemplifikacja zamieszczonych w
+       słowniku haseł.
+       ► W informacji etymologicznej podano bezpośrednie źródło
+       zapożyczenia.
+       ► Dokonano zmian w tabelach fleksyjnych (m.in. w zakresie pluraliów
+       tantum, imiesłowów przeszłych, rzeczowników odsłownych).
+     * BUDOWA ARTYKUŁU HASŁOWEGO
+          + pobierz hasło diagnostyczne
+          + wyświetl hasło diagnostyczne z opisem
+          + porównaj hasła diagnostyczne
+     * W USJP można wyróżnić szereg typów artykułów hasłowych. O ich
+       postaci decyduje językowa postać hasła (wyróżniamy tu artykuły
+       hasłowe leksykalne – główny zbiór jednostek słownikowych USJP oraz
+       morfemowe, czyli występujące seryjnie morfemy słowotwórcze i
+       rdzenie wyrazowe pochodzenia obcego),jego przynależność do
+       określonej części mowy, stopień złożoności i pojemność znaczeniowa
+       artykułu hasłowego oraz jego powiązania z innymi hasłami.
+       Pierwszym, wyróżnionym typograficznie przez wytłuszczenie,
+       elementem hasła jest wyraz hasłowy. Zaraz po nim następuje
+       informacja etymologiczna. Kolejnym elementem artykułu hasłowego są,
+       pojawiające się w określonym porządku, kwalifikatory:
+       chronologiczne, stylistyczne, ekspresyjne, profesjonalno-naukowe,
+       socjolektalno-środowiskowe, geograficzne. Kwalifikatory
+       towarzyszące terminom i związkom frazeologicznym umieszczane s�
+       zwykle po symbolach graficznych i skrótach.
+       Kolejne znaczenia w haśle zasadniczo uszeregowane są od znaczeń
+       podstawowych do znaczeń specjalistycznych i przestarzałych.
+       Porządek ten w niektórych hasłach może ulec zmianie, gdyż kolejnym
+       kryterium jest stopień ich upowszechnienia.
+       Sposób konstruowania definicji znaczeniowych w USJP uzależniony
+       jest od typu wyrazu hasłowego – można tu wyróżnić definicje
+       realnoznaczeniowe, strukturalnoznaczeniowe, strukturalne,
+       zakresowe, synonimiczne oraz gramatyczne.
+       Poszczególne znaczenia w artykule hasłowym opatrzone są przykładami
+       mającymi ukazać typową łączliwość leksykalno-składniową wyrazów
+       hasłowych oraz ich typowe konteksty stylistyczno-znaczeniowe. Wśród
+       przykładów egzemplifikujących wyróżnić można przykłady oryginalne i
+       preparowane oraz przykłady pełnozdaniowe i skrócone (mające postać
+       zestawień wyrazowych bądź połączeń leksykalno-składniowych).
+       Ostatnimi segmentami artykułu hasłowego (nie wszystkie elementy
+       opisu muszą pojawić się w haśle) są informacja o wymowie i pisowni
+       oraz informacja słowotwórcza, fleksyjna i składniowa. Informacja o
+       wymowie i pisowni, oddzielona za pomocą separatora, ma charakter
+       zindywidualizowany. Informacja fleksyjna i składniowa w artykule
+       hasłowym USJP jest ograniczona. Pełnej informacji o formach
+       fleksyjnych poszczególnych wyrazów hasłowych należy szukać w
+       tabelach fleksyjnych zamieszczonych we wstępie do słownika – do
+       wyodrębnionej w tabeli grupy fleksyjnej rzeczowników i czasowników
+       odsyłają cyfry rzymskie podane w artykule hasłowym.
+     * WYDANIA
+       1. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
+       PWN, Warszawa 2003 (wydanie standardowe z płytą CD-ROM).
+       2. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–6,
+       PWN, Warszawa 2003 (wydanie luksusowe z Indeksem a tergo oraz płyt�
+       CD-ROM zawierającą próbkę Korpusu Języka Polskiego PWN).
+       3. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
+       PWN, Warszawa 2008 (wydanie standardowe z płytą CD-ROM, zawierając�
+       bazę relacji leksykalnych opartą na Wielkim słowniku wyrazów
+       bliskoznacznych i bazę związków frazeologicznych opartą na Wielkim
+       słowniku frazeologicznym PWN).
+     * WERSJA ELEKTRONICZNA
+       1. Wersja internetowa dostępna jest za opłatą pod adresem:
+       http://usjp.pwn.pl Zawiera dodatkowo przeszło stutysięczną bazę
+       wyrazów bliskoznacznych, jak również dostępne z menu słownika
+       przysłowia, związki frazeologiczne i terminy specjalistyczne z
+       objaśnieniami.
+       2. Uniwersalny słownik języka polskiego PWN, wersja 2.0, pwn. pl.
+       sp. z o.o. we współpracy z Wydawnictwem Naukowym PWN SA, Warszawa
+       2010. Płyta zawiera bazę wyrazów bliskoznacznych oraz indeks a
+       tergo.
+       3. Wersja elektroniczna na płytach CD-ROM dołączonych do kolejnych
+       wydań drukowanych. Uboższa funkcjonalnie od wersji wyżej
+       wymienionych.
+     * LITERATURA
+       Dubisz S., Słownik i słownictwo, [w:] Uniwersalny słownik języka
+       polskiego, red. S. Dubisz, t. 1, PWN, Warszawa 2003, s. IX–LXX.
+       Kwapień E., Informacja etymologiczna w słownikach ogólnych języka
+       polskiego, „Poradnik Językowy” 2010, nr 7, s. 50–65. >link<
+       Majdak M., Kwalifikatory jako narzędzie opisu słowa w największych
+       powojennych słownikach języka polskiego, „Prace Filologiczne” XLIX,
+       2004, s. 283–316.
+       Porayski-Pomsta J., Słownictwo pochodzenia obcego w „Uniwersalnym
+       słowniku języka polskiego”, „Poradnik Językowy” 2006, nr 4, s.
+       58–69. >link<
+       Porayski-Pomsta J., Słownictwo pochodzenia obcego w „Uniwersalnym
+       słowniku języka polskiego”, „Prace Filologiczne” LI, 2006, s.
+       329–341.
+     *   Opracowanie: mgr Jowita Latko
+     *   Konsultacja: prof. dr hab. Stanisław Dubisz
+
+   Kontakt Linki
+   Projekt wsparli finansowo:
+   [wp-logo.png] [fuw-logo.png] [fuv-logo.png] [samorzad-logo.png]
+   [rk-logo.png] [instytut-logo.png]
+   Copyrights © 2011 Uniwersytet Warszawski | Projekt graficzny i
+   wdrożenie: Q STUDIO

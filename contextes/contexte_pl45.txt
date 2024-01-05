@@ -1,50 +1,52 @@
-   ZWIAZEK JEST co to jest
+   ZWIĄZEK JEST co to jest
 
-   Definicja is-a relationship co to znaczy. Sl/ownik Zwiazek zawierania
-   sie zakres�w znaczeniowych.
-   zwiazek co to jest
+   Definicja is-a relationship co to znaczy. Słownik Związek zawierania
+   się zakresów znaczeniowych.
+   związek co to jest
 
-   (BUTTON) Pokaz Menu
-     * Pojecia
+   (BUTTON) Pokaż Menu
+     * Pojęcia
 --
 
    (BUTTON) Nie
 
-Definicja zwiazek "jest"
+Definicja związek "jest"
 
    Definicja z ang. the "is" relationship, z niem. die "ist" -Beziehung.
 
    Znaczenie z ang. is-a relationship w informatyce:
 
-   Co to znaczy ZWIAZEK "JEST": Zwiazek zawierania sie zakres�w
-   znaczeniowych pojec (zbior�w obiekt�w), na przykl/ad zwiazek miedzy
-   definicja STUDENT i definicja OSOBA: STUDENT "jest" OSOBA. Zwiazek
-   "jest" jest odmiennie okreslany jako generalizacja/specjalizacja. Jest
-   on takze praktycznie tozsamy ze zwiazkami dziedziczenia wyznaczajacymi
-   hierarchie klas.
+   Co to znaczy ZWIĄZEK "JEST": Związek zawierania się zakresów
+   znaczeniowych pojęć (zbiorów obiektów), na przykład związek między
+   definicją STUDENT i definicją OSOBA: STUDENT "jest" OSOBA. Związek
+   "jest" jest odmiennie określany jako generalizacja/specjalizacja. Jest
+   on także praktycznie tożsamy ze związkami dziedziczenia wyznaczającymi
+   hierarchię klas.
    [INS: :INS]
 
-   Czym jest Jest Zwiazek znaczenie w Sl/ownik definicji Z .
+   Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zl/ozony Atrybut:
-          Por�wnanie Zobacz: atrybut zl/ozony zwiazek "jest" co znaczy.
+   Co znaczy Zgodność Typów:
+          Porównanie ustalające, kiedy typ T1 pewnego bytu
+          programistycznego wydedukowany opierając się na reguł
+          wnioskowania o typie (type inference rules) jest zgodny z typem
+          T2, występującym w deklaracji tego typu związek "jest" co
+          znaczy.
 
-   Krzyz�wka Zmienialny:
-          Dlaczego Ustalenie wyznacznika albo innej cechy posiadajacej
-          wl/asnosc zmienialnosci; zobacz: zmienialnosc zwiazek "jest"
-          krzyz�wka.
+   Krzyżówka Zdarzenie-Warunek-Akcja:
+          Dlaczego reguł. Czynna reguła uaktywnia się w rezultacie
+          pojawienia się określonego dla niej zdarzenia; jeśli po nim
+          spełniony jest określony warunek, to wówczas podejmowana jest
+          akcja. Zobacz także: czynne związek "jest" krzyżówka.
 
-   Co to jest Zl/ozonosc:
-          Jak lepiej miara ilosciowa albo miara jakosciowa
-          odzwierciedlajaca stopien skomplikowania danego problemu, poziom
-          trudnosci rozwiazania problemu, albo stopien skomplikowania
-          pewnego tworu ludzkiej dzial/alnosci zwiazek "jest" co to jest.
+   Co to jest Zmienna Klasowa:
+          Jak lepiej Zobacz: zmienna klasy związek "jest" co to jest.
 
-   Sl/ownik Zbi�r:
-          Kiedy obiektowych baz danych (na przykl/ad ODMG), konstruktor
-          typ�w/klas nawiazujacy do matematycznego definicje zbioru.
-          Przedmiot albo wartosc typu zestaw mozna dowolnie zwiekszac o
-          nowe przedmioty i zwiazek "jest" sl/ownik.
+   Słownik Zapytanie Ad Hoc:
+          Kiedy Pytanie, które jest sformułowane interakcyjnie poprzez
+          użytkownika (bezpośrednio z jego końcówki). Przeciwieństwem jest
+          pytanie zanurzone (embedded), stanowiące fragment programu
+          aplikacyjnego związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
@@ -52,20 +54,20 @@ Definicja zwiazek "jest"
        danych.http://www.pmg.lcs.mit.edu/Thor.html czym jest
      __________________________________________________________________
 
-Co oznacza zwiazek "jest" znaczenie is-a relationship sl/ownik
+Co oznacza związek "jest" znaczenie is-a relationship słownik
 
-   Co to jest Jest Zwiazek wyjasnienie.
+   Co to jest Jest Związek wyjaśnienie.
 
-   Jak dzial/a zwiazek "jest" definicja IS-A RELATIONSHIP tl/umaczenie.
+   Jak działa związek "jest" definicja IS-A RELATIONSHIP tłumaczenie.
 
    What is the "is" relationship definition.
 
 --
 
-   2009-2024 � Sl/ownik na zajebistyka.pl
+   2009-2024 © Słownik na zajebistyka.pl
 
-   Co to znaczy zwiazek definicja.
+   Co to znaczy związek definicja.
 
-   Korzystajac z serwisu akceptujesz Polityka prywatnosci.
+   Korzystając z serwisu akceptujesz Polityka prywatności.
 
-   Tl/umaczenie zwiazek co to znaczy.
+   Tłumaczenie związek co to znaczy.

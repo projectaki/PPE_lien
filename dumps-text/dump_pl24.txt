@@ -1,0 +1,332 @@
+   #Money.pl RSS
+
+   Trwa ładowanie...
+
+   (BUTTON)
+   [bmV5LnN2TQw3VzpdYUlAGXQPbg0-Wj0AOVspF3wQTk8jF3ZMYVYLHiIaPxovRgsOeVgjAC
+   tLTB4gUm4T] Money.pl
+   [Z2luLnN2dVMNFzpdYUl4Rk5Pbg0-WgVfAxspF3wQdhAZV3ZMYVYzQRhaPxovRjNRQzoiCw
+   JdPVsCWz8YKRAn]
+   Zaloguj
+
+     * [ZERvdC5zdSQzFBJwGgF4MXBMRiBFEgUoPRgBOgdYdmcnVF5hGh4zNiZZFzdUDjMmfR
+       sLLVADGCknEzYmUT41MXwFEiQXBw]
+       (BUTTON)
+     * Giełda
+          + Notowania GPW
+          + Spółki GPW
+          + Porównanie spółek
+          + Giełda na żywo
+          + Giełdy światowe
+          + Komunikaty ESPI
+          + Surowce
+          + Narzędzia giełdowe
+          + Portfel
+     * Waluty
+          + Kursy walut
+          + Kalkulator walutowy
+          + Bitcoin
+          + Forex
+          + Depozyty
+     * Dla przedsiębiorców
+          + Jak założyć firmę
+          + Faktoring dla firm
+          + Poradniki
+          + PKD
+          + PKWiU
+     * Mobility
+     * Praca
+          + Oferty pracy
+          + Wynagrodzenia
+          + Kalkulator PPK
+          + Kalkulator wynagrodzeń
+     * Biznes i Gospodarka
+          + BizTech
+          + Ekologia, OZE, ESG
+          + Nieruchomości i budownictwo
+          + Emerytury
+          + Prawo
+          + Kariera i rynek pracy
+          + Finanse osobiste
+     * Kalkulatory
+          + Kalkulator Polskiego Ładu
+          + Kalkulator urlopu macierzyńskiego
+          + Kalkulator odsetkowy
+          + Kalkulator zakupów na firmę
+          + Kalkulator składek ZUS
+          + Kalkulator wynagrodzenia za pracę w nadgodzinach
+          + Kalkulator dat
+          + Kalkulator wynagrodzenia chorobowego
+          + Kalkulator ekwiwalentu za urlop wypoczynkowy
+          + Kalkulator stażu pracy
+          + Kalkulator kredytu hipotecznego
+          + Kalkulator składek ZUS dla działalności gospodarczej
+     * Strefa money
+          + Biznes Klasa
+          + Program Money
+          + Nagroda Money
+          + Pomysł Na Dom
+          + Stan gospodarki
+          + Wybory parlamentarne 2023
+          + Obietnice wyborcze 2023
+     * Wydarzenia
+          + Impact
+          + Kongres 590
+          + Forum Ekonomiczne
+          + Szczyt Klimatyczny Togetair
+          + Zapytaj Notariusza
+          + Krynica Forum 2022
+          + Krynica Forum 2023
+          + Rynek nieruchomości - INPON 2023
+          + Wyższy poziom chmury
+          + Cybersec Forum
+          + Kongres ESG Polska Moc Biznesu
+          + II Europejski Kongres Sportu I Turystyki
+     * Podatki
+          + Wiadomości podatkowe
+          + Pit
+          + Formularze podatkowe
+          + Poradniki podatkowe
+          + Znajdź Adres
+     * Prawo
+          + Wiadomości
+     * Twoje finanse (REKLAMA)
+     * Fundusze
+          + Wiadomości
+          + Profile funduszy
+          + Wyszukiwarka fundusz
+          + Stopa zwrotu z funduszy
+          + Kalkulator prowizji
+          + Kalkulator zysku
+          + Archiwum Funduszy
+     * Banki
+          + Poradniki
+     * Ubezpieczenia
+     * Emerytury
+          + Poradniki
+
+     * Giełda
+            NARZĘDZIA
+          + Notowania GPW
+          + Spółki GPW
+          + Porównanie spółek
+          + Giełda na żywo
+          + Giełdy światowe
+          + Komunikaty ESPI
+          + Surowce
+          + Narzędzia giełdowe
+          + Portfel
+     * Waluty
+            NARZĘDZIA
+          + Kursy walut
+          + Kalkulator walutowy
+          + Bitcoin
+          + Forex
+          + Depozyty
+     * Dla przedsiębiorców
+          + Jak założyć firmę
+          + Faktoring dla firm
+          + Poradniki
+            NARZĘDZIA
+          + PKD
+          + PKWiU
+     * Mobility
+     * Praca
+            NARZĘDZIA
+          + Oferty pracy
+          + Wynagrodzenia
+          + Kalkulator PPK
+          + Kalkulator wynagrodzeń
+     * Biznes i Gospodarka
+          + BizTech
+          + Ekologia, OZE, ESG
+          + Nieruchomości i budownictwo
+          + Emerytury
+          + Prawo
+          + Kariera i rynek pracy
+          + Finanse osobiste
+     * Kalkulatory
+            NARZĘDZIA
+          + Kalkulator Polskiego Ładu
+          + Kalkulator urlopu macierzyńskiego
+          + Kalkulator odsetkowy
+          + Kalkulator zakupów na firmę
+          + Kalkulator składek ZUS
+          + Kalkulator wynagrodzenia za pracę w nadgodzinach
+          + Kalkulator dat
+          + Kalkulator wynagrodzenia chorobowego
+          + Kalkulator ekwiwalentu za urlop wypoczynkowy
+          + Kalkulator stażu pracy
+          + Kalkulator kredytu hipotecznego
+          + Kalkulator składek ZUS dla działalności gospodarczej
+     * Strefa
+       [ZERvdC5zdSQzFBJwGgF4MXBMRiBFEgUoPRgBOgdYdmcnVF5hGh4zNiZZFzdUDjMmfR
+       sLLVADHTczDzYmUT41MXwFEiQXBw]
+          + Biznes Klasa
+          + Program Money
+          + Nagroda Money
+          + Pomysł Na Dom
+          + Stan gospodarki
+          + Wybory parlamentarne 2023
+          + Obietnice wyborcze 2023
+     * Wydarzenia
+          + Impact
+          + Kongres 590
+          + Forum Ekonomiczne
+          + Szczyt Klimatyczny Togetair
+          + Zapytaj Notariusza
+          + Krynica Forum 2022
+          + Krynica Forum 2023
+          + Rynek nieruchomości - INPON 2023
+          + Wyższy poziom chmury
+          + Cybersec Forum
+          + Kongres ESG Polska Moc Biznesu
+          + II Europejski Kongres Sportu I Turystyki
+
+   Strona główna
+   W.Brytania: Oksfordzki słownik "myśli" nad nową definicją małżeństwa
+   Notowania
+   ____________________
+   (BUTTON)
+   (BUTTON)
+   (BUTTON)
+   Przejdź na
+   26.07.2013 21:04
+
+W.Brytania: Oksfordzki słownik "myśli" nad nową definicją małżeństwa
+
+   (BUTTON)
+   0
+   (BUTTON)
+   Podziel się:
+   (BUTTON)
+   (BUTTON)
+   (BUTTON)
+   (BUTTON)
+   0
+   (BUTTON)
+   Podziel się:
+   (BUTTON)
+   (BUTTON)
+   (BUTTON)
+
+   Jeden z normatywnych słowników języka angielskiego, wydawany przez
+   uniwersytet oksfordzki Oxford English Dictionary, nie wyklucza zmiany
+   słownikowej definicji
+   małżeństwa w przyszłych wydaniach, jeśli uzna, że słowo to nabrało
+   nowego znaczenia.
+
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+Jeden z normatywnych słowników języka angielskiego, wydawany przez
+uniwersytet oksfordzki Oxford English Dictionary, nie wyklucza zmiany
+słownikowej definicji małżeństwa w przyszłych wydaniach, jeśli uzna, że słowo
+to nabrało nowego znaczenia.
+
+   Komitet redakcyjny w najbliższym roku będzie monitorował użycie i
+   znaczenie słowa "małżeństwo" w świetle zmian w prawie zrównujących
+   małżeństwa homoseksualne z heteroseksualnymi - cytuje gejowska gazeta
+   "Gay Star News" rzecznika wydawcy Oxford University Press.
+
+   Każde nowe wydanie słownika uwzględnia nowe słowa: te, które stały się
+   modne, nabrały nowego znaczenie bądź zadomowiły w mowie potocznej.
+   Słownik zawiera zwięzłą definicję pojęć i wyrazy bliskoznaczne.
+
+   "Systematycznie monitorujemy słowa w naszych słownikach, zwracając
+   szczególną uwagę na słowa, które zmieniają znaczenie, i tak też
+   postąpimy z małżeństwem" - wyjaśnił rzecznik.
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   "Oxford English Dictionary tym różni się od innych słowników, że jest
+   także historycznym zapisem języka. Oznacza to, że znaczenie, które
+   słowa miały w przeszłości, pozostanie w nim, nawet jeśli zmiany w
+   języku przydają im nowych znaczeń" - dodał.
+
+   Obecna definicja małżeństwa na internetowym portalu słownika definiuje
+   małżeństwo jako "sformalizowany związek mężczyzny i kobiety, uznany
+   prawnie, na mocy którego są oni mężem i żoną".
+
+   Książkowa wersja kieszonkowa mówi "o prawnym związku mężczyzny i
+   kobiety dla wspólnego pożycia i często prokreacji".
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   Słownikowe znaczenie pojęcia małżeństwa zmienił już francuski słownik
+   Larousse'a, uznając, iż jest to "uroczysty akt między osobami tej samej
+   bądź różnej płci, decydujących się na zawarcie związku". Z kolei
+   kanadyjski "Space Dictionary" pomija odniesienie małżeństwa do płci,
+   uznając małżeństwo za stan, w którym tkwi para małżonków, dobrowolnie
+   wiążąc się na życie bądź przynajmniej do czasu rozwodu.
+
+   Portal Huffington Post donosi, że z początkiem lipca grupa gejowskich
+   aktywistów o nazwie HACKmarriage rozpoczęła w San Francisco akcję
+   zaklejania haseł zawierających tradycyjną definicję małżeństwa w
+   słownikach dostępnych w księgarniach i bibliotekach naklejkami z ich
+   własną, politycznie poprawną, definicją. Nazwa grupy składa się z
+   czasownika "hack", oznaczającego włamywanie się do systemów
+   komputerowych oraz marriage - małżeństwa.
+
+   Uuchwaloną w czerwcu ustawę o równouprawnieniu małżeństw
+   homoseksualnych z heteroseksualnymi królowa Elżbieta II podpisała 17
+   lipca. Nie obowiązuje ona Kościołów. Rząd przeforsował ją z poparciem
+   laburzystowskiej opozycji mimo oporów rządzącej partii konserwatywnej.
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   Od 2005 r. geje mogą w Wielkiej Brytanii zawierać tzw. cywilnoprawne
+   związki partnerskie. Pierwsze małżeństwo spodziewane jest latem 2014
+   roku.(PAP)
+
+   asw/ klm/ kar/
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+   wiadomości
+   pap
+   Oceń jakość naszego artykułu:
+   Twoja opinia pozwala nam tworzyć lepsze treści.
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+   Źródło:
+   PAP
+   KOMENTARZE
+   (0)
+   [Sortuj wedługg]
+   ____________________
+   (BUTTON) WYŚLIJ
+
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   [bGRlci5wTSYzDhVaGgxAM3BWQQpFHz0qPQIGEAdVTmUnTllLGhMLNCZDEB1UAwskfQENEB
+   gHDiYxCQsGWRMHNXwcDQ4XCg]
+
+   MONEY.PL na skróty
+   Kursy walutPrzelicznik walutKurs euroNew ConnectListy ofert
+   pracyKredyty firmowe
+   Kurs funta brytyjskiegoCena złotaWykresy funduszyTarcza
+   antykryzysowaPraca w miastachKalkulator lokatowy
+   Kurs frankaAkcje PKO BPGłówne wskaźniki
+   makroekonomiczneKoronawirusPożyczki onlineRedakcja Money.pl
+   WIG20Sesje elixirUrzędy skarboweZasiłek dla bezrobotnychKonta
+   firmoweWybory parlamentarne 2023
+   Ceny paliwZakaz handluKredyty hipoteczneKodeks pracyRanking kredytów
+   gotówkowych
+   Kalkulator wynagrodzeń 2023Kalkulator odsetkowyPKB w UEBaza ZUSKredyt
+   konsolidacyjny
+   MONEY.PL
+   O nasReklamaKontaktMapa serwisu
+   RegulaminPolityka prywatnościUstawienia prywatnościPomoc
+   Archiwum wg datArchiwum wg autorówDla webmasterówRSS
+   TotalMoney.pl
+   (REKLAMA)
+   MONEY.PL JEST CZĘŚCIĄ GRUPY WIRTUALNA POLSKA
+
+   © 2024 WIRTUALNA POLSKA MEDIA S.A.

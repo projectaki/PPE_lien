@@ -1,232 +1,256 @@
 
-     3Wl/adze
-   (BUTTON) Przel/acz podsekcje Wl/adze
-     * 3.1Rada Zwiazku Bank�w Polskich
+     3Władze
+   (BUTTON) Przełącz podsekcję Władze
+     * 3.1Rada Związku Banków Polskich
 
-     3.2Zarzad Zwiazku Bank�w Polskich
-
-
-
---
-
-
-
-   6Zwiazek Bank�w Polskich w instytucjach miedzynarodowych
-
-
-
-   7Podmioty stowarzyszone ze Zwiazkiem Bank�w Polskich
-
-
-
-   8Bankowy Arbitraz Konsumencki przy Zwiazku Bank�w Polskich
-
-
-
-   9Sad Polubowny przy Zwiazku Bank�w Polskich
+     3.2Zarząd Związku Banków Polskich
 
 
 
 --
 
-   [ ] Przel/acz stan spisu tresci
 
-Zwiazek Bank�w Polskich
 
-   [ ] 2 jezyki
+   6Związek Banków Polskich w instytucjach międzynarodowych
+
+
+
+   7Podmioty stowarzyszone ze Związkiem Banków Polskich
+
+
+
+   8Bankowy Arbitraż Konsumencki przy Związku Banków Polskich
+
+
+
+   9Sąd Polubowny przy Związku Banków Polskich
+
+
+
+--
+
+   [ ] Przełącz stan spisu treści
+
+Związek Banków Polskich
+
+   [ ] 2 języki
      * Deutsch
 --
 
    CAPTION:
 
-   Zwiazek Bank�w Polskich
+   Związek Banków Polskich
    Ilustracja
-   Siedziba Zwiazku Bank�w Polskich przy ul. Kruczkowskiego 8 w Warszawie
-          Panstwo
+   Siedziba Związku Banków Polskich przy ul. Kruczkowskiego 8 w Warszawie
+          Państwo
 
     Polska
 --
-    brak wsp�l/rzednych
+    brak współrzędnych
    Strona internetowa
 
-   Zwiazek Bank�w Polskich - izba gospodarcza zrzeszajaca banki w Polsce,
-   powol/ana do zycia w styczniu 1991 roku.
+   Związek Banków Polskich – izba gospodarcza zrzeszająca banki w Polsce,
+   powołana do życia w styczniu 1991 roku.
 
-   Misja Zwiazku Bank�w Polskich jest "dzial/anie na rzecz tworzenia
-   warunk�w zr�wnowazonego rozwoju polskiego sektora bankowego, wspierania
+   Misją Związku Banków Polskich jest „działanie na rzecz tworzenia
+   warunków zrównoważonego rozwoju polskiego sektora bankowego, wspierania
    przez banki wzrostu gospodarczego kraju oraz jednolitego europejskiego
-   rynku usl/ug finansowych i wzmacniania roli polskich bank�w".
-   Czl/onkostwo ma charakter dobrowolny i obejmuje banki dzial/ajace na
-   obszarze Rzeczypospolitej Polskiej, utworzone i funkcjonujace zgodnie z
-   normami polskiego prawa. Do Zwiazku Bank�w Polskich nalezy l/acznie 106
-   bank�w komercyjnych, oddzial/�w instytucji kredytowych oraz bank�w
-   sp�l/dzielczych, kt�rych aktywa obejmuja ponad 95% sektora bankowego w
+   rynku usług finansowych i wzmacniania roli polskich banków”.
+   Członkostwo ma charakter dobrowolny i obejmuje banki działające na
+   obszarze Rzeczypospolitej Polskiej, utworzone i funkcjonujące zgodnie z
+   normami polskiego prawa. Do Związku Banków Polskich należy łącznie 106
+   banków komercyjnych, oddziałów instytucji kredytowych oraz banków
+   spółdzielczych, których aktywa obejmują ponad 95% sektora bankowego w
    Polsce.
 
-   Siedziba zwiazku znajduje sie przy ul. Kruczkowskiego 8 w Warszawie.
+   Siedziba związku znajduje się przy ul. Kruczkowskiego 8 w Warszawie.
 
 Historia[edytuj | edytuj kod]
 
 --
-   bankowosci sp�l/dzielczej pod przewodnictwem prezesa NBP Wl/adysl/awa
-   Baki. W nastepstwie poczynionych uzgodnien wyl/oniono Grupe
-   Inicjatywna, kt�rej powierzono prowadzenie prac organizacyjnych nad
-   powstaniem zwiazku. W skl/ad grupy weszli prezesi 9 bank�w: Marian
-   Krzak (PKO BP) jako przewodniczacy, a takze Marian Kanton (Pekao S.A.),
-   Antoni Maciejewski (Bank Ziemski), Romuald Meyer (Bydgoski Bank
-   Komunalny), Aleksy Misiejuk (Agrobank), Zygmunt Niewiarowski (Banku
-   Amerykanski w Polsce), Marian Rajczyk (Bank Slaski), Andrzej Szukalski
-   (Powszechny Bank Gospodarczy w L/odzi) i Ryszard Slazak (Warszawski
-   Bank Zachodni). W wyniku jej pracy sporzadzono koncepcje funkcjonowania
-   zwiazku, podstawe prawna dzial/ania i tresc aktu zal/ozycielskiego^[1].
+   bankowości spółdzielczej pod przewodnictwem prezesa NBP Władysława
+   Baki. W następstwie poczynionych uzgodnień wyłoniono Grupę Inicjatywną,
+   której powierzono prowadzenie prac organizacyjnych nad powstaniem
+   związku. W skład grupy weszli prezesi 9 banków: Marian Krzak (PKO BP)
+   jako przewodniczący, a także Marian Kanton (Pekao S.A.), Antoni
+   Maciejewski (Bank Ziemski), Romuald Meyer (Bydgoski Bank Komunalny),
+   Aleksy Misiejuk (Agrobank), Zygmunt Niewiarowski (Banku Amerykański w
+   Polsce), Marian Rajczyk (Bank Śląski), Andrzej Szukalski (Powszechny
+   Bank Gospodarczy w Łodzi) i Ryszard Ślązak (Warszawski Bank Zachodni).
+   W wyniku jej pracy sporządzono koncepcję funkcjonowania związku,
+   podstawę prawną działania i treść aktu założycielskiego^[1].
 
-   Zwiazek zostal/ zal/ozony na mocy aktu zal/ozycielskiego sygnowanego
-   przez przedstawicieli 102 bank�w (banku panstwowego, bank�w w formie
-   sp�l/ki akcyjnej i bank�w sp�l/dzielczych) 24 stycznia 1991.
-   Przedstawiciele 5 bank�w wymienionych w akcie nie zl/ozyli na nim
+   Związek został założony na mocy aktu założycielskiego sygnowanego przez
+   przedstawicieli 102 banków (banku państwowego, banków w formie spółki
+   akcyjnej i banków spółdzielczych) 24 stycznia 1991. Przedstawiciele 5
+   banków wymienionych w akcie nie złożyli na nim swoich podpisów^[2].
 --
 
 Zadania[edytuj | edytuj kod]
 
-   Do zadan statutowych Zwiazku nalezy reprezentowanie i ochrona wsp�lnych
-   interes�w jego czl/onk�w, m.in. w zakresie uregulowan prawnych
-   dotyczacych ustawodawstwa bankowego, a takze wydawanie opinii i
-   ekspertyz oraz delegowanie przedstawicieli do udzial/u w pracach
+   Do zadań statutowych Związku należy reprezentowanie i ochrona wspólnych
+   interesów jego członków, m.in. w zakresie uregulowań prawnych
+   dotyczących ustawodawstwa bankowego, a także wydawanie opinii i
+   ekspertyz oraz delegowanie przedstawicieli do udziału w pracach
 --
-   popieranie ksztal/cenia zawodowego i koordynacja program�w
-   szkoleniowych dla kadry bankowej.
+   popieranie kształcenia zawodowego i koordynacja programów szkoleniowych
+   dla kadry bankowej.
 
-   Do zadan Zwiazku nalezy w szczeg�lnosci:
+   Do zadań Związku należy w szczególności:
 
-   1. tworzenie sprzyjajacych warunk�w organizacyjnych i prawnych rozwoju
-   sektora bankowego poprzez wsp�l/dzial/anie z organami panstwa
+   1. tworzenie sprzyjających warunków organizacyjnych i prawnych rozwoju
+   sektora bankowego poprzez współdziałanie z organami państwa
 --
-          + arbitrazu bankowego na rzecz klient�w bank�w (konsument�w).
+          + arbitrażu bankowego na rzecz klientów banków (konsumentów).
 
-   Zadania ZBP realizuja specjalnie powol/ane w tym celu zespol/y, rady i
-   komitety. W ramach Zwiazku i jego biura dzial/a kilkadziesiat zespol/�w
-   problemowych, komitet�w, rad, komisji i podkomisji, kt�rych zadaniem
+   Zadania ZBP realizują specjalnie powołane w tym celu zespoły, rady i
+   komitety. W ramach Związku i jego biura działa kilkadziesiąt zespołów
+   problemowych, komitetów, rad, komisji i podkomisji, których zadaniem
    jest opracowywanie i wydawanie opinii oraz stanowisk w sprawach
-   decydujacych dla funkcjonowania polskiego systemu bankowego. Pel/nia
-   one takze role integrujaca srodowisko bankowe wok�l/ wsp�lnie
-   realizowanych przedsiewziec.
+   decydujących dla funkcjonowania polskiego systemu bankowego. Pełnią one
+   także rolę integrującą środowisko bankowe wokół wspólnie realizowanych
+   przedsięwzięć.
 
-   Przedstawiciele Zwiazku biora udzial/ w pracach Rady ds. Systemu
-   Pl/atniczego przy NBP, Bankowego Funduszu Gwarancyjnego, konsultacjach
-   z Ministerstwem Finans�w, komisjami stal/ymi Sejmu RP, Komisja Nadzoru
-   Finansowego, a takze czynnie uczestnicza w pracach Koalicji na rzecz
-   Obrotu Bezgot�wkowego i Mikropl/atnosci oraz Zwiazku Wojew�dztw RP.
-   Zwiazek uczestniczy w pracach Fundacji Godl/a "Teraz Polska", patronuje
-   Forum Finansowemu "Twoje Pieniadze", jest organizatorem cyklicznych
+   Przedstawiciele Związku biorą udział w pracach Rady ds. Systemu
+   Płatniczego przy NBP, Bankowego Funduszu Gwarancyjnego, konsultacjach z
+   Ministerstwem Finansów, komisjami stałymi Sejmu RP, Komisją Nadzoru
+   Finansowego, a także czynnie uczestniczą w pracach Koalicji na rzecz
+   Obrotu Bezgotówkowego i Mikropłatności oraz Związku Województw RP.
+   Związek uczestniczy w pracach Fundacji Godła „Teraz Polska”, patronuje
+   Forum Finansowemu „Twoje Pieniądze”, jest organizatorem cyklicznych
    konferencji: Forum Bankowe, SEPA Forum Polska, Kongres Gospodarki
-   Elektronicznej, Forum Korporacyjne, Kongres Finansowania Nieruchomosci
+   Elektronicznej, Forum Korporacyjne, Kongres Finansowania Nieruchomości
 --
 
-Wl/adze[edytuj | edytuj kod]
+Władze[edytuj | edytuj kod]
 
-   Rada Zwiazku ma uprawnienia nadzorcze i kontrolne. Organ ten okresla
-   zasadnicze zal/ozenia dla srodowiska bankowego i wskazuje zakres prac
-   zarzadu Zwiazku Bank�w Polskich. Funkcje przewodniczacego rady pel/nia
-   kolejno przez rok przewodniczacy trzech sekcji bankowych. Zwiazek
-   reprezentuje na zewnatrz oraz kieruje jego biezaca dzial/alnoscia
-   operacyjna zarzad, wybierany przez walne zgromadzenie na trzyletnia
-   kadencje. W skl/ad zarzadu wchodza prezes oraz od 1 do 4 wiceprezes�w.
+   Rada Związku ma uprawnienia nadzorcze i kontrolne. Organ ten określa
+   zasadnicze założenia dla środowiska bankowego i wskazuje zakres prac
+   zarządu Związku Banków Polskich. Funkcje przewodniczącego rady pełni�
+   kolejno przez rok przewodniczący trzech sekcji bankowych. Związek
+   reprezentuje na zewnątrz oraz kieruje jego bieżącą działalności�
+   operacyjną zarząd, wybierany przez walne zgromadzenie na trzyletni�
+   kadencję. W skład zarządu wchodzą prezes oraz od 1 do 4 wiceprezesów.
+   Kandydatów do zarządu zgłasza rada, która także sprawuje stały nadzór
+   nad działaniami. Taka kompozycja naczelnych organów Związku umożliwia
+   bankom członkowskim inicjowanie wielu działań realizowanych przez ZBP.
+
+Rada Związku Banków Polskich[edytuj | edytuj kod]
+
+     * Artur Adamczyk – prezes zarządu Bank Polskiej Spółdzielczości
+     * Brunon Bartkiewicz – prezes zarządu ING Banku Śląskiego
 --
-   bankom czl/onkowskim inicjowanie wielu dzial/an realizowanych przez
-   ZBP.
-
-Rada Zwiazku Bank�w Polskich[edytuj | edytuj kod]
-
-     * Artur Adamczyk - prezes zarzadu Bank Polskiej Sp�l/dzielczosci
-     * Brunon Bartkiewicz - prezes zarzadu ING Banku Slaskiego
---
-     * Elzbieta Swietopel/k-Czetwertynska - prezeska zarzadu Banku
+     * Elżbieta Świętopełk-Czetwertyńska – prezeska zarządu Banku
        Handlowego w Warszawie^[4]
 
-Zarzad Zwiazku Bank�w Polskich[edytuj | edytuj kod]
+Zarząd Związku Banków Polskich[edytuj | edytuj kod]
 
-     * Tadeusz Bial/ek - prezes
-     * Wl/odzimierz Kicinski - wiceprezes
+     * Tadeusz Białek – prezes
+     * Włodzimierz Kiciński – wiceprezes
 --
-     * Zesp�l/ ds. Finansowania Prewencji i Likwidacji Skutk�w Klesk
-       Zywiol/owych.
+     * Zespół ds. Finansowania Prewencji i Likwidacji Skutków Klęsk
+       Żywiołowych.
 
-Zwiazek Bank�w Polskich w instytucjach miedzynarodowych[edytuj | edytuj kod]
+Związek Banków Polskich w instytucjach międzynarodowych[edytuj | edytuj kod]
 
-     * Europejska Federacja Bankowa (European Banking Federation - EBF)
+     * Europejska Federacja Bankowa (European Banking Federation – EBF)
 
 --
-   obszaru pl/atnosci w euro.
-     * International Chamber of Commerce - a world business organisation
+   obecnie reprezentuje ok. 5000 europejskich banków zrzeszonych w 31
+   narodowych asocjacjach. Prace EBF są prowadzone na podstawie systemu
+   Komitetów i Grup Roboczych, w których uczestniczą przedstawiciele
+   związków banków państw członkowskich UE i Europejskiego Obszaru
+   Gospodarczego, jak również przedstawiciele instytucji bankowych z tych
+   państw. ZBP – poza pracami Komitetu Wykonawczego, w którego skład
+   wchodzą dyrektorzy lub sekretarze generalni związków banków –
+   uczestniczy w posiedzeniach Rady Federacji (w jej skład wchodzą prezesi
+   zarządów związków banków).
+     * Europejska Rada ds. Płatności (European Payments Council – EPC)
 
-   Zwiazek Bank�w Polskich byl/ czl/onkiem bezposrednim Miedzynarodowej
-   Izby Handlowej od 1996 roku, a przy ZBP funkcjonowal/ Komitet ds.
-   Wsp�l/pracy z MIH zrzeszajacy 15 bank�w. Od marca 2000 roku dzial/a
-   Polski Komitet Narodowy Miedzynarodowej Izby Handlowej (ICC Polska).
+   EPC jest organizacją powołaną w roku 2002 wspólnie przez trzy związki
+   banków szczebla europejskiego oraz przez grupę ok. 50 największych
+   światowych banków działających na rynku europejskim. ZBP jest członkiem
+   EPC od początku jej istnienia. EPC to partner Komisji Europejskiej i
 --
-   Od 1999 roku funkcjonuje Komitet BIAC Polska, kt�rego
-   wiceprzewodniczacym zostal/ wybrany prezes ZBP.
+   euro.
+     * International Chamber of Commerce – a world business organisation
 
-Podmioty stowarzyszone ze Zwiazkiem Bank�w Polskich[edytuj | edytuj kod]
+   Związek Banków Polskich był członkiem bezpośrednim Międzynarodowej Izby
+   Handlowej od 1996 roku, a przy ZBP funkcjonował Komitet ds. Współpracy
+   z MIH zrzeszający 15 banków. Od marca 2000 roku działa Polski Komitet
+   Narodowy Międzynarodowej Izby Handlowej (ICC Polska). ZBP jest jednym z
+--
+   1999 roku funkcjonuje Komitet BIAC Polska, którego wiceprzewodniczącym
+   został wybrany prezes ZBP.
+
+Podmioty stowarzyszone ze Związkiem Banków Polskich[edytuj | edytuj kod]
 
      * Biuro Informacji Kredytowej
      * Fiserv Polska
 --
-     * Sp�l/dzielczy System Ochrony SGB
-     * Sp�l/dzielnia Systemu Ochrony Zrzeszenia BPS
+     * Spółdzielczy System Ochrony SGB
+     * Spółdzielnia Systemu Ochrony Zrzeszenia BPS
 
-Bankowy Arbitraz Konsumencki przy Zwiazku Bank�w Polskich[edytuj | edytuj
+Bankowy Arbitraż Konsumencki przy Związku Banków Polskich[edytuj | edytuj
 kod]
 
-   Bankowy Arbitraz Konsumencki rozpoczal/ swoja dzial/alnosc w 2002 roku.
+   Bankowy Arbitraż Konsumencki rozpoczął swoją działalność w 2002 roku.
 --
-   dotyczacych rynku papier�w wartosciowych. Funkcje arbitra bankowego
-   sprawuje sedzia Katarzyna Marczynska. W 2010 roku do Bankowego
-   Arbitrazu Konsumenckiego wpl/ynel/o 1165 wniosk�w. W ramach realizacji
-   zadan zwiazanych z promocja sadownictwa polubownego przy Zwiazku Bank�w
-   Polskich dzial/aja r�wniez, we wsp�l/pracy z Bankowym Arbitrazem
-   Konsumenckim, Komisja Etyki Bankowej oraz sad polubowny.
+   bank czynności bankowych lub innych czynności na rzecz konsumenta
+   (pozasądowe postępowanie rozjemcze). Do Bankowego Arbitrażu
+   Konsumenckiego należą obecnie wszystkie banki należące do ZBP oraz te
+   banki spółdzielcze niezrzeszone w Związku, które wyraziły wolę
+   współpracy z BAK. Bankowy Arbitraż Konsumencki jest członkiem FIN-NET,
+   czyli założonej przez Komisję Europejską transgranicznej sieci
+   rozpatrywania skarg pozasądowych dotyczących usług finansowych,
+--
+   rynku papierów wartościowych. Funkcję arbitra bankowego sprawuje sędzia
+   Katarzyna Marczyńska. W 2010 roku do Bankowego Arbitrażu Konsumenckiego
+   wpłynęło 1165 wniosków. W ramach realizacji zadań związanych z promocj�
+   sądownictwa polubownego przy Związku Banków Polskich działają również,
+   we współpracy z Bankowym Arbitrażem Konsumenckim, Komisja Etyki
+   Bankowej oraz sąd polubowny.
 
-Sad Polubowny przy Zwiazku Bank�w Polskich[edytuj | edytuj kod]
+Sąd Polubowny przy Związku Banków Polskich[edytuj | edytuj kod]
 
-   Sad Polubowny przy Zwiazku Bank�w Polskich zostal/ powol/any uchwal/a
-   walnego zgromadzenia Zwiazku Bank�w Polskich w 1992 roku w celu
-   efektywnego rozpatrywania spor�w, w tym miedzy bankami i klientami. Od
-   tego czasu sad prowadzi swoja dzial/alnosc, rozstrzygajac spory mogace
-   byc przedmiotem ugody, pod warunkiem ze w umowie bedacej podstawa sporu
+   Sąd Polubowny przy Związku Banków Polskich został powołany uchwał�
+   walnego zgromadzenia Związku Banków Polskich w 1992 roku w celu
+   efektywnego rozpatrywania sporów, w tym między bankami i klientami. Od
+   tego czasu sąd prowadzi swoją działalność, rozstrzygając spory mogące
+   być przedmiotem ugody, pod warunkiem że w umowie będącej podstawą sporu
 --
 Klub Bankowca[edytuj | edytuj kod]
 
-   Klub Bankowca powstal/ w 1996 roku z inicjatywy bank�w zrzeszonych w
-   zwiazku. Celem fundator�w i zal/ozycieli Klubu byl/o stworzenie
-   instytucji, kt�ra pozwoli realizowac potrzeby edukacyjne, kulturalne i
-   towarzyskie srodowiska bankowego.
+   Klub Bankowca powstał w 1996 roku z inicjatywy banków zrzeszonych w
+   związku. Celem fundatorów i założycieli Klubu było stworzenie
+   instytucji, która pozwoli realizować potrzeby edukacyjne, kulturalne i
+   towarzyskie środowiska bankowego.
 
 --
 
-    1. ^| ^a ^b ^c 25 lat ZBP, 24 stycznia 2016 .
-    2. ^| Akt zal/ozycielski i statut ZBP, 27 stycznia 1991 .
-    3. ^| Zwiazek Bank�w Polskich po 20 latach rzad�w Krzysztofa
+    1. ↑ ^a ^b ^c 25 lat ZBP, 24 stycznia 2016 .
+    2. ↑ Akt założycielski i statut ZBP, 27 stycznia 1991 .
+    3. ↑ Związek Banków Polskich po 20 latach rządów Krzysztofa
        Pietraszkiewicza ma nowego prezesa, Businessinsider, 19 kwietnia
-       2023 [dostep 2023-04-19]  (pol.).
-    4. ^| ZBP - Rada, 2 stycznia 2021 .
-    5. ^| ^a ^b Zwiazek Bank�w Polskich ma nowego Prezesa, 19 kwietnia
-       2023 [dostep 2023-04-19] .
-    6. ^| ^a ^b Zmarl/ Andrzej Szukalski, 29 kwietnia 2011 .
-    7. ^| Topinski Andrzej, BANK.pl - Portal finansowy [dostep
+       2023 [dostęp 2023-04-19]  (pol.).
+    4. ↑ ZBP - Rada, 2 stycznia 2021 .
+    5. ↑ ^a ^b Związek Banków Polskich ma nowego Prezesa, 19 kwietnia 2023
+       [dostęp 2023-04-19] .
+    6. ↑ ^a ^b Zmarł Andrzej Szukalski, 29 kwietnia 2011 .
+    7. ↑ Topiński Andrzej, BANK.pl - Portal finansowy [dostęp 2022-11-28]
 --
 
-Linki zewnetrzne[edytuj | edytuj kod]
+Linki zewnętrzne[edytuj | edytuj kod]
 
-     * Witryna internetowa Zwiazku Bank�w Polskich
-     * Akt zal/ozycielski ZBP
+     * Witryna internetowa Związku Banków Polskich
+     * Akt założycielski ZBP
 
    Kontrola autorytatywna (izba gospodarcza):
 --
      * PWN: 4002280
 
-   Zr�dl/o:
-   "https://pl.wikipedia.org/w/index.php?title=Zwiazek_Bank�w_Polskich&old
-   id=71016343"
+   Źródło:
+   „https://pl.wikipedia.org/w/index.php?title=Związek_Banków_Polskich&old
+   id=71016343”
    Kategorie:
-     * Bankowosc w Polsce
+     * Bankowość w Polsce

@@ -1,79 +1,132 @@
-                              Arytmetyczna srednia p. srednia arytmetyczna
+                              Arytmetyczna średnia p. średnia arytmetyczna
 
 
-                                         Asocjacja p. zwiazek statystyczny
+                                         Asocjacja p. związek statystyczny
 
 
-                            Asymetryczny rozkl/ad p. rozkl/ad asymetryczny
+                              Asymetryczny rozkład p. rozkład asymetryczny
 --
-      Czynnik, kt�ry wpl/ywa na wystapienie efektu w postaci stanu zdrowia
-    lub innej zdefiniowanej cechy. Pojecie to obejmuje przyczyny, czynniki
-        ryzyka oraz czynniki zapobiegajace i lecznicze. Jest to okreslenie
-                 mocne i nie powinno byc stosowane przy sl/abych zwiazkach
+   W tym badaniu losowa próba kontroli pobierana jest z bazy określonej na
+     początku badania. Próba ta zawiera zarówno osoby zdrowe jak i chore i
+       pod względem narażenia stanowi tło do którego odnoszony jest poziom
+     narażenia przypadków.  Miarą związku jest stosunek ryzyka. Badanie to
+                                nie wymaga założenia niskiej zapadalności.
+
+   Badanie kliniczno-kontrolne zagnieżdżone w kohorcie (case-control study
+--
+   Czynnik, który wpływa na wystąpienie efektu w postaci stanu zdrowia lub
+        innej zdefiniowanej cechy. Pojęcie to obejmuje przyczyny, czynniki
+        ryzyka oraz czynniki zapobiegające i lecznicze. Jest to określenie
+                  mocne i nie powinno być stosowane przy słabych związkach
                                                            statystycznych.
 
-                                   Diagram prostokatny p. wykres sl/upkowy
+                                    Diagram prostokątny p. wykres słupkowy
 --
-   rozrzutu uzywane w epidemiologii to wariancja, odchylenie standardowe i
-                                                  zakres miedzykwartylowy.
+                         Epidemiologia analityczna (analytic epidemiology)
 
-                                          Miara zwiazku p. miara asocjacji
+          Badania epidemiologiczne służące sprawdzaniu zależności pomiędzy
+       narażeniem, a jego efektem w tym związków przyczynowych i czynników
+     ryzyka.  W epidemiologii analitycznej stosowane są grupy porównawcze:
+    grupa kontrolna dostarczająca danych wyjściowych lub oczekiwanych oraz
+       badana, której dane mogą być odnoszone do grupy kontrolnej w sposób
+             ilościowy w celu sprawdzania hipotez na temat związków między
+                                                    narażeniem, a efektem.
+
+                          Epidemiologia opisowa (descriptive epidemiology)
+--
+   rozrzutu używane w epidemiologii to wariancja, odchylenie standardowe i
+                                                  zakres międzykwartylowy.
+
+                                          Miara związku p. miara asocjacji
 
 
-                        Miedzykwartylowy zakres p. zakres miedzykwartylowy
+                        Międzykwartylowy zakres p. zakres międzykwartylowy
 --
 
-   Skr�towe okreslenie osoby chorej lub posiadajacej inna ceche stanowiaca
-        badany efekt (outcome). Okreslenie to bywa tez stosowane do samego
-      efektu: choroby, urazu lub innego zdarzenia mogacego miec zwiazek ze
-   zdrowiem. W badaniach epidemiologicznych przypadek musi byc odpowiednio
-        zdefiniowany p. definicja przypadku. Przypadki, kt�re wystapil/y w
-     nieustalonym czasie przed rozpoczeciem badania nosza nazwe przypadk�w
+       Proporcja  przypisana (attributable proportion, etiologic fraction)
+
+    Stosunek różnicy zapadalności która nastąpiła w związku z zadziałaniem
+    danego narażenia  (AR) w do liczby zapadalności wśród narażonych w tym
+                                       samym czasie w tej samej populacji.
+
+--
+
+   Skrótowe określenie osoby chorej lub posiadającej inną cechę stanowiąc�
+        badany efekt (outcome). Określenie to bywa też stosowane do samego
+      efektu: choroby, urazu lub innego zdarzenia mogącego mieć związek ze
+   zdrowiem. W badaniach epidemiologicznych przypadek musi być odpowiednio
+         zdefiniowany p. definicja przypadku. Przypadki, które wystąpiły w
+     nieustalonym czasie przed rozpoczęciem badania noszą nazwę przypadków
+--
+
+      Dział matematyki dotyczący metod zbierania, klasyfikowania i analizy
+          danych, w celu przeprowadzenia wnioskowań  mających zastosowania
+        praktyczne, a dotyczących rozpowszechnienia cech i związków między
+               nimi. W szczególności  przedmiotem dociekań statystyki jest
+           charakterystyka populacji dokonywana na podstawie analizy próby
+                                                 pobranej z tej populacji.
 --
 
                       Stosunek szans, OR (odds ratio, cross-product ratio)
 
-          Miara zwiazku stosowana w badaniach analitycznych, szczeg�lnie w
-     badaniach kliniczno-kontrolnych. Iloraz szans narazenia ze wzgledu na
-     stan choroba/zdrowie jest r�wny ilorazowi szans choroby ze wzgledu na
-          stan narazenia. W przypadku chor�b rzadkich iloraz szans stanowi
+          Miara związku stosowana w badaniach analitycznych, szczególnie w
+     badaniach kliniczno-kontrolnych. Iloraz szans narażenia ze względu na
+     stan choroba/zdrowie jest równy ilorazowi szans choroby ze względu na
+          stan narażenia. W przypadku chorób rzadkich iloraz szans stanowi
 --
-          Systematyczny bl/ad wynikajacy z wl/aczania do grup narazonych i
-    nienarazonych lub przypadk�w i kontroli os�b pochodzacych z r�zniacych
-      sie od siebie populacji lub subpopulacji.  Prowadzi do odchylenia od
-                                     rzeczywistosci miar zwiazku (RR, OR).
+            Systematyczny błąd wynikający z włączania do grup narażonych i
+    nienarażonych lub przypadków i kontroli osób pochodzących z różniących
+      się od siebie populacji lub subpopulacji.  Prowadzi do odchylenia od
+                                     rzeczywistości miar związku (RR, OR).
 
-                                Stronniczosc informacji (information bias)
+                                Stronniczość informacji (information bias)
 
 --
-       odchyleniem pomiar�w od wartosci rzeczywistej. Powoduje odejscie od
-           prawdy w kwalifikowaniu jednostek uczestniczacych w badaniu pod
-         wzgledem oceny (pomiaru) narazenia lub stanu zdrowia. W badaniach
-        analitycznych zmienia wielkosc miar zwiazku (RR, OR). Jezeli w obu
-     por�wnywanych grupach odsetek bl/ednych zaklasyfikowani jest ten sam,
-   bl/ad jest nier�znicowy i zmniejsza miary zwiazku (RR lub OR) - odchyla
-     je w kierunku wartosci "1" (bias toward the null). Jezeli w badaniach
+       odchyleniem pomiarów od wartości rzeczywistej. Powoduje odejście od
+           prawdy w kwalifikowaniu jednostek uczestniczących w badaniu pod
+         względem oceny (pomiaru) narażenia lub stanu zdrowia. W badaniach
+        analitycznych zmienia wielkość miar związku (RR, OR). Jeżeli w obu
+      porównywanych grupach odsetek błędnych zaklasyfikowani jest ten sam,
+    błąd jest nieróżnicowy i zmniejsza miary związku (RR lub OR) – odchyla
+     je w kierunku wartości „1” (bias toward the null). Jeżeli w badaniach
+       kohortowych inny błąd systematyczny dotyczy rozpoznawania choroby w
+         grupach narażonych i nienarażonych, a w kliniczno - kontrolnych w
 --
 
                Wykres punktowy (scatter diagram lub scattergram, dot plot)
 
-          Graficzne przedstawienie zwiazku dwu zmiennych w postaci punkt�w
-   odpowiadajacych parom wartosci dwu zmiennych ciagl/ych reprezentowanych
-                                         na osiach ukl/adu wsp�l/rzednych.
+          Graficzne przedstawienie związku dwu zmiennych w postaci punktów
+    odpowiadających parom wartości dwu zmiennych ciągłych reprezentowanych
+                                           na osiach układu współrzędnych.
 
 --
 
-           Znamiennosc (istotnosc) statystyczna (statistical significance)
 
-       Cecha wyniku analizy statystycznej okreslajaca sil/e zwiazku miedzy
-       badanymi zmiennymi. Wynik uznajemy za znamienny (odrzucamy hipoteze
-        zerowa), gdy prawdopodobienstwo testowe p odpowiadajace obliczonej
-          wartosci statystyki testowej jest mniejsze od z g�ry zal/ozonego
+        Odchylenie zależności między narażeniem a efektem zdrowotnym przez
+        trzecią zmienną, która pozostaje w związku statystycznym zarówno z
+      narażeniem, jak i efektem, pozostając poza drogą wpływu narażenia na
+                                                                    efekt.
+
 --
-             Choroba odzwierzeca. Jedna z chor�b zakaznych, kt�re moga byc
-                                         przenoszone ze zwierzat na ludzi.
 
-                                        Zwiazek statystyczny (association)
+                          Zmienne analizy (analysis variables, predictors)
 
-   Stwierdzone za pomoca test�w statystycznych powiazanie miedzy zmiennymi
-    reprezentujacymi badane cechy lub czestosci wystepowania badanych cech
+              Są to zmienne, których związek przyczynowy lub tylko związek
+      statystyczny ze zmienną wynikową jest badany. Zwykle zmienne analizy
+          stanowią jakościowe lub ilościowe określenia czynników narażenia
+                                                               (exposure).
+
+           Znamienność (istotność) statystyczna (statistical significance)
+
+        Cecha wyniku analizy statystycznej określająca siłę związku między
+       badanymi zmiennymi. Wynik uznajemy za znamienny (odrzucamy hipotezę
+        zerową), gdy prawdopodobieństwo testowe p odpowiadające obliczonej
+   wartości statystyki testowej jest mniejsze od z góry założonego poziomu
+--
+             Choroba odzwierzęca. Jedna z chorób zakaźnych, które mogą być
+                                         przenoszone ze zwierząt na ludzi.
+
+                                        Związek statystyczny (association)
+
+   Stwierdzone za pomocą testów statystycznych powiązanie między zmiennymi
+    reprezentującymi badane cechy lub częstości występowania badanych cech

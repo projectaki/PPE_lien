@@ -1,17 +1,17 @@
 
-   ____________________ � � a (BUTTON) Szukaj
+   ____________________ é ü ą (BUTTON) Szukaj
 
-zwiazek
+związek
 
-1. zwiazek (czegos z czyms)
+1. związek (czegoś z czymś)
 
-Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
 
 --
 
-Siec sl/�w wyrazenia powiazane z opisywanym (wyrazy pokrewne, kolokacje)
+Sieć słów wyrażenia powiązane z opisywanym (wyrazy pokrewne, kolokacje)
 
-     * frazeologia, frazemy: w zwiazku
+     * frazeologia, frazemy: w związku
 
 Gramatyka
 
@@ -19,87 +19,87 @@ Gramatyka
 
    formy w tabelce:
 
-   formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
-   zwiazkom; zwiazk�w; zwiazkowi; zwiazku
+   formy alfabetycznie: związek; związkach; związkami; związki; związkiem;
+   związkom; związków; związkowi; związku
 
-   zgl/os poprawke
+   zgłoś poprawkę
 
    Kurs podstawy interpunkcji
 
-2. zwiazek (organizacja)
+2. związek (organizacja)
 
-Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
-
---
-
-   formy w tabelce:
-
-   formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
-   zwiazkom; zwiazk�w; zwiazkowi; zwiazku
-
-   zgl/os poprawke
-
-3. zwiazek (miedzy ludzmi)
-
-Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
 
 --
 
    formy w tabelce:
 
-   formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
-   zwiazkom; zwiazk�w; zwiazkowi; zwiazku
+   formy alfabetycznie: związek; związkach; związkami; związki; związkiem;
+   związkom; związków; związkowi; związku
 
-   zgl/os poprawke
+   zgłoś poprawkę
 
-4. zwiazek (dwoje)
+3. związek (między ludźmi)
 
-Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
-
---
-
-   formy w tabelce:
-
-   formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
-   zwiazkom; zwiazk�w; zwiazkowi; zwiazku
-
-   zgl/os poprawke
-
-5. zwiazek (chemiczny)
-
-Regul/y regul/y jezykowe, zasady pisowni (nowe opracowanie z komentarzami)
+Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
 
 --
 
    formy w tabelce:
 
-   formy alfabetycznie: zwiazek; zwiazkach; zwiazkami; zwiazki; zwiazkiem;
-   zwiazkom; zwiazk�w; zwiazkowi; zwiazku
+   formy alfabetycznie: związek; związkach; związkami; związki; związkiem;
+   związkom; związków; związkowi; związku
 
-   zgl/os poprawke
+   zgłoś poprawkę
+
+4. związek (dwoje)
+
+Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
 
 --
-     * Bydgoszcz
 
-     * Zwin wszystko
-     * 1. zwiazek (czegos z czyms)
-          + regul/y
-          + sl/ownik wyraz�w bliskoznacznych
-          + siec sl/�w
+   formy w tabelce:
+
+   formy alfabetycznie: związek; związkach; związkami; związki; związkiem;
+   związkom; związków; związkowi; związku
+
+   zgłoś poprawkę
+
+5. związek (chemiczny)
+
+Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
+
+--
+
+   formy w tabelce:
+
+   formy alfabetycznie: związek; związkach; związkami; związki; związkiem;
+   związkom; związków; związkowi; związku
+
+   zgłoś poprawkę
+
+--
+     * co rok prorok
+
+     * Zwiń wszystko
+     * 1. związek (czegoś z czymś)
+          + reguły
+          + słownik wyrazów bliskoznacznych
+          + sieć słów
           + gramatyka
-     * 2. zwiazek (organizacja)
-          + regul/y
-          + sl/ownik wyraz�w bliskoznacznych
+     * 2. związek (organizacja)
+          + reguły
+          + słownik wyrazów bliskoznacznych
           + gramatyka
-     * 3. zwiazek (miedzy ludzmi)
-          + regul/y
-          + sl/ownik wyraz�w bliskoznacznych
+     * 3. związek (między ludźmi)
+          + reguły
+          + słownik wyrazów bliskoznacznych
           + gramatyka
-     * 4. zwiazek (dwoje)
-          + regul/y
-          + sl/ownik wyraz�w bliskoznacznych
+     * 4. związek (dwoje)
+          + reguły
+          + słownik wyrazów bliskoznacznych
           + gramatyka
-     * 5. zwiazek (chemiczny)
-          + regul/y
-          + sl/ownik wyraz�w bliskoznacznych
+     * 5. związek (chemiczny)
+          + reguły
+          + słownik wyrazów bliskoznacznych
           + gramatyka

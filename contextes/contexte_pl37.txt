@@ -1,71 +1,102 @@
 A
 
    Aceton
-   zwiazek organiczny, najprostszy keton alifatyczny, znajdujacy szerokie
-   zastosowanie w przemysle i gospodarstwie domowym, np. jako zmywacz do
+   związek organiczny, najprostszy keton alifatyczny, znajdujący szerokie
+   zastosowanie w przemyśle i gospodarstwie domowym, np. jako zmywacz do
    paznokci.
 
 --
-   amerykanskie = 158,96832 litra.
+   amerykańskie = 158,96832 litra.
 
    Benzen
-   zwiazek organiczny, podstawowy weglowod�r aromatyczny, wykorzystywany
-   m.in. w przemysle chemicznym oraz farmaceutycznym.
+   związek organiczny, podstawowy węglowodór aromatyczny, wykorzystywany
+   m.in. w przemyśle chemicznym oraz farmaceutycznym.
 
-   Bezposrednie emisje gaz�w cieplarnianych (Zakres 1)
+   Bezpośrednie emisje gazów cieplarnianych (Zakres 1)
 --
-   ang. barrel of oil equivalent = baryl/ka ekwiwalentu ropy naftowej.
+   ang. barrel of oil equivalent = baryłka ekwiwalentu ropy naftowej.
 
    Butadien
-   organiczny zwiazek chemiczny. Gaz uzywany do produkcji syntetycznego
+   organiczny związek chemiczny. Gaz używany do produkcji syntetycznego
    kauczuku
 
    BZT5
+   biochemiczne zapotrzebowanie tlenu – umowny wskaźnik określający
+   biochemiczne zapotrzebowanie tlenu, czyli ilość tlenu wymaganą do
+   utlenienia związków organicznych i/lub nieorganicznych przez
+   mikroorganizmy (bakterie aerobowe). Wartość tę uzyskuje się w wyniku
+   pomiaru zużycia tlenu przez badaną próbkę wody lub ścieków w ciągu 5
+   dób w temperaturze 20C. Pośrednio określa się w ten sposób stężenie
 --
-   prezes�w europejskich koncern�w przemysl/owych.
+   ChZT
+   chemiczne zapotrzebowanie tlenu – umowne pojęcie oznaczające ilość
+   tlenu (mgO2/dm³) pobranego z utleniacza (dwuchromianu potasu K2Cr2O7)
+   na utlenienie związków organicznych i niektórych nieorganicznych (np.
+   siarczynów, siarczków, żelaza (II), amoniaku) do najwyższego w danych
+   warunkach stopnia utlenienia. Stosowane jako miara zanieczyszczeń w
+   wodzie i ściekach.
+--
+   prezesów europejskich koncernów przemysłowych.
 
    Etylen
-   zwiazek organiczny, najprostszy weglowod�r nienasycony (alken); eten.
+   związek organiczny, najprostszy węglowodór nienasycony (alken); eten.
 
    EURIBOR
-   (ang. Euro Interbank Offered Rate) - stopa procentowa przyjeta na rynku
+   (ang. Euro Interbank Offered Rate) – stopa procentowa przyjęta na rynku
 --
    GDR
-   (ang. Global Depositary Receipt) - globalny kwit depozytowy, papier
-   wartosciowy, kt�ry jest wyemitowany poza granicami Rzeczpospolitej
-   Polskiej przez Bank Depozytowy w zwiazku z akcjami.
+   (ang. Global Depositary Receipt) – globalny kwit depozytowy, papier
+   wartościowy, który jest wyemitowany poza granicami Rzeczpospolitej
+   Polskiej przez Bank Depozytowy w związku z akcjami.
 
    Glikole
    najprostsze dihydroksylowe alkohole alifatyczne.
 --
-   analize tych 3 parametr�w.
+   Proces ten podnosi uzyski produktów lekkich z ropy naftowej.
+
+   Hydroodsiarczanie
+   proces usuwania związków siarki w wyniku kontaktu surowca z wodorem na
+   złożu katalizatora w warunkach podwyższonej temperatury i ciśnienia.
+
+I
+--
+   analizę tych 3 parametrów.
 
    Kwas tereftalowy
-   organiczny zwiazek chemiczny z grupy kwas�w aromatycznych. Oczyszczony
-   kwas tereftalowy (PTA) jest stosowany gl/�wnie jako surowiec do
-   produkcji politereftalanu etylenu (PET), wl/�kien poliestrowych oraz
-   wl/�kien poliamidowych o duzej wytrzymal/osci na zrywanie.
+   organiczny związek chemiczny z grupy kwasów aromatycznych. Oczyszczony
+   kwas tereftalowy (PTA) jest stosowany głównie jako surowiec do
+   produkcji politereftalanu etylenu (PET), włókien poliestrowych oraz
+   włókien poliamidowych o dużej wytrzymałości na zrywanie.
 --
-   Libia, Nigeria, Wenezuela i Zjednoczone Emiraty Arabskie.
+   notowań ropy Brent. Notowania rynkowe spot.
+
+   Monomery
+   cząsteczki tego samego lub kilku różnych związków chemicznych o
+   stosunkowo niedużej masie cząsteczkowej, z których w wyniku reakcji
+   polimeryzacji powstają polimery; etylen i propylen.
+
+--
+   Nigeria, Wenezuela i Zjednoczone Emiraty Arabskie.
 
    Ortoksylen
-   organiczny zwiazek chemiczny, weglowod�r aromatyczny, pochodna benzenu.
-   Wykorzystywany jest jako p�l/produkt do produkcji bezwodnika ftalowego
+   organiczny związek chemiczny, węglowodór aromatyczny, pochodna benzenu.
+   Wykorzystywany jest jako półprodukt do produkcji bezwodnika ftalowego
    oraz benzyn silnikowych.
 
 --
-   na podstawie obowiazujacych akt�w prawnych.
+   na podstawie obowiązujących aktów prawnych.
 
    Propylen
-   zwiazek organiczny, weglowod�r nienasycony. Propylen jest surowcem do
-   otrzymywania wielu zwiazk�w organicznych, m.in.: alkoholu
+   związek organiczny, węglowodór nienasycony. Propylen jest surowcem do
+   otrzymywania wielu związków organicznych, m.in.: alkoholu
    izopropylowego, gliceryny, izopropylobenzenu, polipropylenu.
 
+   Przerób ropy
 --
 
    PTA
-   Kwas tereftalowy (kwas 1,4-benzenodikarboksylowy), C H (COOH) -
-   organiczny zwiazek chemiczny z grupy kwas�w aromatycznych, zawierajacy
+   Kwas tereftalowy (kwas 1,4-benzenodikarboksylowy), C H (COOH) –
+   organiczny związek chemiczny z grupy kwasów aromatycznych, zawierający
    dwie grupy karboksylowe w pozycji para.
 
 R
@@ -73,51 +104,51 @@ R
 S
 
    Saletra amonowa
-   zwiazek nieorganiczny, uniwersalny naw�z azotowy.
+   związek nieorganiczny, uniwersalny nawóz azotowy.
 
    System EBI
-   elektroniczna Baza Informacji, administrowana przez Giel/de Papier�w
+   elektroniczna Baza Informacji, administrowana przez Giełdę Papierów
 --
 T
 
    T1 PSER
-   liczba zdarzen o duzych skutkach w zwiazku z uwolnieniem substancji do
-   otoczenia x 1 000 000 / ilosc roboczogodzin.
+   liczba zdarzeń o dużych skutkach w związku z uwolnieniem substancji do
+   otoczenia x 1 000 000 / ilość roboczogodzin.
 
    T2 PSER
-   liczba zdarzen o mniejszych skutkach w zwiazku z uwolnieniem substancji
-   do otoczenia x 1 000 000 / ilosc roboczogodzin.
+   liczba zdarzeń o mniejszych skutkach w związku z uwolnieniem substancji
+   do otoczenia x 1 000 000 / ilość roboczogodzin.
 
    Toe
 --
    kcal/kg.
 
    Toluen
-   zwiazek organiczny, weglowod�r aromatyczny wysokiej czystosci produkt
-   wykorzystywany najczesciej jako p�l/produkt do wyrobu p�l/produkt�w
-   organicznych, barwnik�w, rozpuszczalnik�w, klej�w, material/�w
+   związek organiczny, węglowodór aromatyczny wysokiej czystości produkt
+   wykorzystywany najczęściej jako półprodukt do wyrobu półproduktów
+   organicznych, barwników, rozpuszczalników, klejów, materiałów
    wybuchowych, paliw silnikowych.
 --
 W
 
-   Weglowodory
-   zwiazki organiczne zbudowane z wegla i wodoru. Ropa naftowa i gaz
-   ziemny sa mieszaninami weglowodor�w.
+   Węglowodory
+   związki organiczne zbudowane z węgla i wodoru. Ropa naftowa i gaz
+   ziemny są mieszaninami węglowodorów.
 
    WIBOR
 --
-   Wartosciowych w Warszawie.
+   Wartościowych w Warszawie.
 
-   Wodorotlenek sodu, soda zraca, soda kaustyczna, NaOH
-   nieorganiczny zwiazek chemiczny z grupy wodorotlenk�w, nalezacy do
-   najsilniejszych zasad. Stosowany jest do produkcji mydl/a, srodk�w
-   pioracych, celulozy, jedwabiu wiskozowego, barwnik�w, papieru, do
-   rafinacji ropy naftowej, wyrobu szkl/a wodnego, a takze jako masa
+   Wodorotlenek sodu, soda żrąca, soda kaustyczna, NaOH
+   nieorganiczny związek chemiczny z grupy wodorotlenków, należący do
+   najsilniejszych zasad. Stosowany jest do produkcji mydła, środków
+   piorących, celulozy, jedwabiu wiskozowego, barwników, papieru, do
+   rafinacji ropy naftowej, wyrobu szkła wodnego, a także jako masa
 --
-   metody srednio wazonego kosztu wytworzenia lub ceny nabycia. Zgodnie z
-   zapisami MSSF wycena zapas�w wg LIFO nie jest dopuszczana do stosowania
-   i w efekcie nie jest stosowana w obowiazujacej polityce rachunkowosci i
-   tym samym w sprawozdaniach finansowych Grupy ORLEN. W zwiazku z tym
-   tendencja wzrostowa cen ropy wpl/ywa pozytywnie, a spadkowa negatywnie
-   na raportowane wyniki. Z tego wzgledu w niniejszym sprawozdaniu
-   zaprezentowano dodatkowo wyniki operacyjne wg wyceny zapas�w metoda
+   metody średnio ważonego kosztu wytworzenia lub ceny nabycia. Zgodnie z
+   zapisami MSSF wycena zapasów wg LIFO nie jest dopuszczana do stosowania
+   i w efekcie nie jest stosowana w obowiązującej polityce rachunkowości i
+   tym samym w sprawozdaniach finansowych Grupy ORLEN. W związku z tym
+   tendencja wzrostowa cen ropy wpływa pozytywnie, a spadkowa negatywnie
+   na raportowane wyniki. Z tego względu w niniejszym sprawozdaniu
+   zaprezentowano dodatkowo wyniki operacyjne wg wyceny zapasów metod�

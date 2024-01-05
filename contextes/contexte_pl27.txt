@@ -1,24 +1,32 @@
-   RTF - (Rich Format Text) jeden z podtyp�w plik�w tekstowych
-   rtf - (Rich Format Text) jeden z podtyp�w plik�w tekstowych
+   RTF - (Rich Format Text) jeden z podtypów plików tekstowych
+   rtf - (Rich Format Text) jeden z podtypów plików tekstowych
    ART - Akademia Rolniczo-Techniczna
-   AZS - Akademicki Zwiazek Spotowy
+   AZS - Akademicki Związek Spotowy
    BSRUN - Baltic Sea Region University Network
    BIP - Biuletyn Informacji Publicznej
    CEIG - Centrum Egzaminacyjne Instytutu Goethego
 --
-   MKN - Miedzywydzial/owe Naukowe Kol/o
-   MNiSW - Ministerstwo Nauki i Szkolnictwa Wyzszego
-   NK - Naukowe Kol/o
-   NSZZ - Niezalezny Samorzadny Zwiazek Zawodowy
-   NIP - Numer Identyfikacji Podatkowej
-   PDF - Portable Document Format, format pliku mozliwego do odczytania za
-   pomoca bezpl/atnego programu
+   IRK - Internetowa Rekrutacja Kandydatów
+   IŚ - Inżynieria Środowiska
+   zip - Jedna z najpopularniejszych metod kompresji plików
+   KZ NSZZ „S” - Komisja Zakładowa Niezależnego Samorządu Związków
+   Zawodowych „Solidarność”
+   KN - Koło Naukowe
+   KRN - Krajowa Rada Nauki
 --
-   WSP - Wyzsza Szkol/a Pedagogiczna
-   ZPK - Zakl/adowy Plan Kont
+   MKN - Międzywydziałowe Naukowe Koło
+   MNiSW - Ministerstwo Nauki i Szkolnictwa Wyższego
+   NK - Naukowe Koło
+   NSZZ - Niezależny Samorządny Związek Zawodowy
+   NIP - Numer Identyfikacji Podatkowej
+   PDF - Portable Document Format, format pliku możliwego do odczytania za
+   pomocą bezpłatnego programu
+--
+   WSP - Wyższa Szkoła Pedagogiczna
+   ZPK - Zakładowy Plan Kont
    ZPORR - Zintegrowany Program Operacyjny Rozwoju Regionalnego
-   ZNP - Zwiazek Nauczycielstwa Polskiego
-   ZNP RSzWiN - Zwiazek Nauczycielstwa Polskiego Rada Szkolnictwa Wyzszego
+   ZNP - Związek Nauczycielstwa Polskiego
+   ZNP RSzWiN - Związek Nauczycielstwa Polskiego Rada Szkolnictwa Wyższego
    i Nauki
-   spin-off - [firma odpryskowa] nowe przedsiebiorstwo powstal/e w drodze
-   usamodzielnienia sie pracownika/�w przedsiebiorstwa macierzystego lub
+   spin-off - [firma odpryskowa] nowe przedsiębiorstwo powstałe w drodze
+   usamodzielnienia się pracownika/ów przedsiębiorstwa macierzystego lub

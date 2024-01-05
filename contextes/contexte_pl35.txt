@@ -1,68 +1,68 @@
 
    (BUTTON) przypnij (BUTTON) ukryj
-     * Poczatek
-     * 1wolny zwiazek (jezyk polski)
+     * Początek
+     * 1wolny związek (język polski)
 
-   [ ] Przel/acz stan spisu tresci
+   [ ] Przełącz stan spisu treści
 
-wolny zwiazek
+wolny związek
 
-   [ ] Dodaj jezyki
+   [ ] Dodaj języki
 
 --
 
-   Z Wikisl/ownika - wolnego sl/ownika wielojezycznego
+   Z Wikisłownika – wolnego słownika wielojęzycznego
 
-wolny zwiazek (jezyk polski)[edytuj]
+wolny związek (język polski)[edytuj]
 
    wymowa:
-          &#8203;^?/i
+          ​^?/i
 --
 
-   fraza rzeczownikowa, rodzaj meskorzeczowy
+   fraza rzeczownikowa, rodzaj męskorzeczowy
 
-          (1.1) socjol. nieusankcjonowany zwiazek dw�ch os�b, kohabitacja
-          bez slubu^[1]
+          (1.1) socjol. nieusankcjonowany związek dwóch osób, kohabitacja
+          bez ślubu^[1]
 
    odmiana:
-          (1.1) zwiazek zgody;
+          (1.1) związek zgody;
 
 
            przypadek  liczba pojedyncza   liczba mnoga
-          mianownik   wolny zwiazek     wolne zwiazki
-          dopel/niacz wolnego zwiazku   wolnych zwiazk�w
-          celownik    wolnemu zwiazkowi wolnym zwiazkom
-          biernik     wolny zwiazek     wolne zwiazki
-          narzednik   wolnym zwiazkiem  wolnymi zwiazkami
-          miejscownik wolnym zwiazku    wolnych zwiazkach
-          wol/acz     wolny zwiazku     wolne zwiazki
+          mianownik   wolny związek     wolne związki
+          dopełniacz  wolnego związku   wolnych związków
+          celownik    wolnemu związkowi wolnym związkom
+          biernik     wolny związek     wolne związki
+          narzędnik   wolnym związkiem  wolnymi związkami
+          miejscownik wolnym związku    wolnych związkach
+          wołacz      wolny związku     wolne związki
 
-   przykl/ady:
-          (1.1) Okreslenie wolny zwiazek odnosi sie do zwiazku -
-          implikujacego intymnosc seksualna - miedzy mezczyzna a kobieta,
-          bez zadnego publicznie uznanego wezl/a instytucjonalnego, ani
+   przykłady:
+          (1.1) Określenie wolny związek odnosi się do związku –
+          implikującego intymność seksualną – między mężczyzną a kobietą,
+          bez żadnego publicznie uznanego węzła instytucjonalnego, ani
           cywilnego, ani religijnego^[2].
-          (1.1) Okreslenie wolny zwiazek robi wiec kariere, choc samo w
-          sobie jest sprzeczne. Nie ma przeciez "wolnych zwiazk�w" miedzy
-          ludzmi, tak jak nie ma suchej wody ani kwadratowego kol/a. Jesli
-          dwoje ludzi zyje w bliskim kontakcie ze soba, to sil/a rzeczy
-          oddzial/uja oni na siebie nawzajem i w jakims stopniu wiaza
-          swoje losy^[3].
-          (1.1) Coraz czesciej sl/yszy sie, ze ludzie wybieraja wolny
-          zwiazek jako spos�b zycia z partnerem^[4].
+          (1.1) Określenie wolny związek robi więc karierę, choć samo w
+          sobie jest sprzeczne. Nie ma przecież „wolnych związków” między
+          ludźmi, tak jak nie ma suchej wody ani kwadratowego koła. Jeśli
+          dwoje ludzi żyje w bliskim kontakcie ze sobą, to siłą rzeczy
+          oddziałują oni na siebie nawzajem i w jakimś stopniu wiążą swoje
+          losy^[3].
+          (1.1) Coraz częściej słyszy się, że ludzie wybierają wolny
+          związek jako sposób życia z partnerem^[4].
 
-   skl/adnia:
+   składnia:
 
    kolokacje:
-          (1.1) zyc w wolnym zwiazku
+          (1.1) żyć w wolnym związku
 
    synonimy:
-          (1.1) zwiazek nieformalny;
+          (1.1) związek nieformalny;
 
-   pot. zycie na kocia l/ape, zycie na karte rowerowa
+   pot. życie na kocią łapę, życie na kartę rowerow�
 
    antonimy:
-          (1.1) zwiazek mal/zenski, zwiazek formalny
+          (1.1) związek małżeński, związek formalny
 
    hiperonimy:
 
@@ -70,15 +70,15 @@ wolny zwiazek (jezyk polski)[edytuj]
 
    wyrazy pokrewne:
 
-   zwiazki frazeologiczne:
+   związki frazeologiczne:
 
    etymologia:
 
 --
-    4. ^| polki.pl
+    4. ↑ polki.pl
 
-   Zr�dl/o:
-   "https://pl.wiktionary.org/w/index.php?title=wolny_zwiazek&oldid=784088
-   4"
+   Źródło:
+   „https://pl.wiktionary.org/w/index.php?title=wolny_związek&oldid=784088
+   4”
 
    Kategoria:

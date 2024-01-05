@@ -1,7 +1,15 @@
    (BUTTON) Menu Open menu
-   Przejdz do strony gl/�wnej en
+   Przejdź do strony głównej en
    ZBP Logo
-   Zwiazek Bank�w Polskich
+   Związek Banków Polskich
    (BUTTON) en Ikona przycisku wyszukiwania Search en Wyszukiwarka
    ____________________
-     * (BUTTON) A A A en Domyslna czcionka
+     * (BUTTON) A A A en Domyślna czcionka
+--
+   00-380 Warszawa
+   tel.22 486 84 22 / 22 340 68 41
+
+   Copyright © 2019 Związek Banków Polskich. All rights reserved. Created
+   by Infinity Group. Powered by Kentico.
+
+   cookie icon

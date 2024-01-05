@@ -1,23 +1,23 @@
-   zastosowane do oceny cal/ej transakcji. W wielu przypadkach sytuacja
-   prawna konsumenta jest z g�ry wzmacniana przez przepisy.
-   Niezgodnosc towaru z umowa - tryb (podstawa prawna) dochodzenia
-   odpowiedzialnosci od sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona
-   niezgodnoscia zakupionego towaru z umowa.
-   Polubowne (pozasadowe) rozwiazywanie spor�w konsumenckich -
-   postepowania wykorzystywane w sporach miedzy konsumentem a
+   zastosowane do oceny całej transakcji. W wielu przypadkach sytuacja
+   prawna konsumenta jest z góry wzmacniana przez przepisy.
+   Niezgodność towaru z umową – tryb (podstawa prawna) dochodzenia
+   odpowiedzialności od sprzedawcy (przedsiębiorcy) w związku z ujawnion�
+   niezgodnością zakupionego towaru z umową.
+   Polubowne (pozasądowe) rozwiązywanie sporów konsumenckich –
+   postępowania wykorzystywane w sporach między konsumentem a
 --
-   obnizenie ceny). Jej podstawa prawna moze byc niezgodnosc towaru z
-   umowa lub gwarancja.
-   Rekojmia - tryb (podstawa prawna) dochodzenia odpowiedzialnosci od
-   sprzedawcy (przedsiebiorcy) w zwiazku z ujawniona wada fizyczna
-   (niezgodnoscia z umowa) lub prawna zakupionej nieruchomosci.
-   Swiadczenie umowne - swiadczenie okreslone w umowie, do kt�rego
-   wykonania zobowiazana jest kazda ze stron. W przypadku przedsiebiorcy
+   obniżenie ceny). Jej podstawą prawną może być niezgodność towaru z
+   umową lub gwarancja.
+   Rękojmia – tryb (podstawa prawna) dochodzenia odpowiedzialności od
+   sprzedawcy (przedsiębiorcy) w związku z ujawnioną wadą fizyczn�
+   (niezgodnością z umową) lub prawną zakupionej nieruchomości.
+   Świadczenie umowne – świadczenie określone w umowie, do którego
+   wykonania zobowiązana jest każda ze stron. W przypadku przedsiębiorcy
 --
-     * inne formy interakcji za pomoca danych w postaci cyfrowej.
+       tej usługi,
+     * inne formy interakcji za pomocą danych w postaci cyfrowej.
 
-   Usl/ugi posprzedazne - usl/ugi swiadczone przez przedsiebiorce w
-   zwiazku ze sprzedanym towarem, np. serwisowanie czy konserwacja towar�w
-   po okresie gwarancji lub w przypadku wystapienia wad nieobjetych
-   niezgodnoscia z umowa lub gwarancja. Pojecie obejmuje r�wniez sprzedaz
-   dodatkowego wyposazenia lub czesci zamiennych do oferowanego towaru.
+   Usługi posprzedażne – usługi świadczone przez przedsiębiorcę w związku
+   ze sprzedanym towarem, np. serwisowanie czy konserwacja towarów po
+   okresie gwarancji lub w przypadku wystąpienia wad nieobjętych
+   niezgodnością z umową lub gwarancją. Pojęcie obejmuje również sprzedaż

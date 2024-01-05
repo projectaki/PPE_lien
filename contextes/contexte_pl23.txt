@@ -1,35 +1,47 @@
-   zwiazk�w to frazeologizmy. Jezeli Czytelnik siega po te ksiazke, to
-   znaczy, ze ma juz za soba proces wydzielania ustalonych pol/aczen
-   wyraz�w z czytanego badz ze sl/yszanego tekstu. Nie podaje tu definicji
-   zwiazku frazeologicznego, gdyz jest ona powszechnie znana. Dyskusja
-   toczy sie wl/asciwie o granice tego, co frazeologia mozna nazwac, a co
-   wchodzi w zakres innych zagadnien . We Wsp�l/czesnym sl/owniku
-   frazeologicznym znajduja sie utrwalone w uzyciu zwiazki wyrazowe,
-   kt�rych znaczenie nie wynika z sumy znaczen poszczeg�lnych komponent�w
-   tego zwiazku, np. mapa drogowa `dokl/adny plan osiagniecia jakiegos
-   celu, harmonogram czegos', a takze utrwalone zwiazki wyrazowe, kt�rych
-   znaczenie zalezne jest od wyrazu dominujacego znaczeniowo w tym
-   pol/aczeniu, np. partia kanapowa ironicznie `o mal/ej liczebnosci,
-   reprezentacji jakiejs partii lub innej stowarzyszonej grupy polityk�w'.
+   użytkowników języka, czyli daje definicje powiązanych ze sobą wyrazów.
+   Wyrazy te wielokrotnie były wcześniej łączone ze sobą w taki sam sposób
+   w innych tekstach, stąd nasze wrażenie o ich odtwarzaniu przez autora
+   tekstu są ze wszech miar obserwacją trafną. Wiele z tych związków to
+   frazeologizmy. Jeżeli Czytelnik sięga po tę książkę, to znaczy, że ma
+   już za sobą proces wydzielania ustalonych połączeń wyrazów z czytanego
+   bądź ze słyszanego tekstu. Nie podaję tu definicji związku
+   frazeologicznego, gdyż jest ona powszechnie znana. Dyskusja toczy się
+   właściwie o granice tego, co frazeologią można nazwać, a co wchodzi w
+   zakres innych zagadnień . We Współczesnym słowniku frazeologicznym
+   znajdują się utrwalone w użyciu związki wyrazowe, których znaczenie nie
+   wynika z sumy znaczeń poszczególnych komponentów tego związku, np. mapa
+   drogowa ‘dokładny plan osiągnięcia jakiegoś celu, harmonogram czegoś’,
+   a także utrwalone związki wyrazowe, których znaczenie zależne jest od
+   wyrazu dominującego znaczeniowo w tym połączeniu, np. partia kanapowa
+   ◦ironicznie ‘o małej liczebności, reprezentacji jakiejś partii lub
+   innej stowarzyszonej grupy polityków’. Słownik składa się z 4500 haseł
+   ułożonych alfabetycznie. Wśród rodzajów haseł można wyróżnić hasła
+   główne, hasła poboczne i odsyłacze. Hasła główne składają się z
+   podstawowej formy frazeologizmu podanej wytłuszczonym drukiem,
+   definicji, ilustracji, odniesień do innych form tego związku
+   frazeologicznego (symbol ◊poprzedzający informację w treści słownika),
+   ewentualnie do synonimów i antonimów (jw.) opisywanego frazeologizmu.
+   Niektóre hasła główne zawierają wskazówki na temat poprawności bądź
+   łączliwości i potencjalnego rozwinięcia frazeologizmu (symbol ●
+   poprzedzający informację w treści słownika). Bardzo rzadko podawane s�
+   krótkie informacje na temat pochodzenia opisywanego związku (symbol ∆
+   poprzedzający informację w treści słownika), gdyż rozbudowanie tej
+   części hasła w słowniku frazeologicznym jest dyskusyjne. Hasła poboczne
+   składają się z podstawowej formy frazeologizmu podanej wytłuszczonym
+   drukiem, definicji i odniesienia do hasła głównego. Nieliczne odsyłacze
+   informują o formie podstawowej frazeologizmu. Współczesność i
+   praktyczność tego słownika wynikają wprost z przyjętej metody opisu i
+   kwalifikowania związków do opisywanego zbioru frazeologizmów. Treść
+   słownika stanowią ustabilizowane połączenia wyrazowe, przekazywane na
+   mocy tradycji z pokolenia na pokolenia, a także związki wyrazowe
+   zdefiniowane pierwszy raz w polskiej frazeografii. U podstaw pracy nad
+   tym słownikiem tkwiły założenia, które wpłynęły na to, że użyty język
+   definicji dostosowany jest do współcześnie używanego języka ogólnego i
 --
-   rodzaj�w hasel/ mozna wyr�znic hasl/a gl/�wne, hasl/a poboczne i
-   odsyl/acze. Hasl/a gl/�wne skl/adaja sie z podstawowej formy
-   frazeologizmu podanej wytl/uszczonym drukiem, definicji, ilustracji,
-   odniesien do innych form tego zwiazku frazeologicznego (symbol
-   LZpoprzedzajacy informacje w tresci sl/ownika), ewentualnie do
-   synonim�w i antonim�w (jw.) opisywanego frazeologizmu. Niekt�re hasl/a
-   gl/�wne zawieraja wskaz�wki na temat poprawnosci badz l/aczliwosci i
-   potencjalnego rozwiniecia frazeologizmu (symbol 0M poprzedzajacy
-   informacje w tresci sl/ownika). Bardzo rzadko podawane sa kr�tkie
-   informacje na temat pochodzenia opisywanego zwiazku (symbol Delta
-   poprzedzajacy informacje w tresci sl/ownika), gdyz rozbudowanie tej
-   czesci hasl/a w sl/owniku frazeologicznym jest dyskusyjne. Hasl/a
-   poboczne skl/adaja sie z podstawowej formy frazeologizmu podanej
---
-   przyjetej metody opisu i kwalifikowania zwiazk�w do opisywanego zbioru
-   frazeologizm�w. Tresc sl/ownika stanowia ustabilizowane pol/aczenia
-   wyrazowe, przekazywane na mocy tradycji z pokolenia na pokolenia, a
-   takze zwiazki wyrazowe zdefiniowane pierwszy raz w polskiej
-   frazeografii. U podstaw pracy nad tym sl/ownikiem tkwil/y zal/ozenia,
-   kt�re wpl/ynel/y na to, ze uzyty jezyk definicji dostosowany jest do
-   wsp�l/czesnie uzywanego jezyka og�lnego i potocznego w grupie ludzi
+   wprowadzania frazeologizmów wulgarnych, gdyż nie są one potrzebne w
+   języku ludzi kulturalnych . Przy weryfikacji poprawności postaci
+   hasłowej frazeologizmu porównywałem obserwacje z potocznych i
+   medialnych użyć związków frazeologicznych z wynikami analiz materiału
+   korpusowego oraz z tradycją leksykograficzną. Niekiedy ze względów
+   praktycznych łamałem nielogiczną w tym wypadku zasadę żelaznej
+   konsekwencji zapisu, by dać formę bardziej przyjazną odbiorcy, stąd nie

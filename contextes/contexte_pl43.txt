@@ -1,20 +1,20 @@
-    #Polski Zwiazek Karate Tradycyjnego � Kanal/ z wpisami Polski Zwiazek
-   Karate Tradycyjnego � Kanal/ z komentarzami Polski Zwiazek Karate
-   Tradycyjnego � iCal Feed alternate alternate alternate
+    #Polski Związek Karate Tradycyjnego » Kanał z wpisami Polski Związek
+   Karate Tradycyjnego » Kanał z komentarzami Polski Związek Karate
+   Tradycyjnego » iCal Feed alternate alternate alternate
 
---
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-M5DSSPW
 
    ____________________ (BUTTON)
 
-     * Polski Zwiazek Karate Tradycyjnego - karate.pl
+     * Polski Związek Karate Tradycyjnego – karate.pl
 
      *
      *
      *
 
-   Polski Zwiazek Karate Tradycyjnego Polski Zwiazek Karate Tradycyjnego
+   Polski Związek Karate Tradycyjnego Polski Związek Karate Tradycyjnego
    Baza PZKT
-     * Zwiazek
+     * Związek
           + Karate tradycyjne
                o Kompendium wiedzy
                     # Definicja karate
@@ -22,16 +22,16 @@
                     # 2006-2010
                     # 2011-2015
                     # 2016-2017
-          + Zwiazek - wl/adze
-          + Zwiazki wojew�dzkie
-          + Egzaminatorzy i sedziowie
+          + Związek – władze
+          + Związki wojewódzkie
+          + Egzaminatorzy i sędziowie
           + Kursy
-          + Przepisy sedziowskie
+          + Przepisy sędziowskie
 --
      * Kumite
      * Fuku-go, en-bu
 
-   Polski Zwiazek Karate Tradycyjnego
+   Polski Związek Karate Tradycyjnego
    ul. Osowska 82, 04-351 Warszawa
    E-mail: karatetradycyjne.pzkt@gmail.com
    tel.: +48 690 598 700
@@ -39,7 +39,7 @@
      * Baza PZKT
      * Dokumenty
      * Druki
-     * Zwiazki wojew�dzkie
+     * Związki wojewódzkie
      * Poczta
 
-   Copyright 2021 Polski Zwiazek Karate Tradycyjnego, All rights reserved.
+   Copyright 2021 Polski Związek Karate Tradycyjnego, All rights reserved.

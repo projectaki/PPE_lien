@@ -21,3 +21,17 @@ modifié le fichier de tokenisation du japonais et on l'a renommé korean.py. Le
 
 # 03/01
 (Débora) Modifications de la page html et ajout de nouveaux liens pour le coréen.
+
+# 04/01
+(Maria) J'ai modifié le script de concordances en bash pour qu'il génère une page HTML avec des concordances.
+
+# 05/01
+(Maria)
+Aujourd'hui, j'ai travaillé sur mon script, et j'ai rencontré quelques difficultés tout au long du processus :
+- Encodage des Caractères Polonais :
+J'ai dû m'assurer que les caractères polonais étaient correctement affichés dans le script. Pour cela, j'ai ajouté l'option -assume_charset=UTF-8 à Lynx pour garantir le traitement en UTF-8 du contenu.
+- Encodage des Fichiers Dump :
+La gestion appropriée de l'encodage des fichiers dump générés par Lynx était cruciale. J'ai utilisé la commande file pour vérifier l'encodage et, au besoin, j'ai employé iconv pour une conversion explicite vers UTF-8.
+- Utilisation de grep avec Différentes Versions :
+J'ai rencontré des problèmes liés à l'utilisation de grep avec l'option -P. Certains systèmes ne la prennent pas en charge, donc j'ai ajusté le script pour utiliser l'option -E là où nécessaire.
+

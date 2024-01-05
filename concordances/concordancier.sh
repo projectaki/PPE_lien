@@ -10,7 +10,7 @@ fi
 
 if [ "$LANGUE" ==  "pl" ]
 then
-	REGEXP='\b(Z|z)wiaz(ek|k(u|owi|iem|i|ow|om|ami|ach))\b'
+	REGEXP='\b(Z|z)wi(a|ą)z(ek|k(u|owi|iem|i|ow|om|ami|ach))\b'
 fi
 
 if [ "$LANGUE" ==  "kor" ]
@@ -44,8 +44,8 @@ then
     match=$(echo "$line"| grep -o -E -i "$REGEXP")
     context_droite=$(echo "$line" | grep -o -E -i "$REGEXP(\W+\w+){0,5}" | sed 's/\W*$//')
     
-    echo "<tr><td>${context_gauche}</td><td>${match}</td><td>${context_droite}</td></tr>"
-	done
+	echo "<tr><td>${context_gauche}</td><td>${match}</td><td>${context_droite}</td></tr>"
+done
 else
 	grep -o -E -i "(\w+\W){0,5}$REGEXP(\W+\w+){0,5}" "$CHEMIN" |sed -E "s/(.*)($REGEXP)(.*)/<tr><td>\1<\/td><td>\2<\/td><td>\3<\/td><\/tr>/"
 fi

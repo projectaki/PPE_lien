@@ -1,48 +1,48 @@
    Polski
    Wyszukiwanie Wyszukiwanie
 
-   zwiazek_____________
-   (BUTTON) (BUTTON) polski-angielski (BUTTON)
+   związek_____________
+   (BUTTON) (BUTTON) polski–angielski (BUTTON)
    {{word}} {{#beta}} Beta{{/beta}}
    {{#preferredDictionaries}} {{^selected}} {{name}} {{/selected}}
    {{/preferredDictionaries}}
 
-Tl/umaczenie sl/owa zwiazek - Sl/ownik polsko-angielski
+Tłumaczenie słowa związek - Słownik polsko-angielski
 
-zwiazek
+związek
 
 
    noun
 --
-   0M
-   stosunek miedzy rzeczami, zaleznosc
+   ●
+   stosunek między rzeczami, zależność
    link
-   zwiazek przyczynowy causal relationship
-   zwiazek miedzy wyksztal/ceniem a zarobkami link between education and
+   związek przyczynowy causal relationship
+   związek między wykształceniem a zarobkami link between education and
    salaries
-   To nie ma zadnego zwiazku z tematem. It has no connection with the
+   To nie ma żadnego związku z tematem. It has no connection with the
    topic.
-    miec zwiazek z czyms
+    mieć związek z czymś
    to be related to sth
-    powiedziec cos w zwiazku z...
-   to say sth in connection with ...
-   0M
+    powiedzieć coś w związku z…
+   to say sth in connection with …
+   ●
    relacja partnerska
    relationship
-   zwiazek z zonatym mezczyzna a relationship with a married man
-    zwiazek mal/zenski
+   związek z żonatym mężczyzną a relationship with a married man
+    związek małżeński
    marriage
-   0M
+   ●
    organizacja, stowarzyszenie
    association
-   zwiazek zawodowy trade union
+   związek zawodowy trade union
 
-   (Tl/umaczenie zwiazek z Polsko-angielski sl/ownik GLOBAL � 2018 K
+   (Tłumaczenie związek z Polsko-angielski słownik GLOBAL © 2018 K
    Dictionaries Ltd)
 
-Tl/umaczenie sl/owa zwiazek | Sl/ownik polsko-angielski "Password"
+Tłumaczenie słowa związek | Słownik polsko-angielski “Password”
 
-zwiazek
+związek
 
 
    noun
@@ -50,51 +50,51 @@ zwiazek
    union  [noun] the state of being united, eg in marriage, friendship etc
    union  [noun] a club or association
 
-   (Tl/umaczenie zwiazek z Polsko-angielski sl/ownik PASSWORD � 2014 K
+   (Tłumaczenie związek z Polsko-angielski słownik PASSWORD © 2014 K
    Dictionaries Ltd)
 
 
 --
-   zwiazac
-   zwiazac sie
-   zwiazany
-   zwiazek
-   zwiazek organiczny
-   zwiazek zawodowy
-   zwiazkowiec
-   zwiazkowosc
+   związać
+   związać się
+   związany
+   związek
+   związek organiczny
+   związek zawodowy
+   związkowiec
+   związkowość
 
    {{#randomImageQuizHook.isQuiz}}
-   Przetestuj swoje sl/ownictwo za pomoca naszych zabawnych quiz�w
+   Przetestuj swoje słownictwo za pomocą naszych zabawnych quizów
 --
    {{randomImageQuizHook.quizId}}
    {{/randomImageQuizHook.isQuiz}}
 
-Wiecej polsko-angielskich tl/umaczen zwiazek
+Więcej polsko-angielskich tłumaczeń związek
 
    Wszystkie
-     * zwiazek zawodowy
-     * zwiazek organiczny
-     * wstapic w zwiazek mal/zenski, at wstepowac
+     * związek zawodowy
+     * związek organiczny
+     * wstąpić w związek małżeński, at wstępować
 
    Zobacz wszystkie znaczenia
 
 --
-   Spis tresci
-     * GLOBAL Polish-English
+   Spis treści
+     * GLOBAL Polish–English
           + Noun
-               o zwiazek
-               o miec zwiazek z czyms
-               o powiedziec cos w zwiazku z...
-               o zwiazek mal/zenski
-     * PASSWORD Polish-English
+               o związek
+               o mieć związek z czymś
+               o powiedzieć coś w związku z…
+               o związek małżeński
+     * PASSWORD Polish–English
        Noun
 
 --
 
-   Moje listy sl/�w
+   Moje listy słów
 
-   Dodaj zwiazek do jednej z ponizszych list lub utw�rz nowa.
+   Dodaj związek do jednej z poniższych list lub utwórz nową.
    (BUTTON)
    ____________________
    {{#verifyErrors}}
