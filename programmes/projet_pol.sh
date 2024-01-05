@@ -27,14 +27,14 @@ while read -r URL
 do
    	response=$(curl -s -L -w "%{http_code}" -o "../aspirations/aspiration_pl$N.html" $URL)
 	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -E -o "charset=\S+" | cut -d"=" -f2 | tail -n 1| tr '[:lower:]' '[:upper:]')
-	lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" > "../dumps-text/dump_pl$N.txt"
 	if [ $response == 200 ]; 
 	then
 		if [ ! "$CODE" == "UTF-8" ]; 
 		then
-        iconv -f $CODE -t UTF-8 -o "/tmp/reencodage_${lineno}.html"  "../dumps-text/dump_pl$N.txt"
-		mv "/tmp/reencodage_${lineno}.html" "../dumps-text/dump_pl$N.txt"
+        iconv -f $CODE -t UTF-8 -o "/tmp/reencodage_${lineno}.html"  "../aspirations/aspiration_pl$N.html"
+		mv "/tmp/reencodage_${lineno}.html" "./aspirations/aspiration_pl$N.html"
     fi
+    lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" > "../dumps-text/dump_pl$N.txt"
 	#w3m -dump "$URL" > "./dumps-text/dump_pl$N.txt"
     COMPTE=$(cat "../dumps-text/dump_pl$N.txt" | egrep -i -o -E "(Z|z)wi(a|ą)z(ek|k(u|owi|iem|i|(o|ó)w|om|ami|ach))"  | wc -w)
 	cat "../dumps-text/dump_pl$N.txt" | egrep -C 3 -i -E "(Z|z)wi(a|ą)z(ek|k(u|owi|iem|i|(o|ó)w|om|ami|ach))" > "../contextes/contexte_pl$N.txt"

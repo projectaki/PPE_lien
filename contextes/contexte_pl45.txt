@@ -26,32 +26,25 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zapamiętana Procedura:
-          Porównanie zazwyczaj napisana w SQL albo innym języku
-          interpretowanym, która jest zapamiętana na dysku jako składnik
-          bazy danych. W obiektowych bazach danych zapamiętane procedury
-          mogłyby przyjąć postać związek "jest" co znaczy.
+   Co znaczy Ziarnistość:
+          Porównanie rodzaj jednostki danych będącej obiektem pewnych
+          specjalnych mechanizmów działających na bazie danych. Rozróżnia
+          się ziarnistość blokowania (locking granularity) oznaczając�
+          najmniejszą jednostkę związek "jest" co znaczy.
 
-   Krzyżówka Zagnieżdżony:
-          Dlaczego znaczy coś, co jest zawarte w innym bycie, jest
-          składową innego bytu (na przykład zagnieżdżone pytanie,
-          zagnieżdżony moduł, i tak dalej). Niekiedy terminem tym ustala
-          również byt zawierający w sobie związek "jest" krzyżówka.
+   Krzyżówka Złączenie Zewnętrzne:
+          Dlaczego Zobacz: zewnętrzne złączenie związek "jest" krzyżówka.
 
-   Co to jest Zapis:
-          Jak lepiej wielu starszych językach i systemach na oznaczenia
-          zestawu nazwanych wartości. Synonimem zapisu w rodzinie języków
-          C/C++ jest struktura, w systemach relacyjnych jest nim krotka
-          albo wiersz, zaś w związek "jest" co to jest.
+   Co to jest Zasada Zamienialności:
+          Jak lepiej Zobacz: zamienialność związek "jest" co to jest.
 
-   Słownik Zależność Funkcyjna:
-          Kiedy integralnościowe nakładane z zewnątrz na (nieskończoną)
-          rodzinę stosunku o wspólnym zestawie atrybutów, stwierdzające,
-          iż dla każdej stosunku należącej do tej rodziny każda z wartości
-          atrybutu A jest związek "jest" słownik.
+   Słownik Zestaw Miar:
+          Kiedy Zbiór wzajemnie uzupełniających się miar, umożliwiający
+          wieloaspektową ocenę jakości albo złożoności oprogramowania,
+          albo także jakości pracy uczestników danego projektu związek
+          "jest" słownik.
 
      * Dodano: 30 czerwca 2021
-     * Autor: Redaktor naczelny Redaktor naczelny
 --
        danych.http://www.pmg.lcs.mit.edu/Thor.html czym jest
      __________________________________________________________________

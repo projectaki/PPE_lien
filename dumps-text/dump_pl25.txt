@@ -80,4 +80,4 @@ Zobacz także
    All Rights Reserved. Wszelkie prawa zastrzeżone.
    Wyprodukowane w Raz Dwa Projekt
 
-   page: 0,1404 s, time: 0,1632 s cache, query: 39, querytime: 0,0229 s
+   page: 0,1177 s, time: 0,1360 s cache, query: 39, querytime: 0,0184 s
