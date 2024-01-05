@@ -34,23 +34,25 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Ziarnistość:
-          Porównanie rodzaj jednostki danych będącej obiektem pewnych
-          specjalnych mechanizmów działających na bazie danych. Rozróżnia
-          się ziarnistość blokowania (locking granularity) oznaczając�
-          najmniejszą jednostkę związek "jest" co znaczy.
+   Co znaczy Złączenie:
+          Porównanie ważniejszych operatorów występujących w systemach
+          relacyjnych. Umożliwia utworzenie tablicy, która w logiczny
+          sposób łączy wiadomości zawarte w dwóch (albo więcej) tablicach.
+          Na przykład dla tablic związek "jest" co znaczy.
 
-   Krzyżówka Złączenie Zewnętrzne:
-          Dlaczego Zobacz: zewnętrzne złączenie związek "jest" krzyżówka.
+   Krzyżówka Zamek Do Pisania:
+          Dlaczego poprzez daną transakcję na danym bycie
+          programistycznym, który znaczy, iż inne transakcje nie mog�
+          czytać informacji z danego bytu, ani także dokonywać w nim
+          żadnych zmian. Zobacz także: zamek związek "jest" krzyżówka.
 
-   Co to jest Zasada Zamienialności:
-          Jak lepiej Zobacz: zamienialność związek "jest" co to jest.
+   Co to jest Związek Pochodny:
+          Jak lepiej Związek, który wynika z innych związków, albo który
+          można wydedukować z innych informacji, na przykład atrybutów
+          związek "jest" co to jest.
 
-   Słownik Zestaw Miar:
-          Kiedy Zbiór wzajemnie uzupełniających się miar, umożliwiający
-          wieloaspektową ocenę jakości albo złożoności oprogramowania,
-          albo także jakości pracy uczestników danego projektu związek
-          "jest" słownik.
+   Słownik Złożony Obiekt:
+          Kiedy Zobacz: przedmiot złożony związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
