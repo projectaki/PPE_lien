@@ -26,29 +26,23 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zamienialność:
-          Porównanie typów mówiąca, iż jeśli w pewnym miejscu programu
-          może być użyty byt programistyczny typu (klasy) A, to w tym
-          miejscu może być także użyty dowolny byt programistyczny typu
-          (klasy) B, o ile B jest związek "jest" co znaczy.
+   Co znaczy Zdarzenie:
+          Porównanie występujące w metodykach analizy i projektowania i w
+          nie wszystkich językach programowania) oznaczające rejestrowaln
+          zmianę stanu otoczenia albo środowiska (na przykład nadejście
+          partii towaru związek "jest" co znaczy.
 
-   Krzyżówka Zgodność Typów:
-          Dlaczego ustalające, kiedy typ T1 pewnego bytu programistycznego
-          wydedukowany opierając się na reguł wnioskowania o typie (type
-          inference rules) jest zgodny z typem T2, występującym w
-          deklaracji tego typu związek "jest" krzyżówka.
+   Krzyżówka Zamek Do Pisania:
+          Dlaczego poprzez daną transakcję na danym bycie
+          programistycznym, który znaczy, iż inne transakcje nie mog
+          czytać informacji z danego bytu, ani także dokonywać w nim
+          żadnych zmian. Zobacz także: zamek związek "jest" krzyżówka.
 
-   Co to jest Zapytanie Zanurzone:
-          Jak lepiej Pytanie, które stanowi fragment programu
-          aplikacyjnego napisanego w pewnym języku programowania (na
-          przykład w C). Przeciwieństwem zapytania zanurzonego jest
-          pytanie ad hoc związek "jest" co to jest.
+   Co to jest Zerwanie Transakcji:
+          Jak lepiej Zobacz: zerwanie związek "jest" co to jest.
 
-   Słownik Zagnieżdżone Transakcje:
-          Kiedy przetwarzania transakcji, gdzie transakcja może składać
-          się z podtransakcji. Istnieją dwa podejścia do zagnieżdżonych
-          transakcji:Potwierdzenie podtransakcji nie skutkuje fizycznej
-          aktualizacji bazy związek "jest" słownik.
+   Słownik Złączenie Zależne:
+          Kiedy Zobacz: zależne złączenie związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny

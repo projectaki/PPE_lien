@@ -25,11 +25,8 @@ while read -r URL; do
 	response=$(curl -s -L -w "%{http_code}" -o "../aspirations/aspiration_pl$N.html" $URL)
 	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -E -o "charset=\S+" | cut -d"=" -f2 | tail -n 1 | tr '[:lower:]' '[:upper:]')
 	if [ $response == 200 ]; then
-		if [ ! "$CODE" == "UTF-8" ]; then
-			iconv -f "$CODE" -t "UTF-8" -o "/tmp/reencodage_$N.html" "../aspirations/aspiration_pl$N.html"
-			mv "/tmp/reencodage_$N.html" "./aspirations/aspiration_pl$N.html"
-		fi
-		lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" | iconv -c -f UTF-8 -t UTF-8 >"../dumps-text/dump_pl$N.txt"
+
+		lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" | iconv -c -f "$CODE" -t UTF-8 >"../dumps-text/dump_pl$N.txt"
 		# for file in "../dumps-text/dump_pl$N.txt"; do
 		# iconv -f "MACROMAN" -t "UTF-8" "$file" > "dump_temp_pl_$N.txt"
 		# mv "dump_temp_pl_$N.txt" "../dumps-text/dump_pl$N.txt"

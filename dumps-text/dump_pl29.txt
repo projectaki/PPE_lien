@@ -2150,7 +2150,7 @@ Klauzula informacyjna
    Polityki Regionalnej".
    Aby wysłać formularz, wpisz wynik
    działania matematycznego
-   7+4=
+   0+0=
    ____________________
    Proszę wpisać wynik działania matematycznego!
    [BUTTON Input] (not implemented)_______
