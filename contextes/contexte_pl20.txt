@@ -79,7 +79,7 @@ Reguły reguły językowe, zasady pisowni (nowe opracowanie z komentarzami)
    zgłoś poprawkę
 
 --
-     * decoupage
+     * jabłonkowanie
 
      * Zwiń wszystko
      * 1. związek (czegoś z czymś)

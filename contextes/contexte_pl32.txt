@@ -1,45 +1,58 @@
 
-Zwiazek
+Baza wiedzy / Opracowania / Słownik języka polskiego
 
---
-   (w zn. 1.) Adam studiuje meteorologie i wl/asnie pisze prace
-   magisterska na temat zmian klimatu na Ziemi. Praca ma wyjasnic zwiazek
-   (B. lp) miedzy emisja zanieczyszczen cywilizacyjnych a stopniowym
---
-   Dyrektor technikum samochodowego zawsze zwracal/ uwage na zajecia
-   warsztatowe, gdyz twierdzil/, ze najwazniejszy jest zwiazek (M. lp,
-   ident. w B. lp) teorii z praktyka, a kazdy uczen musi miec mozliwosc
---
+Związek
 
-   (w zn. 2.) Zwiazki (M. lm, ident. w B. lm) zawodowe operator�w
-   filmowych w USA sa jednymi z najbardziej preznych zwiazk�w (D. lm) w
-   branzy filmowej.
-   Z inicjatywy grupy miast powol/ano Zwiazek (B. lp) Gmin Pojezierza,
-   majacy na celu wsp�lne wypromowanie atrakcyjnych turystycznie region�w
---
-   na ok. dwa tygodnie wyjezdza do odlegl/ego miejsca na Mazurach, gdzie
-   rozbija namiot w samotnosci nad jeziorem, poniewaz zalezy mu na zwiazku
-   (Ms. lp) z przyroda.
---
-   KOMENTARZ
-   Pokrewny przym. zwiazkowy to odnoszacy sie do zwiazku (gl/. w zn. 2.),
-   np.: skl/adki zwiazkowe, dzial/acz zwiazkowy (zwiazkowiec), ale - uwaga
---
-   Wiecej informacji:
-   [36]zwiazek [37]wolny zwiazek
-   Podobne teksty:
---
-       wybranych utwor�w literackich r�znych epok, zwracajac uwage na ich
-       zwiazek z biografia autor�w, uwzglednij lekture "Nad Niemnem" Elizy
-       Orzeszkowej
-     * 74% [39]Zwiazek zbieraczy kitu "Chl/opcy z placu broni".
-
---
-   Spis tresci
-     * Zwiazek
+   poleca b/d
      __________________________________________________________________
 --
-  35. javascript:void(0);
-  36. https://sciaga.pl/slowniki-tematyczne/9086/zwiazek/
-  37. https://sciaga.pl/slowniki-tematyczne/19292/wolny-zwiazek/
-  38. https://sciaga.pl/tekst/103568-104-kresy-wschodnie-jako-mala-ojczyzna-omow-temat-na-podstawie-wybranych-utworow
+
+
+   (w zn. 1.) Adam studiuje meteorologię i właśnie pisze pracę magistersk�
+   na temat zmian klimatu na Ziemi. Praca ma wyjaśnić związek (B. lp)
+   między emisją zanieczyszczeń cywilizacyjnych a stopniowym roztapianiem
+   się lądolodu Grenlandii.
+   Dyrektor technikum samochodowego zawsze zwracał uwagę na zajęcia
+   warsztatowe, gdyż twierdził, że najważniejszy jest związek (M. lp,
+   ident. w B. lp) teorii z praktyką, a każdy uczeń musi mieć możliwość
+   wykorzystania nabytej wiedzy.
+
+   (w zn. 2.) Związki (M. lm, ident. w B. lm) zawodowe operatorów
+   filmowych w USA są jednymi z najbardziej prężnych związków (D. lm) w
+   branży filmowej.
+   Z inicjatywy grupy miast powołano Związek (B. lp) Gmin Pojezierza,
+   mający na celu wspólne wypromowanie atrakcyjnych turystycznie regionów
+   położonych nad jeziorami.
+
+   (w zn. 3.) Woda jest jednym z najpowszechniej występujących w
+   przyrodzie związków (D. lm) chemicznych. Cząsteczka wody składa się z
+   dwóch atomów wodoru i jednego atomu tlenu.
+
+   (w zn. 4.) Pan Janek mieszka i pracuje w dużym mieście, dlatego co roku
+   na ok. dwa tygodnie wyjeżdża do odległego miejsca na Mazurach, gdzie
+   rozbija namiot w samotności nad jeziorem, ponieważ zależy mu na związku
+   (Ms. lp) z przyrodą.
+
+
+   KOMENTARZ
+   Pokrewny przym. związkowy to odnoszący się do związku (gł. w zn. 2.),
+   np.: składki związkowe, działacz związkowy (związkowiec), ale – uwaga –
+   nie mówimy „członek związkowy”, tylko członek związku.
+   Podoba się? Tak Nie
+   Więcej informacji:
+   związek wolny związek
+   Podobne teksty:
+     * 85% Kresy wschodnie jako mała ojczyzna omów temat na podstawie
+       wybranych utworów literackich różnych epok, zwracając uwagę na ich
+       związek z biografią autorów, uwzględnij lekturę „Nad Niemnem” Elizy
+       Orzeszkowej
+     * 74% Związek zbieraczy kitu "Chłopcy z placu broni".
+
+   Materiał opracowany przez eksperta
+
+   Czas czytania: 1 minuta
+   Spis treści
+     * Związek
+     __________________________________________________________________
+     __________________________________________________________________
+

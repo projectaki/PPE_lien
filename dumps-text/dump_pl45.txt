@@ -34,25 +34,29 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Złączenie:
-          Porównanie ważniejszych operatorów występujących w systemach
-          relacyjnych. Umożliwia utworzenie tablicy, która w logiczny
-          sposób łączy wiadomości zawarte w dwóch (albo więcej) tablicach.
-          Na przykład dla tablic związek "jest" co znaczy.
+   Co znaczy Zdjęcie:
+          Porównanie struktura danych przechowująca pewien chwilowy stan
+          obiektów, stan zmiennych programu albo stan bazy danych.
+          Przeważnie zdjęcie jest kopią bazy danych albo pewnego jej
+          fragmentu (perspektywy związek "jest" co znaczy.
 
-   Krzyżówka Zamek Do Pisania:
-          Dlaczego poprzez daną transakcję na danym bycie
-          programistycznym, który znaczy, iż inne transakcje nie mog�
-          czytać informacji z danego bytu, ani także dokonywać w nim
-          żadnych zmian. Zobacz także: zamek związek "jest" krzyżówka.
+   Krzyżówka Zdarzenie:
+          Dlaczego występujące w metodykach analizy i projektowania i w
+          nie wszystkich językach programowania) oznaczające rejestrowaln�
+          zmianę stanu otoczenia albo środowiska (na przykład nadejście
+          partii towaru związek "jest" krzyżówka.
 
-   Co to jest Związek Pochodny:
-          Jak lepiej Związek, który wynika z innych związków, albo który
-          można wydedukować z innych informacji, na przykład atrybutów
-          związek "jest" co to jest.
+   Co to jest Zakres Dynamiczny:
+          Jak lepiej zakresem dynamicznym dana nazwa jest widoczna poza
+          tekstem sąsiadującym z jej pojęciem, na przykład jest widoczna
+          wewnątrz procedur wywoływanych z danej procedury, gdzie jest
+          zdefiniowana ta nazwa związek "jest" co to jest.
 
-   Słownik Złożony Obiekt:
-          Kiedy Zobacz: przedmiot złożony związek "jest" słownik.
+   Słownik Ziarnistość:
+          Kiedy rodzaj jednostki danych będącej obiektem pewnych
+          specjalnych mechanizmów działających na bazie danych. Rozróżnia
+          się ziarnistość blokowania (locking granularity) oznaczając�
+          najmniejszą jednostkę związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny
@@ -61,22 +65,17 @@ Definicja związek "jest"
 
 Co to znaczy is-a relationship definicja
 
-     * Ranking Dynamiczna Klasyfikacja Porównanie Zobacz: dynamiczna
-       regulacja co znaczy
-     * Co lepsze 2 Ooad Dlaczego analizy i projektowania mechanizmów
-       informatycznych, odmiennie Martin/Odell. Metodyka polega na
-       pojęciach z zakresu logiki i teorii zbiorów. Jest uważana za
-       metodykę wprowadzającą krzyżówka
-     * Czy warto Asynchroniczny Jak lepiej paradygmatu programowania, przy
-       którym występuje równoległe (współbieżne) działanie metod, procedur
-       albo innych abstrakcji proceduralnych. Asynchroniczność wymaga
-       ustalenia metod co to jest
-     * Opinie forum Normalna Postać Druga Kiedy drugiej formie normalnej,
-       jeśli jej klucz złożona jest z dwóch albo więcej atrybutów, i
-       pewien nie-najważniejszy atrybut znajduje się w zależności
-       funkcjonalnej (functional słownik
-     * Najlepszy Thor Od czego zależy Obiektowy mechanizm kierowania baz�
-       danych.http://www.pmg.lcs.mit.edu/Thor.html czym jest
+     * Ranking Referencyjny Atrybut Porównanie Zobacz: atrybut wskaźnikowy
+       co znaczy
+     * Co lepsze Klasowa Metoda Dlaczego działa nie na pojedynczych
+       wystąpieniach klasy (obiektach), ale na całej ekstensji klasy.
+       Przykładami takich metod dla klasy Pracownik są: UtwórzPracownika,
+       LiczbaPracowników krzyżówka
+     * Czy warto Obiektów Interakcji Diagram Jak lepiej Zobacz: diagram
+       interakcji co to jest
+     * Opinie forum Potomny Typ Kiedy Zobacz: typ pochodny słownik
+     * Najlepszy Orb Rdzeń Od czego zależy Część pośrednika (ORB)
+       odpowiedzialna za komunikację między pośrednikami czym jest
      __________________________________________________________________
 
 Co oznacza związek "jest" znaczenie is-a relationship słownik
