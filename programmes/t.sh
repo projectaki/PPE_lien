@@ -16,7 +16,7 @@ while read -r URL; do
     response=$(curl -s -L -w "%{http_code}" -o "../aspirations/aspiration_pl$N.html" $URL)
     CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -E -o "charset=\S+" | cut -d"=" -f2 | tail -n 1 | tr '[:lower:]' '[:upper:]')
 
-    lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" | sed '1s/^\xEF\xBB\xBF//' >"./t.txt"
+    lynx --assume-charset=UTF-8 --display-charset=UTF-8 -dump -nolist "$URL" | iconv -c -f UTF-8 -t UTF-8 >"./t.txt"
 
     break
 
