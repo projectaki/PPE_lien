@@ -429,7 +429,7 @@ Informacja o przetwarzaniu danych
    Bioorganicznej PAN - Poznańskie Centrum Superkomputerowo-Sieciowe
    (PCSS) ul. Noskowskiego 12/14, 61-704 Poznań.
 
-   Szczegółowe informacje na temat przetwarzania Twoich danych znajduj�
+   Szczegółowe informacje na temat przetwarzania Twoich danych znajduj
    się w Polityce prywatności.
 
    Szczegółowe informacje o tym, w jaki sposób używane są pliki cookies, a
@@ -499,7 +499,7 @@ Niezbędne pliki cookies
    Możesz zmienić ustawienia przeglądarki, aby zablokować te pliki cookie,
    jednakże niektóre funkcjonalności strony mogą nie działać poprawnie.
    Niezbędne pliki cookie nie są przechowywane w trwały sposób na
-   komputerze lub innym urządzeniu użytkownika i są usuwane z chwil�
+   komputerze lub innym urządzeniu użytkownika i są usuwane z chwil
    zamknięcia przeglądarki.
    (BUTTON) Ustawienia
    (BUTTON) Zaakceptuj

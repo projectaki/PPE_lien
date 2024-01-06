@@ -97,7 +97,7 @@ Bancassurance
 
 Bankomat
 
-   Automatyczne urządzenie służące do wypłaty gotówki za pomoc�
+   Automatyczne urządzenie służące do wypłaty gotówki za pomoc
    magnetycznej lub inteligentnej (mikroprocesorowej, chipowej) karty
    płatniczej, drukowania potwierdzeń, dostarczania informacji o stanie
    konta, p...
@@ -247,7 +247,7 @@ Elixir
 
 Express Elixir
 
-   System rozliczeń przelewów natychmiastowych obsługiwany przez Krajow�
+   System rozliczeń przelewów natychmiastowych obsługiwany przez Krajow
    Izbę Rozliczeniową. Środki przekazywane w ramach Express Elixiru
    docierają na rachunek odbiorcy w ciągu kilku minut, jednak dostępno...
    FATCA
@@ -323,7 +323,7 @@ Identyfikator klienta
 Inwestowanie
 
    Działalność polegająca na bieżącym zaangażowaniu środków pieniężnych
-   w celu późniejszego uzyskania zysków. Przykładami inwestowania mog�
+   w celu późniejszego uzyskania zysków. Przykładami inwestowania mog
    być: zakup akcji spółki notowanej na giełdzie papierów wartościow...
    Kapitalizacja odsetek
 
@@ -415,8 +415,8 @@ Komisja Nadzoru Finansowego (KNF)
 
 Konsument (osoba fizyczna)
 
-   Za konsumenta uważa się osobę fizyczną dokonującą z przedsiębiorc�
-   czynności prawnej niezwiązanej bezpośrednio z jej działalności�
+   Za konsumenta uważa się osobę fizyczną dokonującą z przedsiębiorc
+   czynności prawnej niezwiązanej bezpośrednio z jej działalności
    gospodarczą lub zawodową.
    Konto (rachunek bankowy)
 
@@ -667,7 +667,7 @@ Pełnomocnictwo do konta
 
 PIN (numer PIN)
 
-   Numer PIN służy do potwierdzania transakcji dokonywanych kart�
+   Numer PIN służy do potwierdzania transakcji dokonywanych kart
    w bankomatach oraz w terminalach płatniczych. Podanie kodu PIN oznacza
    dla banku potwierdzenie właściciela karty płatniczej, że zleca
    wykonan...
@@ -751,7 +751,7 @@ Przelew własny
 
 Przewalutowanie
 
-   Zmiana waluty rachunku bankowego, zazwyczaj związana z potrzeb�
+   Zmiana waluty rachunku bankowego, zazwyczaj związana z potrzeb
    uregulowania opłaty manipulacyjnej.
    Płatność z użyciem kodu QR
 
@@ -825,7 +825,7 @@ Raty odsetkowo-kapitałowe
 
 Raty równe
 
-   Schemat spłaty długu, w którym wszystkie raty kapitałowo-odsetkowe maj�
+   Schemat spłaty długu, w którym wszystkie raty kapitałowo-odsetkowe maj
    równe wysokości.
    Reklamacja
 
@@ -1005,7 +1005,7 @@ Użytkownik rachunku
 Waluta
 
    Nazwa pieniądza obowiązującego w danym państwie. Nazwę tę stosuje się
-   przede wszystkim w kontekście wymiany międzynarodowej. Polską walut�
+   przede wszystkim w kontekście wymiany międzynarodowej. Polską walut
    jest złoty. Spośród obecnie istniejących walut największe zna...
    Wideo Doradca (Wirtualny Oddział)
 
@@ -1074,7 +1074,7 @@ Zdolność kredytowa
 
 Zgody marketingowe
 
-   Wyrażenie przez klienta zgody na otrzymywanie drogą elektroniczn�
+   Wyrażenie przez klienta zgody na otrzymywanie drogą elektroniczn
    informacji promocyjnych i na przetwarzanie danych transmisyjnych (czyli
    informacji o sposobie korzystania z usług).
    Zlecenie stałe

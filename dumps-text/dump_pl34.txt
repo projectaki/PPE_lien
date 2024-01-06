@@ -128,7 +128,7 @@ Uniwersalny słownik języka polskiego, Warszawa 2003
        ► Wyrazom hasłowym towarzyszy większa niż w porównywalnych
        słownikach językowych liczba kwalifikatorów, tworzących system.
        ► Znacznie ograniczono encyklopedyzm i scjentyzm definicji
-       znaczeniowych w stosunku do Słownika języka polskiego pod redakcj�
+       znaczeniowych w stosunku do Słownika języka polskiego pod redakcj
        W. Doroszewskiego.
        ► Zróżnicowana i obszerna jest egzemplifikacja zamieszczonych w
        słowniku haseł.
@@ -153,7 +153,7 @@ Uniwersalny słownik języka polskiego, Warszawa 2003
        pojawiające się w określonym porządku, kwalifikatory:
        chronologiczne, stylistyczne, ekspresyjne, profesjonalno-naukowe,
        socjolektalno-środowiskowe, geograficzne. Kwalifikatory
-       towarzyszące terminom i związkom frazeologicznym umieszczane s�
+       towarzyszące terminom i związkom frazeologicznym umieszczane s
        zwykle po symbolach graficznych i skrótach.
        Kolejne znaczenia w haśle zasadniczo uszeregowane są od znaczeń
        podstawowych do znaczeń specjalistycznych i przestarzałych.
@@ -183,10 +183,10 @@ Uniwersalny słownik języka polskiego, Warszawa 2003
        1. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
        PWN, Warszawa 2003 (wydanie standardowe z płytą CD-ROM).
        2. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–6,
-       PWN, Warszawa 2003 (wydanie luksusowe z Indeksem a tergo oraz płyt�
+       PWN, Warszawa 2003 (wydanie luksusowe z Indeksem a tergo oraz płyt
        CD-ROM zawierającą próbkę Korpusu Języka Polskiego PWN).
        3. Uniwersalny słownik języka polskiego, red. S. Dubisz, t. 1–4,
-       PWN, Warszawa 2008 (wydanie standardowe z płytą CD-ROM, zawierając�
+       PWN, Warszawa 2008 (wydanie standardowe z płytą CD-ROM, zawierając
        bazę relacji leksykalnych opartą na Wielkim słowniku wyrazów
        bliskoznacznych i bazę związków frazeologicznych opartą na Wielkim
        słowniku frazeologicznym PWN).

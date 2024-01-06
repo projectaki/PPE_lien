@@ -58,7 +58,7 @@
           + FIZYKA
           + GALERIA
           + Sztuka na egzaminie
-          + Spotkania z filozofi�
+          + Spotkania z filozofi
      * LICEUM
           + EPOKI LITERACKIE
                o Antyk
@@ -76,7 +76,7 @@
                o JAK ODPOWIADAĆ Z POLSKIEGO
           + WIERSZE w liceum
                o Analiza wierszy
-               o Spotkanie z poezj�
+               o Spotkanie z poezj
           + Biografie
           + MOTYWY LITERACKIE
           + MOTYWY Jak pisać o…
@@ -211,7 +211,7 @@ Słownik języka polskiego
 Słownik wyrazów obcych
 
    Objaśnia znaczenie wyrazu pochodzącego z obcego języka. Wszelkie
-   terminy w rodzaju: demiurg, akmeizm, fotoskop, kaligrafia, palla – s�
+   terminy w rodzaju: demiurg, akmeizm, fotoskop, kaligrafia, palla – s
    tu wyjaśnione.
 
    Tu znajdziemy informacje, z jakiej dziedziny pochodzi nasz termin, np.

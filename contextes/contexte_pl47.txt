@@ -126,10 +126,10 @@ Władze[edytuj | edytuj kod]
 
    Rada Związku ma uprawnienia nadzorcze i kontrolne. Organ ten określa
    zasadnicze założenia dla środowiska bankowego i wskazuje zakres prac
-   zarządu Związku Banków Polskich. Funkcje przewodniczącego rady pełni�
+   zarządu Związku Banków Polskich. Funkcje przewodniczącego rady pełni
    kolejno przez rok przewodniczący trzech sekcji bankowych. Związek
-   reprezentuje na zewnątrz oraz kieruje jego bieżącą działalności�
-   operacyjną zarząd, wybierany przez walne zgromadzenie na trzyletni�
+   reprezentuje na zewnątrz oraz kieruje jego bieżącą działalności
+   operacyjną zarząd, wybierany przez walne zgromadzenie na trzyletni
    kadencję. W skład zarządu wchodzą prezes oraz od 1 do 4 wiceprezesów.
    Kandydatów do zarządu zgłasza rada, która także sprawuje stały nadzór
    nad działaniami. Taka kompozycja naczelnych organów Związku umożliwia
@@ -206,14 +206,14 @@ kod]
 --
    rynku papierów wartościowych. Funkcję arbitra bankowego sprawuje sędzia
    Katarzyna Marczyńska. W 2010 roku do Bankowego Arbitrażu Konsumenckiego
-   wpłynęło 1165 wniosków. W ramach realizacji zadań związanych z promocj�
+   wpłynęło 1165 wniosków. W ramach realizacji zadań związanych z promocj
    sądownictwa polubownego przy Związku Banków Polskich działają również,
    we współpracy z Bankowym Arbitrażem Konsumenckim, Komisja Etyki
    Bankowej oraz sąd polubowny.
 
 Sąd Polubowny przy Związku Banków Polskich[edytuj | edytuj kod]
 
-   Sąd Polubowny przy Związku Banków Polskich został powołany uchwał�
+   Sąd Polubowny przy Związku Banków Polskich został powołany uchwał
    walnego zgromadzenia Związku Banków Polskich w 1992 roku w celu
    efektywnego rozpatrywania sporów, w tym między bankami i klientami. Od
    tego czasu sąd prowadzi swoją działalność, rozstrzygając spory mogące

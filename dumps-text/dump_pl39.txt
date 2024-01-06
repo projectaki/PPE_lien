@@ -115,13 +115,13 @@
    wprowadzają dla trzech alternatywnych funktorów różne i różnie
    funkcjonujące nazwy (alternatywa (bez atrybutywnego określenia),
    alternatywa łączna, alternatywa rozłączna, dysjunkcja, ekskluzja), z
-   drugiej zaś wieloznacznością i jednocześnie quasi-synonimiczności�
+   drugiej zaś wieloznacznością i jednocześnie quasi-synonimiczności
    polskich alternatywnych spójników lub, albo. Sytuacja staje się jeszcze
    bardziej zagmatwana, jeśli uświadomimy sobie mnogość innych odnoszących
    się do alternatywy wyrażeń i struktur składniowych.
    Najłatwiej sobie poradzić z chaosem terminologicznym: sam termin
    „alternatywa” jest jednocześnie etykietą zbiorczą trzech typów różnie
-   nazywanych alternatywnych funktorów zdaniotwórczych oraz – podrzędn�
+   nazywanych alternatywnych funktorów zdaniotwórczych oraz – podrzędn
    wobec powyższej – nazwą jednego z nich. Trudność tę należy zlekceważyć
    i – wybrawszy arbitralnie terminy najbardziej naszym zdaniem adekwatne,
    wygodne, czy wręcz najszerzej stosowane - skierować uwagę na
@@ -131,7 +131,7 @@
    fałszów; akceptacji i odrzuceń.
    Zdanie alternatywne (sensu stricto) jest fałszywe, gdy obydwa zdania
    (resp. wyrażenia, które można przetransponować w zdanie), z których
-   jest zbudowane, są fałszywe, nie do przyjęcia. Np. Kobietom podobaj�
+   jest zbudowane, są fałszywe, nie do przyjęcia. Np. Kobietom podobaj
    się mężczyźni inteligentni lub przystojni. Ze zdania tego wynika, że
    powodzeniem u kobiet cieszą się niekoniecznie urodziwi inteligenci,
    przystojniacy z niskim IQ i jakieś (niespotykane w naturze) osobniki o
@@ -170,7 +170,7 @@
    współakceptację obu zdań składowych (lub ich elementów, które mogą ulec
    przekształceniu się w zdania). Niektórzy logicy proponują (casus
    przesłanego tekstu internetowego) wyostrzenie, wyregulowanie
-   semantyczne wyrażeń lub i albo tak, żeby każde z nich było etykiet�
+   semantyczne wyrażeń lub i albo tak, żeby każde z nich było etykiet
    konkretnego typu. Pomijając fakt, że odgórne regulacje w dziedzinie
    potoczności raczej nie odznaczają się skutecznością, propozycja taka
    mija się z celem również i dlatego, że wieloznaczność często jest
@@ -209,8 +209,8 @@
    czasownik wylatywać, który dotyczy tylko momentu startu, używamy go
    wówczas, gdy samolot nie opuścił jeszcze lotniska. Prof. Markowski
    pisze następująco: wylatywać - tylko w 3 os. - o samolocie: ‘startować,
-   wyruszać w drogę’. Pomocny będzie przykład: Przed południem wylatuj�
-   samoloty do Nowego Jorku i do Paryża. W obu przypadkach mamy inn�
+   wyruszać w drogę’. Pomocny będzie przykład: Przed południem wylatuj
+   samoloty do Nowego Jorku i do Paryża. W obu przypadkach mamy inn
    perspektywę: w pierwszym mowa o oddalaniu się, natomiast w drugim o
    swoistych przygotowaniach do wylotu, zbieraniu informacji na temat
    konkretnego rejsu, który nas interesuje. Jednak na pytanie, które Pani
@@ -228,7 +228,7 @@
    przyczyny koniecznej, by tak zrobić. Choroba jest też powodem (lub może
    być powodem // przyczyną), by właśnie nie zrobić tego, o czym mówi
    treść (orzeczenie) zdania głównego; por. Nie poszła do pracy + ponieważ
-   była chora // z powodu choroby). Operatory przyzwolenia, którymi s�
+   była chora // z powodu choroby). Operatory przyzwolenia, którymi s
    mimo, pomimo, choć, chociaż, sygnalizują więc dopuszczalność zdarzenia,
    o którym mowa w zdaniu głównym, choć okoliczności (okolicznik lub
    zdanie okolicznikowe) kazałyby oczekiwać, że właśnie zdarzenie to nie
@@ -270,7 +270,7 @@
    cele; zrzeszenie, organizacja’ (Uniwersalny słownik języka polskiego
    pod red. S. Dubisza (Warszawa 2003). Jak pokazuje materiał zgromadzony
    z Słowniku skrótów i skrótowców Jerzego Podrackiego (Warszawa 1999), w
-   nazwach organizacji najczęstsze, najbardziej rozpowszechnione s�
+   nazwach organizacji najczęstsze, najbardziej rozpowszechnione s
    połączenia z słowa związek rzeczownikami w liczbie mnogiej nazywającymi
    ludzi (artyści, literaci, bojownicy i in.), np. Związek Artystów Scen
    Polskich, Związek Bojowników o Wolność i Demokrację, Związek Byłych
@@ -306,7 +306,7 @@
    jest w polszczyźnie niczym dziwnym czy nowym, organizuje się bowiem
    wystawy, zloty, rajdy czy mistrzostwa Polski pojazdów zabytkowych,
    istnieją muzea pojazdów zabytkowych, a także (m.in. chyba) Tucholskie
-   Stowarzyszenie Pojazdów Zabytkowych, Polski Związek Motorowy ma Główn�
+   Stowarzyszenie Pojazdów Zabytkowych, Polski Związek Motorowy ma Główn
    Komisję Pojazdów Zabytkowych, w 2004 roku Ministerstwo Transportu i
    Budownictwa wydało Rozporządzenie nt. pojazdów zabytkowych. Po trzecie:
    jeśli chce Pan w nazwie podkreślić, że związek grupuje miłośników
@@ -321,7 +321,7 @@
    tradycja, rodzimy wyraz, rodzimy handel, przemysł. Przymiotnik krajowy
    ma w miarę neutralne znaczenie: ‘pochodzący z kraju – państwa,
    ojczyzny, właściwy jakiemuś krajowi’, do potrzebnej Panu nazwy jest
-   więc również odpowiedni (mamy np. krajowe jabłka, komputery, krajow�
+   więc również odpowiedni (mamy np. krajowe jabłka, komputery, krajow
    literaturę, krajową produkcję, wytwórczość). Przymiotniki ojczysty i
    narodowy do nazwy związku o charakterze niepolitycznym,
    niepatriotycznym (nieprawicowym!) wniosłyby trochę zbyt podniosły,
@@ -382,7 +382,7 @@
    niewątpliwie ‘książka zawierająca praktyczne wiadomości, instrukcje
    dotyczące jakiejś dziedziny’ (Nowy słownik języka polskiego PWN pod
    red. E. Sobol, Warszawa 2002, s. 791). Jeżeli rozpatrujemy to konkretne
-   znaczenie słowa przewodnik, to jedyną możliwą i prawidłową odpowiedzi�
+   znaczenie słowa przewodnik, to jedyną możliwą i prawidłową odpowiedzi
    jest przewodnik po czymś. Doskonały przykład, pomocny w rozwikłaniu tej
    zagadki, przynosi wspomniany już przed momentem słownik: Ilustrowany
    przewodnik po Warszawie. W tym konkretnym przypadku przewodnik jest

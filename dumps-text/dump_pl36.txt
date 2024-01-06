@@ -54,7 +54,7 @@ Słowniczek terminów epidemiologicznych
    Proszę, aby koledzy nie traktowali tego zestawu jako zbioru
    zamkniętego. Redakcja PE będzie wdzięczna za nadsyłanie propozycji
    definicji terminów nie uwzględnionych w słowniczku oraz krytycznych
-   uwag dotyczących już wprowadzonych haseł. Mam nadzieję, że z pomoc�
+   uwag dotyczących już wprowadzonych haseł. Mam nadzieję, że z pomoc
    naszego krajowego środowiska epidemiologów, z biegiem czasu, ten
    słowniczek stanie się naszym wspólnym SŁOWNIKIEM TERMINÓW
    EPIDEMIOLOGICZNYCH.
@@ -244,7 +244,7 @@ Słowniczek terminów epidemiologicznych
 
                                           Cecha jako narażenie (attribute)
 
-                Czynnik ryzyka, który stanowi wrodzona lub nabytą osobist�
+                Czynnik ryzyka, który stanowi wrodzona lub nabytą osobist
     charakterystykę indywidualnej osoby lub innego badanego organizmu (np.
          podatność wrodzona – genetyczna, wiek, płeć, grupa etniczna, masa
                                                                    ciała).
@@ -301,7 +301,7 @@ Słowniczek terminów epidemiologicznych
             badanej próbie lub populacji. Pojęcie odnoszące się do testów,
       definicji, a także do rozpoznawania i zgłaszania przypadków ognisk w
          nadzorze epidemicznym. W liczniku występują przypadki  prawidłowo
-      rozpoznane, a w mianowniku wszystkie rzeczywiście posiadające badan�
+      rozpoznane, a w mianowniku wszystkie rzeczywiście posiadające badan
        cechę - zarówno rozpoznane, jak i nierozpoznane (fałszywie ujemne).
 
                                       Czynna odporność p. odporność czynna
@@ -343,7 +343,7 @@ Słowniczek terminów epidemiologicznych
 
                                          Dawka - odpowiedź (dose-response)
 
-         Funkcja zależności między wielkością odpowiedzi (efektu), a dawk�
+         Funkcja zależności między wielkością odpowiedzi (efektu), a dawk
                                                    narażenia (ekspozycji).
 
                                      Definicja przypadku (case definition)
@@ -423,7 +423,7 @@ Słowniczek terminów epidemiologicznych
 
     Występowanie większej od oczekiwanej liczby przypadków choroby, urazów
         lub innych zdarzeń związanych ze zdrowiem w określonej okolicy lub
-     populacji w określonym przedziale czasowym. Zwykle zakłada się, że s�
+     populacji w określonym przedziale czasowym. Zwykle zakłada się, że s
      to przypadki mające wspólną przyczynę lub w jakiś sposób powiązane ze
                                            sobą; por. ognisko epidemiczne.
 
@@ -524,7 +524,7 @@ Słowniczek terminów epidemiologicznych
                      Grupa narażonych, syn. grupa narażona (exposed group)
 
        Zbiór osób, które pozostawały w kontakcie z podejrzewaną przyczyną,
-           albo posiadają cechę, która jest podejrzewana o bycie przyczyn�
+           albo posiadają cechę, która jest podejrzewana o bycie przyczyn
                         (czynnikiem ryzyka) badanego problemu zdrowotnego.
 
                               Grupa podwyższonego ryzyka (high risk group)
@@ -613,7 +613,7 @@ Słowniczek terminów epidemiologicznych
 
                                                          Klaster (cluster)
 
-             W epidemiologii oznacza nagromadzenie ponad liczbę oczekiwan�
+             W epidemiologii oznacza nagromadzenie ponad liczbę oczekiwan
    przypadków choroby, urazów lub innych zdarzeń związanych ze zdrowiem na
                                określonym obszarze i w określonym okresie.
 
@@ -701,7 +701,7 @@ Słowniczek terminów epidemiologicznych
       Wykres liniowy przedstawiający odsetek osób z danej populacji, które
     przeżyły określone okresy czasu liczone od punktu startowego, w którym
      żyli wszyscy członkowie populacji. Może dotyczyć też innych problemów
-   zdrowotnych lub pojawiających się cech. Jej najczęściej stosowaną form�
+   zdrowotnych lub pojawiających się cech. Jej najczęściej stosowaną form
          jest krzywa Kaplana –Meiera oparta na estymatorze tych autorów, w
       którym szacowane jest prawdopodobieństwo, że członek danej populacji
            przeżyje poza punkt czasowy t; por. estymator Kaplana - Meiera.
@@ -734,7 +734,7 @@ Słowniczek terminów epidemiologicznych
      zapadalności, umieralności, miejsca narażenia). Mapy epidemiologiczne
       mogą przedstawiać dane zbiorcze, przy czym kolorowane lub zacieniane
    obszary mogą pokrywać się z jednostkami administracyjnymi lub regionami
-       geograficznymi (choropleth). W innej odmianie obszary kolorowane s�
+       geograficznymi (choropleth). W innej odmianie obszary kolorowane s
         według przedziałów przedstawianej miary w formie zamkniętych pętli
      (isopleth). Mapy epidemiologiczne mogą też zawierać nanoszone na mapę
              geograficzną np. plan miasta punkty występowania pojedynczych
@@ -794,7 +794,7 @@ Słowniczek terminów epidemiologicznych
 
                                                             Modalna (mode)
 
-    Miara położenia centralnego stanowiąca wartość najczęściej występując�
+    Miara położenia centralnego stanowiąca wartość najczęściej występując
                                                                 w zbiorze.
 
                     Nadzór epidemiologiczny (epidemiological surveillance)
@@ -848,7 +848,7 @@ Słowniczek terminów epidemiologicznych
                               Nadzór typu sentinel (sentinel surveillance)
 
       Typ nadzoru epidemiologicznego, który korzysta z wybranych wcześniej
-        źródeł informacji (lekarzy, szpitali, przychodni), które raportuj�
+        źródeł informacji (lekarzy, szpitali, przychodni), które raportuj
           wszystkie przypadki określonej choroby lub grupy chorób. Ten typ
         nadzoru najlepiej sprawdza się jako uzupełnienie rutynowego sytemu
                 nadzoru. Pozwala bowiem na dokładniejszą analizę czynników
@@ -1372,7 +1372,7 @@ Słowniczek terminów epidemiologicznych
 
                                                           Przypadek (case)
 
-   Skrótowe określenie osoby chorej lub posiadającej inną cechę stanowiąc�
+   Skrótowe określenie osoby chorej lub posiadającej inną cechę stanowiąc
         badany efekt (outcome). Określenie to bywa też stosowane do samego
       efektu: choroby, urazu lub innego zdarzenia mogącego mieć związek ze
    zdrowiem. W badaniach epidemiologicznych przypadek musi być odpowiednio
@@ -1460,7 +1460,7 @@ Słowniczek terminów epidemiologicznych
                            Rozkład normalny (Gaussa) (normal distribution)
 
          Ciągły rozkład prawdopodobieństwa zdefiniowany na całej osi liczb
-                                    rzeczywistych. Jest opisywany  funkcj�
+                                    rzeczywistych. Jest opisywany  funkcj
 
          gęstości prawdopodobieństwa w kształcie krzywej dzwonowej Gaussa:
 
@@ -1510,7 +1510,7 @@ Słowniczek terminów epidemiologicznych
 
                                         Skala interwałowa (interval scale)
 
-      Skala pomiarowa zawierająca ilościowe kategorie, których wartości s�
+      Skala pomiarowa zawierająca ilościowe kategorie, których wartości s
          mierzone na skali w równomiernie rozłożonych jednostkach, ale bez
              naturalnego zera (np. daty urodzenia, temperatura w stopniach
      Celsjusza). Wartości zmiennych tej skali można dodawać i odejmować od
@@ -1740,7 +1740,7 @@ Słowniczek terminów epidemiologicznych
                                                    wszystkich liczb zbioru
 
 
-     Ponieważ logarytm średniej geometrycznej stanowi średnią arytmetyczn�
+     Ponieważ logarytm średniej geometrycznej stanowi średnią arytmetyczn
                                     logarytmów liczb należących do zbioru:
 
 
@@ -1794,7 +1794,7 @@ Słowniczek terminów epidemiologicznych
           Badanie eksperymentalne wykonane na określonej społeczności poza
              szpitalnej bez indywidualnej oceny ekspozycji i stanu zdrowia
         uczestników.  Najczęściej służy ono do wstępnej oceny skuteczności
-             profilaktyki pierwotnej. W badaniu tym badacz nakłada na dan�
+             profilaktyki pierwotnej. W badaniu tym badacz nakłada na dan
         społeczność określony czynnik ekspozycji, a następnie obserwuje tę
    wspólnotę przez określony czas w celu ustalenia efektów swoich działań.
               Analizie poddawane są zbiorcze dane dotyczące wpływu działań
@@ -1858,7 +1858,7 @@ Słowniczek terminów epidemiologicznych
 
                  Ważność uogólnienia (external validity, generalizability)
 
-   Stopień, w jakim wyniki badania mogą mieć zastosowanie poza próbą użyt�
+   Stopień, w jakim wyniki badania mogą mieć zastosowanie poza próbą użyt
         w badaniu, tzn. mogą być uogólnione na populację, z której pobrano
                                               próbę lub na inne populacje.
 
@@ -1897,7 +1897,7 @@ Słowniczek terminów epidemiologicznych
 
     Wskaźnik w szerszym sensie to wielkość niosąca informacje o rozważanym
           zjawisku (np. wskaźniki stanu zdrowia populacji. W epidemiologii
-   odnosimy ten termin do miar ilorazowych, których licznik i mianownik s�
+   odnosimy ten termin do miar ilorazowych, których licznik i mianownik s
      wielkościami tego samego rodzaju (np. stosunek wielkości obserwowanej
          do oczekiwanej). W świetle tej definicji współczynniki wyrażające
             rozpowszechnienie zdarzeń (ich ilość w stosunku do liczebności
@@ -2054,7 +2054,7 @@ Słowniczek terminów epidemiologicznych
                                                     Wydajność (efficiency)
 
            Zdolność interwencji lub programu do uzyskania zamierzonego lub
-     oczekiwanego wyniku przy określonych nakładach czasu i zasobów. Miar�
+     oczekiwanego wyniku przy określonych nakładach czasu i zasobów. Miar
                               wydajności jest stosunek efektu do nakładów.
 
                                                             Wykres (graph)
@@ -2083,7 +2083,7 @@ Słowniczek terminów epidemiologicznych
      Wykres, który przedstawia w postaci linii wzorzec lub trend częstości
     zdarzeń (np. liczbę, chorobowość lub zapadalność) wobec innej zmiennej
      (zwykle czasu) przy zastosowaniu skali logarytmicznej na osi rzędnych
-    „y”.  Szczególnym uzasadnieniem dla stosowania skali logarytmicznej s�
+    „y”.  Szczególnym uzasadnieniem dla stosowania skali logarytmicznej s
                   duże różnice w wartościach liczbowych zmiennej zależnej.
 
                                                Wykres pudełkowy (box plot)
@@ -2139,7 +2139,7 @@ Słowniczek terminów epidemiologicznych
      Dodatni wynik testu lub innego badania uzyskany u osoby, która nie ma
       cechy (choroby) będącej przedmiotem badania. Dotyczy też osób, które
     nie mając badanej choroby  pasują do definicji przyjętych w nadzorze w
-    przypadku zbyt szerokiej definicji. Wyniki fałszywie dodatnie stanowi�
+    przypadku zbyt szerokiej definicji. Wyniki fałszywie dodatnie stanowi
    błąd swoistości testu lub nadzoru epidemiologicznego, szczególnie ważny
       w przypadku chorób rzadkich, gdyż przy danym poziomie swoistości ich
        bezwzględna liczba rośnie proporcjonalnie do odsetka osób zdrowych.
@@ -2189,14 +2189,14 @@ Słowniczek terminów epidemiologicznych
       narażeniem, jak i efektem, pozostając poza drogą wpływu narażenia na
                                                                     efekt.
 
-     Metody analityczne eliminacji wpływu czynników zakłócających opieraj�
+     Metody analityczne eliminacji wpływu czynników zakłócających opieraj
          się na stratyfikacji badanych prób tak, aby porównywane grupy nie
               różniły się pod względem obecności lub nieobecności czynnika
                                   zakłócającego wśród zmiennych narażenia.
 
                                                             Zakres (range)
 
-         Przedział liczbowy ograniczony najmniejszą i największa wartości�
+         Przedział liczbowy ograniczony najmniejszą i największa wartości
                                                                  zmiennej.
 
                     Zakres / odstęp międzykwartylowy (interquartile range)
@@ -2236,7 +2236,7 @@ Słowniczek terminów epidemiologicznych
 
                                                  Zaraźliwość (infectivity)
 
-       Zdolność czynnika zakaźnego do wywołania choroby mierzona proporcj�
+       Zdolność czynnika zakaźnego do wywołania choroby mierzona proporcj
        osób, które zachorowały, w stosunku do tych, które były narażone na
                                                           czynnik zakaźny.
 
@@ -2336,7 +2336,7 @@ Słowniczek terminów epidemiologicznych
 
           W matematyce jest to zmienna, zwykle oznaczana literą „y”, która
             stanowi funkcję innej zmiennej (niezależnej).  W epidemiologii
-   określenie to jest stosowane do wyników badań (outcome), które stanowi�
+   określenie to jest stosowane do wyników badań (outcome), które stanowi
     funkcje zmiennych analizy (niezależnych). Na wykresach zmienna zależna
      jest zwykle skalowana na osi pionowej wykresu współrzędnych – rzędnej
                                                                (ordinate).

@@ -51,7 +51,7 @@
 
 --
 
-   Skrótowe określenie osoby chorej lub posiadającej inną cechę stanowiąc�
+   Skrótowe określenie osoby chorej lub posiadającej inną cechę stanowiąc
         badany efekt (outcome). Określenie to bywa też stosowane do samego
       efektu: choroby, urazu lub innego zdarzenia mogącego mieć związek ze
    zdrowiem. W badaniach epidemiologicznych przypadek musi być odpowiednio

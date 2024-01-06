@@ -125,7 +125,7 @@ słownik skrótów
    pracownika/ów przedsiębiorstwa macierzystego lub innej organizacji (np.
    laboratorium badawczego, szkoły wyższej), przy wykorzystaniu w tym celu
    intelektualne oraz materialne zasoby organizacji macierzystej. Firmy
-   spin-out są kapitałowo lub operacyjnie powiązane z organizacj�
+   spin-out są kapitałowo lub operacyjnie powiązane z organizacj
    macierzystą.
    MNiI - Ministerstwo Nauki i Informatyzacji
    MNiSzW - Ministerstwo Nauki i Szkolnictwa Wyższego
@@ -138,5 +138,5 @@ słownik skrótów
    Uniwersytet Warmińsko-Mazurski w Olsztynie
    ul. Oczapowskiego 2, 10-719 Olsztyn, inf. tel. o numerach UWM: + 48 89
    523-49-13, fax: + 48 89 523-44-56
-   Czas wyświetlenia strony: 06.01.2024 10:11
+   Czas wyświetlenia strony: 06.01.2024 12:19
    Logowanie

@@ -34,29 +34,29 @@ Definicja związek "jest"
 
    Czym jest Jest Związek znaczenie w Słownik definicji Z .
 
-   Co znaczy Zdjęcie:
-          Porównanie struktura danych przechowująca pewien chwilowy stan
-          obiektów, stan zmiennych programu albo stan bazy danych.
-          Przeważnie zdjęcie jest kopią bazy danych albo pewnego jej
-          fragmentu (perspektywy związek "jest" co znaczy.
+   Co znaczy Zamienialność:
+          Porównanie typów mówiąca, iż jeśli w pewnym miejscu programu
+          może być użyty byt programistyczny typu (klasy) A, to w tym
+          miejscu może być także użyty dowolny byt programistyczny typu
+          (klasy) B, o ile B jest związek "jest" co znaczy.
 
-   Krzyżówka Zdarzenie:
-          Dlaczego występujące w metodykach analizy i projektowania i w
-          nie wszystkich językach programowania) oznaczające rejestrowaln�
-          zmianę stanu otoczenia albo środowiska (na przykład nadejście
-          partii towaru związek "jest" krzyżówka.
+   Krzyżówka Zgodność Typów:
+          Dlaczego ustalające, kiedy typ T1 pewnego bytu programistycznego
+          wydedukowany opierając się na reguł wnioskowania o typie (type
+          inference rules) jest zgodny z typem T2, występującym w
+          deklaracji tego typu związek "jest" krzyżówka.
 
-   Co to jest Zakres Dynamiczny:
-          Jak lepiej zakresem dynamicznym dana nazwa jest widoczna poza
-          tekstem sąsiadującym z jej pojęciem, na przykład jest widoczna
-          wewnątrz procedur wywoływanych z danej procedury, gdzie jest
-          zdefiniowana ta nazwa związek "jest" co to jest.
+   Co to jest Zapytanie Zanurzone:
+          Jak lepiej Pytanie, które stanowi fragment programu
+          aplikacyjnego napisanego w pewnym języku programowania (na
+          przykład w C). Przeciwieństwem zapytania zanurzonego jest
+          pytanie ad hoc związek "jest" co to jest.
 
-   Słownik Ziarnistość:
-          Kiedy rodzaj jednostki danych będącej obiektem pewnych
-          specjalnych mechanizmów działających na bazie danych. Rozróżnia
-          się ziarnistość blokowania (locking granularity) oznaczając�
-          najmniejszą jednostkę związek "jest" słownik.
+   Słownik Zagnieżdżone Transakcje:
+          Kiedy przetwarzania transakcji, gdzie transakcja może składać
+          się z podtransakcji. Istnieją dwa podejścia do zagnieżdżonych
+          transakcji:Potwierdzenie podtransakcji nie skutkuje fizycznej
+          aktualizacji bazy związek "jest" słownik.
 
      * Dodano: 30 czerwca 2021
      * Autor: Redaktor naczelny Redaktor naczelny

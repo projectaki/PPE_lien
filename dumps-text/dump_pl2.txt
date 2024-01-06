@@ -50,7 +50,7 @@ Spis treści
      * Początek
      * 1Znaczenie pojęcia
 
-     2Dyscypliny humanistyczne zajmujące się monogami�
+     2Dyscypliny humanistyczne zajmujące się monogami
 
      3Argumenty za monogamią i ich krytyka
    (BUTTON) Przełącz podsekcję Argumenty za monogamią i ich krytyka
@@ -66,7 +66,7 @@ Spis treści
 
 
 
-   4.2Trudności związane z monogami�
+   4.2Trudności związane z monogami
 
 
 
@@ -163,7 +163,7 @@ Monogamia
      * Беларуская (тарашкевіца)
      * Bikol Central
      * Български
-     * Catal�
+     * Catal
      * Čeština
      * Dansk
      * Deutsch
@@ -384,7 +384,7 @@ Znaczenie pojęcia[edytuj | edytuj kod]
        osoby (lub dwa osobniki) żyją razem utrzymując ze sobą stosunki
        seksualne i jednocześnie współpracując w pozyskiwaniu podstawowych
        zasobów takich jak pożywienie, odzienie czy pieniądze;
-     * monogamia seksualna – gdy dwie osoby (lub dwa osobniki) pozostaj�
+     * monogamia seksualna – gdy dwie osoby (lub dwa osobniki) pozostaj
        względem siebie w stosunkach seksualnych z wyłączeniem
        jakichkolwiek innych partnerów mówimy o monogamii seksualnej,
        niektórzy autorzy sugerują, by w tym kontekście używać terminu
@@ -481,7 +481,7 @@ Monogamia w świetle badań antropologii kulturowej[edytuj | edytuj kod]
    Tę sekcję należy dopracować:
    należy dodać przypisy do każdego z akapitów, zwłaszcza do tego o
    związku demokracji z monogamią.
-   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj�
+   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj
    się w dyskusji tej sekcji.
    Po wyeliminowaniu niedoskonałości należy usunąć szablon {{Dopracować}}
    z tej sekcji.
@@ -494,11 +494,11 @@ Monogamia w świetle badań antropologii kulturowej[edytuj | edytuj kod]
    (16%) występował nakaz monogamii^[27]. O ile jednak trzy czwarte kultur
    plemiennych jest poligamicznych^[28] to najliczebniejsze społeczności
    są monogamiczne. Także w społeczeństwach sankcjonujących poligamię
-   zwykle jedynie przywódcy i bogaci mężczyźni posiadają więcej niż jedn�
+   zwykle jedynie przywódcy i bogaci mężczyźni posiadają więcej niż jedn
    żonę (a praktycznie wszystkie kobiety mają tylko jednego męża), w
    społeczeństwach tych małżeństwa monogamiczne mają miejsce 2,5 razy
    częściej niż małżeństwa poligamiczne. Z drugiej strony w
-   społeczeństwach monogamicznych poligamia bywa maskowana monogami�
+   społeczeństwach monogamicznych poligamia bywa maskowana monogami
    sukcesywną (monogamią seryjną), którą można w zasadzie traktować jak
    formę poligamii^[29].
 
@@ -519,7 +519,7 @@ Przyczyny występowania monogamii[edytuj | edytuj kod]
        przy tym zauważyć, że warunki zewnętrzne czy status społeczny
        wynikający z przymiotów osobistych (siły, zdolności), powiązań
        społecznych albo posiadanych zasobów powoduje, że wybrani
-       członkowie społeczności (zasadniczo mężczyźni) wiążą się z większ�
+       członkowie społeczności (zasadniczo mężczyźni) wiążą się z większ
        liczbą osób płci przeciwnej co ogranicza powszechność monogamii.
        Ponadto względnej równowadze płci towarzyszy też często jej
        labilność, co również prowadzi do ograniczenia powszechności
@@ -573,7 +573,7 @@ Przyczyny występowania monogamii[edytuj | edytuj kod]
 
 Trudności związane z monogamią[edytuj | edytuj kod]
 
-   Antropolodzy kulturowi badając kultury na świecie, obserwują duż�
+   Antropolodzy kulturowi badając kultury na świecie, obserwują duż
    różnorodność i współwystępowanie różnych form małżeńskich. Monogamia
    jako forma małżeńska wydaje się w tym kontekście równie pożądana jak
    inne formy życia małżeńskiego^[33], mimo że posiada swoje zalety należy
@@ -638,7 +638,7 @@ Trudności związane z monogamią[edytuj | edytuj kod]
        najsilniejsza była monogamia zamknięta (i źle widziana była
        kohabitacja poza- i przedmałżeńska). Tak było na przykład w
        starożytnych Atenach, w Rzymie, w XIX wieku (szczególnie w
-       niezwykle purytańskich czasach wiktoriańskich) i przez znaczn�
+       niezwykle purytańskich czasach wiktoriańskich) i przez znaczn
        część XX wieku w Europie i Stanach Zjednoczonych, gdy państwo i
        instytucje religijne silnie kontrolowały życie małżeńskie
        obywateli^[35].
@@ -673,7 +673,7 @@ Monogamia a dary ślubne[edytuj | edytuj kod]
    Obyczaj posagu znajdujemy w 37% rozwarstwionych społeczeństw
    monogamicznych, a tylko w 2% nierozwarstwionych. W społeczeństwach
    poliginicznych jest to ok. 1%. Wśród 7% zbadanych społeczeństw
-   preferujących monogamię aż 77% kultur to kultury z tradycj�
+   preferujących monogamię aż 77% kultur to kultury z tradycj
    posagu^[38]. Natomiast kulturę islamu charakteryzuje zwyczaj daru
    ślubnego dla żony, zwanego mahr^[39]. W tradycji żydowskiej podarunek
    taki zwie się mohar (bywa zastępowany pracą na rzecz przyszłego
@@ -710,7 +710,7 @@ Starożytny Bliski Wschód[edytuj | edytuj kod]
 
    Historycznie monogamia była praktykowana w starożytności między innymi
    w kulturach Bliskiego Wschodu (mimo iż istniały liczne wyjątki, była w
-   społeczeństwach tego regionu szeroko rozpowszechnioną form�
+   społeczeństwach tego regionu szeroko rozpowszechnioną form
    małżeńską)^[41]^[45]: występowała więc w Babilonii, Egipcie, a potem w
    judaizmie, Grecji i Rzymie.
 
@@ -748,7 +748,7 @@ Państwo Hetytów[edytuj | edytuj kod]
 
    Wiedza o sytuacji rodzinnej Hetytów pochodzi z prawodawstwa hetyckiego.
    Nie zachowały się niestety kontrakty ślubne czy akta adopcyjne.
-   Zachowane dokumenty potwierdzają, że wśród zwykłej ludności podstawow�
+   Zachowane dokumenty potwierdzają, że wśród zwykłej ludności podstawow
    formą małżeństwa była monogamia. Nie należy wykluczać wyjątków. Na
    podstawie porównań z innymi społeczeństwami, można przypuszczać, że
    także u Hetytów istniał lewirat. Praktyka zawierania małżeństw przez
@@ -787,13 +787,13 @@ Grecja[edytuj | edytuj kod]
    Monogamia w Grecji epoki klasycznej była zagwarantowana przez prawo.
    Monogamię uważali Grecy za przejaw wyższego stopnia rozwoju ich
    kultury. Odnosili się więc z odcieniem pogardy do ludów poligamicznych,
-   na przykład tych, u których kobiety stanowiły wspóln�
+   na przykład tych, u których kobiety stanowiły wspóln
    własność^[potrzebny przypis]. W Starożytnej Grecji monogamia oznaczała
    dla kobiety obowiązek wierności seksualnej, natomiast mężczyzna miał
    żonę w domu, a inne kobiety (także młodzieńców) poza domem. Mężczyznom
    nie zabraniano posiadania tylu kobiet, ile mogli opłacić, lecz dom
    powinien być „czysty”, tj. monogamiczny^[potrzebny przypis]. Małżeństwo
-   było bowiem nastawione na posag, który pozostawał nadal własności�
+   było bowiem nastawione na posag, który pozostawał nadal własności
    kobiety. Żony dostarczały mężczyznom dzieci, hetery dostarczały im
    towarzystwa a niewolnice dostarczały rozkoszy. Za zdradę uważano w
    Grecji utrzymywanie stosunków z zamężną kobietą, gdyż naruszało to
@@ -805,7 +805,7 @@ Imperium Rzymskie[edytuj | edytuj kod]
    Tę sekcję należy dopracować:
    poniższe informacje w tej sekcji są nie na temat – dotyczą niewierności
    małżeńskiej, a nie monogamii.
-   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj�
+   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj
    się w dyskusji tej sekcji.
    Po wyeliminowaniu niedoskonałości należy usunąć szablon {{Dopracować}}
    z tej sekcji.
@@ -836,7 +836,7 @@ Chrześcijaństwo[edytuj | edytuj kod]
 
    Monogamia w chrześcijaństwie jest jedyną formą małżeństwa. Bierze się
    to z interpretacji nauczania jego założyciela, Jezusa z Nazaretu.
-   Zgodnie z jego nauczaniem monogamia była pierwotną wolą Stwórcy ukazan�
+   Zgodnie z jego nauczaniem monogamia była pierwotną wolą Stwórcy ukazan
    w biblijnym opowiadaniu o stworzeniu pierwszej pary ludzkiej z Księgi
    Rodzaju 1:26-31, 2:4-25, która została następnie w zaciemniona przez
    zatwardziałość serca Izraelitów. Według interpretacji Jana Pawła II, w
@@ -846,7 +846,7 @@ Chrześcijaństwo[edytuj | edytuj kod]
    natury – mężczyzny i kobiety, gotowych być uszczęśliwiającym,
    całkowitym, osobowym darem, dla siebie wzajemne:
 
-     Chrystus nie podejmuje dyskusji na tym poziomie, na który usiłują j�
+     Chrystus nie podejmuje dyskusji na tym poziomie, na który usiłują j
      wprowadzić Jego rozmówcy, poniekąd nie akceptuje tego wymiaru, jaki
      oni usiłują sprawie nadać. Odwołuje się dwukrotnie do „początku”.
      Czyniąc tak, wskazuje wyraźnie na odnośne słowa z Księgi Rodzaju,
@@ -883,7 +883,7 @@ Chrześcijaństwo[edytuj | edytuj kod]
    wszyscy, ale nie dzielą łoża małżeńskiego z nikim:
 
      5. (...) Mieszkają każdy we własnej ojczyźnie, lecz niby obcy
-     przybysze. Podejmują wszystkie obowiązki jak obywatele i znosz�
+     przybysze. Podejmują wszystkie obowiązki jak obywatele i znosz
      wszystkie ciężary jak cudzoziemcy. Każda ziemia obca jest im
      ojczyzną i każda ojczyzna ziemią obcą.
      6. Żenią się jak wszyscy i mają dzieci, lecz nie porzucają nowo
@@ -942,7 +942,7 @@ Teoria wiążąca monogamię z monoteizmem[edytuj | edytuj kod]
    Sprawdź w źródłach: Encyklopedia PWN • Google Books • Google
    Scholar • Federacja Bibliotek Cyfrowych • BazHum • RCIN • Internet
    Archive (texts / inlibrary)
-   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj�
+   Dokładniejsze informacje o tym, co należy poprawić, być może znajduj
    się w dyskusji tej sekcji.
    Po wyeliminowaniu niedoskonałości należy usunąć szablon {{Dopracować}}
    z tej sekcji.
@@ -995,7 +995,7 @@ Monogamia w ujęciu biologicznym[edytuj | edytuj kod]
    etologia (traktująca o przyczynach i wpływie zachowań danego osobnika
    na inne osobniki). W świetle obecnych badań monogamia postrzegana jest
    raczej jako strategia, którą organizmy wykorzystują do maksymalizacji
-   zysków z rozmnażania^[64], a nie sztywna reguła zachowania. Istniej�
+   zysków z rozmnażania^[64], a nie sztywna reguła zachowania. Istniej
    jednakże wyjątki, w których samce łączą się z samicami na całe życie, a
    prawdopodobieństwo rozpadu takich związków jest niewielkie (np. łabędź
    niemy, Cygnus olor). Szacuje się, że monogamia dotyczy ~4% gatunków
@@ -1013,7 +1013,7 @@ Monogamia w ujęciu biologicznym[edytuj | edytuj kod]
    mniejszym kosztem niż samice, zyskują najwięcej poprzez zapłodnienie
    jak największej ilości samic^[67]. Samice natomiast, jako osobniki
    wytwarzające duże gamety bogate w składniki odżywcze potrzebne do
-   odżywienia zarodka (u ptaków) lub zachodzące w ciążę (ssaki) ponosz�
+   odżywienia zarodka (u ptaków) lub zachodzące w ciążę (ssaki) ponosz
    znacząco większe koszty reprodukcyjne w porównaniu do samców, dlatego
    będą chciały zmonopolizować pomoc samca i ograniczyć jego inwestycję do
    jednego miotu lub lęgu. Istnieją gatunki, u których samice są w stanie
@@ -1028,14 +1028,14 @@ Monogamia w ujęciu biologicznym[edytuj | edytuj kod]
    Nie zawsze jednak jest się tak, że samiec wychowuje młode, które są z
    nim spokrewnione. Mówimy wtedy o występowaniu u danego gatunku zjawiska
    promiskuityzmu lub o genetycznej poligamii. Szacuje się, że u ptaków z
-   rzędu wróblowych ponad 80% gatunków, u których opisano społeczn�
+   rzędu wróblowych ponad 80% gatunków, u których opisano społeczn
    monogamię, wykazuje genetyczną poligamię^[66]. Zjawisko to
    charakteryzuje się bardzo dużą zmiennością, zarówno międzygatunkową,
    jak i osobniczą, przy czym jeśli dany gatunek został sklasyfikowany
    jako poligamiczny nie oznacza to, że 100% osobników przyjmuje tę
-   strategię rozrodu^[70]. Monogamia i poligamia genetyczna mog�
+   strategię rozrodu^[70]. Monogamia i poligamia genetyczna mog
    występować w obrębie tej samej populacji, co wskazuje na fakt, że
-   zarówno procesy ewolucyjne, jak i społeczne oraz środowiskowe, wpływaj�
+   zarówno procesy ewolucyjne, jak i społeczne oraz środowiskowe, wpływaj
    na kształtowanie tego zjawiska.
 
    Przyczyny poligamii genetycznej nie są do końca znane, choć wyróżniono
@@ -1058,7 +1058,7 @@ Monogamia w ujęciu biologicznym[edytuj | edytuj kod]
 
    U niektórych naczelnych doszło do rozdzielenia kopulacji od
    zapłodnienia, tj. osobniki uprawiają seks nie tylko w celach spłodzenia
-   potomstwa. Cykl owulacyjny u kobiet jest utajony, co potwierdzaj�
+   potomstwa. Cykl owulacyjny u kobiet jest utajony, co potwierdzaj
    badania: stali partnerzy nie potrafią wykazać, kiedy ich partnerka ma
    dni płodne^[76]. Według niektórych antropologów jest to przystosowanie
    kobiet do promiskuityzmu^[77], dzięki któremu mogą one osiągać zyski
@@ -1073,7 +1073,7 @@ Monogamia w ujęciu biologicznym[edytuj | edytuj kod]
    podstawowa komórka społeczna, co definiuje sprawy związane m.in. z
    dziedziczeniem majątków (zob. Monogamia w świetle prawa) oraz
    przekazywaniem praw pomiędzy małżonkami oraz rodzicami i potomstwem.
-   Poligamia natomiast występuje w wielu kulturach, w których panuj�
+   Poligamia natomiast występuje w wielu kulturach, w których panuj
    odmienne warunki społeczno-ekonomiczne i inny podział ról płciowych (z
    uwzględnieniem opieki nad dziećmi). Podsumowując, badania nad
    strategiami rozrodczymi u zwierząt (w szczególnosci u ptaków) rzuciły
@@ -1209,7 +1209,7 @@ Przypisy[edytuj | edytuj kod]
        inni: Psychologia ewolucyjna a życie codzienne. Warszawa:
        Prószyński i S-ka, 2003, s. 56. Cytat: Do najbardziej
        optymistycznych koncepcji jakie zrodziły się w związku z
-       ewolucyjnym ujęciem spraw płci, należy pogląd, że ludzie s�
+       ewolucyjnym ujęciem spraw płci, należy pogląd, że ludzie s
        gatunkiem „łączącym się w pary”. W skrajnej formie przybiera to
        formę twierdzenia, że mężczyźni i kobiety są stworzeni do
        głębokiej, monogamicznej miłości trwającej przez cale życie.
@@ -1296,7 +1296,7 @@ Przypisy[edytuj | edytuj kod]
    29. ↑ MariuszM. Agnosiewicz MariuszM., Poligamia, prawo naturalne i
        boskie zamysły [dostęp 2011-05-29], Cytat: Na ogół bowiem nie
        zdajemy sobie sprawy, że powtórne wejście w związek małżeński po
-       ustaniu poprzedniego jest jedną z jej odmian, tzw. poligami�
+       ustaniu poprzedniego jest jedną z jej odmian, tzw. poligami
        sukcesywną. Zakazuje się bowiem przede wszystkim poligamii
        koincydentalnej, czyli nie tyle wielomałżeństwa, co wielomałżeństwa
        równoległego  (pol.).
@@ -1326,9 +1326,9 @@ Przypisy[edytuj | edytuj kod]
        Cytat: Dopuszczalność wszystkich wytworzonych w toku historii
        społeczeństw form małżeństwa ma tę korzyść, że każda z osób
        zainteresowanych małżeństwem łatwiej znajdzie w ramach tej jakże
-       ważnej społecznej instytucji miejsce dla siebie. Ludzie nie musz�
+       ważnej społecznej instytucji miejsce dla siebie. Ludzie nie musz
        wówczas zdradzać swoich skłonności i dopasowywać się do modeli,
-       które nie w pełni im odpowiadają. Kto chce być w związku z jedn�
+       które nie w pełni im odpowiadają. Kto chce być w związku z jedn
        osobą, ten obierze model monogamiczny. Niewątpliwie model ten
        będzie cieszył się, tak jak dotychczas, największą popularnością.
        (…) Dla pewnej liczby ludzi monogamia jest zbyt monotonna. Nie ma

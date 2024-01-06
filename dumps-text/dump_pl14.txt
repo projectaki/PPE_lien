@@ -11,7 +11,7 @@
    ____________________
      * (BUTTON) A A A en Domyślna czcionka
      * (BUTTON) en Ikona przycisku zmiany styli strony en Przełącz na
-       wersję kontrastow�
+       wersję kontrastow
 
    PL
 

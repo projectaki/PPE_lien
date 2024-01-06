@@ -110,7 +110,7 @@
             w 2022 roku
           + Strategia Zrównoważonego Rozwoju
           + Informacja dotycząca kwalifikacji działalności zgodnie z
-            Taksonomi�
+            Taksonomi
      * Nasza
        odpowiedzialność
        Nasza
@@ -166,7 +166,7 @@
           + Skargi
           + Ochrona bioróżnorodności
           + Surowce i procesy produkcyjne
-          + Zarządzanie energi�
+          + Zarządzanie energi
      * Ryzyka
        i szanse
        Ryzyka
@@ -242,7 +242,7 @@ B
    m.in. w przemyśle chemicznym oraz farmaceutycznym.
 
    Bezpośrednie emisje gazów cieplarnianych (Zakres 1)
-   emisje bezpośrednie pochodzące ze źródeł będących własności�
+   emisje bezpośrednie pochodzące ze źródeł będących własności
    organizacji raportującej lub przez nią kontrolowanych.
 
    Big data
@@ -456,7 +456,7 @@ G
    najprostsze dihydroksylowe alkohole alifatyczne.
 
    GWP
-   (Potencjał tworzenia efektu cieplarnianego) – wartości GWP opisuj�
+   (Potencjał tworzenia efektu cieplarnianego) – wartości GWP opisuj
    oddziaływanie wymuszania radiacyjnego masy jakiegoś gazu cieplarnianego
    w porównaniu z taką samą masą dwutlenku węgla w konkretnym okresie.
    Wartości GWP konwertują dane dotyczące emisji GHG dla gazów innych niż
@@ -514,7 +514,7 @@ I
    petrochemii na poziomie 1,6 mld zł.
 
    Instalacja SCR
-   (Selective Catalitic Reduction) – instalacja odazotowania spalin metod�
+   (Selective Catalitic Reduction) – instalacja odazotowania spalin metod
    katalityczną SCR oczyszcza spaliny z kotła gazowo-olejowego. Instalacja
    SCR na kotłach jest elementem rozpoczętego w roku 2010 Programu
    Inwestycji Ekologiczno-Energetycznych PKN ORLEN dotyczącego
@@ -607,7 +607,7 @@ M
    notowanie ropy Brent.
 
    Metoda HAZOP
-   analiza zagrożeń i zdolności operacyjnych (HAZOP) jest metod�
+   analiza zagrożeń i zdolności operacyjnych (HAZOP) jest metod
    znormalizowaną polską normą PN-IEC 61882 i wykonywaną w oparciu o listę
    słów kluczowych (np. brak, mniej, więcej, także, część z, odwrotność,
    inny niż), które w sposób ogólny sugerują wszelkie możliwe rodzaje
@@ -979,7 +979,7 @@ W
 
    WIG-Poland
    w skład indeksu wchodzą wyłącznie akcje krajowych spółek notowanych na
-   Głównym Rynku Giełdy Papierów Wartościowych w Warszawie, które spełni�
+   Głównym Rynku Giełdy Papierów Wartościowych w Warszawie, które spełni
    bazowe kryteria uczestnictwa w indeksach.
 
    WIG20
@@ -1015,7 +1015,7 @@ W
    tym samym w sprawozdaniach finansowych Grupy ORLEN. W związku z tym
    tendencja wzrostowa cen ropy wpływa pozytywnie, a spadkowa negatywnie
    na raportowane wyniki. Z tego względu w niniejszym sprawozdaniu
-   zaprezentowano dodatkowo wyniki operacyjne wg wyceny zapasów metod�
+   zaprezentowano dodatkowo wyniki operacyjne wg wyceny zapasów metod
    LIFO, co pozwala wyeliminować powyżej opisany wpływ zmian cen ropy
    naftowej na wyniki Grupy ORLEN. Wyniki operacyjne wg wyceny zapasów
    metodą LIFO są kalkulowane głównie w spółkach produkcyjnych, w tym: w

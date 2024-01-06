@@ -16,16 +16,16 @@
 --
        fundacje, spółki niedziałające dla zysku, izby gospodarcze,
        jednostki badawczo-rozwojowe, jednostki budżetowe, uczelnie,
-       ośrodki innowacji, inkubatory przedsiębiorczości. Możliwe s�
+       ośrodki innowacji, inkubatory przedsiębiorczości. Możliwe s
        również różnego rodzaju związku czy porozumienia wymienianych
        podmiotów. Są to podmioty nie działające dla zysku, tylko całe
-       swoje zyski przeznaczające na ponowne reinwestowanie w podejmowan�
+       swoje zyski przeznaczające na ponowne reinwestowanie w podejmowan
        działalność oraz prowadzące działalność związaną ze wspieraniem
 --
        oraz upodobnienie struktur społeczno-gospodarczych.
      * Korekta finansowa
        Kwota, o jaką pomniejsza się współfinansowanie UE dla projektu lub
-       programu operacyjnego w związku z nieprawidłowością indywidualn�
+       programu operacyjnego w związku z nieprawidłowością indywidualn
        lub systemową.
      * Koszty kwalifikowalne
        Koszty, których poniesienie jest merytorycznie uzasadnione i które
@@ -41,7 +41,7 @@
        niezbędne do sprawnego i efektywnego osiągania zamierzonych celów.
      * Zasada zgodności/spójności
        Reguluje działanie funduszy strukturalnych, odnosi się do
-       istniejących związków pomiędzy polityką regionalną a polityk�
+       istniejących związków pomiędzy polityką regionalną a polityk
        makroekonomiczną prowadzoną przez poszczególne państwa
        członkowskie. Zgodnie z postanowieniami Jednolitego Aktu
        Europejskiego w celu zwiększenia zbieżności koniunktur

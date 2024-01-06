@@ -208,7 +208,7 @@ B
        pozyskania źródeł finansowania inwestycji. Kompleksowy spis celów
        oraz zadań, jakie stawia się przed przedsiębiorstwem. Jego
        elementami są m.in. analiza finansowa, analiza rynku, analiza SWOT.
-       Treść biznesplanu powinna: - odzwierciedlać aktualną, rzeczywist�
+       Treść biznesplanu powinna: - odzwierciedlać aktualną, rzeczywist
        sytuację analizowanego podmiotu gospodarczego z różnych punktów
        widzenia (finansowego, produkcyjnego itd.), - uwzględniać otoczenie
        przedsiębiorstwa, w tym analizę rynku, - prezentować kadrę
@@ -259,7 +259,7 @@ C
        transeuropejskim w zakresie transportu, energii i cyfryzacji.
        Promuje również gospodarkę ekologiczną poprzez promowanie czystych
        środków transportu, szybkich połączeń szerokopasmowych i ułatwianie
-       wykorzystania odnawialnych źródeł energii zgodnie ze strategi�
+       wykorzystania odnawialnych źródeł energii zgodnie ze strategi
        Europa 2020.
 
 D
@@ -536,7 +536,7 @@ E
        wcześniej przeprowadzonej ewaluacji wstępnej, zwłaszcza pod
        względem dostarczonych produktów i osiągniętych rezultatów oraz
        określenie trafności zamierzeń w stosunku do aktualnych trendów
-       społeczno-gospodarczych. Wyniki ewaluacji okresowej służ�
+       społeczno-gospodarczych. Wyniki ewaluacji okresowej służ
        ewentualnym modyfikacjom dokumentów programowych. Dostarczone za
        jej sprawą informacje powinny być wykorzystane przy przygotowaniu
        programu w następnym okresie programowania.
@@ -545,7 +545,7 @@ E
        realizacja wspierana będzie ze środków Europejskiego Funduszu
        Rozwoju Regionalnego. EWT służy wspieraniu, promocji oraz
        realizacji wspólnych projektów o charakterze międzynarodowym w
-       obrębie Unii Europejskiej Na Europejską Współpracę Terytorialn�
+       obrębie Unii Europejskiej Na Europejską Współpracę Terytorialn
        składają się 3 typy programów operacyjnych: współpraca
        transgraniczna, której celem jest rozwijanie wspólnych inicjatyw
        lokalnych i regionalnych, współpraca transnarodowa, ukierunkowana
@@ -560,7 +560,7 @@ F
 
      * Finansowy wkład Wspólnoty
        Finansowy wkład Wspólnoty to wielkość środków asygnowana przez
-       Komisję Europejską w ramach pomocy finansowej, stanowiąca określon�
+       Komisję Europejską w ramach pomocy finansowej, stanowiąca określon
        proporcję kosztów kwalifikowanych projektu lub programu.
      * Foresight
        Określenie kierunków badań, które mają przyczyniać się w
@@ -674,9 +674,9 @@ I
        marketingowej w praktyce gospodarczej, organizacji miejsca pracy
        lub stosunkach z otoczeniem. Produkty, procesy oraz metody
        organizacyjne i marketingowe nie muszą być nowością dla rynku, na
-       którym operuje przedsiębiorstwo, ale muszą być nowości�
+       którym operuje przedsiębiorstwo, ale muszą być nowości
        przynajmniej dla samego przedsiębiorstwa. Produkty, procesy i
-       metody nie muszą być opracowane przez samo przedsiębiorstwo, mog�
+       metody nie muszą być opracowane przez samo przedsiębiorstwo, mog
        być opracowane przez inne przedsiębiorstwo bądź przez jednostkę o
        innym charakterze (np. instytut naukowo-badawczy, ośrodek
        badawczo-rozwojowy, szkołę wyższą, itp.).
@@ -736,16 +736,16 @@ I
        następujących formach organizacyjno-prawnych: stowarzyszenia,
        fundacje, spółki niedziałające dla zysku, izby gospodarcze,
        jednostki badawczo-rozwojowe, jednostki budżetowe, uczelnie,
-       ośrodki innowacji, inkubatory przedsiębiorczości. Możliwe s�
+       ośrodki innowacji, inkubatory przedsiębiorczości. Możliwe s
        również różnego rodzaju związku czy porozumienia wymienianych
        podmiotów. Są to podmioty nie działające dla zysku, tylko całe
-       swoje zyski przeznaczające na ponowne reinwestowanie w podejmowan�
+       swoje zyski przeznaczające na ponowne reinwestowanie w podejmowan
        działalność oraz prowadzące działalność związaną ze wspieraniem
        biznesu lub kojarzeniem współpracy sektorów nauka-biznes.
      * Integracja cyfrowa
        Przeciwdziałanie wykluczeniu cyfrowemu.
      * Inteligentne specjalizacje
-       Dziedzina życia gospodarki lub nauki stanowiąca nową, rozwojow�
+       Dziedzina życia gospodarki lub nauki stanowiąca nową, rozwojow
        specjalizację gospodarczą, która opiera się na wykorzystaniu
        unikalnych zasobów naturalnych regionów, połączeniu różnych branż,
        zastosowaniu innowacyjnych rozwiązań technologicznych. Inteligentne
@@ -883,7 +883,7 @@ K
        podziale odpowiedzialności między Komisją Europejską a
        administracjami krajów członkowskich. Krajowe kontrole przeprowadza
        się na dwóch szczeblach: instytucji zarządzającej programem i
-       instytucji audytowej. Władze zarządzające programami maj�
+       instytucji audytowej. Władze zarządzające programami maj
        drobiazgowo kontrolować dokumenty takie jak: listy faktur, rachunki
        czy raporty o postępie realizacji projektu albo raporty końcowe.
        Przeprowadzają też wyrywkowe kontrole na miejscu, sprawdzając
@@ -899,7 +899,7 @@ K
        oraz upodobnienie struktur społeczno-gospodarczych.
      * Korekta finansowa
        Kwota, o jaką pomniejsza się współfinansowanie UE dla projektu lub
-       programu operacyjnego w związku z nieprawidłowością indywidualn�
+       programu operacyjnego w związku z nieprawidłowością indywidualn
        lub systemową.
      * Koszty kwalifikowalne
        Koszty, których poniesienie jest merytorycznie uzasadnione i które
@@ -927,7 +927,7 @@ K
        Europejskich w latach 2007-2013. W latach 2014-2020 zostanie
        zastąpiony przez system SL.
      * Kryteria wyboru projektów
-       Zestaw określonych wymogów formalnych i merytorycznych, które musz�
+       Zestaw określonych wymogów formalnych i merytorycznych, które musz
        spełnić projekty, aby uzyskać dofinansowanie z publicznych środków
        wspólnotowych. Są zawarte w uszczegółowieniu programu lub odrębnym
        dokumencie. W przypadku Funduszy Europejskich kryteria wyboru
@@ -1156,7 +1156,7 @@ P
        naukowe w rozumieniu art. 2 pkt 9 ustawy z dnia 8 października 2004
        r. o zasadach finansowania nauki (Dz. U. Nr 238, poz. 2390 i Nr
        273, poz. 2703 oraz z 2005 r. Nr 85, poz. 727 i Nr 179, poz. 1484);
-       Partnerzy społeczno-gospodarczy są stroną dialogu ze stron�
+       Partnerzy społeczno-gospodarczy są stroną dialogu ze stron
        rządową.
      * PIAP
        Publiczny punkt dostępu do Internetu - ma przeciwdziałać
@@ -1196,7 +1196,7 @@ P
        odniesieniu do przedsiębiorstwa społecznego jest definicja
        europejskiej sieci badawczej EMES (European Research Network).
        Według niej za przedsiębiorstwo społeczne uznaje się działalność o
-       głównie społecznych celach, której zyski w założeniu s�
+       głównie społecznych celach, której zyski w założeniu s
        reinwestowane w jej cele lub we wspólnotę, a nie w celu
        maksymalizacji zysku lub zwiększenia dochodu udziałowców czy też
        właścicieli. EMES określa kryteria społeczne i kryteria
@@ -1300,7 +1300,7 @@ P
      * Poświadczenie zamknięcia (zakończenia) pomocy
        Dokument sporządzany przez niezależną jednostkę w ramach instytucji
        płatniczej zawierający podsumowanie wniosków pokontrolnych z
-       poprzednich lat, jak również ocenę rzetelności wniosku o końcow�
+       poprzednich lat, jak również ocenę rzetelności wniosku o końcow
        płatność oraz legalności i prawidłowości transakcji dokonanych w
        okresie objętym pomocą.
      * Prace rozwojowe
@@ -1399,7 +1399,7 @@ P
        edukacyjne.
      * Projekt (zadanie)
        Przedsięwzięcie realizowane w ramach działania, będące przedmiotem
-       umowy o dofinansowanie projektu między beneficjentem a instytucj�
+       umowy o dofinansowanie projektu między beneficjentem a instytucj
        zarządzającą, instytucją wdrażającą albo działającą w imieniu
        instytucji zarządzającej instytucją pośredniczącą. Najmniejsza
        dająca się wyodrębnić jednostka stanowiąca przedmiot pomocy.
@@ -1449,7 +1449,7 @@ R
        narodowe państw członkowskich UE. Działalność Rady Europejskiej
        polega na regularnych spotkaniach szefów rządów (a w przypadku
        Francji – głowy państwa) państw członkowskich. Natomiast Radę Unii
-       Europejskiej (dawniej Rada Ministrów Unii Europejskiej) tworz�
+       Europejskiej (dawniej Rada Ministrów Unii Europejskiej) tworz
        szefowie poszczególnych resortów (w zależności od zagadnienia)
        państw członkowskich Unii Europejskiej. Rada UE jest najważniejszym
        organem decyzyjnym Unii Europejskiej.
@@ -1517,7 +1517,7 @@ R
        atrybutami.
      * Regionalny system osadniczy
        Sieć ośrodków osadniczych powiązanych wzajemnie, integrujących się
-       z największym miastem - stolicą regionu, umożliwiających racjonaln�
+       z największym miastem - stolicą regionu, umożliwiających racjonaln
        obsługę obywateli, tworzących wyraźnie wyodrębniony w strukturze
        przestrzennej kraju obszar funkcjonalno-społeczno-gospodarczy.
      * Rewitalizacja
@@ -1527,7 +1527,7 @@ R
        terytorialnej i ochrony środowiska naturalnego – na zróżnicowanych
        obszarach, takich jak: zdegradowane dzielnice miast lub obszary
        poprzemysłowe i powojskowe. Ich celem jest odnowienie bądź
-       ożywienie zdegradowanych obszarów miast, które utraciły swoj�
+       ożywienie zdegradowanych obszarów miast, które utraciły swoj
        pierwotną funkcję.
      * Rezerwa wykonania
        Środki w wysokości 6 proc. ogólnej sumy przyznanej danemu krajowi
@@ -1637,8 +1637,8 @@ S
        laboratorium badawczego, szkoły wyższej), wykorzystując w tym celu
        intelektualne oraz materialne zasoby organizacji macierzystej.
        Firmy spin-out, w przeciwieństwie do firm spin-off, są kapitałowo
-       lub operacyjnie powiązane z organizacją macierzystą. Tworzone s�
-       często w ramach →venture management. Powiązania operacyjne mog�
+       lub operacyjnie powiązane z organizacją macierzystą. Tworzone s
+       często w ramach →venture management. Powiązania operacyjne mog
        obejmować m.in. obsługę prawną, w zakresie rachunkowości, jak
        również w zakresie marketingu i korzystania z kanałów dystrybucji
        instytucji macierzystej. Tworzenie tego rodzaju przedsiębiorstw w
@@ -1791,7 +1791,7 @@ T
        informacyjno-komunikacyjne, nazywane też technologiami
        informacyjnymi (IT), są technologiami związanymi ze zbieraniem,
        przechowywaniem, przetwarzaniem, przesyłaniem, rozdzielaniem i
-       prezentacją informacji (tj. tekstów, obrazów, dźwięku). Obejmuj�
+       prezentacją informacji (tj. tekstów, obrazów, dźwięku). Obejmuj
        one w szczególności technologie komputerowe (sprzęt i
        oprogramowanie) i technologie komunikacyjne. Technologie
        informacyjne to także dziedzina wiedzy obejmująca: informatykę,
@@ -1876,7 +1876,7 @@ U
        Sprawiedliwości, Trybunał Obrachunkowy. Symbolem Unii Europejskiej
        jest flaga składająca się z kręgu 12 złotych gwiazd na niebieskim
        tle, natomiast hymnem jest „Oda do Radości”. Unia Europejska
-       dysponuje własnym budżetem. Z budżetu Unii Europejskiej pochodz�
+       dysponuje własnym budżetem. Z budżetu Unii Europejskiej pochodz
        Fundusze Europejskie.
      * Ustawa wdrożeniowa
        Ustawa określająca mechanizmy koordynacji realizacji programów
@@ -1884,7 +1884,7 @@ U
        Spójności. Definiuje zasady wdrażania środków polityki spójności,
        podstawowe dokumenty temu służące oraz podmioty zaangażowane w ten
        proces. Określa także zadania i tryb współpracy między nimi.
-       Dokument reguluje kwestie związane z rozliczeniami z Komisj�
+       Dokument reguluje kwestie związane z rozliczeniami z Komisj
        Europejską i monitorowaniem efektów dotowanych z UE przedsięwzięć
        oraz te dotyczące kontroli, audytu, nieprawidłowości i korekt
        finansowych. Porządkuje zagadnienia dotyczące pomocy publicznej,
@@ -1972,7 +1972,7 @@ W
      * Wskaźniki wpływu, oddziaływania
        Wskaźniki odnoszące się do konsekwencji danego projektu
        wykraczających poza natychmiastowe efekty dla bezpośrednich
-       beneficjentów (np. wpływ projektu na sytuację społeczno-gospodarcz�
+       beneficjentów (np. wpływ projektu na sytuację społeczno-gospodarcz
        w pewnym okresie od zakończenia jego realizacji).
      * Wsparcie towarzyszące
        Działania o charakterze dodatkowym wobec głównych działań w
@@ -2019,7 +2019,7 @@ Z
      * Zamówienia publiczne
        Umowy odpłatne zawierane między zamawiającym (jednostką sektora
        finansów publicznych w rozumieniu przepisów o finansach
-       publicznych, osobą prawną, inną państwową jednostką organizacyjn�
+       publicznych, osobą prawną, inną państwową jednostką organizacyjn
        nieposiadającą osobowości prawnej) a wykonawcą, których przedmiotem
        są usługi, dostawy lub roboty budowlane.
      * Zasada dodatkowości
@@ -2044,7 +2044,7 @@ Z
        Analogicznie, jeżeli projekt ma charakter miękki (czyli dotyczy
        szkoleń, doradztwa, podnoszenia kompetencji, wprowadzania nowych
        rozwiązań organizacyjnych, itp.) można uzupełnić projekt o pewne
-       wydatki materialne (jak np. urządzenia), ale tylko te, które s�
+       wydatki materialne (jak np. urządzenia), ale tylko te, które s
        potrzebne do realizacji i powodzenia projektu. Niemniej jednak
        możliwość ta dotyczy maksymalnie do 10 proc. wydatków objętych
        dofinansowaniem – w szczególnych przypadkach pułap ten może być
@@ -2085,7 +2085,7 @@ Z
        niezbędne do sprawnego i efektywnego osiągania zamierzonych celów.
      * Zasada zgodności/spójności
        Reguluje działanie funduszy strukturalnych, odnosi się do
-       istniejących związków pomiędzy polityką regionalną a polityk�
+       istniejących związków pomiędzy polityką regionalną a polityk
        makroekonomiczną prowadzoną przez poszczególne państwa
        członkowskie. Zgodnie z postanowieniami Jednolitego Aktu
        Europejskiego w celu zwiększenia zbieżności koniunktur
@@ -2104,7 +2104,7 @@ Z
        decyzji, dla tematycznie wybranych kręgów odbiorców.
      * Zintegrowane Inwestycje Terytorialne (ZIT)
        ZIT to narzędzie, które po raz pierwszy pojawiło się w
-       przedstawionych przez Komisję Europejską aktach prawnych na now�
+       przedstawionych przez Komisję Europejską aktach prawnych na now
        perspektywę. Przy pomocy tego instrumentu, partnerstwa jednostek
        samorządu terytorialnego miast i obszarów powiązanych z nimi
        funkcjonalnie (miasto i samorządy znajdujące się w jego
@@ -2150,7 +2150,7 @@ Klauzula informacyjna
    Polityki Regionalnej".
    Aby wysłać formularz, wpisz wynik
    działania matematycznego
-   4+4=
+   7+4=
    ____________________
    Proszę wpisać wynik działania matematycznego!
    [BUTTON Input] (not implemented)_______

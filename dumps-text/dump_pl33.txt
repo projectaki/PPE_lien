@@ -67,7 +67,7 @@ Sprzedaż
           + Marketing i reklama
 
 Działalność, uwarunkowania, formy
-          + Mikro firma za granic�
+          + Mikro firma za granic
           + Dystrybucja towarów, spedycja i transport
           + Konkurencja
           + Jakość, certyfikacja, normy
@@ -153,7 +153,7 @@ Związek zawodowy
      * bezrobotni;
      * emeryci i renciści;
      * pracownicy wykonujący pracę nakładczą;
-     * osoby pracujące na podstawie umowy agencyjnej (gdy sami nie s�
+     * osoby pracujące na podstawie umowy agencyjnej (gdy sami nie s
        pracodawcami);
      * wolontariusze, stażyści i inne osoby, które świadczą osobiście
        pracę bez wynagrodzenia - na warunkach określonych statutami
@@ -215,7 +215,7 @@ Związek zawodowy
    Zakładowa Organizacja Związkowa jest uprawniona do:
      * zajmowania stanowiska w indywidualnych sprawach pracowniczych
        w zakresie unormowanym w przepisach prawa pracy oraz
-       w indywidualnych sprawach osób wykonujących pracę zarobkow�
+       w indywidualnych sprawach osób wykonujących pracę zarobkow
        w zakresie związanym z wykonywaniem tej pracy;
      * zajmowania stanowiska wobec pracodawcy lub organu samorządu załogi
        w sprawach dotyczących zbiorowych interesów i praw osób
@@ -432,7 +432,7 @@ Informacja nt. Cookies
    z naszego Serwisu oraz sposób gromadzenia, wykorzystania
    i udostępnienia danych osobowych. Korzystając z Serwisu zgadzasz się
    z Regulaminem, Polityką Prywatności i Polityką Cookies.
-   Nasza strona używa plików Cookies. Korzystając z niej akceptujesz nasz�
+   Nasza strona używa plików Cookies. Korzystając z niej akceptujesz nasz
    Politykę Cookies i wyrażasz zgodę na używanie plików Cookies według
    aktualnych ustawień swojej przeglądarki. Poznaj szczegóły i możliwości
    ustawień plików Cookies.
@@ -516,7 +516,7 @@ Informacja nt. Cookies
    Okres przez jaki dane będą przetwarzane
 
    Po zakończeniu korzystania przez Ciebie z naszych Usług, nie będziemy
-   przetwarzać Twoich danych osobowych, za wyjątkiem tych danych, które s�
+   przetwarzać Twoich danych osobowych, za wyjątkiem tych danych, które s
    dopuszczone do przetwarzania na podstawie przepisów prawa lub umowy lub
    niezbędne do wyjaśnienia okoliczności niedozwolonego korzystania
    z Usług. Dane osobowe niezbędne do wykonania Umowy będziemy przetwarzać
@@ -552,7 +552,7 @@ Informacja nt. Cookies
 
    Informacja na temat Cookies
 
-   Nasza strona używa plików Cookies. Korzystając z niej akceptujesz nasz�
+   Nasza strona używa plików Cookies. Korzystając z niej akceptujesz nasz
    Politykę Cookies i wyrażasz zgodę na używanie plików Cookies według
    aktualnych ustawień swojej przeglądarki. Poznaj szczegóły i możliwości
    ustawień w plików Cookies.
@@ -573,7 +573,7 @@ Załóż konto, by w pełni korzystać z bezpłatnego wsparcia w prowadzeniu fir
      * Zarejestruj się używając konta Google
      * Zarejestruj się używając konta Facebook
 
-   Już 84977 zarejestrowanych użytkowników
+   Już 84978 zarejestrowanych użytkowników
 
 Zaloguj
 
@@ -664,7 +664,7 @@ Rejestracja
        mogę odwołać w każdym czasie aktywując link znajdujący się w stopce
        każdego emaila zawierającego Newsletter. Moja dobrowolna rezygnacja
        z subskrypcji bezpłatnego Newslettera przesyłanego do mnie jako
-       Usługobiorcy zarejestrowanego będzie równoznaczna z likwidacj�
+       Usługobiorcy zarejestrowanego będzie równoznaczna z likwidacj
        mojego konta w Serwisie mikroPorady.pl Pokaż więce[ ]_]
 
      * (BUTTON) Zarejestruj się
